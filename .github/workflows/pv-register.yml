@@ -1,0 +1,46 @@
+name: PV-Beschlussregister
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      seit:
+        description: "Nur Vorlagen ab Datum (YYYY-MM-DD)"
+        required: false
+        default: "2022-01-01"
+
+jobs:
+  sammeln:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: .cache_pv
+          key: pv-cache-${{ github.run_id }}
+          restore-keys: pv-cache-
+      - name: Beschlüsse sammeln
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PV_KONTAKT: ${{ vars.PV_KONTAKT }}
+          SEIT: ${{ github.event.inputs.seit || '2022-01-01' }}
+        run: |
+          LLM=""
+          if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
+          python pv_beschluesse.py --quellen quellen_brandenburg.csv --seit "$SEIT" --out PV_Beschluesse_Brandenburg.xlsx --json rohdaten.json $LLM
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: PV_Beschluesse_Brandenburg_${{ github.run_number }}
+          path: |
+            PV_Beschluesse_Brandenburg.xlsx
+            rohdaten.json
+          if-no-files-found: warn
+          retention-days: 90
