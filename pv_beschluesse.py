@@ -79,7 +79,7 @@ FLAECHE_RE = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:ha\b|hektar)", re.I)
 LEISTUNG_RE = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(MWp|MW\b|Megawatt)", re.I)
 PLANNR_RE = re.compile(r"(?:Nr\.|Nummer)\s*([0-9]{1,4}[a-zA-Z/\-0-9]*)")
 PLANNAME_RE = re.compile(r"[„\"“]([^“”\"]{4,120})[“”\"]")
-GEMEINDE_RE = re.compile(r"\b(?:der |die )?(Gemeinde|Stadt|Ortsgemeinde)\s+([A-ZÄÖÜ][\wäöüß\-]+(?:\s(?:an der|am|im|bei)\s[A-ZÄÖÜ][\wäöüß\-]+|\s\([^)]+\))?)")
+GEMEINDE_RE = re.compile(r"\b(?:der |die )?(Gemeinde|Stadt|Ortsgemeinde|Gemeindevertretung|Stadtverordnetenversammlung)\s+([A-ZÄÖÜ][\wäöüß\-]+(?:\s(?:an der|am|im|bei)\s[A-ZÄÖÜ][\wäöüß\-]+|\s\([^)]+\))?)")
 DATUM_RE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b")
 
 
@@ -114,6 +114,7 @@ class Beschluss:
     dokument_link: str = ""
     extraktion: str = "heuristik"   # heuristik | gemini
     projekt_id: str = ""
+    bundesland: str = "Brandenburg"
 
 
 # --------------------------------------------------------------------------- #
@@ -128,6 +129,14 @@ class Http:
         self.robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
         self.cache_dir = cache_dir
         os.makedirs(cache_dir, exist_ok=True)
+        self.diag: dict[str, int] = {}
+
+    def zaehle(self, art: str) -> None:
+        self.diag[art] = self.diag.get(art, 0) + 1
+
+    def diag_reset(self) -> dict[str, int]:
+        d, self.diag = self.diag, {}
+        return d
 
     def _erlaubt(self, url: str) -> bool:
         p = urlparse(url)
@@ -148,6 +157,7 @@ class Http:
 
     def get(self, url: str, binary: bool = False, cache: bool = True, **kw):
         if not self._erlaubt(url):
+            self.zaehle("robots.txt verbietet")
             raise PermissionError(f"robots.txt verbietet: {url}")
         key = hashlib.sha1((url + json.dumps(kw.get("params", {}), sort_keys=True)).encode()).hexdigest()
         path = os.path.join(self.cache_dir, key)
@@ -159,9 +169,16 @@ class Http:
         wait = self.pause - (time.time() - self.last.get(host, 0))
         if wait > 0:
             time.sleep(wait)
-        r = self.s.get(url, timeout=30, **kw)
+        try:
+            r = self.s.get(url, timeout=30, **kw)
+        except requests.RequestException:
+            self.zaehle("Verbindungsfehler")
+            raise
         self.last[host] = time.time()
+        if r.status_code >= 400:
+            self.zaehle(f"HTTP {r.status_code}")
         r.raise_for_status()
+        self.zaehle("Seiten geladen")
         if cache:
             with open(path, "wb") as f:
                 f.write(r.content)
@@ -322,6 +339,130 @@ def html_vorlagen(http: Http, q: Quelle, seit: str | None, max_seiten: int = 30)
                 queue.append(absu)
 
 
+# --------------------------------------------------------------------------- #
+# Adapter 3: SessionNet (Somacos) – läuft über die Sitzungen
+# --------------------------------------------------------------------------- #
+# SessionNet 5.x hat oft keine öffentliche Vorlagenliste. Sitzungen haben aber
+# fortlaufende Nummern (si0057.php?__ksinr=N) über alle Gemeinden des Amtes.
+# Wir starten bei der höchsten bekannten Nummer und gehen rückwärts, bis die
+# Sitzungen älter als --seit sind.
+SI_ID_RE = re.compile(r"(?:__ksinr=|rssgo\.php\?si)(\d+)")
+TOP_LINK_RE = re.compile(r"(to0050\.(?:php|asp)\?__ktonr=\d+|vo0050\.(?:php|asp)\?__kvonr=\d+)", re.I)
+
+
+def _basis(url: str) -> str:
+    p = urlparse(url)
+    pfad = p.path.rsplit("/", 1)[0] + "/" if not p.path.endswith("/") else p.path
+    return f"{p.scheme}://{p.netloc}{pfad}"
+
+
+def ist_sessionnet(http: Http, basis: str) -> bool:
+    for pfad in ("info.php", "info.asp", "gr0040.php", "gr0040.asp", ""):
+        try:
+            if "sessionnet" in http.get(urljoin(basis, pfad), cache=False).lower():
+                return True
+        except Exception:  # noqa: BLE001
+            continue
+    return False
+
+
+def sessionnet_endung(http: Http, basis: str) -> str:
+    """SessionNet gibt es als PHP- und als ASP-Variante."""
+    for ext in ("php", "asp"):
+        try:
+            if "sessionnet" in http.get(urljoin(basis, f"info.{ext}"), cache=False).lower():
+                return ext
+        except Exception:  # noqa: BLE001
+            continue
+    return "php"
+
+
+def sessionnet_hoechste_id(http: Http, basis: str, ext: str = "php") -> int:
+    ids = []
+    for pfad in (f"rssfeed.{ext}", f"si0040.{ext}", f"gr0040.{ext}", f"info.{ext}"):
+        try:
+            ids += [int(x) for x in SI_ID_RE.findall(http.get(urljoin(basis, pfad), cache=False))]
+        except Exception:  # noqa: BLE001
+            continue
+    return max(ids) if ids else 0
+
+
+def sitzungsdatum(text: str) -> str:
+    m = re.search(r"(?:Datum|Sitzung am|vom)\s*:?\s*\w*,?\s*(\d{1,2}\.\d{1,2}\.\d{4})", text)
+    return erstes_datum(m.group(1)) if m else erstes_datum(text)
+
+
+def sessionnet_vorlagen(http: Http, q: Quelle, seit: str | None,
+                        max_sitzungen: int = 2500, stop_nach_alt: int = 60):
+    basis = _basis(q.url)
+    ext = sessionnet_endung(http, basis)
+    start = sessionnet_hoechste_id(http, basis, ext)
+    if not start:
+        raise RuntimeError("keine Sitzungsnummern gefunden (RSS/Kalender nicht erreichbar)")
+    print(f"   SessionNet: starte bei Sitzung {start}, gehe rückwärts")
+    alt_in_folge, gesehen = 0, set()
+    for ksinr in range(start + 20, max(start + 20 - max_sitzungen, 0), -1):
+        url = urljoin(basis, f"si0057.{ext}?__ksinr={ksinr}")
+        try:
+            html = http.get(url, cache=False)
+        except PermissionError:
+            raise
+        except Exception:  # noqa: BLE001
+            continue
+        if "fehlermeldung" in html.lower()[:3000]:
+            http.zaehle("Sitzung nicht vorhanden")
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        seite = soup.get_text(" ", strip=True)
+        datum = sitzungsdatum(seite)
+        if seit and datum and datum < seit:
+            alt_in_folge += 1
+            if alt_in_folge >= stop_nach_alt:
+                print(f"   SessionNet: {stop_nach_alt} Sitzungen in Folge vor {seit}, stoppe bei {ksinr}")
+                return
+            continue
+        alt_in_folge = 0
+        http.zaehle("Sitzungen geprüft")
+        titel_el = soup.find("h1") or soup.find("title")
+        gremium = titel_el.get_text(" ", strip=True) if titel_el else ""
+        for a in soup.find_all("a", href=True):
+            if not TOP_LINK_RE.search(a["href"]):
+                continue
+            zeile = a.find_parent("tr") or a.find_parent("li") or a.find_parent("div")
+            kontext = (zeile.get_text(" ", strip=True) if zeile else a.get_text(" ", strip=True))[:400]
+            if not PV_RE.search(kontext):
+                continue
+            ziel = urljoin(url, a["href"])
+            if ziel in gesehen:
+                continue
+            gesehen.add(ziel)
+            http.zaehle("PV-Tagesordnungspunkte")
+            try:
+                detail_html = http.get(ziel)
+            except Exception:  # noqa: BLE001
+                continue
+            dsoup = BeautifulSoup(detail_html, "html.parser")
+            # vom TOP zur Vorlage springen, wenn verlinkt
+            vo = dsoup.find("a", href=re.compile(r"vo0050\.(?:php|asp)\?__kvonr=\d+"))
+            if vo and "to0050" in ziel:
+                vo_url = urljoin(ziel, vo["href"])
+                if vo_url not in gesehen:
+                    gesehen.add(vo_url)
+                    try:
+                        detail_html += "\n" + http.get(vo_url)
+                        ziel = vo_url
+                        dsoup = BeautifulSoup(detail_html, "html.parser")
+                    except Exception:  # noqa: BLE001
+                        pass
+            pdfs = [urljoin(ziel, x["href"]) for x in dsoup.find_all("a", href=True)
+                    if re.search(r"\.pdf|getfile", x["href"], re.I)][:2]
+            anhang = "\n".join(dokument_text(http, u)[:15000] for u in pdfs)
+            yield {"titel": kontext[:300], "datum": datum,
+                   "text": f"{gremium}\n{kontext}\n{html_text(detail_html)}\n{anhang}",
+                   "link": ziel, "dokument_link": pdfs[0] if pdfs else "",
+                   "body_name": gremium or q.name}
+
+
 def erstes_datum(text: str) -> str:
     for m in DATUM_RE.finditer(text):
         d, mo, y = map(int, m.groups())
@@ -389,6 +530,7 @@ def extrahiere_heuristisch(roh: dict, q: Quelle) -> Beschluss:
         flaeche_ha=_zahl(fl.group(1)) if fl else None,
         leistung_mw=_zahl(lw.group(1)) if lw else None,
         entwickler=entw, link=roh["link"], dokument_link=roh.get("dokument_link", ""),
+        bundesland=q.bundesland or "Brandenburg",
     )
 
 
@@ -463,7 +605,7 @@ def ordne_projekte_zu(beschluesse: list[Beschluss], schwelle: float = 0.82) -> N
                 treffer = pid
                 break
         if not treffer:
-            treffer = f"BB-{len(projekte) + 1:04d}"
+            treffer = f"PV-{len(projekte) + 1:04d}"
             projekte.append((treffer, g, nr, nm))
         b.projekt_id = treffer
 
@@ -548,7 +690,7 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
         status = status_fuer(ev, heute)
         historie = "\n".join(f"{e.datum or 'o. D.'}: {e.beschlusstyp}{' (negativ)' if e.negativ else ''}" for e in ev)
         links = "\n".join(dict.fromkeys(x for e in ev for x in (e.link, e.dokument_link) if x))
-        wsp.append([pid, ev[0].gemeinde, ev[0].landkreis, "Brandenburg",
+        wsp.append([pid, ev[0].gemeinde, ev[0].landkreis, ev[0].bundesland,
                     erstes(e.planname for e in neu), erstes(e.plannr for e in neu),
                     erstes(e.konzept for e in neu), erstes(e.flaeche_ha for e in neu),
                     erstes(e.leistung_mw for e in neu), erstes(e.entwickler for e in neu),
@@ -621,12 +763,23 @@ def main(argv=None) -> int:
         print(f"→ {q.name} ({q.typ})")
         try:
             typ, url = q.typ.lower(), q.url
+            http.diag_reset()
             if typ == "auto":
                 gefunden = oparl_entdecken(http, url)
-                typ, url = ("oparl", gefunden) if gefunden else ("html", url)
+                if gefunden:
+                    typ, url = "oparl", gefunden
+                elif ist_sessionnet(http, _basis(url)):
+                    typ = "sessionnet"
+                else:
+                    typ = "html"
                 print(f"   erkannt: {typ} {url if gefunden else ''}")
             qq = Quelle(q.name, q.landkreis, typ, url, q.bundesland)
-            roh_iter = oparl_vorlagen(http, qq, a.seit) if typ == "oparl" else html_vorlagen(http, qq, a.seit)
+            if typ == "oparl":
+                roh_iter = oparl_vorlagen(http, qq, a.seit)
+            elif typ == "sessionnet":
+                roh_iter = sessionnet_vorlagen(http, qq, a.seit)
+            else:
+                roh_iter = html_vorlagen(http, qq, a.seit)
             n = 0
             for roh in roh_iter:
                 b = extrahiere_heuristisch(roh, qq)
@@ -639,10 +792,16 @@ def main(argv=None) -> int:
                 alle.append(b)
                 n += 1
                 print(f"   + {b.datum or 'o. D.'} | {b.gemeinde} | {b.beschlusstyp} | {b.titel[:70]}")
-            protokoll.append((q.name, f"ok ({typ})", n))
+            d = http.diag_reset()
+            info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
+            print(f"   = {n} Treffer | {info or 'keine Abrufe'}")
+            hinweis = " – robots.txt verbietet Zugriff, Betreiber um Erlaubnis fragen" if d.get("robots.txt verbietet") and not d.get("Seiten geladen") else ""
+            protokoll.append((q.name, f"ok ({typ}) | {info}{hinweis}"[:300], n))
         except Exception as e:  # noqa: BLE001
-            print(f"   ! Fehler: {e}", file=sys.stderr)
-            protokoll.append((q.name, f"Fehler: {e}"[:200], 0))
+            d = http.diag_reset()
+            info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
+            print(f"   ! Fehler: {e} | {info}")
+            protokoll.append((q.name, f"Fehler: {e} | {info}"[:300], 0))
 
     ordne_projekte_zu(alle)
     schreibe_excel(alle, quellen, a.out, protokoll)

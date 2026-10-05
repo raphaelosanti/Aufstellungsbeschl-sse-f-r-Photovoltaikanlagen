@@ -19,7 +19,7 @@ Neue Ämter als Zeile in `quellen_brandenburg.csv` eintragen (direkt auf GitHub 
 |---|---|
 | name | Amt, Gemeinde oder Stadt (Träger des RIS) |
 | landkreis | für Auswertungen nach Kreis |
-| typ | `auto` (empfohlen), `oparl` (OParl-System-URL) oder `html` (URL der Vorlagenübersicht, z. B. `.../vo0040.php`) |
+| typ | `auto` (empfohlen), `oparl` (OParl-System-URL), `sessionnet` (Somacos SessionNet, geht die Sitzungen durch) oder `html` (URL der Vorlagenübersicht) |
 | url | Adresse des Ratsinformationssystems |
 
 In Brandenburg stehen Gemeindebeschlüsse meist im RIS des **Amtes**, nicht des Landkreises. Liefert eine Quelle 0 Treffer, zeigt der Tab *Quellen* in der Excel den Grund.

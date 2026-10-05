@@ -1,5 +1,8 @@
-name,landkreis,typ,url
-Amt Barnim-Oderbruch,Märkisch-Oderland,auto,https://buergerinfo.barnim-oderbruch.de/
-Landkreis Märkisch-Oderland (Kreistag),Märkisch-Oderland,oparl,https://ratsinfo-online.net/landkreis-mol-bi/oparl/1.0/system.asp
-Amt Neuzelle,Oder-Spree,auto,https://ratsinfo-online.net/neuzelle-bi/
-Stadt Hohen Neuendorf,Oberhavel,auto,https://ratsinfo-online.net/hohenneuendorf-bi/
+name,landkreis,typ,url,bundesland
+Amt Barnim-Oderbruch,Märkisch-Oderland,sessionnet,https://buergerinfo.barnim-oderbruch.de/,Brandenburg
+Amt Lebus,Märkisch-Oderland,sessionnet,https://sessionnet.amt-lebus.de/bi/,Brandenburg
+Gemeinde Rietz-Neuendorf,Oder-Spree,sessionnet,https://sitzung.rietz-neuendorf.de/buergerinfo/,Brandenburg
+Stadt Fürstenwalde/Spree,Oder-Spree,sessionnet,https://binfo.fuerstenwalde-spree.de/,Brandenburg
+# Landkreis Märkisch-Oderland (Kreistag) – ratsinfo-online.net verbietet Bots per robots.txt,Märkisch-Oderland,oparl,https://ratsinfo-online.net/landkreis-mol-bi/oparl/1.0/system.asp,Brandenburg
+# Amt Neuzelle – ratsinfo-online.net verbietet Bots per robots.txt,Oder-Spree,auto,https://ratsinfo-online.net/neuzelle-bi/,Brandenburg
+# Stadt Hohen Neuendorf – ratsinfo-online.net verbietet Bots per robots.txt,Oberhavel,auto,https://ratsinfo-online.net/hohenneuendorf-bi/,Brandenburg
