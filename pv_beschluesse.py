@@ -4,12 +4,19 @@ PV-Beschlussregister (MVP, Pilot Brandenburg)
 =============================================
 
 Sammelt Beschlüsse zu Photovoltaik-Bebauungsplänen aus Ratsinformationssystemen
-(OParl-API oder RIS-HTML), extrahiert Projektdaten (heuristisch oder per Gemini)
-und schreibt eine Excel-Datei mit den Tabellen "Projekte" und "Beschluesse".
+(OParl-API oder RIS-HTML), extrahiert Projektdaten (heuristisch oder per Gemini),
+ergänzt Koordinaten (Längen-/Breitengrad) und schreibt eine Excel-Datei mit den
+Tabellen "Projekte" und "Beschluesse".
 
 Aufruf:
     python pv_beschluesse.py --quellen quellen_brandenburg.csv --seit 2023-01-01
     python pv_beschluesse.py --quellen quellen_brandenburg.csv --llm gemini   # GEMINI_API_KEY setzen
+    python pv_beschluesse.py --kein-geocode                                    # ohne Koordinaten
+
+Koordinaten: Es wird je Projekt einmal über OpenStreetMap/Nominatim gesucht
+(Ortsteil/Gemarkung, sonst Gemeinde). Ergebnisse stehen im Cache (.cache_pv/geocache.json),
+Wiederholungsläufe sind also schnell. PV_KONTAKT (E-Mail) bitte setzen, die
+Nominatim-Nutzungsregeln verlangen einen identifizierbaren User-Agent.
 
 Abhängigkeiten: pip install requests beautifulsoup4 openpyxl pypdf
 """
@@ -28,16 +35,24 @@ import time
 import urllib.robotparser
 from dataclasses import dataclass, field, asdict
 from difflib import SequenceMatcher
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, quote
 
 import requests
 from bs4 import BeautifulSoup
 
 USER_AGENT = ("PV-Beschlussregister-MVP/0.1 (Marktbeobachtung; Kontakt: "
-              + os.environ.get("PV_KONTAKT", "bitte eintragen") + ")")
+              + os.environ.get("PV_KONTAKT", "r.hengl@blindleister.de") + ")")
 REQUEST_PAUSE_S = 1.0          # Höflichkeitspause zwischen Requests pro Host
 CACHE_DIR = ".cache_pv"
 RUHEND_NACH_MONATEN = 18       # kein neuer Beschluss seit X Monaten -> "Ruhend"
+
+# Geocoding (OpenStreetMap Nominatim): max. 1 Anfrage pro Sekunde, Ergebnisse cachen
+NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
+GEO_CACHE = os.path.join(CACHE_DIR, "geocache.json")
+GEO_PAUSE_S = 1.1
+# Plausibilitätsprüfung: (lat_min, lat_max, lon_min, lon_max)
+BBOX = {"Brandenburg": (51.35, 53.60, 11.20, 14.80)}
+BBOX_DE = (47.2, 55.1, 5.8, 15.1)
 
 # --------------------------------------------------------------------------- #
 # Keywords
@@ -82,6 +97,12 @@ PLANNAME_RE = re.compile(r"[„\"“]([^“”\"]{4,120})[“”\"]")
 GEMEINDE_RE = re.compile(r"\b(?:der |die )?(Gemeinde|Stadt|Ortsgemeinde|Gemeindevertretung|Stadtverordnetenversammlung)\s+([A-ZÄÖÜ][\wäöüß\-]+(?:\s(?:an der|am|im|bei)\s[A-ZÄÖÜ][\wäöüß\-]+|\s\([^)]+\))?)")
 DATUM_RE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b")
 
+# Ortsteil/Gemarkung für genauere Koordinaten, z. B. "Gemarkung Schmarsow", "OT Gaarz"
+ORTSTEIL_RE = re.compile(
+    r"(?:Gemarkung|Ortsteil|OT)\s+((?:[A-ZÄÖÜ][\wäöüß\-]+)(?:\s[A-ZÄÖÜ][\wäöüß\-]+)?)")
+_ORTSTEIL_STOP = {"Flur", "Flurstück", "Flurstücke", "Flurstuecke", "Gemeinde", "Stadt", "Amt",
+                  "Der", "Die", "Das", "Im", "In", "Und", "Gemarkung", "Ortsteil"}
+
 
 # --------------------------------------------------------------------------- #
 # Datenmodell
@@ -115,6 +136,10 @@ class Beschluss:
     extraktion: str = "heuristik"   # heuristik | gemini
     projekt_id: str = ""
     bundesland: str = "Brandenburg"
+    ortsteil: str = ""              # Ortsteil/Gemarkung aus dem Text (für Geocoding)
+    lat: float | None = None        # Breitengrad (WGS84)
+    lon: float | None = None        # Längengrad (WGS84)
+    geo_genauigkeit: str = ""       # "Ortsteil/Gemarkung" | "Gemeinde" | ""
 
 
 # --------------------------------------------------------------------------- #
@@ -489,6 +514,20 @@ def _firma_bereinigen(f: str) -> str:
     return _FIRMA_PRAEFIX.sub("", f.strip(" ,.:;"))
 
 
+def ortsteil_aus_text(text: str) -> str:
+    """Erster plausibler Ortsteil/Gemarkungsname ("Gemarkung Schmarsow" -> "Schmarsow")."""
+    for m in ORTSTEIL_RE.finditer(text):
+        # Stopwort in der Mitte beendet den Namen ("Schmarsow Flur" -> "Schmarsow")
+        name = []
+        for t in m.group(1).split():
+            if t in _ORTSTEIL_STOP:
+                break
+            name.append(t)
+        if name:
+            return " ".join(name)
+    return ""
+
+
 def extrahiere_heuristisch(roh: dict, q: Quelle) -> Beschluss:
     text = roh["text"]
     t_low = text.lower()
@@ -519,6 +558,7 @@ def extrahiere_heuristisch(roh: dict, q: Quelle) -> Beschluss:
     pn = PLANNAME_RE.search(roh["titel"]) or PLANNAME_RE.search(text)
     nr = PLANNR_RE.search(roh["titel"]) or PLANNR_RE.search(text[:2000])
     gm = GEMEINDE_RE.search(roh["titel"]) or GEMEINDE_RE.search(text[:3000])
+    ortsteil = ortsteil_aus_text(roh["titel"]) or ortsteil_aus_text(text[:6000])
 
     return Beschluss(
         quelle=q.name, landkreis=q.landkreis,
@@ -531,18 +571,20 @@ def extrahiere_heuristisch(roh: dict, q: Quelle) -> Beschluss:
         leistung_mw=_zahl(lw.group(1)) if lw else None,
         entwickler=entw, link=roh["link"], dokument_link=roh.get("dokument_link", ""),
         bundesland=q.bundesland or "Brandenburg",
+        ortsteil=ortsteil,
     )
 
 
 GEMINI_PROMPT = """Du extrahierst Daten aus einer deutschen Ratsvorlage zu einem Photovoltaik-Bebauungsplan.
 Antworte NUR mit JSON nach diesem Schema (null wenn unbekannt, nichts erfinden):
 {"relevant": bool,  // false wenn es nicht um ein PV-Bauleitplanverfahren geht
- "gemeinde": str, "planname": str, "plannr": str,
+ "gemeinde": str, "ortsteil": str, "planname": str, "plannr": str,
  "beschlusstyp": one of ["Aufstellungsbeschluss","Frühzeitige Beteiligung","Entwurfs-/Auslegungsbeschluss","Abwägungsbeschluss","Satzungsbeschluss","Inkrafttreten/Bekanntmachung","Unklar"],
  "negativ": bool,   // abgelehnt, aufgehoben, Verfahren eingestellt
  "konzept": one of ["Freifläche","Agri-PV","Moor-PV","Floating-PV","Dach-PV",""],
  "flaeche_ha": number|null, "leistung_mw": number|null,
  "entwickler": str  // Vorhabenträger/Projektentwickler (Firma), sonst ""
+ // ortsteil: Ortsteil oder Gemarkung, in dem der Geltungsbereich liegt, sonst ""
 }
 TEXT:
 """
@@ -569,7 +611,7 @@ def extrahiere_gemini(roh: dict, q: Quelle, basis: Beschluss) -> Beschluss | Non
             time.sleep(3 * (versuch + 1))
     if j.get("relevant") is False:
         return None
-    for feld in ["gemeinde", "planname", "plannr", "beschlusstyp", "konzept", "entwickler"]:
+    for feld in ["gemeinde", "ortsteil", "planname", "plannr", "beschlusstyp", "konzept", "entwickler"]:
         if j.get(feld):
             setattr(basis, feld, str(j[feld]))
     for feld in ["flaeche_ha", "leistung_mw"]:
@@ -626,6 +668,115 @@ def status_fuer(events: list[Beschluss], heute: dt.date) -> str:
 
 
 # --------------------------------------------------------------------------- #
+# Koordinaten (OpenStreetMap Nominatim)
+# --------------------------------------------------------------------------- #
+def _gemeinde_fuer_suche(name: str) -> str:
+    """Bereinigt den extrahierten Gemeindenamen für die Suche. Leer, wenn er nach
+    Sitzungs-/Gremientext aussieht (dann lieber keine Koordinate als eine falsche)."""
+    n = re.sub(r"^(?:Gemeindevertretung|Stadtverordnetenversammlung|Gemeinde|Stadt|Ortsgemeinde)\s+", "", name.strip())
+    n = re.sub(r"\s+", " ", n)
+    if len(n) > 50 or re.search(r"sitzung|ausschuss|\d{2}\.\d{2}\.\d{4}", n, re.I):
+        return ""
+    return n
+
+
+class Geocoder:
+    """Sucht Koordinaten über Nominatim. Beachtet die Nutzungsregeln: max. 1 Anfrage
+    pro Sekunde, identifizierbarer User-Agent, Ergebnisse werden dauerhaft gecacht."""
+
+    def __init__(self, pfad: str = GEO_CACHE, pause: float = GEO_PAUSE_S):
+        self.pfad, self.pause, self.letzte = pfad, pause, 0.0
+        os.makedirs(os.path.dirname(pfad) or ".", exist_ok=True)
+        try:
+            with open(pfad, encoding="utf-8") as f:
+                self.cache: dict[str, list[float] | None] = json.load(f)
+        except (OSError, ValueError):
+            self.cache = {}
+        self.s = requests.Session()
+        self.s.headers["User-Agent"] = USER_AGENT
+        self.neu = 0
+
+    def speichern(self) -> None:
+        with open(self.pfad, "w", encoding="utf-8") as f:
+            json.dump(self.cache, f, ensure_ascii=False, indent=0)
+
+    def _suche(self, query: str, bbox: tuple[float, float, float, float]):
+        """Gibt (lat, lon) zurück oder None. Netzwerkfehler werden NICHT gecacht."""
+        if query in self.cache:
+            c = self.cache[query]
+            return tuple(c) if c else None
+        wait = self.pause - (time.time() - self.letzte)
+        if wait > 0:
+            time.sleep(wait)
+        for versuch in range(2):
+            try:
+                r = self.s.get(NOMINATIM_URL, timeout=20, params={
+                    "q": query, "format": "jsonv2", "limit": 1, "countrycodes": "de"})
+                self.letzte = time.time()
+                if r.status_code == 429:
+                    time.sleep(10 * (versuch + 1))
+                    continue
+                r.raise_for_status()
+                treffer = r.json()
+                break
+            except (requests.RequestException, ValueError):
+                self.letzte = time.time()
+                if versuch == 1:
+                    return None
+                time.sleep(5)
+        else:
+            return None
+        self.neu += 1
+        ergebnis = None
+        if treffer:
+            lat, lon = float(treffer[0]["lat"]), float(treffer[0]["lon"])
+            if bbox[0] <= lat <= bbox[1] and bbox[2] <= lon <= bbox[3]:
+                ergebnis = (lat, lon)
+        self.cache[query] = list(ergebnis) if ergebnis else None
+        return ergebnis
+
+    def finde(self, ortsteil: str, gemeinde: str, landkreis: str, bundesland: str):
+        """Gibt (lat, lon, genauigkeit) zurück; (None, None, "") wenn nichts gefunden."""
+        bbox = BBOX.get(bundesland, BBOX_DE)
+        gem = _gemeinde_fuer_suche(gemeinde)
+        if not gem:
+            return None, None, ""
+        kandidaten = []
+        if ortsteil:
+            kandidaten.append((f"{ortsteil}, {gem}, {bundesland}, Deutschland", "Ortsteil/Gemarkung"))
+        if landkreis:
+            kandidaten.append((f"{gem}, {landkreis}, {bundesland}, Deutschland", "Gemeinde"))
+        kandidaten.append((f"{gem}, {bundesland}, Deutschland", "Gemeinde"))
+        for query, genau in kandidaten:
+            pos = self._suche(query, bbox)
+            if pos:
+                return pos[0], pos[1], genau
+        return None, None, ""
+
+
+def geocodiere_projekte(beschluesse: list[Beschluss], geo: Geocoder) -> tuple[int, int]:
+    """Koordinaten je Projekt suchen und auf alle Beschlüsse des Projekts übertragen.
+    Gibt (mit Koordinate, ohne Koordinate) zurück."""
+    gruppen: dict[str, list[Beschluss]] = {}
+    for b in beschluesse:
+        gruppen.setdefault(b.projekt_id, []).append(b)
+    gefunden = fehlend = 0
+    for pid, ev in sorted(gruppen.items()):
+        ev = sorted(ev, key=lambda x: x.datum or "")
+        neu = list(reversed(ev))
+        ortsteil = next((e.ortsteil for e in neu if e.ortsteil), "")
+        lat, lon, genau = geo.finde(ortsteil, ev[0].gemeinde, ev[0].landkreis, ev[0].bundesland)
+        for e in ev:
+            e.lat, e.lon, e.geo_genauigkeit = lat, lon, genau
+        if lat is None:
+            fehlend += 1
+        else:
+            gefunden += 1
+    geo.speichern()
+    return gefunden, fehlend
+
+
+# --------------------------------------------------------------------------- #
 # Excel-Export
 # --------------------------------------------------------------------------- #
 def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: str,
@@ -670,13 +821,14 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
                 c.hyperlink, c.font = c.value, FL
     wsb.auto_filter.ref = wsb.dimensions
 
-    # --- Projekte
+    # --- Projekte (neue Spalten R-U = Koordinaten, hinten angefügt)
     wsp = wb.create_sheet("Projekte", 0)
     sp_p = ["Projekt-ID", "Gemeinde", "Landkreis", "Bundesland", "Planname", "Plan-Nr.",
             "Aufstellungskonzept", "Fläche (ha)", "Leistung (MW)", "Projektentwickler",
             "Status", "Letzter Beschluss", "Datum letzter Beschluss", "Erster Beschluss (Datum)",
-            "Anzahl Beschlüsse", "Beschlusshistorie", "Links"]
-    kopf(wsp, sp_p, [11, 22, 20, 13, 40, 9, 16, 11, 12, 32, 12, 26, 13, 13, 11, 60, 50])
+            "Anzahl Beschlüsse", "Beschlusshistorie", "Links",
+            "Breitengrad (lat)", "Längengrad (lon)", "Koordinaten-Genauigkeit", "Karte (OSM)"]
+    kopf(wsp, sp_p, [11, 22, 20, 13, 40, 9, 16, 11, 12, 32, 12, 26, 13, 13, 11, 60, 50, 13, 13, 18, 10])
     gruppen: dict[str, list[Beschluss]] = {}
     for b in beschluesse:
         gruppen.setdefault(b.projekt_id, []).append(b)
@@ -690,11 +842,15 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
         status = status_fuer(ev, heute)
         historie = "\n".join(f"{e.datum or 'o. D.'}: {e.beschlusstyp}{' (negativ)' if e.negativ else ''}" for e in ev)
         links = "\n".join(dict.fromkeys(x for e in ev for x in (e.link, e.dokument_link) if x))
+        lat = erstes(e.lat for e in neu)
+        lon = erstes(e.lon for e in neu)
+        genau = erstes(e.geo_genauigkeit for e in neu)
         wsp.append([pid, ev[0].gemeinde, ev[0].landkreis, ev[0].bundesland,
                     erstes(e.planname for e in neu), erstes(e.plannr for e in neu),
                     erstes(e.konzept for e in neu), erstes(e.flaeche_ha for e in neu),
                     erstes(e.leistung_mw for e in neu), erstes(e.entwickler for e in neu),
-                    status, ev[-1].beschlusstyp, ev[-1].datum, ev[0].datum, None, historie, links])
+                    status, ev[-1].beschlusstyp, ev[-1].datum, ev[0].datum, None, historie, links,
+                    lat if lat != "" else None, lon if lon != "" else None, genau, None])
         r = wsp.max_row
         wsp.cell(r, 15).value = f'=COUNTIF(Beschluesse!$A:$A,A{r})'
         for c in wsp[r]:
@@ -703,6 +859,13 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
         wsp.cell(r, 11).fill = PatternFill("solid", fgColor=STATUS_FARBE.get(status, "FFFFFF"))
         wsp.cell(r, 8).number_format = "0.0"
         wsp.cell(r, 9).number_format = "0.0"
+        wsp.cell(r, 18).number_format = "0.00000"
+        wsp.cell(r, 19).number_format = "0.00000"
+        if lat != "" and lon != "":
+            karte = wsp.cell(r, 21)
+            karte.value = "Karte"
+            karte.hyperlink = f"https://www.openstreetmap.org/?mlat={lat:.5f}&mlon={lon:.5f}#map=13/{lat:.5f}/{lon:.5f}"
+            karte.font = FL
     wsp.auto_filter.ref = wsp.dimensions
 
     # --- Quellen
@@ -724,6 +887,10 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
                    f"Ruhend = > {RUHEND_NACH_MONATEN} Monate kein Beschluss; sonst In Planung."),
         ("Extraktion", "heuristik = Regex-Regeln; gemini = LLM-Extraktion. Werte stichprobenartig prüfen."),
         ("Datum", "Datum der Vorlage laut RIS, nicht zwingend das Sitzungsdatum."),
+        ("Koordinaten", "WGS84 (Breitengrad/Längengrad), per Geocoding ermittelt. Genauigkeit 'Gemeinde' = Position des "
+                        "Gemeindezentrums, NICHT der Standort der Anlage; 'Ortsteil/Gemarkung' = Position des Ortsteils. "
+                        "Leer = nicht gefunden."),
+        ("Quelle Koordinaten", "© OpenStreetMap-Mitwirkende (ODbL), Suche über Nominatim."),
     ]
     kopf(wsl, ["Feld", "Erklärung"], [16, 110])
     for z in zeilen:
@@ -752,6 +919,7 @@ def main(argv=None) -> int:
     ap.add_argument("--out", default=f"PV_Beschluesse_Brandenburg_{dt.date.today():%Y-%m-%d}.xlsx")
     ap.add_argument("--json", help="zusätzlich Rohdaten als JSON speichern")
     ap.add_argument("--pause", type=float, default=REQUEST_PAUSE_S)
+    ap.add_argument("--kein-geocode", action="store_true", help="keine Koordinaten ermitteln")
     a = ap.parse_args(argv)
 
     http = Http(pause=a.pause)
@@ -804,6 +972,13 @@ def main(argv=None) -> int:
             protokoll.append((q.name, f"Fehler: {e} | {info}"[:300], 0))
 
     ordne_projekte_zu(alle)
+
+    if not a.kein_geocode and alle:
+        print("\nKoordinaten werden ermittelt (Nominatim, ca. 1 Anfrage/Sekunde, gecacht)…")
+        geo = Geocoder()
+        ok, fehlt = geocodiere_projekte(alle, geo)
+        print(f"   {ok} Projekte mit Koordinate, {fehlt} ohne ({geo.neu} neue Anfragen)")
+
     schreibe_excel(alle, quellen, a.out, protokoll)
     if a.json:
         with open(a.json, "w", encoding="utf-8") as f:
