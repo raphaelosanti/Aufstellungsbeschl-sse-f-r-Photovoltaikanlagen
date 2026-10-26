@@ -971,10 +971,10 @@ def main(argv=None) -> int:
             print(f"   ! Fehler: {e} | {info}")
             protokoll.append((q.name, f"Fehler: {e} | {info}"[:300], 0))
 
-         uniq = {}
-      for b in alle:
-          uniq.setdefault((b.datum, b.gemeinde, b.titel), b)
-      alle = list(uniq.values()) 
+    uniq = {}
+    for b in alle:
+        uniq.setdefault((b.datum, b.gemeinde, b.titel), b)
+    alle = list(uniq.values())
     
     ordne_projekte_zu(alle)
 
