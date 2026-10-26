@@ -1,0 +1,42 @@
+name: Quellen entdecken
+
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Nur die ersten N Gemeinden (0 = alle)"
+        default: "20"
+      land:
+        description: "Bundesländer, durch Leerzeichen getrennt"
+        default: "Brandenburg"
+
+permissions:
+  contents: write
+
+jobs:
+  entdecken:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: .cache_pv
+          key: quellen-cache-${{ github.run_id }}
+          restore-keys: quellen-cache-
+      - name: Quellen entdecken
+        run: python quellen_entdecken.py --max ${{ inputs.max }} --land ${{ inputs.land }}
+      - name: Ergebnis ins Repo committen
+        run: |
+          mkdir -p entdeckung
+          mv quellen_neu.csv ohne_ris.csv entdeckung/
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add entdeckung
+          git commit -m "Quellen entdeckt" || echo "nichts zu committen"
+          git push
