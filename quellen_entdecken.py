@@ -4,7 +4,7 @@ Quellen-Entdeckung für das PV-Beschlussregister
 ===============================================
 
 Baut quellen_*.csv automatisch auf:
- 1. Holt alle Gemeinden eines Bundeslandes samt Homepage aus Wikidata.
+ 1. Holt alle Gemeinden eines Bundeslandes (über den amtlichen Gemeindeschlüssel) samt Homepage aus Wikidata.
  2. Sucht auf der Homepage nach dem Ratsinformationssystem (RIS).
  3. Prüft, ob dort OParl oder SessionNet läuft (gleiche Funktionen wie pv_beschluesse.py).
  4. Prüft robots.txt: gesperrte Systeme werden als auskommentierte Zeile (# ...) geschrieben.
@@ -28,6 +28,7 @@ import argparse
 import csv
 import re
 import sys
+import time
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -36,11 +37,12 @@ from bs4 import BeautifulSoup
 import pv_beschluesse as pv
 
 WIKIDATA = "https://query.wikidata.org/sparql"
+# Präfix des amtlichen Gemeindeschlüssels (AGS) je Bundesland
 BUNDESLAENDER = {
-    "Brandenburg": "Q1208", "Sachsen-Anhalt": "Q1206", "Mecklenburg-Vorpommern": "Q1196",
-    "Sachsen": "Q1202", "Thüringen": "Q1205", "Niedersachsen": "Q1197",
-    "Schleswig-Holstein": "Q1194", "Nordrhein-Westfalen": "Q1198", "Hessen": "Q1199",
-    "Rheinland-Pfalz": "Q1200", "Saarland": "Q1201", "Baden-Württemberg": "Q985", "Bayern": "Q980",
+    "Schleswig-Holstein": "01", "Niedersachsen": "03", "Nordrhein-Westfalen": "05", "Hessen": "06",
+    "Rheinland-Pfalz": "07", "Baden-Württemberg": "08", "Bayern": "09", "Saarland": "10",
+    "Brandenburg": "12", "Mecklenburg-Vorpommern": "13", "Sachsen": "14",
+    "Sachsen-Anhalt": "15", "Thüringen": "16",
 }
 
 RIS_HREF = re.compile(
@@ -56,37 +58,48 @@ PFADE = ["bi/", "buergerinfo/", "sessionnet/", "ratsinfo/"]
 # --------------------------------------------------------------------------- #
 # Gemeinden aus Wikidata
 # --------------------------------------------------------------------------- #
-def gemeinden(land: str, qid: str) -> list[dict]:
+def gemeinden(land: str, ags: str) -> list[dict]:
+    """Leichte Abfrage: alle Items mit 8-stelligem Gemeindeschlüssel (P439) des Bundeslandes."""
     query = f"""
-    SELECT ?item ?itemLabel ?web ?ahnLabel WHERE {{
-      ?item wdt:P31/wdt:P279* wd:Q262166 ; wdt:P131+ wd:{qid} .
+    SELECT ?item ?name ?web ?parentName WHERE {{
+      ?item wdt:P439 ?ags .
+      FILTER(STRSTARTS(?ags, "{ags}") && STRLEN(?ags) = 8)
+      ?item rdfs:label ?name . FILTER(LANG(?name) = "de")
       OPTIONAL {{ ?item wdt:P856 ?web }}
-      OPTIONAL {{ ?item wdt:P131+ ?ahn }}
-      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de". }}
+      OPTIONAL {{ ?item wdt:P131 ?parent . ?parent rdfs:label ?parentName . FILTER(LANG(?parentName) = "de") }}
     }}"""
-    r = requests.get(WIKIDATA, params={"query": query, "format": "json"},
-                     headers={"User-Agent": pv.USER_AGENT}, timeout=180)
-    r.raise_for_status()
+    letzter_fehler = None
+    for versuch in range(4):
+        try:
+            r = requests.post(WIKIDATA, data={"query": query, "format": "json"},
+                              headers={"User-Agent": pv.USER_AGENT, "Accept": "application/sparql-results+json"},
+                              timeout=120)
+            r.raise_for_status()
+            break
+        except requests.RequestException as e:
+            letzter_fehler = e
+            print(f"   Wikidata-Fehler ({e.__class__.__name__}), neuer Versuch in {20 * (versuch + 1)} s")
+            time.sleep(20 * (versuch + 1))
+    else:
+        raise SystemExit(f"Wikidata nicht erreichbar: {letzter_fehler}")
     out: dict[str, dict] = {}
     for row in r.json()["results"]["bindings"]:
         item = row["item"]["value"]
-        g = out.setdefault(item, {"name": row["itemLabel"]["value"], "web": "", "ahnen": set(), "land": land})
+        g = out.setdefault(item, {"name": row["name"]["value"], "web": "", "eltern": set(), "land": land})
         if "web" in row and not g["web"]:
             g["web"] = row["web"]["value"]
-        if "ahnLabel" in row:
-            g["ahnen"].add(row["ahnLabel"]["value"])
+        if "parentName" in row:
+            g["eltern"].add(row["parentName"]["value"])
     for g in out.values():
-        g["landkreis"] = _landkreis(g["ahnen"], land)
+        g["landkreis"] = _landkreis(g["eltern"])
     return sorted(out.values(), key=lambda g: g["name"])
 
 
-def _landkreis(ahnen: set[str], land: str) -> str:
-    for a in sorted(ahnen):
-        if re.match(r"Landkreis\s", a) or a.endswith("kreis"):
-            return re.sub(r"^Landkreis\s+", "", a)
-    for a in sorted(ahnen):
-        if a not in (land, "Deutschland") and not a.startswith("Amt "):
-            return a   # z. B. kreisfreie Stadt
+def _landkreis(eltern: set[str]) -> str:
+    """Nur zur Info/Geocoding: direktes Elternobjekt, falls es kein Amt ist."""
+    for e in sorted(eltern):
+        if not e.startswith("Amt "):
+            return re.sub(r"^Landkreis\s+", "", e)
     return ""
 
 
