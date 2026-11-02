@@ -1,0 +1,114 @@
+name,landkreis,typ,url,bundesland,hinweis
+Amt Barnim-Oderbruch,Märkisch-Oderland,sessionnet,https://buergerinfo.barnim-oderbruch.de/,Brandenburg,
+Amt Lebus,Märkisch-Oderland,sessionnet,https://sessionnet.amt-lebus.de/bi/,Brandenburg,
+Gemeinde Rietz-Neuendorf,Oder-Spree,sessionnet,https://sitzung.rietz-neuendorf.de/buergerinfo/,Brandenburg,
+Stadt Fürstenwalde/Spree,Oder-Spree,sessionnet,https://binfo.fuerstenwalde-spree.de/,Brandenburg,
+# Landkreis Märkisch-Oderland (Kreistag) – ratsinfo-online.net verbietet Bots per robots.txt,Märkisch-Oderland,oparl,https://ratsinfo-online.net/landkreis-mol-bi/oparl/1.0/system.asp,Brandenburg,
+# Amt Neuzelle – ratsinfo-online.net verbietet Bots per robots.txt,Oder-Spree,auto,https://ratsinfo-online.net/neuzelle-bi/,Brandenburg,
+# Stadt Hohen Neuendorf – ratsinfo-online.net verbietet Bots per robots.txt,Oberhavel,auto,https://ratsinfo-online.net/hohenneuendorf-bi/,Brandenburg,
+Köln,Regierungsbezirk Köln,oparl,https://buergerinfo.stadt-koeln.de/oparl/system,Nordrhein-Westfalen,Köln
+Bonn,Regierungsbezirk Köln,oparl,https://www.bonn.sitzung-online.de/public/oparl/system,Nordrhein-Westfalen,Bonn
+Aachen,Kreis Aachen,oparl,https://ratsinfo.aachen.de/bi/oparl/1.0/system.asp,Nordrhein-Westfalen,Aachen
+Eschwege,Werra-Meißner-Kreis,oparl,https://rim.ekom21.de/eschwege/webservice/oparl/v1.1/system,Hessen,Eschwege
+Düsseldorf,Regierungsbezirk Düsseldorf,oparl,https://ris-oparl.itk-rheinland.de/Oparl/system,Nordrhein-Westfalen,Düsseldorf
+Dresden,,oparl,https://oparl.dresden.de/system,Sachsen,Dresden
+Leipzig,,oparl,https://ratsinformation.leipzig.de/allris_leipzig_public/oparl/system,Sachsen,Leipzig
+Wuppertal,Regierungsbezirk Düsseldorf,oparl,https://oparl.wuppertal.de/oparl/system,Nordrhein-Westfalen,Wuppertal
+Münster,Regierungsbezirk Münster,oparl,https://oparl.stadt-muenster.de/system,Nordrhein-Westfalen,Münster
+Braunschweig,,oparl,https://ratsinfo.braunschweig.de/bi/oparl/1.0/system.asp,Niedersachsen,Braunschweig
+Krefeld,Regierungsbezirk Düsseldorf,oparl,https://ris.krefeld.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Krefeld
+Freiburg im Breisgau,Baden,oparl,https://ris.freiburg.de/oparl,Baden-Württemberg,Freiburg im Breisgau
+Hagen,Regierungsbezirk Arnsberg,oparl,https://www.hagen.de/buergerinfo/oparl/1.0/system.asp,Nordrhein-Westfalen,Hagen
+Solingen,Regierungsbezirk Düsseldorf,oparl,https://sdnetrim.kdvz-frechen.de/rim4957/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Solingen
+Ulm,Regierungsbezirk Tübingen,oparl,https://buergerinfo.ulm.de/oparl/system,Baden-Württemberg,Ulm
+Castrop-Rauxel,Kreis Recklinghausen,oparl,https://castroprauxel.gremien.info/oparl,Nordrhein-Westfalen,Castrop-Rauxel
+Kerpen,Rhein-Erft-Kreis,oparl,https://ratsinfo.stadt-kerpen.de/webservice/oparl/v1.0/system,Nordrhein-Westfalen,Kerpen
+Herford,Kreis Herford,oparl,https://herford.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Herford
+Bergheim,Rhein-Erft-Kreis,oparl,https://sdnetrim.kdvz-frechen.de/rim4800/webservice/oparl/v1.0/system,Nordrhein-Westfalen,Bergheim
+Pulheim,Rhein-Erft-Kreis,oparl,https://sdnetrim.kdvz-frechen.de/rim4350/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Pulheim
+Willich,Kreis Viersen,oparl,https://ris.stadt-willich.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Willich
+Erftstadt,Rhein-Erft-Kreis,oparl,https://sdnetrim.kdvz-frechen.de/rim4490/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Erftstadt
+Nettersheim,Kreis Euskirchen,oparl,https://sdnetrim.kdvz-frechen.de/rim4580/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Nettersheim
+Rheda-Wiedenbrück,Kreis Gütersloh,oparl,https://ratsinfo.rheda-wiedenbrueck.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Rheda-Wiedenbrück
+Gronau,Kreis Borken,oparl,https://gronau.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Gronau
+Erkelenz,Kreis Heinsberg,oparl,https://ratsinfo.erkelenz.de/bi/oparl/1.0/system.asp,Nordrhein-Westfalen,Erkelenz
+Brühl,Rhein-Erft-Kreis,oparl,https://ratsinfo.bruehl.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Brühl
+Lahr/Schwarzwald,Ortenaukreis,oparl,https://lahr.ratsinfomanagement.net/webservice/oparl/v1.1/system,Baden-Württemberg,Lahr/Schwarzwald
+Bad Kreuznach,Bad Kreuznach,oparl,https://bad-kreuznach-stadt.gremien.info/oparl/system,Rheinland-Pfalz,Bad Kreuznach
+Olpe,Kreis Olpe,oparl,https://sitzungsdienst.kdz-ws.net/gkz330/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Olpe
+Pirmasens,,oparl,https://oparl.stadt-pirmasens.de/oparl/system,Rheinland-Pfalz,Pirmasens
+Wesseling,Rhein-Erft-Kreis,oparl,https://ratsinfo.wesseling.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Wesseling
+Goch,Kreis Kleve,oparl,https://ris.goch.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Goch
+Jülich,Herzogtum Jülich,oparl,https://sdnetrim.kdvz-frechen.de/rim4240/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Jülich
+Enger,Kreis Herford,oparl,https://enger.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Enger
+Spenge,Kreis Herford,oparl,https://spenge.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Spenge
+Vlotho,Kreis Herford,oparl,https://vlotho.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Vlotho
+Hiddenhausen,Kreis Herford,oparl,https://hiddenhausen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Hiddenhausen
+Kirchlengern,Kreis Herford,oparl,https://kirchlengern.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Kirchlengern
+Rödinghausen,Kreis Herford,oparl,https://roedinghausen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Rödinghausen
+Schwalmtal,Kreis Viersen,oparl,https://ris.schwalmtal.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Schwalmtal
+Ladbergen,Kreis Steinfurt,oparl,https://ladbergen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Ladbergen
+Rahden,Kreis Minden-Lübbecke,oparl,http://rahden.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Rahden
+Stemwede,Kreis Minden-Lübbecke,oparl,https://stemwede.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Stemwede
+Aldenhoven,Kreis Düren,oparl,https://ratsinfo.aldenhoven.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Aldenhoven
+Hürtgenwald,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4220/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Hürtgenwald
+Inden,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4230/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Inden
+Kreuzau,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4250/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Kreuzau
+Langerwehe,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4260/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Langerwehe
+Merzenich,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4280/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Merzenich
+Nörvenich,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4160/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Nörvenich
+Titz,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4170/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Titz
+Vettweiß,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4180/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Vettweiß
+Linnich,Kreis Düren,oparl,https://sdnetrim.kdvz-frechen.de/rim4270/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Linnich
+Velen,Kreis Borken,oparl,https://velen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Velen
+Steinhagen,Kreis Gütersloh,oparl,https://ratsinfo.steinhagen.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Steinhagen
+Langenberg,Kreis Gütersloh,oparl,https://ratsinfo.langenberg.de/webservice/oparl/v1.0/system,Nordrhein-Westfalen,Langenberg
+Weilerswist,Kreis Euskirchen,oparl,https://sdnetrim.kdvz-frechen.de/rim4510/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Weilerswist
+Kall,Kreis Euskirchen,oparl,https://sdnetrim.kdvz-frechen.de/rim4550/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Kall
+Bad Münstereifel,Kreis Euskirchen,oparl,https://ratsinfo.bad-muenstereifel.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Bad Münstereifel
+Leopoldshöhe,Kreis Lippe,oparl,https://leopoldshoehe.ratsinfomanagement.net/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Leopoldshöhe
+Wachtendonk,Kreis Kleve,oparl,https://ris.wachtendonk.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Wachtendonk
+Rees,Kreis Kleve,oparl,https://sessionnet-oparl.krz.de/oparl/bodies/5205,Nordrhein-Westfalen,Rees
+Bedburg,Rhein-Erft-Kreis,oparl,https://sdnetrim.kdvz-frechen.de/rim4780/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Bedburg
+Aarbergen,Rheingau-Taunus-Kreis,oparl,https://rim.ekom21.de/aarbergen/webservice/oparl/v1.1/system,Hessen,Aarbergen
+Ailertchen,Verbandsgemeinde Westerburg,oparl,https://westerburg.gremien.info/oparl/system,Rheinland-Pfalz,Ailertchen
+Schiffdorf,Cuxhaven,oparl,https://schiffdorf.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Schiffdorf
+Willingen (Upland),Waldeck-Frankenberg,oparl,https://rim.ekom21.de/willingen/webservice/oparl/v1.1/system,Hessen,Willingen (Upland)
+Boppard,Rhein-Hunsrück-Kreis,oparl,http://www.boppard.sitzung-online.de/bi/oparl/1.0/system.asp,Rheinland-Pfalz,Boppard
+Harsum,Hildesheim,oparl,https://www.harsum.sitzung-online.de/bi/oparl/1.0/system.asp,Niedersachsen,Harsum
+Großalmerode,Werra-Meißner-Kreis,oparl,https://rim.ekom21.de/grossalmerode/webservice/oparl/v1.1/system,Hessen,Großalmerode
+Hagenbach,Verbandsgemeinde Hagenbach,oparl,http://www.hagenbach.sitzung-online.de/bi/oparl/1.0/system.asp,Rheinland-Pfalz,Hagenbach
+Itzstedt,Kreis Segeberg,oparl,https://www.itzstedt.sitzung-online.de/bi/oparl/1.0/system.asp,Schleswig-Holstein,Itzstedt; Kayhude
+Travenhorst,Kreis Segeberg,oparl,https://www.trave.sitzung-online.de/bi/oparl/1.0/system.asp,Schleswig-Holstein,Travenhorst
+Schraplau,Saalekreis,oparl,https://weida-land.gremien.info/oparl/system,Sachsen-Anhalt,Schraplau
+Bad Pyrmont,Hameln-Pyrmont,oparl,https://badpyrmont.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Bad Pyrmont
+Hessisch Lichtenau,Werra-Meißner-Kreis,oparl,https://rim.ekom21.de/hessisch-lichtenau/webservice/oparl/v1.1/system,Hessen,Hessisch Lichtenau
+Homberg (Efze),Schwalm-Eder-Kreis,oparl,https://rim.ekom21.de/homberg-efze/webservice/oparl/v1.1/system,Hessen,Homberg (Efze)
+Parchim,Ludwigslust-Parchim,oparl,http://www.parchim.sitzung-online.de/bi/oparl/1.0/system.asp,Mecklenburg-Vorpommern,Parchim
+Uplengen,Leer,oparl,https://uplengen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Uplengen
+Cölbe,Marburg-Biedenkopf,oparl,https://rim.ekom21.de/coelbe/webservice/oparl/v1.1/system,Hessen,Cölbe
+Lohfelden,Kassel,oparl,https://lohfelden.ratsinfomanagement.net/webservice/oparl/v1.1/system,Hessen,Lohfelden
+Herxheimweyher,Verbandsgemeinde Herxheim,oparl,https://herxheim.gremien.info/oparl/system,Rheinland-Pfalz,Herxheimweyher
+Bleckede,Lüneburg,oparl,http://www.bleckede.sitzung-online.de/bi/oparl/1.0/system.asp,Niedersachsen,Bleckede
+Waldbrunn,Limburg-Weilburg,oparl,https://rim.ekom21.de/waldbrunn/webservice/oparl/v1.1/system,Hessen,Waldbrunn
+Kronberg im Taunus,Hochtaunuskreis,oparl,https://kronberg.ratsinfomanagement.net/webservice/oparl/v1.1/system,Hessen,Kronberg im Taunus
+Rosbach vor der Höhe,Wetteraukreis,oparl,http://www.rosbach.sitzung-online.de/bi/oparl/1.0/system.asp,Hessen,Rosbach vor der Höhe
+Schmitten im Taunus,Hochtaunuskreis,oparl,https://rim.ekom21.de/schmitten/webservice/oparl/v1.1/system,Hessen,Schmitten im Taunus
+Ortenberg,Wetteraukreis,oparl,https://rim.ekom21.de/ortenberg/webservice/oparl/v1.1/system,Hessen,Ortenberg
+Homberg (Ohm),Vogelsbergkreis,oparl,https://rim.ekom21.de/homberg-ohm/webservice/oparl/v1.1/system,Hessen,Homberg (Ohm)
+Schwarzenborn,Schwalm-Eder-Kreis,oparl,https://rim.ekom21.de/schwarzenborn/webservice/oparl/v1.1/system,Hessen,Schwarzenborn
+Fernwald,Gießen,oparl,https://rim.ekom21.de/fernwald/webservice/oparl/v1.1/system,Hessen,Fernwald
+Wallenhorst,Département de l’Ems-Supérieur,oparl,https://wallenhorst.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Wallenhorst
+Guxhagen,Schwalm-Eder-Kreis,oparl,https://rim.ekom21.de/guxhagen/webservice/oparl/v1.1/system,Hessen,Guxhagen
+Ehringshausen,Lahn-Dill-Kreis,oparl,https://rim.ekom21.de/ehringshausen/webservice/oparl/v1.1/system,Hessen,Ehringshausen
+Hüven,Emsland,oparl,http://soegel.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Hüven
+Glashütten,Hochtaunuskreis,oparl,https://rim.ekom21.de/glashuetten/webservice/oparl/v1.1/system,Hessen,Glashütten
+Mühlpfad,Rhein-Hunsrück-Kreis,oparl,https://emmelshausen.gremien.info/oparl/system,Rheinland-Pfalz,Mühlpfad
+Daubach,Verbandsgemeinde Montabaur,oparl,https://montabaur.gremien.info/oparl/system,Rheinland-Pfalz,Daubach
+Gommersheim,Verbandsgemeinde Edenkoben,oparl,https://edenkoben.gremien.info/oparl/system,Rheinland-Pfalz,Gommersheim
+Sembach,Kaiserslautern,oparl,https://enkenbach-alsenborn.gremien.info/oparl/system,Rheinland-Pfalz,Sembach
+Salzatal,Saalekreis,oparl,https://salzatal.gremien.info/oparl/system,Sachsen-Anhalt,Salzatal
+Altlandsberg,Märkisch-Oderland,auto,https://ratsinfo-online.net/altlandsberg-bi/,Brandenburg,Altlandsberg
+Beelitz,Potsdam-Mittelmark,sessionnet,https://beelitz.de/ratsinformation/,Brandenburg,Beelitz
+Amt Barnim-Oderbruch,Märkisch-Oderland,sessionnet,http://buergerinfo.barnim-oderbruch.de/,Brandenburg,Bliesdorf
+Britz,Barnim,auto,https://ratsinfo-online.net/britzchorinoderberg-bi/,Brandenburg,Britz
