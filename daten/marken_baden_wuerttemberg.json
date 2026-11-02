@@ -1,0 +1,25 @@
+{
+ "Freiburg im Breisgau": {
+  "zuletzt": "2026-11-02"
+ },
+ "Ulm": {
+  "zuletzt": "2026-11-02"
+ },
+ "_verworfen": [
+  "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/7773",
+  "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/8495",
+  "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/9287",
+  "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/9461",
+  "https://ris.freiburg.de/oparl/paper/4891702100062",
+  "https://ris.freiburg.de/oparl/paper/4942803100003",
+  "https://ris.freiburg.de/oparl/paper/5160504100111",
+  "https://ris.freiburg.de/oparl/paper/5292302100001",
+  "https://ris.freiburg.de/oparl/paper/5421203100091",
+  "https://ris.freiburg.de/oparl/paper/5422406100134",
+  "https://ris.freiburg.de/oparl/paper/5681203100098",
+  "https://ris.freiburg.de/oparl/paper/5681203100099",
+  "https://ris.freiburg.de/oparl/paper/5941203100060",
+  "https://ris.freiburg.de/oparl/paper/5941203100061",
+  "https://ris.freiburg.de/oparl/paper/6070903100003"
+ ]
+}
