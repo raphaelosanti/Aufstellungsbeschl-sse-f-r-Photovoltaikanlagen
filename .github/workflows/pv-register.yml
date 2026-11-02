@@ -2,18 +2,27 @@ name: PV-Beschlussregister
 
 on:
   schedule:
-    - cron: "0 5 * * 1"
+    - cron: "0 5 * * 1"          # montags
   workflow_dispatch:
     inputs:
       seit:
-        description: "Nur Vorlagen ab Datum (YYYY-MM-DD)"
-        required: false
+        description: "Nur Vorlagen ab Datum (YYYY-MM-DD), gilt für den ersten Lauf je Quelle"
         default: "2022-01-01"
+
+permissions:
+  contents: write
 
 jobs:
   sammeln:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        land: [Brandenburg, Sachsen-Anhalt, Mecklenburg-Vorpommern, Sachsen, Thüringen, Niedersachsen,
+               Schleswig-Holstein, Nordrhein-Westfalen, Hessen, Rheinland-Pfalz, Baden-Württemberg,
+               Bayern, Saarland, Berlin, Hamburg, Bremen]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,9 +33,9 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: .cache_pv
-          key: pv-cache-${{ github.run_id }}
-          restore-keys: pv-cache-
-      - name: Beschlüsse sammeln
+          key: pv-cache-${{ matrix.land }}-${{ github.run_id }}
+          restore-keys: pv-cache-${{ matrix.land }}-
+      - name: Beschlüsse sammeln (nur Neues; Bestand liegt in daten/)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PV_KONTAKT: ${{ vars.PV_KONTAKT }}
@@ -34,13 +43,40 @@ jobs:
         run: |
           LLM=""
           if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
-          python pv_beschluesse.py --quellen quellen_brandenburg.csv --seit "$SEIT" --out PV_Beschluesse_Brandenburg.xlsx --json rohdaten.json $LLM
-      - uses: actions/upload-artifact@v4
+          python pv_beschluesse.py --quellen quellen_alle.csv --land "${{ matrix.land }}" \
+            --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}.xlsx" $LLM
+      - name: Bestand committen
         if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add daten
+          git commit -m "Bestand ${{ matrix.land }}" || echo "nichts zu committen"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
+
+  zusammenfuehren:
+    needs: sammeln
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          name: PV_Beschluesse_Brandenburg_${{ github.run_number }}
-          path: |
-            PV_Beschluesse_Brandenburg.xlsx
-            rohdaten.json
-          if-no-files-found: warn
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Ein Dokument aus allen Länderbeständen
+        run: python pv_beschluesse.py --nur-export --quellen quellen_alle.csv --daten daten --out PV_Beschluesse_Gesamt.xlsx
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PV_Beschluesse_Gesamt_${{ github.run_number }}
+          path: PV_Beschluesse_Gesamt.xlsx
           retention-days: 90
+      - name: Excel auch im Repo ablegen
+        run: |
+          mkdir -p ausgabe && cp PV_Beschluesse_Gesamt.xlsx ausgabe/
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add ausgabe
+          git commit -m "Gesamt-Excel aktualisiert" || echo "nichts zu committen"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
