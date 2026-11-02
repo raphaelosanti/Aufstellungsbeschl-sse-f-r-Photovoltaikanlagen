@@ -1,984 +1,325 @@
 #!/usr/bin/env python3
 """
-PV-Beschlussregister (v2: inkrementell, mehrere Bundesländer)
-=============================================================
+Quellen-Entdeckung für das PV-Beschlussregister (v2, inkrementell)
+==================================================================
 
-Sammelt Beschlüsse zu Photovoltaik-Bebauungsplänen aus Ratsinformationssystemen
-(OParl-API oder RIS-HTML), extrahiert Projektdaten (heuristisch oder per Gemini),
-ergänzt Koordinaten (Längen-/Breitengrad) und schreibt eine Excel-Datei mit den
-Tabellen "Projekte" und "Beschluesse".
-
-Neu in v2:
-  * Bestand liegt in daten/ (beschluesse_<land>.jsonl + marken_<land>.json) und wird committet.
-    Ein Lauf verarbeitet nur Neues (bekannte Vorlagen und verworfene werden übersprungen,
-    SessionNet geht nur bis zur Marke des letzten Laufs zurück).
-  * Koordinaten über lokale Tabellen (daten/gemeinden.csv aus quellen_entdecken.py + GeoNames),
-    Nominatim nur optional (--nominatim). Fehlschläge werden mit Grund geloggt.
-  * Quellenliste quellen_alle.csv (wird von quellen_entdecken.py fortgeschrieben), Filter --land.
-  * --nur-export baut ein Excel aus dem Bestand ALLER Länder.
+Was sich gegenüber v1 ändert:
+ * Ergebnis wird direkt in die Master-Liste quellen_alle.csv eingemischt (kein Hand-Kopieren mehr);
+   bestehende/manuelle Zeilen bleiben erhalten (auch auskommentierte "# ..."-Zeilen).
+ * daten/gemeinden.csv = Gemeinde-Tabelle mit Koordinaten (Wikidata P625) UND Prüfstatus je Gemeinde.
+   Daraus bezieht pv_geo.py die Koordinaten (kein Nominatim-Zwang mehr).
+ * Inkrementell: schon geprüfte Gemeinden werden übersprungen (--recheck-tage), --budget begrenzt
+   die Zahl neu geprüfter Gemeinden pro Lauf. Mehrere Läufe arbeiten das Land nach und nach ab.
+ * OParl-Endpunktliste des OParl-Projekts wird zugeordnet (Wikidata-ID), ohne Homepage-Crawl.
+ * Mehrere Bundesländer: --land alle (Reihenfolge: Brandenburg zuerst).
 
 Aufruf:
-    python pv_beschluesse.py --quellen quellen_alle.csv --land Brandenburg --seit 2023-01-01
-    python pv_beschluesse.py --llm gemini            # GEMINI_API_KEY setzen
-    python pv_beschluesse.py --nur-export --out PV_Beschluesse_Gesamt.xlsx
-    python pv_beschluesse.py --kein-geocode          # ohne Koordinaten
-
-PV_KONTAKT (E-Mail) bitte setzen: Nutzungsregeln verlangen einen identifizierbaren User-Agent.
-
-Abhängigkeiten: pip install requests beautifulsoup4 openpyxl pypdf pyyaml
+    python quellen_entdecken.py --land Brandenburg --budget 50      # Test
+    python quellen_entdecken.py --land alle --budget 300            # alle Länder, schrittweise
+    python quellen_entdecken.py --nur-gemeinden                     # nur Tabelle/Koordinaten aktualisieren
 """
 from __future__ import annotations
 
 import argparse
 import csv
 import datetime as dt
-import hashlib
-import io
-import json
 import os
 import re
 import sys
 import time
-import urllib.robotparser
-from dataclasses import dataclass, field, asdict
-from difflib import SequenceMatcher
-from urllib.parse import urljoin, urlparse, quote
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 
-from pv_geo import Geocoder
-from pv_state import Zustand
+import pv_beschluesse as pv
 
-USER_AGENT = ("PV-Beschlussregister-MVP/0.1 (Marktbeobachtung; Kontakt: "
-              + (os.environ.get("PV_KONTAKT") or "r.hengl@blindleister.de") + ")")
-REQUEST_PAUSE_S = 1.0          # Höflichkeitspause zwischen Requests pro Host
-CACHE_DIR = ".cache_pv"
-RUHEND_NACH_MONATEN = 18       # kein neuer Beschluss seit X Monaten -> "Ruhend"
-
-BUNDESLAND_KUERZEL = {
-    "Brandenburg": "BB", "Sachsen-Anhalt": "ST", "Mecklenburg-Vorpommern": "MV", "Sachsen": "SN",
-    "Thüringen": "TH", "Niedersachsen": "NI", "Schleswig-Holstein": "SH", "Nordrhein-Westfalen": "NW",
-    "Hessen": "HE", "Rheinland-Pfalz": "RP", "Baden-Württemberg": "BW", "Bayern": "BY",
-    "Saarland": "SL", "Berlin": "BE", "Hamburg": "HH", "Bremen": "HB",
+WIKIDATA = "https://query.wikidata.org/sparql"
+OPARL_ENDPOINTS = "https://raw.githubusercontent.com/OParl/resources/main/endpoints.yml"
+# Präfix des amtlichen Gemeindeschlüssels (AGS) je Bundesland; Reihenfolge = Priorität bei "alle"
+BUNDESLAENDER = {
+    "Brandenburg": "12", "Sachsen-Anhalt": "15", "Mecklenburg-Vorpommern": "13", "Sachsen": "14",
+    "Thüringen": "16", "Niedersachsen": "03", "Schleswig-Holstein": "01", "Nordrhein-Westfalen": "05",
+    "Hessen": "06", "Rheinland-Pfalz": "07", "Baden-Württemberg": "08", "Bayern": "09",
+    "Saarland": "10", "Berlin": "11", "Hamburg": "02", "Bremen": "04",
 }
+GEM_FELDER = ["qid", "ags", "name", "landkreis", "land", "amt", "web", "lat", "lon",
+              "ris_url", "ris_typ", "ris_status", "geprueft_am"]
+QUELLEN_FELDER = ["name", "landkreis", "typ", "url", "bundesland", "hinweis"]
 
-# --------------------------------------------------------------------------- #
-# Keywords
-# --------------------------------------------------------------------------- #
-PV_RE = re.compile(
-    r"photovoltai|solar|\bpv\b|pv-|agri-?pv|freifl[äa]chen-?anlage|sonnenenergie|energiepark",
-    re.I,
-)
-PLANUNG_RE = re.compile(
-    r"bebauungsplan|b-plan|vb-plan|vorhabenbezogen|aufstellung|fl[äa]chennutzungsplan|"
-    r"satzung|bauleitplan|geltungsbereich|sondergebiet",
-    re.I,
-)
-
-# Reihenfolge = Fortschritt im Verfahren
-BESCHLUSS_TYPEN = [
-    ("Aufstellungsbeschluss", r"aufstellungsbeschluss|aufstellung\b.{0,40}(bebauungsplan|b-plan)|einleitung (eines|des) (aufstellungs)?verfahren"),
-    ("Frühzeitige Beteiligung", r"fr[üu]hzeitige (öffentlichkeits)?beteiligung|§ ?3 abs\.? ?1|§ ?4 abs\.? ?1"),
-    ("Entwurfs-/Auslegungsbeschluss", r"auslegungsbeschluss|offenlage|entwurfsbeschluss|billigung des entwurfs|öffentliche auslegung|veröffentlichung im internet|§ ?3 abs\.? ?2"),
-    ("Abwägungsbeschluss", r"abwägung|abwaegung"),
-    ("Satzungsbeschluss", r"satzungsbeschluss|als satzung|§ ?10 abs\.? ?1"),
-    ("Inkrafttreten/Bekanntmachung", r"inkrafttreten|in kraft getreten|rechtskraft|bekanntmachung des satzungsbeschlusses"),
-]
-NEGATIV_RE = re.compile(r"abgelehnt|ablehnung|aufhebung des aufstellungsbeschlusses|einstellung des verfahrens|nicht zugestimmt", re.I)
-
-KONZEPT_RE = [
-    ("Agri-PV", r"agri-?(pv|photovoltaik)|agrophotovoltaik|landwirtschaftliche (doppel|mit)nutzung"),
-    ("Moor-PV", r"moor-?(pv|photovoltaik)|wiedervernässung|moorboden"),
-    ("Floating-PV", r"floating|schwimmend"),
-    ("Dach-PV", r"dachfläche|aufdach|dach-pv"),
-    ("Freifläche", r"freifl[äa]chen|ff-?pva|pv-?ffa|solarpark|sondergebiet (photovoltaik|solar)"),
-]
-
-FIRMA_RE = re.compile(
-    r"([A-ZÄÖÜ0-9][\w&.,'\-]*(?:\s+[A-ZÄÖÜ0-9&][\w&.,'\-]*){0,5}\s+"
-    r"(?:GmbH\s*&\s*Co\.?\s*KG|GmbH|AG|KG|UG(?:\s*\(haftungsbeschränkt\))?|SE|eG|mbH))"
-)
-FLAECHE_RE = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:ha\b|hektar)", re.I)
-LEISTUNG_RE = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(MWp|MW\b|Megawatt)", re.I)
-PLANNR_RE = re.compile(r"(?:Nr\.|Nummer)\s*([0-9]{1,4}[a-zA-Z/\-0-9]*)")
-PLANNAME_RE = re.compile(r"[„\"“]([^“”\"]{4,120})[“”\"]")
-GEMEINDE_RE = re.compile(r"\b(?:der |die )?(Gemeinde|Stadt|Ortsgemeinde|Gemeindevertretung|Stadtverordnetenversammlung)\s+([A-ZÄÖÜ][\wäöüß\-]+(?:\s(?:an der|am|im|bei)\s[A-ZÄÖÜ][\wäöüß\-]+|\s\([^)]+\))?)")
-DATUM_RE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b")
-
-# Ortsteil/Gemarkung für genauere Koordinaten, z. B. "Gemarkung Schmarsow", "OT Gaarz"
-ORTSTEIL_RE = re.compile(
-    r"(?:Gemarkung|Ortsteil|OT)\s+((?:[A-ZÄÖÜ][\wäöüß\-]+)(?:\s[A-ZÄÖÜ][\wäöüß\-]+)?)")
-_ORTSTEIL_STOP = {"Flur", "Flurstück", "Flurstücke", "Flurstuecke", "Gemeinde", "Stadt", "Amt",
-                  "Der", "Die", "Das", "Im", "In", "Und", "Gemarkung", "Ortsteil"}
+RIS_HREF = re.compile(
+    r"ratsinfo|buergerinfo|buerger-?info|sitzungsdienst|sessionnet|allris|si0040|si0046|gr0040|"
+    r"oparl|mandatos|kommunalportal|sdnet|ratsinformation|/bi/|sitzungskalender|gremieninfo", re.I)
+RIS_TEXT = re.compile(
+    r"ratsinfo|bürgerinfo|buergerinfo|sitzungsdienst|sitzungskalender|gremieninfo|ratsinformation|"
+    r"bürgerinformation|allris|sitzungen|gremien|sitzungstermine", re.I)
+SUBDOMAINS = ["ratsinfo", "buergerinfo", "sessionnet", "sitzung", "bi", "ris", "sitzungsdienst"]
+PFADE = ["bi/", "buergerinfo/", "sessionnet/", "ratsinfo/"]
 
 
 # --------------------------------------------------------------------------- #
-# Datenmodell
+# Gemeinden aus Wikidata (inkl. Koordinaten)
 # --------------------------------------------------------------------------- #
-@dataclass
-class Quelle:
-    name: str           # z. B. "Amt Barnim-Oderbruch"
-    landkreis: str
-    typ: str            # "oparl" | "html" | "auto"
-    url: str            # OParl-System-URL, RIS-Basis-URL oder Vorlagenübersicht
-    bundesland: str = "Brandenburg"
-
-
-@dataclass
-class Beschluss:
-    quelle: str
-    landkreis: str
-    gemeinde: str
-    datum: str                  # ISO yyyy-mm-dd oder ""
-    titel: str
-    beschlusstyp: str
-    negativ: bool
-    planname: str
-    plannr: str
-    konzept: str
-    flaeche_ha: float | None
-    leistung_mw: float | None
-    entwickler: str
-    link: str
-    dokument_link: str = ""
-    extraktion: str = "heuristik"   # heuristik | gemini
-    projekt_id: str = ""
-    bundesland: str = "Brandenburg"
-    ortsteil: str = ""              # Ortsteil/Gemarkung aus dem Text (für Geocoding)
-    lat: float | None = None        # Breitengrad (WGS84)
-    lon: float | None = None        # Längengrad (WGS84)
-    geo_genauigkeit: str = ""       # "Ortsteil/Gemarkung" | "Gemeinde" | ""
-    schluessel: str = ""            # stabiler Schlüssel der Vorlage (verhindert Doppelverarbeitung)
-
-
-# --------------------------------------------------------------------------- #
-# HTTP mit Robots-Check, Pause und Cache
-# --------------------------------------------------------------------------- #
-class Http:
-    def __init__(self, pause: float = REQUEST_PAUSE_S, cache_dir: str = CACHE_DIR):
-        self.s = requests.Session()
-        self.s.headers["User-Agent"] = USER_AGENT
-        self.pause = pause
-        self.last: dict[str, float] = {}
-        self.robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
-        self.cache_dir = cache_dir
-        os.makedirs(cache_dir, exist_ok=True)
-        self.diag: dict[str, int] = {}
-
-    def zaehle(self, art: str) -> None:
-        self.diag[art] = self.diag.get(art, 0) + 1
-
-    def diag_reset(self) -> dict[str, int]:
-        d, self.diag = self.diag, {}
-        return d
-
-    def _erlaubt(self, url: str) -> bool:
-        p = urlparse(url)
-        root = f"{p.scheme}://{p.netloc}"
-        if root not in self.robots:
-            rp = urllib.robotparser.RobotFileParser()
-            try:
-                r = self.s.get(root + "/robots.txt", timeout=15)
-                if r.status_code == 200:
-                    rp.parse(r.text.splitlines())
-                else:
-                    rp = None  # keine robots.txt -> erlaubt
-            except requests.RequestException:
-                rp = None
-            self.robots[root] = rp
-        rp = self.robots[root]
-        return True if rp is None else rp.can_fetch(USER_AGENT, url)
-
-    def get(self, url: str, binary: bool = False, cache: bool = True, **kw):
-        if not self._erlaubt(url):
-            self.zaehle("robots.txt verbietet")
-            raise PermissionError(f"robots.txt verbietet: {url}")
-        key = hashlib.sha1((url + json.dumps(kw.get("params", {}), sort_keys=True)).encode()).hexdigest()
-        path = os.path.join(self.cache_dir, key)
-        if cache and os.path.exists(path):
-            with open(path, "rb") as f:
-                data = f.read()
-            return data if binary else data.decode("utf-8", errors="replace")
-        host = urlparse(url).netloc
-        wait = self.pause - (time.time() - self.last.get(host, 0))
-        if wait > 0:
-            time.sleep(wait)
+def gemeinden(land: str, ags: str) -> list[dict]:
+    query = f"""
+    SELECT ?item ?name ?web ?parentName ?coord ?ags WHERE {{
+      ?item wdt:P439 ?ags .
+      FILTER(STRSTARTS(?ags, "{ags}") && STRLEN(?ags) = 8)
+      ?item rdfs:label ?name . FILTER(LANG(?name) = "de")
+      OPTIONAL {{ ?item wdt:P856 ?web }}
+      OPTIONAL {{ ?item wdt:P625 ?coord }}
+      OPTIONAL {{ ?item wdt:P131 ?parent . ?parent rdfs:label ?parentName . FILTER(LANG(?parentName) = "de") }}
+    }}"""
+    letzter_fehler = None
+    for versuch in range(4):
         try:
-            r = self.s.get(url, timeout=30, **kw)
-        except requests.RequestException:
-            self.zaehle("Verbindungsfehler")
-            raise
-        self.last[host] = time.time()
-        if r.status_code >= 400:
-            self.zaehle(f"HTTP {r.status_code}")
-        r.raise_for_status()
-        self.zaehle("Seiten geladen")
-        if cache:
-            with open(path, "wb") as f:
-                f.write(r.content)
-        if binary:
-            return r.content
-        r.encoding = r.encoding or r.apparent_encoding
-        return r.text
+            r = requests.post(WIKIDATA, data={"query": query, "format": "json"},
+                              headers={"User-Agent": pv.USER_AGENT, "Accept": "application/sparql-results+json"},
+                              timeout=180)
+            r.raise_for_status()
+            break
+        except requests.RequestException as e:
+            letzter_fehler = e
+            print(f"   Wikidata-Fehler ({e.__class__.__name__}), neuer Versuch in {20 * (versuch + 1)} s")
+            time.sleep(20 * (versuch + 1))
+    else:
+        raise SystemExit(f"Wikidata nicht erreichbar: {letzter_fehler}")
+    out: dict[str, dict] = {}
+    for row in r.json()["results"]["bindings"]:
+        item = row["item"]["value"]
+        g = out.setdefault(item, {"qid": item.rsplit("/", 1)[-1], "ags": row["ags"]["value"],
+                                  "name": row["name"]["value"], "web": "", "eltern": set(),
+                                  "land": land, "lat": "", "lon": ""})
+        if "web" in row and not g["web"]:
+            g["web"] = row["web"]["value"]
+        if "coord" in row and not g["lat"]:
+            m = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", row["coord"]["value"])
+            if m:
+                g["lon"], g["lat"] = m.group(1), m.group(2)
+        if "parentName" in row:
+            g["eltern"].add(row["parentName"]["value"])
+    res = []
+    for g in out.values():
+        eltern = g.pop("eltern")
+        g["amt"] = next((e for e in sorted(eltern) if e.startswith("Amt ")), "")
+        g["landkreis"] = next((re.sub(r"^Landkreis\s+", "", e) for e in sorted(eltern)
+                               if not e.startswith("Amt ") and e != land), "")
+        res.append(g)
+    return sorted(res, key=lambda g: g["name"])
 
-    def json(self, url: str, **kw):
-        return json.loads(self.get(url, **kw))
 
-
-# --------------------------------------------------------------------------- #
-# Text aus Dokumenten
-# --------------------------------------------------------------------------- #
-def pdf_text(data: bytes, max_seiten: int = 15) -> str:
+def lade_csv(pfad: str) -> list[dict]:
     try:
-        from pypdf import PdfReader
-        reader = PdfReader(io.BytesIO(data))
-        return "\n".join((p.extract_text() or "") for p in reader.pages[:max_seiten])
-    except Exception as e:  # noqa: BLE001
-        return f"[PDF nicht lesbar: {e}]"
+        with open(pfad, encoding="utf-8", newline="") as f:
+            return list(csv.DictReader(f))
+    except OSError:
+        return []
 
 
-def html_text(html: str) -> str:
-    soup = BeautifulSoup(html, "html.parser")
-    for t in soup(["script", "style", "nav", "header", "footer"]):
-        t.decompose()
-    return re.sub(r"\n{2,}", "\n", soup.get_text("\n", strip=True))
-
-
-def dokument_text(http: Http, url: str) -> str:
-    try:
-        data = http.get(url, binary=True)
-    except Exception as e:  # noqa: BLE001
-        return f"[Download fehlgeschlagen: {e}]"
-    if data[:4] == b"%PDF":
-        return pdf_text(data)
-    return html_text(data.decode("utf-8", errors="replace"))
+def schreibe_csv(pfad: str, felder: list[str], zeilen: list[dict]) -> None:
+    os.makedirs(os.path.dirname(pfad) or ".", exist_ok=True)
+    tmp = pfad + ".tmp"
+    with open(tmp, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=felder, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(zeilen)
+    os.replace(tmp, pfad)
 
 
 # --------------------------------------------------------------------------- #
-# Adapter 1: OParl
+# RIS finden und prüfen (unverändert gegenüber v1)
 # --------------------------------------------------------------------------- #
-OPARL_PFADE = ["oparl/1.0/system.asp", "oparl/1.1/system.asp", "oparl/system",
-               "oparl/v1/system", "oparl/v1.1/system", "webservice/oparl/v1.1/system"]
-
-
-def oparl_entdecken(http: Http, basis: str) -> str | None:
-    """Probiert gängige OParl-Pfade relativ zur RIS-Basis-URL."""
-    basis = basis if basis.endswith("/") else basis + "/"
-    for pfad in OPARL_PFADE:
-        url = urljoin(basis, pfad)
-        try:
-            d = http.json(url, cache=False)
-            if isinstance(d, dict) and "body" in d and "oparl" in str(d.get("type", "")).lower():
-                return url
-        except Exception:  # noqa: BLE001
-            continue
-    return None
-
-
-def oparl_liste(http: Http, url: str, params: dict | None = None, max_seiten: int = 200):
-    seite = 0
-    while url and seite < max_seiten:
-        d = http.json(url, params=params or {}, cache=False)
-        params = None  # next-Links enthalten die Parameter bereits
-        for obj in d.get("data", []):
-            yield obj
-        url = (d.get("links") or {}).get("next")
-        seite += 1
-
-
-def oparl_vorlagen(http: Http, q: Quelle, seit: str | None, zustand=None):
-    system = http.json(q.url, cache=False)
-    bodies = system["body"]
-    bodies = list(oparl_liste(http, bodies)) if isinstance(bodies, str) else bodies
-    for body in bodies:
-        body = http.json(body) if isinstance(body, str) else body
-        paper_url = body.get("paper")
-        if not paper_url:
-            continue
-        params = {"modified_since": seit + "T00:00:00+00:00"} if seit else None
-        try:
-            papers = list(oparl_liste(http, paper_url, params))
-        except requests.HTTPError:
-            papers = list(oparl_liste(http, paper_url))  # Server kennt Filter nicht
-        for p in papers:
-            titel = p.get("name") or ""
-            if not PV_RE.search(titel):
-                continue
-            datum = (p.get("date") or "")[:10]
-            if seit and datum and datum < seit:
-                continue
-            if zustand and zustand.hat(p.get("web") or p.get("id", "")):
-                continue
-            main = p.get("mainFile") or {}
-            if isinstance(main, str):
-                try:
-                    main = http.json(main)
-                except Exception:  # noqa: BLE001
-                    main = {}
-            doc_url = main.get("accessUrl") or main.get("downloadUrl") or ""
-            text = main.get("text") or (dokument_text(http, doc_url) if doc_url else "")
-            yield {
-                "titel": titel,
-                "datum": datum,
-                "text": f"{titel}\n{p.get('reference', '')}\n{text}",
-                "link": p.get("web") or p.get("id", ""),
-                "dokument_link": doc_url,
-                "body_name": body.get("name") or body.get("shortName") or q.name,
-            }
-
-
-# --------------------------------------------------------------------------- #
-# Adapter 2: RIS-HTML (SessionNet *.php, ALLRIS net *.asp) – best effort
-# --------------------------------------------------------------------------- #
-DETAIL_LINK_RE = re.compile(r"(vo0050\.php\?__kvonr=\d+|vo020\.asp\?VOLFDNR=\d+|vo020\?VOLFDNR=\d+)", re.I)
-UEBERSICHT_PFADE = ["vo0040.php", "vo040.asp", "bi/vo0040.php", "bi/vo040.asp"]
-
-
-def html_vorlagen(http: Http, q: Quelle, seit: str | None, max_seiten: int = 30, zustand=None):
-    start_urls = [q.url] if re.search(r"vo0?040", q.url) else \
-        [urljoin(q.url if q.url.endswith("/") else q.url + "/", p) for p in UEBERSICHT_PFADE]
-    gesehen_seiten, gesehen_detail = set(), set()
-    queue = list(start_urls)
-    while queue and len(gesehen_seiten) < max_seiten:
-        url = queue.pop(0)
-        if url in gesehen_seiten:
-            continue
-        gesehen_seiten.add(url)
-        try:
-            html = http.get(url, cache=False)
-        except Exception:  # noqa: BLE001
-            continue
-        soup = BeautifulSoup(html, "html.parser")
-        for a in soup.find_all("a", href=True):
-            href, txt = a["href"], a.get_text(" ", strip=True)
-            absu = urljoin(url, href)
-            if DETAIL_LINK_RE.search(href):
-                zeile = a.find_parent("tr")
-                kontext = zeile.get_text(" ", strip=True) if zeile else txt
-                if absu in gesehen_detail or not PV_RE.search(kontext):
-                    continue
-                gesehen_detail.add(absu)
-                if zustand and zustand.hat(absu):
-                    continue
-                try:
-                    detail = html_text(http.get(absu))
-                except Exception:  # noqa: BLE001
-                    continue
-                datum = erstes_datum(detail)
-                if seit and datum and datum < seit:
-                    continue
-                # PDF-Anhänge der Vorlage (Beschlussvorlage) mitnehmen
-                pdfs = [urljoin(absu, x["href"]) for x in BeautifulSoup(http.get(absu), "html.parser")
-                        .find_all("a", href=True) if re.search(r"\.pdf|getfile|do0?0?\d", x["href"], re.I)][:2]
-                anhang = "\n".join(dokument_text(http, u)[:15000] for u in pdfs)
-                yield {"titel": kontext[:300], "datum": datum, "text": detail + "\n" + anhang,
-                       "link": absu, "dokument_link": pdfs[0] if pdfs else "", "body_name": q.name}
-            elif re.search(r"(weiter|nächste|next|›|»)", txt, re.I) and re.search(r"vo0?040", absu):
-                queue.append(absu)
-
-
-# --------------------------------------------------------------------------- #
-# Adapter 3: SessionNet (Somacos) – läuft über die Sitzungen
-# --------------------------------------------------------------------------- #
-# SessionNet 5.x hat oft keine öffentliche Vorlagenliste. Sitzungen haben aber
-# fortlaufende Nummern (si0057.php?__ksinr=N) über alle Gemeinden des Amtes.
-# Wir starten bei der höchsten bekannten Nummer und gehen rückwärts, bis die
-# Sitzungen älter als --seit sind (oder bis zur Marke des letzten Laufs).
-SI_ID_RE = re.compile(r"(?:__ksinr=|rssgo\.php\?si)(\d+)")
-TOP_LINK_RE = re.compile(r"(to0050\.(?:php|asp)\?__ktonr=\d+|vo0050\.(?:php|asp)\?__kvonr=\d+)", re.I)
-
-
-def _basis(url: str) -> str:
+def norm_basis(url: str) -> str:
     p = urlparse(url)
-    pfad = p.path.rsplit("/", 1)[0] + "/" if not p.path.endswith("/") else p.path
+    pfad = p.path
+    if not pfad.endswith("/"):
+        letzter = pfad.rsplit("/", 1)[-1]
+        pfad = pfad.rsplit("/", 1)[0] + "/" if "." in letzter else pfad + "/"
     return f"{p.scheme}://{p.netloc}{pfad}"
 
 
-def ist_sessionnet(http: Http, basis: str) -> bool:
-    for pfad in ("info.php", "info.asp", "gr0040.php", "gr0040.asp", ""):
-        try:
-            if "sessionnet" in http.get(urljoin(basis, pfad), cache=False).lower():
-                return True
-        except Exception:  # noqa: BLE001
+def links_der_seite(http: pv.Http, url: str) -> list[tuple[int, str]]:
+    try:
+        soup = BeautifulSoup(http.get(url), "html.parser")
+    except Exception:  # noqa: BLE001
+        return []
+    res = []
+    for a in soup.find_all("a", href=True):
+        href = urljoin(url, a["href"]).split("#")[0]
+        if not href.startswith("http") or re.search(r"\.(pdf|docx?|xlsx?|jpe?g|png|zip)$", href, re.I):
             continue
-    return False
+        s = (2 if RIS_HREF.search(href) else 0) + (1 if RIS_TEXT.search(a.get_text(" ", strip=True)) else 0)
+        if s:
+            res.append((s, href))
+    return res
 
 
-def sessionnet_endung(http: Http, basis: str) -> str:
-    """SessionNet gibt es als PHP- und als ASP-Variante."""
-    for ext in ("php", "asp"):
-        try:
-            if "sessionnet" in http.get(urljoin(basis, f"info.{ext}"), cache=False).lower():
-                return ext
-        except Exception:  # noqa: BLE001
-            continue
-    return "php"
+def kandidaten(http: pv.Http, home: str) -> list[str]:
+    stufe1 = sorted(set(links_der_seite(http, home)), reverse=True)
+    cands = [u for _, u in stufe1]
+    host = urlparse(home).netloc
+    for s, u in stufe1[:5]:
+        if urlparse(u).netloc == host and s == 1:
+            cands += [x for sc, x in links_der_seite(http, u) if sc >= 2]
+    return list(dict.fromkeys(cands))[:8]
 
 
-def sessionnet_hoechste_id(http: Http, basis: str, ext: str = "php") -> int:
-    ids = []
-    for pfad in (f"rssfeed.{ext}", f"si0040.{ext}", f"gr0040.{ext}", f"info.{ext}"):
-        try:
-            ids += [int(x) for x in SI_ID_RE.findall(http.get(urljoin(basis, pfad), cache=False))]
-        except Exception:  # noqa: BLE001
-            continue
-    return max(ids) if ids else 0
-
-
-def sitzungsdatum(text: str) -> str:
-    m = re.search(r"(?:Datum|Sitzung am|vom)\s*:?\s*\w*,?\s*(\d{1,2}\.\d{1,2}\.\d{4})", text)
-    return erstes_datum(m.group(1)) if m else erstes_datum(text)
-
-
-def sessionnet_vorlagen(http: Http, q: Quelle, seit: str | None,
-                        max_sitzungen: int = 2500, stop_nach_alt: int = 60,
-                        zustand=None, stop_id: int = 0):
-    basis = _basis(q.url)
-    ext = sessionnet_endung(http, basis)
-    start = sessionnet_hoechste_id(http, basis, ext)
-    if not start:
-        raise RuntimeError("keine Sitzungsnummern gefunden (RSS/Kalender nicht erreichbar)")
-    print(f"   SessionNet: starte bei Sitzung {start}, gehe rückwärts"
-          + (f" bis {stop_id} (Marke des letzten Laufs)" if stop_id else ""))
-    alt_in_folge, gesehen = 0, set()
-    for ksinr in range(start + 20, max(start + 20 - max_sitzungen, stop_id, 0), -1):
-        url = urljoin(basis, f"si0057.{ext}?__ksinr={ksinr}")
-        try:
-            html = http.get(url, cache=False)
-        except PermissionError:
-            raise
-        except Exception:  # noqa: BLE001
-            continue
-        if "fehlermeldung" in html.lower()[:3000]:
-            http.zaehle("Sitzung nicht vorhanden")
-            continue
-        soup = BeautifulSoup(html, "html.parser")
-        seite = soup.get_text(" ", strip=True)
-        datum = sitzungsdatum(seite)
-        if seit and datum and datum < seit:
-            alt_in_folge += 1
-            if alt_in_folge >= stop_nach_alt:
-                print(f"   SessionNet: {stop_nach_alt} Sitzungen in Folge vor {seit}, stoppe bei {ksinr}")
-                if zustand:
-                    zustand.setze(q.name, "si_max", start)
-                return
-            continue
-        alt_in_folge = 0
-        http.zaehle("Sitzungen geprüft")
-        titel_el = soup.find("h1") or soup.find("title")
-        gremium = titel_el.get_text(" ", strip=True) if titel_el else ""
-        for a in soup.find_all("a", href=True):
-            if not TOP_LINK_RE.search(a["href"]):
-                continue
-            zeile = a.find_parent("tr") or a.find_parent("li") or a.find_parent("div")
-            kontext = (zeile.get_text(" ", strip=True) if zeile else a.get_text(" ", strip=True))[:400]
-            if not PV_RE.search(kontext):
-                continue
-            ziel = urljoin(url, a["href"])
-            if ziel in gesehen:
-                continue
-            gesehen.add(ziel)
-            top_key = ziel
-            if zustand and zustand.hat(top_key):
-                continue
-            http.zaehle("PV-Tagesordnungspunkte")
+def pruefe(http: pv.Http, url: str):
+    base = norm_basis(url)
+    if "ratsinfo-online.net" in base:
+        return "auto", base
+    try:
+        o = pv.oparl_entdecken(http, base)
+        if o:
+            return "oparl", o
+        if pv.ist_sessionnet(http, base):
+            return "sessionnet", base
+        for p in pv.UEBERSICHT_PFADE:
+            u = urljoin(base, p)
             try:
-                detail_html = http.get(ziel)
+                if pv.DETAIL_LINK_RE.search(http.get(u, cache=False)):
+                    return "html", u
             except Exception:  # noqa: BLE001
                 continue
-            dsoup = BeautifulSoup(detail_html, "html.parser")
-            # vom TOP zur Vorlage springen, wenn verlinkt
-            vo = dsoup.find("a", href=re.compile(r"vo0050\.(?:php|asp)\?__kvonr=\d+"))
-            if vo and "to0050" in ziel:
-                vo_url = urljoin(ziel, vo["href"])
-                if vo_url not in gesehen:
-                    gesehen.add(vo_url)
-                    try:
-                        detail_html += "\n" + http.get(vo_url)
-                        ziel = vo_url
-                        dsoup = BeautifulSoup(detail_html, "html.parser")
-                    except Exception:  # noqa: BLE001
-                        pass
-            pdfs = [urljoin(ziel, x["href"]) for x in dsoup.find_all("a", href=True)
-                    if re.search(r"\.pdf|getfile", x["href"], re.I)][:2]
-            anhang = "\n".join(dokument_text(http, u)[:15000] for u in pdfs)
-            yield {"titel": kontext[:300], "datum": datum,
-                   "text": f"{gremium}\n{kontext}\n{html_text(detail_html)}\n{anhang}",
-                   "link": ziel, "dokument_link": pdfs[0] if pdfs else "",
-                   "body_name": gremium or q.name, "schluessel": top_key}
-    if zustand:
-        zustand.setze(q.name, "si_max", start)
+    except Exception:  # noqa: BLE001
+        pass
+    return None
 
 
-def erstes_datum(text: str) -> str:
-    for m in DATUM_RE.finditer(text):
-        d, mo, y = map(int, m.groups())
-        try:
-            return dt.date(y, mo, d).isoformat()
-        except ValueError:
-            continue
-    return ""
+def raten(domain: str) -> list[str]:
+    d = domain.removeprefix("www.")
+    return [f"https://{s}.{d}/" for s in SUBDOMAINS] + [f"https://{domain}/{p}" for p in PFADE]
 
 
 # --------------------------------------------------------------------------- #
-# Extraktion
+# OParl-Endpunktliste (liefert vor allem größere Städte; Brandenburg ist dort kaum vertreten)
 # --------------------------------------------------------------------------- #
-def _zahl(s: str) -> float:
-    return float(s.replace(".", "").replace(",", ".")) if s.count(",") == 1 or "." not in s else float(s)
-
-
-_FIRMA_PRAEFIX = re.compile(
-    r"^(?:(?:Antragsteller(?:in)?|Vorhabenträger(?:in)?|Investor(?:in)?|Projektentwickler(?:in)?|"
-    r"Die|Der|Das|Den|Firma|Mit|Von|Durch|Ist|Hat|Haben)\s+)+")
-
-
-def _firma_bereinigen(f: str) -> str:
-    return _FIRMA_PRAEFIX.sub("", f.strip(" ,.:;"))
-
-
-def ortsteil_aus_text(text: str) -> str:
-    """Erster plausibler Ortsteil/Gemarkungsname ("Gemarkung Schmarsow" -> "Schmarsow")."""
-    for m in ORTSTEIL_RE.finditer(text):
-        # Stopwort in der Mitte beendet den Namen ("Schmarsow Flur" -> "Schmarsow")
-        name = []
-        for t in m.group(1).split():
-            if t in _ORTSTEIL_STOP:
-                break
-            name.append(t)
-        if name:
-            return " ".join(name)
-    return ""
-
-
-def extrahiere_heuristisch(roh: dict, q: Quelle) -> Beschluss:
-    text = roh["text"]
-    t_low = text.lower()
-    titel_low = roh["titel"].lower()
-
-    typ = ""
-    for name, pat in reversed(BESCHLUSS_TYPEN):   # Titel zuerst, spätester Schritt gewinnt
-        if re.search(pat, titel_low):
-            typ = name
-            break
-    if not typ:
-        for name, pat in BESCHLUSS_TYPEN:          # sonst erster Treffer im Text
-            if re.search(pat, t_low):
-                typ = name
-                break
-
-    konzept = next((n for n, p in KONZEPT_RE if re.search(p, t_low)), "")
-    fl = FLAECHE_RE.search(text)
-    lw = LEISTUNG_RE.search(text)
-    firmen = [f.strip(" ,") for f in FIRMA_RE.findall(text) if "Amt" not in f.split()[0]]
-    entw = ""
-    m = re.search(r"vorhabenträger(?:in)?|projektentwickler(?:in)?|investor(?:in)?|antragsteller(?:in)?", text, re.I)
-    if m:
-        f = FIRMA_RE.search(text[m.start():m.start() + 250]) or FIRMA_RE.search(text[max(0, m.start() - 200):m.start()])
-        entw = f.group(1) if f else ""
-    entw = _firma_bereinigen(entw or (firmen[0] if firmen else ""))
-
-    pn = PLANNAME_RE.search(roh["titel"]) or PLANNAME_RE.search(text)
-    nr = PLANNR_RE.search(roh["titel"]) or PLANNR_RE.search(text[:2000])
-    gm = GEMEINDE_RE.search(roh["titel"]) or GEMEINDE_RE.search(text[:3000])
-    ortsteil = ortsteil_aus_text(roh["titel"]) or ortsteil_aus_text(text[:6000])
-
-    return Beschluss(
-        quelle=q.name, landkreis=q.landkreis,
-        gemeinde=gm.group(2).strip() if gm else roh.get("body_name", q.name),
-        datum=roh["datum"], titel=roh["titel"][:300],
-        beschlusstyp=typ or "Unklar", negativ=bool(NEGATIV_RE.search(t_low[:5000])),
-        planname=pn.group(1).strip() if pn else "", plannr=nr.group(1) if nr else "",
-        konzept=konzept,
-        flaeche_ha=_zahl(fl.group(1)) if fl else None,
-        leistung_mw=_zahl(lw.group(1)) if lw else None,
-        entwickler=entw, link=roh["link"], dokument_link=roh.get("dokument_link", ""),
-        bundesland=q.bundesland or "Brandenburg",
-        ortsteil=ortsteil,
-    )
-
-
-GEMINI_PROMPT = """Du extrahierst Daten aus einer deutschen Ratsvorlage zu einem Photovoltaik-Bebauungsplan.
-Antworte NUR mit JSON nach diesem Schema (null wenn unbekannt, nichts erfinden):
-{"relevant": bool,  // false wenn es nicht um ein PV-Bauleitplanverfahren geht
- "gemeinde": str, "ortsteil": str, "planname": str, "plannr": str,
- "beschlusstyp": one of ["Aufstellungsbeschluss","Frühzeitige Beteiligung","Entwurfs-/Auslegungsbeschluss","Abwägungsbeschluss","Satzungsbeschluss","Inkrafttreten/Bekanntmachung","Unklar"],
- "negativ": bool,   // abgelehnt, aufgehoben, Verfahren eingestellt
- "konzept": one of ["Freifläche","Agri-PV","Moor-PV","Floating-PV","Dach-PV",""],
- "flaeche_ha": number|null, "leistung_mw": number|null,
- "entwickler": str  // Vorhabenträger/Projektentwickler (Firma), sonst ""
- // ortsteil: Ortsteil oder Gemarkung, in dem der Geltungsbereich liegt, sonst ""
-}
-TEXT:
-"""
-
-
-def extrahiere_gemini(roh: dict, q: Quelle, basis: Beschluss) -> Beschluss | None:
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key:
-        raise SystemExit("GEMINI_API_KEY ist nicht gesetzt.")
-    model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    body = {"contents": [{"parts": [{"text": GEMINI_PROMPT + roh["text"][:30000]}]}],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
-    for versuch in range(3):
-        try:
-            r = requests.post(url, params={"key": key}, json=body, timeout=90)
-            r.raise_for_status()
-            j = json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
-            break
-        except Exception as e:  # noqa: BLE001
-            if versuch == 2:
-                print(f"  ! Gemini-Fehler, nutze Heuristik: {e}", file=sys.stderr)
-                return basis
-            time.sleep(3 * (versuch + 1))
-    if j.get("relevant") is False:
-        return None
-    for feld in ["gemeinde", "ortsteil", "planname", "plannr", "beschlusstyp", "konzept", "entwickler"]:
-        if j.get(feld):
-            setattr(basis, feld, str(j[feld]))
-    for feld in ["flaeche_ha", "leistung_mw"]:
-        if isinstance(j.get(feld), (int, float)):
-            setattr(basis, feld, float(j[feld]))
-    if isinstance(j.get("negativ"), bool):
-        basis.negativ = j["negativ"]
-    basis.extraktion = "gemini"
-    return basis
-
-
-# --------------------------------------------------------------------------- #
-# Projekt-Matching & Status
-# --------------------------------------------------------------------------- #
-def _norm(s: str) -> str:
-    s = s.lower()
-    s = re.sub(r"(vorhabenbezogene[rn]?|bebauungsplan(es)?|b-plan|vb-plan|nr\.?\s*\d+\w*|der gemeinde|gemeinde|stadt)", " ", s)
-    return re.sub(r"[^a-zäöüß0-9]+", " ", s).strip()
-
-
-def ordne_projekte_zu(beschluesse: list[Beschluss], praefix: str = "BB", schwelle: float = 0.82) -> None:
-    """Projekt-IDs bleiben stabil: bereits vergebene IDs werden übernommen, neue Beschlüsse werden
-    zugeordnet oder bekommen die nächste freie Nummer (PV-<Land>-0001, …)."""
-    projekte: dict[str, tuple[str, str, str, str]] = {}
-    for b in beschluesse:
-        if b.projekt_id and b.projekt_id not in projekte:
-            projekte[b.projekt_id] = (b.projekt_id, _norm(b.gemeinde), b.plannr.lower(), _norm(b.planname or b.titel))
-    naechste = max([int(pid.rsplit("-", 1)[-1]) for pid in projekte if pid.rsplit("-", 1)[-1].isdigit()] + [0]) + 1
-    for b in sorted((x for x in beschluesse if not x.projekt_id), key=lambda x: x.datum or "9999"):
-        g, nr, nm = _norm(b.gemeinde), b.plannr.lower(), _norm(b.planname or b.titel)
-        treffer = None
-        for pid, pg, pnr, pnm in projekte.values():
-            if pg != g:
-                continue
-            if nr and pnr and nr == pnr:
-                treffer = pid
-                break
-            if nm and pnm and SequenceMatcher(None, nm, pnm).ratio() >= schwelle:
-                treffer = pid
-                break
-        if not treffer:
-            treffer = f"PV-{praefix}-{naechste:04d}"
-            naechste += 1
-            projekte[treffer] = (treffer, g, nr, nm)
-        b.projekt_id = treffer
-
-
-def status_fuer(events: list[Beschluss], heute: dt.date) -> str:
-    events = sorted(events, key=lambda x: x.datum or "")
-    letzte = events[-1]
-    if any(e.negativ for e in events[-2:]):
-        return "Abgelehnt"
-    typen = {e.beschlusstyp for e in events}
-    if typen & {"Satzungsbeschluss", "Inkrafttreten/Bekanntmachung"}:
-        return "Genehmigt"
-    if letzte.datum:
-        d = dt.date.fromisoformat(letzte.datum)
-        if (heute - d).days > RUHEND_NACH_MONATEN * 30:
-            return "Ruhend"
-    return "In Planung"
-
-
-# --------------------------------------------------------------------------- #
-# Koordinaten (Logik steckt in pv_geo.py)
-# --------------------------------------------------------------------------- #
-def geocodiere_projekte(beschluesse: list[Beschluss], geo) -> tuple[int, int]:
-    """Koordinaten je Projekt; schon geocodierte Projekte werden nicht erneut abgefragt."""
-    gruppen: dict[str, list[Beschluss]] = {}
-    for b in beschluesse:
-        gruppen.setdefault(b.projekt_id, []).append(b)
-    gefunden = fehlend = 0
-    for pid, ev in sorted(gruppen.items()):
-        ev = sorted(ev, key=lambda x: x.datum or "")
-        neu = list(reversed(ev))
-        ortsteil = next((e.ortsteil for e in neu if e.ortsteil), "")
-        ref = next((e for e in neu if e.lat is not None), None)
-        if ref and not (ref.geo_genauigkeit == "Gemeinde" and ortsteil):
-            lat, lon, genau = ref.lat, ref.lon, ref.geo_genauigkeit
-        else:
-            lat, lon, genau = geo.finde(ortsteil, ev[0].gemeinde, ev[0].landkreis, ev[0].bundesland, projekt=pid)
-        for e in ev:
-            e.lat, e.lon, e.geo_genauigkeit = lat, lon, genau
-        if lat is None:
-            fehlend += 1
-        else:
-            gefunden += 1
-    geo.speichern()
-    return gefunden, fehlend
-
-
-# --------------------------------------------------------------------------- #
-# Excel-Export
-# --------------------------------------------------------------------------- #
-def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: str,
-                   protokoll: list[tuple[str, str, int]]) -> None:
-    from openpyxl import Workbook
-    from openpyxl.styles import Alignment, Font, PatternFill
-    from openpyxl.utils import get_column_letter
-
-    heute = dt.date.today()
-    F = Font(name="Arial", size=10)
-    FB = Font(name="Arial", size=10, bold=True, color="FFFFFF")
-    FL = Font(name="Arial", size=10, color="0563C1", underline="single")
-    KOPF = PatternFill("solid", fgColor="1F4E78")
-    STATUS_FARBE = {"In Planung": "FFF2CC", "Genehmigt": "E2EFDA", "Abgelehnt": "F8CBAD", "Ruhend": "D9D9D9"}
-
-    wb = Workbook()
-
-    def kopf(ws, spalten, breiten):
-        ws.append(spalten)
-        for i, c in enumerate(ws[1], 1):
-            c.font, c.fill = FB, KOPF
-            c.alignment = Alignment(vertical="center", wrap_text=True)
-            ws.column_dimensions[get_column_letter(i)].width = breiten[i - 1]
-        ws.freeze_panes = "A2"
-
-    # --- Beschluesse
-    wsb = wb.active
-    wsb.title = "Beschluesse"
-    sp_b = ["Projekt-ID", "Datum", "Gemeinde", "Landkreis", "Beschlusstyp", "Negativ",
-            "Titel der Vorlage", "Link Vorlage", "Link Dokument", "Quelle (RIS)", "Extraktion"]
-    kopf(wsb, sp_b, [11, 11, 22, 20, 26, 9, 70, 40, 40, 26, 11])
-    for b in sorted(beschluesse, key=lambda x: (x.projekt_id, x.datum)):
-        wsb.append([b.projekt_id, b.datum, b.gemeinde, b.landkreis, b.beschlusstyp,
-                    "ja" if b.negativ else "", b.titel, b.link, b.dokument_link, b.quelle, b.extraktion])
-        r = wsb.max_row
-        for c in wsb[r]:
-            c.font = F
-            c.alignment = Alignment(vertical="top", wrap_text=c.column == 7)
-        for col in (8, 9):
-            c = wsb.cell(r, col)
-            if c.value:
-                c.hyperlink, c.font = c.value, FL
-    wsb.auto_filter.ref = wsb.dimensions
-
-    # --- Projekte (neue Spalten R-U = Koordinaten, hinten angefügt)
-    wsp = wb.create_sheet("Projekte", 0)
-    sp_p = ["Projekt-ID", "Gemeinde", "Landkreis", "Bundesland", "Planname", "Plan-Nr.",
-            "Aufstellungskonzept", "Fläche (ha)", "Leistung (MW)", "Projektentwickler",
-            "Status", "Letzter Beschluss", "Datum letzter Beschluss", "Erster Beschluss (Datum)",
-            "Anzahl Beschlüsse", "Beschlusshistorie", "Links",
-            "Breitengrad (lat)", "Längengrad (lon)", "Koordinaten-Genauigkeit", "Karte (OSM)"]
-    kopf(wsp, sp_p, [11, 22, 20, 13, 40, 9, 16, 11, 12, 32, 12, 26, 13, 13, 11, 60, 50, 13, 13, 18, 10])
-    gruppen: dict[str, list[Beschluss]] = {}
-    for b in beschluesse:
-        gruppen.setdefault(b.projekt_id, []).append(b)
-
-    def erstes(werte):
-        return next((w for w in werte if w not in (None, "")), "")
-
-    for pid in sorted(gruppen):
-        ev = sorted(gruppen[pid], key=lambda x: x.datum or "")
-        neu = list(reversed(ev))
-        status = status_fuer(ev, heute)
-        historie = "\n".join(f"{e.datum or 'o. D.'}: {e.beschlusstyp}{' (negativ)' if e.negativ else ''}" for e in ev)
-        links = "\n".join(dict.fromkeys(x for e in ev for x in (e.link, e.dokument_link) if x))
-        lat = erstes(e.lat for e in neu)
-        lon = erstes(e.lon for e in neu)
-        genau = erstes(e.geo_genauigkeit for e in neu)
-        wsp.append([pid, ev[0].gemeinde, ev[0].landkreis, ev[0].bundesland,
-                    erstes(e.planname for e in neu), erstes(e.plannr for e in neu),
-                    erstes(e.konzept for e in neu), erstes(e.flaeche_ha for e in neu),
-                    erstes(e.leistung_mw for e in neu), erstes(e.entwickler for e in neu),
-                    status, ev[-1].beschlusstyp, ev[-1].datum, ev[0].datum, None, historie, links,
-                    lat if lat != "" else None, lon if lon != "" else None, genau, None])
-        r = wsp.max_row
-        wsp.cell(r, 15).value = f'=COUNTIF(Beschluesse!$A:$A,A{r})'
-        for c in wsp[r]:
-            c.font = F
-            c.alignment = Alignment(vertical="top", wrap_text=c.column in (5, 10, 16, 17))
-        wsp.cell(r, 11).fill = PatternFill("solid", fgColor=STATUS_FARBE.get(status, "FFFFFF"))
-        wsp.cell(r, 8).number_format = "0.0"
-        wsp.cell(r, 9).number_format = "0.0"
-        wsp.cell(r, 18).number_format = "0.00000"
-        wsp.cell(r, 19).number_format = "0.00000"
-        if lat != "" and lon != "":
-            karte = wsp.cell(r, 21)
-            karte.value = "Karte"
-            karte.hyperlink = f"https://www.openstreetmap.org/?mlat={lat:.5f}&mlon={lon:.5f}#map=13/{lat:.5f}/{lon:.5f}"
-            karte.font = FL
-    wsp.auto_filter.ref = wsp.dimensions
-
-    # --- Quellen
-    wsq = wb.create_sheet("Quellen")
-    kopf(wsq, ["Quelle", "Landkreis", "Typ", "URL", "Treffer", "Status Lauf"], [28, 20, 8, 70, 9, 50])
-    for name, info, n in protokoll:
-        q = next((x for x in quellen if x.name == name), None)
-        wsq.append([name, q.landkreis if q else "", q.typ if q else "", q.url if q else "", n, info])
-        for c in wsq[wsq.max_row]:
-            c.font = F
-
-    # --- Legende
-    wsl = wb.create_sheet("Legende")
-    zeilen = [
-        ("Stand", heute.isoformat()),
-        ("Projekte", "Eine Zeile pro Bebauungsplanverfahren; Werte stammen aus dem jüngsten Beschluss, der das Feld nennt."),
-        ("Beschluesse", "Eine Zeile pro Ratsvorlage/Beschluss; Grundlage für Historie und Status."),
-        ("Status", f"Abgelehnt = negativer Beschluss; Genehmigt = Satzungsbeschluss/Inkrafttreten; "
-                   f"Ruhend = > {RUHEND_NACH_MONATEN} Monate kein Beschluss; sonst In Planung."),
-        ("Extraktion", "heuristik = Regex-Regeln; gemini = LLM-Extraktion. Werte stichprobenartig prüfen."),
-        ("Datum", "Datum der Vorlage laut RIS, nicht zwingend das Sitzungsdatum."),
-        ("Koordinaten", "WGS84 (Breitengrad/Längengrad), per Geocoding ermittelt. Genauigkeit 'Gemeinde' = Position des "
-                        "Gemeindezentrums, NICHT der Standort der Anlage; 'Ortsteil/Gemarkung' = Position des Ortsteils. "
-                        "Leer = nicht gefunden."),
-        ("Quelle Koordinaten", "Gemeindemittelpunkte: Wikidata; Ortsteile: GeoNames (CC BY 4.0); "
-                               "optional OpenStreetMap-Mitwirkende (ODbL) via Nominatim."),
-    ]
-    kopf(wsl, ["Feld", "Erklärung"], [16, 110])
-    for z in zeilen:
-        wsl.append(list(z))
-        for c in wsl[wsl.max_row]:
-            c.font = F
-            c.alignment = Alignment(wrap_text=True, vertical="top")
-
-    wb.save(pfad)
-
-
-# --------------------------------------------------------------------------- #
-# Main
-# --------------------------------------------------------------------------- #
-def lade_quellen(pfad: str) -> list[Quelle]:
-    with open(pfad, encoding="utf-8") as f:
-        return [Quelle(**{k: (v or "").strip() for k, v in row.items() if k in Quelle.__dataclass_fields__})
-                for row in csv.DictReader(f) if row.get("url") and not row["name"].startswith("#")]
-
-
-def von_dict(d: dict) -> Beschluss:
-    return Beschluss(**{k: v for k, v in d.items() if k in Beschluss.__dataclass_fields__})
-
-
-def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
-    """Eine Quelle abrufen. Neue Beschlüsse landen im Zustand z (und werden nie zweimal verarbeitet)."""
-    print(f"→ {q.name} ({q.typ})")
+def oparl_endpunkte(http: pv.Http) -> dict[str, tuple[str, str]]:
+    """Wikidata-ID -> (Titel, System-URL)."""
     try:
-        typ, url = q.typ.lower(), q.url
-        http.diag_reset()
-        if typ == "auto":
-            gefunden = oparl_entdecken(http, url)
-            if gefunden:
-                typ, url = "oparl", gefunden
-            elif ist_sessionnet(http, _basis(url)):
-                typ = "sessionnet"
-            else:
-                typ = "html"
-            print(f"   erkannt: {typ} {url if gefunden else ''}")
-        qq = Quelle(q.name, q.landkreis, typ, url, q.bundesland)
-        zuletzt = z.marke(q.name, "zuletzt")
-        seit = a.seit
-        if zuletzt:   # 14 Tage Überlapp, falls Vorlagen nachträglich ergänzt werden
-            seit = max(a.seit, (dt.date.fromisoformat(zuletzt) - dt.timedelta(days=14)).isoformat())
-        if typ == "oparl":
-            roh_iter = oparl_vorlagen(http, qq, seit, z)
-        elif typ == "sessionnet":
-            si_max = z.marke(q.name, "si_max", 0)
-            roh_iter = sessionnet_vorlagen(http, qq, a.seit, zustand=z, stop_id=max(si_max - 200, 0))
-        else:
-            roh_iter = html_vorlagen(http, qq, seit, zustand=z)
-        n = 0
-        for roh in roh_iter:
-            schluessel = roh.get("schluessel") or roh["link"]
-            b = extrahiere_heuristisch(roh, qq)
-            if a.llm == "gemini":
-                b = extrahiere_gemini(roh, qq, b)
-                if b is None:
-                    z.verwirf(schluessel)
-                    continue
-            elif not PLANUNG_RE.search(roh["text"][:20000]):
-                z.verwirf(schluessel)
-                continue
-            b.schluessel = schluessel
-            b.gemeinde = geo.kanonisch(roh["titel"] + "\n" + roh["text"][:8000], b.landkreis, b.bundesland, b.gemeinde)
-            z.add(asdict(b))
-            n += 1
-            print(f"   + {b.datum or 'o. D.'} | {b.gemeinde} | {b.beschlusstyp} | {b.titel[:70]}")
-        z.setze(q.name, "zuletzt", dt.date.today().isoformat())
-        d = http.diag_reset()
-        info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
-        print(f"   = {n} neue Treffer | {info or 'keine Abrufe'}")
-        hinweis = " – robots.txt verbietet Zugriff, Betreiber um Erlaubnis fragen" \
-            if d.get("robots.txt verbietet") and not d.get("Seiten geladen") else ""
-        protokoll.append((q.name, f"ok ({typ}) | {info}{hinweis}"[:300], n))
+        import yaml
+        daten = yaml.safe_load(http.get(OPARL_ENDPOINTS, cache=False))
     except Exception as e:  # noqa: BLE001
-        d = http.diag_reset()
-        info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
-        print(f"   ! Fehler: {e} | {info}")
-        protokoll.append((q.name, f"Fehler: {e} | {info}"[:300], 0))
+        print(f"   ! OParl-Endpunktliste nicht geladen: {e}")
+        return {}
+    if isinstance(daten, dict):
+        daten = next((v for v in daten.values() if isinstance(v, list)), [])
+    return {str(x["wd"]): (x.get("title", ""), x["url"])
+            for x in daten if isinstance(x, dict) and x.get("wd") and x.get("url")}
 
 
-def main(argv=None) -> int:
+# --------------------------------------------------------------------------- #
+def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--quellen", default="quellen_alle.csv")
-    ap.add_argument("--land", nargs="+", help="nur Quellen dieser Bundesländer (Standard: alle in der Liste)")
-    ap.add_argument("--seit", default="2022-01-01", help="nur Vorlagen ab diesem Datum (YYYY-MM-DD)")
-    ap.add_argument("--llm", choices=["keins", "gemini"], default="keins")
-    ap.add_argument("--out", default=f"PV_Beschluesse_{dt.date.today():%Y-%m-%d}.xlsx")
-    ap.add_argument("--json", help="zusätzlich Rohdaten als JSON speichern")
-    ap.add_argument("--pause", type=float, default=REQUEST_PAUSE_S)
-    ap.add_argument("--daten", default="daten", help="Ordner für Bestand/Marken/Koordinaten (ins Repo committen)")
-    ap.add_argument("--kein-geocode", action="store_true", help="keine Koordinaten ermitteln")
-    ap.add_argument("--nominatim", action="store_true", help="Nominatim als Notnagel, wenn Tabelle/GeoNames nichts finden")
-    ap.add_argument("--nur-export", action="store_true", help="nichts abrufen; Excel aus dem gesamten gespeicherten Bestand")
-    a = ap.parse_args(argv)
+    ap.add_argument("--land", nargs="+", default=["Brandenburg"], choices=sorted(BUNDESLAENDER) + ["alle"])
+    ap.add_argument("--quellen", default="quellen_alle.csv", help="Master-Liste (wird fortgeschrieben)")
+    ap.add_argument("--seed", default="quellen_brandenburg.csv", help="wird einmalig übernommen, falls Master fehlt")
+    ap.add_argument("--gemeinden", default=os.path.join("daten", "gemeinden.csv"))
+    ap.add_argument("--budget", type=int, default=0, help="max. neu geprüfte Gemeinden pro Lauf (0 = alle)")
+    ap.add_argument("--recheck-tage", type=int, default=90, help="ohne RIS gefundene Gemeinden erst nach X Tagen erneut")
+    ap.add_argument("--raten", action="store_true", help="auch typische Subdomains/Pfade probieren")
+    ap.add_argument("--nur-gemeinden", action="store_true", help="nur Gemeindetabelle (Koordinaten) aktualisieren")
+    ap.add_argument("--pause", type=float, default=0.7)
+    a = ap.parse_args()
 
-    quellen = lade_quellen(a.quellen)
-    if a.land:
-        quellen = [q for q in quellen if (q.bundesland or "Brandenburg") in a.land]
+    http = pv.Http(pause=a.pause)
+    heute = dt.date.today()
+    laender = list(BUNDESLAENDER) if "alle" in a.land else a.land
 
-    if a.nur_export:
-        alle = [von_dict(d) for d in Zustand.alle_laender(a.daten)]
-        schreibe_excel(alle, quellen, a.out, [])
-        print(f"{len(alle)} Beschlüsse, {len({b.projekt_id for b in alle})} Projekte → {a.out}")
+    # --- Master-Quellenliste laden (oder aus Seed starten)
+    quellen = lade_csv(a.quellen) or lade_csv(a.seed)
+    quellen = [{k: (r.get(k) or "") for k in QUELLEN_FELDER} for r in quellen]
+    bekannt = {norm_basis(q["url"]): q for q in quellen if q["url"]}
+
+    # --- Gemeindetabelle aktualisieren (Wikidata, 1 Abfrage je Land)
+    tab = {r["ags"]: r for r in lade_csv(a.gemeinden)}
+    for land in laender:
+        print(f"Lade Gemeinden {land} aus Wikidata …")
+        for g in gemeinden(land, BUNDESLAENDER[land]):
+            alt = tab.get(g["ags"], {})
+            tab[g["ags"]] = {**{k: alt.get(k, "") for k in GEM_FELDER}, **{k: g[k] for k in
+                             ("qid", "ags", "name", "landkreis", "land", "amt", "web", "lat", "lon")}}
+        schreibe_csv(a.gemeinden, GEM_FELDER, sorted(tab.values(), key=lambda r: (r["land"], r["name"])))
+    print(f"   {sum(1 for r in tab.values() if r['land'] in laender)} Gemeinden in der Tabelle")
+    if a.nur_gemeinden:
         return 0
 
-    http = Http(pause=a.pause)
-    geo = Geocoder(daten=a.daten, user_agent=USER_AGENT, nominatim=a.nominatim)
-    alle: list[Beschluss] = []
-    protokoll: list = []
-    for land in sorted({q.bundesland or "Brandenburg" for q in quellen}):
-        print(f"\n=== {land} ===")
-        z = Zustand(a.daten, land)
-        for q in quellen:
-            if (q.bundesland or "Brandenburg") == land:
-                sammle_quelle(http, q, a, z, geo, protokoll)
-        beschluesse = [von_dict(d) for d in z.alle()]
-        uniq: dict = {}
-        for b in beschluesse:
-            uniq.setdefault((b.datum, b.gemeinde, b.titel), b)
-        beschluesse = list(uniq.values())
-        ordne_projekte_zu(beschluesse, BUNDESLAND_KUERZEL.get(land, land[:2].upper()))
-        if not a.kein_geocode and beschluesse:
-            print("Koordinaten …")
-            ok, fehlt = geocodiere_projekte(beschluesse, geo)
-            print(f"   {ok} Projekte mit Koordinate, {fehlt} ohne")
-            geo.bericht()
-        z.ersetze([asdict(b) for b in beschluesse])
-        z.speichern()
-        print(f"{land}: {z.neu} neue, {len(beschluesse)} gesamt")
-        alle += beschluesse
+    def sichern() -> None:
+        schreibe_csv(a.quellen, QUELLEN_FELDER, quellen)
+        schreibe_csv(a.gemeinden, GEM_FELDER, sorted(tab.values(), key=lambda r: (r["land"], r["name"])))
 
-    schreibe_excel(alle, quellen, a.out, protokoll)
-    if a.json:
-        with open(a.json, "w", encoding="utf-8") as f:
-            json.dump([asdict(b) for b in alle], f, ensure_ascii=False, indent=2)
-    print(f"\n{len(alle)} Beschlüsse, {len({b.projekt_id for b in alle})} Projekte → {a.out}")
+    def eintragen(g: dict, typ: str, url: str, erlaubt: bool = True) -> None:
+        basis = norm_basis(url)
+        g.update(ris_url=url, ris_typ=typ, ris_status="gefunden" if erlaubt else "gesperrt",
+                 geprueft_am=heute.isoformat())
+        if basis in bekannt:
+            hin = bekannt[basis]
+            if g["name"] not in hin["hinweis"]:
+                hin["hinweis"] = (hin["hinweis"] + "; " if hin["hinweis"] else "") + g["name"]
+            return
+        name = g["amt"] or g["name"]
+        zeile = {"name": name if erlaubt else f"# {name}", "landkreis": g["landkreis"], "typ": typ, "url": url,
+                 "bundesland": g["land"], "hinweis": ("" if erlaubt else "robots.txt verbietet Bots; ") + g["name"]}
+        quellen.append(zeile)
+        bekannt[basis] = zeile
+
+    # --- OParl-Endpunktliste per Wikidata-ID zuordnen (kein Crawl nötig)
+    for qid, (titel, url) in oparl_endpunkte(http).items():
+        g = next((r for r in tab.values() if r["qid"] == qid and r["land"] in laender), None)
+        if g and g["ris_status"] != "gefunden":
+            eintragen(g, "oparl", url)
+            print(f"   OParl-Liste: {g['name']} → {url}")
+
+    # --- Gemeinden prüfen
+    offen = []
+    for land in laender:
+        for g in tab.values():
+            if g["land"] != land or g["ris_status"] == "gefunden" or g["ris_status"] == "gesperrt":
+                continue
+            if g["geprueft_am"]:
+                alter = (heute - dt.date.fromisoformat(g["geprueft_am"])).days
+                if alter < a.recheck_tage:
+                    continue
+            offen.append(g)
+    if a.budget:
+        offen = offen[:a.budget]
+    print(f"\n{len(offen)} Gemeinden werden in diesem Lauf geprüft\n")
+
+    for i, g in enumerate(offen, 1):
+        print(f"[{i}/{len(offen)}] {g['land']} / {g['name']}", end=" ", flush=True)
+        try:
+            if not g["web"]:
+                g.update(ris_status="keine_homepage", geprueft_am=heute.isoformat())
+                print("– keine Homepage in Wikidata")
+                continue
+            cands = kandidaten(http, g["web"])
+            if a.raten and not cands:
+                cands = raten(urlparse(g["web"]).netloc)
+            gefunden = next((x for x in (pruefe(http, u) for u in cands) if x), None)
+            if not gefunden:
+                g.update(ris_status="kein_ris", geprueft_am=heute.isoformat())
+                print("– kein RIS erkannt")
+                continue
+            typ, url = gefunden
+            try:
+                erlaubt = http._erlaubt(url)
+            except Exception:  # noqa: BLE001
+                erlaubt = True
+            eintragen(g, typ, url, erlaubt)
+            print(f"→ {typ} {url}{'' if erlaubt else '  (robots.txt gesperrt)'}")
+        except Exception as e:  # noqa: BLE001
+            print(f"! Fehler: {e}")
+        if i % 25 == 0:
+            sichern()
+    sichern()
+
+    zaehle = {}
+    for g in tab.values():
+        if g["land"] in laender:
+            zaehle[g["ris_status"] or "ungeprüft"] = zaehle.get(g["ris_status"] or "ungeprüft", 0) + 1
+    print("\nStatus der Gemeinden:", ", ".join(f"{k}: {v}" for k, v in sorted(zaehle.items())))
+    print(f"Master-Liste: {len(quellen)} Zeilen → {a.quellen}")
+    print(f"Gemeindetabelle → {a.gemeinden}  (Gemeinden ohne RIS: Status 'kein_ris' / 'keine_homepage')")
     return 0
 
 
