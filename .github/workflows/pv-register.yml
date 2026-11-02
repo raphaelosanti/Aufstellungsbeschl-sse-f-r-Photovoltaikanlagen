@@ -8,12 +8,17 @@ on:
       seit:
         description: "Nur Vorlagen ab Datum (YYYY-MM-DD), gilt für den ersten Lauf je Quelle"
         default: "2022-01-01"
+      nur_export:
+        description: "Nur zusammenführen (kein Sammeln), nutzt den vorhandenen Bestand in daten/"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
 jobs:
   sammeln:
+    if: ${{ github.event.inputs.nur_export != 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 340
     strategy:
@@ -53,13 +58,14 @@ jobs:
           git add daten
           git commit -m "Bestand ${{ matrix.land }}" || echo "nichts zu committen"
           for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
-
   zusammenfuehren:
     needs: sammeln
     if: always()
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}   # neuesten Stand holen, inkl. der Commits der sammeln-Jobs
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
