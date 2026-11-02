@@ -1,24 +1,31 @@
 #!/usr/bin/env python3
 """
-PV-Beschlussregister (MVP, Pilot Brandenburg)
-=============================================
+PV-Beschlussregister (v2: inkrementell, mehrere Bundesländer)
+=============================================================
 
 Sammelt Beschlüsse zu Photovoltaik-Bebauungsplänen aus Ratsinformationssystemen
 (OParl-API oder RIS-HTML), extrahiert Projektdaten (heuristisch oder per Gemini),
 ergänzt Koordinaten (Längen-/Breitengrad) und schreibt eine Excel-Datei mit den
 Tabellen "Projekte" und "Beschluesse".
 
+Neu in v2:
+  * Bestand liegt in daten/ (beschluesse_<land>.jsonl + marken_<land>.json) und wird committet.
+    Ein Lauf verarbeitet nur Neues (bekannte Vorlagen und verworfene werden übersprungen,
+    SessionNet geht nur bis zur Marke des letzten Laufs zurück).
+  * Koordinaten über lokale Tabellen (daten/gemeinden.csv aus quellen_entdecken.py + GeoNames),
+    Nominatim nur optional (--nominatim). Fehlschläge werden mit Grund geloggt.
+  * Quellenliste quellen_alle.csv (wird von quellen_entdecken.py fortgeschrieben), Filter --land.
+  * --nur-export baut ein Excel aus dem Bestand ALLER Länder.
+
 Aufruf:
-    python pv_beschluesse.py --quellen quellen_brandenburg.csv --seit 2023-01-01
-    python pv_beschluesse.py --quellen quellen_brandenburg.csv --llm gemini   # GEMINI_API_KEY setzen
-    python pv_beschluesse.py --kein-geocode                                    # ohne Koordinaten
+    python pv_beschluesse.py --quellen quellen_alle.csv --land Brandenburg --seit 2023-01-01
+    python pv_beschluesse.py --llm gemini            # GEMINI_API_KEY setzen
+    python pv_beschluesse.py --nur-export --out PV_Beschluesse_Gesamt.xlsx
+    python pv_beschluesse.py --kein-geocode          # ohne Koordinaten
 
-Koordinaten: Es wird je Projekt einmal über OpenStreetMap/Nominatim gesucht
-(Ortsteil/Gemarkung, sonst Gemeinde). Ergebnisse stehen im Cache (.cache_pv/geocache.json),
-Wiederholungsläufe sind also schnell. PV_KONTAKT (E-Mail) bitte setzen, die
-Nominatim-Nutzungsregeln verlangen einen identifizierbaren User-Agent.
+PV_KONTAKT (E-Mail) bitte setzen: Nutzungsregeln verlangen einen identifizierbaren User-Agent.
 
-Abhängigkeiten: pip install requests beautifulsoup4 openpyxl pypdf
+Abhängigkeiten: pip install requests beautifulsoup4 openpyxl pypdf pyyaml
 """
 from __future__ import annotations
 
@@ -40,19 +47,21 @@ from urllib.parse import urljoin, urlparse, quote
 import requests
 from bs4 import BeautifulSoup
 
+from pv_geo import Geocoder
+from pv_state import Zustand
+
 USER_AGENT = ("PV-Beschlussregister-MVP/0.1 (Marktbeobachtung; Kontakt: "
-              + os.environ.get("PV_KONTAKT", "r.hengl@blindleister.de") + ")")
+              + (os.environ.get("PV_KONTAKT") or "r.hengl@blindleister.de") + ")")
 REQUEST_PAUSE_S = 1.0          # Höflichkeitspause zwischen Requests pro Host
 CACHE_DIR = ".cache_pv"
 RUHEND_NACH_MONATEN = 18       # kein neuer Beschluss seit X Monaten -> "Ruhend"
 
-# Geocoding (OpenStreetMap Nominatim): max. 1 Anfrage pro Sekunde, Ergebnisse cachen
-NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-GEO_CACHE = os.path.join(CACHE_DIR, "geocache.json")
-GEO_PAUSE_S = 1.1
-# Plausibilitätsprüfung: (lat_min, lat_max, lon_min, lon_max)
-BBOX = {"Brandenburg": (51.35, 53.60, 11.20, 14.80)}
-BBOX_DE = (47.2, 55.1, 5.8, 15.1)
+BUNDESLAND_KUERZEL = {
+    "Brandenburg": "BB", "Sachsen-Anhalt": "ST", "Mecklenburg-Vorpommern": "MV", "Sachsen": "SN",
+    "Thüringen": "TH", "Niedersachsen": "NI", "Schleswig-Holstein": "SH", "Nordrhein-Westfalen": "NW",
+    "Hessen": "HE", "Rheinland-Pfalz": "RP", "Baden-Württemberg": "BW", "Bayern": "BY",
+    "Saarland": "SL", "Berlin": "BE", "Hamburg": "HH", "Bremen": "HB",
+}
 
 # --------------------------------------------------------------------------- #
 # Keywords
@@ -140,6 +149,7 @@ class Beschluss:
     lat: float | None = None        # Breitengrad (WGS84)
     lon: float | None = None        # Längengrad (WGS84)
     geo_genauigkeit: str = ""       # "Ortsteil/Gemarkung" | "Gemeinde" | ""
+    schluessel: str = ""            # stabiler Schlüssel der Vorlage (verhindert Doppelverarbeitung)
 
 
 # --------------------------------------------------------------------------- #
@@ -277,7 +287,7 @@ def oparl_liste(http: Http, url: str, params: dict | None = None, max_seiten: in
         seite += 1
 
 
-def oparl_vorlagen(http: Http, q: Quelle, seit: str | None):
+def oparl_vorlagen(http: Http, q: Quelle, seit: str | None, zustand=None):
     system = http.json(q.url, cache=False)
     bodies = system["body"]
     bodies = list(oparl_liste(http, bodies)) if isinstance(bodies, str) else bodies
@@ -297,6 +307,8 @@ def oparl_vorlagen(http: Http, q: Quelle, seit: str | None):
                 continue
             datum = (p.get("date") or "")[:10]
             if seit and datum and datum < seit:
+                continue
+            if zustand and zustand.hat(p.get("web") or p.get("id", "")):
                 continue
             main = p.get("mainFile") or {}
             if isinstance(main, str):
@@ -323,7 +335,7 @@ DETAIL_LINK_RE = re.compile(r"(vo0050\.php\?__kvonr=\d+|vo020\.asp\?VOLFDNR=\d+|
 UEBERSICHT_PFADE = ["vo0040.php", "vo040.asp", "bi/vo0040.php", "bi/vo040.asp"]
 
 
-def html_vorlagen(http: Http, q: Quelle, seit: str | None, max_seiten: int = 30):
+def html_vorlagen(http: Http, q: Quelle, seit: str | None, max_seiten: int = 30, zustand=None):
     start_urls = [q.url] if re.search(r"vo0?040", q.url) else \
         [urljoin(q.url if q.url.endswith("/") else q.url + "/", p) for p in UEBERSICHT_PFADE]
     gesehen_seiten, gesehen_detail = set(), set()
@@ -347,6 +359,8 @@ def html_vorlagen(http: Http, q: Quelle, seit: str | None, max_seiten: int = 30)
                 if absu in gesehen_detail or not PV_RE.search(kontext):
                     continue
                 gesehen_detail.add(absu)
+                if zustand and zustand.hat(absu):
+                    continue
                 try:
                     detail = html_text(http.get(absu))
                 except Exception:  # noqa: BLE001
@@ -370,7 +384,7 @@ def html_vorlagen(http: Http, q: Quelle, seit: str | None, max_seiten: int = 30)
 # SessionNet 5.x hat oft keine öffentliche Vorlagenliste. Sitzungen haben aber
 # fortlaufende Nummern (si0057.php?__ksinr=N) über alle Gemeinden des Amtes.
 # Wir starten bei der höchsten bekannten Nummer und gehen rückwärts, bis die
-# Sitzungen älter als --seit sind.
+# Sitzungen älter als --seit sind (oder bis zur Marke des letzten Laufs).
 SI_ID_RE = re.compile(r"(?:__ksinr=|rssgo\.php\?si)(\d+)")
 TOP_LINK_RE = re.compile(r"(to0050\.(?:php|asp)\?__ktonr=\d+|vo0050\.(?:php|asp)\?__kvonr=\d+)", re.I)
 
@@ -418,15 +432,17 @@ def sitzungsdatum(text: str) -> str:
 
 
 def sessionnet_vorlagen(http: Http, q: Quelle, seit: str | None,
-                        max_sitzungen: int = 2500, stop_nach_alt: int = 60):
+                        max_sitzungen: int = 2500, stop_nach_alt: int = 60,
+                        zustand=None, stop_id: int = 0):
     basis = _basis(q.url)
     ext = sessionnet_endung(http, basis)
     start = sessionnet_hoechste_id(http, basis, ext)
     if not start:
         raise RuntimeError("keine Sitzungsnummern gefunden (RSS/Kalender nicht erreichbar)")
-    print(f"   SessionNet: starte bei Sitzung {start}, gehe rückwärts")
+    print(f"   SessionNet: starte bei Sitzung {start}, gehe rückwärts"
+          + (f" bis {stop_id} (Marke des letzten Laufs)" if stop_id else ""))
     alt_in_folge, gesehen = 0, set()
-    for ksinr in range(start + 20, max(start + 20 - max_sitzungen, 0), -1):
+    for ksinr in range(start + 20, max(start + 20 - max_sitzungen, stop_id, 0), -1):
         url = urljoin(basis, f"si0057.{ext}?__ksinr={ksinr}")
         try:
             html = http.get(url, cache=False)
@@ -444,6 +460,8 @@ def sessionnet_vorlagen(http: Http, q: Quelle, seit: str | None,
             alt_in_folge += 1
             if alt_in_folge >= stop_nach_alt:
                 print(f"   SessionNet: {stop_nach_alt} Sitzungen in Folge vor {seit}, stoppe bei {ksinr}")
+                if zustand:
+                    zustand.setze(q.name, "si_max", start)
                 return
             continue
         alt_in_folge = 0
@@ -461,6 +479,9 @@ def sessionnet_vorlagen(http: Http, q: Quelle, seit: str | None,
             if ziel in gesehen:
                 continue
             gesehen.add(ziel)
+            top_key = ziel
+            if zustand and zustand.hat(top_key):
+                continue
             http.zaehle("PV-Tagesordnungspunkte")
             try:
                 detail_html = http.get(ziel)
@@ -485,7 +506,9 @@ def sessionnet_vorlagen(http: Http, q: Quelle, seit: str | None,
             yield {"titel": kontext[:300], "datum": datum,
                    "text": f"{gremium}\n{kontext}\n{html_text(detail_html)}\n{anhang}",
                    "link": ziel, "dokument_link": pdfs[0] if pdfs else "",
-                   "body_name": gremium or q.name}
+                   "body_name": gremium or q.name, "schluessel": top_key}
+    if zustand:
+        zustand.setze(q.name, "si_max", start)
 
 
 def erstes_datum(text: str) -> str:
@@ -632,12 +655,18 @@ def _norm(s: str) -> str:
     return re.sub(r"[^a-zäöüß0-9]+", " ", s).strip()
 
 
-def ordne_projekte_zu(beschluesse: list[Beschluss], schwelle: float = 0.82) -> None:
-    projekte: list[tuple[str, str, str, str]] = []   # (id, gemeinde_norm, nr, name_norm)
-    for b in sorted(beschluesse, key=lambda x: x.datum or "9999"):
+def ordne_projekte_zu(beschluesse: list[Beschluss], praefix: str = "BB", schwelle: float = 0.82) -> None:
+    """Projekt-IDs bleiben stabil: bereits vergebene IDs werden übernommen, neue Beschlüsse werden
+    zugeordnet oder bekommen die nächste freie Nummer (PV-<Land>-0001, …)."""
+    projekte: dict[str, tuple[str, str, str, str]] = {}
+    for b in beschluesse:
+        if b.projekt_id and b.projekt_id not in projekte:
+            projekte[b.projekt_id] = (b.projekt_id, _norm(b.gemeinde), b.plannr.lower(), _norm(b.planname or b.titel))
+    naechste = max([int(pid.rsplit("-", 1)[-1]) for pid in projekte if pid.rsplit("-", 1)[-1].isdigit()] + [0]) + 1
+    for b in sorted((x for x in beschluesse if not x.projekt_id), key=lambda x: x.datum or "9999"):
         g, nr, nm = _norm(b.gemeinde), b.plannr.lower(), _norm(b.planname or b.titel)
         treffer = None
-        for pid, pg, pnr, pnm in projekte:
+        for pid, pg, pnr, pnm in projekte.values():
             if pg != g:
                 continue
             if nr and pnr and nr == pnr:
@@ -647,8 +676,9 @@ def ordne_projekte_zu(beschluesse: list[Beschluss], schwelle: float = 0.82) -> N
                 treffer = pid
                 break
         if not treffer:
-            treffer = f"PV-{len(projekte) + 1:04d}"
-            projekte.append((treffer, g, nr, nm))
+            treffer = f"PV-{praefix}-{naechste:04d}"
+            naechste += 1
+            projekte[treffer] = (treffer, g, nr, nm)
         b.projekt_id = treffer
 
 
@@ -668,95 +698,10 @@ def status_fuer(events: list[Beschluss], heute: dt.date) -> str:
 
 
 # --------------------------------------------------------------------------- #
-# Koordinaten (OpenStreetMap Nominatim)
+# Koordinaten (Logik steckt in pv_geo.py)
 # --------------------------------------------------------------------------- #
-def _gemeinde_fuer_suche(name: str) -> str:
-    """Bereinigt den extrahierten Gemeindenamen für die Suche. Leer, wenn er nach
-    Sitzungs-/Gremientext aussieht (dann lieber keine Koordinate als eine falsche)."""
-    n = re.sub(r"^(?:Gemeindevertretung|Stadtverordnetenversammlung|Gemeinde|Stadt|Ortsgemeinde)\s+", "", name.strip())
-    n = re.sub(r"\s+", " ", n)
-    if len(n) > 50 or re.search(r"sitzung|ausschuss|\d{2}\.\d{2}\.\d{4}", n, re.I):
-        return ""
-    return n
-
-
-class Geocoder:
-    """Sucht Koordinaten über Nominatim. Beachtet die Nutzungsregeln: max. 1 Anfrage
-    pro Sekunde, identifizierbarer User-Agent, Ergebnisse werden dauerhaft gecacht."""
-
-    def __init__(self, pfad: str = GEO_CACHE, pause: float = GEO_PAUSE_S):
-        self.pfad, self.pause, self.letzte = pfad, pause, 0.0
-        os.makedirs(os.path.dirname(pfad) or ".", exist_ok=True)
-        try:
-            with open(pfad, encoding="utf-8") as f:
-                self.cache: dict[str, list[float] | None] = json.load(f)
-        except (OSError, ValueError):
-            self.cache = {}
-        self.s = requests.Session()
-        self.s.headers["User-Agent"] = USER_AGENT
-        self.neu = 0
-
-    def speichern(self) -> None:
-        with open(self.pfad, "w", encoding="utf-8") as f:
-            json.dump(self.cache, f, ensure_ascii=False, indent=0)
-
-    def _suche(self, query: str, bbox: tuple[float, float, float, float]):
-        """Gibt (lat, lon) zurück oder None. Netzwerkfehler werden NICHT gecacht."""
-        if query in self.cache:
-            c = self.cache[query]
-            return tuple(c) if c else None
-        wait = self.pause - (time.time() - self.letzte)
-        if wait > 0:
-            time.sleep(wait)
-        for versuch in range(2):
-            try:
-                r = self.s.get(NOMINATIM_URL, timeout=20, params={
-                    "q": query, "format": "jsonv2", "limit": 1, "countrycodes": "de"})
-                self.letzte = time.time()
-                if r.status_code == 429:
-                    time.sleep(10 * (versuch + 1))
-                    continue
-                r.raise_for_status()
-                treffer = r.json()
-                break
-            except (requests.RequestException, ValueError):
-                self.letzte = time.time()
-                if versuch == 1:
-                    return None
-                time.sleep(5)
-        else:
-            return None
-        self.neu += 1
-        ergebnis = None
-        if treffer:
-            lat, lon = float(treffer[0]["lat"]), float(treffer[0]["lon"])
-            if bbox[0] <= lat <= bbox[1] and bbox[2] <= lon <= bbox[3]:
-                ergebnis = (lat, lon)
-        self.cache[query] = list(ergebnis) if ergebnis else None
-        return ergebnis
-
-    def finde(self, ortsteil: str, gemeinde: str, landkreis: str, bundesland: str):
-        """Gibt (lat, lon, genauigkeit) zurück; (None, None, "") wenn nichts gefunden."""
-        bbox = BBOX.get(bundesland, BBOX_DE)
-        gem = _gemeinde_fuer_suche(gemeinde)
-        if not gem:
-            return None, None, ""
-        kandidaten = []
-        if ortsteil:
-            kandidaten.append((f"{ortsteil}, {gem}, {bundesland}, Deutschland", "Ortsteil/Gemarkung"))
-        if landkreis:
-            kandidaten.append((f"{gem}, {landkreis}, {bundesland}, Deutschland", "Gemeinde"))
-        kandidaten.append((f"{gem}, {bundesland}, Deutschland", "Gemeinde"))
-        for query, genau in kandidaten:
-            pos = self._suche(query, bbox)
-            if pos:
-                return pos[0], pos[1], genau
-        return None, None, ""
-
-
-def geocodiere_projekte(beschluesse: list[Beschluss], geo: Geocoder) -> tuple[int, int]:
-    """Koordinaten je Projekt suchen und auf alle Beschlüsse des Projekts übertragen.
-    Gibt (mit Koordinate, ohne Koordinate) zurück."""
+def geocodiere_projekte(beschluesse: list[Beschluss], geo) -> tuple[int, int]:
+    """Koordinaten je Projekt; schon geocodierte Projekte werden nicht erneut abgefragt."""
     gruppen: dict[str, list[Beschluss]] = {}
     for b in beschluesse:
         gruppen.setdefault(b.projekt_id, []).append(b)
@@ -765,7 +710,11 @@ def geocodiere_projekte(beschluesse: list[Beschluss], geo: Geocoder) -> tuple[in
         ev = sorted(ev, key=lambda x: x.datum or "")
         neu = list(reversed(ev))
         ortsteil = next((e.ortsteil for e in neu if e.ortsteil), "")
-        lat, lon, genau = geo.finde(ortsteil, ev[0].gemeinde, ev[0].landkreis, ev[0].bundesland)
+        ref = next((e for e in neu if e.lat is not None), None)
+        if ref and not (ref.geo_genauigkeit == "Gemeinde" and ortsteil):
+            lat, lon, genau = ref.lat, ref.lon, ref.geo_genauigkeit
+        else:
+            lat, lon, genau = geo.finde(ortsteil, ev[0].gemeinde, ev[0].landkreis, ev[0].bundesland, projekt=pid)
         for e in ev:
             e.lat, e.lon, e.geo_genauigkeit = lat, lon, genau
         if lat is None:
@@ -890,7 +839,8 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
         ("Koordinaten", "WGS84 (Breitengrad/Längengrad), per Geocoding ermittelt. Genauigkeit 'Gemeinde' = Position des "
                         "Gemeindezentrums, NICHT der Standort der Anlage; 'Ortsteil/Gemarkung' = Position des Ortsteils. "
                         "Leer = nicht gefunden."),
-        ("Quelle Koordinaten", "© OpenStreetMap-Mitwirkende (ODbL), Suche über Nominatim."),
+        ("Quelle Koordinaten", "Gemeindemittelpunkte: Wikidata; Ortsteile: GeoNames (CC BY 4.0); "
+                               "optional OpenStreetMap-Mitwirkende (ODbL) via Nominatim."),
     ]
     kopf(wsl, ["Feld", "Erklärung"], [16, 110])
     for z in zeilen:
@@ -911,78 +861,118 @@ def lade_quellen(pfad: str) -> list[Quelle]:
                 for row in csv.DictReader(f) if row.get("url") and not row["name"].startswith("#")]
 
 
+def von_dict(d: dict) -> Beschluss:
+    return Beschluss(**{k: v for k, v in d.items() if k in Beschluss.__dataclass_fields__})
+
+
+def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
+    """Eine Quelle abrufen. Neue Beschlüsse landen im Zustand z (und werden nie zweimal verarbeitet)."""
+    print(f"→ {q.name} ({q.typ})")
+    try:
+        typ, url = q.typ.lower(), q.url
+        http.diag_reset()
+        if typ == "auto":
+            gefunden = oparl_entdecken(http, url)
+            if gefunden:
+                typ, url = "oparl", gefunden
+            elif ist_sessionnet(http, _basis(url)):
+                typ = "sessionnet"
+            else:
+                typ = "html"
+            print(f"   erkannt: {typ} {url if gefunden else ''}")
+        qq = Quelle(q.name, q.landkreis, typ, url, q.bundesland)
+        zuletzt = z.marke(q.name, "zuletzt")
+        seit = a.seit
+        if zuletzt:   # 14 Tage Überlapp, falls Vorlagen nachträglich ergänzt werden
+            seit = max(a.seit, (dt.date.fromisoformat(zuletzt) - dt.timedelta(days=14)).isoformat())
+        if typ == "oparl":
+            roh_iter = oparl_vorlagen(http, qq, seit, z)
+        elif typ == "sessionnet":
+            si_max = z.marke(q.name, "si_max", 0)
+            roh_iter = sessionnet_vorlagen(http, qq, a.seit, zustand=z, stop_id=max(si_max - 200, 0))
+        else:
+            roh_iter = html_vorlagen(http, qq, seit, zustand=z)
+        n = 0
+        for roh in roh_iter:
+            schluessel = roh.get("schluessel") or roh["link"]
+            b = extrahiere_heuristisch(roh, qq)
+            if a.llm == "gemini":
+                b = extrahiere_gemini(roh, qq, b)
+                if b is None:
+                    z.verwirf(schluessel)
+                    continue
+            elif not PLANUNG_RE.search(roh["text"][:20000]):
+                z.verwirf(schluessel)
+                continue
+            b.schluessel = schluessel
+            b.gemeinde = geo.kanonisch(roh["titel"] + "\n" + roh["text"][:8000], b.landkreis, b.bundesland, b.gemeinde)
+            z.add(asdict(b))
+            n += 1
+            print(f"   + {b.datum or 'o. D.'} | {b.gemeinde} | {b.beschlusstyp} | {b.titel[:70]}")
+        z.setze(q.name, "zuletzt", dt.date.today().isoformat())
+        d = http.diag_reset()
+        info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
+        print(f"   = {n} neue Treffer | {info or 'keine Abrufe'}")
+        hinweis = " – robots.txt verbietet Zugriff, Betreiber um Erlaubnis fragen" \
+            if d.get("robots.txt verbietet") and not d.get("Seiten geladen") else ""
+        protokoll.append((q.name, f"ok ({typ}) | {info}{hinweis}"[:300], n))
+    except Exception as e:  # noqa: BLE001
+        d = http.diag_reset()
+        info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
+        print(f"   ! Fehler: {e} | {info}")
+        protokoll.append((q.name, f"Fehler: {e} | {info}"[:300], 0))
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--quellen", default="quellen_brandenburg.csv")
+    ap.add_argument("--quellen", default="quellen_alle.csv")
+    ap.add_argument("--land", nargs="+", help="nur Quellen dieser Bundesländer (Standard: alle in der Liste)")
     ap.add_argument("--seit", default="2022-01-01", help="nur Vorlagen ab diesem Datum (YYYY-MM-DD)")
     ap.add_argument("--llm", choices=["keins", "gemini"], default="keins")
-    ap.add_argument("--out", default=f"PV_Beschluesse_Brandenburg_{dt.date.today():%Y-%m-%d}.xlsx")
+    ap.add_argument("--out", default=f"PV_Beschluesse_{dt.date.today():%Y-%m-%d}.xlsx")
     ap.add_argument("--json", help="zusätzlich Rohdaten als JSON speichern")
     ap.add_argument("--pause", type=float, default=REQUEST_PAUSE_S)
+    ap.add_argument("--daten", default="daten", help="Ordner für Bestand/Marken/Koordinaten (ins Repo committen)")
     ap.add_argument("--kein-geocode", action="store_true", help="keine Koordinaten ermitteln")
+    ap.add_argument("--nominatim", action="store_true", help="Nominatim als Notnagel, wenn Tabelle/GeoNames nichts finden")
+    ap.add_argument("--nur-export", action="store_true", help="nichts abrufen; Excel aus dem gesamten gespeicherten Bestand")
     a = ap.parse_args(argv)
 
-    http = Http(pause=a.pause)
     quellen = lade_quellen(a.quellen)
+    if a.land:
+        quellen = [q for q in quellen if (q.bundesland or "Brandenburg") in a.land]
+
+    if a.nur_export:
+        alle = [von_dict(d) for d in Zustand.alle_laender(a.daten)]
+        schreibe_excel(alle, quellen, a.out, [])
+        print(f"{len(alle)} Beschlüsse, {len({b.projekt_id for b in alle})} Projekte → {a.out}")
+        return 0
+
+    http = Http(pause=a.pause)
+    geo = Geocoder(daten=a.daten, user_agent=USER_AGENT, nominatim=a.nominatim)
     alle: list[Beschluss] = []
-    protokoll = []
-
-    for q in quellen:
-        print(f"→ {q.name} ({q.typ})")
-        try:
-            typ, url = q.typ.lower(), q.url
-            http.diag_reset()
-            if typ == "auto":
-                gefunden = oparl_entdecken(http, url)
-                if gefunden:
-                    typ, url = "oparl", gefunden
-                elif ist_sessionnet(http, _basis(url)):
-                    typ = "sessionnet"
-                else:
-                    typ = "html"
-                print(f"   erkannt: {typ} {url if gefunden else ''}")
-            qq = Quelle(q.name, q.landkreis, typ, url, q.bundesland)
-            if typ == "oparl":
-                roh_iter = oparl_vorlagen(http, qq, a.seit)
-            elif typ == "sessionnet":
-                roh_iter = sessionnet_vorlagen(http, qq, a.seit)
-            else:
-                roh_iter = html_vorlagen(http, qq, a.seit)
-            n = 0
-            for roh in roh_iter:
-                b = extrahiere_heuristisch(roh, qq)
-                if a.llm == "gemini":
-                    b = extrahiere_gemini(roh, qq, b)
-                    if b is None:
-                        continue
-                elif not PLANUNG_RE.search(roh["text"][:20000]):
-                    continue
-                alle.append(b)
-                n += 1
-                print(f"   + {b.datum or 'o. D.'} | {b.gemeinde} | {b.beschlusstyp} | {b.titel[:70]}")
-            d = http.diag_reset()
-            info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
-            print(f"   = {n} Treffer | {info or 'keine Abrufe'}")
-            hinweis = " – robots.txt verbietet Zugriff, Betreiber um Erlaubnis fragen" if d.get("robots.txt verbietet") and not d.get("Seiten geladen") else ""
-            protokoll.append((q.name, f"ok ({typ}) | {info}{hinweis}"[:300], n))
-        except Exception as e:  # noqa: BLE001
-            d = http.diag_reset()
-            info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
-            print(f"   ! Fehler: {e} | {info}")
-            protokoll.append((q.name, f"Fehler: {e} | {info}"[:300], 0))
-
-    uniq = {}
-    for b in alle:
-        uniq.setdefault((b.datum, b.gemeinde, b.titel), b)
-    alle = list(uniq.values())
-    
-    ordne_projekte_zu(alle)
-
-    if not a.kein_geocode and alle:
-        print("\nKoordinaten werden ermittelt (Nominatim, ca. 1 Anfrage/Sekunde, gecacht)…")
-        geo = Geocoder()
-        ok, fehlt = geocodiere_projekte(alle, geo)
-        print(f"   {ok} Projekte mit Koordinate, {fehlt} ohne ({geo.neu} neue Anfragen)")
+    protokoll: list = []
+    for land in sorted({q.bundesland or "Brandenburg" for q in quellen}):
+        print(f"\n=== {land} ===")
+        z = Zustand(a.daten, land)
+        for q in quellen:
+            if (q.bundesland or "Brandenburg") == land:
+                sammle_quelle(http, q, a, z, geo, protokoll)
+        beschluesse = [von_dict(d) for d in z.alle()]
+        uniq: dict = {}
+        for b in beschluesse:
+            uniq.setdefault((b.datum, b.gemeinde, b.titel), b)
+        beschluesse = list(uniq.values())
+        ordne_projekte_zu(beschluesse, BUNDESLAND_KUERZEL.get(land, land[:2].upper()))
+        if not a.kein_geocode and beschluesse:
+            print("Koordinaten …")
+            ok, fehlt = geocodiere_projekte(beschluesse, geo)
+            print(f"   {ok} Projekte mit Koordinate, {fehlt} ohne")
+            geo.bericht()
+        z.ersetze([asdict(b) for b in beschluesse])
+        z.speichern()
+        print(f"{land}: {z.neu} neue, {len(beschluesse)} gesamt")
+        alle += beschluesse
 
     schreibe_excel(alle, quellen, a.out, protokoll)
     if a.json:
