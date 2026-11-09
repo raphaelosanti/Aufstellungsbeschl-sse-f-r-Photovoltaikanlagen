@@ -1,28 +1,32 @@
 {
  "Altlandsberg": {
-  "zuletzt": "2026-11-02"
+  "zuletzt": "2026-11-09"
  },
  "Amt Barnim-Oderbruch": {
-  "si_max": 2007,
-  "zuletzt": "2026-11-02"
+  "si_max": 1930,
+  "zuletzt": "2026-11-09"
  },
  "Amt Lebus": {
   "si_max": 4736,
-  "zuletzt": "2026-11-02"
+  "zuletzt": "2026-11-09"
  },
  "Britz": {
-  "zuletzt": "2026-11-02"
+  "zuletzt": "2026-11-09"
  },
  "Gemeinde Rietz-Neuendorf": {
   "si_max": 6470,
-  "zuletzt": "2026-11-02"
+  "zuletzt": "2026-11-09"
  },
  "_verworfen": [
+  "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=46883",
+  "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=47349",
+  "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=47869",
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=48549",
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=49180",
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=49195",
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=49467",
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=51027",
+  "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=6855",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=6950",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7019",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7020",
