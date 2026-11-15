@@ -110,5 +110,21 @@ Sembach,Kaiserslautern,oparl,https://enkenbach-alsenborn.gremien.info/oparl/syst
 Salzatal,Saalekreis,oparl,https://salzatal.gremien.info/oparl/system,Sachsen-Anhalt,Salzatal
 Altlandsberg,Märkisch-Oderland,auto,https://ratsinfo-online.net/altlandsberg-bi/,Brandenburg,Altlandsberg
 Beelitz,Potsdam-Mittelmark,sessionnet,https://beelitz.de/ratsinformation/,Brandenburg,Beelitz
-Amt Barnim-Oderbruch,Märkisch-Oderland,sessionnet,http://buergerinfo.barnim-oderbruch.de/,Brandenburg,Bliesdorf
-Britz,Barnim,auto,https://ratsinfo-online.net/britzchorinoderberg-bi/,Brandenburg,Britz
+Amt Barnim-Oderbruch,Märkisch-Oderland,sessionnet,http://buergerinfo.barnim-oderbruch.de/,Brandenburg,Bliesdorf; Neulewin; Oderaue; Prötzel; Reichenow-Möglin
+Britz,Barnim,auto,https://ratsinfo-online.net/britzchorinoderberg-bi/,Brandenburg,Britz; Chorin; Hohenfinow; Liepe; Lunow-Stolzenhagen; Oderberg; Parsteinsee
+Drachhausen,Spree-Neiße,sessionnet,https://www.amtpeitz.de/sessionnet/buergerinfo/,Brandenburg,Drachhausen; Drehnow; Jänschwalde; Peitz; Tauer; Teichland; Turnow-Preilack
+Eberswalde,Barnim,sessionnet,https://sessionnet.eberswalde.de/sessionnet/bi/,Brandenburg,Eberswalde
+Glienicke/Nordbahn,Oberhavel,html,https://www.glienicke.eu/allris/vo040.asp,Brandenburg,Glienicke/Nordbahn
+# Hohen Neuendorf,Oberhavel,auto,https://ratsinfo-online.net/hohenneuendorf-ri/,Brandenburg,robots.txt verbietet Bots; Hohen Neuendorf
+Luckenwalde,Teltow-Fläming,sessionnet,https://www.luckenwalde.de/Rathaus/Politik/B%C3%BCrgerinfoportal/Sitzungskalender/,Brandenburg,Luckenwalde
+Neuenhagen bei Berlin,Märkisch-Oderland,sessionnet,https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/politik/ratsinfoportal/,Brandenburg,Neuenhagen bei Berlin
+Petershagen/Eggersdorf,Märkisch-Oderland,sessionnet,https://doppeldorf.de/gemeindepolitik/rats-und-buergerinformationssystem/,Brandenburg,Petershagen/Eggersdorf
+# Rüdersdorf bei Berlin,Märkisch-Oderland,auto,https://ratsinfo-online.net/ruedersdorf-bi/,Brandenburg,robots.txt verbietet Bots; Rüdersdorf bei Berlin
+# Schorfheide,Barnim,auto,http://www.ratsinfo-online.net/schorfheide-bi/,Brandenburg,robots.txt verbietet Bots; Schorfheide
+# Schwielowsee,Potsdam-Mittelmark,auto,https://ssl.ratsinfo-online.net/schwielowsee-bi/,Brandenburg,robots.txt verbietet Bots; Schwielowsee
+Vetschau/Spreewald,Oberspreewald-Lausitz,sessionnet,https://stadt.vetschau.de/verwaltung-buergerservice/stadtpolitik/ratsinformationssystem/,Brandenburg,Vetschau/Spreewald
+Werneuchen,Barnim,sessionnet,https://www.werneuchen-barnim.de/stadtpolitik/sitzungskalender/,Brandenburg,Werneuchen
+# Zeuthen,Dahme-Spreewald,auto,https://ratsinfo-online.net/zeuthen-ri/,Brandenburg,robots.txt verbietet Bots; Zeuthen
+Ahlsdorf,Verbandsgemeinde Mansfelder Grund-Helbra,sessionnet,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,Sachsen-Anhalt,Ahlsdorf; Benndorf
+Arneburg,Stendal,sessionnet,https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/,Sachsen-Anhalt,Arneburg
+# Balgstädt,Burgenlandkreis,auto,https://ratsinfo-online.net/vgunstruttal-bi/,Sachsen-Anhalt,robots.txt verbietet Bots; Balgstädt

@@ -1730,7 +1730,7 @@ Q552131,09188121,Gilching,Starnberg,Bayern,,https://www.gilching.de/,48.11027777
 Q527328,09472141,Glashütten,Fürstentum Bayreuth,Bayern,,http://www.glashuetten.de,49.888888888,11.448611111,,,,
 Q9268519,09472456,Glashüttener Forst,Bayreuth,Bayern,,,49.8743,11.461052777,,,,
 Q507364,09671120,Glattbach,Aschaffenburg,Bayern,,http://www.glattbach.de,50.005555555,9.147222222,,,,
-Q559118,09376131,Gleiritsch,Schwandorf,Bayern,,http://www.gleiritsch.de,49.5,12.333333333,,,,
+Q559118,09376131,Gleiritsch,Schwandorf,Bayern,,http://www.gleiritsch.de,49.495833333,12.316666666,,,,
 Q526121,09372128,Gleißenberg,Cham,Bayern,,http://www.gleissenberg.de,49.316666666,12.733333333,,,,
 Q629629,09175121,Glonn,Ebersberg,Bayern,,https://marktgemeinde-glonn.de/,47.983333333,11.866666666,,,,
 Q526136,09773133,Glött,Dillingen an der Donau,Bayern,,http://glött.de,48.5,10.483333333,,,,
@@ -2404,7 +2404,7 @@ Q505140,09271138,Niederalteich,Deggendorf,Bayern,,http://www.niederalteich.de,48
 Q258682,09183130,Niederbergkirchen,Mühldorf am Inn,Bayern,,http://www.niederbergkirchen.de,48.312777777,12.504166666,,,,
 Q532430,09473153,Niederfüllbach,Coburg,Bayern,,http://www.niederfuellbach.de,50.22,10.991944444,,,,
 Q558860,09673146,Niederlauer,Rhön-Grabfeld,Bayern,,http://www.niederlauer.de,50.2961088,10.1789891,,,,
-Q546498,09376148,Niedermurach,Schwandorf,Bayern,,http://www.niedermurach.de,49.45,12.366666666,,,,
+Q546498,09376148,Niedermurach,Schwandorf,Bayern,,http://www.niedermurach.de,49.45,12.377777777,,,,
 Q505671,09676144,Niedernberg,Miltenberg,Bayern,,https://niedernberg.de,49.916666666,9.133333333,,,,
 Q547576,09778177,Niederrieden,Unterallgäu,Bayern,,https://niederrieden.vgem-boos.de/,48.05,10.183333333,,,,
 Q504486,09779192,Niederschönenfeld,Donau-Ries,Bayern,,https://www.niederschoenenfeld.de/,48.716666666,10.916666666,,,,
@@ -3241,7 +3241,7 @@ Q265381,09171137,Winhöring,Altötting,Bayern,,https://www.winhoering.de/,48.266
 Q1527035,09574464,Winkelhaid,Nürnberger Land,Bayern,,,49.4042,11.2989,,,,
 Q524382,09574164,Winkelhaid,Nürnberger Land,Bayern,,https://www.winkelhaid.de/,49.383333333,11.3,,,,
 Q9375210,09471461,Winkelhofer Forst,Bamberg,Bayern,,,49.8167,10.5167,,,,
-Q559111,09376178,Winklarn,Schwandorf,Bayern,,http://www.vg-oberviechtach.de,49.433333333,12.483333333,,,,
+Q559111,09376178,Winklarn,Schwandorf,Bayern,,http://www.vg-oberviechtach.de,49.4261,12.4816,,,,
 Q511175,09774196,Winterbach,Günzburg,Bayern,,https://www.winterbach.bayern/,48.466666666,10.483333333,,,,
 Q139025,09679206,Winterhausen,Würzburg,Bayern,,http://www.winterhausen.de,49.7,10.016666666,,,,
 Q305299,09778217,Winterrieden,Unterallgäu,Bayern,,https://winterrieden.de,48.116666666,10.216666666,,,,
@@ -3356,375 +3356,375 @@ Q640310,12069089,Buckautal,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www
 Q552366,12064084,Buckow,Märkisch-Oderland,Brandenburg,,https://kurstadt-buckow.de/,52.566666666,14.083055555,,,kein_ris,2026-11-02
 Q638537,12071032,Burg (Spreewald),Spree-Neiße,Brandenburg,Amt Burg (Spreewald),https://amt-burg-spreewald.de/de/amt-gemeinden/gemeinden/burg-spreewald-borkowy-blota.html,51.833055555,14.15,,,kein_ris,2026-11-02
 Q574806,12061061,Byhleguhre-Byhlen,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Byhleguhre-Byhlen,51.883333333,14.183333333,,,kein_ris,2026-11-02
-Q532803,12066052,Calau,Oberspreewald-Lausitz,Brandenburg,,https://www.calau.de/,51.746819,13.949411,,,,
-Q622491,12073093,Carmzow-Wallmow,Uckermark,Brandenburg,Amt Brüssow,https://www.amt-bruessow.de/verzeichnis/objekt.php?mandat=23646,53.366666666,14.066666666,,,,
-Q624127,12073097,Casekow,Uckermark,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18336,53.216666666,14.216666666,,,,
-Q586072,12060045,Chorin,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/chorin-gemeinde,52.9,13.866666666,,,,
-Q3214,12052000,Cottbus,,Brandenburg,,https://www.cottbus.de/,51.760805555,14.331861111,,,,
-Q582057,12062088,Crinitz,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/crinitz,51.733055555,13.766666666,,,,
-Q635490,12070060,Cumlosen,Prignitz,Brandenburg,,http://www.cumlosen.de/,53.033055555,11.666666666,,,,
-Q625084,12068072,Dabergotz,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87426,52.9031,12.724661111,,,,
-Q622572,12072053,Dahme/Mark,Teltow-Fläming,Brandenburg,Amt Dahme/Mark,https://www.dahme.de/verzeichnis/objekt.php?mandat=28830,51.866666666,13.433055555,,,,
-Q627756,12072055,Dahmetal,Teltow-Fläming,Brandenburg,,https://www.dahme.de/verzeichnis/objekt.php?mandat=4712,51.899722222,13.483055555,,,,
-Q583555,12063056,Dallgow-Döberitz,Havelland,Brandenburg,,https://www.dallgow.de/,52.533055555,13.05,,,,
-Q622091,12067112,Diensdorf-Radlow,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=154445,52.233055555,14.05,,,,
-Q574757,12071041,Dissen-Striesow,Spree-Neiße,Brandenburg,,http://www.dissen-striesow.de/,51.816666666,14.3,,,,
-Q371098,12062092,Doberlug-Kirchhain,Elbe-Elster,Brandenburg,,https://www.doberlug-kirchhain.de/,51.637422,13.562932,,,,
-Q574799,12071052,Drachhausen,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/drachhausen,51.899722222,14.316666666,,,,
-Q427095,12061097,Drahnsdorf,Dahme-Spreewald,Brandenburg,Amt Unterspreewald,https://www.unterspreewald.de/Stadt-und-Gemeinden/Drahnsdorf.htm,51.916666666,13.583055555,,,,
-Q572518,12071057,Drebkau,Spree-Neiße,Brandenburg,,https://www.drebkau.de/,51.651155,14.232145,,,,
-Q621912,12068109,Dreetz,Ostprignitz-Ruppin,Brandenburg,,https://www.gemeinde-dreetz.de/,52.799722222,12.466666666,,,,
-Q623925,12071060,Drehnow,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/drehnow,51.866666666,14.366666666,,,,
-Q544801,12071044,Döbern,Spree-Neiße,Brandenburg,,http://www.doebern.de/,51.616666666,14.6,,,,
-Q9306,12060052,Eberswalde,Barnim,Brandenburg,,https://www.eberswalde.de/,52.833055555,13.833055555,,,,
-Q583542,12061112,Eichwalde,Dahme-Spreewald,Brandenburg,,https://www.eichwalde.de/,52.372955,13.62134,,,,
-Q16106,12067120,Eisenhüttenstadt,Oder-Spree,Brandenburg,,https://www.eisenhuettenstadt.de/,52.14655,14.63001,,,,
-Q584473,12062124,Elsterwerda,Elbe-Elster,Brandenburg,,https://www.elsterwerda.de/,51.45691,13.523319,,,,
-Q572392,12067124,Erkner,Oder-Spree,Brandenburg,,https://www.erkner.de/,52.416666666,13.75,,,,
-Q590130,12064125,Falkenberg,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373817/falkenberg.html,52.816666666,13.949722222,,,,
-Q570094,12062128,Falkenberg/Elster,Elbe-Elster,Brandenburg,,https://www.falkenberg-elster.de/,51.583055555,13.232222222,,,,
-Q581917,12064128,Falkenhagen,Märkisch-Oderland,Brandenburg,Amt Seelow-Land,https://www.falkenhagen-mark.de/,52.433055555,14.316666666,,,,
-Q14842,12063080,Falkensee,Havelland,Brandenburg,,https://www.falkensee.de/,52.558333333,13.091666666,,,,
-Q626792,12068117,Fehrbellin,Ostprignitz-Ruppin,Brandenburg,,https://www.fehrbellin.de/,52.814359,12.766139,,,,
-Q623917,12071074,Felixsee,Spree-Neiße,Brandenburg,Amt Döbern-Land,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=86498,51.6,14.516666666,,,,
-Q583024,12064130,Fichtenhöhe,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52834,52.45,14.433055555,,,,
-Q553237,12062134,Fichtwald,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/fichtwald/,51.7,13.466666666,,,,
-Q588905,12062140,Finsterwalde,Elbe-Elster,Brandenburg,,https://www.finsterwalde.de/,51.628243,13.71021,,,,
-Q124789,12073157,Flieth-Stegelitz,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=18929,53.166666666,13.816666666,,,,
-Q572545,12071076,Forst (Lausitz),Spree-Neiße,Brandenburg,,https://www.forst-lausitz.de/,51.74531,14.647802,,,,
-Q4024,12053000,Frankfurt (Oder),,Brandenburg,,https://www.frankfurt-oder.de/,52.342083333,14.551666666,,,,
-Q581728,12066064,Frauendorf,Oberspreewald-Lausitz,Brandenburg,,https://www.gemeinde-frauendorf.de/,51.416666666,13.766666666,,,,
-Q581470,12064136,Fredersdorf-Vogelsdorf,Märkisch-Oderland,Brandenburg,,https://www.fredersdorf-vogelsdorf.de/,52.52835,13.755324,,,,
-Q640298,12067137,Friedland,Oder-Spree,Brandenburg,,https://www.friedland-nl.de/,52.105027777,14.2635,,,,
-Q241395,12060068,Friedrichswalde,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73149,53.033333333,13.716666666,,,,
-Q585632,12063088,Friesack,Havelland,Brandenburg,,https://amt-friesack.de,52.733055555,12.583055555,,,,
-Q311539,12065084,Fürstenberg/Havel,Oberhavel,Brandenburg,,https://www.fuerstenberg-havel.de/,53.185585,13.145541,,,,
-Q16064,12067144,Fürstenwalde,Oder-Spree,Brandenburg,,https://www.fuerstenwalde-spree.de/,52.366666666,14.066666666,,,,
-Q571998,12073189,Gartz (Oder),,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18265,53.210277777,14.391111111,,,,
-Q585328,12064153,Garzau-Garzin,Märkisch-Oderland,Brandenburg,,https://www.amt-maerkische-schweiz.de/gemeinden/gemeinde-garzau-garzin/,52.549722222,13.983055555,,,,
-Q622156,12070096,Gerdshagen,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=38437,53.25,12.2,,,,
-Q625872,12073201,Gerswalde,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=9679,53.170498055,13.748518888,,,,
-Q585248,12065096,Glienicke/Nordbahn,Oberhavel,Brandenburg,,https://www.glienicke.eu/,52.630277777,13.319722222,,,,
-Q585417,12063094,Gollenberg,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54071,52.74775,12.385722222,,,,
-Q583134,12064172,Golzow,Märkisch-Oderland,Brandenburg,Amt Golzow,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52510,52.566666666,14.5,,,,
-Q640637,12069216,"Golzow, Mittelmark",Potsdam-Mittelmark,Brandenburg,Amt Brück,https://www.amt-brueck.de/verzeichnis/objekt.php?mandat=56002,52.266666666,12.616111111,,,,
-Q544892,12061164,Golßen,Dahme-Spreewald,Brandenburg,Amt Unterspreewald,https://www.golssen.de/,51.966666666,13.599722222,,,,
-Q556059,12062177,Gorden-Staupitz,Elbe-Elster,Brandenburg,,https://www.plessa.de/verzeichnis/objekt.php?mandat=18394,51.534166666,13.628888888,,,,
-Q624117,12067173,Gosen-Neu Zittau,Oder-Spree,Brandenburg,,https://www.amt-spreenhagen.de/verzeichnis/objekt.php?mandat=131797,52.393333333,13.712777777,,,,
-Q636566,12073225,Gramzow,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27361,53.21246,14.00748,,,,
-Q585627,12065100,Gransee,Oberhavel,Brandenburg,,https://www.gransee.de/,53.006944444,13.158611111,,,,
-Q625962,12069249,Groß Kreutz,Potsdam-Mittelmark,Brandenburg,,https://www.gross-kreutz.de/,52.410189,12.696396,,,,
-Q548429,12061192,Groß Köris,Dahme-Spreewald,Brandenburg,Amt Schenkenländchen,https://www.amt-schenkenlaendchen.de/verzeichnis/objekt.php?mandat=18781,52.166666666,13.666666666,,,,
-Q624110,12067180,Groß Lindow,Oder-Spree,Brandenburg,,http://www.gross-lindow.de/,52.233055555,14.533055555,,,,
-Q370074,12070125,Groß Pankow (Prignitz),Prignitz,Brandenburg,,http://www.grosspankow.de/,53.119111111,12.051527777,,,,
-Q39787,12071153,Groß Schacksdorf-Simmersdorf,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=58670,51.686388888,14.625,,,,
-Q628528,12072120,Großbeeren,Teltow-Fläming,Brandenburg,,https://www.grossbeeren.de/,52.355119,13.307877,,,,
-Q589635,12063112,Großderschau,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54072,52.79057,12.3682,,,,
-Q585221,12066104,Großkmehlen,Oberspreewald-Lausitz,Brandenburg,,https://www.grosskmehlen.de/,51.383055555,13.733055555,,,,
-Q588844,12066112,Großräschen,Oberspreewald-Lausitz,Brandenburg,,https://www.grossraeschen.de/,51.585746,14.0104,,,,
-Q551468,12062208,Großthiemig,Elbe-Elster,Brandenburg,,https://www.grossthiemig.info/,51.383055555,13.666666666,,,,
-Q671788,12065117,Großwoltersdorf,Oberhavel,Brandenburg,,https://www.gransee.de/politik-verwaltung/grosswoltersdorf/,53.0695343,13.0963068,,,,
-Q597111,12067205,Grunow-Dammendorf,Oder-Spree,Brandenburg,,http://www.grunow-dammendorf.de/,52.149722222,14.416666666,,,,
-Q623929,12069232,Gräben,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www.amt-ziesar.de/unser-amt/gemeinden/graeben.html,52.233055555,12.433055555,,,,
-Q551445,12062196,Gröden,Elbe-Elster,Brandenburg,,https://www.amt-schradenland.de/verzeichnis/objekt.php?mandat=18587,51.399722222,13.566666666,,,,
-Q588878,12066116,Grünewald,Oberspreewald-Lausitz,Brandenburg,Amt Ruhland,https://www.amt-ruhland.de/amtsgemeinden/gruenewald/,51.4,14.0,,,,
-Q622449,12067201,Grünheide (Mark),Oder-Spree,Brandenburg,,https://www.gruenheide-mark.de/,52.42552,13.822805,,,,
-Q624125,12073261,Grünow,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27362,53.316666666,13.945,,,,
-Q494747,12071160,Guben,Spree-Neiße,Brandenburg,,https://www.guben.de/,51.95042,14.7143,,,,
-Q640819,12071164,Guhrow,Spree-Neiße,Brandenburg,,https://amt-burg-spreewald.de/de/amt-gemeinden/gemeinden/guhrow-gory.html,51.816666666,14.233333333,,,,
-Q628142,12070149,Gumtow,Prignitz,Brandenburg,,https://www.gemeindegumtow.de/,52.980527777,12.247222222,,,,
-Q585301,12064190,Gusow-Platkow,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/visitenkarte.php?mandat=50643,52.566666666,14.349722222,,,,
-Q588863,12066120,Guteborn,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/guteborn/,51.416666666,13.933055555,,,,
-Q624913,12073216,Göritz,Uckermark,Brandenburg,Amt Brüssow,https://www.amt-bruessow.de/verzeichnis/visitenkarte.php?mandat=23649,53.407432,13.911861,,,,
-Q625844,12069224,Görzke,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www.amt-ziesar.de/unser-amt/gemeinden/goerzke.html,52.170833333,12.370555555,,,,
-Q635516,12070145,Gülitz-Reetz,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55514,53.2,11.983055555,,,,
-Q531652,12061216,Halbe,Dahme-Spreewald,Brandenburg,Amt Schenkenländchen,https://www.amt-schenkenlaendchen.de/verzeichnis/objekt.php?mandat=18864,52.108611111,13.700833333,,,,
-Q686804,12070153,Halenbeck-Rohlsdorf,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=53512,53.25,12.316666666,,,,
-Q583144,12063134,Havelaue,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54073,52.716666666,12.265277777,,,,
-Q629403,12069270,Havelsee,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,https://havelsee.de/,52.5,12.466666666,,,,
-Q202412,12064205,Heckelberg-Brunow,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373818/heckelberg-brunow.html,52.735,13.857777777,,,,
-Q581461,12061219,Heideblick,Dahme-Spreewald,Brandenburg,,https://www.heideblick.de/,51.829305555,13.630916666,,,,
-Q582769,12062219,Heideland,Elbe-Elster,Brandenburg,,,51.6,13.666666666,,,,
-Q588575,12061217,Heidesee,Dahme-Spreewald,Brandenburg,,https://gemeinde-heidesee.de/,52.283055555,13.8,,,,
-Q520280,12068181,Heiligengrabe,Ostprignitz-Ruppin,Brandenburg,,https://www.heiligengrabe.de/,53.145416666,12.372777777,,,,
-Q574750,12071176,Heinersbrück,Spree-Neiße,Brandenburg,,https://heinersbrueck-most.de/,51.833055555,14.5,,,,
-Q583462,12065136,Hennigsdorf,Kreis Oranienburg,Brandenburg,,https://www.hennigsdorf.de/,52.637777777,13.203611111,,,,
-Q636083,12066124,Hermsdorf,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/hermsdorf/,51.416666666,13.9,,,,
-Q529841,12068188,Herzberg,Ostprignitz-Ruppin,Brandenburg,,http://www.herzberg-mark.de/,52.899722222,12.983055555,,,,
-Q544699,12062224,Herzberg (Elster),Elbe-Elster,Brandenburg,,https://www.herzberg-elster.de/,51.683055555,13.233055555,,,,
-Q178656,12062232,Hirschfeld,Elbe-Elster,Brandenburg,,http://www.hirschfeld-im-schraden.de/,51.383055555,13.616666666,,,,
-Q545340,12065144,Hohen Neuendorf,Oberhavel,Brandenburg,,https://hohen-neuendorf.de/,52.666666666,13.283055555,,,,
-Q177052,12066132,Hohenbocka,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/hohenbocka/,51.433055555,14.0,,,,
-Q551500,12062237,Hohenbucko,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/hohenbucko/,51.766666666,13.466666666,,,,
-Q587133,12060092,Hohenfinow,Barnim,Brandenburg,,https://hohenfinow.de/,52.810555555,13.924444444,,,,
-Q551451,12062240,Hohenleipisch,Elbe-Elster,Brandenburg,,http://www.hohenleipisch.de/,51.5,13.55,,,,
-Q625880,12073309,Hohenselchow-Groß Pinnow,Uckermark,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18333,53.194974,14.276652,,,,
-Q375199,12064227,Hoppegarten,Märkisch-Oderland,Brandenburg,,https://www.gemeinde-hoppegarten.de/,52.515553,13.667766,,,,
-Q633551,12071185,Hornow-Wadelsdorf,Spree-Neiße,Brandenburg,,,51.616666666,14.483055555,,,,
-Q583181,12064222,Höhenland,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373819/h%C3%B6henland.html,52.7,13.883055555,,,,
-Q622582,12072157,"Ihlow, Fläming",Teltow-Fläming,Brandenburg,,https://www.dahme.de/verzeichnis/objekt.php?mandat=28324,51.883055555,13.333055555,,,,
-Q636991,12067237,Jacobsdorf,Oder-Spree,Brandenburg,,https://www.amt-odervorland.de/index.php_id=94,52.333055555,14.349722222,,,,
-Q574795,12061224,Jamlitz,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Jamlitz,52.0,14.366666666,,,,
-Q535551,12060100,Joachimsthal,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73163,52.966666666,13.75,,,,
-Q623915,12071189,Jämlitz-Klein Düben,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=91934,51.566666666,14.666666666,,,,
-Q572540,12071193,Jänschwalde,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/jaenschwalde,51.861944444,14.499166666,,,,
-Q486541,12072169,Jüterbog,Teltow-Fläming,Brandenburg,,https://www.jueterbog.eu/,51.993333333,13.072777777,,,,
-Q627161,12070173,Karstädt,Prignitz,Brandenburg,,https://www.gemeinde-karstaedt.de/,53.160523,11.739661,,,,
-Q584089,12061244,Kasel-Golzig,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Kasel-Golssig.htm,51.933055555,13.699722222,,,,
-Q583450,12063148,Ketzin/Havel,Havelland,Brandenburg,,https://www.ketzin.de/,52.478055,12.842465,,,,
-Q104192,12069304,Kleinmachnow,Potsdam-Mittelmark,Brandenburg,,https://www.kleinmachnow.de/,52.403611111,13.220277777,,,,
-Q585385,12063161,Kleßen-Görne,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54074,52.7,12.516388888,,,,
-Q627838,12069306,Kloster Lehnin,Potsdam-Mittelmark,Brandenburg,,https://www.klosterlehnin.de/,52.316666666,12.75,,,,
-Q474475,12071244,Kolkwitz/Gołkojce,Spree-Neiße,Brandenburg,,https://gemeinde-kolkwitz.de/,51.749555555,14.24575,,,,
-Q581947,12063165,Kotzen,Havelland,Brandenburg,,https://www.amt-nennhausen.de/verzeichnis/objekt.php?mandat=67586,52.633055555,12.516666666,,,,
-Q517521,12061265,Krausnick-Groß Wasserburg,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Krausnick-Gross-Wasserburg.htm,52.033333333,13.85,,,,
-Q553231,12062282,Kremitzaue,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/kremitzaue/,51.719166666,13.317222222,,,,
-Q587094,12065165,Kremmen,Oberhavel,Brandenburg,,https://www.kremmen.de/,52.760474,13.024108,,,,
-Q589543,12066168,Kroppen,Oberspreewald-Lausitz,Brandenburg,,https://www.kroppen-osl.de/,51.383055555,13.8,,,,
-Q505160,12068264,Kyritz,Ostprignitz-Ruppin,Brandenburg,,https://www.kyritz.de/,52.942222222,12.397222222,,,,
-Q16013,12061260,Königs Wusterhausen,Dahme-Spreewald,Brandenburg,,https://www.koenigs-wusterhausen.de/,52.291666666,13.625,,,,
-Q634693,12070222,Kümmernitztal,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=20313,53.233055555,12.15,,,,
-Q258017,12064266,Küstriner Vorland,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52511,52.568333333,14.609722222,,,,
-Q628371,12067288,Langewahl,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=112815,52.333055555,14.099722222,,,,
-Q625920,12070236,Lanz,Prignitz,Brandenburg,,https://www.amtlenzen.de/verzeichnis/objekt.php?mandat=65380,53.066666666,11.599722222,,,,
-Q589247,12066176,Lauchhammer,Oberspreewald-Lausitz,Brandenburg,,https://www.lauchhammer.de/,51.469303,13.763192,,,,
-Q622094,12067292,Lawitz,Oder-Spree,Brandenburg,,https://www.neuzelle.de/verzeichnis/visitenkarte.php?mandat=89481,52.115555555,14.638055555,,,,
-Q26362,12064268,Lebus,Märkisch-Oderland,Brandenburg,Amt Lebus,http://www.lebus.eu/,52.416666666,14.533055555,,,,
-Q551519,12062289,Lebusa,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/lebusa/,51.799722222,13.433055555,,,,
-Q531735,12065180,Leegebruch,Oberhavel,Brandenburg,,https://www.leegebruch.de/,52.725369,13.193641,,,,
-Q501630,12070241,Legde/Quitzöbel,Prignitz,Brandenburg,,https://www.amtbww.de/ris/ti_4/,52.916666666,11.966666666,,,,
-Q625768,12070244,Lenzen (Elbe),Prignitz,Brandenburg,,https://www.amtlenzen.de/verzeichnis/objekt.php?mandat=58824,53.091111111,11.473333333,,,,
-Q636632,12070246,Lenzerwische,Prignitz,Brandenburg,,https://www.amtlenzen.de/verzeichnis/objekt.php?mandat=65388,53.1,11.283055555,,,,
-Q585206,12064274,Letschin,Märkisch-Oderland,Brandenburg,,https://www.letschin.de/,52.640527777,14.357111111,,,,
-Q556054,12062293,Lichterfeld-Schacksdorf,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/lichterfeld-schacksdorf,51.6,13.766666666,,,,
-Q583458,12065193,Liebenwalde,Oberhavel,Brandenburg,,https://www.liebenwalde.de/,52.8715,13.39075,,,,
-Q584485,12061308,Lieberose,Dahme-Spreewald,Brandenburg,,http://www.lieberose-niederlausitz.de/,51.983055555,14.3,,,,
-Q559999,12060128,Liepe,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/liepe-gemeinde,52.866666666,13.966666666,,,,
-Q585484,12064288,Lietzen,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52838,52.470833333,14.341944444,,,,
-Q582810,12066188,Lindenau,Oberspreewald-Lausitz,Brandenburg,,https://www.lindenau-ol.de/,51.399722222,13.733055555,,,,
-Q585239,12064290,Lindendorf,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52839,52.483055555,14.433055555,,,,
-Q625741,12068280,Lindow (Mark),Ostprignitz-Ruppin,Brandenburg,,https://www.amt-lindow-mark.de/ris/ti-lindow-2/,52.966666666,12.983333333,,,,
-Q204109,12069345,Linthe,Potsdam-Mittelmark,Brandenburg,Amt Brück,https://www.amt-brueck.de/verzeichnis/objekt.php?mandat=56904,52.149722222,12.783055555,,,,
-Q585318,12066202,Luckaitztal,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-altdoebern.de/verzeichnis/objekt.php?mandat=22112,51.7,14.016666666,,,,
-Q539288,12061320,Luckau,Dahme-Spreewald,Brandenburg,,https://luckau.de/,51.85,13.716666666,,,,
-Q574146,12072232,Luckenwalde,Teltow-Fläming,Brandenburg,,https://www.luckenwalde.de/,52.083055555,13.166666666,,,,
-Q574170,12072240,Ludwigsfelde,Teltow-Fläming,Brandenburg,,https://www.ludwigsfelde.de/,52.299722222,13.266666666,,,,
-Q560013,12060149,Lunow-Stolzenhagen,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/lunow-stolzenhagen-gemeinde,52.933333333,14.108333333,,,,
-Q635901,12073384,Lychen,Uckermark,Brandenburg,,https://www.lychen.de/,53.210055555,13.315333333,,,,
-Q583171,12065198,Löwenberger Land,Oberhavel,Brandenburg,,https://www.loewenberger-land.de/,52.896039,13.154618,,,,
-Q584815,12061316,Lübben (Spreewald),Dahme-Spreewald,Brandenburg,,https://www.luebben.de/,51.95,13.9,,,,
-Q147895,12066196,Lübbenau/Spreewald,Oberspreewald-Lausitz,Brandenburg,,https://www.luebbenau-spreewald.de/,51.867874,13.968828,,,,
-Q625876,12067310,Madlitz-Wilmersdorf,Briesen (Mark),Brandenburg,,,52.383055555,14.283055555,,,,
-Q622574,12070266,Marienfließ,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=53505,53.316666666,12.15,,,,
-Q543918,12060154,Marienwerder,Barnim,Brandenburg,Amt Biesenthal-Barnim,https://marienwerder-barnim.de/,52.8425,13.6,,,,
-Q621902,12073386,Mark Landin,Schwedt/Oder,Brandenburg,,,53.083055555,14.133055555,,,,
-Q544878,12062333,Massen-Niederlausitz,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/massen-niederlausitz,51.649722222,13.733055555,,,,
-Q560203,12060161,Melchow,Barnim,Brandenburg,,https://www.melchow.de/,52.783055555,13.716666666,,,,
-Q545967,12062336,Merzdorf,Elbe-Elster,Brandenburg,,https://www.amt-schradenland.de/verzeichnis/objekt.php?mandat=18590,51.4,13.533333333,,,,
-Q625778,12073393,Mescherin,Uckermark,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18327,53.2475,14.431666666,,,,
-Q628105,12070280,Meyenburg,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=53497,53.316666666,12.233055555,,,,
-Q612992,12069397,Michendorf,Potsdam-Mittelmark,Brandenburg,,https://www.michendorf.de/,52.3128624,13.029174,,,,
-Q623967,12073396,Milmersdorf,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=38919,53.11185,13.6415,,,,
-Q263645,12063189,Milower Land,Havelland,Brandenburg,,https://www.milow.de/,52.519416666,12.311222222,,,,
-Q636589,12073404,Mittenwalde,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=38868,53.183055555,13.666666666,,,,
-Q574811,12061332,Mittenwalde,Dahme-Spreewald,Brandenburg,,https://www.mittenwalde.de/,52.266666666,13.533333333,,,,
-Q622079,12067324,Mixdorf,Oder-Spree,Brandenburg,,,52.2,14.4,,,,
-Q544844,12061328,Märkisch Buchholz,Dahme-Spreewald,Brandenburg,,https://www.maerkischbuchholz.de/,52.1,13.75,,,,
-Q627084,12068306,Märkisch Linden,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87428,52.916666666,12.699722222,,,,
-Q585341,12063186,Märkisch Luch,Havelland,Brandenburg,,https://www.amt-nennhausen.de/verzeichnis/objekt.php?mandat=67588,52.566666666,12.616666666,,,,
-Q582023,12061329,Märkische Heide,Dahme-Spreewald,Brandenburg,,https://www.maerkische-heide.de/,52.0385,14.040944444,,,,
-Q585432,12064303,Märkische Höhe,Märkisch-Oderland,Brandenburg,,https://www.amt-maerkische-schweiz.de/gemeinden/gemeinde-maerkische-hoehe/,52.625,14.125,,,,
-Q170301,12062341,Mühlberg/Elbe,Elbe-Elster,Brandenburg,,https://www.muehlberg-elbe.de/,51.433055555,13.216666666,,,,
-Q581972,12065225,Mühlenbecker Land,Oberhavel,Brandenburg,,https://www.muehlenbecker-land.de/,52.667747,13.380544,,,,
-Q256918,12063202,Mühlenberge,Havelland,Brandenburg,,https://www.muehlenberge.de/,52.683333333,12.6,,,,
-Q622545,12069402,Mühlenfließ,Potsdam-Mittelmark,Brandenburg,,http://www.amt-niemegk.de/verzeichnis/objekt.php?mandat=4243,52.116666666,12.783055555,,,,
-Q638607,12067336,Müllrose,Oder-Spree,Brandenburg,,https://www.muellrose.de/,52.25,14.416666666,,,,
-Q202498,12064317,Müncheberg,Märkisch-Oderland,Brandenburg,,https://www.stadt-muencheberg.de/,52.503749,14.139854,,,,
-Q584785,12061344,Münchehofe,Dahme-Spreewald,Brandenburg,,https://www.muenchehofe.info/,52.146944444,13.836111111,,,,
-Q581994,12063208,Nauen,Havelland,Brandenburg,,https://www.nauen.de/,52.6,12.883055555,,,,
-Q636072,12071294,Neiße-Malxetal,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=83592,51.616666666,14.699722222,,,,
-Q625074,12067338,Neißemünde,Oder-Spree,Brandenburg,,,52.066666666,14.716666666,,,,
-Q585364,12063212,Nennhausen,Havelland,Brandenburg,,https://www.amt-nennhausen.de/verzeichnis/objekt.php?mandat=67590,52.6,12.5,,,,
-Q574761,12061352,Neu Zauche,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Neu-Zauche,51.933055555,14.099722222,,,,
-Q589559,12066226,Neu-Seeland,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-altdoebern.de/verzeichnis/objekt.php?mandat=22146,51.616666666,14.099722222,,,,
-Q582690,12064336,Neuenhagen bei Berlin,Märkisch-Oderland,Brandenburg,,https://www.neuenhagen-bei-berlin.de/,52.533055555,13.683055555,,,,
-Q582614,12064340,Neuhardenberg,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/visitenkarte.php?mandat=50645,52.6,14.25,,,,
-Q164086,12071301,Neuhausen/Spree,Spree-Neiße,Brandenburg,,https://www.neuhausen-spree.de/,51.682583333,14.415111111,,,,
-Q585188,12064349,Neulewin,Märkisch-Oderland,Brandenburg,Amt Barnim-Oderbruch,https://www.barnim-oderbruch.de/leben/gemeinden/neulewin,52.72446,14.274922,,,,
-Q588897,12066228,Neupetershain,Oberspreewald-Lausitz,Brandenburg,,https://neupetershain.de/,51.6,14.166666666,,,,
-Q16085,12068320,Neuruppin,Ostprignitz-Ruppin,Brandenburg,,https://www.neuruppin.de/,52.922222222,12.8,,,,
-Q205383,12068324,Neustadt (Dosse),Ostprignitz-Ruppin,Brandenburg,,https://www.amt-neustadt-dosse.de/verzeichnis/objekt.php?mandat=26680,52.866666666,12.433055555,,,,
-Q583048,12064365,Neutrebbin,Märkisch-Oderland,Brandenburg,,https://neutrebbin.de,52.663333333,14.2275,,,,
-Q635531,12067357,Neuzelle,Oder-Spree,Brandenburg,,https://www.neuzelle.de/,52.09016,14.64804,,,,
-Q601691,12072298,Niederer Fläming,Teltow-Fläming,Brandenburg,,https://www.gemeinde-niederer-flaeming.de/,51.9,13.2,,,,
-Q581479,12060172,Niederfinow,Barnim,Brandenburg,,https://niederfinow.de/,52.834444444,13.929166666,,,,
-Q634423,12072297,Niedergörsdorf,Teltow-Fläming,Brandenburg,,https://www.gemeinde-niedergoersdorf.de/,51.976472222,12.980055555,,,,
-Q635620,12069448,Niemegk,Potsdam-Mittelmark,Brandenburg,,https://amt-niemegk.de/geschichte-der-stadt-niemegk/,52.083055555,12.699722222,,,,
-Q621907,12073429,Nordwestuckermark,Uckermark,Brandenburg,,https://www.nordwestuckermark.de/,53.332722222,13.708166666,,,,
-Q622139,12072312,Nuthe-Urstromtal,Teltow-Fläming,Brandenburg,,https://nuthe-urstromtal.de/,52.125204,13.16177,,,,
-Q622474,12069454,Nuthetal,Potsdam-Mittelmark,Brandenburg,,https://www.nuthetal.de/,52.348626,13.104225,,,,
-Q583149,12064370,Oberbarnim,Märkisch-Oderland,Brandenburg,,https://www.amt-maerkische-schweiz.de/gemeinden/gemeinde-oberbarnim/,52.593888888,14.035555555,,,,
-Q583155,12065251,Oberkrämer,Oberhavel,Brandenburg,,https://www.oberkraemer.de/,52.7,13.1,,,,
-Q622085,12073430,Oberuckersee,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27363,53.217777777,13.88,,,,
-Q222314,12064371,Oderaue,Märkisch-Oderland,Brandenburg,,https://www.barnim-oderbruch.de/leben/gemeinden/oderaue,52.766666666,14.216666666,,,,
-Q553202,12060176,Oderberg,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/oderberg-stadt,52.866666666,14.05,,,,
-Q14808,12065256,Oranienburg,Oberhavel,Brandenburg,,https://oranienburg.de/,52.754444444,13.236944444,,,,
-Q572503,12066240,Ortrand,Oberspreewald-Lausitz,Brandenburg,,https://www.stadt-ortrand.de/,51.375833333,13.757222222,,,,
-Q126189,12060181,Panketal,Barnim,Brandenburg,,https://panketal.de/,52.633055555,13.55,,,,
-Q560215,12060185,Parsteinsee,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/parsteinsee-gemeinde,52.933333333,14.05,,,,
-Q625385,12073603,Passow,Schwedt/Oder,Brandenburg,,https://www.schwedt.eu/de/schwedt-entdecken/ortsteile/passow/31958,53.1425,14.113888888,,,,
-Q585355,12063228,Paulinenaue,Havelland,Brandenburg,,https://paulinenaue.info/,52.67701,12.71067,,,,
-Q574791,12071304,Peitz,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/peitz,51.866666666,14.416666666,,,,
-Q498540,12070296,Perleberg,Prignitz,Brandenburg,,https://www.stadt-perleberg.de/,53.066666666,11.866666666,,,,
-Q583163,12063240,Pessin,Havelland,Brandenburg,,https://www.amt-friesack.de/verzeichnis/objekt.php?mandat=72688,52.649722222,12.666666666,,,,
-Q581905,12064380,Petershagen/Eggersdorf,Märkisch-Oderland,Brandenburg,,https://doppeldorf.de/,52.538547,13.816893,,,,
-Q634411,12073440,Pinnow,Uckermark,Brandenburg,,https://schwedt.eu/de/politik-und-verwaltung/mitverwaltung/31982,53.060441,14.0855319,,,,
-Q628458,12070300,Pirow,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55519,53.216666666,11.9,,,,
-Q177987,12069470,Planebruch,Potsdam-Mittelmark,Brandenburg,Amt Brück,https://www.amt-brueck.de/verzeichnis/objekt.php?mandat=56905,52.254166666,12.6875,,,,
-Q625868,12069474,Planetal,Potsdam-Mittelmark,Brandenburg,,http://www.amt-niemegk.de,52.116666666,12.683055555,,,,
-Q637036,12070302,Plattenburg,Prignitz,Brandenburg,,https://www.plattenburg.de/,52.996388888,12.056444444,,,,
-Q551522,12062372,Plessa,Elbe-Elster,Brandenburg,,https://www.plessa.de/verzeichnis/objekt.php?mandat=4630,51.466666666,13.616666666,,,,
-Q585269,12064388,Podelzig,Märkisch-Oderland,Brandenburg,,https://www.podelzig.com/,52.466666666,14.533055555,,,,
-Q1711,12054000,Potsdam,,Brandenburg,,https://www.potsdam.de/,52.4009309,13.0591397,,,,
-Q585620,12063244,Premnitz,Havelland,Brandenburg,,https://www.premnitz.de/,52.528201,12.339328,,,,
-Q537214,12073452,Prenzlau,Uckermark,Brandenburg,,https://www.prenzlau.eu/,53.309752,13.862671,,,,
-Q509952,12070316,Pritzwalk,Prignitz,Brandenburg,,https://www.pritzwalk.de/,53.149722222,12.183055555,,,,
-Q632427,12064393,Prötzel,Märkisch-Oderland,Brandenburg,,https://www.barnim-oderbruch.de/leben/gemeinden/proetzel,52.637222222,13.989722222,,,,
-Q565732,12070325,Putlitz,Prignitz,Brandenburg,,http://www.putlitz.de/,53.25,12.05,,,,
-Q622487,12069460,Päwesin,Potsdam-Mittelmark,Brandenburg,,https://paewesin.de/,52.516666666,12.716666666,,,,
-Q623891,12069485,Rabenstein/Fläming,Potsdam-Mittelmark,Brandenburg,,http://www.amt-niemegk.de,52.033333333,12.583333333,,,,
-Q640396,12067397,Ragow-Merz,Oder-Spree,Brandenburg,,http://www.amt-schlaubetal.de,52.198889,14.322222,,,,
-Q625914,12073458,Randowtal,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27364,53.297777777,14.033055555,,,,
-Q625747,12072340,Rangsdorf,Teltow-Fläming,Brandenburg,,https://www.rangsdorf.de/,52.283055555,13.433055555,,,,
-Q525425,12063252,Rathenow,Havelland,Brandenburg,,https://www.rathenow.de/,52.6,12.333333333,,,,
-Q622505,12067408,Rauen,Oder-Spree,Brandenburg,,https://www.amt-spreenhagen.de/verzeichnis/objekt.php?mandat=112250,52.333055555,14.016666666,,,,
-Q589571,12064408,Rehfelde,Märkisch-Oderland,Brandenburg,,https://www.gemeinde-rehfelde.de/,52.52,13.929166666,,,,
-Q581896,12064417,Reichenow-Möglin,Märkisch-Oderland,Brandenburg,,https://www.barnim-oderbruch.de/leben/gemeinden/reichenow-moeglin,52.666666666,14.099722222,,,,
-Q621478,12067413,Reichenwalde,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=174785,52.264722222,13.998333333,,,,
-Q537371,12064420,Reitwein,Märkisch-Oderland,Brandenburg,,https://www.amt-lebus.de/verzeichnis/objekt.php?mandat=27435,52.5,14.583055555,,,,
-Q527924,12063256,Retzow,Havelland,Brandenburg,,https://www.amt-friesack.de/verzeichnis/objekt.php?mandat=79126,52.624444444,12.685277777,,,,
-Q537268,12068353,Rheinsberg,Ostprignitz-Ruppin,Brandenburg,,https://www.rheinsberg.de/,53.100434,12.889944,,,,
-Q532037,12063260,Rhinow,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54075,52.752777777,12.344166666,,,,
-Q637911,12067426,Rietz-Neuendorf,Oder-Spree,Brandenburg,,https://www.rietz-neuendorf.de/,52.227027777,14.176166666,,,,
-Q584770,12061405,Rietzneuendorf-Staakow,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Rietzneuendorf-Staakow.htm,52.016666666,13.666666666,,,,
-Q634705,12069537,Rosenau,Potsdam-Mittelmark,Brandenburg,,https://www.amt-wusterwitz.de/verzeichnis/objekt.php?mandat=85892,52.329166666,12.358055555,,,,
-Q622513,12069541,Roskow,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,http://www.amt-beetzsee.de/verzeichnis/objekt.php?kategorie=63&mandat=41054,52.466666666,12.733055555,,,,
-Q572601,12066272,Ruhland,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/ruhland/,51.45661,13.86426,,,,
-Q556026,12062410,Röderland,Elbe-Elster,Brandenburg,,https://www.gemeinde-roederland.de/,51.4295,13.493444444,,,,
-Q561052,12062417,Rückersdorf,Elbe-Elster,Brandenburg,,https://www.rueckersdorf.eu/,51.583055555,13.566666666,,,,
-Q39791,12064428,Rüdersdorf bei Berlin,Märkisch-Oderland,Brandenburg,,https://www.ruedersdorf.de/,52.470422,13.786082,,,,
-Q569568,12060192,Rüdnitz,Barnim,Brandenburg,,https://www.ruednitz.de/,52.716666666,13.616666666,,,,
-Q539850,12070348,Rühstädt,Prignitz,Brandenburg,,https://www.amtbww.de/ris/ti_5/,52.919166666,11.87,,,,
-Q623961,12068372,Rüthnick,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-lindow-mark.de/ris/ti-lindow-4/,52.883055555,12.983055555,,,,
-Q528850,12062425,Sallgast,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/sallgast,51.588611111,13.848611111,,,,
-Q429574,12073490,Schenkenberg,Uckermark,Brandenburg,,https://www.amt-bruessow.de/verzeichnis/visitenkarte.php?mandat=23653,53.366944444,13.949722222,,,,
-Q636094,12071337,Schenkendöbern,Spree-Neiße,Brandenburg,,https://www.schenkendoebern.de/,51.95725,14.636583333,,,,
-Q532435,12062440,Schilda,Elbe-Elster,Brandenburg,,https://www.elsterland.de/verzeichnis/objekt.php?mandat=17316,51.6,13.383333333,,,,
-Q574443,12066285,Schipkau,Oberspreewald-Lausitz,Brandenburg,,https://www.gemeinde-schipkau.de/,51.540032,13.891977,,,,
-Q628355,12067438,Schlaubetal,Oder-Spree,Brandenburg,,http://www.schlaubetal-online.de/,52.116666666,14.5,,,,
-Q584477,12061428,Schlepzig,Dahme-Spreewald,Brandenburg,,https://www.schlepzig.de/,52.028888888,13.895277777,,,,
-Q507017,12062445,Schlieben,Elbe-Elster,Brandenburg,,https://amt-schlieben.de,51.716666666,13.383055555,,,,
-Q623913,12071341,Schmogrow-Fehrow,Spree-Neiße,Brandenburg,,http://www.schmogrow-fehrow.de/,51.85,14.216666666,,,,
-Q547099,12060198,Schorfheide,Barnim,Brandenburg,,https://www.gemeinde-schorfheide.de/,52.899722222,13.516666666,,,,
-Q573850,12062464,Schraden,Elbe-Elster,Brandenburg,,https://www.plessa.de/verzeichnis/objekt.php?mandat=18395,51.433055555,13.699722222,,,,
-Q581119,12061444,Schulzendorf,Dahme-Spreewald,Brandenburg,,https://www.schulzendorf.de/,52.366666666,13.583055555,,,,
-Q623909,12066292,Schwarzbach,Oberspreewald-Lausitz,Brandenburg,,http://www.schwarzbach-biehlen.de/,51.45,13.933055555,,,,
-Q584474,12066296,Schwarzheide,Oberspreewald-Lausitz,Brandenburg,,https://www.stadt-schwarzheide.de/,51.4773,13.855644,,,,
-Q16008,12073532,Schwedt/Oder,Uckermark,Brandenburg,,https://www.schwedt.eu/,53.063055555,14.283055555,,,,
-Q564340,12061448,Schwerin,,Brandenburg,Amt Schenkenländchen,https://www.schwerin-lds.de/,52.149722222,13.633055555,,,,
-Q589621,12061450,Schwielochsee,Dahme-Spreewald,Brandenburg,Amt Lieberose/Oberspreewald,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Schwielochsee,51.985277777,14.218888888,,,,
-Q625403,12069590,Schwielowsee,Potsdam-Mittelmark,Brandenburg,,https://www.schwielowsee.de/,52.333333333,12.966666666,,,,
-Q551515,12062453,Schönborn,Elbe-Elster,Brandenburg,,https://www.elsterland.de/verzeichnis/visitenkarte.php?mandat=18391,51.6,13.5,,,,
-Q622161,12073505,Schöneberg,Schwedt/Oder,Brandenburg,,https://www.schwedt.eu/de/schwedt-entdecken/ortsteile/schoeneberg/31967,53.008713,14.142224,,,,
-Q521475,12061433,Schönefeld,Dahme-Spreewald,Brandenburg,,https://gemeinde-schoenefeld.de/,52.391708,13.500381,,,,
-Q627767,12067440,Schöneiche bei Berlin,Oder-Spree,Brandenburg,,https://www.schoeneiche-bei-berlin.de/,52.4782896,13.6971638,,,,
-Q589644,12065276,Schönermark,Oberhavel,Brandenburg,,https://www.gransee.de/politik-verwaltung/schoenermark/,53.006944444,13.121944444,,,,
-Q522738,12062461,Schönewalde,Elbe-Elster,Brandenburg,,https://www.schoenewalde.de/,51.814138888,13.226694444,,,,
-Q623861,12073520,Schönfeld,Uckermark,Brandenburg,Amt Brüssow,https://www.amt-bruessow.de/verzeichnis/visitenkarte.php?mandat=23671,53.416388888,13.986388888,,,,
-Q585294,12061435,Schönwald,Dahme-Spreewald,Brandenburg,,https://unterspreewald.de,51.983055555,13.699722222,,,,
-Q581715,12063273,Schönwalde-Glien,Havelland,Brandenburg,,https://www.schoenwalde-glien.de/,52.65,12.983333333,,,,
-Q623943,12069596,Seddiner See,Potsdam-Mittelmark,Brandenburg,,https://www.seddiner-see.de/,52.287166666,13.000888888,,,,
-Q585455,12063274,Seeblick,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54076,52.666666666,12.383333333,,,,
-Q587069,12064448,Seelow,Märkisch-Oderland,Brandenburg,,https://www.seelow.de/,52.534162,14.382886,,,,
-Q491754,12066304,Senftenberg,Oberspreewald-Lausitz,Brandenburg,,https://www.senftenberg.de/,51.516666666,14.016666666,,,,
-Q627258,12067458,Siehdichum,Oder-Spree,Brandenburg,,http://gemeinde-siehdichum.de/,52.194444444,14.533333333,,,,
-Q624361,12068409,Sieversdorf-Hohenofen,Ostprignitz-Ruppin,Brandenburg,Amt Neustadt (Dosse),http://www.sieversdorf-hohenofen.de/,52.825366,12.402653,,,,
-Q583178,12065301,Sonnenberg,Oberhavel,Brandenburg,,https://www.gransee.de/politik-verwaltung/sonnenberg/,53.018888888,13.088611111,,,,
-Q544969,12062469,Sonnewalde,Elbe-Elster,Brandenburg,,https://www.stadt-sonnewalde.de/,51.695444444,13.649611111,,,,
-Q624106,12067469,Spreenhagen,Oder-Spree,Brandenburg,,https://www.amt-spreenhagen.de/verzeichnis/objekt.php?mandat=57816,52.343611111,13.874444444,,,,
-Q581489,12061470,Spreewaldheide,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Spreewaldheide,51.95,14.133055555,,,,
-Q572559,12071372,Spremberg,Spree-Neiße,Brandenburg,,https://spremberg.de/,51.571666666,14.379444444,,,,
-Q640426,12069604,Stahnsdorf,Potsdam-Mittelmark,Brandenburg,,https://www.stahnsdorf.de/,52.381339,13.21221,,,,
-Q583033,12065310,Stechlin,Oberhavel,Brandenburg,,https://www.stechlin.de/,53.1,13.033333333,,,,
-Q583070,12063293,Stechow-Ferchesar,Havelland,Brandenburg,,https://www.stechow-ferchesar.info/,52.649722222,12.449722222,,,,
-Q624100,12067473,Steinhöfel,Oder-Spree,Brandenburg,,https://www.gemeinde-steinhoefel.de/,52.399722222,14.166666666,,,,
-Q583478,12061471,Steinreich,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Steinreich.htm,51.95,13.449722222,,,,
-Q624021,12068413,Storbeck-Frankendorf,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87438,52.966666666,12.766666666,,,,
-Q586991,12067481,Storkow (Mark),Oder-Spree,Brandenburg,,https://www.storkow-mark.de/,52.252802,13.928854,,,,
-Q572581,12061476,Straupitz (Spreewald),Dahme-Spreewald,Brandenburg,Amt Lieberose/Oberspreewald,https://www.straupitz-im-spreewald.de/,51.899722222,14.116666666,,,,
-Q490521,12064472,Strausberg,Märkisch-Oderland,Brandenburg,,https://www.stadt-strausberg.de/,52.580833333,13.881388888,,,,
-Q572032,12068417,Stüdenitz-Schönermark,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-neustadt-dosse.de/verzeichnis/objekt.php?mandat=43530,52.895833333,12.304166666,,,,
-Q584044,12060250,Sydower Fließ,Barnim,Brandenburg,,https://www.sydower-fliess.de/,52.75,13.716666666,,,,
-Q636975,12073565,Tantow,Uckermark,Brandenburg,Amt Gartz (Oder),http://www.gemeinde-tantow.de/,53.272222222,14.349722222,,,,
-Q627082,12067493,Tauche,Oder-Spree,Brandenburg,,https://www.gemeinde-tauche.de/,52.147527777,14.158944444,,,,
-Q574808,12071384,Tauer,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/tauer,51.9,14.45,,,,
-Q637894,12071386,Teichland,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/teichland,51.8108,14.4288,,,,
-Q572512,12069616,Teltow,Potsdam-Mittelmark,Brandenburg,,https://www.teltow.de/,52.402222222,13.270555555,,,,
-Q256987,12073569,Temmen-Ringenwalde,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=38920,53.049722222,13.733055555,,,,
-Q247410,12068425,Temnitzquell,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87444,53.014444444,12.648333333,,,,
-Q622088,12068426,Temnitztal,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=54908,52.8775,12.630555555,,,,
-Q519157,12073572,Templin,Uckermark,Brandenburg,,https://www.templin.de/,53.121686,13.508255,,,,
-Q583468,12066316,Tettau,Oberspreewald-Lausitz,Brandenburg,,https://www.tettau-osl.de/,51.433055555,13.733055555,,,,
-Q569554,12061492,Teupitz,Dahme-Spreewald,Brandenburg,,https://www.teupitz.de/,52.1326,13.6175,,,,
-Q570114,12072426,Trebbin,Teltow-Fläming,Brandenburg,,https://www.stadt-trebbin.de/,52.214155,13.212382,,,,
-Q583014,12064480,Treplin,Märkisch-Oderland,Brandenburg,,https://www.amt-lebus.de/verzeichnis/objekt.php?mandat=27436,52.391388888,14.397777777,,,,
-Q625078,12069632,Treuenbrietzen,Potsdam-Mittelmark,Brandenburg,,https://www.treuenbrietzen.de/,52.097288,12.871126,,,,
-Q636542,12070393,Triglitz,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55521,53.216666666,12.099722222,,,,
-Q528883,12062492,Tröbitz,Elbe-Elster,Brandenburg,,https://www.gemeinde-troebitz.de/,51.6,13.433055555,,,,
-Q633598,12071392,Tschernitz,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=86710,51.583055555,14.616666666,,,,
-Q636105,12071401,Turnow-Preilack,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/turnow-preilack,51.866666666,14.4,,,,
-Q625362,12073578,Uckerfelde,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27365,53.265,13.949722222,,,,
-Q634403,12073579,Uckerland,Uckermark,Brandenburg,,https://www.uckerland.de/,53.450055555,13.803388888,,,,
-Q516707,12062500,Uebigau-Wahrenbrück,Elbe-Elster,Brandenburg,,https://www.uebigau-wahrenbrueck.de/,51.55,13.35,,,,
-Q585197,12061510,Unterspreewald,Dahme-Spreewald,Brandenburg,,https://unterspreewald.de,52.083333333,13.866666666,,,,
-Q585613,12065332,Velten,Oberhavel,Brandenburg,,https://velten.de/,52.691388888,13.175277777,,,,
-Q147633,12066320,Vetschau/Spreewald,Oberspreewald-Lausitz,Brandenburg,,https://stadt.vetschau.de/,51.783055555,14.066666666,,,,
-Q623381,12068437,Vielitzsee,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-lindow-mark.de/ris/ti-lindow-5/,52.940277777,13.023055555,,,,
-Q585280,12064482,Vierlinden,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52844,52.515,14.314166666,,,,
-Q627303,12067508,Vogelsang,Oder-Spree,Brandenburg,,https://www.amt-b-f.de/verzeichnis/objekt.php?mandat=78410,52.183055555,14.666666666,,,,
-Q585255,12064484,Waldsieversdorf,,Brandenburg,Amt Märkische Schweiz,https://www.waldsieversdorf.info/,52.543333333,14.072222222,,,,
-Q585065,12068452,Walsleben,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87464,52.933055555,12.666666666,,,,
-Q525555,12060269,Wandlitz,Barnim,Brandenburg,,https://www.wandlitz.de/,52.75,13.449722222,,,,
-Q622323,12070416,Weisen,Prignitz,Brandenburg,,https://www.amtbww.de/ris/ti_6/,53.033055555,11.783055555,,,,
-Q572607,12071408,Welzow,Spree-Neiße,Brandenburg,,https://www.welzow.de/,51.583583333,14.172444444,,,,
-Q622866,12067520,Wendisch Rietz,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=54337,52.2,14.016666666,,,,
-Q624292,12069648,Wenzlow,Potsdam-Mittelmark,Brandenburg,,https://www.amt-ziesar.de/unser-amt/gemeinden/wenzlow.html,52.299722222,12.449722222,,,,
-Q574768,12071412,Werben,Spree-Neiße,Brandenburg,,http://www.werben-im-spreewald.de/,51.81667,14.18333,,,,
-Q525686,12069656,Werder (Havel),Potsdam-Mittelmark,Brandenburg,,https://www.werder-havel.de/,52.378055555,12.935,,,,
-Q502855,12060280,Werneuchen,Barnim,Brandenburg,,https://www.werneuchen-barnim.de/,52.633055555,13.733055555,,,,
-Q622451,12067528,Wiesenau,Oder-Spree,Brandenburg,,https://www.gemeinde-wiesenau.de/,52.23071,14.59107,,,,
-Q581753,12063142,Wiesenaue,Havelland,Brandenburg,,https://www.amt-friesack.de/verzeichnis/objekt.php?mandat=72582,52.7,12.616666666,,,,
-Q623510,12069665,Wiesenburg/Mark,Potsdam-Mittelmark,Brandenburg,,https://www.wiesenburgmark.de/,52.113194,12.453444,,,,
-Q638613,12071414,Wiesengrund,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=90112,51.7,14.566666666,,,,
-Q566233,12061540,Wildau,Dahme-Spreewald,Brandenburg,,https://wildau.de,52.316666666,13.633333333,,,,
-Q541956,12070424,Wittenberge,Prignitz,Brandenburg,,https://www.wittenberge.de/,52.997734,11.75041,,,,
-Q159572,12068468,Wittstock/Dosse,Ostprignitz-Ruppin,Brandenburg,,https://www.wittstock.de/,53.163294,12.485617,,,,
-Q627367,12069680,Wollin,Potsdam-Mittelmark,Brandenburg,,https://www.amt-ziesar.de/unser-amt/gemeinden/wollin.html,52.283333333,12.466666666,,,,
-Q628778,12067544,Woltersdorf,Oder-Spree,Brandenburg,,https://www.woltersdorf-schleuse.de/,52.450507,13.754678,,,,
-Q588598,12064512,Wriezen,Märkisch-Oderland,Brandenburg,,https://www.wriezen.de/,52.721365,14.134391,,,,
-Q623516,12068477,Wusterhausen/Dosse,Ostprignitz-Ruppin,Brandenburg,,http://www.wusterhausen.de/,52.890666666,12.461805555,,,,
-Q581938,12063357,Wustermark,Havelland,Brandenburg,,https://www.wustermark.de/,52.549722222,12.949722222,,,,
-Q625379,12069688,Wusterwitz,Potsdam-Mittelmark,Brandenburg,,https://www.amt-wusterwitz.de/verzeichnis/objekt.php?mandat=90464,52.370833333,12.384722222,,,,
-Q184166,12064538,Zechin,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52515,52.60842,14.45251,,,,
-Q184481,12065356,Zehdenick,Oberhavel,Brandenburg,,https://www.zehdenick.de/,52.983055555,13.333055555,,,,
-Q191892,12068501,Zernitz-Lohm,Ostprignitz-Ruppin,Brandenburg,,http://www.gemeinde-zernitz-lohm.de/,52.875,12.341666666,,,,
-Q196806,12064539,Zeschdorf,Märkisch-Oderland,Brandenburg,Amt Lebus,https://www.amt-lebus.de/verzeichnis/objekt.php?mandat=27437,52.428055555,14.444166666,,,,
-Q180898,12061572,Zeuthen,Dahme-Spreewald,Brandenburg,,https://www.zeuthen.de/,52.35,13.628055555,,,,
-Q198395,12073645,Zichow,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27366,53.18927,14.03847,,,,
-Q199233,12069696,Ziesar,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www.ziesar.de/,52.266666666,12.283055555,,,,
-Q199278,12060296,Ziethen,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73150,52.966666666,13.916666666,,,,
-Q203347,12067552,Ziltendorf,Oder-Spree,Brandenburg,,http://www.ziltendorf.de/,52.216666666,14.65,,,,
-Q226884,12072477,Zossen,Teltow-Fläming,Brandenburg,,https://www.zossen.de/,52.216666666,13.449722222,,,,
+Q532803,12066052,Calau,Oberspreewald-Lausitz,Brandenburg,,https://www.calau.de/,51.746819,13.949411,,,kein_ris,2026-11-15
+Q622491,12073093,Carmzow-Wallmow,Uckermark,Brandenburg,Amt Brüssow,https://www.amt-bruessow.de/verzeichnis/objekt.php?mandat=23646,53.366666666,14.066666666,,,kein_ris,2026-11-15
+Q624127,12073097,Casekow,Uckermark,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18336,53.216666666,14.216666666,,,kein_ris,2026-11-15
+Q586072,12060045,Chorin,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/chorin-gemeinde,52.9,13.866666666,https://ratsinfo-online.net/britzchorinoderberg-bi/,auto,gesperrt,2026-11-15
+Q3214,12052000,Cottbus,,Brandenburg,,https://www.cottbus.de/,51.760805555,14.331861111,,,kein_ris,2026-11-15
+Q582057,12062088,Crinitz,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/crinitz,51.733055555,13.766666666,,,kein_ris,2026-11-15
+Q635490,12070060,Cumlosen,Prignitz,Brandenburg,,http://www.cumlosen.de/,53.033055555,11.666666666,,,kein_ris,2026-11-15
+Q625084,12068072,Dabergotz,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87426,52.9031,12.724661111,,,kein_ris,2026-11-15
+Q622572,12072053,Dahme/Mark,Teltow-Fläming,Brandenburg,Amt Dahme/Mark,https://www.dahme.de/verzeichnis/objekt.php?mandat=28830,51.866666666,13.433055555,,,kein_ris,2026-11-15
+Q627756,12072055,Dahmetal,Teltow-Fläming,Brandenburg,,https://www.dahme.de/verzeichnis/objekt.php?mandat=4712,51.899722222,13.483055555,,,kein_ris,2026-11-15
+Q583555,12063056,Dallgow-Döberitz,Havelland,Brandenburg,,https://www.dallgow.de/,52.533055555,13.05,,,kein_ris,2026-11-15
+Q622091,12067112,Diensdorf-Radlow,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=154445,52.233055555,14.05,,,kein_ris,2026-11-15
+Q574757,12071041,Dissen-Striesow,Spree-Neiße,Brandenburg,,http://www.dissen-striesow.de/,51.816666666,14.3,,,kein_ris,2026-11-15
+Q371098,12062092,Doberlug-Kirchhain,Elbe-Elster,Brandenburg,,https://www.doberlug-kirchhain.de/,51.637422,13.562932,,,kein_ris,2026-11-15
+Q574799,12071052,Drachhausen,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/drachhausen,51.899722222,14.316666666,https://www.amtpeitz.de/sessionnet/buergerinfo/,sessionnet,gefunden,2026-11-15
+Q427095,12061097,Drahnsdorf,Dahme-Spreewald,Brandenburg,Amt Unterspreewald,https://www.unterspreewald.de/Stadt-und-Gemeinden/Drahnsdorf.htm,51.916666666,13.583055555,,,kein_ris,2026-11-15
+Q572518,12071057,Drebkau,Spree-Neiße,Brandenburg,,https://www.drebkau.de/,51.651155,14.232145,,,kein_ris,2026-11-15
+Q621912,12068109,Dreetz,Ostprignitz-Ruppin,Brandenburg,,https://www.gemeinde-dreetz.de/,52.799722222,12.466666666,,,kein_ris,2026-11-15
+Q623925,12071060,Drehnow,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/drehnow,51.866666666,14.366666666,https://www.amtpeitz.de/sessionnet/buergerinfo/,sessionnet,gefunden,2026-11-15
+Q544801,12071044,Döbern,Spree-Neiße,Brandenburg,,http://www.doebern.de/,51.616666666,14.6,,,kein_ris,2026-11-15
+Q9306,12060052,Eberswalde,Barnim,Brandenburg,,https://www.eberswalde.de/,52.833055555,13.833055555,https://sessionnet.eberswalde.de/sessionnet/bi/,sessionnet,gefunden,2026-11-15
+Q583542,12061112,Eichwalde,Dahme-Spreewald,Brandenburg,,https://www.eichwalde.de/,52.372955,13.62134,,,kein_ris,2026-11-15
+Q16106,12067120,Eisenhüttenstadt,Oder-Spree,Brandenburg,,https://www.eisenhuettenstadt.de/,52.14655,14.63001,,,kein_ris,2026-11-15
+Q584473,12062124,Elsterwerda,Elbe-Elster,Brandenburg,,https://www.elsterwerda.de/,51.45691,13.523319,,,kein_ris,2026-11-15
+Q572392,12067124,Erkner,Oder-Spree,Brandenburg,,https://www.erkner.de/,52.416666666,13.75,,,kein_ris,2026-11-15
+Q590130,12064125,Falkenberg,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373817/falkenberg.html,52.816666666,13.949722222,,,kein_ris,2026-11-15
+Q570094,12062128,Falkenberg/Elster,Elbe-Elster,Brandenburg,,https://www.falkenberg-elster.de/,51.583055555,13.232222222,,,kein_ris,2026-11-15
+Q581917,12064128,Falkenhagen,Märkisch-Oderland,Brandenburg,Amt Seelow-Land,https://www.falkenhagen-mark.de/,52.433055555,14.316666666,,,kein_ris,2026-11-15
+Q14842,12063080,Falkensee,Havelland,Brandenburg,,https://www.falkensee.de/,52.558333333,13.091666666,,,kein_ris,2026-11-15
+Q626792,12068117,Fehrbellin,Ostprignitz-Ruppin,Brandenburg,,https://www.fehrbellin.de/,52.814359,12.766139,,,kein_ris,2026-11-15
+Q623917,12071074,Felixsee,Spree-Neiße,Brandenburg,Amt Döbern-Land,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=86498,51.6,14.516666666,,,kein_ris,2026-11-15
+Q583024,12064130,Fichtenhöhe,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52834,52.45,14.433055555,,,kein_ris,2026-11-15
+Q553237,12062134,Fichtwald,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/fichtwald/,51.7,13.466666666,,,kein_ris,2026-11-15
+Q588905,12062140,Finsterwalde,Elbe-Elster,Brandenburg,,https://www.finsterwalde.de/,51.628243,13.71021,,,kein_ris,2026-11-15
+Q124789,12073157,Flieth-Stegelitz,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=18929,53.166666666,13.816666666,,,kein_ris,2026-11-15
+Q572545,12071076,Forst (Lausitz),Spree-Neiße,Brandenburg,,https://www.forst-lausitz.de/,51.74531,14.647802,,,kein_ris,2026-11-15
+Q4024,12053000,Frankfurt (Oder),,Brandenburg,,https://www.frankfurt-oder.de/,52.342083333,14.551666666,,,kein_ris,2026-11-15
+Q581728,12066064,Frauendorf,Oberspreewald-Lausitz,Brandenburg,,https://www.gemeinde-frauendorf.de/,51.416666666,13.766666666,,,kein_ris,2026-11-15
+Q581470,12064136,Fredersdorf-Vogelsdorf,Märkisch-Oderland,Brandenburg,,https://www.fredersdorf-vogelsdorf.de/,52.52835,13.755324,,,kein_ris,2026-11-15
+Q640298,12067137,Friedland,Oder-Spree,Brandenburg,,https://www.friedland-nl.de/,52.105027777,14.2635,,,kein_ris,2026-11-15
+Q241395,12060068,Friedrichswalde,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73149,53.033333333,13.716666666,,,kein_ris,2026-11-15
+Q585632,12063088,Friesack,Havelland,Brandenburg,,https://amt-friesack.de,52.733055555,12.583055555,,,kein_ris,2026-11-15
+Q311539,12065084,Fürstenberg/Havel,Oberhavel,Brandenburg,,https://www.fuerstenberg-havel.de/,53.185585,13.145541,,,kein_ris,2026-11-15
+Q16064,12067144,Fürstenwalde,Oder-Spree,Brandenburg,,https://www.fuerstenwalde-spree.de/,52.366666666,14.066666666,,,kein_ris,2026-11-15
+Q571998,12073189,Gartz (Oder),,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18265,53.210277777,14.391111111,,,kein_ris,2026-11-15
+Q585328,12064153,Garzau-Garzin,Märkisch-Oderland,Brandenburg,,https://www.amt-maerkische-schweiz.de/gemeinden/gemeinde-garzau-garzin/,52.549722222,13.983055555,,,kein_ris,2026-11-15
+Q622156,12070096,Gerdshagen,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=38437,53.25,12.2,,,kein_ris,2026-11-15
+Q625872,12073201,Gerswalde,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=9679,53.170498055,13.748518888,,,kein_ris,2026-11-15
+Q585248,12065096,Glienicke/Nordbahn,Oberhavel,Brandenburg,,https://www.glienicke.eu/,52.630277777,13.319722222,https://www.glienicke.eu/allris/vo040.asp,html,gefunden,2026-11-15
+Q585417,12063094,Gollenberg,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54071,52.74775,12.385722222,,,kein_ris,2026-11-15
+Q583134,12064172,Golzow,Märkisch-Oderland,Brandenburg,Amt Golzow,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52510,52.566666666,14.5,,,kein_ris,2026-11-15
+Q640637,12069216,"Golzow, Mittelmark",Potsdam-Mittelmark,Brandenburg,Amt Brück,https://www.amt-brueck.de/verzeichnis/objekt.php?mandat=56002,52.266666666,12.616111111,,,kein_ris,2026-11-15
+Q544892,12061164,Golßen,Dahme-Spreewald,Brandenburg,Amt Unterspreewald,https://www.golssen.de/,51.966666666,13.599722222,,,kein_ris,2026-11-15
+Q556059,12062177,Gorden-Staupitz,Elbe-Elster,Brandenburg,,https://www.plessa.de/verzeichnis/objekt.php?mandat=18394,51.534166666,13.628888888,,,kein_ris,2026-11-15
+Q624117,12067173,Gosen-Neu Zittau,Oder-Spree,Brandenburg,,https://www.amt-spreenhagen.de/verzeichnis/objekt.php?mandat=131797,52.393333333,13.712777777,,,kein_ris,2026-11-15
+Q636566,12073225,Gramzow,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27361,53.21246,14.00748,,,kein_ris,2026-11-15
+Q585627,12065100,Gransee,Oberhavel,Brandenburg,,https://www.gransee.de/,53.006944444,13.158611111,,,kein_ris,2026-11-15
+Q625962,12069249,Groß Kreutz,Potsdam-Mittelmark,Brandenburg,,https://www.gross-kreutz.de/,52.410189,12.696396,,,kein_ris,2026-11-15
+Q548429,12061192,Groß Köris,Dahme-Spreewald,Brandenburg,Amt Schenkenländchen,https://www.amt-schenkenlaendchen.de/verzeichnis/objekt.php?mandat=18781,52.166666666,13.666666666,,,kein_ris,2026-11-15
+Q624110,12067180,Groß Lindow,Oder-Spree,Brandenburg,,http://www.gross-lindow.de/,52.233055555,14.533055555,,,kein_ris,2026-11-15
+Q370074,12070125,Groß Pankow (Prignitz),Prignitz,Brandenburg,,http://www.grosspankow.de/,53.119111111,12.051527777,,,kein_ris,2026-11-15
+Q39787,12071153,Groß Schacksdorf-Simmersdorf,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=58670,51.686388888,14.625,,,kein_ris,2026-11-15
+Q628528,12072120,Großbeeren,Teltow-Fläming,Brandenburg,,https://www.grossbeeren.de/,52.355119,13.307877,,,kein_ris,2026-11-15
+Q589635,12063112,Großderschau,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54072,52.79057,12.3682,,,kein_ris,2026-11-15
+Q585221,12066104,Großkmehlen,Oberspreewald-Lausitz,Brandenburg,,https://www.grosskmehlen.de/,51.383055555,13.733055555,,,kein_ris,2026-11-15
+Q588844,12066112,Großräschen,Oberspreewald-Lausitz,Brandenburg,,https://www.grossraeschen.de/,51.585746,14.0104,,,kein_ris,2026-11-15
+Q551468,12062208,Großthiemig,Elbe-Elster,Brandenburg,,https://www.grossthiemig.info/,51.383055555,13.666666666,,,kein_ris,2026-11-15
+Q671788,12065117,Großwoltersdorf,Oberhavel,Brandenburg,,https://www.gransee.de/politik-verwaltung/grosswoltersdorf/,53.0695343,13.0963068,,,kein_ris,2026-11-15
+Q597111,12067205,Grunow-Dammendorf,Oder-Spree,Brandenburg,,http://www.grunow-dammendorf.de/,52.149722222,14.416666666,,,kein_ris,2026-11-15
+Q623929,12069232,Gräben,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www.amt-ziesar.de/unser-amt/gemeinden/graeben.html,52.233055555,12.433055555,,,kein_ris,2026-11-15
+Q551445,12062196,Gröden,Elbe-Elster,Brandenburg,,https://www.amt-schradenland.de/verzeichnis/objekt.php?mandat=18587,51.399722222,13.566666666,,,kein_ris,2026-11-15
+Q588878,12066116,Grünewald,Oberspreewald-Lausitz,Brandenburg,Amt Ruhland,https://www.amt-ruhland.de/amtsgemeinden/gruenewald/,51.4,14.0,,,kein_ris,2026-11-15
+Q622449,12067201,Grünheide (Mark),Oder-Spree,Brandenburg,,https://www.gruenheide-mark.de/,52.42552,13.822805,,,kein_ris,2026-11-15
+Q624125,12073261,Grünow,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27362,53.316666666,13.945,,,kein_ris,2026-11-15
+Q494747,12071160,Guben,Spree-Neiße,Brandenburg,,https://www.guben.de/,51.95042,14.7143,,,kein_ris,2026-11-15
+Q640819,12071164,Guhrow,Spree-Neiße,Brandenburg,,https://amt-burg-spreewald.de/de/amt-gemeinden/gemeinden/guhrow-gory.html,51.816666666,14.233333333,,,kein_ris,2026-11-15
+Q628142,12070149,Gumtow,Prignitz,Brandenburg,,https://www.gemeindegumtow.de/,52.980527777,12.247222222,,,kein_ris,2026-11-15
+Q585301,12064190,Gusow-Platkow,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/visitenkarte.php?mandat=50643,52.566666666,14.349722222,,,kein_ris,2026-11-15
+Q588863,12066120,Guteborn,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/guteborn/,51.416666666,13.933055555,,,kein_ris,2026-11-15
+Q624913,12073216,Göritz,Uckermark,Brandenburg,Amt Brüssow,https://www.amt-bruessow.de/verzeichnis/visitenkarte.php?mandat=23649,53.407432,13.911861,,,kein_ris,2026-11-15
+Q625844,12069224,Görzke,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www.amt-ziesar.de/unser-amt/gemeinden/goerzke.html,52.170833333,12.370555555,,,kein_ris,2026-11-15
+Q635516,12070145,Gülitz-Reetz,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55514,53.2,11.983055555,,,kein_ris,2026-11-15
+Q531652,12061216,Halbe,Dahme-Spreewald,Brandenburg,Amt Schenkenländchen,https://www.amt-schenkenlaendchen.de/verzeichnis/objekt.php?mandat=18864,52.108611111,13.700833333,,,kein_ris,2026-11-15
+Q686804,12070153,Halenbeck-Rohlsdorf,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=53512,53.25,12.316666666,,,kein_ris,2026-11-15
+Q583144,12063134,Havelaue,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54073,52.716666666,12.265277777,,,kein_ris,2026-11-15
+Q629403,12069270,Havelsee,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,https://havelsee.de/,52.5,12.466666666,,,kein_ris,2026-11-15
+Q202412,12064205,Heckelberg-Brunow,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373818/heckelberg-brunow.html,52.735,13.857777777,,,kein_ris,2026-11-15
+Q581461,12061219,Heideblick,Dahme-Spreewald,Brandenburg,,https://www.heideblick.de/,51.829305555,13.630916666,,,kein_ris,2026-11-15
+Q582769,12062219,Heideland,Elbe-Elster,Brandenburg,,,51.6,13.666666666,,,keine_homepage,2026-11-15
+Q588575,12061217,Heidesee,Dahme-Spreewald,Brandenburg,,https://gemeinde-heidesee.de/,52.283055555,13.8,,,kein_ris,2026-11-15
+Q520280,12068181,Heiligengrabe,Ostprignitz-Ruppin,Brandenburg,,https://www.heiligengrabe.de/,53.145416666,12.372777777,,,kein_ris,2026-11-15
+Q574750,12071176,Heinersbrück,Spree-Neiße,Brandenburg,,https://heinersbrueck-most.de/,51.833055555,14.5,,,kein_ris,2026-11-15
+Q583462,12065136,Hennigsdorf,Kreis Oranienburg,Brandenburg,,https://www.hennigsdorf.de/,52.637777777,13.203611111,,,kein_ris,2026-11-15
+Q636083,12066124,Hermsdorf,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/hermsdorf/,51.416666666,13.9,,,kein_ris,2026-11-15
+Q529841,12068188,Herzberg,Ostprignitz-Ruppin,Brandenburg,,http://www.herzberg-mark.de/,52.899722222,12.983055555,,,kein_ris,2026-11-15
+Q544699,12062224,Herzberg (Elster),Elbe-Elster,Brandenburg,,https://www.herzberg-elster.de/,51.683055555,13.233055555,,,kein_ris,2026-11-15
+Q178656,12062232,Hirschfeld,Elbe-Elster,Brandenburg,,http://www.hirschfeld-im-schraden.de/,51.383055555,13.616666666,,,kein_ris,2026-11-15
+Q545340,12065144,Hohen Neuendorf,Oberhavel,Brandenburg,,https://hohen-neuendorf.de/,52.666666666,13.283055555,https://ratsinfo-online.net/hohenneuendorf-ri/,auto,gesperrt,2026-11-15
+Q177052,12066132,Hohenbocka,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/hohenbocka/,51.433055555,14.0,,,kein_ris,2026-11-15
+Q551500,12062237,Hohenbucko,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/hohenbucko/,51.766666666,13.466666666,,,kein_ris,2026-11-15
+Q587133,12060092,Hohenfinow,Barnim,Brandenburg,,https://hohenfinow.de/,52.810555555,13.924444444,https://ratsinfo-online.net/britzchorinoderberg-bi/,auto,gesperrt,2026-11-15
+Q551451,12062240,Hohenleipisch,Elbe-Elster,Brandenburg,,http://www.hohenleipisch.de/,51.5,13.55,,,kein_ris,2026-11-15
+Q625880,12073309,Hohenselchow-Groß Pinnow,Uckermark,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18333,53.194974,14.276652,,,kein_ris,2026-11-15
+Q375199,12064227,Hoppegarten,Märkisch-Oderland,Brandenburg,,https://www.gemeinde-hoppegarten.de/,52.515553,13.667766,,,kein_ris,2026-11-15
+Q633551,12071185,Hornow-Wadelsdorf,Spree-Neiße,Brandenburg,,,51.616666666,14.483055555,,,keine_homepage,2026-11-15
+Q583181,12064222,Höhenland,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373819/h%C3%B6henland.html,52.7,13.883055555,,,kein_ris,2026-11-15
+Q622582,12072157,"Ihlow, Fläming",Teltow-Fläming,Brandenburg,,https://www.dahme.de/verzeichnis/objekt.php?mandat=28324,51.883055555,13.333055555,,,kein_ris,2026-11-15
+Q636991,12067237,Jacobsdorf,Oder-Spree,Brandenburg,,https://www.amt-odervorland.de/index.php_id=94,52.333055555,14.349722222,,,kein_ris,2026-11-15
+Q574795,12061224,Jamlitz,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Jamlitz,52.0,14.366666666,,,kein_ris,2026-11-15
+Q535551,12060100,Joachimsthal,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73163,52.966666666,13.75,,,kein_ris,2026-11-15
+Q623915,12071189,Jämlitz-Klein Düben,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=91934,51.566666666,14.666666666,,,kein_ris,2026-11-15
+Q572540,12071193,Jänschwalde,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/jaenschwalde,51.861944444,14.499166666,https://www.amtpeitz.de/sessionnet/buergerinfo/,sessionnet,gefunden,2026-11-15
+Q486541,12072169,Jüterbog,Teltow-Fläming,Brandenburg,,https://www.jueterbog.eu/,51.993333333,13.072777777,,,kein_ris,2026-11-15
+Q627161,12070173,Karstädt,Prignitz,Brandenburg,,https://www.gemeinde-karstaedt.de/,53.160523,11.739661,,,kein_ris,2026-11-15
+Q584089,12061244,Kasel-Golzig,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Kasel-Golssig.htm,51.933055555,13.699722222,,,kein_ris,2026-11-15
+Q583450,12063148,Ketzin/Havel,Havelland,Brandenburg,,https://www.ketzin.de/,52.478055,12.842465,,,kein_ris,2026-11-15
+Q104192,12069304,Kleinmachnow,Potsdam-Mittelmark,Brandenburg,,https://www.kleinmachnow.de/,52.403611111,13.220277777,,,kein_ris,2026-11-15
+Q585385,12063161,Kleßen-Görne,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54074,52.7,12.516388888,,,kein_ris,2026-11-15
+Q627838,12069306,Kloster Lehnin,Potsdam-Mittelmark,Brandenburg,,https://www.klosterlehnin.de/,52.316666666,12.75,,,kein_ris,2026-11-15
+Q474475,12071244,Kolkwitz/Gołkojce,Spree-Neiße,Brandenburg,,https://gemeinde-kolkwitz.de/,51.749555555,14.24575,,,kein_ris,2026-11-15
+Q581947,12063165,Kotzen,Havelland,Brandenburg,,https://www.amt-nennhausen.de/verzeichnis/objekt.php?mandat=67586,52.633055555,12.516666666,,,kein_ris,2026-11-15
+Q517521,12061265,Krausnick-Groß Wasserburg,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Krausnick-Gross-Wasserburg.htm,52.033333333,13.85,,,kein_ris,2026-11-15
+Q553231,12062282,Kremitzaue,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/kremitzaue/,51.719166666,13.317222222,,,kein_ris,2026-11-15
+Q587094,12065165,Kremmen,Oberhavel,Brandenburg,,https://www.kremmen.de/,52.760474,13.024108,,,kein_ris,2026-11-15
+Q589543,12066168,Kroppen,Oberspreewald-Lausitz,Brandenburg,,https://www.kroppen-osl.de/,51.383055555,13.8,,,kein_ris,2026-11-15
+Q505160,12068264,Kyritz,Ostprignitz-Ruppin,Brandenburg,,https://www.kyritz.de/,52.942222222,12.397222222,,,kein_ris,2026-11-15
+Q16013,12061260,Königs Wusterhausen,Dahme-Spreewald,Brandenburg,,https://www.koenigs-wusterhausen.de/,52.291666666,13.625,,,kein_ris,2026-11-15
+Q634693,12070222,Kümmernitztal,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=20313,53.233055555,12.15,,,kein_ris,2026-11-15
+Q258017,12064266,Küstriner Vorland,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52511,52.568333333,14.609722222,,,kein_ris,2026-11-15
+Q628371,12067288,Langewahl,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=112815,52.333055555,14.099722222,,,kein_ris,2026-11-15
+Q625920,12070236,Lanz,Prignitz,Brandenburg,,https://www.amtlenzen.de/verzeichnis/objekt.php?mandat=65380,53.066666666,11.599722222,,,kein_ris,2026-11-15
+Q589247,12066176,Lauchhammer,Oberspreewald-Lausitz,Brandenburg,,https://www.lauchhammer.de/,51.469303,13.763192,,,kein_ris,2026-11-15
+Q622094,12067292,Lawitz,Oder-Spree,Brandenburg,,https://www.neuzelle.de/verzeichnis/visitenkarte.php?mandat=89481,52.115555555,14.638055555,,,kein_ris,2026-11-15
+Q26362,12064268,Lebus,Märkisch-Oderland,Brandenburg,Amt Lebus,http://www.lebus.eu/,52.416666666,14.533055555,,,kein_ris,2026-11-15
+Q551519,12062289,Lebusa,Elbe-Elster,Brandenburg,,https://www.amt-schlieben.de/gemeinden/lebusa/,51.799722222,13.433055555,,,kein_ris,2026-11-15
+Q531735,12065180,Leegebruch,Oberhavel,Brandenburg,,https://www.leegebruch.de/,52.725369,13.193641,,,kein_ris,2026-11-15
+Q501630,12070241,Legde/Quitzöbel,Prignitz,Brandenburg,,https://www.amtbww.de/ris/ti_4/,52.916666666,11.966666666,,,kein_ris,2026-11-15
+Q625768,12070244,Lenzen (Elbe),Prignitz,Brandenburg,,https://www.amtlenzen.de/verzeichnis/objekt.php?mandat=58824,53.091111111,11.473333333,,,kein_ris,2026-11-15
+Q636632,12070246,Lenzerwische,Prignitz,Brandenburg,,https://www.amtlenzen.de/verzeichnis/objekt.php?mandat=65388,53.1,11.283055555,,,kein_ris,2026-11-15
+Q585206,12064274,Letschin,Märkisch-Oderland,Brandenburg,,https://www.letschin.de/,52.640527777,14.357111111,,,kein_ris,2026-11-15
+Q556054,12062293,Lichterfeld-Schacksdorf,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/lichterfeld-schacksdorf,51.6,13.766666666,,,kein_ris,2026-11-15
+Q583458,12065193,Liebenwalde,Oberhavel,Brandenburg,,https://www.liebenwalde.de/,52.8715,13.39075,,,kein_ris,2026-11-15
+Q584485,12061308,Lieberose,Dahme-Spreewald,Brandenburg,,http://www.lieberose-niederlausitz.de/,51.983055555,14.3,,,kein_ris,2026-11-15
+Q559999,12060128,Liepe,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/liepe-gemeinde,52.866666666,13.966666666,https://ratsinfo-online.net/britzchorinoderberg-bi/,auto,gesperrt,2026-11-15
+Q585484,12064288,Lietzen,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52838,52.470833333,14.341944444,,,kein_ris,2026-11-15
+Q582810,12066188,Lindenau,Oberspreewald-Lausitz,Brandenburg,,https://www.lindenau-ol.de/,51.399722222,13.733055555,,,kein_ris,2026-11-15
+Q585239,12064290,Lindendorf,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52839,52.483055555,14.433055555,,,kein_ris,2026-11-15
+Q625741,12068280,Lindow (Mark),Ostprignitz-Ruppin,Brandenburg,,https://www.amt-lindow-mark.de/ris/ti-lindow-2/,52.966666666,12.983333333,,,kein_ris,2026-11-15
+Q204109,12069345,Linthe,Potsdam-Mittelmark,Brandenburg,Amt Brück,https://www.amt-brueck.de/verzeichnis/objekt.php?mandat=56904,52.149722222,12.783055555,,,kein_ris,2026-11-15
+Q585318,12066202,Luckaitztal,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-altdoebern.de/verzeichnis/objekt.php?mandat=22112,51.7,14.016666666,,,kein_ris,2026-11-15
+Q539288,12061320,Luckau,Dahme-Spreewald,Brandenburg,,https://luckau.de/,51.85,13.716666666,,,kein_ris,2026-11-15
+Q574146,12072232,Luckenwalde,Teltow-Fläming,Brandenburg,,https://www.luckenwalde.de/,52.083055555,13.166666666,https://www.luckenwalde.de/Rathaus/Politik/B%C3%BCrgerinfoportal/Sitzungskalender/,sessionnet,gefunden,2026-11-15
+Q574170,12072240,Ludwigsfelde,Teltow-Fläming,Brandenburg,,https://www.ludwigsfelde.de/,52.299722222,13.266666666,,,kein_ris,2026-11-15
+Q560013,12060149,Lunow-Stolzenhagen,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/lunow-stolzenhagen-gemeinde,52.933333333,14.108333333,https://ratsinfo-online.net/britzchorinoderberg-bi/,auto,gesperrt,2026-11-15
+Q635901,12073384,Lychen,Uckermark,Brandenburg,,https://www.lychen.de/,53.210055555,13.315333333,,,kein_ris,2026-11-15
+Q583171,12065198,Löwenberger Land,Oberhavel,Brandenburg,,https://www.loewenberger-land.de/,52.896039,13.154618,,,kein_ris,2026-11-15
+Q584815,12061316,Lübben (Spreewald),Dahme-Spreewald,Brandenburg,,https://www.luebben.de/,51.95,13.9,,,kein_ris,2026-11-15
+Q147895,12066196,Lübbenau/Spreewald,Oberspreewald-Lausitz,Brandenburg,,https://www.luebbenau-spreewald.de/,51.867874,13.968828,,,kein_ris,2026-11-15
+Q625876,12067310,Madlitz-Wilmersdorf,Briesen (Mark),Brandenburg,,,52.383055555,14.283055555,,,keine_homepage,2026-11-15
+Q622574,12070266,Marienfließ,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=53505,53.316666666,12.15,,,kein_ris,2026-11-15
+Q543918,12060154,Marienwerder,Barnim,Brandenburg,Amt Biesenthal-Barnim,https://marienwerder-barnim.de/,52.8425,13.6,,,kein_ris,2026-11-15
+Q621902,12073386,Mark Landin,Schwedt/Oder,Brandenburg,,,53.083055555,14.133055555,,,keine_homepage,2026-11-15
+Q544878,12062333,Massen-Niederlausitz,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/massen-niederlausitz,51.649722222,13.733055555,,,kein_ris,2026-11-15
+Q560203,12060161,Melchow,Barnim,Brandenburg,,https://www.melchow.de/,52.783055555,13.716666666,,,kein_ris,2026-11-15
+Q545967,12062336,Merzdorf,Elbe-Elster,Brandenburg,,https://www.amt-schradenland.de/verzeichnis/objekt.php?mandat=18590,51.4,13.533333333,,,kein_ris,2026-11-15
+Q625778,12073393,Mescherin,Uckermark,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18327,53.2475,14.431666666,,,kein_ris,2026-11-15
+Q628105,12070280,Meyenburg,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=53497,53.316666666,12.233055555,,,kein_ris,2026-11-15
+Q612992,12069397,Michendorf,Potsdam-Mittelmark,Brandenburg,,https://www.michendorf.de/,52.3128624,13.029174,,,kein_ris,2026-11-15
+Q623967,12073396,Milmersdorf,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=38919,53.11185,13.6415,,,kein_ris,2026-11-15
+Q263645,12063189,Milower Land,Havelland,Brandenburg,,https://www.milow.de/,52.519416666,12.311222222,,,kein_ris,2026-11-15
+Q636589,12073404,Mittenwalde,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=38868,53.183055555,13.666666666,,,kein_ris,2026-11-15
+Q574811,12061332,Mittenwalde,Dahme-Spreewald,Brandenburg,,https://www.mittenwalde.de/,52.266666666,13.533333333,,,kein_ris,2026-11-15
+Q622079,12067324,Mixdorf,Oder-Spree,Brandenburg,,,52.2,14.4,,,keine_homepage,2026-11-15
+Q544844,12061328,Märkisch Buchholz,Dahme-Spreewald,Brandenburg,,https://www.maerkischbuchholz.de/,52.1,13.75,,,kein_ris,2026-11-15
+Q627084,12068306,Märkisch Linden,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87428,52.916666666,12.699722222,,,kein_ris,2026-11-15
+Q585341,12063186,Märkisch Luch,Havelland,Brandenburg,,https://www.amt-nennhausen.de/verzeichnis/objekt.php?mandat=67588,52.566666666,12.616666666,,,kein_ris,2026-11-15
+Q582023,12061329,Märkische Heide,Dahme-Spreewald,Brandenburg,,https://www.maerkische-heide.de/,52.0385,14.040944444,,,kein_ris,2026-11-15
+Q585432,12064303,Märkische Höhe,Märkisch-Oderland,Brandenburg,,https://www.amt-maerkische-schweiz.de/gemeinden/gemeinde-maerkische-hoehe/,52.625,14.125,,,kein_ris,2026-11-15
+Q170301,12062341,Mühlberg/Elbe,Elbe-Elster,Brandenburg,,https://www.muehlberg-elbe.de/,51.433055555,13.216666666,,,kein_ris,2026-11-15
+Q581972,12065225,Mühlenbecker Land,Oberhavel,Brandenburg,,https://www.muehlenbecker-land.de/,52.667747,13.380544,,,kein_ris,2026-11-15
+Q256918,12063202,Mühlenberge,Havelland,Brandenburg,,https://www.muehlenberge.de/,52.683333333,12.6,,,kein_ris,2026-11-15
+Q622545,12069402,Mühlenfließ,Potsdam-Mittelmark,Brandenburg,,http://www.amt-niemegk.de/verzeichnis/objekt.php?mandat=4243,52.116666666,12.783055555,,,kein_ris,2026-11-15
+Q638607,12067336,Müllrose,Oder-Spree,Brandenburg,,https://www.muellrose.de/,52.25,14.416666666,,,kein_ris,2026-11-15
+Q202498,12064317,Müncheberg,Märkisch-Oderland,Brandenburg,,https://www.stadt-muencheberg.de/,52.503749,14.139854,,,kein_ris,2026-11-15
+Q584785,12061344,Münchehofe,Dahme-Spreewald,Brandenburg,,https://www.muenchehofe.info/,52.146944444,13.836111111,,,kein_ris,2026-11-15
+Q581994,12063208,Nauen,Havelland,Brandenburg,,https://www.nauen.de/,52.6,12.883055555,,,kein_ris,2026-11-15
+Q636072,12071294,Neiße-Malxetal,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=83592,51.616666666,14.699722222,,,kein_ris,2026-11-15
+Q625074,12067338,Neißemünde,Oder-Spree,Brandenburg,,,52.066666666,14.716666666,,,keine_homepage,2026-11-15
+Q585364,12063212,Nennhausen,Havelland,Brandenburg,,https://www.amt-nennhausen.de/verzeichnis/objekt.php?mandat=67590,52.6,12.5,,,kein_ris,2026-11-15
+Q574761,12061352,Neu Zauche,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Neu-Zauche,51.933055555,14.099722222,,,kein_ris,2026-11-15
+Q589559,12066226,Neu-Seeland,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-altdoebern.de/verzeichnis/objekt.php?mandat=22146,51.616666666,14.099722222,,,kein_ris,2026-11-15
+Q582690,12064336,Neuenhagen bei Berlin,Märkisch-Oderland,Brandenburg,,https://www.neuenhagen-bei-berlin.de/,52.533055555,13.683055555,https://www.neuenhagen-bei-berlin.de/startseite-de/politik-verwaltung/politik/ratsinfoportal/,sessionnet,gefunden,2026-11-15
+Q582614,12064340,Neuhardenberg,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/visitenkarte.php?mandat=50645,52.6,14.25,,,kein_ris,2026-11-15
+Q164086,12071301,Neuhausen/Spree,Spree-Neiße,Brandenburg,,https://www.neuhausen-spree.de/,51.682583333,14.415111111,,,kein_ris,2026-11-15
+Q585188,12064349,Neulewin,Märkisch-Oderland,Brandenburg,Amt Barnim-Oderbruch,https://www.barnim-oderbruch.de/leben/gemeinden/neulewin,52.72446,14.274922,http://buergerinfo.barnim-oderbruch.de/,sessionnet,gefunden,2026-11-15
+Q588897,12066228,Neupetershain,Oberspreewald-Lausitz,Brandenburg,,https://neupetershain.de/,51.6,14.166666666,,,kein_ris,2026-11-15
+Q16085,12068320,Neuruppin,Ostprignitz-Ruppin,Brandenburg,,https://www.neuruppin.de/,52.922222222,12.8,,,kein_ris,2026-11-15
+Q205383,12068324,Neustadt (Dosse),Ostprignitz-Ruppin,Brandenburg,,https://www.amt-neustadt-dosse.de/verzeichnis/objekt.php?mandat=26680,52.866666666,12.433055555,,,kein_ris,2026-11-15
+Q583048,12064365,Neutrebbin,Märkisch-Oderland,Brandenburg,,https://neutrebbin.de,52.663333333,14.2275,,,kein_ris,2026-11-15
+Q635531,12067357,Neuzelle,Oder-Spree,Brandenburg,,https://www.neuzelle.de/,52.09016,14.64804,,,kein_ris,2026-11-15
+Q601691,12072298,Niederer Fläming,Teltow-Fläming,Brandenburg,,https://www.gemeinde-niederer-flaeming.de/,51.9,13.2,,,kein_ris,2026-11-15
+Q581479,12060172,Niederfinow,Barnim,Brandenburg,,https://niederfinow.de/,52.834444444,13.929166666,,,kein_ris,2026-11-15
+Q634423,12072297,Niedergörsdorf,Teltow-Fläming,Brandenburg,,https://www.gemeinde-niedergoersdorf.de/,51.976472222,12.980055555,,,kein_ris,2026-11-15
+Q635620,12069448,Niemegk,Potsdam-Mittelmark,Brandenburg,,https://amt-niemegk.de/geschichte-der-stadt-niemegk/,52.083055555,12.699722222,,,kein_ris,2026-11-15
+Q621907,12073429,Nordwestuckermark,Uckermark,Brandenburg,,https://www.nordwestuckermark.de/,53.332722222,13.708166666,,,kein_ris,2026-11-15
+Q622139,12072312,Nuthe-Urstromtal,Teltow-Fläming,Brandenburg,,https://nuthe-urstromtal.de/,52.125204,13.16177,,,kein_ris,2026-11-15
+Q622474,12069454,Nuthetal,Potsdam-Mittelmark,Brandenburg,,https://www.nuthetal.de/,52.348626,13.104225,,,kein_ris,2026-11-15
+Q583149,12064370,Oberbarnim,Märkisch-Oderland,Brandenburg,,https://www.amt-maerkische-schweiz.de/gemeinden/gemeinde-oberbarnim/,52.593888888,14.035555555,,,kein_ris,2026-11-15
+Q583155,12065251,Oberkrämer,Oberhavel,Brandenburg,,https://www.oberkraemer.de/,52.7,13.1,,,kein_ris,2026-11-15
+Q622085,12073430,Oberuckersee,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27363,53.217777777,13.88,,,kein_ris,2026-11-15
+Q222314,12064371,Oderaue,Märkisch-Oderland,Brandenburg,,https://www.barnim-oderbruch.de/leben/gemeinden/oderaue,52.766666666,14.216666666,http://buergerinfo.barnim-oderbruch.de/,sessionnet,gefunden,2026-11-15
+Q553202,12060176,Oderberg,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/oderberg-stadt,52.866666666,14.05,https://ratsinfo-online.net/britzchorinoderberg-bi/,auto,gesperrt,2026-11-15
+Q14808,12065256,Oranienburg,Oberhavel,Brandenburg,,https://oranienburg.de/,52.754444444,13.236944444,,,kein_ris,2026-11-15
+Q572503,12066240,Ortrand,Oberspreewald-Lausitz,Brandenburg,,https://www.stadt-ortrand.de/,51.375833333,13.757222222,,,kein_ris,2026-11-15
+Q126189,12060181,Panketal,Barnim,Brandenburg,,https://panketal.de/,52.633055555,13.55,,,kein_ris,2026-11-15
+Q560215,12060185,Parsteinsee,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/parsteinsee-gemeinde,52.933333333,14.05,https://ratsinfo-online.net/britzchorinoderberg-bi/,auto,gesperrt,2026-11-15
+Q625385,12073603,Passow,Schwedt/Oder,Brandenburg,,https://www.schwedt.eu/de/schwedt-entdecken/ortsteile/passow/31958,53.1425,14.113888888,,,kein_ris,2026-11-15
+Q585355,12063228,Paulinenaue,Havelland,Brandenburg,,https://paulinenaue.info/,52.67701,12.71067,,,kein_ris,2026-11-15
+Q574791,12071304,Peitz,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/peitz,51.866666666,14.416666666,https://www.amtpeitz.de/sessionnet/buergerinfo/,sessionnet,gefunden,2026-11-15
+Q498540,12070296,Perleberg,Prignitz,Brandenburg,,https://www.stadt-perleberg.de/,53.066666666,11.866666666,,,kein_ris,2026-11-15
+Q583163,12063240,Pessin,Havelland,Brandenburg,,https://www.amt-friesack.de/verzeichnis/objekt.php?mandat=72688,52.649722222,12.666666666,,,kein_ris,2026-11-15
+Q581905,12064380,Petershagen/Eggersdorf,Märkisch-Oderland,Brandenburg,,https://doppeldorf.de/,52.538547,13.816893,https://doppeldorf.de/gemeindepolitik/rats-und-buergerinformationssystem/,sessionnet,gefunden,2026-11-15
+Q634411,12073440,Pinnow,Uckermark,Brandenburg,,https://schwedt.eu/de/politik-und-verwaltung/mitverwaltung/31982,53.060441,14.0855319,,,kein_ris,2026-11-15
+Q628458,12070300,Pirow,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55519,53.216666666,11.9,,,kein_ris,2026-11-15
+Q177987,12069470,Planebruch,Potsdam-Mittelmark,Brandenburg,Amt Brück,https://www.amt-brueck.de/verzeichnis/objekt.php?mandat=56905,52.254166666,12.6875,,,kein_ris,2026-11-15
+Q625868,12069474,Planetal,Potsdam-Mittelmark,Brandenburg,,http://www.amt-niemegk.de,52.116666666,12.683055555,,,kein_ris,2026-11-15
+Q637036,12070302,Plattenburg,Prignitz,Brandenburg,,https://www.plattenburg.de/,52.996388888,12.056444444,,,kein_ris,2026-11-15
+Q551522,12062372,Plessa,Elbe-Elster,Brandenburg,,https://www.plessa.de/verzeichnis/objekt.php?mandat=4630,51.466666666,13.616666666,,,kein_ris,2026-11-15
+Q585269,12064388,Podelzig,Märkisch-Oderland,Brandenburg,,https://www.podelzig.com/,52.466666666,14.533055555,,,kein_ris,2026-11-15
+Q1711,12054000,Potsdam,,Brandenburg,,https://www.potsdam.de/,52.4009309,13.0591397,,,kein_ris,2026-11-15
+Q585620,12063244,Premnitz,Havelland,Brandenburg,,https://www.premnitz.de/,52.528201,12.339328,,,kein_ris,2026-11-15
+Q537214,12073452,Prenzlau,Uckermark,Brandenburg,,https://www.prenzlau.eu/,53.309752,13.862671,,,kein_ris,2026-11-15
+Q509952,12070316,Pritzwalk,Prignitz,Brandenburg,,https://www.pritzwalk.de/,53.149722222,12.183055555,,,kein_ris,2026-11-15
+Q632427,12064393,Prötzel,Märkisch-Oderland,Brandenburg,,https://www.barnim-oderbruch.de/leben/gemeinden/proetzel,52.637222222,13.989722222,http://buergerinfo.barnim-oderbruch.de/,sessionnet,gefunden,2026-11-15
+Q565732,12070325,Putlitz,Prignitz,Brandenburg,,http://www.putlitz.de/,53.25,12.05,,,kein_ris,2026-11-15
+Q622487,12069460,Päwesin,Potsdam-Mittelmark,Brandenburg,,https://paewesin.de/,52.516666666,12.716666666,,,kein_ris,2026-11-15
+Q623891,12069485,Rabenstein/Fläming,Potsdam-Mittelmark,Brandenburg,,http://www.amt-niemegk.de,52.033333333,12.583333333,,,kein_ris,2026-11-15
+Q640396,12067397,Ragow-Merz,Oder-Spree,Brandenburg,,http://www.amt-schlaubetal.de,52.198889,14.322222,,,kein_ris,2026-11-15
+Q625914,12073458,Randowtal,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27364,53.297777777,14.033055555,,,kein_ris,2026-11-15
+Q625747,12072340,Rangsdorf,Teltow-Fläming,Brandenburg,,https://www.rangsdorf.de/,52.283055555,13.433055555,,,kein_ris,2026-11-15
+Q525425,12063252,Rathenow,Havelland,Brandenburg,,https://www.rathenow.de/,52.6,12.333333333,,,kein_ris,2026-11-15
+Q622505,12067408,Rauen,Oder-Spree,Brandenburg,,https://www.amt-spreenhagen.de/verzeichnis/objekt.php?mandat=112250,52.333055555,14.016666666,,,kein_ris,2026-11-15
+Q589571,12064408,Rehfelde,Märkisch-Oderland,Brandenburg,,https://www.gemeinde-rehfelde.de/,52.52,13.929166666,,,kein_ris,2026-11-15
+Q581896,12064417,Reichenow-Möglin,Märkisch-Oderland,Brandenburg,,https://www.barnim-oderbruch.de/leben/gemeinden/reichenow-moeglin,52.666666666,14.099722222,http://buergerinfo.barnim-oderbruch.de/,sessionnet,gefunden,2026-11-15
+Q621478,12067413,Reichenwalde,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=174785,52.264722222,13.998333333,,,kein_ris,2026-11-15
+Q537371,12064420,Reitwein,Märkisch-Oderland,Brandenburg,,https://www.amt-lebus.de/verzeichnis/objekt.php?mandat=27435,52.5,14.583055555,,,kein_ris,2026-11-15
+Q527924,12063256,Retzow,Havelland,Brandenburg,,https://www.amt-friesack.de/verzeichnis/objekt.php?mandat=79126,52.624444444,12.685277777,,,kein_ris,2026-11-15
+Q537268,12068353,Rheinsberg,Ostprignitz-Ruppin,Brandenburg,,https://www.rheinsberg.de/,53.100434,12.889944,,,kein_ris,2026-11-15
+Q532037,12063260,Rhinow,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54075,52.752777777,12.344166666,,,kein_ris,2026-11-15
+Q637911,12067426,Rietz-Neuendorf,Oder-Spree,Brandenburg,,https://www.rietz-neuendorf.de/,52.227027777,14.176166666,,,kein_ris,2026-11-15
+Q584770,12061405,Rietzneuendorf-Staakow,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Rietzneuendorf-Staakow.htm,52.016666666,13.666666666,,,kein_ris,2026-11-15
+Q634705,12069537,Rosenau,Potsdam-Mittelmark,Brandenburg,,https://www.amt-wusterwitz.de/verzeichnis/objekt.php?mandat=85892,52.329166666,12.358055555,,,kein_ris,2026-11-15
+Q622513,12069541,Roskow,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,http://www.amt-beetzsee.de/verzeichnis/objekt.php?kategorie=63&mandat=41054,52.466666666,12.733055555,,,kein_ris,2026-11-15
+Q572601,12066272,Ruhland,Oberspreewald-Lausitz,Brandenburg,,https://www.amt-ruhland.de/amtsgemeinden/ruhland/,51.45661,13.86426,,,kein_ris,2026-11-15
+Q556026,12062410,Röderland,Elbe-Elster,Brandenburg,,https://www.gemeinde-roederland.de/,51.4295,13.493444444,,,kein_ris,2026-11-15
+Q561052,12062417,Rückersdorf,Elbe-Elster,Brandenburg,,https://www.rueckersdorf.eu/,51.583055555,13.566666666,,,kein_ris,2026-11-15
+Q39791,12064428,Rüdersdorf bei Berlin,Märkisch-Oderland,Brandenburg,,https://www.ruedersdorf.de/,52.470422,13.786082,https://ratsinfo-online.net/ruedersdorf-bi/,auto,gesperrt,2026-11-15
+Q569568,12060192,Rüdnitz,Barnim,Brandenburg,,https://www.ruednitz.de/,52.716666666,13.616666666,,,kein_ris,2026-11-15
+Q539850,12070348,Rühstädt,Prignitz,Brandenburg,,https://www.amtbww.de/ris/ti_5/,52.919166666,11.87,,,kein_ris,2026-11-15
+Q623961,12068372,Rüthnick,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-lindow-mark.de/ris/ti-lindow-4/,52.883055555,12.983055555,,,kein_ris,2026-11-15
+Q528850,12062425,Sallgast,Elbe-Elster,Brandenburg,,https://www.amt-kleine-elster.de/gemeinden/sallgast,51.588611111,13.848611111,,,kein_ris,2026-11-15
+Q429574,12073490,Schenkenberg,Uckermark,Brandenburg,,https://www.amt-bruessow.de/verzeichnis/visitenkarte.php?mandat=23653,53.366944444,13.949722222,,,kein_ris,2026-11-15
+Q636094,12071337,Schenkendöbern,Spree-Neiße,Brandenburg,,https://www.schenkendoebern.de/,51.95725,14.636583333,,,kein_ris,2026-11-15
+Q532435,12062440,Schilda,Elbe-Elster,Brandenburg,,https://www.elsterland.de/verzeichnis/objekt.php?mandat=17316,51.6,13.383333333,,,kein_ris,2026-11-15
+Q574443,12066285,Schipkau,Oberspreewald-Lausitz,Brandenburg,,https://www.gemeinde-schipkau.de/,51.540032,13.891977,,,kein_ris,2026-11-15
+Q628355,12067438,Schlaubetal,Oder-Spree,Brandenburg,,http://www.schlaubetal-online.de/,52.116666666,14.5,,,kein_ris,2026-11-15
+Q584477,12061428,Schlepzig,Dahme-Spreewald,Brandenburg,,https://www.schlepzig.de/,52.028888888,13.895277777,,,kein_ris,2026-11-15
+Q507017,12062445,Schlieben,Elbe-Elster,Brandenburg,,https://amt-schlieben.de,51.716666666,13.383055555,,,kein_ris,2026-11-15
+Q623913,12071341,Schmogrow-Fehrow,Spree-Neiße,Brandenburg,,http://www.schmogrow-fehrow.de/,51.85,14.216666666,,,kein_ris,2026-11-15
+Q547099,12060198,Schorfheide,Barnim,Brandenburg,,https://www.gemeinde-schorfheide.de/,52.899722222,13.516666666,http://www.ratsinfo-online.net/schorfheide-bi/,auto,gesperrt,2026-11-15
+Q573850,12062464,Schraden,Elbe-Elster,Brandenburg,,https://www.plessa.de/verzeichnis/objekt.php?mandat=18395,51.433055555,13.699722222,,,kein_ris,2026-11-15
+Q581119,12061444,Schulzendorf,Dahme-Spreewald,Brandenburg,,https://www.schulzendorf.de/,52.366666666,13.583055555,,,kein_ris,2026-11-15
+Q623909,12066292,Schwarzbach,Oberspreewald-Lausitz,Brandenburg,,http://www.schwarzbach-biehlen.de/,51.45,13.933055555,,,kein_ris,2026-11-15
+Q584474,12066296,Schwarzheide,Oberspreewald-Lausitz,Brandenburg,,https://www.stadt-schwarzheide.de/,51.4773,13.855644,,,kein_ris,2026-11-15
+Q16008,12073532,Schwedt/Oder,Uckermark,Brandenburg,,https://www.schwedt.eu/,53.063055555,14.283055555,,,kein_ris,2026-11-15
+Q564340,12061448,Schwerin,,Brandenburg,Amt Schenkenländchen,https://www.schwerin-lds.de/,52.149722222,13.633055555,,,kein_ris,2026-11-15
+Q589621,12061450,Schwielochsee,Dahme-Spreewald,Brandenburg,Amt Lieberose/Oberspreewald,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Schwielochsee,51.985277777,14.218888888,,,kein_ris,2026-11-15
+Q625403,12069590,Schwielowsee,Potsdam-Mittelmark,Brandenburg,,https://www.schwielowsee.de/,52.333333333,12.966666666,https://ssl.ratsinfo-online.net/schwielowsee-bi/,auto,gesperrt,2026-11-15
+Q551515,12062453,Schönborn,Elbe-Elster,Brandenburg,,https://www.elsterland.de/verzeichnis/visitenkarte.php?mandat=18391,51.6,13.5,,,kein_ris,2026-11-15
+Q622161,12073505,Schöneberg,Schwedt/Oder,Brandenburg,,https://www.schwedt.eu/de/schwedt-entdecken/ortsteile/schoeneberg/31967,53.008713,14.142224,,,kein_ris,2026-11-15
+Q521475,12061433,Schönefeld,Dahme-Spreewald,Brandenburg,,https://gemeinde-schoenefeld.de/,52.391708,13.500381,,,kein_ris,2026-11-15
+Q627767,12067440,Schöneiche bei Berlin,Oder-Spree,Brandenburg,,https://www.schoeneiche-bei-berlin.de/,52.4782896,13.6971638,,,kein_ris,2026-11-15
+Q589644,12065276,Schönermark,Oberhavel,Brandenburg,,https://www.gransee.de/politik-verwaltung/schoenermark/,53.006944444,13.121944444,,,kein_ris,2026-11-15
+Q522738,12062461,Schönewalde,Elbe-Elster,Brandenburg,,https://www.schoenewalde.de/,51.814138888,13.226694444,,,kein_ris,2026-11-15
+Q623861,12073520,Schönfeld,Uckermark,Brandenburg,Amt Brüssow,https://www.amt-bruessow.de/verzeichnis/visitenkarte.php?mandat=23671,53.416388888,13.986388888,,,kein_ris,2026-11-15
+Q585294,12061435,Schönwald,Dahme-Spreewald,Brandenburg,,https://unterspreewald.de,51.983055555,13.699722222,,,kein_ris,2026-11-15
+Q581715,12063273,Schönwalde-Glien,Havelland,Brandenburg,,https://www.schoenwalde-glien.de/,52.65,12.983333333,,,kein_ris,2026-11-15
+Q623943,12069596,Seddiner See,Potsdam-Mittelmark,Brandenburg,,https://www.seddiner-see.de/,52.287166666,13.000888888,,,kein_ris,2026-11-15
+Q585455,12063274,Seeblick,Havelland,Brandenburg,,https://www.rhinow.de/verzeichnis/objekt.php?mandat=54076,52.666666666,12.383333333,,,kein_ris,2026-11-15
+Q587069,12064448,Seelow,Märkisch-Oderland,Brandenburg,,https://www.seelow.de/,52.534162,14.382886,,,kein_ris,2026-11-15
+Q491754,12066304,Senftenberg,Oberspreewald-Lausitz,Brandenburg,,https://www.senftenberg.de/,51.516666666,14.016666666,,,kein_ris,2026-11-15
+Q627258,12067458,Siehdichum,Oder-Spree,Brandenburg,,http://gemeinde-siehdichum.de/,52.194444444,14.533333333,,,kein_ris,2026-11-15
+Q624361,12068409,Sieversdorf-Hohenofen,Ostprignitz-Ruppin,Brandenburg,Amt Neustadt (Dosse),http://www.sieversdorf-hohenofen.de/,52.825366,12.402653,,,kein_ris,2026-11-15
+Q583178,12065301,Sonnenberg,Oberhavel,Brandenburg,,https://www.gransee.de/politik-verwaltung/sonnenberg/,53.018888888,13.088611111,,,kein_ris,2026-11-15
+Q544969,12062469,Sonnewalde,Elbe-Elster,Brandenburg,,https://www.stadt-sonnewalde.de/,51.695444444,13.649611111,,,kein_ris,2026-11-15
+Q624106,12067469,Spreenhagen,Oder-Spree,Brandenburg,,https://www.amt-spreenhagen.de/verzeichnis/objekt.php?mandat=57816,52.343611111,13.874444444,,,kein_ris,2026-11-15
+Q581489,12061470,Spreewaldheide,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Spreewaldheide,51.95,14.133055555,,,kein_ris,2026-11-15
+Q572559,12071372,Spremberg,Spree-Neiße,Brandenburg,,https://spremberg.de/,51.571666666,14.379444444,,,kein_ris,2026-11-15
+Q640426,12069604,Stahnsdorf,Potsdam-Mittelmark,Brandenburg,,https://www.stahnsdorf.de/,52.381339,13.21221,,,kein_ris,2026-11-15
+Q583033,12065310,Stechlin,Oberhavel,Brandenburg,,https://www.stechlin.de/,53.1,13.033333333,,,kein_ris,2026-11-15
+Q583070,12063293,Stechow-Ferchesar,Havelland,Brandenburg,,https://www.stechow-ferchesar.info/,52.649722222,12.449722222,,,kein_ris,2026-11-15
+Q624100,12067473,Steinhöfel,Oder-Spree,Brandenburg,,https://www.gemeinde-steinhoefel.de/,52.399722222,14.166666666,,,kein_ris,2026-11-15
+Q583478,12061471,Steinreich,Dahme-Spreewald,Brandenburg,,https://www.unterspreewald.de/Stadt-und-Gemeinden/Steinreich.htm,51.95,13.449722222,,,kein_ris,2026-11-15
+Q624021,12068413,Storbeck-Frankendorf,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87438,52.966666666,12.766666666,,,kein_ris,2026-11-15
+Q586991,12067481,Storkow (Mark),Oder-Spree,Brandenburg,,https://www.storkow-mark.de/,52.252802,13.928854,,,kein_ris,2026-11-15
+Q572581,12061476,Straupitz (Spreewald),Dahme-Spreewald,Brandenburg,Amt Lieberose/Oberspreewald,https://www.straupitz-im-spreewald.de/,51.899722222,14.116666666,,,kein_ris,2026-11-15
+Q490521,12064472,Strausberg,Märkisch-Oderland,Brandenburg,,https://www.stadt-strausberg.de/,52.580833333,13.881388888,,,kein_ris,2026-11-15
+Q572032,12068417,Stüdenitz-Schönermark,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-neustadt-dosse.de/verzeichnis/objekt.php?mandat=43530,52.895833333,12.304166666,,,kein_ris,2026-11-15
+Q584044,12060250,Sydower Fließ,Barnim,Brandenburg,,https://www.sydower-fliess.de/,52.75,13.716666666,,,kein_ris,2026-11-15
+Q636975,12073565,Tantow,Uckermark,Brandenburg,Amt Gartz (Oder),http://www.gemeinde-tantow.de/,53.272222222,14.349722222,,,kein_ris,2026-11-15
+Q627082,12067493,Tauche,Oder-Spree,Brandenburg,,https://www.gemeinde-tauche.de/,52.147527777,14.158944444,,,kein_ris,2026-11-15
+Q574808,12071384,Tauer,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/tauer,51.9,14.45,https://www.amtpeitz.de/sessionnet/buergerinfo/,sessionnet,gefunden,2026-11-15
+Q637894,12071386,Teichland,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/teichland,51.8108,14.4288,https://www.amtpeitz.de/sessionnet/buergerinfo/,sessionnet,gefunden,2026-11-15
+Q572512,12069616,Teltow,Potsdam-Mittelmark,Brandenburg,,https://www.teltow.de/,52.402222222,13.270555555,,,kein_ris,2026-11-15
+Q256987,12073569,Temmen-Ringenwalde,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=38920,53.049722222,13.733055555,,,kein_ris,2026-11-15
+Q247410,12068425,Temnitzquell,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87444,53.014444444,12.648333333,,,kein_ris,2026-11-15
+Q622088,12068426,Temnitztal,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=54908,52.8775,12.630555555,,,kein_ris,2026-11-15
+Q519157,12073572,Templin,Uckermark,Brandenburg,,https://www.templin.de/,53.121686,13.508255,,,kein_ris,2026-11-15
+Q583468,12066316,Tettau,Oberspreewald-Lausitz,Brandenburg,,https://www.tettau-osl.de/,51.433055555,13.733055555,,,kein_ris,2026-11-15
+Q569554,12061492,Teupitz,Dahme-Spreewald,Brandenburg,,https://www.teupitz.de/,52.1326,13.6175,,,kein_ris,2026-11-15
+Q570114,12072426,Trebbin,Teltow-Fläming,Brandenburg,,https://www.stadt-trebbin.de/,52.214155,13.212382,,,kein_ris,2026-11-15
+Q583014,12064480,Treplin,Märkisch-Oderland,Brandenburg,,https://www.amt-lebus.de/verzeichnis/objekt.php?mandat=27436,52.391388888,14.397777777,,,kein_ris,2026-11-15
+Q625078,12069632,Treuenbrietzen,Potsdam-Mittelmark,Brandenburg,,https://www.treuenbrietzen.de/,52.097288,12.871126,,,kein_ris,2026-11-15
+Q636542,12070393,Triglitz,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55521,53.216666666,12.099722222,,,kein_ris,2026-11-15
+Q528883,12062492,Tröbitz,Elbe-Elster,Brandenburg,,https://www.gemeinde-troebitz.de/,51.6,13.433055555,,,kein_ris,2026-11-15
+Q633598,12071392,Tschernitz,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=86710,51.583055555,14.616666666,,,kein_ris,2026-11-15
+Q636105,12071401,Turnow-Preilack,Spree-Neiße,Brandenburg,,https://www.peitz.de/gemeinde/turnow-preilack,51.866666666,14.4,https://www.amtpeitz.de/sessionnet/buergerinfo/,sessionnet,gefunden,2026-11-15
+Q625362,12073578,Uckerfelde,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27365,53.265,13.949722222,,,kein_ris,2026-11-15
+Q634403,12073579,Uckerland,Uckermark,Brandenburg,,https://www.uckerland.de/,53.450055555,13.803388888,,,kein_ris,2026-11-15
+Q516707,12062500,Uebigau-Wahrenbrück,Elbe-Elster,Brandenburg,,https://www.uebigau-wahrenbrueck.de/,51.55,13.35,,,kein_ris,2026-11-15
+Q585197,12061510,Unterspreewald,Dahme-Spreewald,Brandenburg,,https://unterspreewald.de,52.083333333,13.866666666,,,kein_ris,2026-11-15
+Q585613,12065332,Velten,Oberhavel,Brandenburg,,https://velten.de/,52.691388888,13.175277777,,,kein_ris,2026-11-15
+Q147633,12066320,Vetschau/Spreewald,Oberspreewald-Lausitz,Brandenburg,,https://stadt.vetschau.de/,51.783055555,14.066666666,https://stadt.vetschau.de/verwaltung-buergerservice/stadtpolitik/ratsinformationssystem/,sessionnet,gefunden,2026-11-15
+Q623381,12068437,Vielitzsee,Ostprignitz-Ruppin,Brandenburg,,https://www.amt-lindow-mark.de/ris/ti-lindow-5/,52.940277777,13.023055555,,,kein_ris,2026-11-15
+Q585280,12064482,Vierlinden,Märkisch-Oderland,Brandenburg,,https://www.amt-seelow-land.de/verzeichnis/objekt.php?mandat=52844,52.515,14.314166666,,,kein_ris,2026-11-15
+Q627303,12067508,Vogelsang,Oder-Spree,Brandenburg,,https://www.amt-b-f.de/verzeichnis/objekt.php?mandat=78410,52.183055555,14.666666666,,,kein_ris,2026-11-15
+Q585255,12064484,Waldsieversdorf,,Brandenburg,Amt Märkische Schweiz,https://www.waldsieversdorf.info/,52.543333333,14.072222222,,,kein_ris,2026-11-15
+Q585065,12068452,Walsleben,Ostprignitz-Ruppin,Brandenburg,Amt Temnitz,https://www.amt-temnitz.de/verzeichnis/mandat.php?mandat=87464,52.933055555,12.666666666,,,kein_ris,2026-11-15
+Q525555,12060269,Wandlitz,Barnim,Brandenburg,,https://www.wandlitz.de/,52.75,13.449722222,,,kein_ris,2026-11-15
+Q622323,12070416,Weisen,Prignitz,Brandenburg,,https://www.amtbww.de/ris/ti_6/,53.033055555,11.783055555,,,kein_ris,2026-11-15
+Q572607,12071408,Welzow,Spree-Neiße,Brandenburg,,https://www.welzow.de/,51.583583333,14.172444444,,,kein_ris,2026-11-15
+Q622866,12067520,Wendisch Rietz,Oder-Spree,Brandenburg,,https://www.amt-scharmuetzelsee.de/verzeichnis/objekt.php?mandat=54337,52.2,14.016666666,,,kein_ris,2026-11-15
+Q624292,12069648,Wenzlow,Potsdam-Mittelmark,Brandenburg,,https://www.amt-ziesar.de/unser-amt/gemeinden/wenzlow.html,52.299722222,12.449722222,,,kein_ris,2026-11-15
+Q574768,12071412,Werben,Spree-Neiße,Brandenburg,,http://www.werben-im-spreewald.de/,51.81667,14.18333,,,kein_ris,2026-11-15
+Q525686,12069656,Werder (Havel),Potsdam-Mittelmark,Brandenburg,,https://www.werder-havel.de/,52.378055555,12.935,,,kein_ris,2026-11-15
+Q502855,12060280,Werneuchen,Barnim,Brandenburg,,https://www.werneuchen-barnim.de/,52.633055555,13.733055555,https://www.werneuchen-barnim.de/stadtpolitik/sitzungskalender/,sessionnet,gefunden,2026-11-15
+Q622451,12067528,Wiesenau,Oder-Spree,Brandenburg,,https://www.gemeinde-wiesenau.de/,52.23071,14.59107,,,kein_ris,2026-11-15
+Q581753,12063142,Wiesenaue,Havelland,Brandenburg,,https://www.amt-friesack.de/verzeichnis/objekt.php?mandat=72582,52.7,12.616666666,,,kein_ris,2026-11-15
+Q623510,12069665,Wiesenburg/Mark,Potsdam-Mittelmark,Brandenburg,,https://www.wiesenburgmark.de/,52.113194,12.453444,,,kein_ris,2026-11-15
+Q638613,12071414,Wiesengrund,Spree-Neiße,Brandenburg,,https://www.amt-doebern-land.de/verzeichnis/visitenkarte.php?mandat=90112,51.7,14.566666666,,,kein_ris,2026-11-15
+Q566233,12061540,Wildau,Dahme-Spreewald,Brandenburg,,https://wildau.de,52.316666666,13.633333333,,,kein_ris,2026-11-15
+Q541956,12070424,Wittenberge,Prignitz,Brandenburg,,https://www.wittenberge.de/,52.997734,11.75041,,,kein_ris,2026-11-15
+Q159572,12068468,Wittstock/Dosse,Ostprignitz-Ruppin,Brandenburg,,https://www.wittstock.de/,53.163294,12.485617,,,kein_ris,2026-11-15
+Q627367,12069680,Wollin,Potsdam-Mittelmark,Brandenburg,,https://www.amt-ziesar.de/unser-amt/gemeinden/wollin.html,52.283333333,12.466666666,,,kein_ris,2026-11-15
+Q628778,12067544,Woltersdorf,Oder-Spree,Brandenburg,,https://www.woltersdorf-schleuse.de/,52.450507,13.754678,,,kein_ris,2026-11-15
+Q588598,12064512,Wriezen,Märkisch-Oderland,Brandenburg,,https://www.wriezen.de/,52.721365,14.134391,,,kein_ris,2026-11-15
+Q623516,12068477,Wusterhausen/Dosse,Ostprignitz-Ruppin,Brandenburg,,http://www.wusterhausen.de/,52.890666666,12.461805555,,,kein_ris,2026-11-15
+Q581938,12063357,Wustermark,Havelland,Brandenburg,,https://www.wustermark.de/,52.549722222,12.949722222,,,kein_ris,2026-11-15
+Q625379,12069688,Wusterwitz,Potsdam-Mittelmark,Brandenburg,,https://www.amt-wusterwitz.de/verzeichnis/objekt.php?mandat=90464,52.370833333,12.384722222,,,kein_ris,2026-11-15
+Q184166,12064538,Zechin,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52515,52.60842,14.45251,,,kein_ris,2026-11-15
+Q184481,12065356,Zehdenick,Oberhavel,Brandenburg,,https://www.zehdenick.de/,52.983055555,13.333055555,,,kein_ris,2026-11-15
+Q191892,12068501,Zernitz-Lohm,Ostprignitz-Ruppin,Brandenburg,,http://www.gemeinde-zernitz-lohm.de/,52.875,12.341666666,,,kein_ris,2026-11-15
+Q196806,12064539,Zeschdorf,Märkisch-Oderland,Brandenburg,Amt Lebus,https://www.amt-lebus.de/verzeichnis/objekt.php?mandat=27437,52.428055555,14.444166666,,,kein_ris,2026-11-15
+Q180898,12061572,Zeuthen,Dahme-Spreewald,Brandenburg,,https://www.zeuthen.de/,52.35,13.628055555,https://ratsinfo-online.net/zeuthen-ri/,auto,gesperrt,2026-11-15
+Q198395,12073645,Zichow,Uckermark,Brandenburg,,https://www.amt-gramzow.de/verzeichnis/objekt.php?mandat=27366,53.18927,14.03847,,,kein_ris,2026-11-15
+Q199233,12069696,Ziesar,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www.ziesar.de/,52.266666666,12.283055555,,,kein_ris,2026-11-15
+Q199278,12060296,Ziethen,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73150,52.966666666,13.916666666,,,kein_ris,2026-11-15
+Q203347,12067552,Ziltendorf,Oder-Spree,Brandenburg,,http://www.ziltendorf.de/,52.216666666,14.65,,,kein_ris,2026-11-15
+Q226884,12072477,Zossen,Teltow-Fläming,Brandenburg,,https://www.zossen.de/,52.216666666,13.449722222,,,kein_ris,2026-11-15
 Q24879,04011000,Bremen,Freie Hansestadt Bremen,Bremen,,https://www.bremen.de/,53.075833333,8.807222222,,,,
 Q2706,04012000,Bremerhaven,Freie Hansestadt Bremen,Bremen,,https://www.bremerhaven.de/,53.55,8.583333333,,,,
 Q1055,02000000,Hamburg,Deutschland,Hamburg,,https://www.hamburg.de/,53.55,10.0,,,,
@@ -8583,7 +8583,7 @@ Q566035,07332048,Weidenthal,Verbandsgemeinde Lambrecht (Pfalz),Rheinland-Pfalz,,
 Q645495,07232132,Weidingen,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://weidingen-eifel.de/,50.013055555,6.378055555,,,,
 Q651709,07135089,Weiler,Cochem-Zell,Rheinland-Pfalz,,http://www.weiler-vordereifel.de,50.140833333,7.075833333,,,,
 Q678762,07137110,Weiler,Mayen-Koblenz,Rheinland-Pfalz,,http://weiler-eifel.de,50.310277777,7.118888888,,,,
-Q654221,07339063,Weiler bei Bingen,Mainz-Bingen,Rheinland-Pfalz,,http://www.weilerbeibingen.de,49.957777777,7.866944444,,,,
+Q654221,07339063,Weiler bei Bingen,Mainz-Bingen,Rheinland-Pfalz,,https://www.weiler-bei-bingen.de/,49.957777777,7.866944444,,,,
 Q566874,07133111,Weiler bei Monzingen,Bad Kreuznach,Rheinland-Pfalz,,http://www.bad-sobernheim.de,49.810555555,7.561944444,,,,
 Q553992,07335049,Weilerbach,Kaiserslautern,Rheinland-Pfalz,,https://www.weilerbach-pfalz.de/,49.481388888,7.632222222,,,,
 Q654163,07334032,Weingarten,Verbandsgemeinde Lingenfeld,Rheinland-Pfalz,,https://weingarten-pfalz.de/,49.259444444,8.286666666,,,,
@@ -9237,37 +9237,37 @@ Q3778,14524330,Zwickau,Zwickau,Sachsen,,https://www.zwickau.de/,50.718888888,12.
 Q16074,14730370,Zwochau,Wiedemar,Sachsen,,http://www.zwochau.de/,51.466666666,12.266666666,,,,
 Q46828,14523470,Zwota,Klingenthal,Sachsen,,http://www.zwota.de/,50.35,12.416666666,,,,
 Q58002,14521710,Zwönitz,Erzgebirgskreis,Sachsen,,https://www.zwoenitz.de/,50.630277777,12.813333333,,,,
-Q400556,15087010,Ahlsdorf,Verbandsgemeinde Mansfelder Grund-Helbra,Sachsen-Anhalt,,https://www.verwaltungsamt-helbra.de/gemeinden/ahlsdorf/,51.54543,11.46655,,,,
-Q417336,15082005,Aken (Elbe),Anhalt-Bitterfeld,Sachsen-Anhalt,,https://www.aken.de/,51.85,12.05,,,,
-Q673211,15090003,Aland,Verbandsgemeinde Seehausen,Sachsen-Anhalt,,https://www.seehausen-altmark.de/service-verwaltung/gemeinden-politik/mitgliedsgemeinden/gemeinde-aland/,52.95833,11.64167,,,,
-Q489932,15087015,Allstedt,Mansfeld-Südharz,Sachsen-Anhalt,,https://allstedt.de/,51.4,11.383333333,,,,
-Q488270,15089005,Alsleben,Verbandsgemeinde Saale-Wipper,Sachsen-Anhalt,,https://www.alsleben-saale-online.de/,51.701,11.68,,,,
-Q437200,15083020,Altenhausen,Verbandsgemeinde Flechtingen,Sachsen-Anhalt,,https://www.vg-flechtingen.de/rathaus/verbandsgemeinde/mitgliedsgemeinden/altenhausen,52.25,11.25,,,,
-Q442875,15090007,Altmärkische Höhe,Verbandsgemeinde Seehausen,Sachsen-Anhalt,,https://www.seehausen-altmark.de/content-pages/verwaltung-wirtschaft/mitgliedsgemeinden/altmaerkische-hoehe/,52.821944,11.587778,,,,
-Q442904,15090008,Altmärkische Wische,Verbandsgemeinde Seehausen,Sachsen-Anhalt,,https://www.seehausen-altmark.de/content-pages/verwaltung-wirtschaft/mitgliedsgemeinden/altmaerkische-wische/,52.855556,11.868333,,,,
-Q451332,15083025,Am Großen Bruch,Börde,Sachsen-Anhalt,,https://www.westlicheboerde.de/B%C3%BCrger-Gemeinde/Verbandsgemeinde/Gemeinde-Am-Gro%C3%9Fen-Bruch/,52.066666666,11.083333333,,,,
-Q482595,15084012,An der Poststraße,Verbandsgemeinde An der Finne,Sachsen-Anhalt,,https://www.vgem-finne.de/webNC/de/content/content.php?areaID=4&menuID=1&active_menu=1&vhm=&area=Gemeinden&menu=Gemeinde%20An%20der%20Poststra%DFe&content=,51.166666666,11.55,,,,
-Q530122,15083030,Angern,Börde,Sachsen-Anhalt,,https://www.gemeindeangern.de/,52.356388888,11.735555555,,,,
-Q490413,15091010,Annaburg,Wittenberg,Sachsen-Anhalt,,https://annaburg.info/,51.732777777,13.045555555,,,,
-Q618186,15081026,Apenburg-Winterfeld,Altmarkkreis Salzwedel,Sachsen-Anhalt,,https://flecken-apenburg-winterfeld.de/,52.73832,11.20401,,,,
-Q490960,15081030,Arendsee,Altmarkkreis Salzwedel,Sachsen-Anhalt,,https://arendsee.info/,52.876666666,11.486666666,,,,
-Q493437,15090010,Arneburg,Stendal,Sachsen-Anhalt,,https://www.stadt-arneburg.de/,52.67565,12.00514,,,,
-Q697577,15087031,Arnstein,Mansfeld-Südharz,Sachsen-Anhalt,,https://www.arnstein-harz.de/,51.68333,11.46667,,,,
-Q486991,15089015,Aschersleben,Salzlandkreis,Sachsen-Anhalt,,https://www.aschersleben.de/,51.75,11.466666666,,,,
-Q574459,15083035,Ausleben,Börde,Sachsen-Anhalt,,https://www.westlicheboerde.de/B%C3%BCrger-Gemeinde/Verbandsgemeinde/Gemeinde-Ausleben/,52.09,11.116666666,,,,
-Q522601,15084015,Bad Bibra,Verbandsgemeinde An der Finne,Sachsen-Anhalt,,https://www.vgem-finne.de/webNC/de/content/content.php?areaID=4&menuID=2,51.20641,11.58368,,,,
-Q518392,15088020,Bad Dürrenberg,Saalekreis,Sachsen-Anhalt,,https://www.badduerrenberg.de/,51.29545,12.065830555,,,,
-Q523975,15088025,Bad Lauchstädt,Saalekreis,Sachsen-Anhalt,,https://www.goethestadt-bad-lauchstaedt.de/,51.38652,11.86956,,,,
-Q522557,15091020,Bad Schmiedeberg,Wittenberg,Sachsen-Anhalt,,https://www.bad-schmiedeberg.de/,51.688055555,12.7375,,,,
-Q574468,15085035,Bad Suderode,Quedlinburg,Sachsen-Anhalt,,http://www.bad-suderode.de/,51.733055555,11.116666666,,,,
-Q634456,15084025,Balgstädt,Burgenlandkreis,Sachsen-Anhalt,,https://www.verbgem-unstruttal.de/de/gemeinde-balgstaedt.html,51.206111111,11.733888888,,,,
-Q50886,15085040,Ballenstedt,Harz,Sachsen-Anhalt,,https://www.ballenstedt.de/,51.72,11.2375,,,,
-Q530185,15089026,Barby,Salzlandkreis,Sachsen-Anhalt,,https://www.stadt-barby.de/,51.9667595,11.8838245,,,,
-Q550241,15083040,Barleben,Börde,Sachsen-Anhalt,,https://www.barleben.de/,52.2,11.633333333,,,,
-Q634992,15088030,Barnstädt,Saalekreis,Sachsen-Anhalt,,https://www.weida-land.de/de/gemeinde-barnstaedt.html,51.35,11.65,,,,
-Q554878,15083060,Beendorf,Verbandsgemeinde Flechtingen,Sachsen-Anhalt,,https://beendorf.com/,52.242222222,11.087777777,,,,
-Q551981,15081045,Beetzendorf,Altmarkkreis Salzwedel,Sachsen-Anhalt,,https://www.beetzendorf.net/,52.7,11.091666666,,,,
-Q564404,15087045,Benndorf,Verbandsgemeinde Mansfelder Grund-Helbra,Sachsen-Anhalt,,https://www.verwaltungsamt-helbra.de/gemeinden/benndorf/,51.566666666,11.483055555,,,,
+Q400556,15087010,Ahlsdorf,Verbandsgemeinde Mansfelder Grund-Helbra,Sachsen-Anhalt,,https://www.verwaltungsamt-helbra.de/gemeinden/ahlsdorf/,51.54543,11.46655,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,sessionnet,gefunden,2026-11-15
+Q417336,15082005,Aken (Elbe),Anhalt-Bitterfeld,Sachsen-Anhalt,,https://www.aken.de/,51.85,12.05,,,kein_ris,2026-11-15
+Q673211,15090003,Aland,Verbandsgemeinde Seehausen,Sachsen-Anhalt,,https://www.seehausen-altmark.de/service-verwaltung/gemeinden-politik/mitgliedsgemeinden/gemeinde-aland/,52.95833,11.64167,,,kein_ris,2026-11-15
+Q489932,15087015,Allstedt,Mansfeld-Südharz,Sachsen-Anhalt,,https://allstedt.de/,51.4,11.383333333,,,kein_ris,2026-11-15
+Q488270,15089005,Alsleben,Verbandsgemeinde Saale-Wipper,Sachsen-Anhalt,,https://www.alsleben-saale-online.de/,51.701,11.68,,,kein_ris,2026-11-15
+Q437200,15083020,Altenhausen,Verbandsgemeinde Flechtingen,Sachsen-Anhalt,,https://www.vg-flechtingen.de/rathaus/verbandsgemeinde/mitgliedsgemeinden/altenhausen,52.25,11.25,,,kein_ris,2026-11-15
+Q442875,15090007,Altmärkische Höhe,Verbandsgemeinde Seehausen,Sachsen-Anhalt,,https://www.seehausen-altmark.de/content-pages/verwaltung-wirtschaft/mitgliedsgemeinden/altmaerkische-hoehe/,52.821944,11.587778,,,kein_ris,2026-11-15
+Q442904,15090008,Altmärkische Wische,Verbandsgemeinde Seehausen,Sachsen-Anhalt,,https://www.seehausen-altmark.de/content-pages/verwaltung-wirtschaft/mitgliedsgemeinden/altmaerkische-wische/,52.855556,11.868333,,,kein_ris,2026-11-15
+Q451332,15083025,Am Großen Bruch,Börde,Sachsen-Anhalt,,https://www.westlicheboerde.de/B%C3%BCrger-Gemeinde/Verbandsgemeinde/Gemeinde-Am-Gro%C3%9Fen-Bruch/,52.066666666,11.083333333,,,kein_ris,2026-11-15
+Q482595,15084012,An der Poststraße,Verbandsgemeinde An der Finne,Sachsen-Anhalt,,https://www.vgem-finne.de/webNC/de/content/content.php?areaID=4&menuID=1&active_menu=1&vhm=&area=Gemeinden&menu=Gemeinde%20An%20der%20Poststra%DFe&content=,51.166666666,11.55,,,kein_ris,2026-11-15
+Q530122,15083030,Angern,Börde,Sachsen-Anhalt,,https://www.gemeindeangern.de/,52.356388888,11.735555555,,,kein_ris,2026-11-15
+Q490413,15091010,Annaburg,Wittenberg,Sachsen-Anhalt,,https://annaburg.info/,51.732777777,13.045555555,,,kein_ris,2026-11-15
+Q618186,15081026,Apenburg-Winterfeld,Altmarkkreis Salzwedel,Sachsen-Anhalt,,https://flecken-apenburg-winterfeld.de/,52.73832,11.20401,,,kein_ris,2026-11-15
+Q490960,15081030,Arendsee,Altmarkkreis Salzwedel,Sachsen-Anhalt,,https://arendsee.info/,52.876666666,11.486666666,,,kein_ris,2026-11-15
+Q493437,15090010,Arneburg,Stendal,Sachsen-Anhalt,,https://www.stadt-arneburg.de/,52.67565,12.00514,https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/,sessionnet,gefunden,2026-11-15
+Q697577,15087031,Arnstein,Mansfeld-Südharz,Sachsen-Anhalt,,https://www.arnstein-harz.de/,51.68333,11.46667,,,kein_ris,2026-11-15
+Q486991,15089015,Aschersleben,Salzlandkreis,Sachsen-Anhalt,,https://www.aschersleben.de/,51.75,11.466666666,,,kein_ris,2026-11-15
+Q574459,15083035,Ausleben,Börde,Sachsen-Anhalt,,https://www.westlicheboerde.de/B%C3%BCrger-Gemeinde/Verbandsgemeinde/Gemeinde-Ausleben/,52.09,11.116666666,,,kein_ris,2026-11-15
+Q522601,15084015,Bad Bibra,Verbandsgemeinde An der Finne,Sachsen-Anhalt,,https://www.vgem-finne.de/webNC/de/content/content.php?areaID=4&menuID=2,51.20641,11.58368,,,kein_ris,2026-11-15
+Q518392,15088020,Bad Dürrenberg,Saalekreis,Sachsen-Anhalt,,https://www.badduerrenberg.de/,51.29545,12.065830555,,,kein_ris,2026-11-15
+Q523975,15088025,Bad Lauchstädt,Saalekreis,Sachsen-Anhalt,,https://www.goethestadt-bad-lauchstaedt.de/,51.38652,11.86956,,,kein_ris,2026-11-15
+Q522557,15091020,Bad Schmiedeberg,Wittenberg,Sachsen-Anhalt,,https://www.bad-schmiedeberg.de/,51.688055555,12.7375,,,kein_ris,2026-11-15
+Q574468,15085035,Bad Suderode,Quedlinburg,Sachsen-Anhalt,,http://www.bad-suderode.de/,51.733055555,11.116666666,,,kein_ris,2026-11-15
+Q634456,15084025,Balgstädt,Burgenlandkreis,Sachsen-Anhalt,,https://www.verbgem-unstruttal.de/de/gemeinde-balgstaedt.html,51.206111111,11.733888888,https://ratsinfo-online.net/vgunstruttal-bi/,auto,gesperrt,2026-11-15
+Q50886,15085040,Ballenstedt,Harz,Sachsen-Anhalt,,https://www.ballenstedt.de/,51.72,11.2375,,,kein_ris,2026-11-15
+Q530185,15089026,Barby,Salzlandkreis,Sachsen-Anhalt,,https://www.stadt-barby.de/,51.9667595,11.8838245,,,kein_ris,2026-11-15
+Q550241,15083040,Barleben,Börde,Sachsen-Anhalt,,https://www.barleben.de/,52.2,11.633333333,,,kein_ris,2026-11-15
+Q634992,15088030,Barnstädt,Saalekreis,Sachsen-Anhalt,,https://www.weida-land.de/de/gemeinde-barnstaedt.html,51.35,11.65,,,kein_ris,2026-11-15
+Q554878,15083060,Beendorf,Verbandsgemeinde Flechtingen,Sachsen-Anhalt,,https://beendorf.com/,52.242222222,11.087777777,,,kein_ris,2026-11-15
+Q551981,15081045,Beetzendorf,Altmarkkreis Salzwedel,Sachsen-Anhalt,,https://www.beetzendorf.net/,52.7,11.091666666,,,kein_ris,2026-11-15
+Q564404,15087045,Benndorf,Verbandsgemeinde Mansfelder Grund-Helbra,Sachsen-Anhalt,,https://www.verwaltungsamt-helbra.de/gemeinden/benndorf/,51.566666666,11.483055555,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,sessionnet,gefunden,2026-11-15
 Q648358,15087055,Berga,Verbandsgemeinde Goldene Aue,Sachsen-Anhalt,,https://www.vwg-goldene-aue.de/verzeichnis/objekt.php?mandat=38146,51.456666666,11.007777777,,,,
 Q14938,15089030,Bernburg,Salzlandkreis,Sachsen-Anhalt,,https://www.bernburg.de/,51.8,11.733333333,,,,
 Q551174,15086005,Biederitz,Jerichower Land,Sachsen-Anhalt,,https://www.gemeinde-biederitz.de/,52.160833333,11.717777777,,,,
@@ -9288,7 +9288,7 @@ Q564355,15083115,Bülstringen,Verbandsgemeinde Flechtingen,Sachsen-Anhalt,,http:
 Q505176,15089055,Calbe,Salzlandkreis,Sachsen-Anhalt,,https://www.calbe.de/,51.9035319,11.7730905,,,,
 Q526417,15083125,Calvörde,Verbandsgemeinde Flechtingen,Sachsen-Anhalt,,https://www.calvoerde.de/,52.395555555,11.296666666,,,,
 Q554920,15083130,Colbitz,Börde,Sachsen-Anhalt,,https://www.gemeinde-colbitz.de/,52.316666666,11.616666666,,,,
-Q530197,15091060,Coswig,Wittenberg,Sachsen-Anhalt,,https://www.coswigonline.de/,51.883333333,12.433333333,,,,
+Q530197,15091060,Coswig,Wittenberg,Sachsen-Anhalt,,https://www.coswigonline.de/,51.884166666,12.456944444,,,,
 Q3828,15001000,Dessau-Roßlau,,Sachsen-Anhalt,,https://verwaltung.dessau-rosslau.de/,51.833333,12.233333,,,,
 Q551975,15081105,Diesdorf,Altmarkkreis Salzwedel,Sachsen-Anhalt,,https://www.diesdorf.de/,52.751388888,10.875277777,,,,
 Q551924,15085090,Ditfurt,Verbandsgemeinde Vorharz,Sachsen-Anhalt,,https://www.ditfurt.de/,51.831111111,11.202777777,,,,
@@ -10839,7 +10839,7 @@ Q650939,16074026,Golmsdorf,Saale-Holzland-Kreis,Thüringen,,https://www.gemeinde
 Q649113,16069015,Gompertshausen,Heldburg,Thüringen,,http://www.gompertshausen.de,50.3,10.633333333,,,,
 Q660007,16065022,Gorsleben,An der Schmücke,Thüringen,,https://www.stadtanderschmuecke.de/verzeichnis/visitenkarte.php?mandat=202382,51.276111111,11.182777777,,,,
 Q595468,16070023,Gossel,Geratal,Thüringen,,https://www.gemeinde-geratal.de/gemeinde-gossel/,50.799722222,10.849722222,,,,
-Q6986,16067029,Gotha,Gotha,Thüringen,,https://www.gotha.de/,50.948888888,10.718333333,,,,
+Q6986,16067029,Gotha,Gotha,Thüringen,,https://www.gotha.de/,50.949444444,10.701388888,,,,
 Q532678,16066094,Grabfeld,Schmalkalden-Meiningen,Thüringen,,https://www.grabfeld.de/,50.45,10.433333333,,,,
 Q684803,16074028,Graitschen bei Bürgel,Erfüllende Gemeinde Bürgel,Thüringen,,http://www.graitschen.de,50.958333333,11.720555555,,,,
 Q71129775,16071103,Grammetal,Weimarer Land,Thüringen,,https://www.grammetal.de/,50.966666666,11.216666666,,,,
