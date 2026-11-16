@@ -125,11 +125,16 @@ Petershagen/Eggersdorf,Märkisch-Oderland,sessionnet,https://doppeldorf.de/gemei
 Vetschau/Spreewald,Oberspreewald-Lausitz,sessionnet,https://stadt.vetschau.de/verwaltung-buergerservice/stadtpolitik/ratsinformationssystem/,Brandenburg,Vetschau/Spreewald
 Werneuchen,Barnim,sessionnet,https://www.werneuchen-barnim.de/stadtpolitik/sitzungskalender/,Brandenburg,Werneuchen
 # Zeuthen,Dahme-Spreewald,auto,https://ratsinfo-online.net/zeuthen-ri/,Brandenburg,robots.txt verbietet Bots; Zeuthen
-Ahlsdorf,Verbandsgemeinde Mansfelder Grund-Helbra,sessionnet,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,Sachsen-Anhalt,Ahlsdorf; Benndorf
+Ahlsdorf,Verbandsgemeinde Mansfelder Grund-Helbra,sessionnet,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,Sachsen-Anhalt,Ahlsdorf; Benndorf; Blankenheim; Bornstedt; Helbra; Hergisdorf
 Arneburg,Stendal,sessionnet,https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/,Sachsen-Anhalt,Arneburg
-# Balgstädt,Burgenlandkreis,auto,https://ratsinfo-online.net/vgunstruttal-bi/,Sachsen-Anhalt,robots.txt verbietet Bots; Balgstädt
+# Balgstädt,Burgenlandkreis,auto,https://ratsinfo-online.net/vgunstruttal-bi/,Sachsen-Anhalt,robots.txt verbietet Bots; Balgstädt; Gleina
 Portal DiPlanung Brandenburg,,portal,https://bb.beteiligung.diplanung.de/,Brandenburg,"Landesportal (Testlauf, best effort)"
 Portal DiPlanung Bayern,,portal,https://by.beteiligung.diplanung.de/,Bayern,"Landesportal (Testlauf, best effort)"
 Portal Sachsen Bauleitplanung,,portal,https://www.bauleitplanung.sachsen.de/,Sachsen,"Landesportal (Testlauf, best effort)"
 Portal Beteiligung Sachsen-Anhalt,,portal,https://beteiligung.sachsen-anhalt.de/,Sachsen-Anhalt,"Landesportal (Testlauf, best effort)"
 Portal Beteiligung NRW,,portal,https://beteiligung.nrw.de/portal/hauptportal/startseite,Nordrhein-Westfalen,"Landesportal (Testlauf, best effort)"
+Burgstall,Börde,sessionnet,https://ratsinfo.kitu-genossenschaft.de/elbeheide_bi/,Sachsen-Anhalt,Burgstall
+Dessau-Roßlau,,sessionnet,https://sessionnet.dessau.de/bi/,Sachsen-Anhalt,Dessau-Roßlau
+Eichstedt,Stendal,sessionnet,https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_ri/,Sachsen-Anhalt,Eichstedt; Goldbeck; Hassel; Hohenberg-Krusemark; Iden
+Elbe-Parey,Jerichower Land,sessionnet,https://rat.elbe-parey.de/startseite/,Sachsen-Anhalt,Elbe-Parey
+Halle (Saale),,sessionnet,http://buergerinfo.halle.de/,Sachsen-Anhalt,Halle (Saale)

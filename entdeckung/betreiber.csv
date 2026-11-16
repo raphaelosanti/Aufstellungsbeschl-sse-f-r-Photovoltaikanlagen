@@ -3,8 +3,10 @@ sdnetrim.kdvz-frechen.de,Nordrhein-Westfalen,kdvz-frechen.de (OParl),ja (OParl),
 rim.ekom21.de,Hessen,ekom21 (OParl),ja (OParl),gefunden,16,ja,https://rim.ekom21.de/aarbergen/webservice/oparl/v1.1/system,Gießen; Hochtaunuskreis; Lahn-Dill-Kreis; Limburg-Weilburg; Marburg-Biedenkopf; Rheingau-Taunus-Kreis; Schwalm-Eder-Kreis; Vogelsbergkreis; Waldeck-Frankenberg; Werra-Meißner-Kreis; Wetteraukreis,Aarbergen; Cölbe; Ehringshausen; Eschwege; Fernwald; Glashütten; Großalmerode; Guxhagen; Hessisch Lichtenau; Homberg (Efze); Homberg (Ohm); Ortenberg; Schmitten im Taunus; Schwarzenborn; Waldbrunn; Willingen (Upland)
 ratsinfo-online.net/britzchorinoderberg-bi,Brandenburg,ratsinfo-online.net,teilweise (auto),gefunden,7,ja,https://ratsinfo-online.net/britzchorinoderberg-bi/,Barnim,Britz; Chorin; Hohenfinow; Liepe; Lunow-Stolzenhagen; Oderberg; Parsteinsee
 amtpeitz.de,Brandenburg,SessionNet (Somacos),ja,gefunden,7,ja,https://www.amtpeitz.de/sessionnet/buergerinfo/,Spree-Neiße,Drachhausen; Drehnow; Jänschwalde; Peitz; Tauer; Teichland; Turnow-Preilack
+ratsinfo.kitu-genossenschaft.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,7,ja,https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/,Börde; Kreis Osterburg; Stendal,Arneburg; Burgstall; Eichstedt; Goldbeck; Hassel; Hohenberg-Krusemark; Iden
+verwaltungsamt-helbra.eu,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,6,ja,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,Verbandsgemeinde Mansfelder Grund-Helbra,Ahlsdorf; Benndorf; Blankenheim; Bornstedt; Helbra; Hergisdorf
 buergerinfo.barnim-oderbruch.de,Brandenburg,SessionNet (Somacos),ja,gefunden,5,ja,http://buergerinfo.barnim-oderbruch.de/,Märkisch-Oderland,Bliesdorf; Neulewin; Oderaue; Prötzel; Reichenow-Möglin
-verwaltungsamt-helbra.eu,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,2,ja,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,Verbandsgemeinde Mansfelder Grund-Helbra,Ahlsdorf; Benndorf
+ratsinfo-online.net/vgunstruttal-bi,Sachsen-Anhalt,ratsinfo-online.net,teilweise (auto),gesperrt,2,ja,https://ratsinfo-online.net/vgunstruttal-bi/,Burgenlandkreis,Balgstädt; Gleina
 itzstedt.sitzung-online.de/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,2,ja,https://www.itzstedt.sitzung-online.de/bi/oparl/1.0/system.asp,Kreis Segeberg,Itzstedt; Kayhude
 ris.freiburg.de,Baden-Württemberg,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.freiburg.de/oparl,Baden,Freiburg im Breisgau
 lahr.ratsinfomanagement.net,Baden-Württemberg,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://lahr.ratsinfomanagement.net/webservice/oparl/v1.1/system,Ortenaukreis,Lahr/Schwarzwald
@@ -84,8 +86,9 @@ oparl.stadt-pirmasens.de,Rheinland-Pfalz,OParl (sonstige),ja (OParl),gefunden,1,
 enkenbach-alsenborn.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://enkenbach-alsenborn.gremien.info/oparl/system,Kaiserslautern,Sembach
 oparl.dresden.de,Sachsen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://oparl.dresden.de/system,,Dresden
 ratsinformation.leipzig.de,Sachsen,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://ratsinformation.leipzig.de/allris_leipzig_public/oparl/system,,Leipzig
-ratsinfo.kitu-genossenschaft.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/,Stendal,Arneburg
-ratsinfo-online.net/vgunstruttal-bi,Sachsen-Anhalt,ratsinfo-online.net,teilweise (auto),gesperrt,1,ja,https://ratsinfo-online.net/vgunstruttal-bi/,Burgenlandkreis,Balgstädt
+sessionnet.dessau.de/bi,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet.dessau.de/bi/,,Dessau-Roßlau
+rat.elbe-parey.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,https://rat.elbe-parey.de/startseite/,Jerichower Land,Elbe-Parey
+buergerinfo.halle.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.halle.de/,,Halle (Saale)
 salzatal.gremien.info,Sachsen-Anhalt,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://salzatal.gremien.info/oparl/system,Saalekreis,Salzatal
 weida-land.gremien.info,Sachsen-Anhalt,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://weida-land.gremien.info/oparl/system,Saalekreis,Schraplau
 trave.sitzung-online.de/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.trave.sitzung-online.de/bi/oparl/1.0/system.asp,Kreis Segeberg,Travenhorst

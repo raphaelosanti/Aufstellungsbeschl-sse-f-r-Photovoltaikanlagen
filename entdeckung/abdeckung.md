@@ -1,6 +1,6 @@
 # RIS-Abdeckung (11493 Gemeinden)
 
-Geprüft: 553 | noch nie geprüft: 10940 | RIS-Betreiber bisher: 90
+Geprüft: 628 | noch nie geprüft: 10865 | RIS-Betreiber bisher: 93
 
 ## Je Bundesland
 
@@ -17,7 +17,7 @@ Geprüft: 553 | noch nie geprüft: 10940 | RIS-Betreiber bisher: 90
 | Hessen | 432 | 19 | 0 | 0 | 413 |
 | Brandenburg | 419 | 22 | 11 | 386 | 0 |
 | Nordrhein-Westfalen | 396 | 55 | 0 | 0 | 341 |
-| Sachsen-Anhalt | 227 | 5 | 1 | 27 | 194 |
+| Sachsen-Anhalt | 227 | 18 | 2 | 88 | 119 |
 | Saarland | 53 | 0 | 0 | 0 | 53 |
 | Bremen | 2 | 0 | 0 | 0 | 2 |
 | Berlin | 1 | 0 | 0 | 0 | 1 |
@@ -27,12 +27,12 @@ Geprüft: 553 | noch nie geprüft: 10940 | RIS-Betreiber bisher: 90
 
 | Plattform | Betreiber | Gemeinden | Adapter vorhanden |
 |---|---:|---:|---|
-| SessionNet (Somacos) | 26 | 38 | ja |
+| SessionNet (Somacos) | 29 | 51 | ja |
 | ratsinfomanagement.net (OParl) | 21 | 21 | ja (OParl) |
 | OParl (sonstige) | 19 | 19 | ja (OParl) |
 | kdvz-frechen.de (OParl) | 1 | 18 | ja (OParl) |
 | ekom21 (OParl) | 1 | 16 | ja (OParl) |
-| ratsinfo-online.net | 8 | 14 | teilweise (auto) |
+| ratsinfo-online.net | 8 | 15 | teilweise (auto) |
 | gremien.info (OParl) | 10 | 10 | ja (OParl) |
 | ALLRIS (CC e-gov) | 2 | 2 | teilweise (HTML) |
 | sitzung-online.de | 1 | 1 | nein |
@@ -40,7 +40,7 @@ Geprüft: 553 | noch nie geprüft: 10940 | RIS-Betreiber bisher: 90
 
 ## Adapter-Ranking (fehlend oder nur teilweise)
 
-- ratsinfo-online.net: 14 Gemeinden / 8 Betreiber (teilweise (auto))
+- ratsinfo-online.net: 15 Gemeinden / 8 Betreiber (teilweise (auto))
 - ALLRIS (CC e-gov): 2 Gemeinden / 2 Betreiber (teilweise (HTML))
 - sitzung-online.de: 1 Gemeinden / 1 Betreiber (nein)
 - sdnet / Sitzungsdienst: 1 Gemeinden / 1 Betreiber (nein)
@@ -52,6 +52,6 @@ Geprüft: 553 | noch nie geprüft: 10940 | RIS-Betreiber bisher: 90
 - ratsinfo-online.net/schorfheide-bi (1 Gemeinden)
 - ssl.ratsinfo-online.net (1 Gemeinden)
 - ratsinfo-online.net/zeuthen-ri (1 Gemeinden)
-- ratsinfo-online.net/vgunstruttal-bi (1 Gemeinden)
+- ratsinfo-online.net/vgunstruttal-bi (2 Gemeinden)
 
 Hinweis: Die Plattformzahlen beruhen nur auf den bisher geprüften Gemeinden. Sie werden belastbar, sobald quellen_entdecken.py alle Länder durchlaufen hat.
