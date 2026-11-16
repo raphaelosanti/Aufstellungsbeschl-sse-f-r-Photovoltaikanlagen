@@ -1,21 +1,35 @@
 {
  "Altlandsberg": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Amt Barnim-Oderbruch": {
-  "si_max": 1930,
-  "zuletzt": "2026-11-09"
+  "si_max": 1961,
+  "zuletzt": "2026-11-16"
  },
  "Amt Lebus": {
   "si_max": 4736,
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Britz": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
+ },
+ "Drachhausen": {
+  "si_max": 3612,
+  "zuletzt": "2026-11-16"
+ },
+ "Eberswalde": {
+  "si_max": 1647,
+  "zuletzt": "2026-11-16"
  },
  "Gemeinde Rietz-Neuendorf": {
-  "si_max": 6470,
-  "zuletzt": "2026-11-09"
+  "si_max": 6474,
+  "zuletzt": "2026-11-16"
+ },
+ "Glienicke/Nordbahn": {
+  "zuletzt": "2026-11-16"
+ },
+ "Portal DiPlanung Brandenburg": {
+  "zuletzt": "2026-11-16"
  },
  "_verworfen": [
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=46883",
@@ -76,12 +90,35 @@
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7077",
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7287",
   "https://sessionnet.amt-lebus.de/bi/vo0050.php?__kvonr=6822",
+  "https://sessionnet.eberswalde.de/sessionnet/bi/vo0050.php?__kvonr=6208",
   "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=10047",
   "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=10527",
   "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=10541",
   "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=10897",
   "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=12191",
   "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=13286",
-  "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=14052"
+  "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=14052",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=17937",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=19137",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=21600",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=22074",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=22418",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=22426",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=22651",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=23472",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=23675",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=24104",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=24482",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=24483",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=25412",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=5033",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7821",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8070",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8094",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8169",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8548",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8660",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8662",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8905"
  ]
 }
