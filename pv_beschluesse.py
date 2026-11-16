@@ -890,6 +890,9 @@ def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
         elif typ == "sessionnet":
             si_max = z.marke(q.name, "si_max", 0)
             roh_iter = sessionnet_vorlagen(http, qq, a.seit, zustand=z, stop_id=max(si_max - 200, 0))
+        elif typ == "portal":
+            from pv_portale import portal_vorlagen   # Landesportale (best effort, siehe pv_portale.py)
+            roh_iter = portal_vorlagen(http, qq, seit, zustand=z)
         else:
             roh_iter = html_vorlagen(http, qq, seit, zustand=z)
         n = 0
