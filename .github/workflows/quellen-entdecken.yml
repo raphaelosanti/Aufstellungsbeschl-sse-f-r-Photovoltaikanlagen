@@ -42,11 +42,14 @@ jobs:
           python quellen_entdecken.py \
             --land ${{ inputs.land || 'alle' }} \
             --budget ${{ inputs.budget || '400' }}
+      - name: Abdeckung und Plattform-Ranking auswerten
+        if: always()
+        run: python ris_betreiber.py
       - name: Ergebnis committen
         if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add quellen_alle.csv daten/gemeinden.csv
+          git add quellen_alle.csv daten/gemeinden.csv entdeckung
           git commit -m "Quellen/Gemeindetabelle aktualisiert" || echo "nichts zu committen"
-          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
+          for i in 1 2 3 4 5 ; do git pull --rebase && git push && break || sleep 5; done
