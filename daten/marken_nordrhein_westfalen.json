@@ -1,33 +1,36 @@
 {
  "Castrop-Rauxel": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Goch": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Herford": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Krefeld": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Köln": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Langenberg": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Münster": {
-  "zuletzt": "2026-11-02"
+  "zuletzt": "2026-11-16"
+ },
+ "Portal Beteiligung NRW": {
+  "zuletzt": "2026-11-16"
  },
  "Schwalmtal": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Wachtendonk": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Willich": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "Wuppertal": {
   "zuletzt": "2026-11-09"
@@ -70,6 +73,8 @@
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/134039",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/134135",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135302",
+  "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135626",
+  "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135628",
   "https://castroprauxel.gremien.info/oparl/paper/310407100203",
   "https://castroprauxel.gremien.info/oparl/paper/311201100006",
   "https://castroprauxel.gremien.info/oparl/paper/312802100089",
@@ -137,6 +142,7 @@
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaxC5uiZf6r7RPkQcWQ59qg",
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcyv1bojWYlZ0HZEGdJ06dk",
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdwj_SrUv8EHKVepr8TuxrU",
+  "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZe3up3hP1Zdfy86mZEtHds8",
   "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZR79GzkGkWjSzJhfqCcLy1I",
   "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZROb0BBK10vdTZUyJw6xO-U",
   "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSraKgdpyttM_grDL8dDmBU",
