@@ -1,3 +1,13 @@
 {
- "_verworfen": []
+ "Dresden": {
+  "zuletzt": "2026-11-16"
+ },
+ "Portal Sachsen Bauleitplanung": {
+  "zuletzt": "2026-11-16"
+ },
+ "_verworfen": [
+  "http://oparl.dresden.de/bodies/0001/papers/vo/28900",
+  "http://oparl.dresden.de/bodies/0001/papers/vo/29435",
+  "http://oparl.dresden.de/bodies/0001/papers/vo/31177"
+ ]
 }
