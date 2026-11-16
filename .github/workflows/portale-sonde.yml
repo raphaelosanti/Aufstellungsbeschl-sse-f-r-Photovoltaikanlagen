@@ -1,0 +1,31 @@
+name: Portale prüfen (Sonde)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sonde:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Sonde ausführen
+        env:
+          PV_KONTAKT: ${{ vars.PV_KONTAKT }}
+        run: python portale_sonde.py --portale portale.csv --out entdeckung
+      - name: Ergebnis committen
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add entdeckung
+          git commit -m "Portal-Sonde" || echo "nichts zu committen"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
