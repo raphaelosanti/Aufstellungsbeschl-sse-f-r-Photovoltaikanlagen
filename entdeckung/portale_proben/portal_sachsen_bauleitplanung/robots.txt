@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de"><head id="head">
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                
+                <title>Startseite | Raumordnungs- und Bauleitplanung Sachsen</title>
+                
+                <meta charset="UTF-8" />
+                <meta name="language" content="de" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                <meta name="robots" content="index, follow" />
+                
+                <meta name="date" content="2026-11-16" /><meta name="author" content="Sächsische Staatskanzlei" />
+<meta name="keywords" lang="de" content="Beteiligungsportal,Bürgerbeteiligung,Sachsen,politische Teilhabe" />
+<meta name="description" lang="de" content="Offizielles Portal für Bürgerbeteiligung des Freistaats Sachsen - Informationen über aktuelle und abgeschlossene Beteiligungsverfahren in Ihrer Region und im gesamten Freistaat Sachsen. Gestalten Sie mit!" />
+                    <link rel="shortcut icon" href="/portal/download/resources/mandant/bplan/icon/1067577_0/favicon.ico" /><meta name="description" content="Landesportal für Raumordnungs- und Bauleitplanung" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/primeicons/primeicons.css?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/bootstrap/css/bootstrap-5.3.3.css?buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/primefaces-nbp-ext/theme.css?buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/plugins/fancybox/fancybox-6.0.5.css?buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/plugins/slickslider/slickslider.css?buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/common/fonts/icomoon/icomoon.css?buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/components.css?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16" /><script src="/portal/jakarta.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/core.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/components.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/touch/touchswipe.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><link rel="stylesheet" href="/portal/jakarta.faces.resource/css/nbp.css?mandantPfad=bplan&amp;mdnVersion=35&amp;buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/common/css/common.css?buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/installation/sn/css/sn.css?mandantPfad=bplan&amp;mdnVersion=35&amp;buildVersion=29-10-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/installation/sn/css/sn-cd.css?mandantPfad=bplan&amp;mdnVersion=35&amp;buildVersion=29-10-2026" media="all" /><script src="/portal/jakarta.faces.resource/moment/moment.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/validation/validation.bv.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/locales/locale-de.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script>if(window.PrimeFaces){PrimeFaces.settings={locale:'de',viewId:'/startseite.xhtml',contextPath:'\/portal',cookiesSecure:true,cookiesSameSite:'Strict',validateEmptyFields:true,considerEmptyStringNull:false,errorPages:{'':'/portal/500.xhtml','java.lang.Exception':'/portal/500.xhtml'}};}</script>
+
+        
+        
+        
+        
+        <script id="_etLoader" data-block-cookies="true" data-respect-dnt="true" data-secure-code="XdE73b" src="//code.etracker.com/code/e.js"></script>
+
+        <script>
+            var track = function () {
+                window.et_pagename = window.location.href;
+                window.et_areas = 'Beteiligungsportal';
+                if (typeof ET_Event !== 'undefined') {
+                    try {
+                        ET_Event.click('Headernavi');
+                    } catch (e) {
+                        // ignore etracker errors
+                    }
+                }
+            };
+            $(function () {
+                track();
+            });
+        </script><script src="/portal/jakarta.faces.resource/jakarta.faces/faces.js?buildVersion=29-10-2026"></script><script src="/portal/jakarta.faces.resource/js/nbp.js?buildVersion=29-10-2026"></script><script src="/portal/jakarta.faces.resource/js/primefaces-nbp.js?buildVersion=29-10-2026"></script><script src="/portal/ja
