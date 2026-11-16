@@ -1,8 +1,28 @@
 {
+ "Ahlsdorf": {
+  "si_max": 8434,
+  "zuletzt": "2026-11-16"
+ },
+ "Arneburg": {
+  "si_max": 6598,
+  "zuletzt": "2026-11-16"
+ },
+ "Portal Beteiligung Sachsen-Anhalt": {
+  "zuletzt": "2026-11-16"
+ },
  "Schraplau": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-16"
  },
  "_verworfen": [
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=63150",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=63151",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=64205",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=64959",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=65969",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=66705",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=68290",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=69279",
+  "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/vo0050.asp?__kvonr=11626",
   "https://weida-land.gremien.info/oparl/paper/202270212100032",
   "https://weida-land.gremien.info/oparl/paper/202351508100009"
  ]
