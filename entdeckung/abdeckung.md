@@ -1,6 +1,6 @@
 # RIS-Abdeckung (11493 Gemeinden)
 
-Geprüft: 628 | noch nie geprüft: 10865 | RIS-Betreiber bisher: 93
+Geprüft: 828 | noch nie geprüft: 10665 | RIS-Betreiber bisher: 103
 
 ## Je Bundesland
 
@@ -12,12 +12,12 @@ Geprüft: 628 | noch nie geprüft: 10865 | RIS-Betreiber bisher: 93
 | Baden-Württemberg | 1101 | 3 | 0 | 0 | 1098 |
 | Niedersachsen | 1039 | 8 | 0 | 0 | 1031 |
 | Thüringen | 907 | 0 | 0 | 0 | 907 |
-| Mecklenburg-Vorpommern | 814 | 1 | 0 | 0 | 813 |
+| Mecklenburg-Vorpommern | 814 | 6 | 0 | 76 | 732 |
 | Sachsen | 468 | 2 | 0 | 0 | 466 |
 | Hessen | 432 | 19 | 0 | 0 | 413 |
 | Brandenburg | 419 | 22 | 11 | 386 | 0 |
 | Nordrhein-Westfalen | 396 | 55 | 0 | 0 | 341 |
-| Sachsen-Anhalt | 227 | 18 | 2 | 88 | 119 |
+| Sachsen-Anhalt | 227 | 33 | 2 | 192 | 0 |
 | Saarland | 53 | 0 | 0 | 0 | 53 |
 | Bremen | 2 | 0 | 0 | 0 | 2 |
 | Berlin | 1 | 0 | 0 | 0 | 1 |
@@ -27,21 +27,21 @@ Geprüft: 628 | noch nie geprüft: 10865 | RIS-Betreiber bisher: 93
 
 | Plattform | Betreiber | Gemeinden | Adapter vorhanden |
 |---|---:|---:|---|
-| SessionNet (Somacos) | 29 | 51 | ja |
+| SessionNet (Somacos) | 37 | 68 | ja |
 | ratsinfomanagement.net (OParl) | 21 | 21 | ja (OParl) |
-| OParl (sonstige) | 19 | 19 | ja (OParl) |
+| OParl (sonstige) | 20 | 20 | ja (OParl) |
 | kdvz-frechen.de (OParl) | 1 | 18 | ja (OParl) |
 | ekom21 (OParl) | 1 | 16 | ja (OParl) |
 | ratsinfo-online.net | 8 | 15 | teilweise (auto) |
-| gremien.info (OParl) | 10 | 10 | ja (OParl) |
-| ALLRIS (CC e-gov) | 2 | 2 | teilweise (HTML) |
+| gremien.info (OParl) | 10 | 11 | ja (OParl) |
+| ALLRIS (CC e-gov) | 3 | 3 | teilweise (HTML) |
 | sitzung-online.de | 1 | 1 | nein |
 | sdnet / Sitzungsdienst | 1 | 1 | nein |
 
 ## Adapter-Ranking (fehlend oder nur teilweise)
 
 - ratsinfo-online.net: 15 Gemeinden / 8 Betreiber (teilweise (auto))
-- ALLRIS (CC e-gov): 2 Gemeinden / 2 Betreiber (teilweise (HTML))
+- ALLRIS (CC e-gov): 3 Gemeinden / 3 Betreiber (teilweise (HTML))
 - sitzung-online.de: 1 Gemeinden / 1 Betreiber (nein)
 - sdnet / Sitzungsdienst: 1 Gemeinden / 1 Betreiber (nein)
 
