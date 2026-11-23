@@ -1,4 +1,20 @@
 {
+ "Aichwald": {
+  "si_max": 572,
+  "zuletzt": "2026-11-23"
+ },
+ "Aulendorf": {
+  "si_max": 2056,
+  "zuletzt": "2026-11-23"
+ },
+ "Bad Schussenried": {
+  "si_max": 2598,
+  "zuletzt": "2026-11-23"
+ },
+ "Besigheim": {
+  "si_max": 3935,
+  "zuletzt": "2026-11-23"
+ },
  "Freiburg im Breisgau": {
   "zuletzt": "2026-11-23"
  },
@@ -10,6 +26,14 @@
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/8495",
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/9287",
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/9461",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10626",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10627",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10666",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=11705",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12204",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12342",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=3605",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=7079",
   "https://ris.freiburg.de/oparl/paper/4891702100062",
   "https://ris.freiburg.de/oparl/paper/4942803100003",
   "https://ris.freiburg.de/oparl/paper/5160504100111",
@@ -20,6 +44,19 @@
   "https://ris.freiburg.de/oparl/paper/5681203100099",
   "https://ris.freiburg.de/oparl/paper/5941203100060",
   "https://ris.freiburg.de/oparl/paper/5941203100061",
-  "https://ris.freiburg.de/oparl/paper/6070903100003"
+  "https://ris.freiburg.de/oparl/paper/6070903100003",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=4768",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5092",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10105",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10210",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10242",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10414",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10573",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10574",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10616",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10625",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10692",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10715",
+  "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10729"
  ]
 }
