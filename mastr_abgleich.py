@@ -41,10 +41,13 @@ SPALTEN = {
     "gemeinde": ("Gemeinde", "municipality"),
     "landkreis": ("Landkreis", "district"),
     "land": ("Bundesland", "federal_state", "state"),
-    "lage": ("Lage", "location", "Lage der Einheit"),
+    "lage": ("ArtDerSolaranlage", "Lage", "location", "Lage der Einheit", "SolaranlagenKategorie"),
+    "ha": ("GroesseDerInAnspruchGenommenenFlaecheInHektar",),
+    "park": ("NameDesSolarparks",),
+    "lat": ("Breitengrad",), "lon": ("Laengengrad",),
     "status": ("EinheitBetriebsstatus", "operating_status", "Betriebsstatus"),
     "mw": ("Bruttoleistung", "gross_power", "Nettonennleistung", "net_rated_power"),
-    "reg": ("EinheitRegistrierungsdatum", "registration_date", "Registrierungsdatum"),
+    "reg": ("Registrierungsdatum", "EinheitRegistrierungsdatum", "registration_date"),
     "ibn": ("Inbetriebnahmedatum", "commissioning_date"),
 }
 BUNDESLAND_ALIAS = {"Baden-Wuerttemberg": "Baden-Württemberg", "Thueringen": "Thüringen",
@@ -124,7 +127,10 @@ def aggregiere(zeilen, min_mw: float, reg_ab: str):
             print("Spalten:", {k: v for k, v in sp.items()})
         lage = str(r.get(sp["lage"]) or "")
         lagen[lage] += 1
-        if not re.search(r"freifl|ground|open", lage, re.I):
+        ha = zahl(r.get(sp["ha"])) if sp["ha"] else 0.0
+        park = str(r.get(sp["park"]) or "").strip() if sp["park"] else ""
+        # Freifläche: Art enthält "Freifl…" ODER Fläche in Hektar bzw. Solarparkname angegeben (nur dort befüllt)
+        if not (re.search(r"freifl|ground|open", lage, re.I) or ha > 0 or park):
             continue
         status = str(r.get(sp["status"]) or "") if sp["status"] else ""
         stati[status] += 1
@@ -141,13 +147,19 @@ def aggregiere(zeilen, min_mw: float, reg_ab: str):
         ags = re.sub(r"\D", "", str(r.get(sp["ags"]) or "")).zfill(8)[:8] if sp["ags"] and r.get(sp["ags"]) else ""
         key = (ags or norm(name), land)
         a = agg.setdefault(key, {"ags": ags, "gemeinde": name, "landkreis": str(r.get(sp["landkreis"]) or ""),
-                                 "land": land, "anlagen": 0, "mw": 0.0, "in_planung": 0, "mw_planung": 0.0, "reg_max": ""})
+                                 "land": land, "anlagen": 0, "mw": 0.0, "in_planung": 0, "mw_planung": 0.0, "reg_max": "", "ha": 0.0, "parks": "", "lat": "", "lon": "",
+                                 "_maxmw": 0.0})
         a["anlagen"] += 1
         a["mw"] += mw
         if re.search(r"planung|planned", status, re.I):
             a["in_planung"] += 1
             a["mw_planung"] += mw
         a["reg_max"] = max(a["reg_max"], reg)
+        a["ha"] += ha
+        if park and park not in a["parks"] and len(a["parks"]) < 200:
+            a["parks"] = (a["parks"] + "; " + park).strip("; ")
+        if mw > a["_maxmw"] and sp["lat"] and r.get(sp["lat"]):   # Koordinate der größten Anlage
+            a["_maxmw"], a["lat"], a["lon"] = mw, r.get(sp["lat"]), r.get(sp["lon"])
     return list(agg.values()), lagen, stati
 
 
@@ -203,13 +215,13 @@ def main() -> int:
     for g in sorted(gem, key=lambda x: -x["mw"]):
         kat, t = kategorie(g, reg, tab_ags, tab_name)
         zaehl[g["land"]][kat] += 1
-        ausgabe.append({**g, "mw": round(g["mw"], 1), "mw_planung": round(g["mw_planung"], 1),
+        ausgabe.append({**g, "mw": round(g["mw"], 1), "mw_planung": round(g["mw_planung"], 1), "ha": round(g["ha"], 1),
                         "kategorie": kat, "ris_typ": t.get("ris_typ", ""), "ris_url": t.get("ris_url", ""),
                         "web": t.get("web", "")})
     felder = ["land", "gemeinde", "landkreis", "ags", "anlagen", "mw", "in_planung", "mw_planung", "reg_max",
-              "kategorie", "ris_typ", "ris_url", "web"]
+              "ha", "parks", "lat", "lon", "kategorie", "ris_typ", "ris_url", "web"]
     with open(os.path.join(a.out, "mastr_gemeinden.csv"), "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, felder)
+        w = csv.DictWriter(f, felder, extrasaction="ignore")
         w.writeheader()
         w.writerows(ausgabe)
 

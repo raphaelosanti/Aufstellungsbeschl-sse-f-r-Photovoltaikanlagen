@@ -47,6 +47,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add entdeckung/mastr_gemeinden.csv entdeckung/mastr_bericht.md entdeckung/mastr_spalten.txt
+          git add -f $(ls entdeckung/mastr_gemeinden.csv entdeckung/mastr_bericht.md entdeckung/mastr_spalten.txt 2>/dev/null)
           git commit -m "MaStR-Abgleich aktualisiert" || echo "nichts zu committen"
           for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
