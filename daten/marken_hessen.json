@@ -2,13 +2,25 @@
  "Aarbergen": {
   "zuletzt": "2026-11-23"
  },
+ "Bad Arolsen": {
+  "zuletzt": "2026-11-23"
+ },
  "Cölbe": {
   "zuletzt": "2026-11-23"
  },
  "Ehringshausen": {
   "zuletzt": "2026-11-23"
  },
+ "Eschenburg": {
+  "zuletzt": "2026-11-23"
+ },
  "Fernwald": {
+  "zuletzt": "2026-11-23"
+ },
+ "Gilserberg": {
+  "zuletzt": "2026-11-23"
+ },
+ "Gladenbach": {
   "zuletzt": "2026-11-23"
  },
  "Glashütten": {
@@ -23,10 +35,44 @@
  "Hessisch Lichtenau": {
   "zuletzt": "2026-11-23"
  },
+ "Hohenstein": {
+  "si_max": 1184,
+  "zuletzt": "2026-11-23"
+ },
  "Homberg (Efze)": {
   "zuletzt": "2026-11-23"
  },
  "Homberg (Ohm)": {
+  "zuletzt": "2026-11-23"
+ },
+ "Hünfelden": {
+  "si_max": 2861,
+  "zuletzt": "2026-11-23"
+ },
+ "Kalbach": {
+  "zuletzt": "2026-11-23"
+ },
+ "Lautertal": {
+  "zuletzt": "2026-11-23"
+ },
+ "Lichtenfels": {
+  "zuletzt": "2026-11-23"
+ },
+ "Linden": {
+  "si_max": 7172,
+  "zuletzt": "2026-11-23"
+ },
+ "Mengerskirchen": {
+  "zuletzt": "2026-11-23"
+ },
+ "Neu-Anspach": {
+  "zuletzt": "2026-11-23"
+ },
+ "Pohlheim": {
+  "si_max": 5521,
+  "zuletzt": "2026-11-23"
+ },
+ "Rüsselsheim am Main": {
   "zuletzt": "2026-11-23"
  },
  "Schmitten im Taunus": {
@@ -38,12 +84,23 @@
  "Waldbrunn": {
   "zuletzt": "2026-11-23"
  },
+ "Wetzlar": {
+  "si_max": 6183,
+  "zuletzt": "2026-11-23"
+ },
  "Willingen (Upland)": {
   "zuletzt": "2026-11-23"
  },
  "_verworfen": [
+  "https://lautertal.gremien.info/oparl/paper/20230206100094",
+  "https://lautertal.gremien.info/oparl/paper/20240803100030",
+  "https://politik.wetzlar.de/BI/vo0050.asp?__kvonr=11850",
   "https://rim.ekom21.de/ehringshausen/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQaULKx7mgfyOoT0AJBs9GQ",
+  "https://rim.ekom21.de/eschenburg/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTdxIhcYBGT13UIEMSXz6qI",
+  "https://rim.ekom21.de/eschenburg/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcjuSStprK6ICFwDoDGPdc4",
   "https://rim.ekom21.de/fernwald/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXN60RSbUxI9i93ma61y7cY",
+  "https://rim.ekom21.de/gladenbach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSP8VGuVWsuTvlevRYA_K00",
+  "https://rim.ekom21.de/gladenbach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWb2Zrpkrf6gqL2RNrmzYa0",
   "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbn3cxfYgqASVyHDKYX8Dl4",
   "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdcxnjKUslHu5qBBOYYP2JU",
   "https://rim.ekom21.de/guxhagen/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWu2ndBFJxxli396au8DGlk",
@@ -55,6 +112,13 @@
   "https://rim.ekom21.de/homberg-efze/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSpH8L3pESwgH-4RRU2rR7o",
   "https://rim.ekom21.de/homberg-efze/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUHXyej7lQI_3vGlTezPVZs",
   "https://rim.ekom21.de/homberg-efze/vorgang/?__=UGhVM0hpd2NXNFdFcExjZW7tG5rGejYs2hLId5sP0qM",
+  "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRktbcXRQr7y4II5n1BLLoU",
+  "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYp7JY-wSlea6LT4-5aW6hw",
+  "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZf4IfvCHo9Gf7p_WkwIs1jI",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUsh9vvx2Ap3BfOzq3UlmkE",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZW15C-4K7hlQP9_HSGaSpWw",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXf2SdAkWpDJipH0bHdyXMA",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZ3LdSmo9P0qelUG73s5Plo",
   "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZShQEvhXRjQkYPn7c4HsTN8",
   "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSoXTxAiyhxNFj8NdeMRxwU",
   "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTMyq7J-X0O8Ho5EyAAMhiM",
@@ -64,6 +128,61 @@
   "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZAumzXe-rGhj2CB6NJB94Q",
   "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZL8bxyY0pBmY_Hc1egBGeo",
   "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZjeMgTo8y9dBB_f-XKK_IE",
-  "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfjuwYz43wlc4EFeRCljpmw"
+  "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfjuwYz43wlc4EFeRCljpmw",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/to0050.php?__ktonr=10183",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/to0050.php?__ktonr=10188",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/to0050.php?__ktonr=12216",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/to0050.php?__ktonr=12233",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/to0050.php?__ktonr=8484",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/to0050.php?__ktonr=9204",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/to0050.php?__ktonr=9698",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/vo0050.php?__kvonr=1980",
+  "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/vo0050.php?__kvonr=2842",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=28118",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=28552",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=28821",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=28844",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=28895",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=29490",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=30793",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=32250",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=32272",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=33025",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=33030",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/vo0050.asp?__kvonr=13492",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/vo0050.asp?__kvonr=13643",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/vo0050.asp?__kvonr=13649",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=31571",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=33992",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=34438",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=34557",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=35627",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=35668",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=35867",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=35891",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36133",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36345",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36581",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36582",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36657",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36658",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36840",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36841",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36903",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=37107",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=37124",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=37189",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=38353",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=38504",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=38529",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=38566",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=38912",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=39460",
+  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=10602",
+  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=10836",
+  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=10955",
+  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=11080",
+  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=11083",
+  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=11263"
  ]
 }
