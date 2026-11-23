@@ -1,13 +1,30 @@
 {
+ "Amt Am Peenestrom": {
+  "si_max": 2536,
+  "zuletzt": "2026-11-23"
+ },
  "Amt Darß/Fischland": {
-  "si_max": 200435,
+  "si_max": 200451,
   "zuletzt": "2026-11-23"
  },
  "Bartelshagen II b. Barth": {
   "si_max": 10116,
   "zuletzt": "2026-11-23"
  },
+ "Stralsund": {
+  "si_max": 8627,
+  "zuletzt": "2026-11-23"
+ },
  "_verworfen": [
-  "https://session.amt-barth.de/bi/vo0050.asp?__kvonr=17405"
+  "https://session.amt-barth.de/bi/vo0050.asp?__kvonr=17405",
+  "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=63474",
+  "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=63536",
+  "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=64439",
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=58523",
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=72302",
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=74800",
+  "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=10914",
+  "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9510",
+  "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9584"
  ]
 }
