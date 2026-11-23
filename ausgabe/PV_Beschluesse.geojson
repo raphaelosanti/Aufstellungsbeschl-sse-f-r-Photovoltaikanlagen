@@ -2571,6 +2571,37 @@
   {
    "type": "Feature",
    "properties": {
+    "Name": "Solarpark Drachhausen",
+    "Project_ID": "PV-BB-0081",
+    "Operator": "Wattner\nProjektentwicklungsgesellschaft mbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2026-11-06",
+    "First_Decision_Date": "2026-11-06",
+    "Municipality": "Drachhausen",
+    "District": "Spree-Neiße",
+    "State": "Brandenburg",
+    "Area_ha": 22.2,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9413",
+     "https://www.amtpeitz.de/sessionnet/buergerinfo/getfile.php?id=127422&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.31642,
+     51.89026
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "Name": "PV-BW-0001",
     "Project_ID": "PV-BW-0001",
     "Operator": "ASF GmbH",
@@ -3135,7 +3166,9 @@
     "Location_Accuracy": "Gemeinde",
     "Source_Links": [
      "https://by.beteiligung.diplanung.de/verfahren/bplan-so-solarpark-blumenthal-neuburg-am-inn/public/detail",
-     "https://by.beteiligung.diplanung.de/file/bplan-so-solarpark-blumenthal-neuburg-am-inn/efa3efcf-ee47-49fd-ad80-ee229e8fb333"
+     "https://by.beteiligung.diplanung.de/file/bplan-so-solarpark-blumenthal-neuburg-am-inn/efa3efcf-ee47-49fd-ad80-ee229e8fb333",
+     "https://by.beteiligung.diplanung.de/verfahren/fnp-so-solarpark-blumenthal-neuburg-am-inn/public/detail",
+     "https://by.beteiligung.diplanung.de/file/fnp-so-solarpark-blumenthal-neuburg-am-inn/d2140a14-50eb-4fad-a508-0a128f488e79"
     ]
    },
    "geometry": {
@@ -3622,6 +3655,39 @@
     "coordinates": [
      8.444305555,
      50.269722222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Radweg Wieck/Prerow/Zingst",
+    "Project_ID": "PV-MV-0001",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "In Planung",
+    "Last_Decision": "Frühzeitige Beteiligung",
+    "Last_Decision_Date": "2026-10-09",
+    "First_Decision_Date": "2026-09-03",
+    "Municipality": "Prerow",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ris.darss-fischland.de/bi/vo0050.php?__kvonr=759",
+     "https://ris.darss-fischland.de/bi/getfile.php?id=208651&type=do",
+     "https://ris.darss-fischland.de/bi/vo0050.php?__kvonr=806",
+     "https://ris.darss-fischland.de/bi/getfile.php?id=209357&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.567777777,
+     54.446944444
     ]
    }
   },
@@ -4956,7 +5022,7 @@
     "Operator": "N/A",
     "Element": "Solar Park",
     "Type": "Dach-PV",
-    "Status": "In Planung",
+    "Status": "Ruhend",
     "Last_Decision": "Aufstellungsbeschluss",
     "Last_Decision_Date": "2025-05-27",
     "First_Decision_Date": "2025-05-27",
@@ -4987,7 +5053,7 @@
     "Operator": "N/A",
     "Element": "Solar Park",
     "Type": "Freifläche",
-    "Status": "In Planung",
+    "Status": "Ruhend",
     "Last_Decision": "Unklar",
     "Last_Decision_Date": "2025-05-27",
     "First_Decision_Date": "2025-05-27",
@@ -5018,7 +5084,7 @@
     "Operator": "N/A",
     "Element": "Solar Park",
     "Type": "Agri-PV",
-    "Status": "In Planung",
+    "Status": "Ruhend",
     "Last_Decision": "Abwägungsbeschluss",
     "Last_Decision_Date": "2025-05-27",
     "First_Decision_Date": "2025-05-27",
@@ -5179,6 +5245,98 @@
     "coordinates": [
      6.219722222,
      51.060833333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Niersaue Wickrath",
+    "Project_ID": "PV-NW-0041",
+    "Operator": "Seite 2 \n \nDie Kreiswerke Grevenbroich GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-04-29",
+    "First_Decision_Date": "2026-04-29",
+    "Municipality": "Mönchengladbach",
+    "District": "Regierungsbezirk Düsseldorf",
+    "State": "Nordrhein-Westfalen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0011/papers/vo/21054",
+     "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0011/downloadfiles/a/00265212.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.40832,
+     51.13135
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Mühlenbachtal",
+    "Project_ID": "PV-NW-0042",
+    "Operator": "NEW NiederrheinWasser GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-08-03",
+    "First_Decision_Date": "2026-08-03",
+    "Municipality": "Mönchengladbach",
+    "District": "Regierungsbezirk Düsseldorf",
+    "State": "Nordrhein-Westfalen",
+    "Area_ha": null,
+    "Added Capacity": "683 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0011/papers/vo/21315",
+     "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0011/downloadfiles/a/00269237.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.36204,
+     51.14978
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Gelände nördlich Hombergssiepen",
+    "Project_ID": "PV-NW-0043",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Frühzeitige Beteiligung",
+    "Last_Decision_Date": "2026-11-23",
+    "First_Decision_Date": "2026-11-23",
+    "Municipality": "Menden (Sauerland)",
+    "District": null,
+    "State": "Nordrhein-Westfalen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://beteiligung.nrw.de/portal/rpv/startseite"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.8,
+     51.433333333
     ]
    }
   },
@@ -7351,7 +7509,7 @@
     "Operator": "N/A",
     "Element": "Solar Park",
     "Type": "Freifläche",
-    "Status": "In Planung",
+    "Status": "Ruhend",
     "Last_Decision": "Unklar",
     "Last_Decision_Date": "2025-05-26",
     "First_Decision_Date": "2025-05-26",
