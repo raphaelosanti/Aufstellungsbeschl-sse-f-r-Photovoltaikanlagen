@@ -14,13 +14,13 @@
         <meta name="viewport" content="width=device-width,minimum-scale=1.0">
         <meta name="apple-touch-fullscreen" content="yes">
 
-                            <link rel="stylesheet" href="/js/bundles/../../css/style.a635a8.css" >
-<link rel="stylesheet" href="/js/bundles/../../css/style.95a2e2.css" >
-<link rel="stylesheet" href="/js/bundles/../../css/style.74f655.css" >
+                            <link rel="stylesheet" href="/js/bundles/../../css/style.bad834.css" >
+<link rel="stylesheet" href="/js/bundles/../../css/style.fe500d.css" >
+<link rel="stylesheet" href="/js/bundles/../../css/style.902304.css" >
         
                     <title>Verfahren | XXI-23 IPH | DiPlanungBeteiligung Bauleitplanung</title>
         
-        <script nonce="eQjYtIhlFB+3LRAYmspo5w==">
+        <script nonce="lWCpwGuvv33voajeL+WmYw==">
     document.querySelector('html').classList.remove('nojs')
     document.querySelector('html').classList.add('js')
 </script>
@@ -42,7 +42,7 @@
         </p>
     </div>
 </div>
-<script nonce="eQjYtIhlFB+3LRAYmspo5w==">
+<script nonce="lWCpwGuvv33voajeL+WmYw==">
     function isIE () {
         var ua = window.navigator.userAgent
         var isIE = false
@@ -64,7 +64,7 @@
 </script>
 
                 <div id="app" class="o-page__wrapper">
-
+            
                                             <nav class="c-jumpnav" aria-labelledby="jumpToLabel" tabindex="-1" role="navigation">
                     <span class="sr-only" id="jumpToLabel" aria-hidden="true">Sprungmenü</span>
                     <ul class="u-m-0 u-p-0">
@@ -261,16 +261,19 @@
                 checkKeyEvent,
                 foldOpenToolbarItems,
                 handleFullscreenFocus,
+                handleLocationDrawing,
                 prefixClass,
                 setRef,
+                statement,
                 toggleStatementModal,
                 toggleTabs,
                 update,
                 updateStatementAndOpenModal
             }">
-        <div>
+    
+    <div>
 
-                    <section class="c-infolist" role="region" aria-label="Informationen zum Verfahren">
+            <section class="c-infolist" role="region" aria-label="Informationen zum Verfahren">
 
         <div class="c-infolist__padded border--bottom">
                                         <div class="p-3 inline-block align-top w-full border-b border-gray-300 lg:w-1/3 lg:border-none relative">
@@ -432,7 +435,7 @@
                                 </div>
     </section>
 
-                            <nav
+                    <nav
         class="o-page__padded c-tabs__wrapper"
         aria-label="Inhalte in Tabs">
         <ul
@@ -461,18 +464,18 @@
                             aria-label="Planungsdokumente"
                             :aria-selected="Boolean(activeTab === '#procedureDetailsDocumentlist')"><span class="show-lap-up-i">Planungsdokumente</span></a></li></ul>    </nav>
 
-                        <div class="o-page__padded">
+                <div class="o-page__padded">
 
-                                                <section
-                    class="c-map c-tabs__panel u-nojs-hide--block flow-root bg-color--white"
-                    :class="{ 'is-active-tab' : activeTab === '#procedureDetailsMap'}"
-                    id="procedureDetailsMap"
-                    :hidden="Boolean(activeTab !== '#procedureDetailsMap')"
-                    role="tabpanel"
-                    @keydown="checkKeyEvent"
-                    aria-labelledby="procedureDetailsMapTab">
+                                    <section
+                class="c-map c-tabs__panel u-nojs-hide--block flow-root bg-color--white"
+                :class="{ 'is-active-tab' : activeTab === '#procedureDetailsMap'}"
+                id="procedureDetailsMap"
+                :hidden="Boolean(activeTab !== '#procedureDetailsMap')"
+                role="tabpanel"
+                @keydown="checkKeyEvent"
+                aria-labelledby="procedureDetailsMapTab">
 
-                                                <div class="c-map__toolbar">
+                                                                    <div class="c-map__toolbar">
     <div class="c-map__toolbar-content u-mb-0_5-palm">
 
         
@@ -634,7 +637,6 @@
                             </div>
         
                 <div class="hidden">
-
             <div id="popup" class="c-map__popup">
                 <a href="#" id="popupCloser" class="c-map__popup__button-close"></a>
                 <div id="popupContent" class="c-map__popup__content"></div>
@@ -668,7 +670,6 @@
                 <h3 class="c-map__popup__title u-mb-0">___title___</h3>
                 <p class="map__popup__content u-mt-0_5">___content___</p>
             </div>
-
         </div>
         
                                         <span id="mapHintContent" class="hidden"></span>
@@ -689,21 +690,20 @@
 
     </dp-map>
 </div>
+                                    </section>
+            
+                                        <section
+                    class="c-tabs__panel layout--flush"
+                    :class="{ 'is-active-tab' : activeTab === '#procedureDetailsDocumentlist'}"
+                    id="procedureDetailsDocumentlist"
+                    :hidden="Boolean(activeTab !== '#procedureDetailsDocumentlist')"
+                    role="tabpanel"
+                    aria-labelledby="procedureDetailsDocumentlistTab">
 
-                    </section>
-                
-                                                    <section
-                        class="c-tabs__panel layout--flush"
-                        :class="{ 'is-active-tab' : activeTab === '#procedureDetailsDocumentlist'}"
-                        id="procedureDetailsDocumentlist"
-                        :hidden="Boolean(activeTab !== '#procedureDetailsDocumentlist')"
-                        role="tabpanel"
-                        aria-labelledby="procedureDetailsDocumentlistTab">
+                    
+                        <div class="layout__item width-map-toolbar u-pr-0_5-lap-up">
 
-                        
-                            <div class="layout__item width-map-toolbar u-pr-0_5-lap-up">
-
-                                <div
+                            <div
     class="c-actionbox c-actionbox--bare u-p-0_5 is-visible-actionbox-toggle "
     data-statement-state-started=""
     data-icon-in-button="">
@@ -737,11 +737,11 @@
 
     </div>
 
-                            </div><!--
+                        </div><!--
 
-                         --><div class="layout__item width-map-canvas u-pl-0_5-lap-up u-pr-0_5-lap-up">
+                     --><div class="layout__item width-map-canvas u-pl-0_5-lap-up u-pr-0_5-lap-up">
 
-                                
+                            
                                                                 
     
     
@@ -2690,37 +2690,37 @@
 
                             </div>
 
-                        
-                    </section>
-                
-                                                                
-                                    <statement-modal
-                        ext-id=""
-                        orga-id=""
-                        procedure-id="d98870ed-2ebb-4b86-bae6-4a3194cddc5c"
-                        :ref="setRef('statementModal')"
-                        :allow-anonymous-statements="Boolean(1)"
-                        :counties="JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022\u0022,\u0022label\u0022\u003A\u0022\u002D\u002D\u002D\u0022\u007D\u005D')"
-                        :draft-statement="JSON.parse('\u005B\u005D')"
-                        :feedback-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022getEvaluationMailViaSnailMailOrEmail\u0022,\u0022required\u0022\u003Afalse\u007D\u005D')"
-                        :form-options="JSON.parse('\u007B\u0022userGroup\u0022\u003A\u005B\u0022Landkreis,\u0020Stadt,\u0020Gemeinde\u0022,\u0022\\u00dcber\\u00f6rtlicher\u0020Tr\\u00e4ger\u0022,\u0022Ministerium\u0020auf\u0020Landesebene\u0022,\u0022Ministerium\u0020auf\u0020Bundesebene\u0022,\u0022Freie\u0020Wohlfahrtspflege\u0022,\u0022Fachverband\u0022,\u0022Betroffene\u0020und\u0020ihre\u0020Verb\\u00e4nde\u0022,\u0022Privatgewerbliches\u0020Unternehmen\u0022,\u0022Gemeinn\\u00fctzige\u0020Unternehmung\u0022,\u0022Sozialversicherungstr\\u00e4ger\u0022,\u0022Ausbildungsst\\u00e4tte\\\/Hochschule\u0022,\u0022Stiftungen\u0022,\u0022Einrichtungen\\\/\u0020Dienste\u0022,\u0022Sonstige\u0022\u005D,\u0022userPosition\u0022\u003A\u005B\u0022F\\u00fchrungskraft\u0022,\u0022Mitarbeiter\\\/in\u0022,\u0022selbst\\u00e4ndig\u0022,\u0022Sonstiges\u0022\u005D,\u0022userState\u0022\u003A\u005B\u0022Baden\u002DW\\u00fcrttemberg\u0022,\u0022Bayern\u0022,\u0022Berlin\u0022,\u0022Brandenburg\u0022,\u0022Bremen\u0022,\u0022Hamburg\u0022,\u0022Hessen\u0022,\u0022Mecklenburg\u002DVorpommern\u0022,\u0022Niedersachsen\u0022,\u0022Nordrhein\u002DWestfalen\u0022,\u0022Rheinland\u002DPfalz\u0022,\u0022Saarland\u0022,\u0022Sachsen\u0022,\u0022Sachsen\u002DAnhalt\u0022,\u0022Schleswig\u002DHolstein\u0022,\u0022Th\\u00fcringen\u0022,\u0022Bund\u0022\u005D\u007D')"
-                        :init-has-planning-documents="Boolean(1)"
-                        :is-map-enabled="Boolean(1)"
-                        :logged-in="Boolean()"
-                        :personal-data-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022name\u0022,\u0022required\u0022\u003Atrue\u007D,\u007B\u0022name\u0022\u003A\u0022postalAndCity\u0022,\u0022required\u0022\u003Afalse\u007D,\u007B\u0022name\u0022\u003A\u0022streetAndHouseNumber\u0022,\u0022required\u0022\u003Afalse\u007D,\u007B\u0022name\u0022\u003A\u0022emailAddress\u0022,\u0022required\u0022\u003Afalse\u007D\u005D')"
-                        :planning-documents-has-negative-statement="Boolean(1)"
-                        :public-participation-publication-enabled="Boolean()"
-                        :public-participation-feedback-enabled="Boolean(1)"
-                        :statement-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022mapAndCountyReference\u0022,\u0022required\u0022\u003Atrue\u007D\u005D')"
-                        extra-personal-hint=""
-                        project-name="DiPlanBeteiligung"
-                        statement-form-hint-personal-data=""
-                        statement-form-hint-recheck=""
-                        statement-form-hint-statement="Wenn Sie Ihre Stellungnahme mit Dateianhängen und Einzeichnungen im Plan versehen möchten, melden Sie sich an."
-                        @toggle-tabs="toggleTabs"
-                    ></statement-modal>
-                            </div>
-        </div>
+                    
+                </section>
+            
+                                                
+                            <statement-modal
+                    :allow-anonymous-statements="Boolean(1)"
+                    extra-personal-hint=""
+                    ext-id=""
+                    :ref="setRef('statementModal')"
+                    :counties="JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022\u0022,\u0022label\u0022\u003A\u0022\u002D\u002D\u002D\u0022\u007D\u005D')"
+                    :draft-statement="JSON.parse('\u005B\u005D')"
+                    :feedback-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022getEvaluationMailViaSnailMailOrEmail\u0022,\u0022required\u0022\u003Afalse\u007D\u005D')"
+                    :form-options="JSON.parse('\u007B\u0022userGroup\u0022\u003A\u005B\u0022Landkreis,\u0020Stadt,\u0020Gemeinde\u0022,\u0022\\u00dcber\\u00f6rtlicher\u0020Tr\\u00e4ger\u0022,\u0022Ministerium\u0020auf\u0020Landesebene\u0022,\u0022Ministerium\u0020auf\u0020Bundesebene\u0022,\u0022Freie\u0020Wohlfahrtspflege\u0022,\u0022Fachverband\u0022,\u0022Betroffene\u0020und\u0020ihre\u0020Verb\\u00e4nde\u0022,\u0022Privatgewerbliches\u0020Unternehmen\u0022,\u0022Gemeinn\\u00fctzige\u0020Unternehmung\u0022,\u0022Sozialversicherungstr\\u00e4ger\u0022,\u0022Ausbildungsst\\u00e4tte\\\/Hochschule\u0022,\u0022Stiftungen\u0022,\u0022Einrichtungen\\\/\u0020Dienste\u0022,\u0022Sonstige\u0022\u005D,\u0022userPosition\u0022\u003A\u005B\u0022F\\u00fchrungskraft\u0022,\u0022Mitarbeiter\\\/in\u0022,\u0022selbst\\u00e4ndig\u0022,\u0022Sonstiges\u0022\u005D,\u0022userState\u0022\u003A\u005B\u0022Baden\u002DW\\u00fcrttemberg\u0022,\u0022Bayern\u0022,\u0022Berlin\u0022,\u0022Brandenburg\u0022,\u0022Bremen\u0022,\u0022Hamburg\u0022,\u0022Hessen\u0022,\u0022Mecklenburg\u002DVorpommern\u0022,\u0022Niedersachsen\u0022,\u0022Nordrhein\u002DWestfalen\u0022,\u0022Rheinland\u002DPfalz\u0022,\u0022Saarland\u0022,\u0022Sachsen\u0022,\u0022Sachsen\u002DAnhalt\u0022,\u0022Schleswig\u002DHolstein\u0022,\u0022Th\\u00fcringen\u0022,\u0022Bund\u0022\u005D\u007D')"
+                    :init-has-planning-documents="Boolean(1)"
+                    :is-map-enabled="Boolean(1)"
+                    :logged-in="Boolean()"
+                    orga-id=""
+                    :personal-data-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022name\u0022,\u0022required\u0022\u003Atrue\u007D,\u007B\u0022name\u0022\u003A\u0022postalAndCity\u0022,\u0022required\u0022\u003Afalse\u007D,\u007B\u0022name\u0022\u003A\u0022streetAndHouseNumber\u0022,\u0022required\u0022\u003Afalse\u007D,\u007B\u0022name\u0022\u003A\u0022emailAddress\u0022,\u0022required\u0022\u003Afalse\u007D\u005D')"
+                    :planning-documents-has-negative-statement="Boolean(1)"
+                    procedure-id="d98870ed-2ebb-4b86-bae6-4a3194cddc5c"
+                    project-name="DiPlanBeteiligung"
+                    :public-participation-publication-enabled="Boolean()"
+                    :public-participation-feedback-enabled="Boolean(1)"
+                    :statement-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022mapAndCountyReference\u0022,\u0022required\u0022\u003Atrue\u007D\u005D')"
+                    statement-form-hint-personal-data=""
+                    statement-form-hint-recheck=""
+                    statement-form-hint-statement="Wenn Sie Ihre Stellungnahme mit Dateianhängen und Einzeichnungen im Plan versehen möchten, melden Sie sich an."
+                    @toggle-tabs="toggleTabs"
+                ></statement-modal>
+                    </div>
+    </div>
             </template>
             </dp-public-detail>
     
@@ -2736,7 +2736,7 @@
     role="document">
 
     <input type="hidden" name="action" value="statementpublicnew">
-    <input name="_token" type="hidden" value="18fcc5ddfbaebd9a2f50.k97YTXg5Qzqxny6nP7SLIONzfITcTVgzWmyfmsWVyRE._q6pdBJNIWrE3B2edu3BZZVEOduMOytBLh-qrK2h_Tz87Y86NmohcN3Qew">
+    <input name="_token" type="hidden" value="b.YMGkh_LJuZgbabLDy-DbRRWlWaDdeXigM5bBIRYt4Uc.Lqvrv5yO5shuGNSlnIqVP2GWavmNNhvpA9CAVlRCggoisOrphP3yz3I21Q">
 
 
         
@@ -3091,7 +3091,7 @@
     </fieldset>
     
         <input type="text" name="url" size="20" data-enhance-url-field>
-<input type="hidden" name="r_loadtime" value="1795438491">
+<input type="hidden" name="r_loadtime" value="1795444263">
 
 
     <div class="u-mv-0_5 space-inline-s flow-root" data-statement-state-submit>
@@ -3159,7 +3159,7 @@
             </notify-container>
 
         </div>
-                <script nonce="eQjYtIhlFB+3LRAYmspo5w==">
+                <script nonce="lWCpwGuvv33voajeL+WmYw==">
             window.dplan = {
     settings                : {
         debug               : Boolean(0),
@@ -3175,10 +3175,10 @@
         tusEndpoint          : "\/_tus\/upload",         urlPathPrefix       : ""
     },
 
-    permissions             :  JSON.parse("\u007B\u0022area_map_participation_area\u0022\u003Atrue,\u0022area_procedure_adjustments_general_location\u0022\u003Atrue,\u0022area_public_participation\u0022\u003Atrue,\u0022feature_assessmenttable_export\u0022\u003Atrue,\u0022feature_assessmenttable_use_pager\u0022\u003Atrue,\u0022feature_data_protection_text_customized_view\u0022\u003Atrue,\u0022feature_imprint_text_customized_view\u0022\u003Atrue,\u0022feature_institution_participation\u0022\u003Atrue,\u0022feature_json_api_create\u0022\u003Atrue,\u0022feature_json_api_get\u0022\u003Atrue,\u0022feature_json_api_list\u0022\u003Atrue,\u0022feature_json_api_update\u0022\u003Atrue,\u0022feature_json_rpc_post\u0022\u003Atrue,\u0022feature_map_layer_legend_file\u0022\u003Atrue,\u0022feature_map_new_statement\u0022\u003Atrue,\u0022feature_map_search_location\u0022\u003Atrue,\u0022feature_map_use_plan_draw_pdf\u0022\u003Atrue,\u0022feature_map_use_plan_pdf\u0022\u003Atrue,\u0022feature_map_use_territory\u0022\u003Atrue,\u0022feature_notification_ending_phase\u0022\u003Atrue,\u0022feature_notification_statement_new\u0022\u003Atrue,\u0022feature_orga_slug\u0022\u003Atrue,\u0022feature_participation_area_procedure_detail_map_use_baselayerbox\u0022\u003Atrue,\u0022feature_procedure_agency_email_addresses\u0022\u003Atrue,\u0022feature_procedure_default_filter_extern\u0022\u003Atrue,\u0022feature_procedure_require_location\u0022\u003Atrue,\u0022feature_procedure_templates\u0022\u003Atrue,\u0022feature_procedures_located_by_maintenance_service\u0022\u003Atrue,\u0022feature_procedures_mark_participated\u0022\u003Atrue,\u0022feature_public_index_map\u0022\u003Atrue,\u0022feature_short_url\u0022\u003Atrue,\u0022feature_single_document_statement\u0022\u003Atrue,\u0022feature_statement_content_changes_save\u0022\u003Atrue,\u0022feature_statement_create_autofill_submitter_invited\u0022\u003Atrue,\u0022feature_statement_gdpr_consent_submit\u0022\u003Atrue,\u0022feature_statement_meta_house_number_export\u0022\u003Atrue,\u0022feature_statement_public_allowed_needs_verification\u0022\u003Atrue,\u0022feature_statements_custom_fields\u0022\u003Atrue,\u0022feature_statements_draft_delete\u0022\u003Atrue,\u0022feature_statements_draft_edit\u0022\u003Atrue,\u0022feature_statements_draft_email\u0022\u003Atrue,\u0022feature_statements_draft_versions\u0022\u003Atrue,\u0022feature_statements_feedback_check_email\u0022\u003Atrue,\u0022feature_statements_feedback_postal\u0022\u003Atrue,\u0022feature_statements_final_email\u0022\u003Atrue,\u0022feature_statements_released_email\u0022\u003Atrue,\u0022feature_statements_released_group_email\u0022\u003Atrue,\u0022feature_statements_vote\u0022\u003Atrue,\u0022feature_xplan_defaultlayers\u0022\u003Atrue,\u0022field_organisation_competence\u0022\u003Atrue,\u0022field_organisation_phone\u0022\u003Atrue,\u0022field_phase_iterator\u0022\u003Atrue,\u0022field_procedure_documents\u0022\u003Atrue,\u0022field_procedure_elements\u0022\u003Atrue,\u0022field_procedure_name\u0022\u003Atrue,\u0022field_procedure_paragraphs\u0022\u003Atrue,\u0022field_procedure_single_document_title\u0022\u003Atrue,\u0022field_send_final_email\u0022\u003Atrue,\u0022field_statement_add_assignment\u0022\u003Atrue,\u0022field_statement_extern_id\u0022\u003Atrue,\u0022field_statement_meta_address\u0022\u003Atrue,\u0022field_statement_meta_city\u0022\u003Atrue,\u0022field_statement_meta_email\u0022\u003Atrue,\u0022field_statement_meta_orga_department_name\u0022\u003Atrue,\u0022field_statement_meta_orga_name\u0022\u003Atrue,\u0022field_statement_meta_postal_code\u0022\u003Atrue,\u0022field_statement_meta_street\u0022\u003Atrue,\u0022field_statement_meta_submit_name\u0022\u003Atrue,\u0022field_statement_phase\u0022\u003Atrue,\u0022field_statement_polygon\u0022\u003Atrue,\u0022field_statement_priority\u0022\u003Atrue,\u0022field_statement_public_allowed\u0022\u003Atrue,\u0022field_statement_status\u0022\u003Atrue,\u0022field_statement_submitter_email_address\u0022\u003Atrue,\u0022feature_read_procedure_message\u0022\u003Atrue,\u0022feature_procedure_message_kom_create\u0022\u003Atrue,\u0022feature_procedure_message_kom_update\u0022\u003Atrue,\u0022feature_procedure_message_kom_delete\u0022\u003Atrue\u007D"),
-    projectCoreVersion      : "4.59.2",
+    permissions             :  JSON.parse("\u007B\u0022area_map_participation_area\u0022\u003Atrue,\u0022area_procedure_adjustments_general_location\u0022\u003Atrue,\u0022area_public_participation\u0022\u003Atrue,\u0022feature_assessmenttable_export\u0022\u003Atrue,\u0022feature_assessmenttable_use_pager\u0022\u003Atrue,\u0022feature_data_protection_text_customized_view\u0022\u003Atrue,\u0022feature_imprint_text_customized_view\u0022\u003Atrue,\u0022feature_institution_participation\u0022\u003Atrue,\u0022feature_json_api_create\u0022\u003Atrue,\u0022feature_json_api_get\u0022\u003Atrue,\u0022feature_json_api_list\u0022\u003Atrue,\u0022feature_json_api_update\u0022\u003Atrue,\u0022feature_json_rpc_post\u0022\u003Atrue,\u0022feature_map_layer_legend_file\u0022\u003Atrue,\u0022feature_map_new_statement\u0022\u003Atrue,\u0022feature_map_search_location\u0022\u003Atrue,\u0022feature_map_use_plan_draw_pdf\u0022\u003Atrue,\u0022feature_map_use_plan_pdf\u0022\u003Atrue,\u0022feature_map_use_territory\u0022\u003Atrue,\u0022feature_new_statement\u0022\u003Atrue,\u0022feature_notification_ending_phase\u0022\u003Atrue,\u0022feature_notification_statement_new\u0022\u003Atrue,\u0022feature_orga_slug\u0022\u003Atrue,\u0022feature_participation_area_procedure_detail_map_use_baselayerbox\u0022\u003Atrue,\u0022feature_procedure_agency_email_addresses\u0022\u003Atrue,\u0022feature_procedure_default_filter_extern\u0022\u003Atrue,\u0022feature_procedure_require_location\u0022\u003Atrue,\u0022feature_procedure_templates\u0022\u003Atrue,\u0022feature_procedures_located_by_maintenance_service\u0022\u003Atrue,\u0022feature_procedures_mark_participated\u0022\u003Atrue,\u0022feature_public_index_map\u0022\u003Atrue,\u0022feature_short_url\u0022\u003Atrue,\u0022feature_single_document_statement\u0022\u003Atrue,\u0022feature_statement_content_changes_save\u0022\u003Atrue,\u0022feature_statement_create_autofill_submitter_invited\u0022\u003Atrue,\u0022feature_statement_gdpr_consent_submit\u0022\u003Atrue,\u0022feature_statement_meta_house_number_export\u0022\u003Atrue,\u0022feature_statement_public_allowed_needs_verification\u0022\u003Atrue,\u0022feature_statements_custom_fields\u0022\u003Atrue,\u0022feature_statements_draft_delete\u0022\u003Atrue,\u0022feature_statements_draft_edit\u0022\u003Atrue,\u0022feature_statements_draft_email\u0022\u003Atrue,\u0022feature_statements_draft_versions\u0022\u003Atrue,\u0022feature_statements_feedback_check_email\u0022\u003Atrue,\u0022feature_statements_feedback_postal\u0022\u003Atrue,\u0022feature_statements_final_email\u0022\u003Atrue,\u0022feature_statements_released_email\u0022\u003Atrue,\u0022feature_statements_released_group_email\u0022\u003Atrue,\u0022feature_statements_vote\u0022\u003Atrue,\u0022feature_xplan_defaultlayers\u0022\u003Atrue,\u0022field_organisation_competence\u0022\u003Atrue,\u0022field_organisation_phone\u0022\u003Atrue,\u0022field_phase_iterator\u0022\u003Atrue,\u0022field_procedure_documents\u0022\u003Atrue,\u0022field_procedure_elements\u0022\u003Atrue,\u0022field_procedure_name\u0022\u003Atrue,\u0022field_procedure_paragraphs\u0022\u003Atrue,\u0022field_procedure_single_document_title\u0022\u003Atrue,\u0022field_send_final_email\u0022\u003Atrue,\u0022field_statement_add_assignment\u0022\u003Atrue,\u0022field_statement_extern_id\u0022\u003Atrue,\u0022field_statement_meta_address\u0022\u003Atrue,\u0022field_statement_meta_city\u0022\u003Atrue,\u0022field_statement_meta_email\u0022\u003Atrue,\u0022field_statement_meta_orga_department_name\u0022\u003Atrue,\u0022field_statement_meta_orga_name\u0022\u003Atrue,\u0022field_statement_meta_postal_code\u0022\u003Atrue,\u0022field_statement_meta_street\u0022\u003Atrue,\u0022field_statement_meta_submit_name\u0022\u003Atrue,\u0022field_statement_phase\u0022\u003Atrue,\u0022field_statement_polygon\u0022\u003Atrue,\u0022field_statement_priority\u0022\u003Atrue,\u0022field_statement_public_allowed\u0022\u003Atrue,\u0022field_statement_status\u0022\u003Atrue,\u0022field_statement_submitter_email_address\u0022\u003Atrue,\u0022feature_read_procedure_message\u0022\u003Atrue,\u0022feature_procedure_message_kom_create\u0022\u003Atrue,\u0022feature_procedure_message_kom_update\u0022\u003Atrue,\u0022feature_procedure_message_kom_delete\u0022\u003Atrue\u007D"),
+    projectCoreVersion      : "4.68.1",
     projectName             : "DiPlanBeteiligung",
-    projectVersion          : "2026.18.2",
+    projectVersion          : "2026.22.1",
     loadedAddons            : {},
     loggedIn                : Boolean(0),
     currentUserId           : "73830656\u002D3e48\u002D11e4\u002Da6a8\u002D005056ae0004",
@@ -3187,7 +3187,8 @@
         roles: "\u005B\u0022RGUEST\u0022\u005D"
     },
     sentryDsn               : "",
-    csrfToken               : "\u0022c6790c687a55b3e8bbabfd.tT0TVjGqZ4oXST2T31GOIkDZstbxzrsoTRbm8bYs7Ow.2E1ib1veBdpiCg6qlgjEZzbu94mhuMhaOWXTx94Y2MHaDkQhf_kFwHsGaA\u0022",
+    sentryTracesSampleRate  : 0,
+    csrfToken               : "\u0022db45a0.RT2mLlvDG4F83LtrxcjKQ1x5DQW36jAgyTuguInrG2Y.C1fpFjWERNEJrd0NkqKEOShKPlznpVNp\u002DX3hz8uEeCsHTOhALfdQ1hWD3A\u0022",
     expirationTimestamp     : 0,
 
     defaultProjectionLabel  : "EPSG\u003A3857",
@@ -3200,28 +3201,28 @@
     procedureStatementPriorityArea: Boolean(0),
     };
         </script>
-        <script src="/js/legacy/jquery.js" nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
+        <script src="/js/legacy/jquery.js" nonce="lWCpwGuvv33voajeL+WmYw=="></script>
 
-                            <script src="/js/bundles/./runtime.f6378b.js" data-bundle="runtime" nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
-<script src="/js/bundles/./common.9e5ea7.js" nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
-<script src="/js/bundles/./bs.56ad75.js" nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
-<script src="/js/bundles/./core.4880e2.js" nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
-<script src="/js/bundles/./core-cookie.0d9f58.js" data-bundle="core-cookie" defer nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
+                            <script src="/js/bundles/./runtime.075b69.js" data-bundle="runtime" nonce="lWCpwGuvv33voajeL+WmYw=="></script>
+<script src="/js/bundles/./common.3ed13a.js" nonce="lWCpwGuvv33voajeL+WmYw=="></script>
+<script src="/js/bundles/./bs.66c7f0.js" nonce="lWCpwGuvv33voajeL+WmYw=="></script>
+<script src="/js/bundles/./core.0d5d05.js" nonce="lWCpwGuvv33voajeL+WmYw=="></script>
+<script src="/js/bundles/./core-cookie.e628b6.js" data-bundle="core-cookie" defer nonce="lWCpwGuvv33voajeL+WmYw=="></script>
         
 
-    <script nonce="eQjYtIhlFB+3LRAYmspo5w==">
+    <script nonce="lWCpwGuvv33voajeL+WmYw==">
     console.group('%cApplication information', 'color: #3375D4; font-weight: bold; font-size: 14px; text-decoration: underline;')
     console.info('%cVersions', 'font-weight: bold; text-decoration: underline;')
-    console.info('demosplan-core: 4.59.2')
-    console.info('DiPlanBau: 2026.18.2')
+    console.info('demosplan-core: 4.68.1')
+    console.info('DiPlanBau: 2026.22.1')
     console.groupEnd();
 </script>
 
-            <script src="/js/bundles/./ol.963343.js" nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
-<script src="/js/bundles/./map-publicDetail.3adc16.js" data-bundle="map-publicDetail" defer nonce="eQjYtIhlFB+3LRAYmspo5w=="></script>
+                        <script src="/js/bundles/./ol.9116f4.js" nonce="lWCpwGuvv33voajeL+WmYw=="></script>
+<script src="/js/bundles/./map-publicDetail.fd4ff1.js" data-bundle="map-publicDetail" defer nonce="lWCpwGuvv33voajeL+WmYw=="></script>
+            
     
-    
-    <script nonce="eQjYtIhlFB+3LRAYmspo5w==">
+    <script nonce="lWCpwGuvv33voajeL+WmYw==">
         if (document.querySelector('[data-focus-statement-modal]')) {
             document.querySelector('[data-focus-statement-modal]').addEventListener('click', function () {
                 if (document.getElementById('statementModalButton')) {

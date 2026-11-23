@@ -17,14 +17,14 @@
                             <link rel="stylesheet" href="/js/legacy/leaflet/leaflet/leaflet.css" >
 <link rel="stylesheet" href="/js/legacy/leaflet/markercluster/MarkerCluster.css" >
 <link rel="stylesheet" href="/js/legacy/leaflet/markercluster/MarkerCluster.Default.css" >
-                    <link rel="stylesheet" href="/js/bundles/../../css/style.a635a8.css" >
-<link rel="stylesheet" href="/js/bundles/../../css/style.95a2e2.css" >
-<link rel="stylesheet" href="/js/bundles/../../css/style.74f655.css" >
+                    <link rel="stylesheet" href="/js/bundles/../../css/style.bad834.css" >
+<link rel="stylesheet" href="/js/bundles/../../css/style.fe500d.css" >
+<link rel="stylesheet" href="/js/bundles/../../css/style.902304.css" >
         
 
                     <title>Öffentlichkeitsbeteiligung | DiPlanungBeteiligung Bauleitplanung</title>
         
-        <script nonce="W1+UvZ3gtaYu0HNkzNnMYA==">
+        <script nonce="VgnUFxXgsik0+oexZRVjzA==">
     document.querySelector('html').classList.remove('nojs')
     document.querySelector('html').classList.add('js')
 </script>
@@ -46,7 +46,7 @@
         </p>
     </div>
 </div>
-<script nonce="W1+UvZ3gtaYu0HNkzNnMYA==">
+<script nonce="VgnUFxXgsik0+oexZRVjzA==">
     function isIE () {
         var ua = window.navigator.userAgent
         var isIE = false
@@ -68,7 +68,7 @@
 </script>
 
                 <div id="app" class="o-page__wrapper">
-
+            
                                             <nav class="c-jumpnav" aria-labelledby="jumpToLabel" tabindex="-1" role="navigation">
                     <span class="sr-only" id="jumpToLabel" aria-hidden="true">Sprungmenü</span>
                     <ul class="u-m-0 u-p-0">
@@ -241,7 +241,7 @@
                             aria-label="An dieser Stelle befindet sich eine interaktive Karte mit der visuellen Darstellung aller Beteiligungsverfahren. Die folgende Tabelle spiegelt diese ebenso wieder."><section id="map" class="h-screen bg-color--white"></section></div></div><div class="c-proceduresearch__filter-procedures o-page__padded-right layout__item u-1-of-1 u-1-of-2-lap-up u-pl-0"><form
         class="c-proceduresearch__filter relative flow-root u-pr"
         action="/"
-        method="post"><input name="_token" type="hidden" value="b72056f8cb1772539.UGgbc7xiJphlGVzE2_-oJuEikftkCTaVMpj7v9zcEnA.Ay5dQNoKXtQURi6AgYnBQtQb85M9anisd_DI1um-QzsSXnQ1yipLqzVpBQ"><dp-search-procedure-map
+        method="post"><input name="_token" type="hidden" value="5aaa8e12.5y4tjVDZBHAt3JdlabdRnTTj2UNkK5mR_es1JGPpC3U.3hwa92OLVgcAn-MgPvY53wCktAA9WujYtawCT1CFVCyEHn74FYxrN3-qow"><dp-search-procedure-map
             :sort-options="JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022locationName\u0022,\u0022title\u0022\u003A\u0022A\u002DZ\u0020nach\u0020Orten\u0022,\u0022selected\u0022\u003Afalse\u007D,\u007B\u0022value\u0022\u003A\u0022organisation\u0022,\u0022title\u0022\u003A\u0022Nach\u0020Verfahrenstr\\u00e4ger\u0022,\u0022selected\u0022\u003Afalse\u007D,\u007B\u0022value\u0022\u003A\u0022externalName\u0022,\u0022title\u0022\u003A\u0022A\u002DZ\u0020Name\u0020des\u0020Verfahrens\u0022,\u0022selected\u0022\u003Afalse\u007D,\u007B\u0022value\u0022\u003A\u0022publicParticipationPhaseDefinitionId\u0022,\u0022title\u0022\u003A\u0022Nach\u0020Verfahrensschritten\u0022,\u0022selected\u0022\u003Afalse\u007D,\u007B\u0022value\u0022\u003A\u0022publicParticipationEndDate\u0022,\u0022title\u0022\u003A\u0022Bald\u0020endend\u0022,\u0022selected\u0022\u003Atrue\u007D,\u007B\u0022value\u0022\u003A\u0022publicParticipationStartDate\u0022,\u0022title\u0022\u003A\u0022Neue\u0020zuerst\u0022,\u0022selected\u0022\u003Afalse\u007D\u005D')"
             :municipalities="JSON.parse('\u005B\u005D')"
             county-code=""
@@ -250,7 +250,9 @@
             init-search-term=""
             :init-display-ars-filter-header="'-1' === '1'"
             search-results-header=""
-            orga-slug=""></dp-search-procedure-map></form><ul data-procedurelist-content class="c-procedurelist"></ul><div class="hidden u-pl border--top u-pt" aria-hidden="true" id="noProcedureNotification">
+            orga-slug=""
+            :is-initial-list-filtered="true"
+            :initial-procedure-count="0"></dp-search-procedure-map></form><ul data-procedurelist-content class="c-procedurelist"></ul><div class="hidden u-pl border--top u-pt" aria-hidden="true" id="noProcedureNotification">
                             Es befinden sich keine Verfahren im aktuell gewählten Kartenausschnitt.
                         </div></div></div>                        </section>
                     
@@ -289,7 +291,7 @@
             </notify-container>
 
         </div>
-                <script nonce="W1+UvZ3gtaYu0HNkzNnMYA==">
+                <script nonce="VgnUFxXgsik0+oexZRVjzA==">
             window.dplan = {
     settings                : {
         debug               : Boolean(0),
@@ -306,9 +308,9 @@
     },
 
     permissions             :  JSON.parse("\u007B\u0022area_map_participation_area\u0022\u003Atrue,\u0022area_procedure_adjustments_general_location\u0022\u003Atrue,\u0022area_public_participation\u0022\u003Atrue,\u0022feature_assessmenttable_export\u0022\u003Atrue,\u0022feature_assessmenttable_use_pager\u0022\u003Atrue,\u0022feature_data_protection_text_customized_view\u0022\u003Atrue,\u0022feature_imprint_text_customized_view\u0022\u003Atrue,\u0022feature_institution_participation\u0022\u003Atrue,\u0022feature_json_api_create\u0022\u003Atrue,\u0022feature_json_api_get\u0022\u003Atrue,\u0022feature_json_api_list\u0022\u003Atrue,\u0022feature_json_api_update\u0022\u003Atrue,\u0022feature_json_rpc_post\u0022\u003Atrue,\u0022feature_map_layer_legend_file\u0022\u003Atrue,\u0022feature_map_search_location\u0022\u003Atrue,\u0022feature_map_use_plan_draw_pdf\u0022\u003Atrue,\u0022feature_map_use_plan_pdf\u0022\u003Atrue,\u0022feature_map_use_territory\u0022\u003Atrue,\u0022feature_notification_ending_phase\u0022\u003Atrue,\u0022feature_notification_statement_new\u0022\u003Atrue,\u0022feature_orga_slug\u0022\u003Atrue,\u0022feature_participation_area_procedure_detail_map_use_baselayerbox\u0022\u003Atrue,\u0022feature_procedure_agency_email_addresses\u0022\u003Atrue,\u0022feature_procedure_default_filter_extern\u0022\u003Atrue,\u0022feature_procedure_require_location\u0022\u003Atrue,\u0022feature_procedure_templates\u0022\u003Atrue,\u0022feature_procedures_located_by_maintenance_service\u0022\u003Atrue,\u0022feature_procedures_mark_participated\u0022\u003Atrue,\u0022feature_public_index_map\u0022\u003Atrue,\u0022feature_short_url\u0022\u003Atrue,\u0022feature_single_document_statement\u0022\u003Atrue,\u0022feature_statement_content_changes_save\u0022\u003Atrue,\u0022feature_statement_create_autofill_submitter_invited\u0022\u003Atrue,\u0022feature_statement_gdpr_consent_submit\u0022\u003Atrue,\u0022feature_statement_meta_house_number_export\u0022\u003Atrue,\u0022feature_statement_public_allowed_needs_verification\u0022\u003Atrue,\u0022feature_statements_custom_fields\u0022\u003Atrue,\u0022feature_statements_draft_email\u0022\u003Atrue,\u0022feature_statements_draft_versions\u0022\u003Atrue,\u0022feature_statements_feedback_check_email\u0022\u003Atrue,\u0022feature_statements_feedback_postal\u0022\u003Atrue,\u0022feature_statements_final_email\u0022\u003Atrue,\u0022feature_statements_released_email\u0022\u003Atrue,\u0022feature_statements_released_group_email\u0022\u003Atrue,\u0022feature_statements_vote\u0022\u003Atrue,\u0022feature_xplan_defaultlayers\u0022\u003Atrue,\u0022field_organisation_competence\u0022\u003Atrue,\u0022field_organisation_phone\u0022\u003Atrue,\u0022field_phase_iterator\u0022\u003Atrue,\u0022field_procedure_documents\u0022\u003Atrue,\u0022field_procedure_elements\u0022\u003Atrue,\u0022field_procedure_name\u0022\u003Atrue,\u0022field_procedure_paragraphs\u0022\u003Atrue,\u0022field_procedure_single_document_title\u0022\u003Atrue,\u0022field_send_final_email\u0022\u003Atrue,\u0022field_statement_add_assignment\u0022\u003Atrue,\u0022field_statement_extern_id\u0022\u003Atrue,\u0022field_statement_meta_address\u0022\u003Atrue,\u0022field_statement_meta_city\u0022\u003Atrue,\u0022field_statement_meta_email\u0022\u003Atrue,\u0022field_statement_meta_orga_department_name\u0022\u003Atrue,\u0022field_statement_meta_orga_name\u0022\u003Atrue,\u0022field_statement_meta_postal_code\u0022\u003Atrue,\u0022field_statement_meta_street\u0022\u003Atrue,\u0022field_statement_meta_submit_name\u0022\u003Atrue,\u0022field_statement_phase\u0022\u003Atrue,\u0022field_statement_polygon\u0022\u003Atrue,\u0022field_statement_priority\u0022\u003Atrue,\u0022field_statement_public_allowed\u0022\u003Atrue,\u0022field_statement_status\u0022\u003Atrue,\u0022field_statement_submitter_email_address\u0022\u003Atrue,\u0022feature_read_procedure_message\u0022\u003Atrue,\u0022feature_procedure_message_kom_create\u0022\u003Atrue,\u0022feature_procedure_message_kom_update\u0022\u003Atrue,\u0022feature_procedure_message_kom_delete\u0022\u003Atrue\u007D"),
-    projectCoreVersion      : "4.59.2",
+    projectCoreVersion      : "4.68.1",
     projectName             : "DiPlanBeteiligung",
-    projectVersion          : "2026.18.2",
+    projectVersion          : "2026.22.1",
     loadedAddons            : {},
     loggedIn                : Boolean(0),
     currentUserId           : "73830656\u002D3e48\u002D11e4\u002Da6a8\u002D005056ae0004",
@@ -317,7 +319,8 @@
         roles: "\u005B\u0022RGUEST\u0022\u005D"
     },
     sentryDsn               : "",
-    csrfToken               : "\u00227d9b24495.yNZXVVsTCIkF2InuUDk420PKsS2M\u002DV\u002DkEYCOB4YDtPg.m5ARZj17cMV0h_uqCk9Rv3bz00XVmhGdVOi9brNh5bOK4DgTLVtlulWo0A\u0022",
+    sentryTracesSampleRate  : 0,
+    csrfToken               : "\u0022b1f59b42a.aKrV2LUP_Ude1ntY1Lhy\u002D215Fzn3KApj5nQNEahAHTw.UZjiooZdrzBzlQ8dg_kauVk\u002DenquWXsqrjM6epssQmULmoat8FqSAAygTw\u0022",
     expirationTimestamp     : 0,
 
     defaultProjectionLabel  : "EPSG\u003A3857",
@@ -327,34 +330,34 @@
     
         };
         </script>
-        <script src="/js/legacy/jquery.js" nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
+        <script src="/js/legacy/jquery.js" nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
 
-                            <script src="/js/bundles/./runtime.f6378b.js" data-bundle="runtime" nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/bundles/./common.9e5ea7.js" nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/bundles/./bs.56ad75.js" nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/bundles/./core.4880e2.js" nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/bundles/./core-cookie.0d9f58.js" data-bundle="core-cookie" defer nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
+                            <script src="/js/bundles/./runtime.075b69.js" data-bundle="runtime" nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/bundles/./common.3ed13a.js" nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/bundles/./bs.66c7f0.js" nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/bundles/./core.0d5d05.js" nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/bundles/./core-cookie.e628b6.js" data-bundle="core-cookie" defer nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
         
 
-    <script nonce="W1+UvZ3gtaYu0HNkzNnMYA==">
+    <script nonce="VgnUFxXgsik0+oexZRVjzA==">
     console.group('%cApplication information', 'color: #3375D4; font-weight: bold; font-size: 14px; text-decoration: underline;')
     console.info('%cVersions', 'font-weight: bold; text-decoration: underline;')
-    console.info('demosplan-core: 4.59.2')
-    console.info('DiPlanBau: 2026.18.2')
+    console.info('demosplan-core: 4.68.1')
+    console.info('DiPlanBau: 2026.22.1')
     console.groupEnd();
 </script>
 
 
-            <script src="/js/legacy/leaflet/leaflet/leaflet-src.js" defer nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/legacy/leaflet/proj4/proj4-compressed.js" defer nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/legacy/leaflet/proj4/proj4leaflet.js" defer nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/legacy/leaflet/mousePosition/L.Control.MousePosition.js" defer nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
-<script src="/js/legacy/leaflet/markercluster/leaflet.markercluster.js" defer nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
+            <script src="/js/legacy/leaflet/leaflet/leaflet-src.js" defer nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/legacy/leaflet/proj4/proj4-compressed.js" defer nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/legacy/leaflet/proj4/proj4leaflet.js" defer nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/legacy/leaflet/mousePosition/L.Control.MousePosition.js" defer nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
+<script src="/js/legacy/leaflet/markercluster/leaflet.markercluster.js" defer nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
 
-        <script src="/js/bundles/./procedure-publicIndexMapAndList.71d808.js" data-bundle="procedure-publicIndexMapAndList" defer nonce="W1+UvZ3gtaYu0HNkzNnMYA=="></script>
+        <script src="/js/bundles/./procedure-publicIndexMapAndList.f3aeb2.js" data-bundle="procedure-publicIndexMapAndList" defer nonce="VgnUFxXgsik0+oexZRVjzA=="></script>
 
         
-        <script nonce="W1+UvZ3gtaYu0HNkzNnMYA==">
+        <script nonce="VgnUFxXgsik0+oexZRVjzA==">
         var map, markersLayer, popupMarker;
         var initialProcedures = JSON.parse('\u005B\u005D')
         var nonLocalizedProcedures = []

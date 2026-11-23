@@ -1,4 +1,4 @@
-                                                                                                                                                                            
+                                                                                                                                    
     
     
 
@@ -14,13 +14,13 @@
         <meta name="viewport" content="width=device-width,minimum-scale=1.0">
         <meta name="apple-touch-fullscreen" content="yes">
 
-                            <link rel="stylesheet" href="/js/bundles/../../css/style.a635a8.css" >
-<link rel="stylesheet" href="/js/bundles/../../css/style.95a2e2.css" >
-<link rel="stylesheet" href="/js/bundles/../../css/style.74f655.css" >
+                            <link rel="stylesheet" href="/js/bundles/../../css/style.bad834.css" >
+<link rel="stylesheet" href="/js/bundles/../../css/style.fe500d.css" >
+<link rel="stylesheet" href="/js/bundles/../../css/style.902304.css" >
         
-                    <title>Verfahren | Frühzeitige Beteiligung - Bebauungsplan Nr. 293 &quot;Östlich Stadtweg&quot; | DiPlanungBeteiligung Bauleitplanung</title>
+                    <title>Verfahren | 110.Aenderung_N.N._des_Flaechennutzungsplans_der_Stadt_Salzgitter | DiPlanungBeteiligung Bauleitplanung</title>
         
-        <script nonce="yF6hAX98/bQGOSw3W33D1w==">
+        <script nonce="LmSBRiAQMBP3MkZKNkWMjg==">
     document.querySelector('html').classList.remove('nojs')
     document.querySelector('html').classList.add('js')
 </script>
@@ -42,7 +42,7 @@
         </p>
     </div>
 </div>
-<script nonce="yF6hAX98/bQGOSw3W33D1w==">
+<script nonce="LmSBRiAQMBP3MkZKNkWMjg==">
     function isIE () {
         var ua = window.navigator.userAgent
         var isIE = false
@@ -64,7 +64,7 @@
 </script>
 
                 <div id="app" class="o-page__wrapper">
-
+            
                                             <nav class="c-jumpnav" aria-labelledby="jumpToLabel" tabindex="-1" role="navigation">
                     <span class="sr-only" id="jumpToLabel" aria-hidden="true">Sprungmenü</span>
                     <ul class="u-m-0 u-p-0">
@@ -74,7 +74,25 @@
                         <li>
                             <a href="#jumpContent">Direkt zum Inhalt springen</a>
                         </li>
-                                                </ul>
+                                                                
+                                                                    <li class="u-nojs-show--inline-block">
+                                    <a href="#loginLink">Direkt zum Login springen</a>
+                                </li>
+                                <li class="u-nojs-hide--inline-block">
+                                    <a
+                                        href="#"
+                                        @click="() => { document.getElementById('loginLink') ? document.getElementById('loginLink').focus() : null }">
+                                        Direkt zum Login springen
+                                    </a>
+                                </li>
+                                                    
+        <li class="u-nojs-show--inline-block">
+            <a href="#statementModalTitle">Direkt zum Stellungnahmeformular</a>
+        </li>
+        <li class="u-nojs-hide--inline-block">
+            <a href="#" data-focus-statement-modal="">Direkt zum Stellungnahmeformular</a>
+        </li>
+                        </ul>
                 </nav>
             
                                                             
@@ -227,15 +245,15 @@
                             class="c-pageheader__link mr-3"
                             data-cy="pageHeader:backTo"
                             href="/"><i class="fa fa-angle-left" aria-hidden="true"></i> Zurück zur Verfahrensliste
-                        </a></div><div class="u-mv-0_5 width-map-canvas layout__item u-1-of-1-lap-down u-pr u-pl-lap-up u-pl-0_5-palm u-pr-0_5-palm"><h1 class="c-pageheader__title o-hellip block" aria-label="Verfahren Frühzeitige Beteiligung - Bebauungsplan Nr. 293 &quot;Östlich Stadtweg&quot;"                >
-                    Frühzeitige Beteiligung - Bebauungsplan Nr. 293 "Östlich Stadtweg"
+                        </a></div><div class="u-mv-0_5 width-map-canvas layout__item u-1-of-1-lap-down u-pr u-pl-lap-up u-pl-0_5-palm u-pr-0_5-palm"><h1 class="c-pageheader__title o-hellip block" aria-label="Verfahren 110.Aenderung_N.N._des_Flaechennutzungsplans_der_Stadt_Salzgitter"                >
+                    110.Aenderung_N.N._des_Flaechennutzungsplans_der_Stadt_Salzgitter
                 </h1><div class="c-pageheader__subtitle">
-                        Wallenhorst
+                        Salzgitter
                     </div></div></header>    
                 <dp-public-detail
             :is-map-enabled="true"
             user-id="73830656-3e48-11e4-a6a8-005056ae0004"
-            procedure-id="c590d004-7a97-4fbd-a9e3-dfb87aaa638b">
+            procedure-id="f87c435c-9141-44ac-a6eb-5c4207102f9d">
             <template #default="{
                 activeActionBoxTab,
                 activeStatement,
@@ -243,16 +261,19 @@
                 checkKeyEvent,
                 foldOpenToolbarItems,
                 handleFullscreenFocus,
+                handleLocationDrawing,
                 prefixClass,
                 setRef,
+                statement,
                 toggleStatementModal,
                 toggleTabs,
                 update,
                 updateStatementAndOpenModal
             }">
-        <div>
+    
+    <div>
 
-                    <section class="c-infolist" role="region" aria-label="Informationen zum Verfahren">
+            <section class="c-infolist" role="region" aria-label="Informationen zum Verfahren">
 
         <div class="c-infolist__padded border--bottom">
                                         <div class="p-3 inline-block align-top w-full border-b border-gray-300 lg:w-1/3 lg:border-none relative">
@@ -260,7 +281,7 @@
                         <i class="fa fa-puzzle-piece mr-1" aria-hidden="true"></i>Verfahrensschritt
                     </h3>
 
-                    Auswertung Öffentlichkeit</div><!--
+                    Beteiligung Öffentlichkeit</div><!--
             
                      --><div
                 class="p-3 inline-block align-top w-full border-b border-gray-300 lg:w-1/3 lg:border-none relative"
@@ -271,9 +292,10 @@
                 <span id="helpPublicDetailTimelimit">
                     
                                         
-                    <span><strong>Beteiligung beendet</strong>&nbsp;</span>
+                    <span> <strong>Noch 8 Tage</strong>
+&nbsp;</span>
     
-                <time datetime="2026-10-16T02:00:00+02:00">16.10.2026</time>
+                <time datetime="2026-10-29T02:00:00+01:00">29.10.2026</time>
         –
         <time datetime="2026-11-30T23:59:59+01:00">30.11.2026</time>
                         
@@ -287,7 +309,7 @@
                     <h3 class="pb-3 text-base mb-0 block">
                         <i class="fa fa-university mr-1" aria-hidden="true"></i>durchführende Organisation
                     </h3>
-                    Gemeinde Wallenhorst
+                    Stadt Salzgitter Stadtverwaltung
                     <span id="helpPublicDetailAdministration">
                         
                     </span>
@@ -313,7 +335,7 @@
                         class="c-infolist__content c-styled-html o-toggle__target break-words pb-2 px-2 bg-color--grey-light-2 is-active"
                         data-toggle-id="metaDescription"
                         id="infolistContentMetaDescriptionMobile">
-                        Bebauungsplan Nr. 293 "Östlich Stadtweg"
+                        <p>Damit der Bebauungsplan Imd 7 für SZ-Immendorf "VEP Freiflächen-Photovoltaikanlage - östlich der Bundesstraße 248" aus dem Flächennutzungsplan entwickelt werden kann, ist die Änderung des Flächennutzungsplans erforderlich. Ziel der 110. Änderung N. N. ist die Darstellung einer Sonderbaufläche.</p><p>Die Beteiligungen laufen im Parallelverfahren. Über nachfolgenden Link erreichen Sie das Beteiligungsverfahren zum Bebauungsplan Imd 7:&nbsp;<a rel="noopener noreferrer nofollow" href="https://ni.beteiligung.diplanung.de/plan/imd7-vep-freiflaechen-photovoltaikanlage">https://ni.beteiligung.diplanung.de/plan/imd7-vep-freiflaechen-photovoltaikanlage</a></p>
                     </div>
                 </div>
             </div>
@@ -337,7 +359,7 @@
                             class="c-infolist__content c-styled-html o-toggle__target break-words pb-2 px-2 bg-color--grey-light-2"
                             data-toggle-id="contactPerson"
                             id="infolistContentContactPerson">
-                            <p>Herr Holzhaus</p>
+                            <p>Daniel Schneider</p><p>Tel.: 05341 839- 3520</p><p>Mail: <a rel="noopener noreferrer nofollow" href="mailto:daniel.schneider@stadt.salzgitter.de">daniel.schneider@stadt.salzgitter.de</a></p><p></p><p>Sprechzeiten:</p><p>Mo, Di, Fr: 09-12 Uhr</p><p>Do: 14-18 Uhr</p>
                         </div>
                     </div>
                 </div><!--
@@ -370,14 +392,14 @@
                     class="c-infolist__padded o-toggle__target px-3 pt-5 pb-3 break-words is-active"
                     data-toggle-id="metaDescription"
                     id="infolistContentMetaDescriptionDesktop">
-                    Bebauungsplan Nr. 293 "Östlich Stadtweg"
+                    <p>Damit der Bebauungsplan Imd 7 für SZ-Immendorf "VEP Freiflächen-Photovoltaikanlage - östlich der Bundesstraße 248" aus dem Flächennutzungsplan entwickelt werden kann, ist die Änderung des Flächennutzungsplans erforderlich. Ziel der 110. Änderung N. N. ist die Darstellung einer Sonderbaufläche.</p><p>Die Beteiligungen laufen im Parallelverfahren. Über nachfolgenden Link erreichen Sie das Beteiligungsverfahren zum Bebauungsplan Imd 7:&nbsp;<a rel="noopener noreferrer nofollow" href="https://ni.beteiligung.diplanung.de/plan/imd7-vep-freiflaechen-photovoltaikanlage">https://ni.beteiligung.diplanung.de/plan/imd7-vep-freiflaechen-photovoltaikanlage</a></p>
                 </div>
             
                                         <div
                     class="c-infolist__padded o-toggle__target px-3 pt-5 pb-3 break-words"
                     data-toggle-id="contactPerson"
                     id="infolistContentContactPerson">
-                    <p>Herr Holzhaus</p>
+                    <p>Daniel Schneider</p><p>Tel.: 05341 839- 3520</p><p>Mail: <a rel="noopener noreferrer nofollow" href="mailto:daniel.schneider@stadt.salzgitter.de">daniel.schneider@stadt.salzgitter.de</a></p><p></p><p>Sprechzeiten:</p><p>Mo, Di, Fr: 09-12 Uhr</p><p>Do: 14-18 Uhr</p>
                 </div>
             
                                         <div
@@ -389,7 +411,7 @@
                                 </div>
     </section>
 
-                            <nav
+                    <nav
         class="o-page__padded c-tabs__wrapper"
         aria-label="Inhalte in Tabs">
         <ul
@@ -418,42 +440,108 @@
                             aria-label="Planungsdokumente"
                             :aria-selected="Boolean(activeTab === '#procedureDetailsDocumentlist')"><span class="show-lap-up-i">Planungsdokumente</span></a></li></ul>    </nav>
 
-                        <div class="o-page__padded">
+                <div class="o-page__padded">
 
-                                                <section
-                    class="c-map c-tabs__panel u-nojs-hide--block flow-root bg-color--white"
-                    :class="{ 'is-active-tab' : activeTab === '#procedureDetailsMap'}"
-                    id="procedureDetailsMap"
-                    :hidden="Boolean(activeTab !== '#procedureDetailsMap')"
-                    role="tabpanel"
-                    @keydown="checkKeyEvent"
-                    aria-labelledby="procedureDetailsMapTab">
+                                    <section
+                class="c-map c-tabs__panel u-nojs-hide--block flow-root bg-color--white"
+                :class="{ 'is-active-tab' : activeTab === '#procedureDetailsMap'}"
+                id="procedureDetailsMap"
+                :hidden="Boolean(activeTab !== '#procedureDetailsMap')"
+                role="tabpanel"
+                @keydown="checkKeyEvent"
+                aria-labelledby="procedureDetailsMapTab">
 
-                                                <div class="c-map__toolbar">
+                                                                    <div class="c-map__toolbar">
     <div class="c-map__toolbar-content u-mb-0_5-palm">
 
         
-            <div
-    class="c-actionbox c-actionbox--bare u-p-0_5 is-visible-actionbox-toggle  u-mb"
-    data-statement-state-started=""
-    data-icon-in-button="">
-    
-            
-        <p class="c-actionbox__hint">
+                            <div class="c-actionbox ">
+
+                    <ul class="layout--flush u-mb-0">
+                                                                                        <li
+                            v-show="1"
+                            class="layout__item u-1-of-2"
+                            :class="activeActionBoxTab === 'talk' ? prefixClass('is-visible-actionbox-toggle') : ''"
+                            @click.prevent="update({ key: 'activeActionBoxTab', val: 'talk' })">
+                            <a
+                                class="c-actionbox__toggle"
+                                data-cy="mapPublicParticipationDetail:statementAction"
+                                href="#statementAction"
+                                aria-label="Neue Stellungnahme">
+                                <i :class="activeStatement ? prefixClass('fa fa-commenting') : prefixClass('fa fa-comment')" aria-hidden="true"></i>
+                            </a>
+                        </li><!--
+
+                                                
+                                                                     --><li
+                            v-show="1"
+                            class="layout__item u-1-of-2"
+                            :class="activeActionBoxTab === 'draw' ? prefixClass('is-visible-actionbox-toggle') : ''"
+                            @click.prevent="update({ key: 'activeActionBoxTab', val: 'draw' })">
+                            <a
+                                class="c-actionbox__toggle"
+                                data-cy="mapPublicParticipationDetail:markLocationButton"
+                                href="#markLocationButton"
+                                aria-label="In der Karte einzeichnen..." aria-describedby="statementMapDrawHint">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="c-actionbox__panelwrapper u-pb-0">
+                        <div v-show="activeActionBoxTab === 'talk'" id="statementAction" class="c-actionbox__panel"
+                             :class="activeActionBoxTab === 'talk' ? prefixClass('is-visible-actionbox') : ''"
+                             data-statement-state-started>
+
+                            <a
+                                href="#publicStatementForm"
+                                id="statementModalButton"
+                                @click.stop.prevent="toggleStatementModal({})"
+                                class="c-actionbox__title c-actionbox__title--button text-h4 mb-0.5 is-active"
+                                data-cy="publicStatementButton"
+                                aria-controls="statementModal"
+                                aria-describedby="statementActionDescriptionMap"
+                                role="button"
+                            >
+                                <template v-if="activeStatement">
+                                    Reden Sie weiter...
+                                </template>
+                                <template v-else>
+                                    Reden Sie mit!
+                                </template>
+                            </a>
+                            <p v-if="activeStatement === false" class="c-actionbox__hint">Starten Sie hier Ihre Stellung&shy;nahme.</p>
+                            <p class="c-actionbox__hint">Eine angefangene Stellungnahme können Sie hier wiederfinden und bearbeiten.</p>
+                        </div>
+
+                                                
+                                                
+                        <div
+                            v-show="activeActionBoxTab === 'draw'"
+                            class="c-actionbox__panel"
+                             :class="activeActionBoxTab === 'draw' ? prefixClass('is-visible-actionbox') : ''">
+
+                                                            <button
+                                    type="button"
+                                    id="markLocationButton"
+                                    class="c-actionbox__title c-actionbox__title--button text-h4 o-spinner mb-0.5 is-active">
+                                    Ort markieren
+                                </button>
+
+                                <p class="c-actionbox__hint u-mb-0-palm u-mr-palm">
+                                    Aktivieren Sie diese Funktion und klicken Sie an einen beliebigen Punkt in der Karte, um den Ort zu Ihrer Stellungnahme zu speichern.
+                                </p>
+                            
+                                <p class="c-actionbox__hint show-lap-up">
+        <a class="c-actionbox__link" href="/connect/keycloak_ozg">Melden Sie sich an</a>, um eigene Einzeichnungen in der Karte vorzunehmen.
+    </p>
+                        </div>
 
                         
-                                
-                                        
-                                                    Sie können an dieser Stelle Einsicht in die Karte des Verfahrens nehmen.
-                        
+                    </div>
+
+                </div>
                     
-                
-            
-        </p>
-
-    </div>
-
-        
                                 
                                                                     
                                     
@@ -469,7 +557,7 @@
           v-show="Boolean()"
           :layers-with-legend-files="JSON.parse('\u005B\u005D')"
           :plan-pdf="JSON.parse('\u007B\u0022pdf\u0022\u003A\u0022\u0022,\u0022hash\u0022\u003A\u0022\u0022,\u0022mimeType\u0022\u003A\u0022\u0022,\u0022size\u0022\u003A\u0022\u0022\u007D')"
-          procedure-id="c590d004-7a97-4fbd-a9e3-dfb87aaa638b">
+          procedure-id="f87c435c-9141-44ac-a6eb-5c4207102f9d">
       </dp-layer-legend>
 
             <dp-map-tools></dp-map-tools>
@@ -482,45 +570,15 @@
 
   <ul class="c-map__group u-pt-0_5 ">
 
-                                                          
-                <li>
-              <button
-                  type="button"
-                  id="layerFeatureInfoButton"
-                  class="c-map__tool-simple btn--blank o-link--default font-size-medium"
-                  aria-label="Sachdatenabfrage Aktivieren, um die Sachdaten durch einen Klick in den entsprechenden Bereich der Karte einzusehen.">
-                  <i class="fa fa-lg fa-lightbulb-o mr-2" aria-hidden="true"></i>
-                  Sachdatenabfrage
-              </button>
-              
-
-<dp-contextual-help
-    class="u-nojs-hide float-right u-mt-0_25"
-    :text="'Aktivieren,&#x20;um&#x20;die&#x20;Sachdaten&#x20;durch&#x20;einen&#x20;Klick&#x20;in&#x20;den&#x20;entsprechenden&#x20;Bereich&#x20;der&#x20;Karte&#x20;einzusehen.'"
-    >
-</dp-contextual-help>
-<noscript>
-    <span
-        tabindex="0"
-        class="o-tooltip fa fa-question-circle float-right u-mt-0_25"
-        aria-label="Kontexthilfe"
-        aria-describedby="contextualHelp1572702153">
-        <span
-            class="o-tooltip__content"
-            aria-hidden="true"
-            id="contextualHelp1572702153"
-            role="tooltip">Aktivieren, um die Sachdaten durch einen Klick in den entsprechenden Bereich der Karte einzusehen.</span>
-    </span>
-</noscript>
-          </li>
+                  
       
                       <li>
               <a
                   class="c-map__tool o-link--default"
                   target="_blank"
                   rel="noopener"
-                  href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/c1f487e4-0a21-4525-96d3-d99001036290"
-                  title="Planzeichnung herunterladen (pdf 2.04 MB)">
+                  href="/file/fnp-aenderung-110-salzgitter/aa3a2e7d-b09f-414c-9e3e-e6b245dd9eca"
+                  title="Planzeichnung herunterladen (pdf 4.66 MB)">
                   <i class="fa fa-download" aria-hidden="true"></i>
                   Planzeichnung herunterladen
               </a>
@@ -537,21 +595,16 @@
         get-feature-info-url-planning-area=""
         :layer-groups-alternate-visibility="Boolean()"
         map-danmark-layer=""
-        procedure-id="c590d004-7a97-4fbd-a9e3-dfb87aaa638b"
-        :procedure-settings="JSON.parse('\u007B\u0022ident\u0022\u003A\u0022fb3fb545\u002D56ef\u002D4b68\u002D9d62\u002D16b0ef0e2eb4\u0022,\u0022id\u0022\u003A\u0022fb3fb545\u002D56ef\u002D4b68\u002D9d62\u002D16b0ef0e2eb4\u0022,\u0022pId\u0022\u003A\u0022c590d004\u002D7a97\u002D4fbd\u002Da9e3\u002Ddfb87aaa638b\u0022,\u0022mapExtent\u0022\u003A\u0022898203.45098203,6860745.3972574,898325.08479157,6861275.4017949\u0022,\u0022startScale\u0022\u003A\u0022\u0022,\u0022availableScale\u0022\u003A\u0022\u0022,\u0022boundingBox\u0022\u003A\u0022898021.000268,6859950.390451,898507.535506,6862070.408601\u0022,\u0022informationUrl\u0022\u003A\u0022\u0022,\u0022defaultLayer\u0022\u003A\u0022\u0022,\u0022territory\u0022\u003A\u007B\u0022type\u0022\u003A\u0022FeatureCollection\u0022,\u0022features\u0022\u003A\u005B\u007B\u0022type\u0022\u003A\u0022Feature\u0022,\u0022geometry\u0022\u003A\u007B\u0022type\u0022\u003A\u0022Polygon\u0022,\u0022coordinates\u0022\u003A\u005B\u005B\u005B898264.421241281,6860756.733206232\u005D,\u005B898283.466693472,6860919.024343213\u005D,\u005B898289.3749126391,6860969.368606888\u005D,\u005B898317.7291729733,6861210.842487451\u005D,\u005B898325.0847915742,6861273.4849494975\u005D,\u005B898298.7961153036,6861274.205947206\u005D,\u005B898282.8373912884,6861274.643975503\u005D,\u005B898255.2229886758,6861275.401794949\u005D,\u005B898249.960460749,6861209.291764427\u005D,\u005B898244.9401394478,6861146.214001387\u005D,\u005B898242.7842650482,6861119.129078246\u005D,\u005B898239.3696739625,6861076.230549041\u005D,\u005B898236.3509072522,6861049.191566557\u005D,\u005B898215.4730370856,6860862.082398542\u005D,\u005B898203.4509820318,6860754.337516041\u005D,\u005B898205.2609632001,6860751.938421674\u005D,\u005B898263.092498764,6860745.397257448\u005D,\u005B898263.5930835018,6860749.676970203\u005D,\u005B898264.421241281,6860756.733206232\u005D\u005D\u005D\u007D,\u0022properties\u0022\u003Anull\u007D\u005D\u007D,\u0022coordinate\u0022\u003A\u0022898259.84263683,6861068.1341174\u0022,\u0022planEnable\u0022\u003Atrue,\u0022allowAnonymousStatements\u0022\u003Atrue,\u0022expandProcedureDescription\u0022\u003Atrue,\u0022allowUninvitedInstitutions\u0022\u003Afalse,\u0022planText\u0022\u003A\u002222.09.2026\u0022,\u0022planPDF\u0022\u003A\u0022\u0022,\u0022planPara1PDF\u0022\u003A\u0022\u0022,\u0022planPara2PDF\u0022\u003A\u0022\u0022,\u0022planDrawText\u0022\u003A\u0022\u0022,\u0022planDrawPDF\u0022\u003A\u0022Bebauungsplan_Vorentwurf.pdf\u003Ac1f487e4\u002D0a21\u002D4525\u002D96d3\u002Dd99001036290\u003A2139679\u003Aapplication\\\/pdf\u0022,\u0022emailTitle\u0022\u003A\u0022Einladung\u0020zur\u0020Beteiligung\u003A\u0020\\u00d6stlich\u0020Stadtweg\u0022,\u0022emailText\u0022\u003A\u0022\u0022,\u0022emailCc\u0022\u003A\u0022\u0022,\u0022links\u0022\u003A\u0022\u0022,\u0022procedure\u0022\u003A\u007B\u007D,\u0022pictogram\u0022\u003Anull,\u0022pictogramCopyright\u0022\u003A\u0022\u0022,\u0022pictogramAltText\u0022\u003A\u0022\u0022,\u0022sendMailsToCounties\u0022\u003Afalse,\u0022planningArea\u0022\u003A\u0022\u0022,\u0022scales\u0022\u003A\u005B\u00225000000\u0022,\u00221000000\u0022,\u0022500000\u0022,\u0022250000\u0022,\u0022150000\u0022,\u002270000\u0022,\u002235000\u0022,\u002215000\u0022,\u00225000\u0022,\u00224000\u0022,\u00222000\u0022,\u00221000\u0022,\u0022500\u0022,\u0022250\u0022\u005D,\u0022legalNotice\u0022\u003A\u0022\u0022,\u0022copyright\u0022\u003A\u0022\\u00a9\u0020basemap.de\u0020\\\/\u0020BKG\u0020\u0028\u007BcurrentYear\u007D\u0029\u0022,\u0022mapHint\u0022\u003A\u0022\u0022,\u0022allowedSegmentAccessProcedures\u0022\u003A\u007B\u007D,\u0022publicParticipationFeedbackEnabled\u0022\u003Atrue,\u0022featureInfoUrl\u0022\u003A\u0022\u0022,\u0022layerGroupsAlternateVisibility\u0022\u003Afalse\u007D')"
+        procedure-id="f87c435c-9141-44ac-a6eb-5c4207102f9d"
+        :procedure-settings="JSON.parse('\u007B\u0022ident\u0022\u003A\u0022647d4961\u002D16d5\u002D432e\u002Dbcb8\u002D9f97e174ec68\u0022,\u0022id\u0022\u003A\u0022647d4961\u002D16d5\u002D432e\u002Dbcb8\u002D9f97e174ec68\u0022,\u0022pId\u0022\u003A\u0022f87c435c\u002D9141\u002D44ac\u002Da6eb\u002D5c4207102f9d\u0022,\u0022mapExtent\u0022\u003A\u00221161557.5956881,6826062.6447472,1165686.2039453,6828292.8492076\u0022,\u0022startScale\u0022\u003A\u0022\u0022,\u0022availableScale\u0022\u003A\u0022\u0022,\u0022boundingBox\u0022\u003A\u00221161557.5956881,6826062.6447472,1165686.2039453,6828292.8492076\u0022,\u0022informationUrl\u0022\u003A\u0022\u0022,\u0022defaultLayer\u0022\u003A\u0022\u0022,\u0022territory\u0022\u003A\u007B\u0022type\u0022\u003A\u0022FeatureCollection\u0022,\u0022features\u0022\u003A\u005B\u007B\u0022type\u0022\u003A\u0022Feature\u0022,\u0022geometry\u0022\u003A\u007B\u0022type\u0022\u003A\u0022Polygon\u0022,\u0022coordinates\u0022\u003A\u005B\u005B\u005B1163330.901219436,6827001.989750882\u005D,\u005B1163495.6253351436,6827230.470207843\u005D,\u005B1163588.6328290468,6827358.150463203\u005D,\u005B1163661.4700230672,6827479.110705123\u005D,\u005B1163672.675745224,6827513.830774563\u005D,\u005B1164045.826293052,6827574.310895522\u005D,\u005B1163903.513621658,6827344.710436321\u005D,\u005B1163884.4638939912,6827334.630416161\u005D,\u005B1163830.6764276377,6827252.870252641\u005D,\u005B1163846.3644386574,6827238.310223521\u005D,\u005B1163765.683239127,6827152.0700510405\u005D,\u005B1163692.8460451069,6827099.429945758\u005D,\u005B1163585.2711123996,6827049.029844957\u005D,\u005B1163446.320157653,6827009.829766558\u005D,\u005B1163386.929830221,6826999.749746397\u005D,\u005B1163330.901219436,6827001.989750882\u005D\u005D\u005D\u007D,\u0022properties\u0022\u003Anull\u007D\u005D\u007D,\u0022coordinate\u0022\u003A\u00221155519.5333164,6827197.0693531\u0022,\u0022planEnable\u0022\u003Atrue,\u0022allowAnonymousStatements\u0022\u003Atrue,\u0022expandProcedureDescription\u0022\u003Atrue,\u0022allowUninvitedInstitutions\u0022\u003Afalse,\u0022planText\u0022\u003A\u002226.10.2026\u0022,\u0022planPDF\u0022\u003A\u0022\u0022,\u0022planPara1PDF\u0022\u003A\u0022\u0022,\u0022planPara2PDF\u0022\u003A\u0022\u0022,\u0022planDrawText\u0022\u003A\u0022\u0022,\u0022planDrawPDF\u0022\u003A\u0022110_\\u00c4nderung_Entwurf_Plan.pdf\u003Aaa3a2e7d\u002Db09f\u002D414c\u002D9e3e\u002De6b245dd9eca\u003A4886560\u003Aapplication\\\/pdf\u0022,\u0022emailTitle\u0022\u003A\u0022Einladung\u0020zur\u0020Beteiligung\u003A\u0020110.Aenderung_N.N._des_Flaechennutzungsplans_der_Stadt_Salzgitter\u0022,\u0022emailText\u0022\u003A\u0022\u0022,\u0022emailCc\u0022\u003A\u0022\u0022,\u0022links\u0022\u003A\u0022\u0022,\u0022procedure\u0022\u003A\u007B\u007D,\u0022pictogram\u0022\u003Anull,\u0022pictogramCopyright\u0022\u003A\u0022\u0022,\u0022pictogramAltText\u0022\u003A\u0022\u0022,\u0022sendMailsToCounties\u0022\u003Afalse,\u0022planningArea\u0022\u003A\u0022\u0022,\u0022scales\u0022\u003A\u005B\u002270000\u0022,\u002235000\u0022,\u002215000\u0022,\u00225000\u0022\u005D,\u0022legalNotice\u0022\u003A\u0022\u0022,\u0022copyright\u0022\u003A\u0022\\u00a9\u0020basemap.de\u0020\\\/\u0020BKG\u0020\u0028\u007BcurrentYear\u007D\u0029\u0022,\u0022mapHint\u0022\u003A\u0022\u0022,\u0022allowedSegmentAccessProcedures\u0022\u003A\u007B\u007D,\u0022publicParticipationFeedbackEnabled\u0022\u003Atrue,\u0022featureInfoUrl\u0022\u003A\u0022\u0022,\u0022layerGroupsAlternateVisibility\u0022\u003Afalse\u007D')"
         :project-map-settings="JSON.parse('\u007B\u0022maxBoundingbox\u0022\u003A\u0022\u005B353647.59,5961794.41,1740029.22,7391224.47\u005D\u0022,\u0022adminBaselayer\u0022\u003A\u0022https\u003A\\\/\\\/sgx.geodatenzentrum.de\\\/wms_basemapde\u0022,\u0022adminBaselayerLayers\u0022\u003A\u0022de_basemapde_web_raster_farbe\u0022,\u0022globalAvailableScales\u0022\u003A\u0022\u005B250,500,1000,2000,4000,5000,15000,35000,70000,150000,250000,500000,1000000\u005D\u0022,\u0022printBaselayer\u0022\u003A\u0022https\u003A\\\/\\\/sgx.geodatenzentrum.de\\\/wms_basemapde\u0022,\u0022printBaselayerName\u0022\u003A\u0022de_basemapde_web_raster_farbe\u0022,\u0022printBaselayerLayers\u0022\u003A\u0022de_basemapde_web_raster_farbe\u0022,\u0022publicBaselayer\u0022\u003A\u0022https\u003A\\\/\\\/sgx.geodatenzentrum.de\\\/wms_basemapde\u0022,\u0022publicBaselayerLayers\u0022\u003A\u0022de_basemapde_web_raster_farbe\u0022,\u0022publicAvailableScales\u0022\u003A\u0022\u005B250,500,1000,2000,4000,5000,15000,35000,70000,150000,220000,320000,500000,750000,1000000,2200000,3200000,5000000,7500000,10000000,12000000\u005D\u0022,\u0022publicSearchAutozoom\u0022\u003A\u00223.5277848333474453\u0022,\u0022publicExtent\u0022\u003A\u0022\u005B353647.59,5961794.41,1740029.22,7391224.47\u005D\u0022,\u0022xplanDefaultLayers\u0022\u003A\u0022bp_abstandsfl,\u0020bp_anpflanzbinderh,\u0020bp_ausgleichsfl,\u0020bp_ausgleichsmassn,\u0020bp_baugebteilfl,\u0020bp_baugr,\u0020bp_baulin,\u0020bp_ber,\u0020bp_berohneeinausflin,\u0020bp_besnutzzweckfl,\u0020bp_denkmscheinzanl,\u0020bp_denkmschensfl,\u0020bp_einfberlin,\u0020bp_erhsberfl,\u0020bp_erneuerbenergiefl,\u0020bp_firstrilin,\u0020bp_freifl,\u0020bp_gebaeudefl,\u0020bp_gembedarfsfl,\u0020bp_gemanlfl,\u0020bp_genobj,\u0020bp_gewfl,\u0020bp_gruenfl,\u0020bp_immsschutz,\u0020bp_kennzsfl,\u0020bp_luftreinhfl,\u0020bp_nebenanlausschlfl,\u0020bp_nebenanlfl,\u0020bp_nutzartgr,\u0020bp_plan,\u0020bp_schutzgeb,\u0020bp_schutzpflentwfl,\u0020bp_schutzpflentwmassn,\u0020bp_speziellebauweise,\u0020bp_spispoanlfl,\u0020bp_strbegrlin,\u0020bp_strverksfl,\u0020bp_textlfestsfl,\u0020bp_ueberbaubgrundstsfl,\u0020bp_unverbindlvormerk,\u0020bp_veraendsper,\u0020bp_verentsorgung,\u0020bp_verksflbeszwb,\u0020bp_waldfl,\u0020bp_wwssfl,\u0020bp_wegerecht,\u0020bp_xp_fpo,\u0020bp_xp_lpo,\u0020bp_xp_ppo,\u0020bp_xp_pto,\u0020bp_baugebteilflsym,\u0020bp_besnutzzweckflsym,\u0020bp_erhsberflsym,\u0020bp_gembedarfsflsym,\u0020bp_gemanlflsym,\u0020bp_gewflsym,\u0020bp_gruenflsym,\u0020bp_lwflsym,\u0020bp_nebenanlflsym,\u0020bp_schutzgebsym,\u0020bp_schutzpflentwmassnsym,\u0020bp_spispoanlflsym,\u0020bp_verentsorgungsflsym,\u0020bp_verentsorgungsym,\u0020bp_verksflbeszwbsym,\u0020bp_waldflsym,\u0020bp_wrlfestsflsym\u0022,\u0022mapAttribution\u0022\u003A\u0022\\u00a9\u0020basemap.de\u0020\\\/\u0020BKG\u0020\u0028\u007BcurrentYear\u007D\u0029\u0022\u007D')"
-        :procedure-max-extent="JSON.parse('\u005B898021.000268,6859950.390451,898507.535506,6862070.408601\u005D')"
-        :procedure-initial-extent="JSON.parse('\u005B898203.45098203,6860745.3972574,898325.08479157,6861275.4017949\u005D')"
+        :procedure-max-extent="JSON.parse('\u005B1161557.5956881,6826062.6447472,1165686.2039453,6828292.8492076\u005D')"
+        :procedure-initial-extent="JSON.parse('\u005B1161557.5956881,6826062.6447472,1165686.2039453,6828292.8492076\u005D')"
         :procedure-default-max-extent="JSON.parse('\u005B353647.59,5961794.41,1740029.22,7391224.47\u005D')"
         :procedure-default-initial-extent="JSON.parse('\u005B353647.59,5961794.41,1740029.22,7391224.47\u005D')"
         @fullscreen:toggle="handleFullscreenFocus">
 
                             <div class="c-map__layer-buttons space-inline-s">
-                                    <button class="c-map__layer-button btn btn--primary" id="bplanSwitcher">
-                        <i class="fa fa-eye c-map__layericon--activated" aria-hidden="true"></i>
-                        <i class="fa fa-eye-slash c-map__layericon--deactivated" aria-hidden="true"></i>
-                        Planzeichnung
-                    </button>
                                                     <button class="c-map__layer-button btn btn--primary" id="territorySwitcher">
                         <i class="fa fa-eye c-map__layericon--activated" aria-hidden="true"></i>
                         <i class="fa fa-eye-slash c-map__layericon--deactivated" aria-hidden="true"></i>
@@ -560,10 +613,18 @@
                             </div>
         
                 <div class="hidden">
-
             <div id="popup" class="c-map__popup">
                 <a href="#" id="popupCloser" class="c-map__popup__button-close"></a>
                 <div id="popupContent" class="c-map__popup__content"></div>
+                                    <button id="popupAction" class="c-map__popup__button btn btn--primary u-mt-0_5">
+                        <i :class="activeStatement ? prefixClass('fa fa-commenting') : prefixClass('fa fa-comment')" aria-hidden="true"></i>
+                        <template v-if="activeStatement">
+                            Weiter zur Stellungnahme...
+                        </template>
+                        <template v-else>
+                            Neue Stellungnahme
+                        </template>
+                    </button>
                             </div>
 
             <div id="markLocationPopup">
@@ -585,7 +646,6 @@
                 <h3 class="c-map__popup__title u-mb-0">___title___</h3>
                 <p class="map__popup__content u-mt-0_5">___content___</p>
             </div>
-
         </div>
         
                                         <span id="mapHintContent" class="hidden"></span>
@@ -606,45 +666,58 @@
 
     </dp-map>
 </div>
+                                    </section>
+            
+                                        <section
+                    class="c-tabs__panel layout--flush"
+                    :class="{ 'is-active-tab' : activeTab === '#procedureDetailsDocumentlist'}"
+                    id="procedureDetailsDocumentlist"
+                    :hidden="Boolean(activeTab !== '#procedureDetailsDocumentlist')"
+                    role="tabpanel"
+                    aria-labelledby="procedureDetailsDocumentlistTab">
 
-                    </section>
-                
-                                                    <section
-                        class="c-tabs__panel layout--flush"
-                        :class="{ 'is-active-tab' : activeTab === '#procedureDetailsDocumentlist'}"
-                        id="procedureDetailsDocumentlist"
-                        :hidden="Boolean(activeTab !== '#procedureDetailsDocumentlist')"
-                        role="tabpanel"
-                        aria-labelledby="procedureDetailsDocumentlistTab">
+                    
+                        <div class="layout__item width-map-toolbar u-pr-0_5-lap-up">
 
-                        
-                            <div class="layout__item width-map-toolbar u-pr-0_5-lap-up">
-
-                                <div
+                            <div
     class="c-actionbox c-actionbox--bare u-p-0_5 is-visible-actionbox-toggle "
     data-statement-state-started=""
     data-icon-in-button="">
+                    <a
+            href="#publicStatementForm"
+                                    @click.stop.prevent="toggleStatementModal({})"
+            class="c-actionbox__title--button is-active text-h4 mb-0.5 has-i "
+            data-cy="publicStatementButton"
+            aria-controls="statementModal"
+            aria-describedby="statementActionDescriptionDocuments"
+            role="button"
+        >
+            <template v-if="activeStatement">
+                <i :class="activeStatement ? prefixClass('fa fa-commenting') : prefixClass('fa fa-comment')" aria-hidden="true"></i>
+                Reden Sie weiter...
+            </template>
+            <template v-else>
+                Reden Sie mit!
+            </template>
+        </a>
     
             
-        <p class="c-actionbox__hint">
+        <p id="statementActionDescriptionDocuments" class="c-actionbox__hint">
 
                         
-                                
-                                        
-                                                    Sie können an dieser Stelle Einsicht in die Dokumente des Verfahrens nehmen.
-                        
-                    
+                
+                                    Starten Sie hier Ihre Stellungnahme. Sie können sich auch direkt auf die vorhandenen Inhalte beziehen.
                 
             
         </p>
 
     </div>
 
-                            </div><!--
+                        </div><!--
 
-                         --><div class="layout__item width-map-canvas u-pl-0_5-lap-up u-pr-0_5-lap-up">
+                     --><div class="layout__item width-map-canvas u-pl-0_5-lap-up u-pr-0_5-lap-up">
 
-                                
+                            
                                                                 
     
     
@@ -661,22 +734,16 @@
                             class="elements__header-icon absolute fa fa-file-text"
                             aria-hidden="true"></i>
                         <span class="elements__title inline-block">
-                            Begründung
+                            Bekanntmachung im Amtsblatt
                         </span>
                     </span>
 
-                                                                <a
-                            class="elements__button btn btn--primary float-right u-mt-0_25-lap-down u-1-of-1-lap-down"
-                            href="/verfahren/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/public/paragraph/77b24520-1f97-44cd-846e-ffa977d79653"
-                            title="Begründung"
-                            aria-label="Dokument: Begründung,Dokument öffnen">
-                            <i class="fa fa-plus u-mr-0_25" aria-hidden="true"></i>Dokument öffnen</a>
-                                    </h2>
+                                                        </h2>
 
                                 <div class="elements__description u-1-of-1-desk-up break-words">
                                         
                     <div class="c-styled-html">
-                        
+                        <p>Bekanntmachung im Amtsblatt, Nr. 33 vom 28.10.2026</p>
                     </div>
                 </div>
 
@@ -684,16 +751,16 @@
                                                 class="o-link--default break-words"
                                                 target="_blank"
                                                 rel="noopener"
-                                                href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/ecdf0580-92fd-45a8-bc2f-bb0ae6e276bb"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
-                                                Begründung
+                                                href="/file/fnp-aenderung-110-salzgitter/b661ccae-d356-4bad-b752-71758bd7fbf3"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
+                                                Bekanntmachung im Amtsblatt
                                                                                                     <span class="whitespace-nowrap">
-                                                        (pdf 0.26 MB)
+                                                        (pdf 1.53 MB)
                                                     </span></a><a
                                                     class="elements__button btn btn--secondary btn--outline u-1-of-1-lap-down float-right"
                                                     data-cy="publicElementsList:downloadFile"
                                                     target="_blank"
                                                     rel="noopener"
-                                                    href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/ecdf0580-92fd-45a8-bc2f-bb0ae6e276bb"
+                                                    href="/file/fnp-aenderung-110-salzgitter/b661ccae-d356-4bad-b752-71758bd7fbf3"
                                                     aria-hidden="true"
                                                     tabindex="-1">
                                                     Herunterladen
@@ -715,7 +782,7 @@
                             class="elements__header-icon absolute fa fa-file-text"
                             aria-hidden="true"></i>
                         <span class="elements__title inline-block">
-                            Ergänzende Unterlagen
+                            Geltungsbereich
                         </span>
                     </span>
 
@@ -724,7 +791,7 @@
                                 <div class="elements__description u-1-of-1-desk-up break-words">
                                         
                     <div class="c-styled-html">
-                        
+                        <p>Geltungsbereich der 110. Änderung N. N. (nach Neubekanntmachung) des Flächennutzungsplans der Stadt Salzgitter</p>
                     </div>
                 </div>
 
@@ -732,54 +799,281 @@
                                                     class="o-link--default break-words u-mr-0_25"
                                                     target="_blank"
                                                     rel="noopener"
-                                                    href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/e608a28c-ab7b-4b0f-83c6-ee5024e163e9"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
-                                                    Bebauungsplan Vorentwurf
+                                                    href="/file/fnp-aenderung-110-salzgitter/a585c333-32da-43df-a3ec-2031a72d6538"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
+                                                    Geltungsbereich
                                                                                                             <span class="whitespace-nowrap">
-                                                            (pdf 2.04 MB)
+                                                            (pdf 0.31 MB)
                                                         </span></a></div><a
                                                 class="elements__button btn btn--secondary btn--outline u-1-of-1-lap-down"
                                                 data-cy="publicElementsList:downloadDocument"
                                                 target="_blank"
                                                 rel="noopener"
-                                                href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/e608a28c-ab7b-4b0f-83c6-ee5024e163e9"
+                                                href="/file/fnp-aenderung-110-salzgitter/a585c333-32da-43df-a3ec-2031a72d6538"
                                                 aria-hidden="true"
                                                 tabindex="-1">
                                                 Herunterladen
-                                            </a></div><div class="elements__permission"></div></li><li class="elements__file flow-root"><div class="elements__grid"><div class="elements__file-name elements__grid-grow"><a
+                                            </a></div></li></ul>
+
+            </article>
+
+            
+            
+                
+        
+                    <article class="elements border--top">
+
+                <h2 class="elements__header elements__grid flow-root">
+                    <span
+                        class="elements__grid-grow inline-block"
+                                                >
+                                                <i
+                            class="elements__header-icon absolute fa fa-file-text"
+                            aria-hidden="true"></i>
+                        <span class="elements__title inline-block">
+                            Entwurf der 110. Änderung N. N. des Flächennutzungsplans
+                        </span>
+                    </span>
+
+                                                        </h2>
+
+                                <div class="elements__description u-1-of-1-desk-up break-words">
+                                        
+                    <div class="c-styled-html">
+                        <p>Entwurf der 110. Änderung N. N. (nach Neubekanntmachung) des Flächennutzungsplans der Stadt Salzgitter</p>
+                    </div>
+                </div>
+
+                                <ul class="elements__content hide-empty"><li class="elements__file flow-root"><div class="elements__grid"><div class="elements__file-name elements__grid-grow"><a
                                                     class="o-link--default break-words u-mr-0_25"
                                                     target="_blank"
                                                     rel="noopener"
-                                                    href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/f5cfef3f-16d3-4d55-8766-5a480f37f7ea"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
-                                                    Scopingunterlagen zur frühzeitige Beteiligung
+                                                    href="/file/fnp-aenderung-110-salzgitter/fedf3614-1da6-498c-9c62-33ff746e6049"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
+                                                    Entwurf der 110. Änderung N. N. des Flächennutzungsplans
                                                                                                             <span class="whitespace-nowrap">
-                                                            (pdf 0.58 MB)
-                                                        </span></a></div><a
+                                                            (pdf 4.6 MB)
+                                                        </span></a></div><button
+                                                @click.prevent="updateStatementAndOpenModal({
+                                                        r_document_id: '1fc27428-712d-4298-bf8e-f8787724e8fc',
+                                                        r_document_title: 'Entwurf\u0020der\u0020110.\u0020\u00C4nderung\u0020N.\u0020N.\u0020des\u0020Fl\u00E4chennutzungsplans',
+                                                        r_element_id: '8a171ab4-0ef7-4c82-b2c2-04efad5ae60f',
+                                                        r_element_title: 'Entwurf\u0020der\u0020110.\u0020\u00C4nderung\u0020N.\u0020N.\u0020des\u0020Fl\u00E4chennutzungsplans',
+                                                        r_paragraph_id: '',
+                                                        r_paragraph_title: ''
+                                                    }, { draftStatementId: '' })"
+                                                class="elements__button btn btn--primary btn--outline u-mb-0_25-lap-down u-1-of-1-lap-down"
+                                                type="button"
+                                                aria-label="Planungsdokument: Entwurf der 110. Änderung N. N. des Flächennutzungsplans, Hierzu Stellungnahme abgeben"><i class="fa fa-comment u-mr-0_125" aria-hidden="true"></i>
+                                                Hierzu Stellungnahme abgeben
+                                            </button><a
                                                 class="elements__button btn btn--secondary btn--outline u-1-of-1-lap-down"
                                                 data-cy="publicElementsList:downloadDocument"
                                                 target="_blank"
                                                 rel="noopener"
-                                                href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/f5cfef3f-16d3-4d55-8766-5a480f37f7ea"
+                                                href="/file/fnp-aenderung-110-salzgitter/fedf3614-1da6-498c-9c62-33ff746e6049"
                                                 aria-hidden="true"
                                                 tabindex="-1">
                                                 Herunterladen
-                                            </a></div><div class="elements__permission"></div></li><li class="elements__file flow-root"><div class="elements__grid"><div class="elements__file-name elements__grid-grow"><a
+                                            </a></div></li></ul>
+
+            </article>
+
+            
+            
+                
+        
+                    <article class="elements border--top">
+
+                <h2 class="elements__header elements__grid flow-root">
+                    <span
+                        class="elements__grid-grow inline-block"
+                                                >
+                                                <i
+                            class="elements__header-icon absolute fa fa-file-text"
+                            aria-hidden="true"></i>
+                        <span class="elements__title inline-block">
+                            Begründung mit Umweltbericht zur 110. Änderung N. N. des Flächennutzungsplans der Stadt Salzgitter
+                        </span>
+                    </span>
+
+                                                        </h2>
+
+                                <div class="elements__description u-1-of-1-desk-up break-words">
+                                        
+                    <div class="c-styled-html">
+                        <p>Begründung mit Umweltbericht zur 110. Änderung N. N. des Flächennutzungsplans der Stadt Salzgitter</p>
+                    </div>
+                </div>
+
+                                <ul class="elements__content hide-empty"><li class="elements__file flow-root"><div class="elements__grid"><div class="elements__file-name elements__grid-grow"><a
                                                     class="o-link--default break-words u-mr-0_25"
                                                     target="_blank"
                                                     rel="noopener"
-                                                    href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/b68bde88-b9f8-4484-b5be-285483e34318"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
-                                                    Begründung Vorenturf
+                                                    href="/file/fnp-aenderung-110-salzgitter/efb9430e-5de3-477b-9ee6-862673ff6e28"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
+                                                    Entwurf der Begründung mit Umweltbericht 110.Aenderung_N.N._des_Flaechennutzungsplans_der_Stadt_Salzgitter
                                                                                                             <span class="whitespace-nowrap">
-                                                            (pdf 0.26 MB)
+                                                            (pdf 3.75 MB)
+                                                        </span></a></div><button
+                                                @click.prevent="updateStatementAndOpenModal({
+                                                        r_document_id: '4ba365bc-7b6c-4e5c-b9a2-0e9bd4478936',
+                                                        r_document_title: 'Entwurf\u0020der\u0020Begr\u00FCndung\u0020mit\u0020Umweltbericht\u0020110.Aenderung_N.N._des_Flaechennutzungsplans_der_Stadt_Salzgitter',
+                                                        r_element_id: '14985989-1833-48ae-88c3-2413389609c1',
+                                                        r_element_title: 'Begr\u00FCndung\u0020mit\u0020Umweltbericht\u0020zur\u0020110.\u0020\u00C4nderung\u0020N.\u0020N.\u0020des\u0020Fl\u00E4chennutzungsplans\u0020der\u0020Stadt\u0020Salzgitter',
+                                                        r_paragraph_id: '',
+                                                        r_paragraph_title: ''
+                                                    }, { draftStatementId: '' })"
+                                                class="elements__button btn btn--primary btn--outline u-mb-0_25-lap-down u-1-of-1-lap-down"
+                                                type="button"
+                                                aria-label="Planungsdokument: Entwurf der Begründung mit Umweltbericht 110.Aenderung_N.N._des_Flaechennutzungsplans_der_Stadt_Salzgitter, Hierzu Stellungnahme abgeben"><i class="fa fa-comment u-mr-0_125" aria-hidden="true"></i>
+                                                Hierzu Stellungnahme abgeben
+                                            </button><a
+                                                class="elements__button btn btn--secondary btn--outline u-1-of-1-lap-down"
+                                                data-cy="publicElementsList:downloadDocument"
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="/file/fnp-aenderung-110-salzgitter/efb9430e-5de3-477b-9ee6-862673ff6e28"
+                                                aria-hidden="true"
+                                                tabindex="-1">
+                                                Herunterladen
+                                            </a></div></li></ul>
+
+            </article>
+
+            
+            
+                
+        
+                    <article class="elements border--top">
+
+                <h2 class="elements__header elements__grid flow-root">
+                    <span
+                        class="elements__grid-grow inline-block"
+                                                >
+                                                <i
+                            class="elements__header-icon absolute fa fa-file-text"
+                            aria-hidden="true"></i>
+                        <span class="elements__title inline-block">
+                            Umweltbezogene Stellungnahmen
+                        </span>
+                    </span>
+
+                                                        </h2>
+
+                                <div class="elements__description u-1-of-1-desk-up break-words">
+                                        
+                    <div class="c-styled-html">
+                        <p>Umweltbezogene Stellungnahmen aus den Beteiligungen gemäß § 3 Abs. 1 und § 4 Abs. 1 Baugesetzbuch (BauGB).</p>
+                    </div>
+                </div>
+
+                                <ul class="elements__content hide-empty"><li class="elements__file flow-root"><div class="elements__grid"><div class="elements__file-name elements__grid-grow"><a
+                                                    class="o-link--default break-words u-mr-0_25"
+                                                    target="_blank"
+                                                    rel="noopener"
+                                                    href="/file/fnp-aenderung-110-salzgitter/b42d10f6-929c-4481-b1e4-4ac84a99ef21"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
+                                                    110. Änderung N. N. des Flächennutzungsplans Umweltbezogene Stellungnahmen
+                                                                                                            <span class="whitespace-nowrap">
+                                                            (pdf 0.83 MB)
                                                         </span></a></div><a
                                                 class="elements__button btn btn--secondary btn--outline u-1-of-1-lap-down"
                                                 data-cy="publicElementsList:downloadDocument"
                                                 target="_blank"
                                                 rel="noopener"
-                                                href="/file/bpl-293-oestlichstadtweg-fruehzeitigebeteiligung/b68bde88-b9f8-4484-b5be-285483e34318"
+                                                href="/file/fnp-aenderung-110-salzgitter/b42d10f6-929c-4481-b1e4-4ac84a99ef21"
                                                 aria-hidden="true"
                                                 tabindex="-1">
                                                 Herunterladen
-                                            </a></div><div class="elements__permission"></div></li></ul>
+                                            </a></div></li></ul>
+
+            </article>
+
+            
+            
+                
+        
+                    <article class="elements border--top">
+
+                <h2 class="elements__header elements__grid flow-root">
+                    <span
+                        class="elements__grid-grow inline-block"
+                                                >
+                                                <i
+                            class="elements__header-icon absolute fa fa-file-text"
+                            aria-hidden="true"></i>
+                        <span class="elements__title inline-block">
+                            Gutachten
+                        </span>
+                    </span>
+
+                                                        </h2>
+
+                                <div class="elements__description u-1-of-1-desk-up break-words">
+                                        
+                    <div class="c-styled-html">
+                        <p>Gutachten in Bezug auf die 110. Änderung N. N. (nach Neubekanntmachung) des Flächennutzungsplans</p>
+                    </div>
+                </div>
+
+                                <ul class="elements__content hide-empty"><li class="elements__file flow-root"><div class="elements__grid"><div class="elements__file-name elements__grid-grow"><a
+                                                    class="o-link--default break-words u-mr-0_25"
+                                                    target="_blank"
+                                                    rel="noopener"
+                                                    href="/file/fnp-aenderung-110-salzgitter/ac50339f-a116-4b6b-b865-96bedb68ed2b"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
+                                                    Artenschutzrechtlicher Fachbeitrag
+                                                                                                            <span class="whitespace-nowrap">
+                                                            (zip 0.89 MB)
+                                                        </span></a></div><button
+                                                @click.prevent="updateStatementAndOpenModal({
+                                                        r_document_id: '27390be7-ece5-43fd-8f75-d431aed12241',
+                                                        r_document_title: 'Artenschutzrechtlicher\u0020Fachbeitrag',
+                                                        r_element_id: 'f6db31a8-5d85-4b80-8e9d-3b99d0a78e06',
+                                                        r_element_title: 'Gutachten',
+                                                        r_paragraph_id: '',
+                                                        r_paragraph_title: ''
+                                                    }, { draftStatementId: '' })"
+                                                class="elements__button btn btn--primary btn--outline u-mb-0_25-lap-down u-1-of-1-lap-down"
+                                                type="button"
+                                                aria-label="Planungsdokument: Artenschutzrechtlicher Fachbeitrag, Hierzu Stellungnahme abgeben"><i class="fa fa-comment u-mr-0_125" aria-hidden="true"></i>
+                                                Hierzu Stellungnahme abgeben
+                                            </button><a
+                                                class="elements__button btn btn--secondary btn--outline u-1-of-1-lap-down"
+                                                data-cy="publicElementsList:downloadDocument"
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="/file/fnp-aenderung-110-salzgitter/ac50339f-a116-4b6b-b865-96bedb68ed2b"
+                                                aria-hidden="true"
+                                                tabindex="-1">
+                                                Herunterladen
+                                            </a></div></li><li class="elements__file flow-root"><div class="elements__grid"><div class="elements__file-name elements__grid-grow"><a
+                                                    class="o-link--default break-words u-mr-0_25"
+                                                    target="_blank"
+                                                    rel="noopener"
+                                                    href="/file/fnp-aenderung-110-salzgitter/e5128ef9-484c-40ff-9879-e52575adf0df"><span class="sr-only">Herunterladen</span><i class="fa fa-file-o u-mr-0_125" aria-hidden="true"></i>
+                                                    Blendgutachten_PVA_Immendorf
+                                                                                                            <span class="whitespace-nowrap">
+                                                            (pdf 2.08 MB)
+                                                        </span></a></div><button
+                                                @click.prevent="updateStatementAndOpenModal({
+                                                        r_document_id: '813549bc-f795-4b49-9e4c-0d6a1f75003e',
+                                                        r_document_title: 'Blendgutachten_PVA_Immendorf',
+                                                        r_element_id: 'f6db31a8-5d85-4b80-8e9d-3b99d0a78e06',
+                                                        r_element_title: 'Gutachten',
+                                                        r_paragraph_id: '',
+                                                        r_paragraph_title: ''
+                                                    }, { draftStatementId: '' })"
+                                                class="elements__button btn btn--primary btn--outline u-mb-0_25-lap-down u-1-of-1-lap-down"
+                                                type="button"
+                                                aria-label="Planungsdokument: Blendgutachten_PVA_Immendorf, Hierzu Stellungnahme abgeben"><i class="fa fa-comment u-mr-0_125" aria-hidden="true"></i>
+                                                Hierzu Stellungnahme abgeben
+                                            </button><a
+                                                class="elements__button btn btn--secondary btn--outline u-1-of-1-lap-down"
+                                                data-cy="publicElementsList:downloadDocument"
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="/file/fnp-aenderung-110-salzgitter/e5128ef9-484c-40ff-9879-e52575adf0df"
+                                                aria-hidden="true"
+                                                tabindex="-1">
+                                                Herunterladen
+                                            </a></div></li></ul>
 
             </article>
 
@@ -788,17 +1082,438 @@
 
                             </div>
 
-                        
-                    </section>
-                
-                                                                
-                            </div>
-        </div>
+                    
+                </section>
+            
+                                                
+                            <statement-modal
+                    :allow-anonymous-statements="Boolean(1)"
+                    extra-personal-hint=""
+                    ext-id=""
+                    :ref="setRef('statementModal')"
+                    :counties="JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022\u0022,\u0022label\u0022\u003A\u0022\u002D\u002D\u002D\u0022\u007D\u005D')"
+                    :draft-statement="JSON.parse('\u005B\u005D')"
+                    :feedback-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022getEvaluationMailViaSnailMailOrEmail\u0022,\u0022required\u0022\u003Afalse\u007D\u005D')"
+                    :form-options="JSON.parse('\u007B\u0022userGroup\u0022\u003A\u005B\u0022Landkreis,\u0020Stadt,\u0020Gemeinde\u0022,\u0022\\u00dcber\\u00f6rtlicher\u0020Tr\\u00e4ger\u0022,\u0022Ministerium\u0020auf\u0020Landesebene\u0022,\u0022Ministerium\u0020auf\u0020Bundesebene\u0022,\u0022Freie\u0020Wohlfahrtspflege\u0022,\u0022Fachverband\u0022,\u0022Betroffene\u0020und\u0020ihre\u0020Verb\\u00e4nde\u0022,\u0022Privatgewerbliches\u0020Unternehmen\u0022,\u0022Gemeinn\\u00fctzige\u0020Unternehmung\u0022,\u0022Sozialversicherungstr\\u00e4ger\u0022,\u0022Ausbildungsst\\u00e4tte\\\/Hochschule\u0022,\u0022Stiftungen\u0022,\u0022Einrichtungen\\\/\u0020Dienste\u0022,\u0022Sonstige\u0022\u005D,\u0022userPosition\u0022\u003A\u005B\u0022F\\u00fchrungskraft\u0022,\u0022Mitarbeiter\\\/in\u0022,\u0022selbst\\u00e4ndig\u0022,\u0022Sonstiges\u0022\u005D,\u0022userState\u0022\u003A\u005B\u0022Baden\u002DW\\u00fcrttemberg\u0022,\u0022Bayern\u0022,\u0022Berlin\u0022,\u0022Brandenburg\u0022,\u0022Bremen\u0022,\u0022Hamburg\u0022,\u0022Hessen\u0022,\u0022Mecklenburg\u002DVorpommern\u0022,\u0022Niedersachsen\u0022,\u0022Nordrhein\u002DWestfalen\u0022,\u0022Rheinland\u002DPfalz\u0022,\u0022Saarland\u0022,\u0022Sachsen\u0022,\u0022Sachsen\u002DAnhalt\u0022,\u0022Schleswig\u002DHolstein\u0022,\u0022Th\\u00fcringen\u0022,\u0022Bund\u0022\u005D\u007D')"
+                    :init-has-planning-documents="Boolean(1)"
+                    :is-map-enabled="Boolean(1)"
+                    :logged-in="Boolean()"
+                    orga-id=""
+                    :personal-data-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022name\u0022,\u0022required\u0022\u003Atrue\u007D,\u007B\u0022name\u0022\u003A\u0022postalAndCity\u0022,\u0022required\u0022\u003Afalse\u007D,\u007B\u0022name\u0022\u003A\u0022streetAndHouseNumber\u0022,\u0022required\u0022\u003Afalse\u007D,\u007B\u0022name\u0022\u003A\u0022emailAddress\u0022,\u0022required\u0022\u003Afalse\u007D\u005D')"
+                    :planning-documents-has-negative-statement="Boolean(1)"
+                    procedure-id="f87c435c-9141-44ac-a6eb-5c4207102f9d"
+                    project-name="DiPlanBeteiligung"
+                    :public-participation-publication-enabled="Boolean()"
+                    :public-participation-feedback-enabled="Boolean(1)"
+                    :statement-form-fields="JSON.parse('\u005B\u007B\u0022name\u0022\u003A\u0022mapAndCountyReference\u0022,\u0022required\u0022\u003Atrue\u007D\u005D')"
+                    statement-form-hint-personal-data=""
+                    statement-form-hint-recheck=""
+                    statement-form-hint-statement="Wenn Sie Ihre Stellungnahme mit Dateianhängen und Einzeichnungen im Plan versehen möchten, melden Sie sich an."
+                    @toggle-tabs="toggleTabs"
+                ></statement-modal>
+                    </div>
+    </div>
             </template>
             </dp-public-detail>
     
 
+                <div class="c-statement u-nojs-show--block">
+                                                                            <form
+    id="publicStatementForm"
+    class="c-statement__form"
+    action="/verfahren/fnp-aenderung-110-salzgitter/public/detail"
+    method="post"
+    enctype="multipart/form-data"
+    name="statementForm"
+    role="document">
+
+    <input type="hidden" name="action" value="statementpublicnew">
+    <input name="_token" type="hidden" value="4b18f0a4fa27b8cb7e9f2c30.t2jSSAqqNq1__z_zTNlSt5DGwXc5J3bYtvizX7y2QWI.gya6PWzNBtwVp0e2L5NjzseokiFdaCmAhJ_kNYuDN1OOHqMjS99kxQmJDw">
+
+
         
+        <input type="hidden" name="r_element_id" value="">
+    <input type="hidden" name="r_element_title" value="">
+    <input type="hidden" name="r_paragraph_id" value="">
+    <input type="hidden" name="r_paragraph_title" value="">
+    <input type="hidden" name="r_document_id" value="">
+    <input type="hidden" name="r_document_title" value="">
+
+        
+                <input type="hidden" name="location_is_set" value="">
+        <input type="hidden" name="r_location_priority_area_key" value="">
+        <input type="hidden" name="r_location_priority_area_type" value="">
+        <input type="hidden" name="r_location_point" value="">
+        <input type="hidden" name="r_location_geometry" value="">
+    
+    <header class="c-statement__header flow-root" role="banner">
+
+                <h2
+            id="statementModalTitle"
+            class="color-highlight float-left u-m-0"
+            data-statement-state-started
+        >
+            <i class="fa fa-comment" aria-hidden="true"></i>
+            Ihre Stellungnahme
+        </h2>
+    </header>
+
+        <fieldset class="c-statement__step o-toggle is-visible" id="statement" tabindex="-1"><div class="c-statement__toggle-target u-mb-0_25 is-active flow-root" data-toggle-id="statementData" id="statementData"><div class="c-statement__formhint flash-info u-mb-0_5"><i class="c-statement__hint-icon fa fa-lg fa-info-circle" aria-hidden="true"></i><span class="block u-ml">
+                                                    Wenn Sie Ihre Stellungnahme mit Dateianhängen und Einzeichnungen im Plan versehen möchten, melden Sie sich an.
+                        
+                                                Bitte füllen Sie alle Pflichtfelder(*) korrekt aus. Erst dann können Sie Ihre Angaben speichern.
+                    </span></div><p id="c-statement-hint-statement" class="flash-error c-statement__formhint hidden" role="alert" aria-live="assertive"><i class="c-statement__hint-icon fa fa-lg fa-exclamation-circle" aria-hidden="true"></i><a href="#" class="block u-ml" tabindex="0">
+                    Bitte füllen Sie alle Pflichtfelder(*) korrekt aus. Erst dann können Sie Ihre Angaben speichern.
+                </a></p><label class="u-mb-0_5 weight--bold" for="r_text" title="Pflichtfeld">
+                Bitte verfassen Sie Ihre Stellungnahme<span aria-hidden="true">*</span></label><textarea
+                aria-label="Bitte verfassen Sie Ihre Stellungnahme"
+                name="r_text"
+                id="r_text"
+                required
+            ></textarea><div class="u-mb"><label class="u-mb-0" title="Pflichtfeld"><input
+                            type="checkbox"
+                            name="r_privacy"
+                            required
+                                                        aria-labelledby="explanation-statement-privacy"
+                            data-cy="privacyCheck"
+                            style="margin-right: 5px; margin-bottom: 4px;"><span id="explanation-statement-privacy" aria-hidden="true">Hiermit bestätige ich, dass ich keine anderen Personen namentlich genannt oder beschrieben habe.<span aria-hidden="true">*</span></span></label></div><div class="layout"><div class="layout__item u-1-of-1 u-mb"><p class="weight--bold u-mt u-mb-0" id="statementMapReference">
+    Ortsbezug der Stellungnahme<span aria-hidden="true">*</span></p><fieldset class="toggle-group-location block" role="radiogroup" aria-labelledby="statementMapReference" aria-required="true" id="locationFieldset"><div
+            class="c-statement__formblock layout__item u-1-of-1-palm u-nojs-hide--inline-block sm:h-8 u-3-of-10"
+            data-toggle-id="locationPoint"
+        ><label for="locationPoint" class="u-mb-0_5 weight--normal" aria-hidden="true"><input
+                    type="radio"
+                    class="js__toggleAnything"
+                    data-toggle="#locationPoint"
+                    data-toggle-property=".is-visible"
+                    data-toggle-container=".toggle-group-location"
+                    data-toggle-exclusive
+                    id="locationPoint"
+                    name="r_location"
+                    value="point"
+                > Ortsbezug in der Karte eingeben
+            </label><div class="u-mb-0_5 u-ml-0_75"><a
+                    class="o-link--default js__statementForm"
+                    href="#procedureDetailsMap">Zur Karte...
+                </a><a
+                    class="o-link--default u-mb-0_5 hidden js__statementForm"
+                    href="#procedureDetailsMap"></a></div></div><div class="c-statement__formblock layout__item u-1-of-1-palm sm:h-8 u-2-of-10" data-toggle-id="locationNotLocated"><label for="locationNotLocated" class="u-mb-0 weight--normal"><input
+                type="radio"
+                class="js__toggleAnything"
+                data-toggle="#locationNotLocated"
+                data-toggle-property=".is-visible"
+                data-toggle-container=".toggle-group-location"
+                data-toggle-exclusive
+                id="locationNotLocated"
+                name="r_location"
+                value="notLocated"
+                required
+                data-cy="notLocated"> Kein Ortsbezug
+        </label></div></fieldset></div></div></div></fieldset>
+                <fieldset class="c-statement__step" id="personalData" tabindex="-1">
+
+    <div class="c-statement__formhint flash-info u-mb-0_5">
+        <i class="c-statement__hint-icon fa fa-lg fa-info-circle" aria-hidden="true"></i>
+        <span class="block u-ml">
+            
+        </span>
+            <i class="c-statement__hint-icon fa fa-lg fa-info-circle" aria-hidden="true"></i>
+    <span class="block u-ml">
+        Wenn Sie Ihren Namen angeben, können Sie später damit nachweisen, dass Sie Ihre Bedenken mitgeteilt haben. Sie haben so die Möglichkeit, Klage einzureichen. Bei anonymer Einreichung ist der Nachweis nicht möglich.
+    </span>
+    </div>
+
+    <p id="c-statement-hint-personal-data" class="c-statement__formhint flash-error hidden" tabindex="0">
+        <i class="c-statement__hint-icon fa fa-lg fa-exclamation-circle" aria-hidden="true"></i>
+        <a href="#" class="block u-ml" tabindex="0">
+            Bitte füllen Sie alle Pflichtfelder korrekt aus. Erst dann können Sie Ihre Angaben speichern.
+        </a>
+    </p>
+
+    <fieldset class="toggle-group-useName block" role="radiogroup" aria-required="true">
+
+        <div class="c-statement__formblock" data-toggle-id="useName1" aria-live="polite" aria-relevant="all">
+
+            <label
+                for="r_useName"
+                class="u-mb-0_5">
+                <input
+                    class="js__toggleAnything"
+                    data-toggle="#useName1"
+                    data-toggle-property=".is-visible"
+                    data-toggle-container=".toggle-group-useName"
+                    data-toggle-exclusive
+                    type="radio"
+                    id="r_useName"
+                    name="r_useName"
+                    value="1"
+                    checked
+                    required
+                    aria-labelledby="statement-detail-post-publicly">
+                <span
+                    id="statement-detail-post-publicly"
+                    aria-hidden="true">
+                    Ich möchte namentlich Stellung nehmen.
+                </span>
+            </label>
+
+            <div class="layout"><div class="layout__item u-1-of-2 u-mb"><div class="layout"><div class="  u-1-of-1 layout__item "><label
+    for="r_firstname"
+    class=" o-form__label  u-1-of-1">
+    Name*        
+    </label><input
+    type="text"
+    id="r_firstname"
+    name="r_firstname"
+    class="  u-1-of-1 o-form__control-input u-pl-0_25"
+    value=""
+    placeholder=""
+                        required
+            ></div></div></div><div class="layout__item u-1-of-2 u-mb"><div class="layout"><div class="  u-1-of-1 layout__item u-1-of-4"><label
+    for="r_postalCode"
+    class=" o-form__label  u-1-of-1">
+    PLZ        
+    </label><input
+    type="text"
+    id="r_postalCode"
+    name="r_postalCode"
+    class="  u-1-of-1 o-form__control-input u-pl-0_25"
+    value=""
+    placeholder=""
+                        ></div><div class="  u-1-of-1 layout__item  u-3-of-4"><label
+    for="r_city"
+    class=" o-form__label  u-1-of-1">
+    Ort        
+    </label><input
+    type="text"
+    id="r_city"
+    name="r_city"
+    class="  u-1-of-1 o-form__control-input u-pl-0_25"
+    value=""
+    placeholder=""
+                        ></div></div></div><div class="layout__item u-1-of-2 u-mb"><div class="layout"><div class="  u-1-of-1"><label
+    for="r_street"
+    class=" o-form__label  u-1-of-1">
+    Straße        
+    </label><input
+    type="text"
+    id="r_street"
+    name="r_street"
+    class="  u-1-of-1 o-form__control-input u-pl-0_25"
+    value=""
+    placeholder=""
+                        ></div><div class="  u-1-of-1"><label
+    for="r_houseNumber"
+    class=" o-form__label  u-1-of-1">
+    Hausnr.        
+    </label><input
+    type="text"
+    id="r_houseNumber"
+    name="r_houseNumber"
+    class="  u-1-of-1 o-form__control-input u-pl-0_25"
+    value=""
+    placeholder=""
+                        ></div></div></div><div class="layout__item u-1-of-2 u-mb"><div class="layout"><div class="  u-1-of-1 layout__item "><label
+    for="r_email"
+    class=" o-form__label  u-1-of-1">
+    E-Mail        
+    </label><input
+    type="text"
+    id="r_email"
+    name="r_email"
+    class="  u-1-of-1 o-form__control-input u-pl-0_25"
+    value=""
+    placeholder=""
+                        ></div></div></div></div>
+        </div>
+
+        <label class="c-statement__formblock u-mb-0_5" data-toggle-id="useName0">
+            <input
+                class="js__toggleAnything"
+                data-toggle="#useName0"
+                data-toggle-property=".is-visible"
+                data-toggle-exclusive
+                data-toggle-container=".toggle-group-useName"
+                type="radio"
+                name="r_useName"
+                value="0"
+                                required
+                aria-labelledby="statement-detail-post-anonymously"
+                data-cy="submitAnonymously">
+            <span id="statement-detail-post-anonymously" aria-hidden="true">Ich möchte meine Stellungnahme anonym abgeben.</span>
+        </label>
+
+    </fieldset>
+
+        <div class="c-statement__formblock u-mt" data-toggle-id="getFeedback" aria-live="polite" aria-relevant="all">
+        <label class="u-mb-0_5 block">
+            <input
+                class="js__toggleAnything"
+                data-toggle="#getFeedback"
+                data-toggle-property=".is-visible"
+                data-toggle-container="none"
+                type="checkbox"
+                name="r_getFeedback"
+                                aria-labelledby="statement-detail-require-information-mail">
+            <span id="statement-detail-require-information-mail" aria-hidden="true">Ich möchte informiert werden, wenn die Auswertung der Stellungnahme online verfügbar ist.</span>
+        </label>
+
+        <div class="u-mb-0_5 u-ml-0_75">
+            <div class="layout"><div class="layout__item u-1-of-2 u-mb"><div class="u-mb-0_5 u-ml-0_75"><label class="u-mb-0_25" for="r_getEvaluation_email"><input id="r_getEvaluation_email" type="radio" name="r_getEvaluation" value="email"
+                   aria-labelledby="statement-detail-require-response-email"><span id="statement-detail-require-response-email" aria-hidden="true">Ich möchte eine Rückmeldung zu meiner Stellungnahme per E-Mail erhalten.</span></label><div class=""><label class="u-ml-0_5 u-mb-0_5"><span id="statement-detail-email">E-Mail</span><br><input
+                type="email"
+                name="r_email"
+                aria-labelledby="statement-detail-email"
+                value=""></label><label class="u-ml-0_5 u-mb-0_5"><span id="statement-detail-email-confirm">E-Mail bestätigen</span><br><input
+                    type="email"
+                    name="r_email2"
+                    aria-labelledby="statement-detail-email-confirm"
+                    value=""></label></div><label class="u-mb-0_25" for="r_getEvaluation_snailmail"><input
+                id="r_getEvaluation_snailmail"
+                type="radio"
+                name="r_getEvaluation"
+                value="snailmail"
+                aria-labelledby="statement-detail-require-response-post"><span id="statement-detail-require-response-post" aria-hidden="true">Ich möchte eine Rückmeldung zu meiner Stellungnahme per Post an die angegebene Anschrift erhalten.</span></label></div></div></div>        </div>
+
+    </div>
+    
+    <button
+        class="btn btn--primary u-ml float-right u-1-of-1-palm u-mt-0_5-palm u-nojs-hide--inline-block js__statementForm"
+        type="button"
+        data-statement-action="toggleCheck"
+        data-target-id="#check"
+        data-error-hint="#c-statement-hint-personal-data"
+        data-cy="continueSubmit"
+    >
+        Weiter zur Einreichung
+    </button>
+
+</fieldset>
+        <fieldset class="c-statement__step" id="check" tabindex="-1">
+    <div class="u-nojs-hide--block">
+        <p class="c-statement__formhint flash-warning">
+            <i class="c-statement__hint-icon fa fa-lg fa-exclamation-circle" aria-hidden="true"></i>
+            <span class="block u-ml">
+                Bitte überprüfen Sie Ihre Angaben vor dem Absenden noch einmal.
+            </span>
+        </p>
+        <p id="c-statement-hint-recheck" class="flash-error c-statement__formhint hidden">
+            <i class="c-statement__hint-icon fa fa-lg fa-exclamation-circle" aria-hidden="true"></i>
+            <a href="#" class="block u-ml" tabindex="0">
+                Bitte füllen Sie alle Pflichtfelder(*) korrekt aus. Erst dann können Sie Ihre Angaben speichern.
+            </a>
+        </p>
+
+        <p class="c-statement__formhint flash-info">
+            <i class="c-statement__hint-icon fa fa-lg fa-info-circle" aria-hidden="true"></i>
+            <span class="block u-ml">
+                
+            </span>
+        </p>
+
+                    <div class="flow-root" data-statement-check="r_makePublic">
+                <span data-statement-check-value="false" id="explanationStatementDontPublish">
+                    Ich möchte <em>nicht</em>, dass meine Stellungnahme bei DiPlanBeteiligung online einsehbar ist.
+                </span>
+                <span data-statement-check-value="true" id="statementDetailFormPersonalPublish">
+                    Ich möchte, dass meine Stellungnahme (nach Freigabe durch die Verwaltung) <em>bei DiPlanBeteiligung einsehbar</em> ist.
+                </span>
+            </div>
+        
+        
+        <div class="flow-root border--top u-pt-0_25" data-statement-check="r_useName" id="useNameText">
+            <span data-statement-check-value="0">
+                Ich möchte meine Stellungnahme anonym abgeben.
+            </span>
+            <span data-statement-check-value="1">
+                Ich möchte namentlich Stellung nehmen.
+                <span class="block">
+                    <span class="layout__item u-1-of-4-desk-up u-pl-0"><em>Vorname: </em><span data-statement-check-content="r_firstname"></span><br><em>Nachname: </em><span data-statement-check-content="r_lastname"></span></span><span class="layout__item u-1-of-4-desk-up u-pl-0"><em>Straße: </em><span data-statement-check-content="r_street"></span><br><em>Hausnr.: </em><span data-statement-check-content="r_houseNumber"></span><br><em>PLZ: </em><span data-statement-check-content="r_postalCode"></span><br><em>Ort: </em><span data-statement-check-content="r_city"></span><br></span>                </span>
+            </span>
+        </div>
+
+        <div class="flow-root border--top u-pt-0_25">
+
+            
+                <p class="inline-block u-mb-0_25" data-statement-check="r_getFeedback" id="getFeedbackText">
+                    <span data-statement-check-value="true">
+                        <span data-statement-check="r_getEvaluation">
+                            <span data-statement-check-value="email">
+                                Ich möchte eine Rückmeldung zu meiner Stellungnahme per E-Mail an <em>{email}</em> erhalten.
+                            </span>
+                            <span data-statement-check-value="snailmail">
+                                 Ich möchte eine Rückmeldung zu meiner Stellungnahme per Post an die <em>oben angegebene Anschrift</em> erhalten.
+                            </span>
+                        </span>
+                    </span>
+                    <span data-statement-check-value="false">
+                       Ich möchte <em>keine Rückmeldung</em> zu meiner Stellungnahme erhalten.
+                    </span>
+                </p>
+
+            
+                        <span class="hidden" aria-hidden="true" id="inputDataChange">Eingaben ändern...</span>
+        </div>
+
+        <div class="flow-root border--top u-pt-0_25" data-statement-check="r_text">
+
+            <span class="flow-root">
+                <em>Meine Stellungnahme: </em>
+            </span>
+
+            <span class="block sm:h-9 overflow-auto" data-statement-check-content="r_text"></span>
+
+        </div>
+    </div>
+
+    
+            
+        <label class="u-mv-0_5" title="Pflichtfeld">
+            <input
+                type="checkbox"
+                id="gdpr_consent"
+                name="r_gdpr_consent"
+                required
+                aria-labelledby="explanation-statement-gdpr-consent"
+                data-cy="gdprCheck">
+            <span id="explanation-statement-gdpr-consent">
+                                    Ich bin mit der Verarbeitung der mich betreffenden <a class="o-link--external" href="/datenschutz#{orgaId}" target="_blank" aria-label="zum Datenschutz">personenbezogenen Daten</a> einverstanden.
+                                <span aria-hidden="true">*</span>
+            </span>
+        </label>
+    </fieldset>
+    
+        <input type="text" name="url" size="20" data-enhance-url-field>
+<input type="hidden" name="r_loadtime" value="1795444286">
+
+
+    <div class="u-mv-0_5 space-inline-s flow-root" data-statement-state-submit>
+                                <button
+                type="reset"
+                class="btn btn--secondary u-1-of-1-palm">
+                Stellungnahme verwerfen
+            </button>
+            <button
+                id="submit"
+                type="submit"
+                class="btn btn--primary u-ml float-right u-1-of-1-palm u-mt-0_5-palm"
+                data-cy="submitStatement">
+                <i class="fa fa-comment u-mr-0_25" aria-hidden="true"></i>
+                Stellungnahme jetzt absenden
+            </button>
+            </div>
+
+        <p class="flash flash-error u-mb-0 sr-only" aria-hidden="true" data-statement-submit-feedback="error">
+        Die Stellungnahme konnte nicht gespeichert werden, bitte überprüfen Sie noch einmal alle Eingabefelder.
+    </p>
+    <p class="u-mt-0_5 u-mb-0 sr-only" data-statement-submit-feedback="loading" aria-label="Daten werden geladen...">
+        <img src="/img/ajax-loader.gif" alt="">
+    </p>
+
+        <div data-statement-submit-feedback="success"></div>
+
+</form>
+                    </div>
+    
                         </section>
                     
                 </main>
@@ -836,7 +1551,7 @@
             </notify-container>
 
         </div>
-                <script nonce="yF6hAX98/bQGOSw3W33D1w==">
+                <script nonce="LmSBRiAQMBP3MkZKNkWMjg==">
             window.dplan = {
     settings                : {
         debug               : Boolean(0),
@@ -852,10 +1567,10 @@
         tusEndpoint          : "\/_tus\/upload",         urlPathPrefix       : ""
     },
 
-    permissions             :  JSON.parse("\u007B\u0022area_map_participation_area\u0022\u003Atrue,\u0022area_procedure_adjustments_general_location\u0022\u003Atrue,\u0022area_public_participation\u0022\u003Atrue,\u0022feature_assessmenttable_export\u0022\u003Atrue,\u0022feature_assessmenttable_use_pager\u0022\u003Atrue,\u0022feature_data_protection_text_customized_view\u0022\u003Atrue,\u0022feature_imprint_text_customized_view\u0022\u003Atrue,\u0022feature_institution_participation\u0022\u003Atrue,\u0022feature_json_api_create\u0022\u003Atrue,\u0022feature_json_api_get\u0022\u003Atrue,\u0022feature_json_api_list\u0022\u003Atrue,\u0022feature_json_api_update\u0022\u003Atrue,\u0022feature_json_rpc_post\u0022\u003Atrue,\u0022feature_map_layer_legend_file\u0022\u003Atrue,\u0022feature_map_search_location\u0022\u003Atrue,\u0022feature_map_use_plan_draw_pdf\u0022\u003Atrue,\u0022feature_map_use_plan_pdf\u0022\u003Atrue,\u0022feature_map_use_territory\u0022\u003Atrue,\u0022feature_notification_ending_phase\u0022\u003Atrue,\u0022feature_notification_statement_new\u0022\u003Atrue,\u0022feature_orga_slug\u0022\u003Atrue,\u0022feature_participation_area_procedure_detail_map_use_baselayerbox\u0022\u003Atrue,\u0022feature_procedure_agency_email_addresses\u0022\u003Atrue,\u0022feature_procedure_default_filter_extern\u0022\u003Atrue,\u0022feature_procedure_require_location\u0022\u003Atrue,\u0022feature_procedure_templates\u0022\u003Atrue,\u0022feature_procedures_located_by_maintenance_service\u0022\u003Atrue,\u0022feature_procedures_mark_participated\u0022\u003Atrue,\u0022feature_public_index_map\u0022\u003Atrue,\u0022feature_short_url\u0022\u003Atrue,\u0022feature_single_document_statement\u0022\u003Atrue,\u0022feature_statement_content_changes_save\u0022\u003Atrue,\u0022feature_statement_create_autofill_submitter_invited\u0022\u003Atrue,\u0022feature_statement_gdpr_consent_submit\u0022\u003Atrue,\u0022feature_statement_meta_house_number_export\u0022\u003Atrue,\u0022feature_statement_public_allowed_needs_verification\u0022\u003Atrue,\u0022feature_statements_custom_fields\u0022\u003Atrue,\u0022feature_statements_draft_email\u0022\u003Atrue,\u0022feature_statements_draft_versions\u0022\u003Atrue,\u0022feature_statements_feedback_check_email\u0022\u003Atrue,\u0022feature_statements_feedback_postal\u0022\u003Atrue,\u0022feature_statements_final_email\u0022\u003Atrue,\u0022feature_statements_released_email\u0022\u003Atrue,\u0022feature_statements_released_group_email\u0022\u003Atrue,\u0022feature_statements_vote\u0022\u003Atrue,\u0022feature_xplan_defaultlayers\u0022\u003Atrue,\u0022field_organisation_competence\u0022\u003Atrue,\u0022field_organisation_phone\u0022\u003Atrue,\u0022field_phase_iterator\u0022\u003Atrue,\u0022field_procedure_documents\u0022\u003Atrue,\u0022field_procedure_elements\u0022\u003Atrue,\u0022field_procedure_name\u0022\u003Atrue,\u0022field_procedure_paragraphs\u0022\u003Atrue,\u0022field_procedure_single_document_title\u0022\u003Atrue,\u0022field_send_final_email\u0022\u003Atrue,\u0022field_statement_add_assignment\u0022\u003Atrue,\u0022field_statement_extern_id\u0022\u003Atrue,\u0022field_statement_meta_address\u0022\u003Atrue,\u0022field_statement_meta_city\u0022\u003Atrue,\u0022field_statement_meta_email\u0022\u003Atrue,\u0022field_statement_meta_orga_department_name\u0022\u003Atrue,\u0022field_statement_meta_orga_name\u0022\u003Atrue,\u0022field_statement_meta_postal_code\u0022\u003Atrue,\u0022field_statement_meta_street\u0022\u003Atrue,\u0022field_statement_meta_submit_name\u0022\u003Atrue,\u0022field_statement_phase\u0022\u003Atrue,\u0022field_statement_polygon\u0022\u003Atrue,\u0022field_statement_priority\u0022\u003Atrue,\u0022field_statement_public_allowed\u0022\u003Atrue,\u0022field_statement_status\u0022\u003Atrue,\u0022field_statement_submitter_email_address\u0022\u003Atrue,\u0022feature_read_procedure_message\u0022\u003Atrue,\u0022feature_procedure_message_kom_create\u0022\u003Atrue,\u0022feature_procedure_message_kom_update\u0022\u003Atrue,\u0022feature_procedure_message_kom_delete\u0022\u003Atrue\u007D"),
-    projectCoreVersion      : "4.59.2",
+    permissions             :  JSON.parse("\u007B\u0022area_map_participation_area\u0022\u003Atrue,\u0022area_procedure_adjustments_general_location\u0022\u003Atrue,\u0022area_public_participation\u0022\u003Atrue,\u0022feature_assessmenttable_export\u0022\u003Atrue,\u0022feature_assessmenttable_use_pager\u0022\u003Atrue,\u0022feature_data_protection_text_customized_view\u0022\u003Atrue,\u0022feature_imprint_text_customized_view\u0022\u003Atrue,\u0022feature_institution_participation\u0022\u003Atrue,\u0022feature_json_api_create\u0022\u003Atrue,\u0022feature_json_api_get\u0022\u003Atrue,\u0022feature_json_api_list\u0022\u003Atrue,\u0022feature_json_api_update\u0022\u003Atrue,\u0022feature_json_rpc_post\u0022\u003Atrue,\u0022feature_map_layer_legend_file\u0022\u003Atrue,\u0022feature_map_new_statement\u0022\u003Atrue,\u0022feature_map_search_location\u0022\u003Atrue,\u0022feature_map_use_plan_draw_pdf\u0022\u003Atrue,\u0022feature_map_use_plan_pdf\u0022\u003Atrue,\u0022feature_map_use_territory\u0022\u003Atrue,\u0022feature_new_statement\u0022\u003Atrue,\u0022feature_notification_ending_phase\u0022\u003Atrue,\u0022feature_notification_statement_new\u0022\u003Atrue,\u0022feature_orga_slug\u0022\u003Atrue,\u0022feature_participation_area_procedure_detail_map_use_baselayerbox\u0022\u003Atrue,\u0022feature_procedure_agency_email_addresses\u0022\u003Atrue,\u0022feature_procedure_default_filter_extern\u0022\u003Atrue,\u0022feature_procedure_require_location\u0022\u003Atrue,\u0022feature_procedure_templates\u0022\u003Atrue,\u0022feature_procedures_located_by_maintenance_service\u0022\u003Atrue,\u0022feature_procedures_mark_participated\u0022\u003Atrue,\u0022feature_public_index_map\u0022\u003Atrue,\u0022feature_short_url\u0022\u003Atrue,\u0022feature_single_document_statement\u0022\u003Atrue,\u0022feature_statement_content_changes_save\u0022\u003Atrue,\u0022feature_statement_create_autofill_submitter_invited\u0022\u003Atrue,\u0022feature_statement_gdpr_consent_submit\u0022\u003Atrue,\u0022feature_statement_meta_house_number_export\u0022\u003Atrue,\u0022feature_statement_public_allowed_needs_verification\u0022\u003Atrue,\u0022feature_statements_custom_fields\u0022\u003Atrue,\u0022feature_statements_draft_delete\u0022\u003Atrue,\u0022feature_statements_draft_edit\u0022\u003Atrue,\u0022feature_statements_draft_email\u0022\u003Atrue,\u0022feature_statements_draft_versions\u0022\u003Atrue,\u0022feature_statements_feedback_check_email\u0022\u003Atrue,\u0022feature_statements_feedback_postal\u0022\u003Atrue,\u0022feature_statements_final_email\u0022\u003Atrue,\u0022feature_statements_released_email\u0022\u003Atrue,\u0022feature_statements_released_group_email\u0022\u003Atrue,\u0022feature_statements_vote\u0022\u003Atrue,\u0022feature_xplan_defaultlayers\u0022\u003Atrue,\u0022field_organisation_competence\u0022\u003Atrue,\u0022field_organisation_phone\u0022\u003Atrue,\u0022field_phase_iterator\u0022\u003Atrue,\u0022field_procedure_documents\u0022\u003Atrue,\u0022field_procedure_elements\u0022\u003Atrue,\u0022field_procedure_name\u0022\u003Atrue,\u0022field_procedure_paragraphs\u0022\u003Atrue,\u0022field_procedure_single_document_title\u0022\u003Atrue,\u0022field_send_final_email\u0022\u003Atrue,\u0022field_statement_add_assignment\u0022\u003Atrue,\u0022field_statement_extern_id\u0022\u003Atrue,\u0022field_statement_meta_address\u0022\u003Atrue,\u0022field_statement_meta_city\u0022\u003Atrue,\u0022field_statement_meta_email\u0022\u003Atrue,\u0022field_statement_meta_orga_department_name\u0022\u003Atrue,\u0022field_statement_meta_orga_name\u0022\u003Atrue,\u0022field_statement_meta_postal_code\u0022\u003Atrue,\u0022field_statement_meta_street\u0022\u003Atrue,\u0022field_statement_meta_submit_name\u0022\u003Atrue,\u0022field_statement_phase\u0022\u003Atrue,\u0022field_statement_polygon\u0022\u003Atrue,\u0022field_statement_priority\u0022\u003Atrue,\u0022field_statement_public_allowed\u0022\u003Atrue,\u0022field_statement_status\u0022\u003Atrue,\u0022field_statement_submitter_email_address\u0022\u003Atrue,\u0022feature_read_procedure_message\u0022\u003Atrue,\u0022feature_procedure_message_kom_create\u0022\u003Atrue,\u0022feature_procedure_message_kom_update\u0022\u003Atrue,\u0022feature_procedure_message_kom_delete\u0022\u003Atrue\u007D"),
+    projectCoreVersion      : "4.68.1",
     projectName             : "DiPlanBeteiligung",
-    projectVersion          : "2026.18.2",
+    projectVersion          : "2026.22.1",
     loadedAddons            : {},
     loggedIn                : Boolean(0),
     currentUserId           : "73830656\u002D3e48\u002D11e4\u002Da6a8\u002D005056ae0004",
@@ -864,41 +1579,42 @@
         roles: "\u005B\u0022RGUEST\u0022\u005D"
     },
     sentryDsn               : "",
-    csrfToken               : "\u0022bc0239e66ff7a8461f76c8443.GJy5qZtgEU1vS\u002Dji9uTfMrLif75f\u002DK8HGnN1y8tjGvs.TPDV9t40ew4jebK4pJWTY\u002DesDtksys13WB8hif5UKatR8ozB\u002DVFmOTkU2A\u0022",
+    sentryTracesSampleRate  : 0,
+    csrfToken               : "\u002248a0655d5ffbb22098e3a6367bb7014e.34siG7oIQvlyzDvmSG3uzmvDxF6DR79xxORKuXMnpY4.68VKbtxvcogYlEOjKyfftzytlwjnCOAp9oMd00QS07_m_VNw\u002D30QkQS6Cw\u0022",
     expirationTimestamp     : 0,
 
     defaultProjectionLabel  : "EPSG\u003A3857",
     defaultProjectionString  : "\u002Bproj\u003Dmerc\u0020\u002Ba\u003D6378137\u0020\u002Bb\u003D6378137\u0020\u002Blat_ts\u003D0.0\u0020\u002Blon_0\u003D0.0\u0020\u002Bx_0\u003D0.0\u0020\u002By_0\u003D0\u0020\u002Bk\u003D1.0\u0020\u002Bunits\u003Dm\u0020\u002Bnadgrids\u003D\u0040null\u0020\u002Bwktext\u0020\u0020\u002Bno_defs",
 
-            procedureId: "c590d004\u002D7a97\u002D4fbd\u002Da9e3\u002Ddfb87aaa638b",
+            procedureId: "f87c435c\u002D9141\u002D44ac\u002Da6eb\u002D5c4207102f9d",
     
-            procedureIdKey: "procedure_c590d004\u002D7a97\u002D4fbd\u002Da9e3\u002Ddfb87aaa638b",
+            procedureIdKey: "procedure_f87c435c\u002D9141\u002D44ac\u002Da6eb\u002D5c4207102f9d",
     currentStatementId: "new",
     procedureStatementPriorityArea: Boolean(0),
     };
         </script>
-        <script src="/js/legacy/jquery.js" nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
+        <script src="/js/legacy/jquery.js" nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
 
-                            <script src="/js/bundles/./runtime.f6378b.js" data-bundle="runtime" nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
-<script src="/js/bundles/./common.9e5ea7.js" nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
-<script src="/js/bundles/./bs.56ad75.js" nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
-<script src="/js/bundles/./core.4880e2.js" nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
-<script src="/js/bundles/./core-cookie.0d9f58.js" data-bundle="core-cookie" defer nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
+                            <script src="/js/bundles/./runtime.075b69.js" data-bundle="runtime" nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
+<script src="/js/bundles/./common.3ed13a.js" nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
+<script src="/js/bundles/./bs.66c7f0.js" nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
+<script src="/js/bundles/./core.0d5d05.js" nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
+<script src="/js/bundles/./core-cookie.e628b6.js" data-bundle="core-cookie" defer nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
         
 
-    <script nonce="yF6hAX98/bQGOSw3W33D1w==">
+    <script nonce="LmSBRiAQMBP3MkZKNkWMjg==">
     console.group('%cApplication information', 'color: #3375D4; font-weight: bold; font-size: 14px; text-decoration: underline;')
     console.info('%cVersions', 'font-weight: bold; text-decoration: underline;')
-    console.info('demosplan-core: 4.59.2')
-    console.info('DiPlanBau: 2026.18.2')
+    console.info('demosplan-core: 4.68.1')
+    console.info('DiPlanBau: 2026.22.1')
     console.groupEnd();
 </script>
 
-            <script src="/js/bundles/./ol.963343.js" nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
-<script src="/js/bundles/./map-publicDetail.3adc16.js" data-bundle="map-publicDetail" defer nonce="yF6hAX98/bQGOSw3W33D1w=="></script>
+                        <script src="/js/bundles/./ol.9116f4.js" nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
+<script src="/js/bundles/./map-publicDetail.fd4ff1.js" data-bundle="map-publicDetail" defer nonce="LmSBRiAQMBP3MkZKNkWMjg=="></script>
+            
     
-    
-    <script nonce="yF6hAX98/bQGOSw3W33D1w==">
+    <script nonce="LmSBRiAQMBP3MkZKNkWMjg==">
         if (document.querySelector('[data-focus-statement-modal]')) {
             document.querySelector('[data-focus-statement-modal]').addEventListener('click', function () {
                 if (document.getElementById('statementModalButton')) {
