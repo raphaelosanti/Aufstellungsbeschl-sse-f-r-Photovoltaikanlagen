@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="de"><head id="head">
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                
+                <title>Einrichtung Ihres Beteiligungsportals auf Beteiligung NRW | Beteiligung NRW Infozentrale</title>
+                
+                <meta charset="UTF-8" />
+                <meta name="language" content="de" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                <meta name="robots" content="index, follow" />
+                
+                <meta name="date" content="2026-11-23" /><meta name="author" content="IT.NRW"/>
+<meta name="author" content="Für Digitalisierung zuständiges Ministerium des Landes Nordrhein-Westfalen"/>
+<meta name="keywords" lang="de" content="Beteiligung.NRW,Beteiligungsportal,Bürgerbeteiligung,Bürgerbeteiligungsportal,Beteiligung,Beteiligungsverfahren,politische Teilhabe,Online-Beteiligung,Partizipation,Raumordnungsverfahren,Regionalplanverfahren,Landesentwicklungsplan,Bauleitplanverfahren,Genehmigungsverfahren,Immissionsschutzgesetz,Meldeverfahren,Umfrage,Dialog,Veranstaltung,Terminvereinbarung,formelles Verfahren,informelles Verfahren,NRW,Nordrhein-Westfalen,CIO,IT NRW,Open NRW"/>
+<meta name="description" lang="de" content="Mit der E-Government-Komponente Beteiligung NRW bietet das Digitalministerium des Landes ein zentrales Beteiligungsportal für alle in Nordrhein-Westfalen an. Das Portal ermöglicht einen ganzheitlichen Überblick über die im Land laufenden Beteiligungsverfahren und Veranstaltungen. Die Durchführung von Verfahren ist für die Behörden der Landes-, Kreis- und Kommunalverwaltungen in NRW unentgeltlich möglich, da Beteiligung NRW zentral vom Land finanziert wird. Die nutzenden Behörden verwalten sich und ihr angegliedertes, eigenes Beteiligungsportal selbst innerhalb des mandantenfähigen Systems. Fachlich unterstützt das Portal alle wesentlichen Formate aus der Beteiligungspraxis – von formellen Planungs- und Genehmigungsverfahren im Rahmen der Bauleit-, Regional- und Landesplanung, über verschiedenste informelle Verfahrenstypen wie Mängelmelder bis hin zur Erfassung von Stimmungsbildern und Ideen in Form von Umfragen oder öffentlichen Diskursen in unterschiedlichen gesellschaftlichen Themenbereichen. Über ein integriertes Veranstaltungsmanagement lassen sich Beteiligungsprozesse auch crossmedial abbilden. Die weitreichenden Auswertungsfunktionen erleichtern und beschleunigen die Bearbeitung von eingegangenen Äußerungen. Das Beteiligungsportal für Land, Kreise und Kommunen in NRW ist eine Initiative von Open.NRW."/><link rel="stylesheet" href="/portal/jakarta.faces.resource/primeicons/primeicons.css?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/bootstrap/css/bootstrap-5.3.3.css?buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/primefaces-nbp-ext/theme.css?buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/plugins/fancybox/fancybox-6.0.5.css?buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/plugins/slickslider/slickslider.css?buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/common/fonts/icomoon/icomoon.css?buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/components.css?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16" /><script src="/portal/jakarta.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/core.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/components.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/touch/touchswipe.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><link rel="stylesheet" href="/portal/jakarta.faces.resource/fileupload/fileupload.css?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16" /><script src="/portal/jakarta.faces.resource/fileupload/fileupload.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/moment/moment.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/chart/chart.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><link rel="stylesheet" href="/portal/jakarta.faces.resource/css/nbp.css?mandantPfad=infozentrale&amp;mdnVersion=36&amp;buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/common/css/common.css?buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/installation/nrw/css/nrw.css?mandantPfad=infozentrale&amp;mdnVersion=36&amp;buildVersion=13-11-2026" media="all" /><link rel="stylesheet" href="/portal/jakarta.faces.resource/installation/nrw/css/nrw-cd.css?mandantPfad=infozentrale&amp;mdnVersion=36&amp;buildVersion=13-11-2026" media="all" /><script src="/portal/jakarta.faces.resource/validation/validation.bv.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script src="/portal/jakarta.faces.resource/locales/locale-de.js?ln=primefaces&amp;v=15.0.16&amp;e=15.0.16"></script><script>if(window.PrimeFaces){PrimeFaces.settings={locale:'de',viewId:'/beteiligung/aktuell-beteiligung.xhtml',contextPath:'\/portal',cookiesSecure:true,cookiesSameSite:'Strict',validateEmptyFields:true,considerEmptyStringNull:false,errorPages:{'':'/portal/500.xhtml','java.lang.Exception':'/portal/500.xhtml'}};}</script><style>/* Notwendig, da die Webfonts Benton Regular und Benton Bold Ligaturen falsch rendern :: Test mit 'Pflichtangabe' */
+body.nbp-cd-layout {
+    --nbp-font-family-text: "Open Sans", sans-serif;
+    --nbp-font-family-h: "Open Sans", sans-serif;
+    --nbp-font-weight-h: 700;
+    --nbp-font-weight-semi: 600;
+}</style><script src="/portal/jakarta.faces.resource/jakarta.faces/faces.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/js/nbp.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/js/primefaces-nbp.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/js/select.js?buildVersion=13-11-2026"></script>
+
+        <script>
+            $(document).ready(function() {
+                setInterval(function() {
+                    $.ajax("/portal/refresh-session/refresh-session",
+                        // don't trigger global ajax events. circumvent /500 redirect on ajaxError
+                        {global: false}
+                    );
+                }, (60 * 1000)); // jede Minute
+            });
+        </script>
+                
+                <link rel="stylesheet" type="text/css" href="/portal/download/css/1000241_36/mandant.css" /></head><body class="nbp-body nbp-cd-layout nbp-beteiligung-1000520 ">
+            
+            <script>
+                //<![CDATA[
+                nbp.init('/portal', 'infozentrale');
+                //]]>
+            </script>
+
+            
+            <div id="nbp-page-wrapper" class="nbp-page-wrapper">
+
+                <div id="nbp-main-wrapper" class="nbp-main-wrapper">
+
+    
+
+    <header id="header" class="nrw-header">
+        <div class="container header-container position-relative">
+            
+            <div class="row nrw-header-bar nrw-header-bar-top nbp-bg-expand">
+                <div class="col">
+                    
+                </div><div id="headerLoginUpdate" class="col-auto">
+                    
+                    <a href="#sucheCollapse" class="nrw-header-link nbp-inverted-link me-4" data-bs-toggle="collapse" aria-expanded="false">
+                        <span class="nbp-fonticon icomoon-search2" aria-hidden="true"></span><span>Suche</span>
+                    </a>
+                    
+                    <a href="#anmeldenCollapse" class="nrw-header-link nbp-inverted-link" data-bs-toggle="collapse" aria-expanded="false">
+                            <span class="nbp-fonticon icomoon-user4" aria-hidden="true"></span><span>Anmelden</span>
+                    </a></div>
+            </div>
+            
+            <div class="row">
+
+    
+    <div id="sucheCollapse" class="nbp-suchemenu nbp-js-collapse-autoclose collapse" data-bs-parent="#header">
+        <div class="nbp-suchemenu-panel">
+<form id="globalSuchForm" name="globalSuchForm" method="post" action="/portal/infozentrale/beteiligung/themen/1000520" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="globalSuchForm" value="globalSuchForm" />
+
+                <div><label id="globalSuchForm:label" class="ui-outputlabel ui-widget mb-1" for="globalSuchForm:autoComplete_input"><span class="ui-outputlabel-label">Suche nach Beteiligung</span></label>
+                </div>
+                <div><span id="globalSuchForm:autoComplete" class="ui-autocomplete nbp-freitext-filter nbp-js-suche-autocomplete"><input id="globalSuchForm:autoComplete_input" name="globalSuchForm:autoComplete_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default" autocomplete="off" role="combobox" aria-controls="globalSuchForm:autoComplete_panel" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="globalSuchForm:label" maxlength="255" placeholder="Titel, Ort" value="" data-p-label="Suche nach Beteiligung" /><input id="globalSuchForm:autoComplete_hinput" name="globalSuchForm:autoComplete_hinput" type="hidden" /><span id="globalSuchForm:autoComplete_panel" class="ui-autocomplete-panel ui-widget-content ui-helper-hidden ui-shadow ui-input-overlay nbp-js-collapse-autoclose-ignore" tabindex="-1"></span></span><script id="globalSuchForm:autoComplete_s">$(function(){PrimeFaces.cw("AutoComplete","widget_globalSuchForm_autoComplete",{id:"globalSuchForm:autoComplete",minLength:3,delay:500,appendTo:"@(body)",grouping:true,autoHighlight:false,emptyMessage:"Keine Datensätze gefunden.",autoSelection:false,queryMode:"server",moreText:"...",hasFooter:false,behaviors:{itemSelect:function(ext,event) {PrimeFaces.ab({s:"globalSuchForm:autoComplete",e:"itemSelect",f:"globalSuchForm",p:"globalSuchForm:autoComplete",u:"@none"},ext);}}});});</script><button id="globalSuchForm:reset" name="globalSuchForm:reset" class="ui-button ui-widget ui-state-default ui-button-icon-only nbp-freitext-filter-reset" onclick="PrimeFaces.ab({s:&quot;globalSuchForm:reset&quot;,f:&quot;globalSuchForm&quot;,u:&quot;globalSuchForm&quot;});return false;" title="Zurücksetzen" type="submit"><span class="ui-button-icon-left ui-icon ui-c nbp-fi icomoon-cross2"></span><span class="ui-button-text ui-c">Zurücksetzen</span></button><script id="globalSuchForm:reset_s">$(function(){PrimeFaces.cw("CommandButton","widget_globalSuchForm_reset",{id:"globalSuchForm:reset"});});</script><button id="globalSuchForm:submit" name="globalSuchForm:submit" class="ui-button ui-widget ui-state-default ui-button-icon-only button-cu nbp-freitext-filter-submit" onclick="PrimeFaces.ab({s:&quot;globalSuchForm:submit&quot;,f:&quot;globalSuchForm&quot;,u:&quot;globalSuchForm&quot;});return false;" title="Suchen" type="submit"><span class="ui-button-icon-left ui-icon ui-c nbp-fi icomoon-search"></span><span class="ui-button-text ui-c">Suchen</span></button><script id="globalSuchForm:submit_s">$(function(){PrimeFaces.cw("CommandButton","widget_globalSuchForm_submit",{id:"globalSuchForm:submit"});});</script><span id="globalSuchForm:focus"></span><script>$(function(){PrimeFaces.focus('globalSuchForm:autoComplete');});</script><script id="globalSuchForm:j_idt12367_s">$(function(){PrimeFaces.cw("DefaultCommand","widget_globalSuchForm_j_idt12367",{id:"globalSuchForm:j_idt12367",target:"globalSuchForm:submit"});});</script>
+                </div><input type="hidden" name="jakarta.faces.ViewState" id="j_id1:jakarta.faces.ViewState:0" value="-9146564413167407317:-3807175069328600684" />
+</form>
+        </div>
+    </div>
+
+    <script>
+        $('#sucheCollapse').on('shown.bs.collapse', function () {
+            $('.nbp-js-suche-autocomplete .ui-autocomplete-input')[0].focus();
+        })
+    </script>
+
+    <div id="anmeldenCollapse" class="nbp-nutzermenu nbp-js-collapse-autoclose collapse" data-bs-parent="#header">
+        <div class="nbp-nutzermenu-panel">
+<form id="anmeldenSlideoutForm" name="anmeldenSlideoutForm" method="post" action="/portal/infozentrale/beteiligung/themen/1000520" class="nbp-js-anmelden-slideout " enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="anmeldenSlideoutForm" value="anmeldenSlideoutForm" />
+
+
+                    <div class="h3 nbp-ct">Anmelden</div>
+
+        <div style="margin-top: 25px"></div>
+            <div id="anmeldenSlideoutForm:benutzername" class="form-group nbp-js-benutzername"><label for="anmeldenSlideoutForm:benutzername:inputField" class="form-label">Nutzername</label><input id="anmeldenSlideoutForm:benutzername:inputField" name="anmeldenSlideoutForm:benutzername:inputField" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default form-control " placeholder="" data-p-label="Nutzername" autocomplete="username" aria-describedby="info_anmeldenSlideoutForm:benutzername" /><script id="anmeldenSlideoutForm:benutzername:inputField_s">$(function(){PrimeFaces.cw("InputText","widget_anmeldenSlideoutForm_benutzername_inputField",{id:"anmeldenSlideoutForm:benutzername:inputField"});});</script>
+
+        
+        <div id="info_anmeldenSlideoutForm:benutzername" class="nbp-fg-infopanel ">
+            
+            <div class="nbp-fg-error-message"><div id="anmeldenSlideoutForm:benutzername:formPartInfopanel:messages" class="ui-messages ui-widget nbp-input-error" aria-live="polite" data-global="false" data-summary="data-summary" data-severity="all,error" data-redisplay="true"></div><script id="anmeldenSlideoutForm:benutzername:formPartInfopanel:messages_s">$(function(){PrimeFaces.cw("Messages","widget_anmeldenSlideoutForm_benutzername_formPartInfopanel_messages",{id:"anmeldenSlideoutForm:benutzername:formPartInfopanel:messages",closable:false});});</script>
+            </div>
+        </div>
+            </div>
+            <div id="anmeldenSlideoutForm:passwort" class="form-group "><label for="anmeldenSlideoutForm:passwort:inputField" class="form-label">Passwort</label><input id="anmeldenSlideoutForm:passwort:inputField" name="anmeldenSlideoutForm:passwort:inputField" type="password" class="ui-password ui-inputfield ui-widget ui-state-default form-control " placeholder="" data-p-label="Passwort" autocomplete="current-password" aria-describedby="info_anmeldenSlideoutForm:passwort" /><script id="anmeldenSlideoutForm:passwort:inputField_s">$(function(){PrimeFaces.cw("Password","widget_anmeldenSlideoutForm_passwort_inputField",{id:"anmeldenSlideoutForm:passwort:inputField"});});</script>
+
+        
+        <div id="info_anmeldenSlideoutForm:passwort" class="nbp-fg-infopanel ">
+            
+            <div class="nbp-fg-error-message"><div id="anmeldenSlideoutForm:passwort:formPartInfopanel:messages" class="ui-messages ui-widget nbp-input-error" aria-live="polite" data-global="false" data-summary="data-summary" data-severity="all,error" data-redisplay="true"></div><script id="anmeldenSlideoutForm:passwort:formPartInfopanel:messages_s">$(function(){PrimeFaces.cw("Messages","widget_anmeldenSlideoutForm_passwort_formPartInfopanel_messages",{id:"anmeldenSlideoutForm:passwort:formPartInfopanel:messages",closable:false});});</script>
+            </div>
+        </div>
+            </div>
+
+                    <div class="row align-items-center my-4">
+                        <div class="col-auto order-2"><button id="anmeldenSlideoutForm:anmelden" name="anmeldenSlideoutForm:anmelden" class="ui-button ui-widget ui-state-default ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;anmeldenSlideoutForm:anmelden&quot;,f:&quot;anmeldenSlideoutForm&quot;,u:&quot;anmeldenSlideoutForm,@(.nbp-js-update-on-login),@(.nbp-js-accordion-reopen-root)&quot;});return false;" type="submit"><span class="ui-button-text ui-c">Anmelden</span></button><script id="anmeldenSlideoutForm:anmelden_s">$(function(){PrimeFaces.cw("CommandButton","widget_anmeldenSlideoutForm_anmelden",{id:"anmeldenSlideoutForm:anmelden"});});</script>
+                        </div>
+                        <div class="col order-1"><a id="anmeldenSlideoutForm:passwortVergessen:link" name="anmeldenSlideoutForm:passwortVergessen:link" href="/portal/infozentrale/profil/passwort-vergessen" class="nbp-cu d-block " tabindex="0" title="">Passwort vergessen?</a>
+                        </div>
+                    </div>
+
+                    <div class="mt-2"><a id="anmeldenSlideoutForm:bundidLoginSlideout" href="#" class="ui-commandlink ui-widget nbp-cu d-block mb-2" onclick="PrimeFaces.addSubmitParam('anmeldenSlideoutForm',{'anmeldenSlideoutForm:bundidLoginSlideout':'anmeldenSlideoutForm:bundidLoginSlideout'}).submit('anmeldenSlideoutForm');return false;" rel="nofollow">Mit BundID-Konto anmelden</a><script id="anmeldenSlideoutForm:bundidLoginSlideout_s">$(function(){PrimeFaces.cw("CommandLink","widget_anmeldenSlideoutForm_bundidLoginSlideout",{id:"anmeldenSlideoutForm:bundidLoginSlideout"});});</script><a id="anmeldenSlideoutForm:j_idt12412:link" name="anmeldenSlideoutForm:j_idt12412:link" href="/portal/infozentrale/profil/registrieren" class="nbp-cu d-block " tabindex="0" title="">Registrieren</a>
+                    </div><input type="hidden" name="jakarta.faces.ViewState" id="j_id1:jakarta.faces.ViewState:1" value="-9146564413167407317:-3807175069328600684" />
+</form>
+
+            <script>
+                $("#anmeldenCollapse").on("hidden.bs.collapse", function () {
+                    // Bei p:staticMessage muss das Element entfernt werden, sonst bleibt eine leere rote Box.
+                    // Es reicht nicht die Kinder zu entfernen wie bei p:messages.
+                    $(".nbp-js-login-messages").remove();
+                    $(".nbp-js-benutzername .form-control").val("");
+                });
+            </script>
+        </div>
+    </div>
+            </div>
+            
+            <div class="row nrw-header-branding">
+                
+                <div class="col-12 col-md order-1 order-md-3 nrw-header-col-title">
+                    <div class="nrw-header-title-container">
+                        <div class="nrw-header-title"><a id="j_idt12461:link" name="j_idt12461:link" href="/portal/infozentrale/startseite" class=" " tabindex="0" title="Zur Startseite">Beteiligung NRW</a></div>
+                        <div class="nrw-header-title-sub">Infozentrale</div>
+                    </div>
+                </div>
+                
+                <div class="col-auto order-2 nrw-header-col-navbutton hidden-desktop">
+                    <button type="button" class="nrw-header-button-navi" data-bs-toggle="collapse" data-bs-target=".nbp-js-navi-collapse" aria-expanded="false" aria-label="???header_button_navi_oeffnen_text???" title="???header_button_navi_oeffnen_text???">
+                        <span class="nbp-fonticon icomoon-menu7"></span>
+                    </button>
+                    <span class="nrw-header-button-navi-title">Menü</span>
+                </div>
+                
+                <div class="col col-md-auto order-4 nrw-header-col-logo"><img src="/portal/download/resources/mandant/infozentrale/logo/1004194_0/Infozentrale_i.png" alt="Logo: Logo Open.NRW" />
+                </div>
+            </div>
+            
+            <div class="nrw-navi-wrapper nbp-basenav-wrapper nrw-nav nbp-bg-expand">
+
+        
+        <a id="navi:a-navigation" class="visually-hidden">Portalnavigation</a>
+        
+        <nav id="navi:naviCollapse" class="nbp-basenav clearfix nbp-js-navi-collapse nbp-js-collapse-autoclose collapse" aria-labelledby="navi:a-navigation" data-bs-parent="#header">
+            <ul class="nbp-basenav-list">
+
+        <li class="nbp-basenav-listitem nbp-menuitem--startseite"><a href="/portal/infozentrale/startseite" class="nbp-basenav-link "><span class="nbp-basenav-icon icomoon-home" aria-hidden="true"></span>
+                <span>Startseite</span></a>
+        </li>
+
+        <li class="nbp-basenav-listitem nbp-menuitem--beteiligungen"><a href="/portal/infozentrale/beteiligung/themen" class="nbp-basenav-link active" aria-current="page"><span class="nbp-basenav-icon icomoon-bubbles10" aria-hidden="true"></span>
+                <span>Beteiligungen</span></a>
+        </li>
+
+        <li class="nbp-basenav-listitem nbp-menuitem--hilfe"><a href="/portal/infozentrale/informationen/hilfe" class="nbp-basenav-link "><span class="nbp-basenav-icon icomoon-question3" aria-hidden="true"></span>
+                <span>Hilfe</span></a>
+        </li>
+
+        <li class="nbp-basenav-listitem nbp-menuitem--portale"><a href="/portal/infozentrale/portale/uebersicht" class="nbp-basenav-link "><span class="nbp-basenav-icon icomoon-library" aria-hidden="true"></span>
+                <span>Portale</span></a>
+        </li>
+                    <li class="nbp-basenav-listitem nbp-menuitem--hauptportal">
+                        <a href="/portal/hauptportal/startseite" class="nbp-basenav-link"><span class="nbp-basenav-icon icomoon-library2" aria-hidden="true"></span>
+                            <span>Hauptportal</span>
+                        </a>
+                    </li>
+            </ul>
+        </nav>
+            </div>
+            
+            <div class="row nrw-header-bar nrw-header-bar-bottom nbp-bg-expand"></div>
+        </div>
+    </header>
+        <main id="main" class="main">
+            <div class="container main-container">
+
+                
+                <div class="row nbp-contentarea">
+                    
+                    <div class="col-lg-9 nbp-content-right-beteiligung"><div id="contentPanelGroup">
+
+        
+
+    
+
+        <div class="nbp-beteiligung-detailpage nbp-beteiligung-panel">
+<form id="headerForm" name="headerForm" method="post" action="/portal/infozentrale/beteiligung/themen/1000520" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="headerForm" value="headerForm" />
+
+
+        <div class="row nbp-themen-navigation">
+            <div id="headerForm:beteiligungNavigation:aktuelles-portal" class="col-md mb-2 mb-md-0"><a id="headerForm:beteiligungNavigation:zur-uebersicht:link" name="headerForm:beteiligungNavigation:zur-uebersicht:link" href="/portal/infozentrale/beteiligung/themen?status=AKTUELLE&amp;status=BEENDETE" class="nbp-cc " tabindex="0" title="">
+                        <span class="nbp-fonticon icomoon-arrow-left8 nbp-navicon-back nbp-iconsize-m"></span><span>Alle Beteiligungen</span></a>
+            </div>
+
+            <div id="headerForm:beteiligungNavigation:hauptfachportal" class="col-md-auto">
+                <a href="/portal/hauptportal/beteiligung/themen?format=Bauleitplan" class="nbp-cc" tabindex="0" target="_self">
+                    <span class="nbp-fonticon icomoon-home2 nbp-navicon-home nbp-iconsize-m"></span><span>Zurück zu »Hauptportal«</span></a>
+            </div>
+        </div>
+
+        <div style="margin-top: 1em"></div>
+        
+
+        
+        <div class="nbp-detail-header">
+        <div class="nbp-teaser-taglist">
+            
+            <span class="nbp-teaser-taglist--beteiligungstyp ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-clipboard3" aria-hidden="true"></span>Umfrage</span>
+                <span class="nbp-teaser-taglist--mandant ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-library" aria-hidden="true"></span>Infozentrale</span>
+                <span class="nbp-teaser-taglist--thema ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-folder-open" aria-hidden="true"></span>Digitales</span>
+        </div>
+        </div>
+
+        
+        <h1 class="nbp-detail-titel"><a id="headerForm:beteiligungHeader:deselectAll" href="#" class="ui-commandlink ui-widget ui-state-disabled nbp-ct nbp-hyphens-phone" onclick="PrimeFaces.ab({s:&quot;headerForm:beteiligungHeader:deselectAll&quot;,f:&quot;headerForm&quot;,p:&quot;headerForm:beteiligungHeader:deselectAll&quot;,u:&quot;gegenstandUndInfoUpdate,contentPanelGroup&quot;});return false;" tabindex="-1">Einrichtung Ihres Beteiligungsportals auf Beteiligung NRW</a><script id="headerForm:beteiligungHeader:deselectAll_s">$(function(){PrimeFaces.cw("CommandLink","widget_headerForm_beteiligungHeader_deselectAll",{id:"headerForm:beteiligungHeader:deselectAll",disabledAttr:true});});</script>
+        </h1>
+
+        <div style="margin-top: 2em"></div><div id="headerForm:statusPanel:statusUpdate" class="ui-outputpanel ui-widget nbp-beteiligung-status-panel nbp-js-status-update">
+        
+
+        <ul class="nbp-beteiligung-status">
+            
+            <li class="nbp-statistik--status"><span class="nbp-fonticon icomoon-circle2 nbp-bt-status-icon nbp-bt-status-aktiv" aria-hidden="true"></span><span class="visually-hidden">Status</span>
+        <span>
+            Aktiv
+        </span>
+            </li>
+            
+            <li class="nbp-statistik--laufzeit"><span class="nbp-fonticon nbp-cu icomoon-calendar-day" title="Zeitraum" aria-hidden="true"></span><span class="visually-hidden">Zeitraum</span>
+            <span><strong>22.09.2021</strong> bis <strong>-</strong>
+            </span>
+            </li>
+                <li class="nbp-statistik--umfrageteilnehmer"><span class="nbp-fonticon nbp-cu icomoon-clipboard2" aria-hidden="true"></span><span class="visually-hidden">Teilnehmer</span>
+                    <span><strong>604</strong> Teilnehmer
+                    </span>
+                </li>
+        </ul></div>
+
+        <div style="margin-top: 30px"></div>
+
+        
+        <div class="nbp-beteiligung-content nbp-beteiligung-inhalt">
+
+            
+            <div id="beteiligungReadmore" class="nbp-readmore" data-more-text="Mehr anzeigen" data-less-text="Weniger anzeigen">
+            <figure class="nbp-media-preview nbp-fbox-image-slideshow-wrapper">
+                <a class="nbp-image-wrapper--border nbp-fbox-slideshow-image nbp-ct" href="/portal/download/resources/beteiligung/1000520/teaserbild/1003792_0/openNRW_Beteiligungsportal_IconsWebsite_016.jpg" data-type="image">
+                    <div class="nbp-teaser-image nbp-image--ar-default nbp-image--hover-icon icomoon-search2">
+                        
+                        <img src="/portal/download/resources/beteiligung/1000520/teaserbild/1003792_0/openNRW_Beteiligungsportal_IconsWebsite_016.jpg" alt="Bild vergrößern" />
+                    </div>
+                </a>
+            </figure>
+
+                
+                <div class="nbp-beteiligung-text nbp-readmore-text clearfix"><p>Beteiligung NRW ist eine E-Government-Komponente des Landes Nordrhein-Westfalen und steht allen Verwaltungsebenen in NRW zur unentgeltlichen, gemeinsamen Nutzung für öffentliche oder nicht öffentliche Veranstaltungen &amp; Verfahren zur Verfügung.</p>
+
+<h2>Beteiligung NRW kennen lernen</h2>
+
+<p>Sie überlegen Beteiligung NRW für Ihre Kommune, Ihren Kreis, Ihr Projekt oder Ihr Ministerium einzusetzen? Wir haben für Sie&nbsp;<a href="https://storymaps.arcgis.com/stories/ca3141ce774e4df7a1ac260adda5477b" rel="nofollow" target="_blank">eine separate Seite mit Konzept und Funktionen des Portals</a> vorbereitet, die Ihnen die wichtigsten Funktionen sowie Aufbau und Struktur vorstellt und erklärt. Zusätzliche <strong>Statistiken zur aktuellen Nutzung</strong> finden Sie <a href="https://www.giscloud.nrw.de/arcgis/apps/storymaps/collections/01835da5dd8b458bb888618e38c27391" rel="nofollow" target="_blank">in dieser Sammlung</a>.</p>
+
+<h2>Beteiligung NRW mitnutzen</h2>
+
+<p>Für den eigenverantwortlichen Betrieb einer Behörde wird initial ein Mandant inkl. einem eigenen Beteiligungsportal angelegt.&nbsp;Diese Einrichtung erfolgt nach <strong>Anmeldung über das untenstehende Formular </strong>zunächst in der Testumgebung&nbsp;und dauert ca. 7 Werktage. Ist die Einrichtung abgeschlossen, erhält die abrufende Behörde die erforderlichen Zugangsdaten zum System per E-Mail. Eine separate Auftragsbestätigung erfolgt nicht.</p>
+
+<p><strong>Im Falle der Beantragung eines Beteiligungsportals in der Produktivumgebung</strong>: Nach den Bestimmungen der DSGVO erfolgt durch IT.NRW eine Datenverarbeitung im Auftrag, welche den Abschluss eines Auftragsdatenverarbeitungsvertrages (AVV) erfordert. Der Vertragsabschluss ist <strong>Voraussetzung </strong>für die produktive Beteiligungsportalnutzung. Sobald der AVV von der beantragenden Behörde unterschrieben zurückgesendet wird, erfolgt die Freischaltung für die öffentliche Portalnutzung.</p>
+
+<h2>Warum sich die Nutzung von Beteiligung NRW lohnt</h2>
+
+<ol>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:circle">
+		<li><strong>Eine Beteiligungsplattform für alle Verwaltungsebenen</strong> vereinfacht behördenübergreifende Zusammenarbeit und gegenseitige Beteiligung.</li>
+		<li>Eine nutzerorientiert entwickelte, digitale Lösung für <strong>alle gängigen Formate aus der Beteiligungspraxis</strong> nimmt Ängste vor der Digitalisierung durch wiederkehrende, praxiserprobte Abläufe.</li>
+		<li>Statt immer wieder neue, teure, untereinander inkompatible Insellösungen einzukaufen, setzt Beteiligung NRW auf die Bereitstellung und den Ausbau der einen <strong>zentral finanzierten Software</strong>.</li>
+		<li>Ein <a href="https://beteiligung.nrw.de/portal/infozentrale" rel="nofollow"><strong>umfangreiches Unterstützungsangebot</strong></a> und ein dauerhaft verlässliches, motiviertes und kompetentes <a href="https://beteiligung.nrw.de/portal/infozentrale/informationen/haeufige-fragen" rel="nofollow">Beteiligung NRW Team</a> begleitet Sie &amp; hält Sie auf dem Laufenden.</li>
+	</ul>
+	</li>
+</ol>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="nbp-clearfix"></div>
+
+        <div style="margin-top: 20px"></div><div id="headerForm:beDetails:accordionPanel" class="ui-accordion ui-widget ui-helper-reset ui-hidden-container nbp-accordion nbp-accordion-beteiligung" data-widget="widget_headerForm_beDetails_accordionPanel"><div id="headerForm:beDetails:accordionPanel:tabKampagne_header" class="ui-accordion-header ui-helper-reset ui-state-default" role="button" aria-expanded="false" aria-controls="headerForm:beDetails:accordionPanel:tabKampagne" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+
+        <h2>Verknüpfte Beteiligungen</h2></div><div id="headerForm:beDetails:accordionPanel:tabKampagne" class="ui-accordion-content ui-helper-reset ui-widget-content ui-helper-hidden" role="region" aria-labelledby="headerForm:beDetails:accordionPanel:tabKampagne_header" aria-hidden="true">
+
+        <ul class="nbp-kampagne-list">
+                
+
+                <li>
+                    <div class="nbp-step-number nbp-step-number-active">1</div>
+                    <div class="nbp-kampagne-teaser">
+                        <div class="row">
+                            <div class="col-md-8 mb-3 mb-md-0">
+                                
+                                <h3 class="h5 nbp-teaser-title mt-0">
+            <span class="d-block nbp-ct ">Einrichtung Ihres Beteiligungsportals auf Beteiligung NRW
+            </span>
+                                </h3>
+        <div class="nbp-teaser-taglist">
+            
+            <span class="nbp-teaser-taglist--beteiligungstyp ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-clipboard3" aria-hidden="true"></span>Umfrage</span>
+                <span class="nbp-teaser-taglist--thema ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-folder-open" aria-hidden="true"></span>Digitales</span>
+        </div>
+                            </div>
+                            <div class="col-md-4">
+                                
+                                <ul class="nbp-beteiligung-status">
+                                    <li class="nbp-statistik--status"><span class="nbp-fonticon icomoon-circle2 nbp-bt-status-icon nbp-bt-status-aktiv" aria-hidden="true"></span><span class="visually-hidden">Status</span>
+        <span>
+            Aktiv
+        </span>
+                                    </li>
+                                    <li class="nbp-statistik--laufzeit"><span class="nbp-fonticon nbp-cu icomoon-calendar-day" title="Zeitraum" aria-hidden="true"></span><span class="visually-hidden">Zeitraum</span>
+            <span><strong>22.09.2021</strong> bis <strong>-</strong>
+            </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+
+                <li>
+                    <div class="nbp-step-number ">2</div>
+                    <div class="nbp-kampagne-teaser">
+                        <div class="row">
+                            <div class="col-md-8 mb-3 mb-md-0">
+                                
+                                <h3 class="h5 nbp-teaser-title mt-0">
+                <a href="/portal/infozentrale/beteiligung/themen/1000787" class="d-block nbp-ct nbp-cc--on-hover" tabindex="0" target="_self">Meldeplattform für Verbesserungsvorschläge &amp; Wünsche</a>
+                                </h3>
+        <div class="nbp-teaser-taglist">
+            
+            <span class="nbp-teaser-taglist--beteiligungstyp ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-bubbles10" aria-hidden="true"></span>Dialog</span>
+                <span class="nbp-teaser-taglist--thema ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-folder-open" aria-hidden="true"></span>Arbeit</span>
+        </div>
+                            </div>
+                            <div class="col-md-4">
+                                
+                                <ul class="nbp-beteiligung-status">
+                                    <li class="nbp-statistik--status"><span class="nbp-fonticon icomoon-circle2 nbp-bt-status-icon nbp-bt-status-aktiv" aria-hidden="true"></span><span class="visually-hidden">Status</span>
+        <span>
+            Aktiv
+        </span>
+                                    </li>
+                                    <li class="nbp-statistik--laufzeit"><span class="nbp-fonticon nbp-cu icomoon-calendar-day" title="Zeitraum" aria-hidden="true"></span><span class="visually-hidden">Zeitraum</span>
+            <span><strong>08.02.2022</strong> bis <strong>-</strong>
+            </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+
+                <li>
+                    <div class="nbp-step-number ">3</div>
+                    <div class="nbp-kampagne-teaser">
+                        <div class="row">
+                            <div class="col-md-8 mb-3 mb-md-0">
+                                
+                                <h3 class="h5 nbp-teaser-title mt-0">
+                <a href="/portal/infozentrale/beteiligung/themen/1001704" class="d-block nbp-ct nbp-cc--on-hover" tabindex="0" target="_self">Schulungsangebot für Beteiligung NRW</a>
+                                </h3>
+        <div class="nbp-teaser-taglist">
+            
+            <span class="nbp-teaser-taglist--beteiligungstyp ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-bubbles10" aria-hidden="true"></span>Dialog</span>
+                <span class="nbp-teaser-taglist--thema ui-button button-ct-secondary"><span class="nbp-fonticon icomoon-folder-open" aria-hidden="true"></span>Bildung</span>
+        </div>
+                            </div>
+                            <div class="col-md-4">
+                                
+                                <ul class="nbp-beteiligung-status">
+                                    <li class="nbp-statistik--status"><span class="nbp-fonticon icomoon-circle2 nbp-bt-status-icon nbp-bt-status-aktiv" aria-hidden="true"></span><span class="visually-hidden">Status</span>
+        <span>
+            Aktiv
+        </span>
+                                    </li>
+                                    <li class="nbp-statistik--laufzeit"><span class="nbp-fonticon nbp-cu icomoon-calendar-day" title="Zeitraum" aria-hidden="true"></span><span class="visually-hidden">Zeitraum</span>
+            <span><strong>20.10.2022</strong> bis <strong>-</strong>
+            </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+        </ul></div><input id="headerForm:beDetails:accordionPanel_active" name="headerForm:beDetails:accordionPanel_active" type="hidden" value="" /></div><script id="headerForm:beDetails:accordionPanel_s">$(function(){PrimeFaces.cw("AccordionPanel","widget_headerForm_beDetails_accordionPanel",{id:"headerForm:beDetails:accordionPanel",toggleSpeed:500});});</script>
+
+        <div style="margin-top: 40px"></div>
+        <script>
+            //<![CDATA[
+            $(function() {
+                // update URL
+                var statePushed = nbp.pushState('/portal/infozentrale/beteiligung/themen/1000520');
+                // call Tracker
+                if (statePushed && typeof track !== 'undefined') { track(); }
+                // update PageTitle
+                document.title='Einrichtung Ihres Beteiligungsportals auf Beteiligung NRW | Beteiligung NRW Infozentrale';
+            });
+            //]]>
+        </script><input type="hidden" name="jakarta.faces.ViewState" id="j_id1:jakarta.faces.ViewState:2" value="-9146564413167407317:-3807175069328600684" />
+</form>
+
+            
+            <div class="nbp-mapdiv"></div>
+<form id="tabForm" name="tabForm" method="post" action="/portal/infozentrale/beteiligung/themen/1000520" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="tabForm" value="tabForm" />
+<div id="tabForm:fbContainer:fbTabview" class="ui-tabs ui-widget ui-widget-content ui-hidden-container ui-tabs-top nbp-tabview fb-tabview nbp-usercontent" data-widget="widget_tabForm_fbContainer_fbTabview"><ul class="ui-tabs-nav ui-helper-reset ui-widget-header" role="tablist"><li class="ui-tabs-header ui-state-default ui-tabs-selected ui-state-active" role="presentation" data-index="0"><a id="tabForm:fbContainer:fbTabview:fbTab_header" href="#tabForm:fbContainer:fbTabview:fbTab" role="tab" aria-expanded="true" aria-selected="true" data-index="0" aria-controls="tabForm:fbContainer:fbTabview:fbTab">Formular</a></li><li class="ui-tabs-header ui-state-default" role="presentation" data-index="1"><a id="tabForm:fbContainer:fbTabview:statistikTab_header" href="#tabForm:fbContainer:fbTabview:statistikTab" role="tab" aria-expanded="false" aria-selected="false" data-index="1" aria-controls="tabForm:fbContainer:fbTabview:statistikTab">Umfrage-Ergebnis</a></li></ul><div class="ui-tabs-panels"><div id="tabForm:fbContainer:fbTabview:fbTab" class="ui-tabs-panel ui-widget-content" role="tabpanel" aria-hidden="false" aria-labelledby="tabForm:fbContainer:fbTabview:fbTab_header" data-index="0"><div id="tabForm:fbContainer:fbTabview:fragebogen:fragebogenPanel" class="ui-outputpanel ui-widget nbp-js-fragebogen">
+                        <p class="nbp-fbhinweis-zwischenspeichern">
+                            <span>Wenn Sie das Ausfüllen des Formulars zu einem späteren Zeitpunkt fortsetzen wollen, können Sie den aktuellen Bearbeitungsstand hier </span><a id="tabForm:fbContainer:fbTabview:fragebogen:zwischenspeichernCmd_skipValidation" href="#" class="ui-commandlink ui-widget nbp-cu" onclick="PrimeFaces.ab({s:&quot;tabForm:fbContainer:fbTabview:fragebogen:zwischenspeichernCmd_skipValidation&quot;,f:&quot;tabForm&quot;,p:&quot;tabForm&quot;,u:&quot;tabForm&quot;,onco:function(xhr,status,args,data){if (args.showDialog) PF('fbWeiterbearbeitenLinkPopUpVar').show();;}});return false;">zwischenspeichern.</a><script id="tabForm:fbContainer:fbTabview:fragebogen:zwischenspeichernCmd_skipValidation_s">$(function(){PrimeFaces.cw("CommandLink","widget_tabForm_fbContainer_fbTabview_fragebogen_zwischenspeichernCmd_skipValidation",{id:"tabForm:fbContainer:fbTabview:fragebogen:zwischenspeichernCmd_skipValidation"});});</script>
+                        </p>
+
+        <div style="margin-top: 1em"></div><div id="tabForm:fbContainer:fbTabview:fragebogen:messages_legacy" class="ui-messages ui-widget nbp-fbmessages-legacy" aria-live="polite" data-global="true" data-summary="data-summary" data-severity="all,error" data-redisplay="true"></div><script id="tabForm:fbContainer:fbTabview:fragebogen:messages_legacy_s">$(function(){PrimeFaces.cw("Messages","widget_tabForm_fbContainer_fbTabview_fragebogen_messages_legacy",{id:"tabForm:fbContainer:fbTabview:fragebogen:messages_legacy",closable:false});});</script>
+
+                    
+                    <div class="nbp-formbox nbp-formbox--expand mt-4">
+                        <div class="fb-fragebogen fb-skin-extern">
+
+        
+        
+
+        <div class="fb-seiten">
+                
+                <div class="row fb-seitenindex-panel">
+                    <div class="col-md-auto align-self-center"><label for="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenindex" class="fb-seitenindex-label">Seitenindex</label>
+                    </div>
+                    <div class="col-md"><select id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenindex" name="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenindex" class="fb-seitenindex-select form-select" size="1" onchange="onChangeSeitenindex()">	<option value="1011149" selected="selected">Vorabklärung</option>
+	<option value="1000380">Angaben zur antragstellenden Organisation</option>
+	<option value="1000381">Angaben zum Portal</option>
+	<option value="1000382">Weitere Angaben zum Portal</option>
+	<option value="1000383">Weitere Informationen</option>
+</select>
+                    </div>
+                </div><div id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:progressBar" class="ui-progressbar ui-widget ui-widget-content fb-progressbar ui-progressbar-determinate"><div class="ui-progressbar-value ui-widget-header" style="display:block;width:20%"><div class="ui-progressbar-label" style="display:block">Seite 1 von 5</div></div></div>
+
+            <div class="row justify-content-between fb-seiten-navigation">
+                <div class="col-auto"><a id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:vorherigeSeite_skipValidation" href="#" class="ui-commandlink ui-widget ui-state-disabled ui-button fb-button-blaettern" onclick="PrimeFaces.ab({s:&quot;tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:vorherigeSeite_skipValidation&quot;,f:&quot;tabForm&quot;,p:&quot;tabForm&quot;,u:&quot;tabForm&quot;,onco:function(xhr,status,args,data){nbp.scrollToClass('.fb-seiten', -35);;},pa:[{name:&quot;ajaxFailureMsgKey&quot;,value:&quot;ajax_failure_formular&quot;}]});return false;" tabindex="-1">
+                        <span class="nbp-fonticon icomoon-arrow-left8"></span> <span>vorherige Seite</span></a><script id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:vorherigeSeite_skipValidation_s">$(function(){PrimeFaces.cw("CommandLink","widget_tabForm_fbContainer_fbTabview_fragebogen_fb_seiten_fbBlaetternTop_vorherigeSeite_skipValidation",{id:"tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:vorherigeSeite_skipValidation",disabledAttr:true});});</script>
+                </div>
+                <div class="col-auto"><a id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:naechsteSeite_skipValidation" href="#" class="ui-commandlink ui-widget ui-button fb-button-blaettern" onclick="PrimeFaces.ab({s:&quot;tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:naechsteSeite_skipValidation&quot;,f:&quot;tabForm&quot;,p:&quot;tabForm&quot;,u:&quot;tabForm&quot;,onco:function(xhr,status,args,data){nbp.scrollToClass('.fb-seiten', -35);;},pa:[{name:&quot;ajaxFailureMsgKey&quot;,value:&quot;ajax_failure_formular&quot;}]});return false;">
+                        <span>nächste Seite</span> <span class="nbp-fonticon icomoon-arrow-right8"></span></a><script id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:naechsteSeite_skipValidation_s">$(function(){PrimeFaces.cw("CommandLink","widget_tabForm_fbContainer_fbTabview_fragebogen_fb_seiten_fbBlaetternTop_naechsteSeite_skipValidation",{id:"tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternTop:naechsteSeite_skipValidation"});});</script>
+                </div>
+            </div>
+            <p aria-hidden="true" class="fb-pflichtangaben-hinweis">
+                <span>*</span> Pflichtangaben
+            </p>
+                    
+                    
+
+                    <div class="fb-gruppe  ">
+
+                        
+                        <div class="row">
+                                
+
+                                
+                                <div class="col-md-12">
+            <div class="fb-frage ">
+            
+            <div class="fb-frageinput form-check fb-checkboxfrage "><input id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:0:unterelement:frage:selectBooleanCheckbox" type="checkbox" name="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:0:unterelement:frage:selectBooleanCheckbox" class="fb-checkbox form-check-input fb-regel-select  " aria-describedby="info_9d53fd70-5e2f-474e-81d6-88affa4d5a8f" aria-invalid="false" /><label for="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:0:unterelement:frage:selectBooleanCheckbox" class="fb-fragetext fb-formatted-text fb-hyphens form-check-label">Hiermit bestätige ich, dass ich im Namen meiner Behörde ein eigenes Beteiligungsportal / einen eigenen Mandanten mit allen damit verbundenen Rechten und Pflichten beantragen darf. Dies ist behördenintern abgestimmt. Ich übernehme die Verwaltung des Mandant.<span aria-hidden="true"> *</span></label>
+            </div>
+
+        
+        
+        <div id="info_9d53fd70-5e2f-474e-81d6-88affa4d5a8f" class="fb-infopanel ">
+                <ul class="fb-infopanel-list">
+                            <li class="visually-hidden">Pflichtangabe
+                            </li>
+                </ul>
+        </div>
+            </div>
+                                </div>
+                                
+
+                                
+                                <div class="col-md-12">
+            <div class="fb-frage ">
+            
+            <div class="fb-frageinput form-check fb-checkboxfrage "><input id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:1:unterelement:frage:selectBooleanCheckbox" type="checkbox" name="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:1:unterelement:frage:selectBooleanCheckbox" class="fb-checkbox form-check-input fb-regel-select  " aria-describedby="info_f7baac66-0d5c-40df-bb4e-79e894f3c394" aria-invalid="false" /><label for="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:1:unterelement:frage:selectBooleanCheckbox" class="fb-fragetext fb-formatted-text fb-hyphens form-check-label">Hiermit bestätige ich, dass ich behördenintern abgeklärt habe bzw. in der Portalübersicht unter <span class="text-underline">https://beteiligung.nrw.de/portal/hauptportal/portale/uebersicht</span> überprüft habe, dass es bisher kein eigenes Beteiligungsportal für meine Behörde gibt.<span aria-hidden="true"> *</span></label>
+            </div>
+
+        
+        
+        <div id="info_f7baac66-0d5c-40df-bb4e-79e894f3c394" class="fb-infopanel ">
+                <ul class="fb-infopanel-list">
+                            <li class="visually-hidden">Pflichtangabe
+                            </li>
+                </ul>
+        </div>
+            </div>
+                                </div>
+                                
+
+                                
+                                <div class="col-md-12">
+            <div class="fb-frage ">
+            
+            <div class="fb-frageinput form-check fb-checkboxfrage "><input id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:2:unterelement:frage:selectBooleanCheckbox" type="checkbox" name="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:2:unterelement:frage:selectBooleanCheckbox" class="fb-checkbox form-check-input fb-regel-select  fb-frage-hatregel" aria-describedby="info_aa090620-1fb7-476a-8414-0d01b0ecd7c1" aria-invalid="false" /><label for="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:seitenelemente:gruppierungen:0:gruppen:0:unterelemente:2:unterelement:frage:selectBooleanCheckbox" class="fb-fragetext fb-formatted-text fb-hyphens form-check-label">Der Antrag ist für eine Justizeinrichtung aus NRW.</label>
+            </div>
+
+        
+        
+        <div id="info_aa090620-1fb7-476a-8414-0d01b0ecd7c1" class="fb-infopanel ">
+                <ul class="fb-infopanel-list">
+                        <li>Für eine Justizeinrichtung gilt ein abweichendes Vorgehen.
+                        </li>
+                </ul>
+        </div>
+            </div>
+                                </div>
+                        </div>
+                    </div>
+
+        <div class="nbp-clearfix"></div>
+
+            <div class="row justify-content-between fb-seiten-navigation">
+                <div class="col-auto"><a id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:vorherigeSeite_skipValidation" href="#" class="ui-commandlink ui-widget ui-state-disabled ui-button fb-button-blaettern" onclick="PrimeFaces.ab({s:&quot;tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:vorherigeSeite_skipValidation&quot;,f:&quot;tabForm&quot;,p:&quot;tabForm&quot;,u:&quot;tabForm&quot;,onco:function(xhr,status,args,data){nbp.scrollToClass('.fb-seiten', -35);;},pa:[{name:&quot;ajaxFailureMsgKey&quot;,value:&quot;ajax_failure_formular&quot;}]});return false;" tabindex="-1">
+                        <span class="nbp-fonticon icomoon-arrow-left8"></span> <span>vorherige Seite</span></a><script id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:vorherigeSeite_skipValidation_s">$(function(){PrimeFaces.cw("CommandLink","widget_tabForm_fbContainer_fbTabview_fragebogen_fb_seiten_fbBlaetternBottom_vorherigeSeite_skipValidation",{id:"tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:vorherigeSeite_skipValidation",disabledAttr:true});});</script>
+                </div>
+                <div class="col-auto"><a id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:naechsteSeite_skipValidation" href="#" class="ui-commandlink ui-widget ui-button fb-button-blaettern" onclick="PrimeFaces.ab({s:&quot;tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:naechsteSeite_skipValidation&quot;,f:&quot;tabForm&quot;,p:&quot;tabForm&quot;,u:&quot;tabForm&quot;,onco:function(xhr,status,args,data){nbp.scrollToClass('.fb-seiten', -35);;},pa:[{name:&quot;ajaxFailureMsgKey&quot;,value:&quot;ajax_failure_formular&quot;}]});return false;">
+                        <span>nächste Seite</span> <span class="nbp-fonticon icomoon-arrow-right8"></span></a><script id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:naechsteSeite_skipValidation_s">$(function(){PrimeFaces.cw("CommandLink","widget_tabForm_fbContainer_fbTabview_fragebogen_fb_seiten_fbBlaetternBottom_naechsteSeite_skipValidation",{id:"tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:fbBlaetternBottom:naechsteSeite_skipValidation"});});</script>
+                </div>
+            </div>
+
+        <div class="nbp-clearfix"></div>
+
+        </div><script id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:nbp_rc_change_seitenindex_skipValidation">nbp_rc_change_seitenindex = function() {return PrimeFaces.ab({s:"tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:nbp_rc_change_seitenindex_skipValidation",f:"tabForm",p:"tabForm",u:"tabForm",onco:function(xhr,status,args,data){nbp.scrollToClass('.fb-seiten', -35);;},pa:(typeof arguments[0] === 'object' && !Array.isArray(arguments[0]) ? Object.entries(arguments[0]).map(([key, value]) => ({ name: key, value })) : arguments[0])});}</script><script id="tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:nbp_rc_update_fb_skipValidation">nbp_rc_update_fb = function() {return PrimeFaces.ab({s:"tabForm:fbContainer:fbTabview:fragebogen:fb-seiten:nbp_rc_update_fb_skipValidation",f:"tabForm",p:"@(.nbp-js-fragebogen)",u:"@(.nbp-js-fragebogen)",pa:(typeof arguments[0] === 'object' && !Array.isArray(arguments[0]) ? Object.entries(arguments[0]).map(([key, value]) => ({ name: key, value })) : arguments[0])});}</script>
+
+            <script>
+                //<![CDATA[
+                function onChangeSeitenindex() {
+                    nbp_rc_change_seitenindex([{name: 'ajaxFailureMsgKey', value: 'ajax_failure_formular'}]);
+                }
+                function updateFragebogen(timeout) {
+                    console.log('updateFragebogen(' + timeout + ')');
+                    setTimeout(function() {nbp_rc_update_fb([{name: 'ajaxFailureMsgKey', value: 'ajax_failure_formular'}])}, timeout);
+                }
+                $(".fb-regel-input.fb-frage-hatregel").change(function () {
+                    updateFragebogen(200);
+                });
+                $(".fb-regel-select.fb-frage-hatregel").change(function () {
+                    updateFragebogen(0);
+                });
+                //]]>
+            </script>
+                        </div>
+                    </div></div></div><div id="tabForm:fbContainer:fbTabview:statistikTab" class="ui-tabs-panel ui-widget-content ui-helper-hidden" role="tabpanel" aria-hidden="true" aria-labelledby="tabForm:fbContainer:fbTabview:statistikTab_header" data-index="1" tabindex="-1"></div></div><input id="tabForm:fbContainer:fbTabview_activeIndex" name="tabForm:fbContainer:fbTabview_activeIndex" type="hidden" value="0" /></div><script id="tabForm:fbContainer:fbTabview_s">$(function(){PrimeFaces.cw("TabView","widget_tabForm_fbContainer_fbTabview",{id:"tabForm:fbContainer:fbTabview",dynamic:true,cache:true,effectDuration:"normal",scrollable:false});});</script>
+
+    <script>
+        //<![CDATA[
+        $(function() {
+            // Scrollen zu geöffneten Formularen
+            var styleClass = '.nbp-formbox';
+            // mit "nbp-js-skip-scroll" kann ein automatisches Scrollen nach dem Neuladen der Seite übersprungen werden
+            if ($(styleClass).hasClass("nbp-js-skip-scroll") && $('body').hasClass('nbp-js-first-render')) {
+                return;
+            }
+            // falls ein Formular offen ist :: scroll zum Formular
+            nbp.scrollToClassMobile('.nbp-formbox', 0);
+
+            // wenn der ScrollController eine Beitrag-ID liefert :: scroll zur Äußerung (Beitrag bzw. Meldung)
+            var scrollToId = "#aeusserung-box-0";
+            var $scrollTo = $(scrollToId);
+            if ($scrollTo[0]) {
+                $scrollTo.addClass("nbp-box-focus");
+                nbp.scrollToClass(scrollToId);
+            }
+        });
+        //]]>
+    </script><input type="hidden" name="jakarta.faces.ViewState" id="j_id1:jakarta.faces.ViewState:3" value="-9146564413167407317:-3807175069328600684" />
+</form>
+        </div>
+        <div id="KONTAKTPERSON_Offcanvas" class="offcanvas offcanvas-end nbp-offcanvas " tabindex="-1" aria-labelledby="offcanvasLabel_KONTAKTPERSON">
+            <div class="offcanvas-header">
+                <h1 id="offcanvasLabel_KONTAKTPERSON" class="h2 nbp-ct offcanvas-title">Kontakt</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+                <div id="KONTAKTPERSON_offcanvas-top">
+                    <a href="#KONTAKTPERSON_offcanvas-top" class="nbp-back-to-top nbp-js-back-to-top-offcanvas" title="Zum Seitenanfang"><span class="nbp-fonticon icomoon-arrow-up8" aria-hidden="true"></span><span class="visually-hidden">Zum Seitenanfang</span>
+                    </a>
+                </div>
+                    <div class="nbp-beteiligung-text"><p>Unsere <strong>Servicezeiten </strong>sind <strong>werktags von 7-17 Uhr</strong>.</p>
+
+<p><em><strong>Beratung:</strong></em></p>
+
+<p>Haben Sie allgemeine Fragen zum <strong>Portal Beteiligung NRW</strong> oder wünschen Sie <strong>Unterstützung bei der Konzeption und Umsetzung </strong><strong>von administrativen Strukturen, Beteiligungsverfahren bzw. Veranstaltungen</strong>? Dann wenden Sie sich gern an das Beratungsteam von Beteiligung NRW:</p>
+
+<ul>
+	<li>über unsere Terminvereinbarungsseite:<br>
+	<a href="https://beteiligung.nrw.de/portal/infozentrale/beteiligung/themen/1005384" rel="nofollow">https://beteiligung.nrw.de/k/sprechstunde</a></li>
+	<li>oder per E-Mail an:<br>
+	<a href="mailto:beteiligung.nrw@it.nrw.de?subject=%5BBeteiligung%20NRW%5D%20Anfrage" rel="nofollow">beteiligung.nrw@it.nrw.de</a> (für die <strong>Landesverwaltung</strong>)<br>
+	<a href="mailto:beteiligung@kdn.de?subject=%5BBeteiligung%20NRW%5D%20Anfrage" rel="nofollow">beteiligung@kdn.de</a> (für <strong>Kommunen und Kreise</strong>)</li>
+</ul>
+
+<p><em><strong>Presse und Öffentlichkeitsarbeit:</strong></em></p>
+
+<p><a href="mailto:kontakt@open.nrw.de?subject=%5BBeteiligung%20NRW%5D%20" rel="nofollow">kontakt@open.nrw.de</a></p>
+
+                    </div>
+            </div>
+        </div>
+        <div id="TEILNAHMEBEDINGUNGEN_Offcanvas" class="offcanvas offcanvas-end nbp-offcanvas " tabindex="-1" aria-labelledby="offcanvasLabel_TEILNAHMEBEDINGUNGEN">
+            <div class="offcanvas-header">
+                <h1 id="offcanvasLabel_TEILNAHMEBEDINGUNGEN" class="h2 nbp-ct offcanvas-title">Teilnahmebedingungen</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+                <div id="TEILNAHMEBEDINGUNGEN_offcanvas-top">
+                    <a href="#TEILNAHMEBEDINGUNGEN_offcanvas-top" class="nbp-back-to-top nbp-js-back-to-top-offcanvas" title="Zum Seitenanfang"><span class="nbp-fonticon icomoon-arrow-up8" aria-hidden="true"></span><span class="visually-hidden">Zum Seitenanfang</span>
+                    </a>
+                </div>
+                    <div class="nbp-beteiligung-text"><p>Ein eigener Mandant kann von</p>
+
+<ul>
+	<li>Behörden der Kommunalverwaltungen in NRW</li>
+	<li>Behörden der Kreisverwaltungen in NRW</li>
+	<li>Behörden der Landesverwaltung von NRW</li>
+	<li>sonstigen Organisationen / Zusammenschlüssen der öffentlichen Hand in NRW</li>
+</ul>
+
+<p>beantragt werden.</p>
+
+                    </div>
+            </div>
+        </div>
+        <div id="DATENSCHUTZERKLAERUNG_Offcanvas" class="offcanvas offcanvas-end nbp-offcanvas " tabindex="-1" aria-labelledby="offcanvasLabel_DATENSCHUTZERKLAERUNG">
+            <div class="offcanvas-header">
+                <h1 id="offcanvasLabel_DATENSCHUTZERKLAERUNG" class="h2 nbp-ct offcanvas-title">Datenschutzerklärung</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+                <div id="DATENSCHUTZERKLAERUNG_offcanvas-top">
+                    <a href="#DATENSCHUTZERKLAERUNG_offcanvas-top" class="nbp-back-to-top nbp-js-back-to-top-offcanvas" title="Zum Seitenanfang"><span class="nbp-fonticon icomoon-arrow-up8" aria-hidden="true"></span><span class="visually-hidden">Zum Seitenanfang</span>
+                    </a>
+                </div>
+                    <div class="nbp-beteiligung-text"><p>Für dieses Beteiligungsverfahren gelten die Datenschutzhinweise der Datenschutzerklärung unter <a href="https://beteiligung.nrw.de/portal/infozentrale/informationen/datenschutz" target="_blank" rel="nofollow">https://beteiligung.nrw.de/portal/infozentrale/informationen/datenschutz</a>.</p>
+
+                    </div>
+            </div>
+        </div><div id="beteiligungOffcanvas:strukturierterTextOffcanvasPanel" class="ui-outputpanel ui-widget nbp-js-offcanvas-update"></div>
+                            <div class="nbp-clearfix"></div></div>
+                    </div>
+                    
+                    <div class="col-lg-3 order-lg-first nbp-content-left-navispace"><div id="gegenstandUndInfoUpdate" class="ui-outputpanel ui-widget">
+        
+
+        <div>
+
+        <div style="margin-top: 30px"></div>
+
+            <div class="nbp-box nbp-navispace-box nbp-gegenstaende-box"><div id="gegenstaende:updatePanel" class="ui-outputpanel ui-widget">
+                    
+                    <div class="row">
+                        <div class="col">
+
+        <h2 class="h5 nbp-navispace-ueberschrift">Gegenstände</h2>
+                        </div>
+                        <div class="col-auto mb-3"><a id="gegenstaende:j_idt11890" href="#" class="ui-commandlink ui-widget hidden-mobile" onclick="PrimeFaces.ab({s:&quot;gegenstaende:j_idt11890&quot;,u:&quot;gegenstandUndInfoUpdate,contentPanelGroup&quot;});return false;"><span class="nbp-fonticon icomoon-grid6 me-2" aria-hidden="true"></span>Übersicht
+                            </a><script id="gegenstaende:j_idt11890_s">$(function(){PrimeFaces.cw("CommandLink","widget_gegenstaende_j_idt11890",{id:"gegenstaende:j_idt11890"});});</script>
+                        </div>
+                    </div>
+
+                    
+                    <ul class="nbp-elementliste nbp-inverted-links nbp-gegenstaende-liste">
+                                <li><a id="gegenstaende:repeat:0:gegenstand" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;gegenstaende:repeat:0:gegenstand&quot;,u:&quot;gegenstandUndInfoUpdate,contentPanelGroup&quot;,onco:function(xhr,status,args,data){nbp.scrollToClass('.nbp-beteiligung-panel');}});return false;"><span class="nbp-fonticon nbp-iconsize-m icomoon-file-text3" title="Text" aria-hidden="true"></span><span class="nbp-hyphens">Informationen &amp; Statistiken zu Beteiligung NRW</span></a><script id="gegenstaende:repeat:0:gegenstand_s">$(function(){PrimeFaces.cw("CommandLink","widget_gegenstaende_repeat_0_gegenstand",{id:"gegenstaende:repeat:0:gegenstand"});});</script>
+                                </li>
+                                <li><a id="gegenstaende:repeat:1:gegenstand" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;gegenstaende:repeat:1:gegenstand&quot;,u:&quot;gegenstandUndInfoUpdate,contentPanelGroup&quot;,onco:function(xhr,status,args,data){nbp.scrollToClass('.nbp-beteiligung-panel');}});return false;"><span class="nbp-fonticon nbp-iconsize-m icomoon-file-video" title="Video" aria-hidden="true"></span><span class="nbp-hyphens">Kurzpräsentation des Beteiligungsportals &amp; der Länderkooperation</span></a><script id="gegenstaende:repeat:1:gegenstand_s">$(function(){PrimeFaces.cw("CommandLink","widget_gegenstaende_repeat_1_gegenstand",{id:"gegenstaende:repeat:1:gegenstand"});});</script>
+                                </li>
+                    </ul></div>
+
+            </div>
+
+        <div style="margin-top: 30px"></div>
+
+        </div>
+
+        <div style="margin-top: 30px"></div>
+
+        <div class="nbp-box nbp-navispace-box nbp-informationen-box"><div id="informationen:updatePanel" class="ui-outputpanel ui-widget">
+
+                
+                <div class="row">
+                    <div class="col">
+
+        <h2 class="h5 nbp-navispace-ueberschrift">Informationen</h2>
+                    </div>
+                        <div class="col-auto mb-3 nbp-information-uebersicht"><a id="informationen:j_idt11958" href="#" class="ui-commandlink ui-widget hidden-mobile" onclick="PrimeFaces.ab({s:&quot;informationen:j_idt11958&quot;,u:&quot;gegenstandUndInfoUpdate,contentPanelGroup&quot;,onco:function(xhr,status,args,data){nbp.scrollToClass('.nbp-elemente-uebersicht-informationen', -30);}});return false;"><span class="nbp-fonticon icomoon-grid6 me-2" aria-hidden="true"></span>Übersicht
+                            </a><script id="informationen:j_idt11958_s">$(function(){PrimeFaces.cw("CommandLink","widget_informationen_j_idt11958",{id:"informationen:j_idt11958"});});</script>
+                        </div>
+                </div>
+
+                
+                <ul class="nbp-elementliste nbp-inverted-links nbp-informationen-liste nbp-fbox-image-slideshow-wrapper">
+
+                        
+                        <li>
+                            <a id="informationen:linkInformationHauptseiteOffcanvas0" href="#KONTAKTPERSON_Offcanvas" data-bs-toggle="offcanvas" data-bs-target="#KONTAKTPERSON_Offcanvas" aria-controls="KONTAKTPERSON_Offcanvas"><span class="nbp-fonticon nbp-iconsize-m icomoon-user" title="Kontakt" aria-hidden="true"></span><span class="nbp-hyphens">Kontakt</span>
+                            </a>
+                        </li>
+
+                        
+                        <li>
+                            <a id="informationen:linkInformationHauptseiteOffcanvas1" href="#TEILNAHMEBEDINGUNGEN_Offcanvas" data-bs-toggle="offcanvas" data-bs-target="#TEILNAHMEBEDINGUNGEN_Offcanvas" aria-controls="TEILNAHMEBEDINGUNGEN_Offcanvas"><span class="nbp-fonticon nbp-iconsize-m icomoon-file-text3" title="Teilnahmebedingungen" aria-hidden="true"></span><span class="nbp-hyphens">Teilnahmebedingungen</span>
+                            </a>
+                        </li>
+
+                        
+                        <li>
+                            <a id="informationen:linkInformationHauptseiteOffcanvas2" href="#DATENSCHUTZERKLAERUNG_Offcanvas" data-bs-toggle="offcanvas" data-bs-target="#DATENSCHUTZERKLAERUNG_Offcanvas" aria-controls="DATENSCHUTZERKLAERUNG_Offcanvas"><span class="nbp-fonticon nbp-iconsize-m icomoon-file-text3" title="Datenschutzerklärung" aria-hidden="true"></span><span class="nbp-hyphens">Datenschutzerklärung</span>
+                            </a>
+                        </li>
+                </ul></div>
+
+        </div>
+
+        <div style="margin-top: 30px"></div></div>
+                        <div class="nbp-clearfix"></div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+                    
+                    <a class="nbp-back-to-top nbp-js-back-to-top" onclick="nbp.scrollTop()" title="Zum Seitenanfang"><span class="nbp-fonticon icomoon-arrow-up8" aria-hidden="true"></span><span class="visually-hidden">Zum Seitenanfang</span>
+                    </a>
+
+                </div>
+
+        <footer id="footer" class="footer nbp-footer">
+            <a id="a-footer" class="visually-hidden">Service</a>
+            <div class="container nbp-footer-container">
+                <div id="accordionFooter" class="row nbp-footer-row nbp-inverted-links">
+
+                    
+                    <div class="col-12 col-md-12 col-lg-3 nbp-footer-col">
+                        <div id="headingFooter1" class="nbp-footer-heading">
+                            <h2 class="hidden-phone">Herausgeber</h2>
+                            <button class="visible-phone button-footer h2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFooter1" aria-expanded="true" aria-controls="collapseFooter1">Herausgeber
+                            </button>
+                        </div>
+                        <div id="collapseFooter1" class="nbp-footer-collapse collapse show" role="region" aria-labelledby="headingFooter1" data-bs-parent="#accordionFooter">
+                            <div class="nbp-footer-panel">
+                                
+                                <div class="publisher vcard">
+                                    
+                                    <div class="publisher-text">
+                                        <p class="publisher-address">
+                                                <a class="url fn org" href="https://www.mhkbd.nrw/" target="_blank">Ministerium für Heimat, Kommunales, Bau und Digitalisierung des Landes Nordrhein-Westfalen</a>
+                                            <span class="adr">
+                                                <span class="street-address">Hubertusstraße 9</span><br />
+                                                <span class="postal-code">40219</span> <span class="locality">Düsseldorf</span>
+                                            </span>
+                                        </p>
+                                        
+                                        <div class="publisher-contact">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-12 col-md-4 col-lg-3 nbp-footer-col">
+                        <div id="headingFooter2" class="nbp-footer-heading">
+                            <h2 class="hidden-phone">Service</h2>
+                            <button class="visible-phone button-footer h2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFooter2" aria-expanded="false" aria-controls="collapseFooter2">Service
+                            </button>
+                        </div>
+                        <div id="collapseFooter2" class="nbp-footer-collapse collapse" role="region" aria-labelledby="headingFooter2" data-bs-parent="#accordionFooter">
+                            <div class="nbp-footer-panel">
+                                <ul class="nbp-footer-links">
+                                    <li><a id="baseFooter:j_idt12198:link" name="baseFooter:j_idt12198:link" href="/portal/infozentrale/informationen/uebersicht" class=" " tabindex="0" title="">Übersicht</a>
+                                    </li>
+                                    <li><a id="baseFooter:j_idt12201:link" name="baseFooter:j_idt12201:link" href="/portal/infozentrale/informationen/hilfe" class=" " tabindex="0" title="">Hilfe</a>
+                                    </li>
+                                    <li><a id="baseFooter:j_idt12204:link" name="baseFooter:j_idt12204:link" href="/portal/infozentrale/profil/kontakt" class=" " tabindex="0" title="">Kontaktformular</a>
+                                    </li>
+                                    <li>
+                                            <a href="https://beteiligung.nrw.de/portal/infozentrale/informationen/impressum">Impressum</a>
+                                    </li>
+                                    <li>
+                                            <a href="https://beteiligung.nrw.de/portal/infozentrale/informationen/datenschutz">Datenschutz</a>
+                                    </li>
+                                    <li><a id="baseFooter:j_idt12217:link" name="baseFooter:j_idt12217:link" href="/portal/infozentrale/informationen/barrierefreiheit" class=" " tabindex="0" title="">Barrierefreiheit</a>
+                                    </li>
+                                        <li><a id="baseFooter:j_idt12222:link" name="baseFooter:j_idt12222:link" href="/portal/infozentrale/informationen/leichte-sprache" class=" " tabindex="0" title="">Leichte Sprache</a>
+                                        </li>
+                                        <li><a id="baseFooter:j_idt12227:link" name="baseFooter:j_idt12227:link" href="/portal/infozentrale/informationen/gebaerdensprache" class=" " tabindex="0" title="">Gebärdensprache</a>
+                                        </li>
+                                    
+                                    <li>
+                                        <a onclick="nbp.openDsgvoDialog(); return false;" href="#">Datenschutzeinstellungen</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-12 col-md-4 col-lg-3 nbp-footer-col">
+                        <div id="headingFooter3" class="nbp-footer-heading">
+                            <h2 class="hidden-phone">Beteiligung NRW</h2>
+                            <button class="visible-phone button-footer h2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFooter3" aria-expanded="false" aria-controls="collapseFooter3">Beteiligung NRW
+                            </button>
+                        </div>
+                        <div id="collapseFooter3" class="nbp-footer-collapse collapse" role="region" aria-labelledby="headingFooter3" data-bs-parent="#accordionFooter">
+                            <div class="nbp-footer-panel">
+                                
+                                <div class="d-none">Version: 19.1.3 (13-11-2026)</div>
+                
+                <div class="provider">
+                    <div class="provider-logo">
+                        <a href="https://open.nrw/" target="_blank" title="Externer Link: open.nrw">
+                            <img src="/portal/jakarta.faces.resource/installation/nrw/images/opennrw_logo.png" alt="Logo: Open.NRW" />
+                        </a>
+                    </div>
+                    <div class="provider-slogan">
+                        Beteiligung NRW ist ein Angebot von <a href="https://open.nrw/" target="_blank">Open.NRW</a>
+                    </div>
+                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-12 col-md-4 col-lg-3 nbp-footer-col">
+                        <div id="headingFooter4" class="nbp-footer-heading">
+                            <h2 class="hidden-phone">Seite empfehlen</h2>
+                            <button class="visible-phone button-footer h2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFooter4" aria-expanded="false" aria-controls="collapseFooter4">Seite empfehlen
+                            </button>
+                        </div>
+                        <div id="collapseFooter4" class="nbp-footer-collapse collapse" role="region" aria-labelledby="headingFooter4" data-bs-parent="#accordionFooter">
+                            <div class="nbp-footer-panel">
+                                <ul class="nbp-footer-links">
+                                    <li>
+                                        <a target="_blank" title="Externer Link: Diese Seite auf Facebook teilen" class="social social-facebook" href="https://www.facebook.com/sharer/sharer.php" rel="nofollow"><span class="social-icon icomoon-facebook2"></span><span lang="en">facebook</span></a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" title="Externer Link: Diese Seite auf X (Twitter) teilen" class="social social-twitter" href="https://twitter.com/intent/tweet" rel="nofollow"><span class="social-icon"></span><span lang="en">X (Twitter)</span></a>
+                                    </li>
+                                    <li>
+                                        <a title="Externer Link: Diese Seite per E-Mail teilen" class="social social-mail" href="mailto:?subject=Beteiligungsportal" rel="nofollow"><span class="social-icon icomoon-envelop4"></span><span>E-Mail</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+            </div>
+
+            
+            <div id="nbp-root-content" class="nbp-root-content"><div id="fbZwischenspeichernPopup:dialog" class="ui-dialog ui-widget ui-widget-content  ui-shadow ui-hidden-container nbp-dialog" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix"><span id="fbZwischenspeichernPopup:dialog_title" class="ui-dialog-title">Formular zwischenspeichern</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="fbZwischenspeichernPopup:dialog_content"></div></div><script id="fbZwischenspeichernPopup:dialog_s">$(function(){PrimeFaces.cw("Dialog","fbWeiterbearbeitenLinkPopUpVar",{id:"fbZwischenspeichernPopup:dialog",draggable:false,resizable:false,modal:true,width:"600px",dynamic:true,showEffect:"fade",onHide:function(){$('.nbp-fbhinweis-zwischenspeichern a').focus();}});});</script><div id="anmeldenPopUp" class="ui-dialog ui-widget ui-widget-content  ui-shadow ui-hidden-container nbp-dialog nbp-anmelden-dialog" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix"><span id="anmeldenPopUp_title" class="ui-dialog-title">Anmelden</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="anmeldenPopUp_content">
+<form id="anmeldenPopUpForm" name="anmeldenPopUpForm" method="post" action="/portal/infozentrale/beteiligung/themen/1000520" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="anmeldenPopUpForm" value="anmeldenPopUpForm" />
+
+
+                <h1 class="h2 nbp-dialog-header">Anmelden</h1>
+            <div id="anmeldenPopUpForm:benutzername" class="form-group nbp-js-benutzername"><label for="anmeldenPopUpForm:benutzername:inputField" class="form-label">Nutzername</label><input id="anmeldenPopUpForm:benutzername:inputField" name="anmeldenPopUpForm:benutzername:inputField" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default form-control " placeholder="" data-p-label="Nutzername" autocomplete="username" aria-describedby="info_anmeldenPopUpForm:benutzername" /><script id="anmeldenPopUpForm:benutzername:inputField_s">$(function(){PrimeFaces.cw("InputText","widget_anmeldenPopUpForm_benutzername_inputField",{id:"anmeldenPopUpForm:benutzername:inputField"});});</script>
+
+        
+        <div id="info_anmeldenPopUpForm:benutzername" class="nbp-fg-infopanel ">
+            
+            <div class="nbp-fg-error-message"><div id="anmeldenPopUpForm:benutzername:formPartInfopanel:messages" class="ui-messages ui-widget nbp-input-error" aria-live="polite" data-global="false" data-summary="data-summary" data-severity="all,error" data-redisplay="true"></div><script id="anmeldenPopUpForm:benutzername:formPartInfopanel:messages_s">$(function(){PrimeFaces.cw("Messages","widget_anmeldenPopUpForm_benutzername_formPartInfopanel_messages",{id:"anmeldenPopUpForm:benutzername:formPartInfopanel:messages",closable:false});});</script>
+            </div>
+        </div>
+            </div>
+            <div id="anmeldenPopUpForm:passwort" class="form-group "><label for="anmeldenPopUpForm:passwort:inputField" class="form-label">Passwort</label><input id="anmeldenPopUpForm:passwort:inputField" name="anmeldenPopUpForm:passwort:inputField" type="password" class="ui-password ui-inputfield ui-widget ui-state-default form-control " placeholder="" data-p-label="Passwort" autocomplete="current-password" aria-describedby="info_anmeldenPopUpForm:passwort" /><script id="anmeldenPopUpForm:passwort:inputField_s">$(function(){PrimeFaces.cw("Password","widget_anmeldenPopUpForm_passwort_inputField",{id:"anmeldenPopUpForm:passwort:inputField"});});</script>
+
+        
+        <div id="info_anmeldenPopUpForm:passwort" class="nbp-fg-infopanel ">
+            
+            <div class="nbp-fg-error-message"><div id="anmeldenPopUpForm:passwort:formPartInfopanel:messages" class="ui-messages ui-widget nbp-input-error" aria-live="polite" data-global="false" data-summary="data-summary" data-severity="all,error" data-redisplay="true"></div><script id="anmeldenPopUpForm:passwort:formPartInfopanel:messages_s">$(function(){PrimeFaces.cw("Messages","widget_anmeldenPopUpForm_passwort_formPartInfopanel_messages",{id:"anmeldenPopUpForm:passwort:formPartInfopanel:messages",closable:false});});</script>
+            </div>
+        </div>
+            </div>
+
+        <div style="margin-top: 30px"></div>
+
+                <div class="row align-items-center my-4">
+                    <div class="col-auto order-2"><button id="anmeldenPopUpForm:anmelden" name="anmeldenPopUpForm:anmelden" class="ui-button ui-widget ui-state-default ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;anmeldenPopUpForm:anmelden&quot;,f:&quot;anmeldenPopUpForm&quot;,u:&quot;anmeldenPopUpForm,@(.nbp-js-update-on-login)&quot;,onco:function(xhr,status,args,data){if (args.closeDialog) { PF('anmeldenPopUpVar').hide(); };}});return false;" type="submit"><span class="ui-button-text ui-c">Anmelden</span></button><script id="anmeldenPopUpForm:anmelden_s">$(function(){PrimeFaces.cw("CommandButton","widget_anmeldenPopUpForm_anmelden",{id:"anmeldenPopUpForm:anmelden"});});</script>
+                    </div>
+
+                    <div class="col order-1"><a id="anmeldenPopUpForm:passwortVergessen:link" name="anmeldenPopUpForm:passwortVergessen:link" href="/portal/infozentrale/profil/passwort-vergessen" class="nbp-cu d-block " tabindex="0" title="">Passwort vergessen?</a>
+                    </div>
+                </div>
+                    <div class="mt-2"><a id="anmeldenPopUpForm:bundidLoginPopup" href="#" class="ui-commandlink ui-widget nbp-cu d-block mb-2" onclick="PrimeFaces.addSubmitParam('anmeldenPopUpForm',{'anmeldenPopUpForm:bundidLoginPopup':'anmeldenPopUpForm:bundidLoginPopup'}).submit('anmeldenPopUpForm');return false;" rel="nofollow">Mit BundID-Konto anmelden</a><script id="anmeldenPopUpForm:bundidLoginPopup_s">$(function(){PrimeFaces.cw("CommandLink","widget_anmeldenPopUpForm_bundidLoginPopup",{id:"anmeldenPopUpForm:bundidLoginPopup"});});</script>
+                    </div><input type="hidden" name="jakarta.faces.ViewState" id="j_id1:jakarta.faces.ViewState:4" value="-9146564413167407317:-3807175069328600684" />
+</form>
+
+        <script>
+            function resetAnmeldenPopup() {
+                // Bei p:staticMessage muss das Element entfernt werden, sonst bleibt eine leere rote Box.
+                // Es reicht nicht die Kinder zu entfernen wie bei p:messages.
+                $(".nbp-js-login-messages").remove();
+                $(".nbp-js-benutzername .form-control").val("");
+            }
+        </script></div></div><script id="anmeldenPopUp_s">$(function(){PrimeFaces.cw("Dialog","anmeldenPopUpVar",{id:"anmeldenPopUp",draggable:false,resizable:false,modal:true,width:"550",showEffect:"fade",onHide:function(){resetAnmeldenPopup();}});});</script><div id="dsgvoPopUp" class="ui-dialog ui-widget ui-widget-content  ui-shadow ui-hidden-container nbp-dialog" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix"><span id="dsgvoPopUp_title" class="ui-dialog-title">Anmelden</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="dsgvoPopUp_content">
+<form id="dsgvoPopUpForm" name="dsgvoPopUpForm" method="post" action="/portal/infozentrale/beteiligung/themen/1000520" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="dsgvoPopUpForm" value="dsgvoPopUpForm" />
+
+
+            <h1 class="h2 nbp-dialog-header">Datenschutzeinstellungen</h1>
+
+            <div class="nbp-dialog-message">
+                Es werden für den Betrieb der Seite technisch notwendige Cookies gesetzt. Darüber hinaus können Sie Inhalte von Drittanbietern erlauben. Ein Widerruf ist jederzeit möglich.
+            </div>
+
+            <div class="nbp-dsgvo-popup-input nbp-js-dsgvo-check-youtube">
+
+        <div id="dsgvoPopUpForm:youtube" class="form-group nbp-form-boolean  ">
+            <div class="form-check"><input id="dsgvoPopUpForm:youtube:inputBoolean" type="checkbox" name="dsgvoPopUpForm:youtube:inputBoolean" class="form-check-input  " aria-describedby="info_dsgvoPopUpForm:youtube" /><label for="dsgvoPopUpForm:youtube:inputBoolean" class="form-label form-check-label">YouTube</label>
+
+        
+        <div id="info_dsgvoPopUpForm:youtube" class="nbp-fg-infopanel nbp-fg-boolean-infopanel">
+            
+            <div class="nbp-fg-error-message"><div id="dsgvoPopUpForm:youtube:formPartInfopanel:messages" class="ui-messages ui-widget nbp-input-error" aria-live="polite" data-global="false" data-summary="data-summary" data-severity="all,error" data-redisplay="true"></div><script id="dsgvoPopUpForm:youtube:formPartInfopanel:messages_s">$(function(){PrimeFaces.cw("Messages","widget_dsgvoPopUpForm_youtube_formPartInfopanel_messages",{id:"dsgvoPopUpForm:youtube:formPartInfopanel:messages",closable:false});});</script>
+            </div>
+        </div>
+            </div>
+        </div>
+                <span class="nbp-dsgvo-popup-highlighter"></span>
+            </div>
+
+            <div class="nbp-dialog-message">Weitere Informationen finden Sie unter <a target='_blank' class='nbp-cu' href='https://beteiligung.nrw.de/portal/infozentrale/informationen/datenschutz'>Datenschutzerklärung</a> und <a target='_blank' class='nbp-cu' href='https://beteiligung.nrw.de/portal/infozentrale/informationen/impressum'>Impressum</a>.
+            </div>
+
+        <div style="margin-top: 25px"></div>
+
+            <div class="nbp-buttonline"><button id="dsgvoPopUpForm:senden" name="dsgvoPopUpForm:senden" class="ui-button ui-widget ui-state-default ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;dsgvoPopUpForm:senden&quot;,f:&quot;dsgvoPopUpForm&quot;,u:&quot;dsgvoPopUpForm,@(.nbp-js-dsgvo-update-container)&quot;,onco:function(xhr,status,args,data){window.nbpDsgvoUpdated = true; PF('dsgvoPopUpVar').hide(); nbp.doClickAfterConfirmation();;}});return false;" type="submit"><span class="ui-button-text ui-c">Speichern</span></button><script id="dsgvoPopUpForm:senden_s">$(function(){PrimeFaces.cw("CommandButton","widget_dsgvoPopUpForm_senden",{id:"dsgvoPopUpForm:senden"});});</script>
+            </div><input type="hidden" name="jakarta.faces.ViewState" id="j_id1:jakarta.faces.ViewState:5" value="-9146564413167407317:-3807175069328600684" />
+</form></div></div><script id="dsgvoPopUp_s">$(function(){PrimeFaces.cw("Dialog","dsgvoPopUpVar",{id:"dsgvoPopUp",draggable:false,resizable:false,modal:true,width:"550",showEffect:"fade",closeOnEscape:true,onHide:function(){nbp.onHideDsgvoDialog();},behaviors:{close:function(ext,event) {PrimeFaces.ab({s:"dsgvoPopUp",e:"close",f:"dsgvoPopUpForm",p:"dsgvoPopUp",u:"dsgvoPopUpForm",rv:true,onst:function(cfg){if (window.nbpDsgvoUpdated) {window.nbpDsgvoUpdated = false; return false;};}},ext);}}});});</script><div id="globalConfirmDialog" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-shadow ui-hidden-container nbp-dialog nbp-confirm-dialog"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix"><span id="globalConfirmDialog_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="globalConfirmDialog_content"><span class="ui-icon ui-icon-alert ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message"></span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix">
+
+        <div class="nbp-buttonline"><button id="buttonYes" name="buttonYes" class="ui-button ui-widget ui-state-default ui-button-text-icon-left ui-confirmdialog-yes button-cu-secondary" type="button"><span class="ui-button-icon-left ui-icon ui-c nbp-fi icomoon-checkmark3 me-1"></span><span class="ui-button-text ui-c">Ja</span></button><script id="buttonYes_s">$(function(){PrimeFaces.cw("CommandButton","widget_buttonYes",{id:"buttonYes"});});</script><button id="buttonNo" name="buttonNo" class="ui-button ui-widget ui-state-default ui-button-text-icon-left ui-confirmdialog-no" type="button"><span class="ui-button-icon-left ui-icon ui-c nbp-fi icomoon-cross2 me-1"></span><span class="ui-button-text ui-c">Nein</span></button><script id="buttonNo_s">$(function(){PrimeFaces.cw("CommandButton","widget_buttonNo",{id:"buttonNo"});});</script>
+        </div></div></div><script id="globalConfirmDialog_s">$(function(){PrimeFaces.cw("ConfirmDialog","widget_globalConfirmDialog",{id:"globalConfirmDialog",closeOnEscape:true,global:true,responsive:true});});</script><span id="globalMessage" class="ui-growl-pl" data-summary="data-summary" data-severity="all,error" data-redisplay="true"></span><script id="globalMessage_s">$(function(){PrimeFaces.cw("Growl","widget_globalMessage",{id:"globalMessage",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+            </div><script src="/portal/jakarta.faces.resource/common/js/primefaces_locale.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/plugins/fancybox/fancybox-6.0.5.umd.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/plugins/slickslider/slick.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/plugins/autolinker/Autolinker.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/plugins/readmore/readmore.js?buildVersion=13-11-2026"></script><script src="/portal/jakarta.faces.resource/bootstrap/js/bootstrap-5.3.3.bundle.min.js?buildVersion=13-11-2026"></script></body>
+
+</html>
