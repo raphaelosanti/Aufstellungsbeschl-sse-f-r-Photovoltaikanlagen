@@ -17,6 +17,9 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Headless-Browser für JavaScript-Seiten (optional)
+        continue-on-error: true
+        run: pip install playwright && playwright install --with-deps chromium
       - name: Sonde ausführen
         env:
           PV_KONTAKT: ${{ vars.PV_KONTAKT }}

@@ -107,6 +107,12 @@ def portal_vorlagen(http, q, seit: str | None, zustand=None,
         soup = BeautifulSoup(html, "html.parser")
         text = pv.html_text(html)
         if len(text) < 200 and soup.find("script"):
+            gerendert = http.render(url)
+            if gerendert:
+                html = gerendert
+                soup = BeautifulSoup(html, "html.parser")
+                text = pv.html_text(html)
+        if len(text) < 200 and soup.find("script"):
             leer += 1
             http.zaehle("Portal: Seite ohne Inhalt (JavaScript-App?)")
         # Feeds und Links einsammeln
