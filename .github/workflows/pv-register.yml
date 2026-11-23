@@ -81,6 +81,7 @@ jobs:
       - name: Excel auch im Repo ablegen
         run: |
           mkdir -p ausgabe && cp PV_Beschluesse_Gesamt.xlsx ausgabe/
+          python pv_geojson.py ausgabe/PV_Beschluesse_Gesamt.xlsx ausgabe/PV_Beschluesse.geojson
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add ausgabe
