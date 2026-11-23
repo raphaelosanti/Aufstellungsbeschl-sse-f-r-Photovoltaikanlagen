@@ -443,6 +443,8 @@ Grassau,Traunstein,sessionnet,https://buergerinfo-grassau.digitalfabrix.de/,Baye
 Gädheim,Haßberge,sessionnet,https://buerger.ratsinfo-theres.de/,Bayern,Gädheim
 Heusweiler,Regionalverband Saarbrücken,sessionnet,https://ratsinfo.heusweiler.de/,Saarland,Heusweiler
 Kleinblittersdorf,Regionalverband Saarbrücken,sessionnet,https://www.kleinblittersdorf.de/gremien/,Saarland,Kleinblittersdorf
+Stadt Bremen – Deputation Mobilität Bau Stadtentwicklung,Bremen,bremen,https://bau.bremen.de/ressort/deputation-3443,Bremen,"Abstimmungsergebnisse-PDFs + Sitzungsdienst der Bürgerschaft; eigener Adapter pv_bremen.py"
+Bremerhaven,Bremerhaven,auto,https://sitzungsapp.bremerhaven.de/ris/bremerhaven/,Bremen,"altes RIS; neues System (Session) seit 02.07.2026 geplant, Adresse ungeprüft"
 BVV Charlottenburg-Wilmersdorf,Berlin,html,https://bvv-charlottenburg-wilmersdorf.berlin.de/,Berlin,ALLRIS-Bürgerinfo; Adresse aus Datenschutzseite des Bezirks
 BVV Friedrichshain-Kreuzberg,Berlin,html,https://bvv-friedrichshain-kreuzberg.berlin.de/,Berlin,"ALLRIS-Bürgerinfo; Adresse nach Muster bvv-<bezirk>.berlin.de, ungeprüft"
 BVV Lichtenberg,Berlin,html,https://bvv-lichtenberg.berlin.de/,Berlin,ALLRIS-Bürgerinfo; Adresse aus Datenschutzseite des Bezirks
