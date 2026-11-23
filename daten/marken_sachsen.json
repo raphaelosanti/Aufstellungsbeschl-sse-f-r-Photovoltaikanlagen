@@ -1,13 +1,49 @@
 {
+ "Dohma": {
+  "zuletzt": "2026-11-23"
+ },
  "Dresden": {
+  "zuletzt": "2026-11-23"
+ },
+ "Döbeln": {
+  "zuletzt": "2026-11-23"
+ },
+ "Frohburg": {
+  "zuletzt": "2026-11-23"
+ },
+ "Heidenau": {
+  "si_max": 99122367,
+  "zuletzt": "2026-11-23"
+ },
+ "Plauen": {
+  "si_max": 60261626,
   "zuletzt": "2026-11-23"
  },
  "Portal Sachsen Bauleitplanung": {
   "zuletzt": "2026-11-23"
  },
+ "Wilkau-Haßlau": {
+  "si_max": 672,
+  "zuletzt": "2026-11-23"
+ },
+ "Wolkenstein": {
+  "zuletzt": "2026-11-23"
+ },
+ "Zwönitz": {
+  "si_max": 3422,
+  "zuletzt": "2026-11-23"
+ },
  "_verworfen": [
   "http://oparl.dresden.de/bodies/0001/papers/vo/28900",
   "http://oparl.dresden.de/bodies/0001/papers/vo/29435",
-  "http://oparl.dresden.de/bodies/0001/papers/vo/31177"
+  "http://oparl.dresden.de/bodies/0001/papers/vo/31177",
+  "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=34343",
+  "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=34404",
+  "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=35805",
+  "https://www.heidenau.de/ris/buergerinfo/vo0050.php?__kvonr=72144973",
+  "https://www.heidenau.de/ris/buergerinfo/vo0050.php?__kvonr=72144974",
+  "https://www.heidenau.de/ris/buergerinfo/vo0050.php?__kvonr=72145042",
+  "https://www.heidenau.de/ris/buergerinfo/vo0050.php?__kvonr=72145300",
+  "https://www.heidenau.de/ris/buergerinfo/vo0050.php?__kvonr=72145350"
  ]
 }
