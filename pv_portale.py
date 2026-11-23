@@ -65,6 +65,23 @@ def _feed_urls(soup: BeautifulSoup, seite: str) -> list[str]:
             re.search(r"rss|atom|json", a.get("type", ""), re.I)]
 
 
+def _karten(soup: BeautifulSoup, seite: str):
+    """Verfahrenskarten einer DiPlanung-Liste (<li class="c-procedurelist__item">).
+
+    Die Detailseiten (…/public/detail) sind eine JavaScript-App und liefern ohne Browser keinen Text.
+    Die Karten auf der Startseite/Verfahrensliste enthalten aber schon Titel, Gemeinde, Zeitraum und
+    Phase – das reicht, um PV-Verfahren zu erkennen. Liefert (detail_url, kartentext, titel).
+    """
+    for li in soup.select("li.c-procedurelist__item"):
+        a = li.find("a", href=re.compile(r"/verfahren/"))
+        if not a:
+            continue
+        text = re.sub(r"\s+", " ", li.get_text(" ", strip=True))
+        text = re.sub(r"^Zur Beteiligung:\s*", "", text)
+        titel = re.sub(r"^Zur Beteiligung:\s*", "", a.get_text(" ", strip=True)) or text[:120]
+        yield urljoin(seite, a["href"]).split("#")[0], text, titel
+
+
 def portal_vorlagen(http, q, seit: str | None, zustand=None,
                     max_seiten: int = 120, max_detail: int = 400):
     """Generator wie die anderen Adapter. q: Quelle (name, url, bundesland)."""
@@ -75,6 +92,7 @@ def portal_vorlagen(http, q, seit: str | None, zustand=None,
     gesehen: set[str] = set()
     detail_n = 0
     leer = 0
+    karten_gesehen: set[str] = set()
     while queue and len(gesehen) < max_seiten:
         url = queue.pop(0).split("#")[0]
         if url in gesehen or SKIP_EXT.search(url):
@@ -101,8 +119,24 @@ def portal_vorlagen(http, q, seit: str | None, zustand=None,
                 continue
             if LINK_HINT.search(absu) or LINK_HINT.search(a.get_text(" ", strip=True)):
                 queue.append(absu)
+        # Verfahrenskarten (DiPlanung): PV-Verfahren direkt aus der Liste übernehmen
+        for kurl, ktext, ktitel in _karten(soup, url):
+            if kurl in karten_gesehen or detail_n >= max_detail:
+                continue
+            karten_gesehen.add(kurl)
+            if not (pv.PV_RE.search(ktext) and pv.PLANUNG_RE.search(ktext)):
+                continue
+            if zustand and zustand.hat(kurl):
+                continue
+            kdatum = pv.erstes_datum(ktext)
+            if seit and kdatum and kdatum < seit:
+                continue
+            detail_n += 1
+            http.zaehle("Portal: Treffer (Verfahrenskarte)")
+            yield {"titel": ktitel, "datum": kdatum, "text": f"{q.name}\n{ktext}",
+                   "link": kurl, "dokument_link": "", "body_name": q.name, "schluessel": kurl}
         # Treffer: Seite mit PV-Bezug und Planungsbezug (nicht die Startseite)
-        if url == q.url or detail_n >= max_detail:
+        if url == q.url or detail_n >= max_detail or url in karten_gesehen:
             continue
         titel = _titel(soup)
         if not pv.PV_RE.search(titel + "\n" + text[:3000]):
