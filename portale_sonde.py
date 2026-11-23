@@ -95,6 +95,33 @@ def sonde(http: pv.Http, name: str, url: str, outdir: str) -> list[str]:
     if treffer:
         z.append("- Beispiel-Links: " + ", ".join(treffer[:5]))
 
+    # Tiefere Proben: Listenseite, Detailseite, ggf. im Browser gerendert (zeigt, ob JavaScript-Details lesbar werden)
+    kandidaten = []
+    for u in dict.fromkeys(links):
+        if urlparse(u).netloc != p.netloc:
+            continue
+        if re.search(r"/beteiligung/themen(\?format=Bauleit\w*)?$", u, re.I):
+            kandidaten.append(("liste", u + ("" if "format=" in u or "bplan" in u else "?format=Bauleitplan")))
+        elif re.search(r"/themen/\d+|/verfahren/[\w-]+", u, re.I) and not any(k == "detail" for k, _ in kandidaten):
+            kandidaten.append(("detail", u))
+    for art, u in kandidaten[:3]:
+        try:
+            h = http.get(u, cache=False)
+        except Exception as e:  # noqa: BLE001
+            z.append(f"- Probe {art} {u}: Fehler ({type(e).__name__})")
+            continue
+        open(os.path.join(d, f"{art}.html"), "w", encoding="utf-8").write(h[:300000])
+        t = pv.html_text(h)
+        weiter = re.findall(r"(?:page|seite|offset)=\d+", h, re.I)[:3]
+        z.append(f"- Probe {art} {u}: {len(h)} Zeichen HTML, {len(t)} Zeichen Text, Blätter-Hinweise: {', '.join(weiter) or 'keine'}")
+        if art == "detail":
+            g = http.render(u)
+            if g:
+                open(os.path.join(d, "detail_gerendert.html"), "w", encoding="utf-8").write(g[:300000])
+                z.append(f"  - im Browser gerendert: {len(pv.html_text(g))} Zeichen Text (statisch: {len(t)})")
+            else:
+                z.append("  - Browser nicht verfügbar oder Seite nicht geladen")
+
     # Urteil
     if len(text) >= 300 and len(treffer) >= 2:
         urteil = "serverseitig gerendert -> allgemeiner Crawler (typ=portal) sollte Treffer finden"

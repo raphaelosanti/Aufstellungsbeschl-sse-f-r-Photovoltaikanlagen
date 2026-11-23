@@ -130,7 +130,8 @@ def portal_vorlagen(http, q, seit: str | None, zustand=None,
             if kurl in karten_gesehen or detail_n >= max_detail:
                 continue
             karten_gesehen.add(kurl)
-            if not (pv.PV_RE.search(ktext) and pv.PLANUNG_RE.search(ktext)):
+            # PV-Bezug nur im Titel prüfen: im Kartentext steht auch der Absender (z. B. "BgA Photovoltaik")
+            if not (pv.PV_RE.search(ktitel or ktext) and pv.PLANUNG_RE.search(ktext)):
                 continue
             if zustand and zustand.hat(kurl):
                 continue
