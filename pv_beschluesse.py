@@ -225,6 +225,39 @@ class Http:
     def json(self, url: str, **kw):
         return json.loads(self.get(url, **kw))
 
+    def render(self, url: str, warte_ms: int = 4000) -> str | None:
+        """Seite mit Headless-Chromium laden (für JavaScript-Apps). None, wenn Playwright
+        fehlt oder die Seite nicht lädt. robots.txt und Pause gelten wie bei get()."""
+        if not self._erlaubt(url):
+            self.zaehle("robots.txt verbietet")
+            return None
+        if getattr(self, "_pw_fehlt", False):
+            return None
+        try:
+            if not hasattr(self, "_pw"):
+                from playwright.sync_api import sync_playwright
+                self._pw_ctx = sync_playwright().start()
+                self._pw = self._pw_ctx.chromium.launch()
+                self._pw_seite = self._pw.new_page(user_agent=USER_AGENT)
+        except Exception:  # noqa: BLE001
+            self._pw_fehlt = True
+            self.zaehle("Browser nicht verfügbar (Playwright fehlt)")
+            return None
+        host = urlparse(url).netloc
+        wait = self.pause - (time.time() - self.last.get(host, 0))
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            self._pw_seite.goto(url, wait_until="networkidle", timeout=45000)
+            self._pw_seite.wait_for_timeout(warte_ms)
+            html = self._pw_seite.content()
+        except Exception:  # noqa: BLE001
+            self.zaehle("Browser: Seite nicht geladen")
+            return None
+        self.last[host] = time.time()
+        self.zaehle("Seiten im Browser gerendert")
+        return html
+
 
 # --------------------------------------------------------------------------- #
 # Text aus Dokumenten
