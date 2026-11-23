@@ -1,39 +1,39 @@
 {
  "Castrop-Rauxel": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Goch": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Herford": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Krefeld": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Köln": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Langenberg": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Münster": {
   "zuletzt": "2026-11-16"
  },
  "Portal Beteiligung NRW": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Schwalmtal": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Wachtendonk": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Willich": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-23"
  },
  "Wuppertal": {
-  "zuletzt": "2026-11-09"
+  "zuletzt": "2026-11-23"
  },
  "_verworfen": [
   "http://oparl.wuppertal.de/oparl/bodies/0001/papers/vo/27040",
@@ -57,6 +57,42 @@
   "http://oparl.wuppertal.de/oparl/bodies/0001/papers/vo/33526",
   "http://oparl.wuppertal.de/oparl/bodies/0001/papers/vo/33625",
   "http://oparl.wuppertal.de/oparl/bodies/0001/papers/vo/35978",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/24604",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/25420",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/26288",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/26388",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/27086",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/27333",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/28712",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0009/papers/vo/29808",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0011/papers/vo/19782",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16050",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16317",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16515",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16540",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16572",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16755",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16901",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16956",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/16971",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/17340",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/17538",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/17897",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/17969",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/17974",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/18088",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/18138",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/18143",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/18350",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/18540",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/18762",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/18874",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20204",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20292",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20293",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20533",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20650",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20744",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/127991",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/128176",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/128243",
@@ -143,6 +179,8 @@
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcyv1bojWYlZ0HZEGdJ06dk",
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdwj_SrUv8EHKVepr8TuxrU",
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZe3up3hP1Zdfy86mZEtHds8",
+  "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfer1REUwn8i1UimN5H9bW8",
+  "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfuoK69wYTK6sGOWqOoE5Zs",
   "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZR79GzkGkWjSzJhfqCcLy1I",
   "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZROb0BBK10vdTZUyJw6xO-U",
   "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSraKgdpyttM_grDL8dDmBU",
