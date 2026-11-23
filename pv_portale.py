@@ -83,7 +83,7 @@ def _karten(soup: BeautifulSoup, seite: str):
 
 
 def portal_vorlagen(http, q, seit: str | None, zustand=None,
-                    max_seiten: int = 120, max_detail: int = 400):
+                    max_seiten: int = 450, max_detail: int = 400):
     """Generator wie die anderen Adapter. q: Quelle (name, url, bundesland)."""
     import pv_beschluesse as pv  # lazy, vermeidet Zirkelimport
 
@@ -124,6 +124,12 @@ def portal_vorlagen(http, q, seit: str | None, zustand=None,
             if urlparse(absu).netloc != host or absu in gesehen or SKIP_EXT.search(absu):
                 continue
             if LINK_HINT.search(absu) or LINK_HINT.search(a.get_text(" ", strip=True)):
+                queue.append(absu)
+        # Beteiligungsportale (NRW, Sachsen ...): die Karte auf der Startseite/Liste enthält ALLE aktuellen Verfahren
+        # als JSON ("href":"/portal/<kürzel>/beteiligung/themen/<id>"), sichtbar sind aber nur 10 Links
+        for m in dict.fromkeys(re.findall(r'"href":"(/portal/[\w-]+/beteiligung/themen/\d+)"', html)):
+            absu = urljoin(url, m)
+            if absu not in gesehen and absu not in queue:
                 queue.append(absu)
         # Verfahrenskarten (DiPlanung): PV-Verfahren direkt aus der Liste übernehmen
         for kurl, ktext, ktitel in _karten(soup, url):
