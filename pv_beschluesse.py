@@ -900,6 +900,10 @@ def von_dict(d: dict) -> Beschluss:
 
 def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
     """Eine Quelle abrufen. Neue Beschlüsse landen im Zustand z (und werden nie zweimal verarbeitet)."""
+    if q.typ.lower() == "homepage":   # Homepages nur alle 21 Tage neu durchsuchen -> mehrere Läufe decken alle ab
+        zz = z.marke(q.name, "zuletzt")
+        if zz and (dt.date.today() - dt.date.fromisoformat(zz)).days < 21:
+            return
     print(f"→ {q.name} ({q.typ})")
     try:
         typ, url = q.typ.lower(), q.url
@@ -929,6 +933,9 @@ def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
         elif typ == "bremen":
             from pv_bremen import bremen_vorlagen    # Stadt Bremen: Deputation Bau/Mobilität (siehe pv_bremen.py)
             roh_iter = bremen_vorlagen(http, qq, seit, zustand=z)
+        elif typ == "homepage":
+            from pv_homepage import homepage_vorlagen   # Gemeinden ohne RIS: Bekanntmachungen (siehe pv_homepage.py)
+            roh_iter = homepage_vorlagen(http, qq, seit, zustand=z)
         else:
             roh_iter = html_vorlagen(http, qq, seit, zustand=z)
         n = 0

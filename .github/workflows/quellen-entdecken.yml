@@ -15,6 +15,10 @@ on:
       budget:
         description: "Max. neu geprüfte Gemeinden pro Land und Lauf (0 = alle)"
         default: "700"
+      kein_ris_erneut:
+        description: "Gemeinden mit Status kein_ris erneut prüfen (nach Verbesserung der Erkennung)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -77,15 +81,18 @@ jobs:
         env:
           PV_KONTAKT: ${{ vars.PV_KONTAKT }}
         run: |
+          EXTRA=""
+          if [ "${{ inputs.kein_ris_erneut }}" = "true" ]; then EXTRA="--kein-ris-erneut"; fi
           python quellen_entdecken.py \
             --land "${{ matrix.land }}" \
-            --budget ${{ inputs.budget || '700' }}
+            --budget ${{ inputs.budget || '700' }} $EXTRA
       - name: Ergebnis dieses Landes ablegen
         if: always()
         run: |
           mkdir -p shard
           cp quellen_alle.csv shard/quellen_alle.csv
           cp daten/gemeinden.csv shard/gemeinden.csv
+          [ -f quellen_homepage.csv ] && cp quellen_homepage.csv shard/quellen_homepage.csv || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -120,6 +127,7 @@ jobs:
             mkdir -p "shards/$slug"
             cp "$d/quellen_alle.csv" "shards/$slug/quellen_alle.csv"
             cp "$d/gemeinden.csv" "shards/$slug/gemeinden.csv"
+            [ -f "$d/quellen_homepage.csv" ] && cp "$d/quellen_homepage.csv" "shards/$slug/quellen_homepage.csv" || true
           done
           LAENDER=$(python3 -c "import json,os; print('\n'.join(x['land']+'='+x['slug'] for x in json.loads(os.environ['MATRIX'])['include']))")
           mapfile -t ARGS <<< "$LAENDER"
@@ -130,6 +138,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add quellen_alle.csv daten/gemeinden.csv entdeckung
+          git add quellen_alle.csv quellen_homepage.csv daten/gemeinden.csv entdeckung
           git commit -m "Quellen/Gemeindetabelle aktualisiert" || echo "nichts zu committen"
           for i in 1 2 3 4 5 ; do git pull --rebase && git push && break || sleep 5; done

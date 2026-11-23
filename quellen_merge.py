@@ -25,11 +25,13 @@ def main() -> int:
     ap.add_argument("--laender", nargs="+", required=True, help='"Bundesland=slug" je Land, das gelaufen ist')
     ap.add_argument("--quellen", default="quellen_alle.csv")
     ap.add_argument("--gemeinden", default=os.path.join("daten", "gemeinden.csv"))
+    ap.add_argument("--homepage", default="quellen_homepage.csv")
     a = ap.parse_args()
 
     quellen = [{k: (r.get(k) or "") for k in QUELLEN_FELDER} for r in lade_csv(a.quellen)]
     gem = {r["ags"]: {k: (r.get(k) or "") for k in GEM_FELDER} for r in lade_csv(a.gemeinden)}
 
+    homepage = [{k: (r.get(k) or "") for k in QUELLEN_FELDER} for r in lade_csv(a.homepage)]
     uebernommen = 0
     for eintrag in a.laender:
         land, _, slug = eintrag.partition("=")
@@ -44,6 +46,11 @@ def main() -> int:
         neu_g = [r for r in lade_csv(g_pfad) if r.get("land") == land]
         for r in neu_g:
             gem[r["ags"]] = {k: (r.get(k) or "") for k in GEM_FELDER}
+        h_pfad = os.path.join(a.shards, slug, "quellen_homepage.csv")
+        if os.path.exists(h_pfad):
+            homepage = [r for r in homepage if r["bundesland"] != land] + [
+                {k: (r.get(k) or "") for k in QUELLEN_FELDER} for r in lade_csv(h_pfad)
+                if (r.get("bundesland") or "") == land]
         uebernommen += 1
         print(f"{land}: {len(neu_q)} Quellen, {len(neu_g)} Gemeinden übernommen")
 
@@ -51,6 +58,7 @@ def main() -> int:
         print("Nichts zu mergen.")
         return 0
     schreibe_csv(a.quellen, QUELLEN_FELDER, quellen)
+    schreibe_csv(a.homepage, QUELLEN_FELDER, sorted(homepage, key=lambda r: (r["bundesland"], r["name"])))
     schreibe_csv(a.gemeinden, GEM_FELDER, sorted(gem.values(), key=lambda r: (r["land"], r["name"])))
     return 0
 

@@ -53,8 +53,18 @@ RIS_HREF = re.compile(
 RIS_TEXT = re.compile(
     r"ratsinfo|bürgerinfo|buergerinfo|sitzungsdienst|sitzungskalender|gremieninfo|ratsinformation|"
     r"bürgerinformation|allris|sitzungen|gremien|sitzungstermine", re.I)
-SUBDOMAINS = ["ratsinfo", "buergerinfo", "sessionnet", "sitzung", "bi", "ris", "sitzungsdienst"]
-PFADE = ["bi/", "buergerinfo/", "sessionnet/", "ratsinfo/"]
+SUBDOMAINS = ["ratsinfo", "buergerinfo", "sessionnet", "sitzung", "bi", "ris", "sitzungsdienst",
+              "ratsinformation", "session", "allris", "gremien", "sitzungen", "rats-info", "bis"]
+PFADE = ["bi/", "buergerinfo/", "sessionnet/", "ratsinfo/", "allris/", "session/", "ratsinformationssystem/",
+         "sitzungsdienst/", "gremien/"]
+# Gehostete RIS-Anbieter: Links auf diese Hosts sind (fast) immer ein RIS der Gemeinde
+ANBIETER_HOST = re.compile(
+    r"(ratsinfo-online\.net|sitzung-online\.de|ratsinfomanagement\.net|more-rubin\d*\.de|"
+    r"session\.[a-z0-9-]+\.de|sdnet\.|kommunalweb\.de|buergerinfoportal|ris-portal|ratsinfo\.|"
+    r"sitzungsdienst\.|buergerinfo\.|allris\.|\bsessionnet\.|\bbi\.[a-z0-9-]+\.(de|net)|"
+    r"gremieninfo|ratsinformation\.)", re.I)
+# Anbieter, die wir (noch) nicht auslesen können – nur zur Statistik in 'hinweis'
+ANBIETER_UNBEKANNT = re.compile(r"(kdz|komm\.one|gemeinde-?portal|vgem|amt-?portal|ratsinfo\.at)", re.I)
 
 
 # --------------------------------------------------------------------------- #
@@ -149,6 +159,8 @@ def links_der_seite(http: pv.Http, url: str) -> list[tuple[int, str]]:
         if not href.startswith("http") or re.search(r"\.(pdf|docx?|xlsx?|jpe?g|png|zip)$", href, re.I):
             continue
         s = (2 if RIS_HREF.search(href) else 0) + (1 if RIS_TEXT.search(a.get_text(" ", strip=True)) else 0)
+        if ANBIETER_HOST.search(urlparse(href).netloc):
+            s += 3
         if s:
             res.append((s, href))
     return res
@@ -158,15 +170,40 @@ def kandidaten(http: pv.Http, home: str) -> list[str]:
     stufe1 = sorted(set(links_der_seite(http, home)), reverse=True)
     cands = [u for _, u in stufe1]
     host = urlparse(home).netloc
-    for s, u in stufe1[:5]:
-        if urlparse(u).netloc == host and s == 1:
+    # zweite Ebene: Unterseiten wie "Rathaus", "Politik", "Bürgerservice" (Sitzungsdienst steckt oft dort)
+    for s, u in stufe1[:8]:
+        if urlparse(u).netloc == host and s <= 2:
             cands += [x for sc, x in links_der_seite(http, u) if sc >= 2]
-    return list(dict.fromkeys(cands))[:8]
+    for _, u in links_der_seite_menue(http, home)[:6]:
+        cands += [x for sc, x in links_der_seite(http, u) if sc >= 2]
+    return list(dict.fromkeys(cands))[:14]
+
+
+MENUE_TEXT = re.compile(r"rathaus|politik|gemeindevertretung|stadtverordneten|gemeinderat|"
+                        r"bürgerservice|buergerservice|verwaltung|politik\s*&|stadtrat|kreistag", re.I)
+
+
+def links_der_seite_menue(http: pv.Http, url: str) -> list[tuple[int, str]]:
+    """Links der Startseite auf Menüpunkte wie Rathaus/Politik (gleicher Host)."""
+    try:
+        soup = BeautifulSoup(http.get(url), "html.parser")
+    except Exception:  # noqa: BLE001
+        return []
+    host = urlparse(url).netloc
+    res = []
+    for a in soup.find_all("a", href=True):
+        href = urljoin(url, a["href"]).split("#")[0]
+        if urlparse(href).netloc == host and MENUE_TEXT.search(a.get_text(" ", strip=True)) \
+                and not re.search(r"\.(pdf|docx?|jpe?g|png)$", href, re.I):
+            res.append((1, href))
+    return list(dict.fromkeys(res))
 
 
 def pruefe(http: pv.Http, url: str):
     base = norm_basis(url)
     if "ratsinfo-online.net" in base:
+        return "auto", base
+    if re.search(r"sitzung-online\.de|ratsinfomanagement\.net|more-rubin", base, re.I):
         return "auto", base
     try:
         o = pv.oparl_entdecken(http, base)
@@ -209,6 +246,41 @@ def oparl_endpunkte(http: pv.Http) -> dict[str, tuple[str, str]]:
 
 
 # --------------------------------------------------------------------------- #
+def amt_zuordnen(tab: dict, laender: list[str], eintragen) -> None:
+    """Gemeinden eines Amts/einer Verbandsgemeinde teilen sich das RIS des Amts. Hat eine Gemeinde
+    eines Amts ein RIS gefunden, bekommen die übrigen Gemeinden mit demselben Amt dasselbe."""
+    je_amt: dict[tuple[str, str], dict] = {}
+    for g in tab.values():
+        if g["land"] in laender and g["amt"] and g["ris_status"] == "gefunden" and g["ris_url"]:
+            je_amt.setdefault((g["land"], g["amt"]), g)
+    n = 0
+    for g in tab.values():
+        if g["land"] not in laender or not g["amt"] or g["ris_status"] in ("gefunden", "gesperrt"):
+            continue
+        quelle = je_amt.get((g["land"], g["amt"]))
+        if quelle:
+            eintragen(g, quelle["ris_typ"], quelle["ris_url"])
+            n += 1
+    if n:
+        print(f"Amtsebene: {n} Gemeinden dem RIS ihres Amts zugeordnet")
+
+
+def homepage_liste(tab: dict, laender: list[str], pfad: str) -> None:
+    """Gemeinden ohne RIS, aber mit Homepage -> Quellenliste für den Bekanntmachungs-Crawler (typ 'homepage')."""
+    alt = {r["url"]: r for r in lade_csv(pfad)}
+    neu = 0
+    for g in tab.values():
+        if g["land"] not in laender or g["ris_status"] != "kein_ris" or not g["web"]:
+            continue
+        if g["web"] not in alt:
+            alt[g["web"]] = {"name": g["name"], "landkreis": g["landkreis"], "typ": "homepage",
+                             "url": g["web"], "bundesland": g["land"], "hinweis": "kein RIS; Bekanntmachungen"}
+            neu += 1
+    zeilen = sorted(alt.values(), key=lambda r: (r["bundesland"], r["name"]))
+    schreibe_csv(pfad, QUELLEN_FELDER, zeilen)
+    print(f"Homepage-Quellen: {neu} neu, {len(zeilen)} gesamt → {pfad}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--land", nargs="+", default=["Brandenburg"], choices=sorted(BUNDESLAENDER) + ["alle"])
@@ -218,6 +290,10 @@ def main() -> int:
     ap.add_argument("--budget", type=int, default=0, help="max. neu geprüfte Gemeinden pro Lauf (0 = alle)")
     ap.add_argument("--recheck-tage", type=int, default=90, help="ohne RIS gefundene Gemeinden erst nach X Tagen erneut")
     ap.add_argument("--raten", action="store_true", help="auch typische Subdomains/Pfade probieren")
+    ap.add_argument("--kein-ris-erneut", action="store_true",
+                    help="Gemeinden mit Status kein_ris unabhängig vom Alter erneut prüfen (nach Erkennungs-Verbesserung)")
+    ap.add_argument("--homepage-quellen", default="quellen_homepage.csv",
+                    help="Liste der Gemeinden ohne RIS, deren Homepage nach Bekanntmachungen durchsucht wird")
     ap.add_argument("--nur-gemeinden", action="store_true", help="nur Gemeindetabelle (Koordinaten) aktualisieren")
     ap.add_argument("--pause", type=float, default=0.7)
     a = ap.parse_args()
@@ -276,7 +352,7 @@ def main() -> int:
         for g in tab.values():
             if g["land"] != land or g["ris_status"] == "gefunden" or g["ris_status"] == "gesperrt":
                 continue
-            if g["geprueft_am"]:
+            if g["geprueft_am"] and not (a.kein_ris_erneut and g["ris_status"] == "kein_ris"):
                 alter = (heute - dt.date.fromisoformat(g["geprueft_am"])).days
                 if alter < a.recheck_tage:
                     continue
@@ -293,9 +369,9 @@ def main() -> int:
                 print("– keine Homepage in Wikidata")
                 continue
             cands = kandidaten(http, g["web"])
-            if a.raten and not cands:
-                cands = raten(urlparse(g["web"]).netloc)
             gefunden = next((x for x in (pruefe(http, u) for u in cands) if x), None)
+            if not gefunden:   # Rückfall: typische Subdomains/Pfade raten (jetzt immer, nicht nur mit --raten)
+                gefunden = next((x for x in (pruefe(http, u) for u in raten(urlparse(g["web"]).netloc)) if x), None)
             if not gefunden:
                 g.update(ris_status="kein_ris", geprueft_am=heute.isoformat())
                 print("– kein RIS erkannt")
@@ -311,7 +387,9 @@ def main() -> int:
             print(f"! Fehler: {e}")
         if i % 25 == 0:
             sichern()
+    amt_zuordnen(tab, laender, eintragen)
     sichern()
+    homepage_liste(tab, laender, a.homepage_quellen)
 
     zaehle = {}
     for g in tab.values():
