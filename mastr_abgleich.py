@@ -76,25 +76,36 @@ def wahl(spalten: list[str], arten: tuple[str, ...]) -> str | None:
     return None
 
 
-def zeilen_aus_db(pfad: str):
+def zeilen_aus_db(pfad: str, protokoll: str = ""):
     con = sqlite3.connect(pfad)
     tabellen = [r[0] for r in con.execute("select name from sqlite_master where type in ('table','view')")]
-    print("Tabellen:", ", ".join(tabellen))
+    print("Tabellen:", ", ".join(tabellen), flush=True)
+    info = ["Tabellen: " + ", ".join(tabellen)]
+    wahl_t = None
     for t in [x for x in tabellen if "solar" in x.lower()]:
         cur = con.execute(f'select * from "{t}" limit 1')
         cols = [d[0] for d in cur.description]
-        if wahl(cols, SPALTEN["gemeinde"]) and wahl(cols, SPALTEN["lage"]):
-            print(f"Nutze Tabelle {t} ({len(cols)} Spalten)")
-            cur = con.execute(f'select * from "{t}"')
-            cols = [d[0] for d in cur.description]
-            while True:
-                block = cur.fetchmany(50000)
-                if not block:
-                    break
-                for r in block:
-                    yield dict(zip(cols, r))
-            return
-    raise SystemExit("Keine Solar-Tabelle mit Gemeinde und Lage gefunden")
+        n = con.execute(f'select count(*) from "{t}"').fetchone()[0]
+        info.append(f"\n## {t} ({n} Zeilen)\n" + ", ".join(cols))
+        print(f"{t}: {n} Zeilen, Spalten: {', '.join(cols)}", flush=True)
+        if wahl_t is None and (wahl(cols, SPALTEN["gemeinde"]) or wahl(cols, SPALTEN["ags"])) \
+                and wahl(cols, SPALTEN["lage"]):
+            wahl_t = t
+    if protokoll:   # Spalten immer ablegen, damit sich Namen prüfen lassen
+        os.makedirs(os.path.dirname(protokoll) or ".", exist_ok=True)
+        open(protokoll, "w", encoding="utf-8").write("\n".join(info) + "\n")
+    if not wahl_t:
+        raise SystemExit("Keine Solar-Tabelle mit Gemeinde/Gemeindeschlüssel und Lage gefunden – "
+                         "Spaltennamen siehe Ausgabe oder entdeckung/mastr_spalten.txt")
+    print(f"Nutze Tabelle {wahl_t}", flush=True)
+    cur = con.execute(f'select * from "{wahl_t}"')
+    cols = [d[0] for d in cur.description]
+    while True:
+        block = cur.fetchmany(50000)
+        if not block:
+            break
+        for r in block:
+            yield dict(zip(cols, r))
 
 
 def zeilen_aus_csv(pfad: str):
@@ -179,7 +190,7 @@ def main() -> int:
     if not (a.db or a.csv):
         ap.error("--db oder --csv angeben")
 
-    zeilen = zeilen_aus_db(os.path.expanduser(a.db)) if a.db else zeilen_aus_csv(a.csv)
+    zeilen = zeilen_aus_db(os.path.expanduser(a.db), os.path.join(a.out, "mastr_spalten.txt")) if a.db else zeilen_aus_csv(a.csv)
     gem, lagen, stati = aggregiere(zeilen, a.min_mw, a.reg_ab)
     reg = lade_register(a.register)
     tab = list(csv.DictReader(open(a.gemeinden, encoding="utf-8"))) if os.path.exists(a.gemeinden) else []

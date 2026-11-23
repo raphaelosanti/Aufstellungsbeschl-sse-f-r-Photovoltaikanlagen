@@ -140,6 +140,13 @@ def portal_vorlagen(http, q, seit: str | None, zustand=None,
                 continue
             detail_n += 1
             http.zaehle("Portal: Treffer (Verfahrenskarte)")
+            detail = ""
+            if "/public/detail" in kurl or "/verfahren/" in kurl:   # JS-Detailseite: nur im Browser lesbar
+                g = http.render(kurl)
+                if g:
+                    detail = pv.html_text(g)[:12000]
+                    kdatum = kdatum or pv.erstes_datum(detail)
+            ktext = ktext + ("\n" + detail if detail else "")
             yield {"titel": ktitel, "datum": kdatum, "text": f"{q.name}\n{ktext}",
                    "link": kurl, "dokument_link": "", "body_name": q.name, "schluessel": kurl}
         # Treffer: Seite mit PV-Bezug und Planungsbezug (nicht die Startseite)

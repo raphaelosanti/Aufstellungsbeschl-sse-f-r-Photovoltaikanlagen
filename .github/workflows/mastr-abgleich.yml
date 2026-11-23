@@ -22,18 +22,31 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt open-mastr
+      - uses: actions/cache/restore@v4
+        id: mastrcache
+        with:
+          path: ~/.open-MaStR
+          key: mastr-${{ github.run_id }}
+          restore-keys: mastr-
       - name: MaStR-Gesamtdatenexport laden (nur Solar)
+        if: steps.mastrcache.outputs.cache-matched-key == '' || github.event_name == 'schedule'
         run: |
           python - <<'PY'
           from open_mastr import Mastr
           Mastr().download(method="bulk", data=["solar"])
           PY
+      - uses: actions/cache/save@v4
+        if: steps.mastrcache.outputs.cache-matched-key == '' || github.event_name == 'schedule'
+        with:
+          path: ~/.open-MaStR
+          key: mastr-${{ github.run_id }}
       - name: Abgleich
         run: python mastr_abgleich.py --db ~/.open-MaStR/data/sqlite/open-mastr.db
       - name: Ergebnis committen
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add entdeckung/mastr_gemeinden.csv entdeckung/mastr_bericht.md
+          git add entdeckung/mastr_gemeinden.csv entdeckung/mastr_bericht.md entdeckung/mastr_spalten.txt
           git commit -m "MaStR-Abgleich aktualisiert" || echo "nichts zu committen"
           for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
