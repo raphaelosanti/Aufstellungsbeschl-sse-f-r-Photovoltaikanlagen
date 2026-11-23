@@ -1,3 +1,30 @@
 {
- "_verworfen": []
+ "Klein Pampau": {
+  "si_max": 19594,
+  "zuletzt": "2026-11-23"
+ },
+ "Krokau": {
+  "si_max": 17950,
+  "zuletzt": "2026-11-23"
+ },
+ "Neumünster": {
+  "si_max": 9776,
+  "zuletzt": "2026-11-23"
+ },
+ "Neustadt in Holstein": {
+  "zuletzt": "2026-11-23"
+ },
+ "_verworfen": [
+  "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89520",
+  "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89561",
+  "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89578",
+  "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=90751",
+  "https://ratsinfo.amt-probstei.de/bi/vo0050.php?__kvonr=19094",
+  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=10920",
+  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11062",
+  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11177",
+  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11382",
+  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11471",
+  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13597"
+ ]
 }
