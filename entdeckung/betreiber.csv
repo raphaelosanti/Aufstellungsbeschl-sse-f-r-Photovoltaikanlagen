@@ -1,19 +1,127 @@
 betreiber,bundesland,plattform,adapter,status,anzahl_gemeinden,in_quellen_alle,url,landkreise,gemeinden
+rim.ekom21.de,Hessen,ekom21 (OParl),ja (OParl),gefunden,24,ja,https://rim.ekom21.de/aarbergen/webservice/oparl/v1.1/system,Gießen; Groß-Gerau; Hochtaunuskreis; Lahn-Dill-Kreis; Limburg-Weilburg; Marburg-Biedenkopf; Rheingau-Taunus-Kreis; Schwalm-Eder-Kreis; Vogelsbergkreis; Waldeck-Frankenberg; Werra-Meißner-Kreis; Wetteraukreis,Aarbergen; Bad Arolsen; Cölbe; Ehringshausen; Eschenburg; Eschwege; Fernwald; Gilserberg; Gladenbach; Glashütten; Großalmerode; Guxhagen; Hessisch Lichtenau; Homberg (Efze); Homberg (Ohm); Lichtenfels; Mengerskirchen; Neu-Anspach; Ortenberg; Rüsselsheim am Main; Schmitten im Taunus; Schwarzenborn; Waldbrunn; Willingen (Upland)
 sdnetrim.kdvz-frechen.de,Nordrhein-Westfalen,kdvz-frechen.de (OParl),ja (OParl),gefunden,18,ja,https://sdnetrim.kdvz-frechen.de/rim4780/webservice/oparl/v1.1/system,Herzogtum Jülich; Kreis Düren; Kreis Euskirchen; Regierungsbezirk Düsseldorf; Rhein-Erft-Kreis,Bedburg; Bergheim; Erftstadt; Hürtgenwald; Inden; Jülich; Kall; Kreuzau; Langerwehe; Linnich; Merzenich; Nettersheim; Nörvenich; Pulheim; Solingen; Titz; Vettweiß; Weilerswist
-rim.ekom21.de,Hessen,ekom21 (OParl),ja (OParl),gefunden,16,ja,https://rim.ekom21.de/aarbergen/webservice/oparl/v1.1/system,Gießen; Hochtaunuskreis; Lahn-Dill-Kreis; Limburg-Weilburg; Marburg-Biedenkopf; Rheingau-Taunus-Kreis; Schwalm-Eder-Kreis; Vogelsbergkreis; Waldeck-Frankenberg; Werra-Meißner-Kreis; Wetteraukreis,Aarbergen; Cölbe; Ehringshausen; Eschwege; Fernwald; Glashütten; Großalmerode; Guxhagen; Hessisch Lichtenau; Homberg (Efze); Homberg (Ohm); Ortenberg; Schmitten im Taunus; Schwarzenborn; Waldbrunn; Willingen (Upland)
+suedeifel.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,13,ja,https://suedeifel.gremien.info/oparl/system,Eifelkreis Bitburg-Prüm; Verbandsgemeinde Südeifel,Affler; Alsdorf; Altscheid; Ammeldingen an der Our; Bauler; Berscheid; Biesdorf; Burg; Dauwelshausen; Fischbach-Oberraden; Gemünd; Gentingen; Gilzem
 ratsinfo.kitu-genossenschaft.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,13,ja,https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/,Börde; Harz; Jerichowscher Kreis; Kreis Osterburg; Stendal,Arneburg; Burgstall; Eichstedt; Goldbeck; Hassel; Hohenberg-Krusemark; Iden; Ilsenburg; Jerichow; Rochau; Werben; Westheide; Wolmirstedt
+amt-itzehoe-land.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,10,ja,https://www.amt-itzehoe-land.de/amt-und-gemeinden/kennenlernen/buergerinformation-des-amtes/,Kreis Steinburg,Bekdorf; Bekmünde; Drage; Hodorf; Hohenaspe; Huje; Kleve; Krummendiek; Lohbarbek; Moorhusen
 ratsinfo-online.net/britzchorinoderberg-bi,Brandenburg,ratsinfo-online.net,teilweise (auto),gefunden,7,ja,https://ratsinfo-online.net/britzchorinoderberg-bi/,Barnim,Britz; Chorin; Hohenfinow; Liepe; Lunow-Stolzenhagen; Oderberg; Parsteinsee
 amtpeitz.de,Brandenburg,SessionNet (Somacos),ja,gefunden,7,ja,https://www.amtpeitz.de/sessionnet/buergerinfo/,Spree-Neiße,Drachhausen; Drehnow; Jänschwalde; Peitz; Tauer; Teichland; Turnow-Preilack
 verwaltungsamt-helbra.eu,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,7,ja,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,Verbandsgemeinde Mansfelder Grund-Helbra,Ahlsdorf; Benndorf; Blankenheim; Bornstedt; Helbra; Hergisdorf; Klostermansfeld
+amt-nordstormarn.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,7,ja,https://www.amt-nordstormarn.de/buergerinformationssystem/oparl/1.0/system.asp,Kreis Stormarn,Badendorf; Barnitz; Feldhorst; Hamberge; Heidekamp; Heilshoop; Mönkhagen
+ris.darss-fischland.de/bi,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,6,ja,https://ris.darss-fischland.de/bi/,,Ahrenshoop; Born a. Darß; Dierhagen; Prerow; Wieck a. Darß; Wustrow
+vordereifel.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,6,ja,https://www.vordereifel.de/politik/rats-und-buergerinformationssystem/,Mayen-Koblenz,Acht; Anschau; Arft; Baar; Bermel; Ditscheid
+lauterecken.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,6,ja,https://lauterecken.gremien.info/oparl/system,Kusel; Verbandsgemeinde Lauterecken-Wolfstein,Adenbach; Buborn; Cronenberg; Ginsweiler; Glanbrücken; Grumbach
+ratsinfo.vgka.de,Rheinland-Pfalz,ALLRIS (CC e-gov),teilweise (HTML),gefunden,6,ja,https://ratsinfo.vgka.de/ri/,Verbandsgemeinde Kusel-Altenglan,Altenglan; Bedesbach; Bosenbach; Elzweiler; Etschberg; Föckelberg
+hachenburg.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,6,ja,https://hachenburg.gremien.info/oparl/system,Verbandsgemeinde Hachenburg,Astert; Atzelgift; Borod; Dreifelden; Gehlert; Giesenhausen
 buergerinfo.barnim-oderbruch.de,Brandenburg,SessionNet (Somacos),ja,gefunden,5,ja,http://buergerinfo.barnim-oderbruch.de/,Märkisch-Oderland,Bliesdorf; Neulewin; Oderaue; Prötzel; Reichenow-Möglin
-ris.darss-fischland.de/bi,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,2,ja,https://ris.darss-fischland.de/bi/,,Ahrenshoop; Born a. Darß
-session.amt-barth.de/bi,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,2,ja,https://session.amt-barth.de/bi/,Herzogtum Pommern; Saal,Bartelshagen II b. Barth; Barth
+session.amt-barth.de/bi,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,5,ja,https://session.amt-barth.de/bi/,; Herzogtum Pommern; Saal,Bartelshagen II b. Barth; Barth; Divitz-Spoldershagen; Karnin; Saal
+ris.bothel.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,5,ja,https://ris.bothel.de/bi/,Rotenburg (Wümme),Bothel; Brockel; Hemsbünde; Hemslingen; Kirchwalsede
+ratsportal.hesel.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,5,ja,https://ratsportal.hesel.de/bi/,Leer,Brinkum; Firrel; Hesel; Holtland; Neukamperfehn
+montabaur.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,5,ja,https://montabaur.gremien.info/oparl/system,Verbandsgemeinde Montabaur,Boden; Daubach; Gackenbach; Girod; Großholbach
+sessionnet.amt-buechen.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,5,ja,https://sessionnet.amt-buechen.de/ri/,Kreis Herzogtum Lauenburg,Besenthal; Bröthen; Büchen; Fitzen; Göttin
+soegel.ratsinfomanagement.net,Niedersachsen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,4,ja,https://soegel.ratsinfomanagement.net/webservice/oparl/v1.1/system,Emsland,Börger; Groß Berßen; Hüven; Klein Berßen
+ohrdruf.de,Thüringen,SessionNet (Somacos),ja,gefunden,4,ja,https://www.ohrdruf.de/unsere-stadt/stadtrat/ratsinfo/,Gotha; Ohrdruf,Crawinkel; Gräfenhain; Luisenthal; Ohrdruf
+buergerinfo-dingelstaedt.digitalfabrix.de,Thüringen,SessionNet (Somacos),ja,gefunden,4,ja,https://buergerinfo-dingelstaedt.digitalfabrix.de/,Dingelstädt; Eichsfeld,Dingelstädt; Helmsdorf; Kefferhausen; Kreuzebra
+samtgemeinde-oderwald.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,3,ja,https://www.samtgemeinde-oderwald.de/B%C3%BCrgerservice-Informationen/B%C3%BCrger-und-Ratsinformationssystem/,Wolfenbüttel,Börßum; Flöthe; Heiningen
+buergerinfo.holtriem.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,3,ja,https://buergerinfo.holtriem.de/,Wittmund,Eversmeer; Nenndorf; Neuschoo
+ris.sittensen.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,3,ja,https://ris.sittensen.de/sessionnet/bi/,Rotenburg (Wümme),Hamersen; Kalbe; Lengenbostel
+westerburg.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,3,ja,https://westerburg.gremien.info/oparl/system,Eifelkreis Bitburg-Prüm; Verbandsgemeinde Westerburg,Ailertchen; Brandscheid; Brandscheid
+ulmen.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,3,ja,https://www.ulmen.de/rathaus-gemeinden/ratsinformationssystem/,Cochem-Zell,Auderath; Beuren; Filz
+emmelshausen.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,3,ja,https://emmelshausen.gremien.info/oparl/system,Rhein-Hunsrück-Kreis,Badenhard; Birkheim; Mühlpfad
+hamm-sieg.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,3,ja,https://www.hamm-sieg.de/de/verwaltung-politik/politik-gremienarbeit/ratsinformationssystem/,Altenkirchen,Birkenbeul; Breitscheidt; Forst
+vgdaaden.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,3,ja,https://vgdaaden.gremien.info/oparl/system,Altenkirchen,Derschen; Emmerzhausen; Friedewald
+amt-geest-und-marsch-suedholstein.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,3,ja,https://www.amt-geest-und-marsch-suedholstein.de/buergerservice-politik/politik/buerger-ratsinformationssystem/,Kreis Pinneberg,Heist; Holm; Neuendeich
+ratsinfo.heilbad-heiligenstadt.de/bi,Thüringen,SessionNet (Somacos),ja,gefunden,3,ja,https://ratsinfo.heilbad-heiligenstadt.de/bi/,Eichsfeld; Heilbad Heiligenstadt,Bernterode; Glasehausen; Heilbad Heiligenstadt
+vg-windach.de,Bayern,SessionNet (Somacos),ja,gefunden,2,ja,https://vg-windach.de/buergerinformationssystem/,Landsberg am Lech,Eresing; Finning
+ssl.ratsinfo-online.net,Brandenburg,ratsinfo-online.net,teilweise (auto),gesperrt,2,ja,https://ssl.ratsinfo-online.net/schwielowsee-bi/,Potsdam-Mittelmark; Sächsische Schweiz-Osterzgebirge,Dohma; Schwielowsee
+ris.bersenbrueck.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,2,ja,https://ris.bersenbrueck.de/bi/,Osnabrück,Ankum; Bersenbrück
+lengerich.gremien.info,Niedersachsen,gremien.info (OParl),ja (OParl),gefunden,2,ja,https://lengerich.gremien.info/oparl/system,Emsland,Bawinkel; Lengerich
+ris.zeven.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,2,ja,https://ris.zeven.de/sessionnet/bi/,Rotenburg (Wümme),Elsdorf; Heeslingen
+ratsinfo.gartow.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,2,ja,https://ratsinfo.gartow.de/bi/,Lüchow-Dannenberg,Gartow; Höhbeck
+lamspringe.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,2,ja,http://www.lamspringe.de/buergerinformationssystem/vo040.asp,Hildesheim; Lamspringe,Harbarnsen; Lamspringe
+herzlakeris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,2,ja,https://herzlakeris.itebo.de/bi/,Emsland,Herzlake; Lähden
+rhein-selz.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,2,ja,https://rhein-selz.gremien.info/oparl/system,Verbandsgemeinde Rhein-Selz,Dolgesheim; Dorn-Dürkheim
+maifeld.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,2,ja,https://www.maifeld.de/rathaus-buergerservice/ratsinformationssystem/ratsinformationssystem/,Verbandsgemeinde Maifeld,Einig; Gappenach
+lambrecht.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,2,ja,https://lambrecht.gremien.info/oparl/system,Verbandsgemeinde Lambrecht (Pfalz),Esthal; Frankeneck
+ratsinfo-online.net/frohburg-bi,Sachsen,ratsinfo-online.net,teilweise (auto),gefunden,2,ja,https://ratsinfo-online.net/frohburg-bi/,Frohburg; Leipzig,Frohburg; Kohren-Sahlis
 ratsinfo-online.net/vgunstruttal-bi,Sachsen-Anhalt,ratsinfo-online.net,teilweise (auto),gesperrt,2,ja,https://ratsinfo-online.net/vgunstruttal-bi/,Burgenlandkreis,Balgstädt; Gleina
 weida-land.gremien.info,Sachsen-Anhalt,gremien.info (OParl),ja (OParl),gefunden,2,ja,https://weida-land.gremien.info/oparl/system,Saalekreis,Schraplau; Steigra
+mitteldithmarschen.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,2,ja,https://www.mitteldithmarschen.de/verwaltung-politik/im-dienste-der-buerger/gremieninformationssystem/,Kreis Dithmarschen,Barlt; Nindorf
+amt-bokhorst-wankendorf.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,2,ja,https://amt-bokhorst-wankendorf.de/ratsinformation/,Kreis Plön,Belau; Großharrie
+amt-daenischenhagen.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,2,ja,https://www.amt-daenischenhagen.de/amt_daenischenhagen/Politik/Ratsinformation/,Kreis Rendsburg-Eckernförde,Dänischenhagen; Noer
 itzstedt.sitzung-online.de/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,2,ja,https://www.itzstedt.sitzung-online.de/bi/oparl/1.0/system.asp,Kreis Segeberg,Itzstedt; Kayhude
+ri.lrakyf.de,Thüringen,SessionNet (Somacos),ja,gefunden,2,ja,https://ri.lrakyf.de/,Kyffhäuserkreis,Borxleben; Mönchpfiffel-Nikolausrieth
+ris.neustadtanderorla.de,Thüringen,SessionNet (Somacos),ja,gefunden,2,ja,https://ris.neustadtanderorla.de/,Erfüllende Gemeinde Neustadt an der Orla; Saale-Orla-Kreis,Linda bei Neustadt an der Orla; Neustadt an der Orla
+ris.aichwald.de/buergerinfo,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://ris.aichwald.de/buergerinfo/,Esslingen,Aichwald
+altshausen.de,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://www.altshausen.de/de/rathaus-gemeinderat/gremien-wahlen/gemeinderat-ausschuesse/,Gemeindeverwaltungsverband Altshausen,Altshausen
+ratsinfo.aulendorf.de/bi,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.aulendorf.de/bi/,Ravensburg,Aulendorf
+buergerinfo.badrappenau.de,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.badrappenau.de/,Heilbronn,Bad Rappenau
+service.bad-schussenried.de/buergerinfo,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://service.bad-schussenried.de/buergerinfo/,Biberach,Bad Schussenried
+berg-schussental.de,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,http://www.berg-schussental.de/de/rathaus-service/politik/ratsinformationssystem/,Gemeindeverwaltungsverband Mittleres Schussental,Berg
+berglen.de,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://www.berglen.de/rathaus-service/gemeinderat/ratsinformationssystem/,Rems-Murr-Kreis,Berglen
+sessionnet.besigheim.de/bi,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet.besigheim.de/bi/,Gemeindeverwaltungsverband Besigheim,Besigheim
+buehlertal.de,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://www.buehlertal.de/home/meine-anliegen/online-services/online-buergerinfoportal/,Rastatt,Bühlertal
 ris.freiburg.de,Baden-Württemberg,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.freiburg.de/oparl,Baden,Freiburg im Breisgau
 lahr.ratsinfomanagement.net,Baden-Württemberg,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://lahr.ratsinfomanagement.net/webservice/oparl/v1.1/system,Ortenaukreis,Lahr/Schwarzwald
 buergerinfo.ulm.de,Baden-Württemberg,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.ulm.de/oparl/system,Regierungsbezirk Tübingen,Ulm
+buergerinfo.ahorntal.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.ahorntal.de/,Bayreuth,Ahorntal
+ratsinfo-vg-aiterhofen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-vg-aiterhofen.digitalfabrix.de/,Straubing-Bogen,Aiterhofen
+ratsinfo-aldersbach.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-aldersbach.digitalfabrix.de/,Passau,Aldersbach
+altdorf.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://www.altdorf.de/datei/de/stadt/-/3643/extLink/,Nürnberger Land,Altdorf bei Nürnberg
+buergerinfo-stadtprozelten.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo-stadtprozelten.de/,Miltenberg,Altenbuch
+buergerinfo-altusried.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-altusried.digitalfabrix.de/,Oberallgäu,Altusried
+buergerinfo-amorbach.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo-amorbach.de/,Miltenberg,Amorbach
+buergerinfo-ampfing.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-ampfing.digitalfabrix.de/,Mühldorf am Inn,Ampfing
+buergerinfo-baar-ebenhausen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-baar-ebenhausen.digitalfabrix.de/,Pfaffenhofen an der Ilm,Baar-Ebenhausen
+buergerinfo.bad-neustadt.net,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.bad-neustadt.net/,Rhön-Grabfeld,Bad Neustadt an der Saale
+buergerinfo-bad-staffelstein.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-bad-staffelstein.digitalfabrix.de/,Lichtenfels,Bad Staffelstein
+buergerinfo-bayerisch-eisenstein.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-bayerisch-eisenstein.digitalfabrix.de/,Regen,Bayerisch Eisenstein
+bayerisch.gmain.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://www.bayerisch.gmain.de/gemeinde-bayerisch-gmain/buergerinfo-portal/,Berchtesgadener Land,Bayerisch Gmain
+gemeinde.berchtesgaden.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://www.gemeinde.berchtesgaden.de/buergerinfo-portal-1/,Berchtesgadener Land,Berchtesgaden
+bergkirchen.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://www.bergkirchen.de/meta/ratsinfo/,Dachau,Bergkirchen
+buergerinfo-vg-wartenberg.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vg-wartenberg.digitalfabrix.de/,Erding,Berglern
+buergerinfo-bernried.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-bernried.digitalfabrix.de/,Deggendorf,Bernried
+buergerinfo-vgem-betzenstein.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vgem-betzenstein.digitalfabrix.de/,Bayreuth,Betzenstein
+stadt-bobingen.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://www.stadt-bobingen.de/rathaus-service/energiestadt-bobingen/buergerinfo-energie/,Augsburg,Bobingen
+ratsinfo.bogen.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://ratsinfo.bogen.de/,Straubing-Bogen,Bogen
+bruckberg.org,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://www.bruckberg.org/ratsinformationssystem/,Landshut,Bruckberg
+buergerinfo-burghausen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-burghausen.digitalfabrix.de/,Altötting,Burghausen
+buergerinfo-vg-bad-neustadt.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vg-bad-neustadt.digitalfabrix.de/,Rhön-Grabfeld,Burglauer
+buergerinfo-vg-ottobeuren.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vg-ottobeuren.digitalfabrix.de/,Unterallgäu,Böhen
+buergstadt.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://www.buergstadt.de/gemeinderat/buergerinfoportal/,Miltenberg,Bürgstadt
+buergerinfo.cadolzburg.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.cadolzburg.de/,Fürth,Cadolzburg
+buergerinfo-vgem-creussen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vgem-creussen.digitalfabrix.de/,Bayreuth,Creußen
+buergerinfo-denklingen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-denklingen.digitalfabrix.de/,Landsberg am Lech,Denklingen
+buergerinfo-dietenhofen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-dietenhofen.digitalfabrix.de/,Ansbach,Dietenhofen
+ri.dorfen.de/bi,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ri.dorfen.de/bi/,Erding,Dorfen
+dorfprozelten.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://www.dorfprozelten.de/rathaus-verwaltung/gemeinderat/sitzungskalender/,Miltenberg,Dorfprozelten
+buergerinfo-doehlau.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-doehlau.digitalfabrix.de/,Hof,Döhlau
+bi.stadtrat-ebern.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://bi.stadtrat-ebern.de/,Haßberge,Ebern
+buergerinfo.ebersdorf.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.ebersdorf.de/,Coburg,Ebersdorf bei Coburg
+buergerinfo-eching.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-eching.digitalfabrix.de/,Freising,Eching
+buergerinfo-vg-effeltrich.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vg-effeltrich.digitalfabrix.de/,Forchheim,Effeltrich
+eggenfelden.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://www.eggenfelden.de/rathaus-eggenfelden/ris-ratsinformationssystem/,Rottal-Inn,Eggenfelden
+ratsinfo-vg-oberding.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-vg-oberding.digitalfabrix.de/,Erding,Eitting
+buergerinfo-elsenfeld.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-elsenfeld.digitalfabrix.de/,Miltenberg,Elsenfeld
+buergerinfo-emskirchen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-emskirchen.digitalfabrix.de/,Neustadt an der Aisch-Bad Windsheim,Emskirchen
+ratsinfo-erding.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-erding.digitalfabrix.de/,Erding,Erding
+stadt-erlenbach.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,http://www.stadt-erlenbach.de/stadt-buerger/buergerinformationssystem/,Miltenberg,Erlenbach am Main
+buergerinfo-eschau.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-eschau.digitalfabrix.de/,Miltenberg,Eschau
+ratsinfo-feldafing.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-feldafing.digitalfabrix.de/,Starnberg,Feldafing
+buergerinfo-frensdorf.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-frensdorf.digitalfabrix.de/,Bamberg,Frensdorf
+buergerinfo-friedberg.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-friedberg.digitalfabrix.de/,Aichach-Friedberg,Friedberg
+buergerinfo-vg-fuchstal.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vg-fuchstal.digitalfabrix.de/,Landsberg am Lech,Fuchstal
+ratsinfo-gablingen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-gablingen.digitalfabrix.de/,Augsburg,Gablingen
+ratsinfo-gauting.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-gauting.digitalfabrix.de/,Starnberg,Gauting
+ratsinfo-geiselhoering.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-geiselhoering.digitalfabrix.de/,Straubing-Bogen,Geiselhöring
+buergerinfo-germering.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-germering.digitalfabrix.de/,Fürstenfeldbruck,Germering
+buergerinfo-vgem-kirchheim-ufr.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-vgem-kirchheim-ufr.digitalfabrix.de/,Würzburg,Geroldshausen
+ratsinfo-vg-gerolzhofen.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo-vg-gerolzhofen.digitalfabrix.de/,Schweinfurt,Gerolzhofen
+buergerinfo-gmund.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-gmund.digitalfabrix.de/,Miesbach,Gmund am Tegernsee
+buergerinfo-goldkronach.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-goldkronach.digitalfabrix.de/,Bayreuth,Goldkronach
+buergerinfo-grafing.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-grafing.digitalfabrix.de/,Ebersberg,Grafing bei München
+buergerinfo-grassau.digitalfabrix.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo-grassau.digitalfabrix.de/,Traunstein,Grassau
+buerger.ratsinfo-theres.de,Bayern,SessionNet (Somacos),ja,gefunden,1,ja,https://buerger.ratsinfo-theres.de/,Haßberge,Gädheim
 ratsinfo-online.net/altlandsberg-bi,Brandenburg,ratsinfo-online.net,teilweise (auto),gefunden,1,ja,https://ratsinfo-online.net/altlandsberg-bi/,Märkisch-Oderland,Altlandsberg
 beelitz.de,Brandenburg,SessionNet (Somacos),ja,gefunden,1,ja,https://beelitz.de/ratsinformation/,Potsdam-Mittelmark,Beelitz
 sessionnet.eberswalde.de,Brandenburg,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet.eberswalde.de/sessionnet/bi/,Barnim,Eberswalde
@@ -24,72 +132,226 @@ neuenhagen-bei-berlin.de,Brandenburg,SessionNet (Somacos),ja,gefunden,1,ja,https
 doppeldorf.de,Brandenburg,SessionNet (Somacos),ja,gefunden,1,ja,https://doppeldorf.de/gemeindepolitik/rats-und-buergerinformationssystem/,Märkisch-Oderland,Petershagen/Eggersdorf
 ratsinfo-online.net/ruedersdorf-bi,Brandenburg,ratsinfo-online.net,teilweise (auto),gesperrt,1,ja,https://ratsinfo-online.net/ruedersdorf-bi/,Märkisch-Oderland,Rüdersdorf bei Berlin
 ratsinfo-online.net/schorfheide-bi,Brandenburg,ratsinfo-online.net,teilweise (auto),gesperrt,1,ja,http://www.ratsinfo-online.net/schorfheide-bi/,Barnim,Schorfheide
-ssl.ratsinfo-online.net,Brandenburg,ratsinfo-online.net,teilweise (auto),gesperrt,1,ja,https://ssl.ratsinfo-online.net/schwielowsee-bi/,Potsdam-Mittelmark,Schwielowsee
 stadt.vetschau.de,Brandenburg,SessionNet (Somacos),ja,gefunden,1,ja,https://stadt.vetschau.de/verwaltung-buergerservice/stadtpolitik/ratsinformationssystem/,Oberspreewald-Lausitz,Vetschau/Spreewald
 werneuchen-barnim.de,Brandenburg,SessionNet (Somacos),ja,gefunden,1,ja,https://www.werneuchen-barnim.de/stadtpolitik/sitzungskalender/,Barnim,Werneuchen
 ratsinfo-online.net/zeuthen-ri,Brandenburg,ratsinfo-online.net,teilweise (auto),gesperrt,1,ja,https://ratsinfo-online.net/zeuthen-ri/,Dahme-Spreewald,Zeuthen
+allendorf-lda.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.allendorf-lda.de/rathaus/,Gießen,Allendorf (Lumda)
+biebertal.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.biebertal.de/politik-verwaltung/politische-gremien/ratsinformation/,Gießen,Biebertal
+breidenbach.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.breidenbach.de/,Marburg-Biedenkopf,Breidenbach
+dieburg.de,Hessen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://www.dieburg.de/rathaus-politik/verwaltung-gremien/sitzungsdienst-der-stadt-dieburg/,Darmstadt-Dieburg,Dieburg
+barrierefrei.fronhausen.de,Hessen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://barrierefrei.fronhausen.de/sitzungsdienst/,Marburg-Biedenkopf,Fronhausen
+parlamentsinfo.gross-umstadt.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://parlamentsinfo.gross-umstadt.de/,Darmstadt-Dieburg,Groß-Umstadt
+gross-zimmern.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.gross-zimmern.de/rathaus-politik/politik/rats-und-buergerinformationssystem/,Darmstadt-Dieburg,Groß-Zimmern
+heppenheim.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.heppenheim.de/buergerservice-rathaus/politik-gremien/buergerinformationssystem/,Bergstraße,Heppenheim
+sessionnet.hohenstein-hessen.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet.hohenstein-hessen.de/sessionnet/bi/,Rheingau-Taunus-Kreis,Hohenstein
+sessionnet-huenfelden.de/ratsinfo,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet-huenfelden.de/ratsinfo/,Limburg-Weilburg,Hünfelden
+huenstetten.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.huenstetten.de/rathaus-politik/politik/gremieninformationen/,Rheingau-Taunus-Kreis,Hünstetten
+idstein.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.idstein.de/rathaus-politik/politik/kommunale-buergerinfo/,Herzogtum Nassau,Idstein
+rim.kalbach.de,Hessen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://rim.kalbach.de/webservice/oparl/v1.1/system,Fulda,Kalbach
 kronberg.ratsinfomanagement.net,Hessen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://kronberg.ratsinfomanagement.net/webservice/oparl/v1.1/system,Hochtaunuskreis,Kronberg im Taunus
+lautertal.gremien.info,Hessen,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://lautertal.gremien.info/oparl/system,Bergstraße,Lautertal
+sitzungsdienst-linden.de,Hessen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/,Gießen,Linden
 lohfelden.ratsinfomanagement.net,Hessen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://lohfelden.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kassel,Lohfelden
+moerlenbach.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.moerlenbach.de/verwaltung-online/politik-wahlen/gremien/,Bergstraße,Mörlenbach
+sitzungsdienst.pohlheim.de/bi,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://sitzungsdienst.pohlheim.de/bi/,Gießen,Pohlheim
+gemeinde-rabenau.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.gemeinde-rabenau.de/gremien/,Gießen,Rabenau
+rimbach-odw.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.rimbach-odw.de/gemeinde-rimbach/aktuelles/buergerinformationsportal/,Bergstraße,Rimbach
 rosbach.sitzung-online.de/bi,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,http://www.rosbach.sitzung-online.de/bi/oparl/1.0/system.asp,Wetteraukreis,Rosbach vor der Höhe
+stadtallendorf.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://stadtallendorf.de/Rathaus-Politik/St%C3%A4dtische-Gremien/,Marburg-Biedenkopf,Stadtallendorf
+wald-michelbach.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.wald-michelbach.de/rathaus-und-politik/politik/rats-und-buergerinformationssystem/,Bergstraße,Wald-Michelbach
+politik.wetzlar.de/BI,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://politik.wetzlar.de/BI/,Lahn-Dill-Kreis,Wetzlar
+stadt-waechtersbach.de,Hessen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.stadt-waechtersbach.de/rathaus/politik/buergerinfoportal/,Main-Kinzig-Kreis,Wächtersbach
 ris.boizenburg.de,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,1,ja,https://ris.boizenburg.de/,Ludwigslust-Parchim,Boizenburg/Elbe
 parchim.sitzung-online.de/bi,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,1,ja,http://www.parchim.sitzung-online.de/bi/oparl/1.0/system.asp,Ludwigslust-Parchim,Parchim
+session.amt-ms.de,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,1,ja,https://session.amt-ms.de/sessionnet/ri/,,Prebberede
+reddelich.de,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,1,ja,https://www.reddelich.de/gemeindevertretung/sitzungskalender-der-gremien/,,Reddelich
+ratsinfo.gemeinde-satow.de,Mecklenburg-Vorpommern,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://ratsinfo.gemeinde-satow.de/ri/,Rostock,Satow
+webris.stralsund.de/buergerinfo,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,1,ja,https://webris.stralsund.de/buergerinfo/,Bezirk Rostock,Stralsund
+sessionnet.wolgast.de,Mecklenburg-Vorpommern,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet.wolgast.de/sessionnet/buergerinfo/,,Wolgast
+ratsinfo.stadt-alfeld.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.stadt-alfeld.de/bi/,Hildesheim,Alfeld
+buergerinfo.apen.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.apen.de/,Ammerland,Apen
+aurich.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.aurich.de/buergerinformation/verwaltung/,Aurich,Aurich
+badessenris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://badessenris.itebo.de/bi/,Osnabrück,Bad Essen
+gemeinde-bad-grund.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.gemeinde-bad-grund.de/rathaus-politik/ratsinformationssystem/haushaltsplanung-finanzen/,Göttingen,Bad Grund
+badlaer.ris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://badlaer.ris.itebo.de/bi/,Osnabrück,Bad Laer
 badpyrmont.ratsinfomanagement.net,Niedersachsen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://badpyrmont.ratsinfomanagement.net/webservice/oparl/v1.1/system,Hameln-Pyrmont,Bad Pyrmont
+rothenfelde.ris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://rothenfelde.ris.itebo.de/bi/,Osnabrück,Bad Rothenfelde
+ratsinfo.barsinghausen.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://ratsinfo.barsinghausen.de/bi/,Region Hannover,Barsinghausen
 bleckede.sitzung-online.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://www.bleckede.sitzung-online.de/bi/oparl/1.0/system.asp,Lüneburg,Bleckede
+buergerinfo.bockhorn.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.bockhorn.de/,Friesland,Bockhorn
+bohmteris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://bohmteris.itebo.de/bi/,Osnabrück,Bohmte
+bovenden.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.bovenden.de/rathaus-politik/kommunalpolitik/ratsinformationssystem/,Göttingen,Bovenden
+brake.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://brake.de/politik-verwaltung/politik/ratsinformationssystem/,Wesermarsch,Brake
 ratsinfo.braunschweig.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.braunschweig.de/bi/oparl/1.0/system.asp,,Braunschweig
+damme.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.damme.de/B%C3%BCrger-Stadt/Stadt/Ratsinfo/,Vechta,Damme
+diekholzen.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://www.diekholzen.de/buergerinformationssystem/vo040.asp,Hildesheim,Diekholzen
+sitzungsdienst.stadt-diepholz.de,Niedersachsen,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://sitzungsdienst.stadt-diepholz.de/ri/,Diepholz,Diepholz
+ratsinfo.heemsen.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.heemsen.de/sessionnet/gi/,Nienburg/Weser,Drakenburg
+duderstadt.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.duderstadt.de/verwaltung-politik/kommunalpolitik-gremien/,Göttingen,Duderstadt
+elsfleth.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.elsfleth.de/ratsinformationssystem-sessionnet/,Wesermarsch,Elsfleth
+gremieninfo.emden.de,Niedersachsen,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://gremieninfo.emden.de/ri/,,Emden
+emlichheim.gremien.info,Niedersachsen,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://emlichheim.gremien.info/oparl/system,Grafschaft Bentheim,Emlichheim
+buergerinfo.sgfintel.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.sgfintel.de/,Rotenburg (Wümme),Fintel
+friedland.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.friedland.de/buergerservice/ratsinformationen/,Göttingen,Friedland
+buergerinfo.friesoythe.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.friesoythe.de/,Cloppenburg,Friesoythe
+geeste.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.geeste.de/rathaus-und-buergerservice/politik-und-rat/buergerinformationssystem/,Emsland,Geeste
+gehrden.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.gehrden.de/politik-rathaus/politik/ratsinformationssystem/,Region Hannover,Gehrden
+gmh.ris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://gmh.ris.itebo.de/bi/,Osnabrück,Georgsmarienhütte
+schwarmstedt.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://www.schwarmstedt.de/joomla/index.php/politik-rathaus/rathaus/ratsinformationssystem/,Heidekreis,Gilten
+glandorfris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://glandorfris.itebo.de/bi/,Osnabrück,Glandorf
+gnarrenburg.ris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://gnarrenburg.ris.itebo.de/bi/,Rotenburg (Wümme),Gnarrenburg
+ratsinfo.grossenkneten.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.grossenkneten.de/bi/,Oldenburg,Großenkneten
+ratsinfo.harpstedt.info/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.harpstedt.info/bi/,Samtgemeinde Harpstedt,Harpstedt
 harsum.sitzung-online.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.harsum.sitzung-online.de/bi/oparl/1.0/system.asp,Hildesheim,Harsum
-soegel.ratsinfomanagement.net,Niedersachsen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,http://soegel.ratsinfomanagement.net/webservice/oparl/v1.1/system,Emsland,Hüven
+haseluenneris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://haseluenneris.itebo.de/bi/,Emsland,Haselünne
+herzberg.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.herzberg.de/stadt/politik/ratsinformationssystem/,Göttingen,Herzberg am Harz
+buergerinfo.hinte.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.hinte.de/,Aurich,Hinte
+hohenhameln.de,Niedersachsen,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://www.hohenhameln.de/allris/vo040.asp,Peine,Hohenhameln
+holle.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.holle.de/buergerinformationssystem/vo040.asp,Hildesheim,Holle
+ratsinfo.rethem.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.rethem.de/bi/,Heidekreis,Häuslingen
+gemeinde-ilsede.de,Niedersachsen,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://www.gemeinde-ilsede.de/allris/si010/,Peine,Ilsede
+buergerinfo.stadt-jever.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.stadt-jever.de/,Friesland,Jever
+ratsinfo.krummhoern.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.krummhoern.de/,Aurich,Krummhörn
+ratsinfo.lemwerder.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.lemwerder.de/,Wesermarsch,Lemwerder
+ratsinfo-lohne.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.ratsinfo-lohne.de/bi/,Vechta,Lohne
+ratsinfo.luechow-wendland.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/,Samtgemeinde Lüchow (Wendland),Lüchow
+session.melle.info/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://session.melle.info/bi/,Osnabrück,Melle
+ratsinfo.neuenkirchen-voerden.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,http://ratsinfo.neuenkirchen-voerden.de/,Vechta,Neuenkirchen-Vörden
+neustadt-a-rbge.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.neustadt-a-rbge.de/stadtpolitik/infos-aus-den-gremien/,Region Hannover,Neustadt am Rübenberge
+ratsinfo.nienburg.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.nienburg.de/bineu/,Nienburg/Weser,Nienburg/Weser
+nordenham.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.nordenham.de/de/rathaus/politik/buergerinformationssystem-session/,Wesermarsch,Nordenham
+norderney.ris.itebo.de/bi,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://norderney.ris.itebo.de/bi/,Aurich,Norderney
+nordstemmen.ratsinfomanagement.net,Niedersachsen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Hildesheim,Nordstemmen
+buergerinfo.oldenburg.de,Niedersachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.oldenburg.de/,,Oldenburg
 schiffdorf.ratsinfomanagement.net,Niedersachsen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://schiffdorf.ratsinfomanagement.net/webservice/oparl/v1.1/system,Cuxhaven,Schiffdorf
 uplengen.ratsinfomanagement.net,Niedersachsen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://uplengen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Leer,Uplengen
 wallenhorst.ratsinfomanagement.net,Niedersachsen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://wallenhorst.ratsinfomanagement.net/webservice/oparl/v1.1/system,Département de l’Ems-Supérieur,Wallenhorst
 ratsinfo.aachen.de/bi,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.aachen.de/bi/oparl/1.0/system.asp,Kreis Aachen,Aachen
 ratsinfo.aldenhoven.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.aldenhoven.de/webservice/oparl/v1.1/system,Kreis Düren,Aldenhoven
 ratsinfo.bad-muenstereifel.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.bad-muenstereifel.de/webservice/oparl/v1.1/system,Kreis Euskirchen,Bad Münstereifel
+beelen.de,Nordrhein-Westfalen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://www.beelen.de/verwaltung-politik/sitzungsdienste-bis-112020/,Kreis Warendorf,Beelen
+anwendungen.bielefeld.de/bi,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://anwendungen.bielefeld.de/bi/,Regierungsbezirk Detmold,Bielefeld
+ratsinfo.billerbeck.de/bi,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.billerbeck.de/bi/,Kreis Coesfeld,Billerbeck
+ratsinfo.bocholt.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.bocholt.de/webservice/oparl/v1.1/system,Kreis Borken,Bocholt
 bonn.sitzung-online.de,Nordrhein-Westfalen,sitzung-online.de,nein,gefunden,1,ja,https://www.bonn.sitzung-online.de/public/oparl/system,Regierungsbezirk Köln,Bonn
+bornheim.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.bornheim.de/rathaus/ratsinformationssystem/,Rhein-Sieg-Kreis,Bornheim
+brilon.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.brilon.de/rathaus-politik/dienstleistungen-und-themenbereiche-a-z/dienstleistung/show/kommunalpolitik/,Hochsauerlandkreis,Brilon
 ratsinfo.bruehl.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.bruehl.de/webservice/oparl/v1.1/system,Rhein-Erft-Kreis,Brühl
 castroprauxel.gremien.info,Nordrhein-Westfalen,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://castroprauxel.gremien.info/oparl,Kreis Recklinghausen,Castrop-Rauxel
+drensteinfurt.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.drensteinfurt.de/rathaus-politik/politik/kommunalpolitik-ratsinformationssystem-ris-/,Kreis Warendorf,Drensteinfurt
+sessionweb.duelmen.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionweb.duelmen.de/gi/,Kreis Coesfeld,Dülmen
+dueren.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.dueren.de/verwaltung-politik/politik/ratsinformationssystem/,Kreis Düren,Düren
 ris-oparl.itk-rheinland.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris-oparl.itk-rheinland.de/Oparl/system,Regierungsbezirk Düsseldorf,Düsseldorf
+eitorf.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.eitorf.de/rathaus/rat-buergermeister/ratsinformationssystem/,Rhein-Sieg-Kreis,Eitorf
+ratsinfo-emmerich.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo-emmerich.de/webservice/oparl/v1.1/system,Kreis Kleve,Emmerich am Rhein
 enger.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://enger.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Herford,Enger
 ratsinfo.erkelenz.de/bi,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.erkelenz.de/bi/oparl/1.0/system.asp,Kreis Heinsberg,Erkelenz
+erwitte.de,Nordrhein-Westfalen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://www.erwitte.de/stadt/stadtverwaltung/rat-politik/sitzungsdienst/,Kreis Soest,Erwitte
+froendenberg.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.froendenberg.de/rathaus-politik/rathaus/politik/,Kreis Unna,Fröndenberg/Ruhr
+geseke.de,Nordrhein-Westfalen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://www.geseke.de/rathaus-politik/politik/sitzungsdienst/,Kreis Soest,Geseke
 ris.goch.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.goch.de/webservice/oparl/v1.1/system,Kreis Kleve,Goch
 gronau.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://gronau.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Borken,Gronau
 hagen.de/buergerinfo,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.hagen.de/buergerinfo/oparl/1.0/system.asp,Regierungsbezirk Arnsberg,Hagen
+ratsinfo.hamm.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.hamm.de/webservice/oparl/v1.1/system,Regierungsbezirk Arnsberg,Hamm
+heiligenhaus.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.heiligenhaus.de/stadt-rathaus/ratsinformationssystem/,Kreis Mettmann,Heiligenhaus
+sitzungsdienst.heinsberg.de/bi,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://sitzungsdienst.heinsberg.de/bi/,Kreis Heinsberg,Heinsberg
 herford.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://herford.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Herford,Herford
 hiddenhausen.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://hiddenhausen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Herford,Hiddenhausen
+bi.session.owl-it.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://bi.session.owl-it.de/hoexter/,Kreis Höxter,Höxter
+hueckelhoven.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.hueckelhoven.de/rathaus/kontakte/sitzungen-und-ausschuesse/,Kreis Heinsberg,Hückelhoven
+ris.issum.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.issum.de/webservice/oparl/v1.1/system,Kreis Kleve,Issum
+juechen.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.juechen.de/rathaus/politik/ratsinformationssystem/,Rhein-Kreis Neuss,Jüchen
+kaarst.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.kaarst.de/verwaltung-buergerservice-und-politik/politik/ratsinformationssystem/,Rhein-Kreis Neuss,Kaarst
 ratsinfo.stadt-kerpen.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.stadt-kerpen.de/webservice/oparl/v1.0/system,Rhein-Erft-Kreis,Kerpen
 kirchlengern.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://kirchlengern.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Herford,Kirchlengern
+ris-korschenbroich.itk-rheinland.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://ris-korschenbroich.itk-rheinland.de/SessionNetKorBi/,Rhein-Kreis Neuss,Korschenbroich
 ris.krefeld.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.krefeld.de/webservice/oparl/v1.1/system,Regierungsbezirk Düsseldorf,Krefeld
 buergerinfo.stadt-koeln.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.stadt-koeln.de/oparl/system,Regierungsbezirk Köln,Köln
+kuerten.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.kuerten.de/sitzungen/,Rheinisch-Bergischer Kreis,Kürten
 ladbergen.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://ladbergen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Steinfurt,Ladbergen
 ratsinfo.langenberg.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.langenberg.de/webservice/oparl/v1.0/system,Kreis Gütersloh,Langenberg
+langenfeld.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.langenfeld.de/Startseite/Rat-und-Verwaltung/Rat-und-politische-Gremien/Ratsinformationssystem/,Kreis Mettmann,Langenfeld
+leichlingen.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.leichlingen.de/abwasser/buergerinformation-zur-starkregenvorsorge/,Rheinisch-Bergischer Kreis,Leichlingen
 leopoldshoehe.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://leopoldshoehe.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Lippe,Leopoldshöhe
+lippetal.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,http://www.lippetal.de/rathaus-politik/verwaltung-politik/ratsinformationssystem/,Kreis Soest,Lippetal
+lippstadt.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.lippstadt.de/stadthaus/politik-verwaltung/buerger-und-gremieninfoportal/,Kreis Soest,Lippstadt
+session.lohmar.de/bi,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,http://session.lohmar.de/bi/,Rhein-Sieg-Kreis,Lohmar
+medebach.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.medebach.de/politik/ratsinformationssystem/,Hochsauerlandkreis,Medebach
+menden.de,Nordrhein-Westfalen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://www.menden.de/buergerservice-rathaus/rat-ausschuesse-politik/sitzungsdienst/,Märkischer Kreis,Menden (Sauerland)
+ris-moenchengladbach.itk-rheinland.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://ris-moenchengladbach.itk-rheinland.de/sessionnetmglgi/,Regierungsbezirk Düsseldorf,Mönchengladbach
 oparl.stadt-muenster.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://oparl.stadt-muenster.de/system,Regierungsbezirk Münster,Münster
+ris.nettetal.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.nettetal.de/webservice/oparl/v1.1/system,Kreis Viersen,Nettetal
+nk-se.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.nk-se.de/rathaus-service/ratsinformationen/ratsinformationssystem/,Rhein-Sieg-Kreis,Neunkirchen-Seelscheid
+neuss.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.neuss.de/rathaus/stadtrat/,Rhein-Kreis Neuss,Neuss
+niederkassel.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.niederkassel.de/aktuell/buergerinformation/,Rhein-Sieg-Kreis,Niederkassel
+nottuln.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.nottuln.de/sessionnet/sessionnetbi/,Kreis Coesfeld,Nottuln
+nuembrecht.de/buergerinfo,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.nuembrecht.de/buergerinfo/buerger-und-ratsinformationsportal/,Oberbergischer Kreis,Nümbrecht
+ochtrup.gremien.info,Nordrhein-Westfalen,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://ochtrup.gremien.info/oparl/system,Kreis Steinfurt,Ochtrup
+odenthal.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.odenthal.de/politik/sitzungskalender/,Rheinisch-Bergischer Kreis,Odenthal
 sitzungsdienst.kdz-ws.net,Nordrhein-Westfalen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://sitzungsdienst.kdz-ws.net/gkz330/webservice/oparl/v1.1/system,Kreis Olpe,Olpe
+ostbevern.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.ostbevern.de/sessionnet/sessionnetri/,Kreis Warendorf,Ostbevern
+sitzungsdienst.portawestfalica.de,Nordrhein-Westfalen,sdnet / Sitzungsdienst,nein,gefunden,1,ja,https://sitzungsdienst.portawestfalica.de/webservice/oparl/v1.1/system,Kreis Minden-Lübbecke,Porta Westfalica
+radevormwald.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.radevormwald.de/ratsinformationssystem/,Oberbergischer Kreis,Radevormwald
 rahden.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,http://rahden.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Minden-Lübbecke,Rahden
 sessionnet-oparl.krz.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet-oparl.krz.de/oparl/bodies/5205,Kreis Kleve,Rees
 ratsinfo.rheda-wiedenbrueck.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.rheda-wiedenbrueck.de/webservice/oparl/v1.1/system,Kreis Gütersloh,Rheda-Wiedenbrück
 roedinghausen.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://roedinghausen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Herford,Rödinghausen
+ruethen.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.ruethen.de/rathaus/politik/rats-und-buergerinformationssystem/,Kreis Soest,Rüthen
+schalksmuehle.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://schalksmuehle.ratsinfomanagement.net/webservice/oparl/v1.1/system,Märkischer Kreis,Schalksmühle
 ris.schwalmtal.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.schwalmtal.de/webservice/oparl/v1.1/system,Kreis Viersen,Schwalmtal
+schwelm.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.schwelm.de/rathaus/politik/ratsinformationssystem/,Ennepe-Ruhr-Kreis,Schwelm
+schwerte.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.schwerte.de/politik-verwaltung-mitmachstadt/politik/buergerinnen-und-ratsinformationssystem/,Kreis Unna,Schwerte
+buergerinfo.siegburg.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.siegburg.de/,Rhein-Sieg-Kreis,Siegburg
 spenge.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://spenge.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Herford,Spenge
+enkreis.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.enkreis.de/ennepe-ruhr-kreis-staedte/staedte/sprockhoevel/,Ennepe-Ruhr-Kreis,Sprockhövel
 ratsinfo.steinhagen.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.steinhagen.de/webservice/oparl/v1.1/system,Kreis Gütersloh,Steinhagen
 stemwede.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://stemwede.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Minden-Lübbecke,Stemwede
+troisdorf.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.troisdorf.de/de/rathaus-service/stadtrat-und-ausschuesse/ratsinformationssystem/,Rhein-Sieg-Kreis,Troisdorf
 velen.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://velen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Borken,Velen
 vlotho.ratsinfomanagement.net,Nordrhein-Westfalen,ratsinfomanagement.net (OParl),ja (OParl),gefunden,1,ja,https://vlotho.ratsinfomanagement.net/webservice/oparl/v1.1/system,Kreis Herford,Vlotho
+wachtberg.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.wachtberg.de/rathaus-politik/politik/gemeinderat-und-gremien/,Rhein-Sieg-Kreis,Wachtberg
 ris.wachtendonk.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.wachtendonk.de/webservice/oparl/v1.1/system,Kreis Kleve,Wachtendonk
+wassenberg.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.wassenberg.de/buerger/politik/ratsinformationssystem/,Kreis Heinsberg,Wassenberg
 ratsinfo.wesseling.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ratsinfo.wesseling.de/webservice/oparl/v1.1/system,Rhein-Erft-Kreis,Wesseling
+wiehl.de,Nordrhein-Westfalen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.wiehl.de/buerger/rathaus/ratsinfo/,Oberbergischer Kreis,Wiehl
 ris.stadt-willich.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.stadt-willich.de/webservice/oparl/v1.1/system,Kreis Viersen,Willich
 oparl.wuppertal.de,Nordrhein-Westfalen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://oparl.wuppertal.de/oparl/system,Regierungsbezirk Düsseldorf,Wuppertal
-westerburg.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://westerburg.gremien.info/oparl/system,Verbandsgemeinde Westerburg,Ailertchen
 bad-kreuznach-stadt.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://bad-kreuznach-stadt.gremien.info/oparl/system,Bad Kreuznach,Bad Kreuznach
+landstuhl.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://www.landstuhl.de/verbandsgemeinde-landstuhl/buergerinfo/ratsinformationssystem/,Kaiserslautern,Bann
+vgcochem.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://vgcochem.gremien.info/oparl/system,Cochem-Zell,Beilstein
+ris.kirchberg-hunsrueck.de,Rheinland-Pfalz,OParl (sonstige),ja (OParl),gefunden,1,ja,https://ris.kirchberg-hunsrueck.de/oparl/system,Rhein-Hunsrück-Kreis,Belg
+buergerinfo.mendig.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.mendig.de/,Verbandsgemeinde Mendig,Bell
+bendorf.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://www.bendorf.de/,Mayen-Koblenz,Bendorf
 boppard.sitzung-online.de/bi,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,http://www.boppard.sitzung-online.de/bi/oparl/1.0/system.asp,Rhein-Hunsrück-Kreis,Boppard
-montabaur.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://montabaur.gremien.info/oparl/system,Verbandsgemeinde Montabaur,Daubach
+vg-rw.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://vg-rw.gremien.info/oparl/system,Neuwied,Breitscheid
+boehl-iggelheim.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://boehl-iggelheim.gremien.info/oparl/system,Rhein-Pfalz-Kreis,Böhl-Iggelheim
+buechel.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://www.buechel.de/amtliches/ratsinformationen-fuer-buergerinnen-und-buerger/,Cochem-Zell,Büchel
+vg-nahe-glan.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://vg-nahe-glan.gremien.info/oparl/system,Bad Kreuznach,Daubach
+daun.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://daun.gremien.info/oparl/system,Vulkaneifel,Daun
+buergerinfo-kreis-duew.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,http://www.buergerinfo-kreis-duew.de/,Verbandsgemeinde Lambrecht (Pfalz),Elmstein
+bi-annweiler.de/bi,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://www.bi-annweiler.de/bi/,Verbandsgemeinde Annweiler am Trifels,Eußerthal
+bis.frankenthal.de/bi,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://bis.frankenthal.de/bi/,,Frankenthal
+rat-vgben.de/bi,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://www.rat-vgben.de/bi/,Verbandsgemeinde Bad Ems-Nassau,Geisig
 edenkoben.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://edenkoben.gremien.info/oparl/system,Verbandsgemeinde Edenkoben,Gommersheim
+gruenstadt.de,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,https://www.gruenstadt.de/rathaus-politik/politik/buerger-gremieninfo/,Bad Dürkheim,Grünstadt
 hagenbach.sitzung-online.de/bi,Rheinland-Pfalz,SessionNet (Somacos),ja,gefunden,1,ja,http://www.hagenbach.sitzung-online.de/bi/oparl/1.0/system.asp,Verbandsgemeinde Hagenbach,Hagenbach
 herxheim.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://herxheim.gremien.info/oparl/system,Verbandsgemeinde Herxheim,Herxheimweyher
-emmelshausen.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://emmelshausen.gremien.info/oparl/system,Rhein-Hunsrück-Kreis,Mühlpfad
 oparl.stadt-pirmasens.de,Rheinland-Pfalz,OParl (sonstige),ja (OParl),gefunden,1,ja,https://oparl.stadt-pirmasens.de/oparl/system,,Pirmasens
 enkenbach-alsenborn.gremien.info,Rheinland-Pfalz,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://enkenbach-alsenborn.gremien.info/oparl/system,Kaiserslautern,Sembach
+ratsinfo.heusweiler.de,Saarland,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.heusweiler.de/,Regionalverband Saarbrücken,Heusweiler
+kleinblittersdorf.de,Saarland,SessionNet (Somacos),ja,gefunden,1,ja,https://www.kleinblittersdorf.de/gremien/,Regionalverband Saarbrücken,Kleinblittersdorf
+adorf-vogtland.de,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.adorf-vogtland.de/inhalte/adorf/_inhalt/_service/session_gi/,Vogtlandkreis,Adorf/Vogtl.
 oparl.dresden.de,Sachsen,OParl (sonstige),ja (OParl),gefunden,1,ja,https://oparl.dresden.de/system,,Dresden
+ratsinfo-online.net/doebeln-ri,Sachsen,ratsinfo-online.net,teilweise (auto),gefunden,1,ja,https://www.ratsinfo-online.net/doebeln-ri/,Mittelsachsen,Döbeln
+heidenau.de/ris,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.heidenau.de/ris/buergerinfo/,Sächsische Schweiz-Osterzgebirge,Heidenau
 ratsinformation.leipzig.de,Sachsen,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://ratsinformation.leipzig.de/allris_leipzig_public/oparl/system,,Leipzig
+markkleeberg.de,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.markkleeberg.de/stadt-politik/politische-gremien/online-informieren/,Leipzig,Markkleeberg
+muelsen.de,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.muelsen.de/inhalte/muelsen/_inhalt/rathaus/gremien/bm/,Zwickau,Mülsen
+w04.plauen.de/bi,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://w04.plauen.de/bi/,Vogtlandkreis,Plauen
+session.wilkau-hasslau.de/bi,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://session.wilkau-hasslau.de/bi/,Zwickau,Wilkau-Haßlau
+ratsinfo-online.net/wolkenstein-ri,Sachsen,ratsinfo-online.net,teilweise (auto),gefunden,1,ja,https://ratsinfo-online.net/wolkenstein-ri/,Erzgebirgskreis,Wolkenstein
+zittau.de,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://zittau.de/buergerservice/stadtrat/buergerinfoportal/,Görlitz,Zittau
+buergerinfo.zwoenitz.de,Sachsen,SessionNet (Somacos),ja,gefunden,1,ja,https://buergerinfo.zwoenitz.de/,Erzgebirgskreis,Zwönitz
 sessionnet.dessau.de/bi,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet.dessau.de/bi/,,Dessau-Roßlau
 rat.elbe-parey.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,https://rat.elbe-parey.de/startseite/,Jerichower Land,Elbe-Parey
 buergerinfo.halle.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,http://buergerinfo.halle.de/,,Halle (Saale)
@@ -101,4 +363,22 @@ buergerinfo.sangerhausen.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja
 bi.rossla.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,https://bi.rossla.de/,Mansfeld-Südharz,Südharz
 session.suedliches-anhalt.de,Sachsen-Anhalt,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://session.suedliches-anhalt.de/ri/,Anhalt-Bitterfeld,Südliches Anhalt
 stadt.bodetal.de,Sachsen-Anhalt,SessionNet (Somacos),ja,gefunden,1,ja,https://stadt.bodetal.de/stadt-ortsteile/politische-gremien/,Harz,Thale
+epenwoehrden.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.epenwoehrden.de/buergerservice-politik/buergerinformationssystem/gemeindevertretung/,Kreis Dithmarschen,Epenwöhrden
+fitzbek.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.fitzbek.de/buergerinformationen/,Kreis Steinburg,Fitzbek
+gemeinde-guester.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.gemeinde-guester.de/service/sitzungskalender/,Kreis Herzogtum Lauenburg,Güster
+harrislee.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.harrislee.de/Politik-Verwaltung/Politik/B%C3%BCrger-und-Ratsinfo/,Kreis Schleswig-Flensburg,Harrislee
+hohenlockstedt.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.hohenlockstedt.de/buergerservice-politik/politik/sitzungstermine/,Kreis Steinburg,Hohenlockstedt
+itzehoe.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.itzehoe.de/rathaus/politik-gremien/buerger-ratsinformationssystem/,Kreis Steinburg,Itzehoe
+kellinghusen.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.kellinghusen.de/buergerservice/politik/sitzungskalender/,Kreis Steinburg,Kellinghusen
+sessionnet.amt-buechen.eu/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://sessionnet.amt-buechen.eu/bi/,Kreis Herzogtum Lauenburg,Klein Pampau
+amnf.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.amnf.de/amt-verwaltung/ratsinformationssystem/,Kreis Nordfriesland,Kolkerheide
+ratsinfo.amt-probstei.de/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://ratsinfo.amt-probstei.de/bi/,Kreis Plön,Krokau
+stadt-meldorf.de,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.stadt-meldorf.de/buergerservice-politik/politik/sitzungen/,,Meldorf
+session.neumuenster.de/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://session.neumuenster.de/bi/,,Neumünster
+ris.stadt-neustadt.eu/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://ris.stadt-neustadt.eu/bi/vo040.asp,Kreis Ostholstein,Neustadt in Holstein
 trave.sitzung-online.de/bi,Schleswig-Holstein,SessionNet (Somacos),ja,gefunden,1,ja,https://www.trave.sitzung-online.de/bi/oparl/1.0/system.asp,Kreis Segeberg,Travenhorst
+stadt-altenburg.de,Thüringen,SessionNet (Somacos),ja,gefunden,1,ja,https://www.stadt-altenburg.de/seite/494971/,Altenburger Land,Altenburg
+arnstadt.gremien.info,Thüringen,gremien.info (OParl),ja (OParl),gefunden,1,ja,https://arnstadt.gremien.info/oparl/system,Ilm-Kreis,Arnstadt
+ris.eisenach.de/bi,Thüringen,SessionNet (Somacos),ja,gefunden,1,ja,https://ris.eisenach.de/bi/,Wartburgkreis,Eisenach
+rathaus.jena.de,Thüringen,SessionNet (Somacos),ja,gefunden,1,ja,https://rathaus.jena.de/de/politische-gremien/,,Jena
+ratsinfo.krz-greiz.de,Thüringen,ALLRIS (CC e-gov),teilweise (HTML),gefunden,1,ja,https://ratsinfo.krz-greiz.de/modo/ri/,Greiz,Mohlsdorf-Teichwolframsdorf
