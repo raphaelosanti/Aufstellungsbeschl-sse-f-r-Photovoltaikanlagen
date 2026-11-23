@@ -114,6 +114,18 @@ def sonde(http: pv.Http, name: str, url: str, outdir: str) -> list[str]:
         t = pv.html_text(h)
         weiter = re.findall(r"(?:page|seite|offset)=\d+", h, re.I)[:3]
         z.append(f"- Probe {art} {u}: {len(h)} Zeichen HTML, {len(t)} Zeichen Text, Blätter-Hinweise: {', '.join(weiter) or 'keine'}")
+        if art == "liste":
+            ids0 = set(re.findall(r"/themen/(\d+)", h))
+            for var in ("page=2", "seite=2", "p=2", "offset=10", "start=10"):
+                u2 = u + ("&" if "?" in u else "?") + var
+                try:
+                    ids2 = set(re.findall(r"/themen/(\d+)", http.get(u2, cache=False)))
+                except Exception:  # noqa: BLE001
+                    continue
+                z.append(f"  - Blättertest {var}: {len(ids2 - ids0)} neue Einträge (Seite 1 hat {len(ids0)})")
+            g = http.render(u)
+            if g:
+                z.append(f"  - Liste im Browser: {len(set(re.findall(r'/themen/(\\d+)', g)))} Einträge")
         if art == "detail":
             g = http.render(u)
             if g:
