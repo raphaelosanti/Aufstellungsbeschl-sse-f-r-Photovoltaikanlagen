@@ -1,3 +1,13 @@
 {
- "_verworfen": []
+ "Amt Darß/Fischland": {
+  "si_max": 200435,
+  "zuletzt": "2026-11-23"
+ },
+ "Bartelshagen II b. Barth": {
+  "si_max": 10116,
+  "zuletzt": "2026-11-23"
+ },
+ "_verworfen": [
+  "https://session.amt-barth.de/bi/vo0050.asp?__kvonr=17405"
+ ]
 }
