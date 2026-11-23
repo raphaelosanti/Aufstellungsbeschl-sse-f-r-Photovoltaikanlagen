@@ -893,6 +893,9 @@ def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
         elif typ == "portal":
             from pv_portale import portal_vorlagen   # Landesportale (best effort, siehe pv_portale.py)
             roh_iter = portal_vorlagen(http, qq, seit, zustand=z)
+        elif typ == "bremen":
+            from pv_bremen import bremen_vorlagen    # Stadt Bremen: Deputation Bau/Mobilität (siehe pv_bremen.py)
+            roh_iter = bremen_vorlagen(http, qq, seit, zustand=z)
         else:
             roh_iter = html_vorlagen(http, qq, seit, zustand=z)
         n = 0
