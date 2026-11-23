@@ -1,16 +1,20 @@
 name: Quellen entdecken
 
+# Jedes Bundesland läuft als eigener paralleler Job (eigenes 5-Stunden-Fenster).
+# Die Jobs ändern nur ihr eigenes Land und liefern Dateien als Artefakt ab;
+# der Job "zusammenfuehren" mergt alles und committet einmal.
+
 on:
   schedule:
-    - cron: "0 3 * * 0"          # sonntags; jeder Lauf arbeitet das nächste Stück ab
+    - cron: "0 3 * * 0"          # sonntags; jeder Lauf arbeitet das nächste Stück je Land ab
   workflow_dispatch:
     inputs:
       land:
         description: "Bundesländer (Leerzeichen) oder 'alle'"
         default: "alle"
       budget:
-        description: "Max. neu geprüfte Gemeinden pro Lauf (0 = alle)"
-        default: "400"
+        description: "Max. neu geprüfte Gemeinden pro Land und Lauf (0 = alle)"
+        default: "700"
 
 permissions:
   contents: write
@@ -20,9 +24,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  planen:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        env:
+          LAND: ${{ inputs.land || 'alle' }}
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          alle = {
+            "Brandenburg": "brandenburg", "Sachsen-Anhalt": "sachsen-anhalt",
+            "Mecklenburg-Vorpommern": "mecklenburg-vorpommern", "Sachsen": "sachsen",
+            "Thüringen": "thueringen", "Niedersachsen": "niedersachsen",
+            "Schleswig-Holstein": "schleswig-holstein", "Nordrhein-Westfalen": "nordrhein-westfalen",
+            "Hessen": "hessen", "Rheinland-Pfalz": "rheinland-pfalz",
+            "Baden-Württemberg": "baden-wuerttemberg", "Bayern": "bayern",
+            "Saarland": "saarland", "Berlin": "berlin", "Hamburg": "hamburg", "Bremen": "bremen",
+          }
+          wunsch = os.environ["LAND"].split()
+          namen = list(alle) if "alle" in wunsch else [n for n in wunsch if n in alle]
+          matrix = {"include": [{"land": n, "slug": alle[n]} for n in namen]}
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("matrix=" + json.dumps(matrix, ensure_ascii=False) + "\n")
+          EOF
+
   entdecken:
+    needs: planen
     runs-on: ubuntu-latest
     timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 8            # schont Wikidata (je Land eine Abfrage) und die Server der Kommunen
+      matrix: ${{ fromJSON(needs.planen.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,20 +69,64 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: .cache_pv
-          key: quellen-cache-${{ github.run_id }}
-          restore-keys: quellen-cache-
-      - name: Quellen entdecken (setzt auf dem Stand im Repo auf)
+          key: quellen-cache-${{ matrix.slug }}-${{ github.run_id }}
+          restore-keys: quellen-cache-${{ matrix.slug }}-
+      - name: Quellen entdecken – ${{ matrix.land }}
+        timeout-minutes: 315     # eigenes Step-Limit: danach laufen Sichern/Hochladen trotzdem noch
+        continue-on-error: true
         env:
           PV_KONTAKT: ${{ vars.PV_KONTAKT }}
         run: |
           python quellen_entdecken.py \
-            --land ${{ inputs.land || 'alle' }} \
-            --budget ${{ inputs.budget || '400' }}
-      - name: Abdeckung und Plattform-Ranking auswerten
+            --land "${{ matrix.land }}" \
+            --budget ${{ inputs.budget || '700' }}
+      - name: Ergebnis dieses Landes ablegen
         if: always()
+        run: |
+          mkdir -p shard
+          cp quellen_alle.csv shard/quellen_alle.csv
+          cp daten/gemeinden.csv shard/gemeinden.csv
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shard-${{ matrix.slug }}
+          path: shard/
+          retention-days: 3
+
+  zusammenfuehren:
+    needs: [planen, entdecken]
+    if: always() && needs.planen.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          path: shards_dl
+      - name: Länder-Ergebnisse zusammenführen
+        env:
+          MATRIX: ${{ needs.planen.outputs.matrix }}
+        run: |
+          mkdir -p shards
+          for d in shards_dl/shard-*; do
+            [ -d "$d" ] || continue
+            slug="${d#shards_dl/shard-}"
+            mkdir -p "shards/$slug"
+            cp "$d/quellen_alle.csv" "shards/$slug/quellen_alle.csv"
+            cp "$d/gemeinden.csv" "shards/$slug/gemeinden.csv"
+          done
+          LAENDER=$(python3 -c "import json,os; print('\n'.join(x['land']+'='+x['slug'] for x in json.loads(os.environ['MATRIX'])['include']))")
+          mapfile -t ARGS <<< "$LAENDER"
+          python quellen_merge.py --shards shards --laender "${ARGS[@]}"
+      - name: Abdeckung und Plattform-Ranking auswerten
         run: python ris_betreiber.py
       - name: Ergebnis committen
-        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
