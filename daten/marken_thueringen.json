@@ -1,0 +1,42 @@
+{
+ "Arnstadt": {
+  "zuletzt": "2026-11-23"
+ },
+ "Bernterode": {
+  "si_max": 945,
+  "zuletzt": "2026-11-23"
+ },
+ "Dingelstädt": {
+  "si_max": 1818,
+  "zuletzt": "2026-11-23"
+ },
+ "Eisenach": {
+  "si_max": 5493,
+  "zuletzt": "2026-11-23"
+ },
+ "Linda bei Neustadt an der Orla": {
+  "si_max": 2220,
+  "zuletzt": "2026-11-23"
+ },
+ "_verworfen": [
+  "https://arnstadt.gremien.info/oparl/paper/202462210100085",
+  "https://arnstadt.gremien.info/oparl/paper/202462210100086",
+  "https://arnstadt.gremien.info/oparl/paper/202462210100087",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=5215",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=5908",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=6182",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=6597",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=6928",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=7093",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=7643",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=7900",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=8136",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=8484",
+  "https://buergerinfo-dingelstaedt.digitalfabrix.de/to0050.asp?__ktonr=8534",
+  "https://ris.eisenach.de/bi/to0050.php?__ktonr=42847",
+  "https://ris.eisenach.de/bi/to0050.php?__ktonr=47097",
+  "https://ris.eisenach.de/bi/to0050.php?__ktonr=47445",
+  "https://ris.eisenach.de/bi/to0050.php?__ktonr=53841",
+  "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8872"
+ ]
+}
