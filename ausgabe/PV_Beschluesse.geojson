@@ -3025,6 +3025,701 @@
   {
    "type": "Feature",
    "properties": {
+    "Name": "PV-BW-0014",
+    "Project_ID": "PV-BW-0014",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2025-10-03",
+    "First_Decision_Date": "2023-01-09",
+    "Municipality": "Bad Schussenried",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "4.2 MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5030",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=25836&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5431",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=31325&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5677",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=35998&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.658611111,
+     48.006666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Erweiterte Planungshinweiskarte für Freiflächen-PV",
+    "Project_ID": "PV-BW-0015",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2023-01-09",
+    "First_Decision_Date": "2023-01-09",
+    "Municipality": "Biberach an der Riß",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5021",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=25948&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.788611111,
+     48.098055555
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-BW-0016",
+    "Project_ID": "PV-BW-0016",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2023-02-03",
+    "First_Decision_Date": "2023-02-03",
+    "Municipality": "Steinhausen an der Rottum",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5052",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=26158&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.69683,
+     48.02828
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Wannenberg",
+    "Project_ID": "PV-BW-0017",
+    "Operator": "ABO Wind AG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-04-04",
+    "First_Decision_Date": "2023-04-04",
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": 2.5,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=9319",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=74097&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63745,
+     47.95083
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Freiflächensolar Wannenberg",
+    "Project_ID": "PV-BW-0019",
+    "Operator": "BEE \nDevelopment GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Genehmigt",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2024-11-05",
+    "First_Decision_Date": "2023-06-06",
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": 57.2,
+    "Added Capacity": "56 MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10374",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=75873&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10373",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=75874&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=11686",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=80911&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=11687",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=80916&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=11802",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=82522&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=11807",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=82584&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=11801",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=82504&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63888889,
+     47.95416667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-Freiflächenanlage Neuer Weiher",
+    "Project_ID": "PV-BW-0020",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Abwägungsbeschluss",
+    "Last_Decision_Date": "2025-05-05",
+    "First_Decision_Date": null,
+    "Municipality": "Ingoldingen",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5430",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=31336&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5153",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=28268&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5260",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=29602&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5568",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=32822&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.741944444,
+     48.025833333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-Park Hasengärtlestraße",
+    "Project_ID": "PV-BW-0021",
+    "Operator": "Büros Planstatt Senner \nGmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Genehmigt",
+    "Last_Decision": "Satzungsbeschluss",
+    "Last_Decision_Date": "2023-07-04",
+    "First_Decision_Date": null,
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": 2.85,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=9295",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=73768&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=9293",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=73788&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10407",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=76267&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10409",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=76284&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63888889,
+     47.95416667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Zwerchhaus",
+    "Project_ID": "PV-BW-0022",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2023-07-06",
+    "First_Decision_Date": "2023-07-06",
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10386",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=76044&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63745,
+     47.95083
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Schachenhölzle 2",
+    "Project_ID": "PV-BW-0023",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2024-01-09",
+    "First_Decision_Date": "2024-01-05",
+    "Municipality": "Bad Schussenried",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5262",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=29569&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5263",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=29573&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5261",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=29576&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.64387,
+     47.97739
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV Freiflächenanlage Schachenhölzle 2",
+    "Project_ID": "PV-BW-0026",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Genehmigt",
+    "Last_Decision": "Satzungsbeschluss",
+    "Last_Decision_Date": "2024-06-07",
+    "First_Decision_Date": "2024-06-07",
+    "Municipality": "Bad Schussenried",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": 4.2,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5348",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=30488&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.658611111,
+     48.006666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-BW-0027",
+    "Project_ID": "PV-BW-0027",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2024-06-07",
+    "First_Decision_Date": null,
+    "Municipality": "Bad Schussenried",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5413",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=31092&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5349",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=30489&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.658611111,
+     48.006666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Tannesch",
+    "Project_ID": "PV-BW-0029",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-06-03",
+    "First_Decision_Date": null,
+    "Municipality": "Bad Buchau",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": 3.56,
+    "Added Capacity": "3.4 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5548",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=32562&type=do",
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5616",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=33197&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.61387,
+     48.01892
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-BW-0030",
+    "Project_ID": "PV-BW-0030",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2025-07-04",
+    "First_Decision_Date": "2025-07-04",
+    "Municipality": "Bad Schussenried",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5628",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=35528&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.658611111,
+     48.006666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Solarpark Lippertsweiler",
+    "Project_ID": "PV-BW-0031",
+    "Operator": "VA2026-11-06 B-Planzeichnung 25037 AG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Abwägungsbeschluss",
+    "Last_Decision_Date": "2026-11-03",
+    "First_Decision_Date": null,
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": 34.96,
+    "Added Capacity": "31 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12009",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=85309&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12032",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=86029&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12031",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=85689&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12404",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=90503&type=do",
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12405",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=90600&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.66237,
+     47.9502
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Freiflächensolar Wannenberg",
+    "Project_ID": "PV-BW-0032",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Genehmigt",
+    "Last_Decision": "Satzungsbeschluss",
+    "Last_Decision_Date": "2026-02-03",
+    "First_Decision_Date": "2026-02-03",
+    "Municipality": "Ravensburg",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12197",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=87693&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.611388888,
+     47.783055555
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Freiflächenphotovoltaik Wannenberg",
+    "Project_ID": "PV-BW-0033",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=12019",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=85452&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63888889,
+     47.95416667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Bühlstraße",
+    "Project_ID": "PV-BW-0034",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=9339",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=74379&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63745,
+     47.95083
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Großer Esch",
+    "Project_ID": "PV-BW-0035",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=7604",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=63938&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63888889,
+     47.95416667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Achtobel",
+    "Project_ID": "PV-BW-0036",
+    "Operator": "2021 VO Vorlage Anlagen ABO Wind AG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Aulendorf",
+    "District": "Ravensburg",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=7668",
+     "https://ratsinfo.aulendorf.de/bi/getfile.php?id=64800&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.63888889,
+     47.95416667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Stumpenwiesen",
+    "Project_ID": "PV-BW-0037",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Bad Schussenried",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "1.5 MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=4606",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=21212&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.658611111,
+     48.006666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-Freiflächenanlage",
+    "Project_ID": "PV-BW-0038",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Bad Schussenried",
+    "District": "Biberach",
+    "State": "Baden-Württemberg",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=4607",
+     "https://service.bad-schussenried.de/buergerinfo/getfile.php?id=21207&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.61387,
+     48.01892
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "Name": "Solarpark Ludwigsmoos I",
     "Project_ID": "PV-BY-0001",
     "Operator": "N/A",
@@ -3661,6 +4356,387 @@
   {
    "type": "Feature",
    "properties": {
+    "Name": "PV-HE-0016",
+    "Project_ID": "PV-HE-0016",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2023-05-11",
+    "First_Decision_Date": "2023-05-11",
+    "Municipality": "Neu-Anspach",
+    "District": "Hochtaunuskreis",
+    "State": "Hessen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWzcSQKpI-C9alzYOpcasvM",
+     "https://rim.ekom21.de/neu-anspach/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc_ovBGvQsHNtugjIb4MMSmKeyo8DwS_HzRpA-Ufyb66/Mitteilung_105-2023.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.507222222,
+     50.300277777
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-HE-0018",
+    "Project_ID": "PV-HE-0018",
+    "Operator": "Wasser AG & Co. KG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-11-01",
+    "First_Decision_Date": null,
+    "Municipality": "Hohenstein",
+    "District": "Rheingau-Taunus-Kreis",
+    "State": "Hessen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/vo0050.php?__kvonr=2247&voselect=859",
+     "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/getfile.php?id=41376&type=do",
+     "https://sessionnet.hohenstein-hessen.de/sessionnet/bi/vo0050.php?__kvonr=2247&voselect=856"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.100277777,
+     50.193611111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Windenergie",
+    "Project_ID": "PV-HE-0019",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Entwurfs-/Auslegungsbeschluss",
+    "Last_Decision_Date": "2024-04-16",
+    "First_Decision_Date": "2024-04-16",
+    "Municipality": "Lautertal",
+    "District": "Bergstraße",
+    "State": "Hessen",
+    "Area_ha": 0.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://lautertal.gremien.info/oparl/paper/20241604100049",
+     "https://lautertal.gremien.info/api.php?document_type_id=4&submission_id=20241604100049&id=69&inline=true"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.692777777,
+     49.712361111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-HE-0020",
+    "Project_ID": "PV-HE-0020",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2024-05-03",
+    "First_Decision_Date": "2024-05-03",
+    "Municipality": "Pohlheim",
+    "District": "Gießen",
+    "State": "Hessen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36904"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.733333333,
+     50.525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaikfreiflächenanlage Am Bergwerkswald",
+    "Project_ID": "PV-HE-0021",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-03-05",
+    "First_Decision_Date": "2025-03-02",
+    "Municipality": "Linden",
+    "District": "Gießen",
+    "State": "Hessen",
+    "Area_ha": 2.5,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/vo0050.asp?__kvonr=11137&voselect=4998",
+     "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/getfile.asp?id=29792&type=do",
+     "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/vo0050.asp?__kvonr=11137&voselect=4958"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.65334,
+     50.527
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Sondergebiet Photovoltaik-Freiflächenanlage Erdfunkstelle MBS",
+    "Project_ID": "PV-HE-0022",
+    "Operator": "Media Broadcast Satellite GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Frühzeitige Beteiligung",
+    "Last_Decision_Date": "2025-12-18",
+    "First_Decision_Date": "2025-07-03",
+    "Municipality": "Usingen",
+    "District": "Hochtaunuskreis",
+    "State": "Hessen",
+    "Area_ha": 2025.0,
+    "Added Capacity": "11 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZU4M8y_cFOYnpHekB2wkM34",
+     "https://rim.ekom21.de/neu-anspach/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQOr7wE5ELdGAGUVU_nJ9ohcv8POwEgcpt6aAz_vRqus/Vorlage_89-2025.pdf",
+     "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUGENb7PQ-17S8Jqmt1V0sA",
+     "https://rim.ekom21.de/neu-anspach/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVs5LFowxaaYCjLz6zbp990_fseFn83kOXI44fMY7sb9/Vorlage_242-2025.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.50144,
+     50.31056
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-HE-0023",
+    "Project_ID": "PV-HE-0023",
+    "Operator": "Media Broadcast Satellite GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2025-09-18",
+    "First_Decision_Date": "2025-09-18",
+    "Municipality": "Neu-Anspach",
+    "District": "Hochtaunuskreis",
+    "State": "Hessen",
+    "Area_ha": 2025.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVlc2yAOkR3DrIoOuwaqmxE",
+     "https://rim.ekom21.de/neu-anspach/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWvqJGscCRdMLX_p2NIEN7LAIoazY14bwNuypcXhKNkZ/Vorlage_167-2025.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.50144,
+     50.31056
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-HE-0024",
+    "Project_ID": "PV-HE-0024",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-12-10",
+    "First_Decision_Date": "2026-05-21",
+    "Municipality": "Rüsselsheim am Main",
+    "District": "Groß-Gerau",
+    "State": "Hessen",
+    "Area_ha": 115.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQjQkd7aEIhfGGcG4ZiWAvg",
+     "https://rim.ekom21.de/ruesselsheim/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYsjlUP7_MZAF_7tXV9p_w-Wc0s0W61i9d-3NXOH9fqO/Drucksache_DS-5-26-31.pdf",
+     "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcmrHW7wmb7PaZ9nTug2TMw",
+     "https://rim.ekom21.de/ruesselsheim/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa2XCVkwS3Ljo503yxSQ3nbI9xT0FNywP33z2iXILSAa/Drucksache_DS-5-26-31_1._Ergaenzung.pdf",
+     "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeWZJcfqDvKje93LfRh5blY",
+     "https://rim.ekom21.de/ruesselsheim/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfka87x_7peWEaFWxY8AVZ2CBcWPjUEwMP4xnzeHoluo/Antrag_DS-5-1-26-31.pdf",
+     "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQlKfU5bI2vQffI0UHRHM84",
+     "https://rim.ekom21.de/ruesselsheim/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYA6r7m-YVTyJdqfh8Ju9tBkgS39iYUTWOp4JTBWdOzs/Drucksache_DS-5-26-31_2._Ergaenzung.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.411944444,
+     49.995
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Parkplatz an der Hans-\nBöckler-Straße",
+    "Project_ID": "PV-HE-0025",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2026-06-03",
+    "First_Decision_Date": "2026-06-03",
+    "Municipality": "Linden",
+    "District": "Gießen",
+    "State": "Hessen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=32273",
+     "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/getfile.asp?id=34615&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.65334,
+     50.527
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-HE-0026",
+    "Project_ID": "PV-HE-0026",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-06-03",
+    "First_Decision_Date": "2026-06-03",
+    "Municipality": "Linden",
+    "District": "Gießen",
+    "State": "Hessen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=32274",
+     "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/getfile.asp?id=34616&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.65,
+     50.533333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "geeignet",
+    "Project_ID": "PV-HE-0027",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Abwägungsbeschluss",
+    "Last_Decision_Date": "2026-12-10",
+    "First_Decision_Date": "2026-12-10",
+    "Municipality": "Groß-Gerau",
+    "District": "Groß-Gerau",
+    "State": "Hessen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYTqKjYmp2gkV_QK-2gcucc",
+     "https://rim.ekom21.de/ruesselsheim/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSi-I5Zc98_xDge1UHOCMpFLqM0AqvJKMOcqE4hzuWdw/Antrag_DS-5-1-26-31_2._Ergaenzung.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.481805555,
+     49.921388888
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-HE-0028",
+    "Project_ID": "PV-HE-0028",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Rüsselsheim am Main",
+    "District": "Groß-Gerau",
+    "State": "Hessen",
+    "Area_ha": 120.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbqB70oo78wOjenJFYTGx6E",
+     "https://rim.ekom21.de/ruesselsheim/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZqrtMFgkfy_K0e5btRj4EpNsyfAESdCZ06xGnCvkVsc/Anfrage_AF-79-21-26_Antwort.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.411944444,
+     49.995
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "Name": "Radweg Wieck/Prerow/Zingst",
     "Project_ID": "PV-MV-0001",
     "Operator": "N/A",
@@ -3688,6 +4764,747 @@
     "coordinates": [
      12.567777777,
      54.446944444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaikanlage\nsüdlich der Ortsumgehung im Stadtteil Voigdehagen",
+    "Project_ID": "PV-MV-0002",
+    "Operator": "SWS Natur GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Genehmigt",
+    "Last_Decision": "Satzungsbeschluss",
+    "Last_Decision_Date": "2023-03-06",
+    "First_Decision_Date": "2023-03-02",
+    "Municipality": "Stralsund",
+    "District": "Bezirk Rostock",
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 4.6,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9517&voselect=6650",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=160884&type=do",
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9517&voselect=6598"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.08978,
+     54.27029
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Solarpark Pritzier",
+    "Project_ID": "PV-MV-0004",
+    "Operator": "ENERTRAG SE",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-08-04",
+    "First_Decision_Date": null,
+    "Municipality": "Pritzier",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 54.6,
+    "Added Capacity": "60 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7679&voselect=2184",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=98926&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7522&voselect=2133",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=96837&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7522&voselect=2130",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7679&voselect=2138",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7679&voselect=2142",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7679&voselect=2145",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7679&voselect=2181"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.07812,
+     53.37919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaikanlage sÃ¼dÃ¶stlich Ortslage Karrin",
+    "Project_ID": "PV-MV-0005",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Frühzeitige Beteiligung",
+    "Last_Decision_Date": "2023-03-09",
+    "First_Decision_Date": null,
+    "Municipality": "Kröslin",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 3.8,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7555&voselect=2129",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=97087&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7556&voselect=2130",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=97089&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.766666666,
+     54.116666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Solarpark Freienlande im Stadtgebiet Grünhufe",
+    "Project_ID": "PV-MV-0006",
+    "Operator": "BHSS Solar GmbH & Co. KG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-06-05",
+    "First_Decision_Date": "2023-06-01",
+    "Municipality": "Stralsund",
+    "District": "Bezirk Rostock",
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 26.1,
+    "Added Capacity": "25 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9651&voselect=6654",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=165295&type=do",
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9651&voselect=6600"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.04129,
+     54.30961
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Sondergebiet PV-FreiflÃ¤chenanlage Ã¶stlich der K 22",
+    "Project_ID": "PV-MV-0007",
+    "Operator": "ENVIRIA IPP DEVCO 4 GmbH & Co.KG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2024-01-08",
+    "First_Decision_Date": "2024-01-08",
+    "Municipality": "Wolgast",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 9.9,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7950&voselect=2222",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=102744&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.77105,
+     54.052
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PVA nÃ¶rdlich der Netzebander StraÃe",
+    "Project_ID": "PV-MV-0008",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-03-05",
+    "First_Decision_Date": null,
+    "Municipality": "Wolgast",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 48.3,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8038&voselect=2346",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=110650&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8039&voselect=2346",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=110652&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8038&voselect=2234",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8039&voselect=2234",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8038&voselect=2343",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8039&voselect=2343",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8038&voselect=2344",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8039&voselect=2344"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.77105,
+     54.052
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Solarpark Karlsburg",
+    "Project_ID": "PV-MV-0009",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Frühzeitige Beteiligung",
+    "Last_Decision_Date": "2024-09-09",
+    "First_Decision_Date": "2024-08-07",
+    "Municipality": "Karlsburg",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8303&voselect=2295",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=106920&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8303&voselect=2299"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.616666666,
+     53.966666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-MV-0010",
+    "Project_ID": "PV-MV-0010",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2024-09-02",
+    "First_Decision_Date": "2024-09-02",
+    "Municipality": "Stralsund",
+    "District": "Bezirk Rostock",
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=10525&voselect=7222",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=187520&type=do",
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=10524&voselect=7222",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=187515&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.081944444,
+     54.309166666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-PVA OT Pritzier - westlich der Ortslage Pritzier",
+    "Project_ID": "PV-MV-0011",
+    "Operator": "Peeneland EE Projektentwicklungs\nGmbH & Co. KG",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2026-11-09",
+    "First_Decision_Date": null,
+    "Municipality": "Pritzier",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 30.5,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8651&voselect=2345",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=111830&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8652&voselect=2345",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=111850&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8344&voselect=2300",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=107567&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8346&voselect=2300",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=107579&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8344&voselect=2301",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8346&voselect=2301",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8651&voselect=2347",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8652&voselect=2347",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8651&voselect=2349",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8652&voselect=2349",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9121&voselect=2449",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=119429&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9121&voselect=2451",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9121&voselect=2452",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9360",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=123468&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9369",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=123583&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9368",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=123570&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.07812,
+     53.37919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-Photovoltaikanlage Bauer - nÃ¶rdlich des Brebowbaches",
+    "Project_ID": "PV-MV-0012",
+    "Operator": "BAUKONZEPT Neubrandenburg GmbH",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Entwurfs-/Auslegungsbeschluss",
+    "Last_Decision_Date": "2026-07-03",
+    "First_Decision_Date": "2024-11-07",
+    "Municipality": "Zemitz",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 28.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8438",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108787&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8442",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108864&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8863&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114841&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8864&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114852&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=76346",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=76350"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.75,
+     53.983333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-Photovoltaikanlage Seckeritz - nÃ¶rdlich des Apfelweges>",
+    "Project_ID": "PV-MV-0013",
+    "Operator": "Peeneland Agrar GmbH",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Entwurfs-/Auslegungsbeschluss",
+    "Last_Decision_Date": "2026-07-03",
+    "First_Decision_Date": "2024-11-07",
+    "Municipality": "Zemitz",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 20.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8439",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108800&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8443",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108890&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8865&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114870&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8866&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114894&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=76347"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.75,
+     53.983333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-Photovoltaikanlage Zemitz I - nÃ¶rdlich der StraÃe Weiblitz",
+    "Project_ID": "PV-MV-0014",
+    "Operator": "Peeneland Agrar GmbH",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Entwurfs-/Auslegungsbeschluss",
+    "Last_Decision_Date": "2026-07-03",
+    "First_Decision_Date": "2024-11-07",
+    "Municipality": "Zemitz",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 12.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8440",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108809&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8444",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108891&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8867&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114913&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8868&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114952&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=76348"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.75502,
+     53.97836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-Photovoltaikanlage Zemitz II - westlich der StraÃe Am Eichenhag",
+    "Project_ID": "PV-MV-0015",
+    "Operator": "Peeneland Agrar GmbH",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Entwurfs-/Auslegungsbeschluss",
+    "Last_Decision_Date": "2026-07-03",
+    "First_Decision_Date": "2024-11-07",
+    "Municipality": "Zemitz",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 8.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8441",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108821&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8445",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=108906&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8869&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114983&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8870&voselect=2424",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=114994&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=76349"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.75502,
+     53.97836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-Photovoltaikpark Karrin Hof westlich der L262",
+    "Project_ID": "PV-MV-0016",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-03-05",
+    "First_Decision_Date": null,
+    "Municipality": "Kröslin",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 9.9,
+    "Added Capacity": "12 MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8558&voselect=2346",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=110777&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8488&voselect=2308",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=109447&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8488&voselect=2311",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8558&voselect=2343",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8558&voselect=2344"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.766666666,
+     54.116666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "SWS Energiepark",
+    "Project_ID": "PV-MV-0017",
+    "Operator": "SWS Natur GmbH",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "Genehmigt",
+    "Last_Decision": "Satzungsbeschluss",
+    "Last_Decision_Date": "2026-04-05",
+    "First_Decision_Date": "2025-03-07",
+    "Municipality": "Stralsund",
+    "District": "Bezirk Rostock",
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 5.85,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=10911&voselect=7656",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=195370&type=do",
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=10911&voselect=7612",
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=11525&voselect=8157",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=208684&type=do",
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=11525&voselect=8178"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.0818,
+     54.30911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-MV-0018",
+    "Project_ID": "PV-MV-0018",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2025-09-08",
+    "First_Decision_Date": "2025-09-08",
+    "Municipality": "Stralsund",
+    "District": "Bezirk Rostock",
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=11181&voselect=7618",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=201238&type=do",
+     "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=11185&voselect=7618",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=201274&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.081944444,
+     54.309166666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaik-Anlage Ã¶stlich Ortslage Rubenow",
+    "Project_ID": "PV-MV-0019",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-12-07",
+    "First_Decision_Date": null,
+    "Municipality": "Rubenow",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 34.7,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8918&voselect=2407",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=116005&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8918&voselect=2405",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8918&voselect=2408"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.69946,
+     54.09868
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaik-FreiflÃ¤chenanlage Bannemin",
+    "Project_ID": "PV-MV-0020",
+    "Operator": "Pacifico Energy Partners GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Frühzeitige Beteiligung",
+    "Last_Decision_Date": "2026-09-07",
+    "First_Decision_Date": "2026-08-07",
+    "Municipality": "Mölschow",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 9.0,
+    "Added Capacity": "11 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9264&voselect=2487",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=121582&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9264&voselect=2495",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9264"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.85401,
+     54.06624
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-PVA OT Pritzier - westlich der Ortslage Pritzier",
+    "Project_ID": "PV-MV-0021",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Agri-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-11-09",
+    "First_Decision_Date": "2026-11-09",
+    "Municipality": "Wolgast",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": 30.5,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9383",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=123803&type=do",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9384",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=123812&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.704,
+     54.03868
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Sondergebiete Energieerzeugung und Freizeit in Grünhufe",
+    "Project_ID": "PV-MV-0022",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Stralsund",
+    "District": "Bezirk Rostock",
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=63528",
+     "https://webris.stralsund.de/buergerinfo/getfile.asp?id=177296&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.081944444,
+     54.309166666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Solarpark Lentschow",
+    "Project_ID": "PV-MV-0023",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Murchin",
+    "District": null,
+    "State": "Mecklenburg-Vorpommern",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7183",
+     "https://sessionnet.wolgast.de/sessionnet/buergerinfo/getfile.php?id=92116&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.733333333,
+     53.9
     ]
    }
   },
@@ -8071,6 +9888,544 @@
   {
    "type": "Feature",
    "properties": {
+    "Name": "Photovoltaik-Freiflächenanlage Büchen-Dorf",
+    "Project_ID": "PV-SH-0001",
+    "Operator": "Lunaco GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2024-05-07",
+    "First_Decision_Date": "2024-05-07",
+    "Municipality": "Büchen",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": 7.0,
+    "Added Capacity": "8.4 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11030",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=117887&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11029",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=117878&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11041",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=117967&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.6176,
+     53.48008
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaikanlagen III",
+    "Project_ID": "PV-SH-0002",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "In Planung",
+    "Last_Decision": "Abwägungsbeschluss",
+    "Last_Decision_Date": "2025-11-06",
+    "First_Decision_Date": "2024-11-08",
+    "Municipality": "Schulendorf",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11336",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=121839&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11337",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=121867&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13730",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=130499&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13729",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=130475&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.5679,
+     53.47139
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaikanlagen",
+    "Project_ID": "PV-SH-0003",
+    "Operator": "Green FOX Energy V GmbH & Co. KG",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "In Planung",
+    "Last_Decision": "Abwägungsbeschluss",
+    "Last_Decision_Date": "2025-07-02",
+    "First_Decision_Date": "2024-12-02",
+    "Municipality": "Tramm",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": 12.8,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11260",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=121175&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11261",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=121179&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11262",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=121183&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13607",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=128598&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13608",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=128602&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.61172,
+     53.56446
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaikanlagen",
+    "Project_ID": "PV-SH-0004",
+    "Operator": "Projektierer \nNaturwind Schwerin GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-03-06",
+    "First_Decision_Date": "2025-03-06",
+    "Municipality": "Witzeeze",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11436",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=123942&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.60796,
+     53.45153
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-SH-0005",
+    "Project_ID": "PV-SH-0005",
+    "Operator": "Ingenieure GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-03-06",
+    "First_Decision_Date": "2025-03-06",
+    "Municipality": "Siebeneichen",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": 48.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11467",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=124410&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.616666666,
+     53.516666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Solar-Freiflächenanlage",
+    "Project_ID": "PV-SH-0006",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-10-04",
+    "First_Decision_Date": "2025-06-06",
+    "Municipality": "Büchen",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13570",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=127959&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13636",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=129446&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13635",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=129442&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13681",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=129846&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13682",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=129865&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.616666666,
+     53.483333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-Freiflächenanlage",
+    "Project_ID": "PV-SH-0007",
+    "Operator": "PIN Grünstrom 106 GmbH & Co. KG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2025-07-02",
+    "First_Decision_Date": "2025-07-02",
+    "Municipality": "Bröthen",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": 13.8,
+    "Added Capacity": "13.8 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13621",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=128933&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13622",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=128940&type=do",
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13624",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=128945&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.66755,
+     53.47947
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Einsehbarkeit von ö\nffentlichen Verkehrsrä\numen",
+    "Project_ID": "PV-SH-0012",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-05-28",
+    "First_Decision_Date": "2026-05-28",
+    "Municipality": "Neustadt in Holstein",
+    "District": "Kreis Ostholstein",
+    "State": "Schleswig-Holstein",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ris.stadt-neustadt.eu/bi/vo020.asp?VOLFDNR=4406",
+     "https://ris.stadt-neustadt.eu/bi/___tmp/tmp/45081036/YtmpCUdWXPC5LkHs88ySkUeRwnPROJWOuvM0sqRb/fVboJytq/19-Anlagen/01/260422_Gestaltungssatzung_Anpassung_PV.pdf"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.815833333,
+     54.107222222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Freiflächen Photovoltaikanlage",
+    "Project_ID": "PV-SH-0013",
+    "Operator": "ENERPARC AG",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-10-06",
+    "First_Decision_Date": "2026-07-02",
+    "Municipality": "Schönberg",
+    "District": "Kreis Plön",
+    "State": "Schleswig-Holstein",
+    "Area_ha": 40.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=93844",
+     "https://ratsinfo.amt-probstei.de/bi/getfile.php?id=245425&type=do",
+     "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=94455",
+     "https://ratsinfo.amt-probstei.de/bi/getfile.php?id=247793&type=do",
+     "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=94799",
+     "https://ratsinfo.amt-probstei.de/bi/getfile.php?id=248724&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.371944444,
+     54.395555555
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Sondergebiet Photovoltaik",
+    "Project_ID": "PV-SH-0016",
+    "Operator": "Regionalplanung mbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-08-07",
+    "First_Decision_Date": "2026-08-07",
+    "Municipality": "Höhndorf",
+    "District": "Kreis Plön",
+    "State": "Schleswig-Holstein",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=94034",
+     "https://ratsinfo.amt-probstei.de/bi/getfile.php?id=246878&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.366666666,
+     54.366666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-SH-0017",
+    "Project_ID": "PV-SH-0017",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-08-08",
+    "First_Decision_Date": "2026-08-08",
+    "Municipality": "Schönberg",
+    "District": "Kreis Plön",
+    "State": "Schleswig-Holstein",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ratsinfo.amt-probstei.de/bi/vo0050.php?__kvonr=20379&voselect=16560",
+     "https://ratsinfo.amt-probstei.de/bi/getfile.php?id=246798&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.371944444,
+     54.395555555
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaikanlagen",
+    "Project_ID": "PV-SH-0019",
+    "Operator": "Vattenfall \nGmbH",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "In Planung",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Besenthal",
+    "District": "Kreis Herzogtum Lauenburg",
+    "State": "Schleswig-Holstein",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11061",
+     "https://sessionnet.amt-buechen.eu/bi/getfile.php?id=118321&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.74087,
+     53.52978
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-SN-0001",
+    "Project_ID": "PV-SN-0001",
+    "Operator": "Energiegenossenschaft Neue Energien Ostsachsen eG",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2023-05-05",
+    "First_Decision_Date": "2023-05-05",
+    "Municipality": "Heidenau",
+    "District": "Sächsische Schweiz-Osterzgebirge",
+    "State": "Sachsen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://www.heidenau.de/ris/buergerinfo/vo0050.php?__kvonr=72144974&voselect=99122235",
+     "https://www.heidenau.de/ris/buergerinfo/getfile.php?id=356344&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.866666666,
+     50.983333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Photovoltaik-Freiflächenanlage am Vogtlandstadion in Haselbrunn",
+    "Project_ID": "PV-SN-0002",
+    "Operator": "Sportpark Plauen Fitness Life GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-10-07",
+    "First_Decision_Date": "2023-10-07",
+    "Municipality": "Plauen",
+    "District": "Vogtlandkreis",
+    "State": "Sachsen",
+    "Area_ha": 2.7,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://w04.plauen.de/bi/vo0050.asp?__kvonr=60265468",
+     "https://w04.plauen.de/bi/getfile.asp?id=152460&type=do",
+     "https://w04.plauen.de/bi/vo0050.asp?__kvonr=60265469",
+     "https://w04.plauen.de/bi/getfile.asp?id=152467&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.12754,
+     50.51402
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Agri-Solaranlage Plauen – Unterlosa",
+    "Project_ID": "PV-SN-0003",
+    "Operator": "SUNfarming Projekt GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2026-10-06",
+    "First_Decision_Date": "2025-06-04",
+    "Municipality": "Plauen",
+    "District": "Vogtlandkreis",
+    "State": "Sachsen",
+    "Area_ha": 67.32,
+    "Added Capacity": "68 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://w04.plauen.de/bi/vo0050.asp?__kvonr=60265862",
+     "https://w04.plauen.de/bi/getfile.asp?id=163030&type=do",
+     "https://w04.plauen.de/bi/vo0050.asp?__kvonr=60265863",
+     "https://w04.plauen.de/bi/getfile.asp?id=163038&type=do",
+     "https://w04.plauen.de/bi/vo0050.asp?__kvonr=60266263",
+     "https://w04.plauen.de/bi/getfile.asp?id=175784&type=do",
+     "https://w04.plauen.de/bi/vo0050.asp?__kvonr=60266264",
+     "https://w04.plauen.de/bi/getfile.asp?id=175790&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.14659,
+     50.45395
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Bauturbo",
+    "Project_ID": "PV-SN-0005",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "Abgelehnt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": null,
+    "First_Decision_Date": null,
+    "Municipality": "Zwönitz",
+    "District": "Erzgebirgskreis",
+    "State": "Sachsen",
+    "Area_ha": 1.7,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://buergerinfo.zwoenitz.de/vo0050.php?__kvonr=7146&voselect=3363",
+     "https://buergerinfo.zwoenitz.de/getfile.php?id=53954&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.80074,
+     50.61926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "Name": "Photovoltaikanlage auf der Deponie der USUM GmbH",
     "Project_ID": "PV-ST-0001",
     "Operator": "USUM GmbH",
@@ -8687,6 +11042,298 @@
     "coordinates": [
      12.00514,
      52.67565
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "ehemaligen Umspannwerk Ost",
+    "Project_ID": "PV-TH-0001",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-05-03",
+    "First_Decision_Date": null,
+    "Municipality": "Eisenach",
+    "District": "Wartburgkreis",
+    "State": "Thüringen",
+    "Area_ha": 26.0,
+    "Added Capacity": "23 MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4525",
+     "https://ris.eisenach.de/bi/getfile.php?id=109456&type=do",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4526",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4620",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4623",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4622",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4527",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4627",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4630",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4625",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4533",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4629",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4626",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4539"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.324444444,
+     50.974722222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Solarpark Kalteneber",
+    "Project_ID": "PV-TH-0003",
+    "Operator": "Stadtwerke Heilbad \nHeiligenstadt GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Genehmigt",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2024-08-07",
+    "First_Decision_Date": "2023-01-03",
+    "Municipality": "Heilbad",
+    "District": "Heilbad Heiligenstadt",
+    "State": "Thüringen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/vo0050.php?__kvonr=2434",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/getfile.php?id=28759&type=do",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/vo0050.php?__kvonr=2448",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/getfile.php?id=28857&type=do",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/vo0050.php?__kvonr=2523",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/getfile.php?id=30051&type=do",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/vo0050.php?__kvonr=2524",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/getfile.php?id=30056&type=do",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/vo0050.php?__kvonr=2797",
+     "https://ratsinfo.heilbad-heiligenstadt.de/bi/getfile.php?id=33950&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.13748,
+     51.31882
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-TH-0004",
+    "Project_ID": "PV-TH-0004",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-06-06",
+    "First_Decision_Date": null,
+    "Municipality": "Eisenach",
+    "District": "Wartburgkreis",
+    "State": "Thüringen",
+    "Area_ha": 20.0,
+    "Added Capacity": "20 MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8117&voselect=4544",
+     "https://ris.eisenach.de/bi/getfile.php?id=111697&type=do",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8117&voselect=4545",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8117&voselect=4658",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8117&voselect=4546"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.36429,
+     51.01006
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Flächen\nhoher landwirtschaftlicher Bonität (Acker-Grünlandzahl >60) bleiben der\nLandwirtschaft vorbehalten",
+    "Project_ID": "PV-TH-0005",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Dach-PV",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2023-05-09",
+    "First_Decision_Date": "2023-05-09",
+    "Municipality": "Eisenach",
+    "District": "Wartburgkreis",
+    "State": "Thüringen",
+    "Area_ha": 26.0,
+    "Added Capacity": "23 MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=7984&voselect=4540",
+     "https://ris.eisenach.de/bi/getfile.php?id=109456&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.324444444,
+     50.974722222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Bündnis 90/Die Grünen",
+    "Project_ID": "PV-TH-0006",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2023-11-08",
+    "First_Decision_Date": "2023-11-08",
+    "Municipality": "Eisenach",
+    "District": "Wartburgkreis",
+    "State": "Thüringen",
+    "Area_ha": null,
+    "Added Capacity": "24.2 MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8409&voselect=4570",
+     "https://ris.eisenach.de/bi/getfile.php?id=115530&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.324444444,
+     50.974722222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Gesetzes zur sofortigen Verbesserung\nder Rahmenbedingungen für die erneuerbaren Energien im Städtebaurecht",
+    "Project_ID": "PV-TH-0008",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2024-09-06",
+    "First_Decision_Date": "2024-09-05",
+    "Municipality": "Eisenach",
+    "District": "Wartburgkreis",
+    "State": "Thüringen",
+    "Area_ha": 60.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8766&voselect=4891",
+     "https://ris.eisenach.de/bi/getfile.php?id=121748&type=do",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=8766&voselect=4916"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.324444444,
+     50.974722222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "BP 77 Solardorf Kettmannshausen",
+    "Project_ID": "PV-TH-0010",
+    "Operator": "N/A",
+    "Element": "Solar Park",
+    "Type": "N/A",
+    "Status": "Ruhend",
+    "Last_Decision": "Aufstellungsbeschluss",
+    "Last_Decision_Date": "2025-02-27",
+    "First_Decision_Date": "2025-02-27",
+    "Municipality": "Arnstadt",
+    "District": "Ilm-Kreis",
+    "State": "Thüringen",
+    "Area_ha": null,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Gemeinde",
+    "Source_Links": [
+     "https://arnstadt.gremien.info/oparl/paper/20252702100024",
+     "https://arnstadt.gremien.info/api.php?document_type_id=4&submission_id=20252702100024&id=69&inline=true"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.946388888,
+     50.834166666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "PV-Freiflächenanlage \nStedtfelder Berg",
+    "Project_ID": "PV-TH-0011",
+    "Operator": "Eisenacher Versorgungs-Betriebe GmbH",
+    "Element": "Solar Park",
+    "Type": "Freifläche",
+    "Status": "In Planung",
+    "Last_Decision": "Unklar",
+    "Last_Decision_Date": "2026-11-05",
+    "First_Decision_Date": "2025-03-04",
+    "Municipality": "Eisenach",
+    "District": "Wartburgkreis",
+    "State": "Thüringen",
+    "Area_ha": 188.0,
+    "Added Capacity": "N/A MVA",
+    "Location_Accuracy": "Ortsteil/Gemarkung",
+    "Source_Links": [
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=9043&voselect=5031",
+     "https://ris.eisenach.de/bi/getfile.php?id=128547&type=do",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=9043&voselect=5069",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=9043&voselect=5059",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=9043&voselect=5032",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=9043&voselect=5042",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=9043&voselect=5040",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=9043&voselect=5041",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10508&voselect=5245",
+     "https://ris.eisenach.de/bi/getfile.php?id=135620&type=do",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10508&voselect=5380",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10508&voselect=5246",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10508&voselect=5326",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10591&voselect=5330",
+     "https://ris.eisenach.de/bi/getfile.php?id=136416&type=do",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10591&voselect=5331",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10591&voselect=5426",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10591&voselect=5332",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10663&voselect=5339",
+     "https://ris.eisenach.de/bi/getfile.php?id=137206&type=do",
+     "https://ris.eisenach.de/bi/vo0050.php?__kvonr=10718",
+     "https://ris.eisenach.de/bi/getfile.php?id=137920&type=do"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.25949,
+     50.99242
     ]
    }
   }
