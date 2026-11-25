@@ -6,7 +6,7 @@ name: Quellen entdecken
 
 on:
   schedule:
-    - cron: "0 3 * * 0"          # sonntags; jeder Lauf arbeitet das nächste Stück je Land ab
+    - cron: "17 1 * * *"         # täglich, bis alle Gemeinden geprüft sind; jeder Lauf arbeitet das nächste Stück je Land ab
   workflow_dispatch:
     inputs:
       land:
