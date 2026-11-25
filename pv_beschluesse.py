@@ -1045,6 +1045,8 @@ def main(argv=None) -> int:
     ap.add_argument("--llm", choices=["keins", "gemini"], default="keins")
     ap.add_argument("--out", default=f"PV_Beschluesse_{dt.date.today():%Y-%m-%d}.xlsx")
     ap.add_argument("--json", help="zusätzlich Rohdaten als JSON speichern")
+    ap.add_argument("--nachklaeren", type=int, default=0,
+                    help="bis zu N Einträge mit unklarem Beschlusstyp: Detailseite und PDFs öffnen (0 = aus)")
     ap.add_argument("--parallel", type=int, default=1,
                     help="so viele Quellen gleichzeitig (verschiedene Server; pro Server bleibt die Pause)")
     ap.add_argument("--pause", type=float, default=REQUEST_PAUSE_S)
@@ -1084,6 +1086,9 @@ def main(argv=None) -> int:
         for b in beschluesse:
             uniq.setdefault((b.datum, b.gemeinde, b.titel), b)
         beschluesse = list(uniq.values())
+        if a.nachklaeren:
+            from pv_nachklaeren import nachklaeren
+            nachklaeren(http, z, beschluesse, max_n=a.nachklaeren, parallel=a.parallel)
         ordne_projekte_zu(beschluesse, BUNDESLAND_KUERZEL.get(land, land[:2].upper()))
         if not a.kein_geocode and beschluesse:
             print("Koordinaten …")

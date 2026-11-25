@@ -60,7 +60,7 @@ jobs:
           LLM=""
           if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
           python pv_beschluesse.py --quellen quellen_alle.csv --land "${{ matrix.land }}" \
-            --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}.xlsx" --parallel 6 $LLM
+            --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}.xlsx" --parallel 6 --nachklaeren 200 $LLM
       - name: Gemeinden ohne RIS – Bekanntmachungen auf der Homepage (Rest der Laufzeit)
         if: always() && hashFiles('quellen_homepage.csv') != ''
         timeout-minutes: 90
