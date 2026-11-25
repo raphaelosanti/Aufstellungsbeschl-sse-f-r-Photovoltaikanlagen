@@ -1,0 +1,7 @@
+name,bundesland,art,url,hinweis
+Bauleitpläne MV (Land),Mecklenburg-Vorpommern,wfs,https://www.geodaten-mv.de/dienste/bauleitplan_wfs,Geltungsbereiche der Bebauungs- und Flächennutzungspläne; Attribute unbekannt
+Bauleitplaene MV basic,Mecklenburg-Vorpommern,wfs,https://bauleitplaene-mv.de/dienste/basic,Typ B_Plan laut Hilfeseite
+Bauleitplaene MV XPlanung (Demo),Mecklenburg-Vorpommern,wfs,https://demo.bauleitplaene-mv.de/ows/xplanung,Demo-Dienst; XPlanung-Typen
+Bauleitpläne in Aufstellung Stadt Bremen,Bremen,wfs,https://hb.xplanboxcloud.dataport.de/xplansyn-wfs/services/xplansynwfspre,Pläne in Aufstellung (xplanbox)
+Kreis Kleve XPlanung inkraftgetreten,Nordrhein-Westfalen,wfs,https://xplanservices.krzn.de/kleve/xplansyn-wfs/services/xplansynwfs,nur Kreis Kleve; Gegenstück für In Aufstellung besteht laut Katalog
+Bauleitplanung NRW (INSPIRE),Nordrhein-Westfalen,ogcapi,https://ogc-api.nrw.de/inspire-lu-bplan/api?f=json,landesweit; INSPIRE-Modell; täglich aktualisiert
