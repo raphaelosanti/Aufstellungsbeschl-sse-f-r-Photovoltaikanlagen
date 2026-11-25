@@ -30,16 +30,57 @@ PV_URL = re.compile(r"solar|photovoltaik|pv-?park|freiflaech|freifläch", re.I)
 SKIP = re.compile(r"\.(png|jpe?g|gif|svg|css|js|ico|woff2?|zip|mp4|docx?|xlsx?)(\?|$)|mailto:|tel:", re.I)
 MAX_SEITEN = 20
 MAX_TIEFE = 2
+# Gemeinden mit bekanntem Solarpark (MaStR): tiefer suchen
+MAX_SEITEN_TIEF = 70
+MAX_TIEFE_TIEF = 3
+SUCHE = ("/?s={q}", "/suche?q={q}", "/search?q={q}", "/suche?searchterm={q}", "/suche.html?q={q}")
+
+
+def _park_namen(hinweis: str) -> list[str]:
+    m = re.search(r"park=([^|]*)", hinweis or "")
+    namen = [x.strip() for x in (m.group(1).split(";") if m else []) if x.strip()]
+    return namen[:4]
+
+
+def _sitemap_treffer(http, basis: str, tokens: list[str]) -> list[str]:
+    """URLs aus sitemap.xml, die nach Solar/PV/Bauleitplanung oder dem Parknamen aussehen."""
+    out: list[str] = []
+    for pfad in ("/sitemap.xml", "/sitemap_index.xml"):
+        try:
+            xml = http.get(basis.rstrip("/") + pfad, cache=False)
+        except Exception:  # noqa: BLE001
+            continue
+        for u in re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", xml)[:5000]:
+            low = u.lower()
+            if u.endswith(".xml"):
+                continue
+            if PV_URL.search(low) or re.search(r"bebauungsplan|bauleit|b-plan|bekanntmach", low) \
+                    or any(t.lower().replace(" ", "-") in low for t in tokens):
+                out.append(u)
+    return out[:40]
 
 
 def homepage_vorlagen(http, q, seit: str | None, zustand=None):
     import pv_beschluesse as pv  # lazy, vermeidet Zirkelimport
 
+    gemeinde = q.name.replace(" [MaStR]", "")
     host = urlparse(q.url).netloc.removeprefix("www.")
     queue: list[tuple[str, int]] = [(q.url, 0)]
     gesehen: set[str] = set()
     treffer = 0
-    while queue and len(gesehen) < MAX_SEITEN:
+    tief = q.typ.lower() == "homepage_mastr"
+    max_seiten = MAX_SEITEN_TIEF if tief else MAX_SEITEN
+    max_tiefe = MAX_TIEFE_TIEF if tief else MAX_TIEFE
+    if tief:
+        from urllib.parse import quote
+        namen = _park_namen(getattr(q, "hinweis", ""))
+        basis = f"{urlparse(q.url).scheme}://{urlparse(q.url).netloc}"
+        for u in _sitemap_treffer(http, basis, namen):
+            queue.insert(0, (u, 1))
+        for term in ["Solarpark", "Photovoltaik"] + namen:
+            for muster in SUCHE[:3]:
+                queue.append((basis + muster.format(q=quote(term)), 1))
+    while queue and len(gesehen) < max_seiten:
         url, tiefe = queue.pop(0)
         url = url.split("#")[0]
         if url in gesehen or SKIP.search(url):
@@ -64,7 +105,7 @@ def homepage_vorlagen(http, q, seit: str | None, zustand=None):
             continue
         except Exception:  # noqa: BLE001
             continue
-        if soup is not None and tiefe < MAX_TIEFE:
+        if soup is not None and tiefe < max_tiefe:
             for a in soup.find_all("a", href=True):
                 absu = urljoin(url, a["href"]).split("#")[0]
                 h = urlparse(absu).netloc.removeprefix("www.")
@@ -90,7 +131,7 @@ def homepage_vorlagen(http, q, seit: str | None, zustand=None):
             continue
         treffer += 1
         http.zaehle("Homepage: Treffer")
-        yield {"titel": titel or f"{q.name}: Bekanntmachung", "datum": datum,
-               "text": f"{q.name}\n{text[:20000]}", "link": url,
-               "dokument_link": url if ist_pdf else "", "body_name": q.name, "schluessel": url}
+        yield {"titel": titel or f"{gemeinde}: Bekanntmachung", "datum": datum,
+               "text": f"{gemeinde}\n{text[:20000]}", "link": url,
+               "dokument_link": url if ist_pdf else "", "body_name": gemeinde, "schluessel": url}
     http.zaehle(f"Homepage: {len(gesehen)} Seiten geprüft")

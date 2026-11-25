@@ -246,6 +246,13 @@ def oparl_endpunkte(http: pv.Http) -> dict[str, tuple[str, str]]:
 
 
 # --------------------------------------------------------------------------- #
+def mastr_ags(pfad: str = os.path.join("entdeckung", "mastr_gemeinden.csv")) -> set[str]:
+    """Gemeindeschlüssel der Gemeinden mit Freiflächen-PV laut MaStR (aus mastr_abgleich.py); leer, wenn nicht vorhanden."""
+    if not os.path.exists(pfad):
+        return set()
+    return {r["ags"].zfill(8) for r in lade_csv(pfad) if r.get("ags")}
+
+
 def amt_zuordnen(tab: dict, laender: list[str], eintragen) -> None:
     """Gemeinden eines Amts/einer Verbandsgemeinde teilen sich das RIS des Amts. Hat eine Gemeinde
     eines Amts ein RIS gefunden, bekommen die übrigen Gemeinden mit demselben Amt dasselbe."""
@@ -357,6 +364,8 @@ def main() -> int:
                 if alter < a.recheck_tage:
                     continue
             offen.append(g)
+    mastr = mastr_ags()
+    offen.sort(key=lambda g: (g["ags"].zfill(8) not in mastr))   # Gemeinden mit bekanntem Solarpark zuerst (stabil)
     if a.budget:
         offen = offen[:a.budget]
     print(f"\n{len(offen)} Gemeinden werden in diesem Lauf geprüft\n")

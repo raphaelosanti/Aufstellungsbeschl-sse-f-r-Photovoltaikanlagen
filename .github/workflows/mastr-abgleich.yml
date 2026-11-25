@@ -42,11 +42,13 @@ jobs:
           key: mastr-${{ github.run_id }}
       - name: Abgleich
         run: python mastr_abgleich.py --db ~/.open-MaStR/data/sqlite/open-mastr.db
+      - name: Zielliste für den Homepage-Crawler
+        run: python mastr_ziele.py
       - name: Ergebnis committen
         if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -f $(ls entdeckung/mastr_gemeinden.csv entdeckung/mastr_bericht.md entdeckung/mastr_spalten.txt 2>/dev/null)
+          git add -f $(ls entdeckung/mastr_gemeinden.csv entdeckung/mastr_bericht.md entdeckung/mastr_spalten.txt quellen_mastr.csv 2>/dev/null)
           git commit -m "MaStR-Abgleich aktualisiert" || echo "nichts zu committen"
           for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
