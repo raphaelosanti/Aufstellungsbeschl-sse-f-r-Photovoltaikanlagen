@@ -38,6 +38,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 import urllib.robotparser
 from dataclasses import dataclass, field, asdict
@@ -156,15 +157,39 @@ class Beschluss:
 # HTTP mit Robots-Check, Pause und Cache
 # --------------------------------------------------------------------------- #
 class Http:
+    """HTTP mit robots.txt, Pause pro Server und Cache. Thread-sicher: mehrere Quellen können parallel laufen,
+    Anfragen an denselben Server werden trotzdem nacheinander mit Pause gestellt (Höflichkeit)."""
+
     def __init__(self, pause: float = REQUEST_PAUSE_S, cache_dir: str = CACHE_DIR):
-        self.s = requests.Session()
-        self.s.headers["User-Agent"] = USER_AGENT
+        self._tl = threading.local()
         self.pause = pause
         self.last: dict[str, float] = {}
         self.robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
         self.cache_dir = cache_dir
         os.makedirs(cache_dir, exist_ok=True)
-        self.diag: dict[str, int] = {}
+        self._hosts: dict[str, threading.Lock] = {}
+        self._glock = threading.Lock()
+
+    @property
+    def s(self) -> requests.Session:          # eine Session je Thread
+        if not hasattr(self._tl, "s"):
+            self._tl.s = requests.Session()
+            self._tl.s.headers["User-Agent"] = USER_AGENT
+        return self._tl.s
+
+    @property
+    def diag(self) -> dict[str, int]:
+        if not hasattr(self._tl, "diag"):
+            self._tl.diag = {}
+        return self._tl.diag
+
+    @diag.setter
+    def diag(self, v: dict[str, int]) -> None:
+        self._tl.diag = v
+
+    def hostlock(self, host: str) -> threading.Lock:
+        with self._glock:
+            return self._hosts.setdefault(host, threading.Lock())
 
     def zaehle(self, art: str) -> None:
         self.diag[art] = self.diag.get(art, 0) + 1
@@ -201,18 +226,22 @@ class Http:
                 data = f.read()
             return data if binary else data.decode("utf-8", errors="replace")
         host = urlparse(url).netloc
-        wait = self.pause - (time.time() - self.last.get(host, 0))
-        if wait > 0:
-            time.sleep(wait)
-        try:
-            r = self.s.get(url, timeout=30, **kw)
-        except requests.RequestException:
-            self.zaehle("Verbindungsfehler")
-            raise
-        self.last[host] = time.time()
+        with self.hostlock(host):
+            wait = self.pause - (time.time() - self.last.get(host, 0))
+            if wait > 0:
+                time.sleep(wait)
+            try:
+                r = self.s.get(url, timeout=30, **kw)
+            except requests.RequestException:
+                self.zaehle("Verbindungsfehler")
+                raise
+            self.last[host] = time.time()
         if r.status_code >= 400:
             self.zaehle(f"HTTP {r.status_code}")
         r.raise_for_status()
+        if not binary and b"\x00" in r.content[:4000]:
+            self.zaehle("Binärdaten statt Text übersprungen")
+            raise ValueError(f"keine Textseite: {url}")
         self.zaehle("Seiten geladen")
         if cache:
             with open(path, "wb") as f:
@@ -227,34 +256,37 @@ class Http:
 
     def render(self, url: str, warte_ms: int = 4000) -> str | None:
         """Seite mit Headless-Chromium laden (für JavaScript-Apps). None, wenn Playwright
-        fehlt oder die Seite nicht lädt. robots.txt und Pause gelten wie bei get()."""
+        fehlt oder die Seite nicht lädt. robots.txt und Pause gelten wie bei get().
+        Je Thread ein eigener Browser (Playwright ist nicht threadübergreifend nutzbar)."""
         if not self._erlaubt(url):
             self.zaehle("robots.txt verbietet")
             return None
         if getattr(self, "_pw_fehlt", False):
             return None
+        tl = self._tl
         try:
-            if not hasattr(self, "_pw"):
+            if not hasattr(tl, "pw_seite"):
                 from playwright.sync_api import sync_playwright
-                self._pw_ctx = sync_playwright().start()
-                self._pw = self._pw_ctx.chromium.launch()
-                self._pw_seite = self._pw.new_page(user_agent=USER_AGENT)
+                tl.pw_ctx = sync_playwright().start()
+                tl.pw = tl.pw_ctx.chromium.launch()
+                tl.pw_seite = tl.pw.new_page(user_agent=USER_AGENT)
         except Exception:  # noqa: BLE001
             self._pw_fehlt = True
             self.zaehle("Browser nicht verfügbar (Playwright fehlt)")
             return None
         host = urlparse(url).netloc
-        wait = self.pause - (time.time() - self.last.get(host, 0))
-        if wait > 0:
-            time.sleep(wait)
-        try:
-            self._pw_seite.goto(url, wait_until="networkidle", timeout=45000)
-            self._pw_seite.wait_for_timeout(warte_ms)
-            html = self._pw_seite.content()
-        except Exception:  # noqa: BLE001
-            self.zaehle("Browser: Seite nicht geladen")
-            return None
-        self.last[host] = time.time()
+        with self.hostlock(host):
+            wait = self.pause - (time.time() - self.last.get(host, 0))
+            if wait > 0:
+                time.sleep(wait)
+            try:
+                tl.pw_seite.goto(url, wait_until="networkidle", timeout=45000)
+                tl.pw_seite.wait_for_timeout(warte_ms)
+                html = tl.pw_seite.content()
+            except Exception:  # noqa: BLE001
+                self.zaehle("Browser: Seite nicht geladen")
+                return None
+            self.last[host] = time.time()
         self.zaehle("Seiten im Browser gerendert")
         return html
 
@@ -764,8 +796,16 @@ def geocodiere_projekte(beschluesse: list[Beschluss], geo) -> tuple[int, int]:
 def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: str,
                    protokoll: list[tuple[str, str, int]]) -> None:
     from openpyxl import Workbook
+    from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
     from openpyxl.styles import Alignment, Font, PatternFill
     from openpyxl.utils import get_column_letter
+    from openpyxl.worksheet.worksheet import Worksheet
+
+    _append = Worksheet.append
+
+    def _sauber(self, zeile):   # Steuerzeichen/Binärreste aus Webseiten dürfen den Export nicht abbrechen
+        return _append(self, [ILLEGAL_CHARACTERS_RE.sub("", v) if isinstance(v, str) else v for v in zeile])
+    Worksheet.append = _sauber
 
     heute = dt.date.today()
     F = Font(name="Arial", size=10)
@@ -898,13 +938,16 @@ def von_dict(d: dict) -> Beschluss:
     return Beschluss(**{k: v for k, v in d.items() if k in Beschluss.__dataclass_fields__})
 
 
+SPERRE = threading.RLock()   # schützt Zustand, Geocoder und Protokoll bei parallelen Quellen
+
+
 def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
     """Eine Quelle abrufen. Neue Beschlüsse landen im Zustand z (und werden nie zweimal verarbeitet)."""
     if q.typ.lower() == "homepage":   # Homepages nur alle 21 Tage neu durchsuchen -> mehrere Läufe decken alle ab
         zz = z.marke(q.name, "zuletzt")
         if zz and (dt.date.today() - dt.date.fromisoformat(zz)).days < 21:
             return
-    print(f"→ {q.name} ({q.typ})")
+    print(f"→ {q.name} ({q.typ})", flush=True)
     try:
         typ, url = q.typ.lower(), q.url
         http.diag_reset()
@@ -951,17 +994,21 @@ def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
                 z.verwirf(schluessel)
                 continue
             b.schluessel = schluessel
-            b.gemeinde = geo.kanonisch(roh["titel"] + "\n" + roh["text"][:8000], b.landkreis, b.bundesland, b.gemeinde)
-            z.add(asdict(b))
+            with SPERRE:
+                b.gemeinde = geo.kanonisch(roh["titel"] + "\n" + roh["text"][:8000], b.landkreis, b.bundesland, b.gemeinde)
+                z.add(asdict(b))
             n += 1
-            print(f"   + {b.datum or 'o. D.'} | {b.gemeinde} | {b.beschlusstyp} | {b.titel[:70]}")
-        z.setze(q.name, "zuletzt", dt.date.today().isoformat())
+            print(f"   + {b.datum or 'o. D.'} | {b.gemeinde} | {b.beschlusstyp} | {b.titel[:70]}", flush=True)
+        with SPERRE:
+            z.setze(q.name, "zuletzt", dt.date.today().isoformat())
+            z.speichern()      # nach jeder Quelle sichern: ein Abbruch (Zeitlimit) verliert nur die laufende Quelle
         d = http.diag_reset()
         info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
-        print(f"   = {n} neue Treffer | {info or 'keine Abrufe'}")
+        print(f"   = {n} neue Treffer | {info or 'keine Abrufe'} [{q.name}]", flush=True)
         hinweis = " – robots.txt verbietet Zugriff, Betreiber um Erlaubnis fragen" \
             if d.get("robots.txt verbietet") and not d.get("Seiten geladen") else ""
-        protokoll.append((q.name, f"ok ({typ}) | {info}{hinweis}"[:300], n))
+        with SPERRE:
+            protokoll.append((q.name, f"ok ({typ}) | {info}{hinweis}"[:300], n))
     except Exception as e:  # noqa: BLE001
         d = http.diag_reset()
         info = ", ".join(f"{k}: {v}" for k, v in sorted(d.items()))
@@ -977,6 +1024,8 @@ def main(argv=None) -> int:
     ap.add_argument("--llm", choices=["keins", "gemini"], default="keins")
     ap.add_argument("--out", default=f"PV_Beschluesse_{dt.date.today():%Y-%m-%d}.xlsx")
     ap.add_argument("--json", help="zusätzlich Rohdaten als JSON speichern")
+    ap.add_argument("--parallel", type=int, default=1,
+                    help="so viele Quellen gleichzeitig (verschiedene Server; pro Server bleibt die Pause)")
     ap.add_argument("--pause", type=float, default=REQUEST_PAUSE_S)
     ap.add_argument("--daten", default="daten", help="Ordner für Bestand/Marken/Koordinaten (ins Repo committen)")
     ap.add_argument("--kein-geocode", action="store_true", help="keine Koordinaten ermitteln")
@@ -1001,8 +1050,13 @@ def main(argv=None) -> int:
     for land in sorted({q.bundesland or "Brandenburg" for q in quellen}):
         print(f"\n=== {land} ===")
         z = Zustand(a.daten, land)
-        for q in quellen:
-            if (q.bundesland or "Brandenburg") == land:
+        meine = [q for q in quellen if (q.bundesland or "Brandenburg") == land]
+        if a.parallel > 1:
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=a.parallel) as pool:
+                list(pool.map(lambda q: sammle_quelle(http, q, a, z, geo, protokoll), meine))
+        else:
+            for q in meine:
                 sammle_quelle(http, q, a, z, geo, protokoll)
         beschluesse = [von_dict(d) for d in z.alle()]
         uniq: dict = {}
