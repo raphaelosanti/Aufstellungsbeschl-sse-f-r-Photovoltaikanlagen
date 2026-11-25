@@ -2,7 +2,7 @@ name: PV-Beschlussregister
 
 on:
   schedule:
-    - cron: "0 5 * * 1"          # montags
+    - cron: "43 6 * * *"         # täglich (nach der Quellensuche)
   workflow_dispatch:
     inputs:
       seit:
@@ -15,6 +15,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: pv-register
+  cancel-in-progress: false   # läuft noch ein Lauf, wartet der nächste
 
 jobs:
   sammeln:
