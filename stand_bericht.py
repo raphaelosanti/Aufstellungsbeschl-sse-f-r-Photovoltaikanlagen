@@ -128,7 +128,10 @@ def main() -> int:
     proj = projekte_aus(beschluesse)
     gem = lade_csv(os.path.join(a.daten, "gemeinden.csv"))
     quellen = lade_csv("quellen_alle.csv")
-    homepage = lade_csv("quellen_homepage.csv")
+    homepage = []                                  # alle weiteren Quellenlisten (Homepage, Hessen-Verzeichnis, IHK, Amtsblatt)
+    for f in ("quellen_homepage.csv", "quellen_verzeichnis.csv", "quellen_ihk.csv", "quellen_amtsblatt.csv"):
+        homepage += lade_csv(f)
+    nach_typ = Counter((q.get("typ") or "?") for q in quellen + homepage)
     mastr = lade_csv(a.mastr)
 
     # --- Quellen: wann zuletzt gelaufen, wie viele Treffer ------------------------------------------
@@ -233,6 +236,7 @@ def main() -> int:
           f"- **Phase noch unklar:** {zeile['unklar_projekte']} Projekte{delta('unklar_projekte')}; "
           f"{unklar_b} Beschlüsse mit unklarem Typ{delta('unklar_beschluesse')}",
           f"- **Beschlüsse insgesamt:** {zeile['beschluesse']}{delta('beschluesse')}",
+          f"- **Quellen nach Art:** " + ", ".join(f"{t} {n}" for t, n in nach_typ.most_common()),
           f"- **Quellen:** {zeile['quellen']} angebunden, davon {quellen_geprueft} schon abgefragt, "
           f"{jung} in den letzten 2 Tagen; letzter Abruf {letzter_lauf}",
           f"- **Gemeinden:** {len(gem)} bekannt, {len(gem) - gz['ungeprüft']} geprüft "

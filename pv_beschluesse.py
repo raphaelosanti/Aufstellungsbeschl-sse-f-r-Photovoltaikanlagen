@@ -252,8 +252,13 @@ class Http:
                 f.write(r.content)
         if binary:
             return r.content
-        r.encoding = r.encoding or r.apparent_encoding
-        return r.text
+        if "charset" in r.headers.get("content-type", "").lower() and r.encoding:
+            return r.text
+        try:                       # ohne Zeichensatz im Header: erst UTF-8 versuchen (requests rät sonst Latin-1 -> "KarstÃ¤dt")
+            return r.content.decode("utf-8")
+        except UnicodeDecodeError:
+            r.encoding = r.apparent_encoding or "latin-1"
+            return r.text
 
     def json(self, url: str, **kw):
         return json.loads(self.get(url, **kw))
@@ -964,9 +969,10 @@ SPERRE = threading.RLock()   # schützt Zustand, Geocoder und Protokoll bei para
 
 def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
     """Eine Quelle abrufen. Neue Beschlüsse landen im Zustand z (und werden nie zweimal verarbeitet)."""
-    if q.typ.lower() == "homepage":   # Homepages nur alle 21 Tage neu durchsuchen -> mehrere Läufe decken alle ab
+    erneut_nach = {"homepage": 21, "amtsblatt": 6, "ihk": 2}.get(q.typ.lower())   # Tage bis zur nächsten Abfrage
+    if erneut_nach:   # Massenquellen: nur alle paar Tage neu durchsuchen -> mehrere Läufe decken alle ab
         zz = z.marke(q.name, "zuletzt")
-        if zz and (dt.date.today() - dt.date.fromisoformat(zz)).days < 21:
+        if zz and (dt.date.today() - dt.date.fromisoformat(zz)).days < erneut_nach:
             return
     print(f"→ {q.name} ({q.typ})", flush=True)
     try:
@@ -1000,6 +1006,12 @@ def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
         elif typ == "homepage":
             from pv_homepage import homepage_vorlagen   # Gemeinden ohne RIS: Bekanntmachungen (siehe pv_homepage.py)
             roh_iter = homepage_vorlagen(http, qq, seit, zustand=z)
+        elif typ == "ihk":
+            from pv_ihk import ihk_vorlagen             # Planverfahrenslisten der IHKs (siehe pv_ihk.py)
+            roh_iter = ihk_vorlagen(http, qq, seit, zustand=z)
+        elif typ == "amtsblatt":
+            from pv_amtsblatt import amtsblatt_vorlagen   # Amtsblatt-PDFs (siehe pv_amtsblatt.py)
+            roh_iter = amtsblatt_vorlagen(http, qq, seit, zustand=z)
         else:
             roh_iter = html_vorlagen(http, qq, seit, zustand=z)
         n = 0

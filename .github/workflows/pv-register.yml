@@ -74,6 +74,22 @@ jobs:
           if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
           python pv_beschluesse.py --quellen quellen_homepage.csv --land "${{ matrix.land }}" \
             --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}_homepage.xlsx" --parallel 6 $LLM
+      - name: Weitere Quellen – IHK-Planverfahrenslisten, Hessen-Verzeichnis, Amtsblätter
+        if: always()
+        timeout-minutes: 40
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PV_KONTAKT: ${{ vars.PV_KONTAKT }}
+          SEIT: ${{ github.event.inputs.seit || '2022-01-01' }}
+        run: |
+          LLM=""
+          if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
+          for f in quellen_ihk.csv quellen_verzeichnis.csv quellen_amtsblatt.csv; do
+            [ -f "$f" ] || continue
+            python pv_beschluesse.py --quellen "$f" --land "${{ matrix.land }}" \
+              --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}_$f.xlsx" --parallel 6 $LLM
+          done
       - name: Bestand committen
         if: always()
         run: |
