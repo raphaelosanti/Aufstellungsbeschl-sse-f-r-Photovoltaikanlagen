@@ -50,7 +50,7 @@ jobs:
           key: pv-cache-${{ matrix.land }}-${{ github.run_id }}
           restore-keys: pv-cache-${{ matrix.land }}-
       - name: Beschlüsse sammeln (nur Neues; Bestand liegt in daten/)
-        timeout-minutes: 230
+        timeout-minutes: 170
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -63,7 +63,7 @@ jobs:
             --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}.xlsx" --parallel 6 $LLM
       - name: Gemeinden ohne RIS – Bekanntmachungen auf der Homepage (Rest der Laufzeit)
         if: always() && hashFiles('quellen_homepage.csv') != ''
-        timeout-minutes: 90
+        timeout-minutes: 50
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -74,6 +74,19 @@ jobs:
           if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
           python pv_beschluesse.py --quellen quellen_homepage.csv --land "${{ matrix.land }}" \
             --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}_homepage.xlsx" --parallel 6 $LLM
+      - name: Gemeinden mit Solarpark laut MaStR – Homepage tief durchsuchen
+        if: always() && hashFiles('quellen_mastr.csv') != ''
+        timeout-minutes: 110
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PV_KONTAKT: ${{ vars.PV_KONTAKT }}
+          SEIT: ${{ github.event.inputs.seit || '2022-01-01' }}
+        run: |
+          LLM=""
+          if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
+          python pv_beschluesse.py --quellen quellen_mastr.csv --land "${{ matrix.land }}" \
+            --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}_mastr.xlsx" --parallel 6 $LLM
       - name: Bestand committen
         if: always()
         run: |

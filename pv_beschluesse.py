@@ -124,6 +124,7 @@ class Quelle:
     typ: str            # "oparl" | "html" | "auto"
     url: str            # OParl-System-URL, RIS-Basis-URL oder Vorlagenübersicht
     bundesland: str = "Brandenburg"
+    hinweis: str = ""   # freier Text; bei typ homepage_mastr: "park=Name1; Name2"
 
 
 @dataclass
@@ -943,7 +944,7 @@ SPERRE = threading.RLock()   # schützt Zustand, Geocoder und Protokoll bei para
 
 def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
     """Eine Quelle abrufen. Neue Beschlüsse landen im Zustand z (und werden nie zweimal verarbeitet)."""
-    if q.typ.lower() == "homepage":   # Homepages nur alle 21 Tage neu durchsuchen -> mehrere Läufe decken alle ab
+    if q.typ.lower().startswith("homepage"):   # Homepages nur alle 21 Tage neu durchsuchen -> mehrere Läufe decken alle ab
         zz = z.marke(q.name, "zuletzt")
         if zz and (dt.date.today() - dt.date.fromisoformat(zz)).days < 21:
             return
@@ -960,7 +961,7 @@ def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
             else:
                 typ = "html"
             print(f"   erkannt: {typ} {url if gefunden else ''}")
-        qq = Quelle(q.name, q.landkreis, typ, url, q.bundesland)
+        qq = Quelle(q.name, q.landkreis, typ, url, q.bundesland, q.hinweis)
         zuletzt = z.marke(q.name, "zuletzt")
         seit = a.seit
         if zuletzt:   # 14 Tage Überlapp, falls Vorlagen nachträglich ergänzt werden
@@ -976,7 +977,7 @@ def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
         elif typ == "bremen":
             from pv_bremen import bremen_vorlagen    # Stadt Bremen: Deputation Bau/Mobilität (siehe pv_bremen.py)
             roh_iter = bremen_vorlagen(http, qq, seit, zustand=z)
-        elif typ == "homepage":
+        elif typ in ("homepage", "homepage_mastr"):
             from pv_homepage import homepage_vorlagen   # Gemeinden ohne RIS: Bekanntmachungen (siehe pv_homepage.py)
             roh_iter = homepage_vorlagen(http, qq, seit, zustand=z)
         else:
