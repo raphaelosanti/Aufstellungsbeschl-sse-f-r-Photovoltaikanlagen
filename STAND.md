@@ -1,54 +1,87 @@
-# Stand des PV-Beschlussregisters (16.11.2026)
+# Stand des PV-Beschlussregisters (25.11.2026)
 
-Dieses Dokument beschreibt, was das Repo heute kann, wie viele Daten vorliegen und was für die bundesweite Abdeckung fehlt.
+Diese Datei wird nach jedem Lauf automatisch erzeugt (`stand_bericht.py`). Konzept und Ablauf stehen in `KONZEPT.md`, der Verlauf in `daten/verlauf.csv`, das Protokoll in `daten/ereignisse.csv`.
 
-## Ziel
-Ein bundesweites Register aller Gemeinde-Beschlüsse zu PV-Bebauungsplänen (Aufstellungsbeschluss bis Satzungsbeschluss) als frühes Signal für neue PV-Projekte. Das Register erfasst Bauleitplanungs-Beschlüsse aus Ratsinformationssystemen. Es ersetzt keinen Tracker für die EEG-Ausschreibungen der Bundesnetzagentur.
+## Kennzahlen
 
-## Grundquelle
-Ratsinformationssysteme (RIS) der Gemeinden, Ämter und Verbandsgemeinden. Daraus werden Vorlagen und Beschlüsse mit PV-Bezug gelesen.
+- **Projekte:** 375
+- **davon mit Aufstellungsbeschluss:** 147
+- **Phase noch unklar:** 133 Projekte; 154 Beschlüsse mit unklarem Typ
+- **Beschlüsse insgesamt:** 738
+- **Quellen:** 470 angebunden, davon 114 schon abgefragt, 109 in den letzten 2 Tagen; letzter Abruf 2026-11-23
+- **Gemeinden:** 11494 bekannt, 6480 geprüft (565 mit RIS, 5706 ohne erkanntes RIS, 196 ohne Homepage, 13 gesperrt), 5014 noch nie geprüft
 
-| Zugriffsart | Beschreibung | Quellen im Bestand |
-|---|---|---:|
-| `oparl` | standardisierte OParl-API (vollständig automatisierbar) | 103 |
-| `sessionnet` | Somacos SessionNet, HTML-Abruf der Sitzungen | 15 |
-| `auto` | System wird beim Lauf erkannt (OParl, SessionNet oder HTML) | 10 |
-| `html` | Vorlagenübersicht per HTML | 1 |
-| `portal` | Landesportale für Bauleitplanung (allgemeiner Crawler, ungetestet an echten Portalen) | 5 |
+## Trefferquote gegenüber der Erwartung (MaStR)
 
-Das Landesportal bauleitplanung.brandenburg.de verbietet automatisierten Zugriff und wird nicht abgefragt. robots.txt wird überall beachtet, pro Server gilt 1 Sekunde Pause.
+Erwartung: 2339 Gemeinden mit Freiflächen-PV ab 1 MW, im MaStR seit 2021 registriert (mindestens 2827 Parks). Wo ein Park gebaut oder geplant wird, gab es meist einen Bebauungsplan und damit einen Aufstellungsbeschluss. Das ist eine Näherung, kein Soll.
 
-## Ablauf
-1. `quellen_entdecken.py` findet je Gemeinde das RIS (Basis: `daten/gemeinden.csv`, 11.493 Gemeinden mit Koordinaten aus Wikidata) und schreibt `quellen_alle.csv`. Läuft sonntags über GitHub Actions, Budget 400 Gemeinden pro Lauf.
-2. `pv_beschluesse.py` ruft pro Bundesland die Quellen ab, filtert nach PV-Stichwörtern, extrahiert Gemeinde, Fläche, Leistung und Entwickler (Regeln oder Gemini) und ergänzt Koordinaten. Der Bestand liegt in `daten/beschluesse_<land>.jsonl`, es wird nur Neues verarbeitet. Läuft montags.
-3. Der Export fasst alle Länder zusammen: `ausgabe/PV_Beschluesse_Gesamt.xlsx` mit den Tabellen Projekte, Beschluesse, Quellen und Legende.
-4. `portale_sonde.py` untersucht die Portale aus `portale.csv` (Workflow „Portale prüfen“) und schreibt `entdeckung/portale_bericht.md`. `pv_portale.py` ist der zugehörige Adapter (`typ = portal`).
-5. `ris_betreiber.py` wertet die Abdeckung aus: Plattformen, Betreiber, Lücken je Land und Adapter-Ranking (`entdeckung/abdeckung.md`, `entdeckung/betreiber.csv`).
+| Maß | Wert | Bedeutung |
+|---|---|---|
+| Gesamt-Trefferquote | 46 von 2339 = 2.0 % | Gemeinden mit MaStR-Freiflächenpark, für die das Register ein Projekt hat |
+| Erreichbarkeit | 187 von 2339 = 8.0 % | Gemeinden, deren RIS angebunden ist (Treffer oder nicht) |
+| Trefferquote bei erreichbarer Quelle | 46 von 187 = 24.6 % | Wo wir suchen können: wie oft finden wir etwas? |
+| Register-Gemeinden außerhalb der MaStR-Liste | 109 von 155 | Gemeinden mit Projekt im Register, aber ohne MaStR-Freiflächenpark ab 1 MW: Frühphase, noch nicht registriert (der eigentliche Mehrwert) oder Namensabgleich |
 
-## Datenstand
-- 225 Projekte und 415 Beschlüsse.
-- Projekte je Land: Rheinland-Pfalz 88, Brandenburg 54, Nordrhein-Westfalen 39, Hessen 15, Baden-Württemberg 13, Niedersachsen 9, Sachsen-Anhalt 6.
-- Mecklenburg-Vorpommern, Sachsen und Schleswig-Holstein liefern bisher 0 Treffer. Es ist offen, ob das echte Nullen sind oder fehlende Quellen. Thüringen, Bayern, Saarland und die Stadtstaaten haben keine Quellen.
-- Status der Projekte: Ruhend 117, In Planung 53, Genehmigt 28, Abgelehnt 26.
+Gesamt = Erreichbarkeit × Trefferquote bei Quelle (8.0 % × 24.6 %). Der Verlust liegt also vor allem bei der Erreichbarkeit, nicht beim Filter.
 
-## Abdeckung der Quellen
-- Von 11.493 Gemeinden sind 553 geprüft, 10.940 noch nie.
-- 128 Gemeinden mit RIS gefunden (90 Betreiber), 12 durch robots.txt gesperrt, 407 ohne erkanntes RIS.
-- Nur Brandenburg ist vollständig geprüft, dort stehen 386 von 419 Gemeinden auf „kein RIS“. Das spricht für eine Erkennungslücke, vermutlich bei der Zuordnung zum RIS des Amts.
-- Die Quellenliste deckt damit rund 1 % der Gemeinden ab. Der Engpass ist die Quellenliste, nicht der Scraper.
+**Grobe Hochrechnung:** Wären alle 2339 Gemeinden erreichbar und die Trefferquote bliebe bei 24.6 %, ergäbe das etwa 575 Gemeinden mit Projekt (heute 46). Die Quote ist vermutlich zu niedrig angesetzt: Aufstellungsbeschlüsse vor 2022 sind nicht erfasst, und privilegierte Anlagen haben keinen Beschluss. Andererseits sind Projekte, die noch nicht im MaStR stehen (genau die Frühphase), in der Erwartung gar nicht enthalten. Die wahre Zahl liegt also eher darüber.
 
-## Bekannte Einschränkungen
-- Die HTML-Adapter (SessionNet, ALLRIS) funktionieren nicht bei jedem System gleich gut. Ergebnisse stichprobenartig prüfen.
-- Das Datum ist das Vorlagendatum, nicht immer das Sitzungsdatum.
-- Die Spalte `amt` in `daten/gemeinden.csv` ist nur bei 837 Gemeinden gefüllt. Die Zuordnung Gemeinde zu Amt, Verbandsgemeinde oder Samtgemeinde ist unvollständig.
-- Sechs Betreiber auf ratsinfo-online.net sperren per robots.txt (u. a. Hohen Neuendorf, Rüdersdorf, Schorfheide, Zeuthen).
-- Für ratsinfo-online.net und ALLRIS gibt es nur Teilunterstützung, für sitzung-online.de und sdnet keinen Adapter.
+Je Bundesland (MaStR-Gemeinden):
 
-## Nächste Schritte
-0. Workflow „Portale prüfen (Sonde)“ einmal starten und `entdeckung/portale_bericht.md` lesen. Portale als „JavaScript-App“ brauchen einen eigenen Adapter.
-1. Workflow „Quellen entdecken“ mit `land = alle` und `budget = 0` laufen lassen, dann `python ris_betreiber.py` ausführen.
-2. Erkennung in Brandenburg und die Amt-Zuordnung in `quellen_entdecken.py` verbessern.
-3. Adapter für die Plattformen ergänzen, die laut Ranking die meisten Gemeinden abdecken.
-4. Zweite Quellenart für Gemeinden ohne RIS prüfen (Amtsblätter, Bekanntmachungen, Landesportale). Nutzungsbedingungen je Portal vorher klären.
-5. GitHub-Actions-Minuten prüfen (privates Repo), bei Bedarf Repo öffentlich machen oder eigenen Runner nutzen.
-6. Langfristig eine Datenbank (SQLite oder Parquet) als Bestand, aus der die Excel nur noch exportiert wird.
+| Land | MaStR-Gemeinden | im Register | Quelle ohne Treffer | kein RIS | ungeprüft | sonstige | Treffer | erreichbar |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Baden-Württemberg | 236 | 4 | 2 | 41 | 188 | 1 | 1.7 % | 2.5 % |
+| Bayern | 830 | 6 | 23 | 212 | 572 | 17 | 0.7 % | 3.5 % |
+| Berlin | 1 | 0 | 0 | 1 | 0 | 0 | 0.0 % | 0.0 % |
+| Brandenburg | 132 | 8 | 2 | 120 | 0 | 2 | 6.1 % | 7.6 % |
+| Hamburg | 1 | 0 | 0 | 1 | 0 | 0 | 0.0 % | 0.0 % |
+| Hessen | 96 | 5 | 9 | 82 | 0 | 0 | 5.2 % | 14.6 % |
+| Mecklenburg-Vorpommern | 147 | 5 | 0 | 137 | 4 | 1 | 3.4 % | 3.4 % |
+| Niedersachsen | 152 | 2 | 24 | 81 | 44 | 1 | 1.3 % | 17.1 % |
+| Nordrhein-Westfalen | 140 | 4 | 42 | 94 | 0 | 0 | 2.9 % | 32.9 % |
+| Rheinland-Pfalz | 173 | 7 | 9 | 34 | 123 | 0 | 4.0 % | 9.2 % |
+| Saarland | 24 | 0 | 2 | 22 | 0 | 0 | 0.0 % | 8.3 % |
+| Sachsen | 89 | 0 | 7 | 82 | 0 | 0 | 0.0 % | 7.9 % |
+| Sachsen-Anhalt | 97 | 3 | 9 | 85 | 0 | 0 | 3.1 % | 12.4 % |
+| Schleswig-Holstein | 142 | 1 | 8 | 88 | 45 | 0 | 0.7 % | 6.3 % |
+| Thüringen | 79 | 1 | 4 | 59 | 15 | 0 | 1.3 % | 6.3 % |
+
+## Je Bundesland
+
+| Land | Quellen | Gemeinden | RIS | kein RIS | ungeprüft | Projekte | mit Aufst.-Beschl. | Frühphase | Auslegung/Abwägung | Satzung | Unklar |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Baden-Württemberg | 12 | 1101 | 12 | 166 | 923 | 38 | 16 | 12 | 8 | 4 | 14 |
+| Bayern | 60 | 2205 | 60 | 570 | 1505 | 6 | 4 | 4 | 1 | 0 | 1 |
+| Berlin | 13 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Brandenburg | 25 | 419 | 22 | 380 | 0 | 81 | 32 | 25 | 12 | 10 | 34 |
+| Bremen | 3 | 2 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Hamburg | 8 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Hessen | 50 | 432 | 50 | 376 | 0 | 28 | 12 | 12 | 3 | 1 | 12 |
+| Mecklenburg-Vorpommern | 9 | 814 | 18 | 731 | 32 | 23 | 10 | 12 | 5 | 3 | 3 |
+| Niedersachsen | 73 | 1039 | 93 | 578 | 331 | 9 | 3 | 1 | 3 | 1 | 4 |
+| Nordrhein-Westfalen | 109 | 396 | 108 | 288 | 0 | 43 | 14 | 8 | 12 | 6 | 17 |
+| Rheinland-Pfalz | 37 | 2307 | 85 | 623 | 1597 | 88 | 27 | 29 | 23 | 9 | 27 |
+| Saarland | 2 | 53 | 2 | 50 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Sachsen | 15 | 468 | 15 | 441 | 0 | 5 | 2 | 2 | 0 | 0 | 3 |
+| Sachsen-Anhalt | 21 | 227 | 33 | 190 | 0 | 19 | 9 | 7 | 4 | 3 | 5 |
+| Schleswig-Holstein | 23 | 1121 | 47 | 653 | 418 | 19 | 7 | 6 | 5 | 0 | 8 |
+| Thüringen | 10 | 908 | 20 | 656 | 208 | 16 | 11 | 10 | 0 | 1 | 5 |
+| **Gesamt** | **470** | **11494** | **565** | **5706** | **5014** | **375** | **147** | **128** | **76** | **38** | **133** |
+
+## Was zuletzt passiert ist
+
+Noch keine Ereignisse. Ab dem nächsten Lauf werden neue Projekte, erkannte Aufstellungsbeschlüsse und Phasenwechsel hier protokolliert (Ausgangsstand heute: 375 Projekte).
+
+## Verlauf
+
+| Datum | Projekte | mit Aufst.-Beschl. | Unklar | Beschlüsse | Quellen abgefragt | Gemeinden geprüft | MaStR im Register |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 2026-11-25 | 375 | 147 | 133 | 738 | 114 | 6480 | 46 |
+
+## Offene Hebel (Zahlen von heute)
+
+- 141 MaStR-Gemeinden haben ein angebundenes RIS, aber keinen Treffer: Filter, Zeitraum (ab 2022) und Adapter prüfen.
+- 1139 MaStR-Gemeinden ohne erkanntes RIS: Homepage-Crawler (`quellen_homepage.csv`) und Amt-Zuordnung.
+- 991 MaStR-Gemeinden noch nie geprüft: Quellensuche läuft täglich weiter.
+- 5014 Gemeinden insgesamt noch nie geprüft.
+- 133 Projekte mit unklarer Phase: Schritt „Phase nachklären“ (Detailseiten/PDFs).
