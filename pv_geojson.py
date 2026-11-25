@@ -8,6 +8,7 @@ damit beide Dateien in derselben Auswertung nebeneinander verwendet werden könn
 
 Aufruf:
     python pv_geojson.py ausgabe/PV_Beschluesse_Gesamt.xlsx ausgabe/PV_Beschluesse.geojson
+    python pv_geojson.py ausgabe/PV_Beschluesse_Gesamt.xlsx ausgabe/PV_Aufstellungsbeschluesse.geojson --nur-aufstellung
 """
 from __future__ import annotations
 
@@ -24,7 +25,7 @@ def num(v):
         return None
 
 
-def baue(xlsx: str) -> dict:
+def baue(xlsx: str, nur_aufstellung: bool = False) -> dict:
     ws = openpyxl.load_workbook(xlsx, read_only=True, data_only=True)["Projekte"]
     zeilen = ws.iter_rows(values_only=True)
     kopf = [str(k) for k in next(zeilen)]
@@ -34,6 +35,9 @@ def baue(xlsx: str) -> dict:
         lat, lon = num(r.get("Breitengrad (lat)")), num(r.get("Längengrad (lon)"))
         if lat is None or lon is None:
             ohne_koord += 1
+            continue
+        auf = r.get("Aufstellungsbeschluss (Datum)") or ""
+        if nur_aufstellung and not auf:
             continue
         mw = num(r.get("Leistung (MW)"))
         features.append({
@@ -45,6 +49,9 @@ def baue(xlsx: str) -> dict:
                 "Element": "Solar Park",
                 "Type": r.get("Aufstellungskonzept") or "N/A",
                 "Status": r.get("Status"),
+                "Aufstellungsbeschluss": bool(auf),
+                "Aufstellungsbeschluss_Date": auf if auf[:2] == "20" else None,
+                "Phase": r.get("Phase"),
                 "Last_Decision": r.get("Letzter Beschluss"),
                 "Last_Decision_Date": r.get("Datum letzter Beschluss"),
                 "First_Decision_Date": r.get("Erster Beschluss (Datum)"),
@@ -63,7 +70,8 @@ def baue(xlsx: str) -> dict:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        sys.exit(__doc__)
-    with open(sys.argv[2], "w", encoding="utf-8") as f:
-        json.dump(baue(sys.argv[1]), f, ensure_ascii=False, indent=1)
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if len(args) != 2:
+        sys.exit(__doc__ + "\n  Option --nur-aufstellung: nur Projekte mit Aufstellungsbeschluss")
+    with open(args[1], "w", encoding="utf-8") as f:
+        json.dump(baue(args[0], "--nur-aufstellung" in sys.argv), f, ensure_ascii=False, indent=1)

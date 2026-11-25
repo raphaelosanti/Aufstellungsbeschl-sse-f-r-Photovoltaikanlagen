@@ -79,7 +79,11 @@ PLANUNG_RE = re.compile(
 
 # Reihenfolge = Fortschritt im Verfahren
 BESCHLUSS_TYPEN = [
-    ("Aufstellungsbeschluss", r"aufstellungsbeschluss|aufstellung\b.{0,40}(bebauungsplan|b-plan)|einleitung (eines|des) (aufstellungs)?verfahren"),
+    # "Antrag/Anfrage auf Einleitung" ist noch kein Beschluss -> bleibt Unklar
+    ("Aufstellungsbeschluss", r"aufstellungsbeschluss|aufstellung\b.{0,40}(bebauungsplan|b-plan)|einleitung (eines|des) (aufstellungs)?verfahren|"
+                              r"planaufstellung|aufstellung (der|des|einer|eines)\b.{0,80}(bebauungsplan|flächennutzungsplan|b-plan|bauleitplan)|"
+                              r"(?<!antrag auf )(?<!antrag zur )(?<!anfrage auf )(?<!anfrage zur )einleitung (des|eines) bauleitplanverfahrens|"
+                              r"aufstellung\b.{0,60}(vorhabenbezogen|solarpark|photovoltaik)"),
     ("Frühzeitige Beteiligung", r"fr[üu]hzeitige (öffentlichkeits)?beteiligung|§ ?3 abs\.? ?1|§ ?4 abs\.? ?1"),
     ("Entwurfs-/Auslegungsbeschluss", r"auslegungsbeschluss|offenlage|entwurfsbeschluss|billigung des entwurfs|öffentliche auslegung|veröffentlichung im internet|§ ?3 abs\.? ?2"),
     ("Abwägungsbeschluss", r"abwägung|abwaegung"),
@@ -793,6 +797,18 @@ def geocodiere_projekte(beschluesse: list[Beschluss], geo) -> tuple[int, int]:
 # --------------------------------------------------------------------------- #
 # Excel-Export
 # --------------------------------------------------------------------------- #
+def phase_fuer(ev: list) -> str:
+    """Verfahrensstand des Projekts: Frühphase = Aufstellungsbeschluss oder frühzeitige Beteiligung, noch keine Auslegung."""
+    t = {e.beschlusstyp for e in ev if not e.negativ}
+    if t & {"Satzungsbeschluss", "Inkrafttreten/Bekanntmachung"}:
+        return "Satzung/rechtskräftig"
+    if t & {"Entwurfs-/Auslegungsbeschluss", "Abwägungsbeschluss"}:
+        return "Auslegung/Abwägung"
+    if t & {"Aufstellungsbeschluss", "Frühzeitige Beteiligung"}:
+        return "Frühphase"
+    return "Unklar"
+
+
 def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: str,
                    protokoll: list[tuple[str, str, int]]) -> None:
     from openpyxl import Workbook
@@ -849,8 +865,9 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
             "Aufstellungskonzept", "Fläche (ha)", "Leistung (MW)", "Projektentwickler",
             "Status", "Letzter Beschluss", "Datum letzter Beschluss", "Erster Beschluss (Datum)",
             "Anzahl Beschlüsse", "Beschlusshistorie", "Links",
-            "Breitengrad (lat)", "Längengrad (lon)", "Koordinaten-Genauigkeit", "Karte (OSM)"]
-    kopf(wsp, sp_p, [11, 22, 20, 13, 40, 9, 16, 11, 12, 32, 12, 26, 13, 13, 11, 60, 50, 13, 13, 18, 10])
+            "Breitengrad (lat)", "Längengrad (lon)", "Koordinaten-Genauigkeit", "Karte (OSM)",
+            "Aufstellungsbeschluss (Datum)", "Phase"]
+    kopf(wsp, sp_p, [11, 22, 20, 13, 40, 9, 16, 11, 12, 32, 12, 26, 13, 13, 11, 60, 50, 13, 13, 18, 10, 16, 22])
     gruppen: dict[str, list[Beschluss]] = {}
     for b in beschluesse:
         gruppen.setdefault(b.projekt_id, []).append(b)
@@ -862,6 +879,9 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
         ev = sorted(gruppen[pid], key=lambda x: x.datum or "")
         neu = list(reversed(ev))
         status = status_fuer(ev, heute)
+        auf_datum = min((e.datum for e in ev if e.beschlusstyp == "Aufstellungsbeschluss" and not e.negativ and e.datum),
+                        default="") or ("ja, Datum unbekannt" if any(
+                            e.beschlusstyp == "Aufstellungsbeschluss" and not e.negativ for e in ev) else "")
         historie = "\n".join(f"{e.datum or 'o. D.'}: {e.beschlusstyp}{' (negativ)' if e.negativ else ''}" for e in ev)
         links = "\n".join(dict.fromkeys(x for e in ev for x in (e.link, e.dokument_link) if x))
         lat = erstes(e.lat for e in neu)
@@ -872,7 +892,8 @@ def schreibe_excel(beschluesse: list[Beschluss], quellen: list[Quelle], pfad: st
                     erstes(e.konzept for e in neu), erstes(e.flaeche_ha for e in neu),
                     erstes(e.leistung_mw for e in neu), erstes(e.entwickler for e in neu),
                     status, ev[-1].beschlusstyp, ev[-1].datum, ev[0].datum, None, historie, links,
-                    lat if lat != "" else None, lon if lon != "" else None, genau, None])
+                    lat if lat != "" else None, lon if lon != "" else None, genau, None,
+                    auf_datum, phase_fuer(ev)])
         r = wsp.max_row
         wsp.cell(r, 15).value = f'=COUNTIF(Beschluesse!$A:$A,A{r})'
         for c in wsp[r]:
