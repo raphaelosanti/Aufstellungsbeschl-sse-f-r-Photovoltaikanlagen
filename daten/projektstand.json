@@ -1,0 +1,1502 @@
+{
+"PV-BB-0001": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0002": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0003": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0005": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0006": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0007": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0008": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0009": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0010": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0011": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0012": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0013": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-BB-0014": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0015": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0016": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0017": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0018": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0019": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0020": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0021": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0022": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0023": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-BB-0024": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0025": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0026": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0027": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0028": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0029": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0030": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0031": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0032": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0033": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0034": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0035": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0036": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0037": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0038": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0039": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0040": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0041": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0042": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0043": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0044": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0045": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0046": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0047": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0048": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0049": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0050": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0051": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0052": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0053": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BB-0054": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0055": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0056": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0057": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0058": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0059": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0060": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0061": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0062": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0063": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0064": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0065": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-BB-0066": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0067": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0068": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0069": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0070": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0071": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0072": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0073": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0074": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0075": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-BB-0076": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0077": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BB-0078": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0079": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BB-0080": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BB-0081": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0001": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0002": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0003": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0004": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0005": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0006": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0007": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0008": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0009": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0010": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0011": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0012": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0013": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0014": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0015": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0016": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0017": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0018": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0019": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BW-0020": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0021": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BW-0022": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0023": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0024": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0025": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0026": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BW-0027": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0028": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0029": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0030": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0031": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BW-0032": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-BW-0033": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0034": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0035": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BW-0036": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0037": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BW-0038": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BY-0001": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BY-0002": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-BY-0003": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BY-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-BY-0005": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-BY-0006": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0001": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-HE-0002": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0003": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0005": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0006": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0007": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0008": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0009": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0010": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0011": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0012": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0013": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0014": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0015": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0016": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0017": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0018": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0019": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-HE-0020": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0021": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0022": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0023": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0024": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-HE-0025": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-HE-0026": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-HE-0027": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-HE-0028": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-MV-0001": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-MV-0002": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-MV-0003": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0005": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-MV-0006": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0007": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0008": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0009": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-MV-0010": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-MV-0011": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-MV-0012": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-MV-0013": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-MV-0014": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-MV-0015": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-MV-0016": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0017": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-MV-0018": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-MV-0019": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0020": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-MV-0021": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-MV-0022": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-MV-0023": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NI-0001": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NI-0002": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NI-0003": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NI-0004": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NI-0005": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NI-0006": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NI-0007": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-NI-0008": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NI-0009": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0001": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NW-0002": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-NW-0003": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0004": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0005": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-NW-0006": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0007": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0008": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NW-0009": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-NW-0010": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0011": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NW-0012": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NW-0013": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NW-0014": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0015": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-NW-0016": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-NW-0017": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-NW-0018": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0019": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0020": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0021": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0022": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0023": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0024": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0025": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0026": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NW-0027": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0028": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0029": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0030": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0031": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0032": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0033": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0034": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-NW-0035": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0036": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0037": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0038": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0039": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-NW-0040": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0041": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0042": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-NW-0043": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-RP-0001": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0002": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0003": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0005": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0006": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0007": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0008": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0009": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0010": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0011": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0012": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0013": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0014": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0015": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0016": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0017": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0018": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0019": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0020": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0021": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0022": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0023": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0024": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0025": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0026": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0027": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0028": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0029": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0030": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-RP-0031": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-RP-0032": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0033": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0034": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0035": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0036": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0037": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-RP-0038": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0039": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0040": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0041": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0042": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0043": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0044": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0045": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0046": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0047": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0048": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0049": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0050": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-RP-0051": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0052": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0053": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0054": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0055": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0056": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0057": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0058": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0059": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0060": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0061": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0062": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0063": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0064": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0065": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0066": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0067": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0068": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0069": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0070": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0071": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0072": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-RP-0073": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0074": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0075": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0076": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0077": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-RP-0078": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0079": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0080": {
+"aufstellung": false,
+"phase": "Frühphase"
+},
+"PV-RP-0081": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0082": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0083": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0084": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-RP-0085": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0086": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-RP-0087": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-RP-0088": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-SH-0001": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SH-0002": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-SH-0003": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-SH-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SH-0005": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SH-0006": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SH-0007": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SH-0008": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0009": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0010": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0011": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-SH-0012": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0013": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-SH-0014": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0015": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0016": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0017": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SH-0018": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-SH-0019": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SN-0001": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SN-0002": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SN-0003": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-SN-0004": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-SN-0005": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-ST-0001": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-ST-0002": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-ST-0003": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-ST-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-ST-0005": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-ST-0006": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-ST-0007": {
+"aufstellung": true,
+"phase": "Auslegung/Abwägung"
+},
+"PV-ST-0008": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-ST-0009": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-ST-0010": {
+"aufstellung": false,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-ST-0011": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-ST-0012": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-ST-0013": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-ST-0014": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-ST-0015": {
+"aufstellung": false,
+"phase": "Auslegung/Abwägung"
+},
+"PV-ST-0016": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-ST-0017": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-ST-0018": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-ST-0019": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-TH-0001": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0002": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0003": {
+"aufstellung": true,
+"phase": "Satzung/rechtskräftig"
+},
+"PV-TH-0004": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0005": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0006": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-TH-0007": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0008": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0009": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-TH-0010": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0011": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0012": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-TH-0013": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-TH-0014": {
+"aufstellung": false,
+"phase": "Unklar"
+},
+"PV-TH-0015": {
+"aufstellung": true,
+"phase": "Frühphase"
+},
+"PV-TH-0016": {
+"aufstellung": true,
+"phase": "Frühphase"
+}
+}
