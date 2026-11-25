@@ -38,6 +38,9 @@ Das Landesportal bauleitplanung.brandenburg.de verbietet automatisierten Zugriff
 - `pv_homepage.py`: Bekanntmachungen auf der Homepage für Gemeinden ohne RIS (`quellen_homepage.csv`, `quellen_mastr.csv`).
 - `pv_nachklaeren.py`: öffnet Detailseiten und PDFs, wenn der Beschlusstyp „Unklar“ ist.
 - `mastr_abgleich.py`: vergleicht mit dem Marktstammdatenregister (Abdeckungs-Kontrolle, nicht Quelle).
+- `pv_ihk.py` und `quellen_ihk.csv`: Planverfahrenslisten der IHKs (Träger öffentlicher Belange) als Sammelquelle über viele Gemeinden, auch in Thüringen, MV, Sachsen, Brandenburg.
+- `pv_amtsblatt.py`, `amtsblatt_entdecken.py`: Amtsblatt-PDFs der Gemeinden ohne RIS, Textfenster um PV-Fundstellen.
+- `verzeichnis_hessen.py`: Verzeichnis "Bebauungsplan im Verfahren" von bauleitplanung.hessen.de als Linkliste für den Homepage-Crawler.
 - `stand_bericht.py`: erzeugt `STAND.md`, `daten/verlauf.csv`, `daten/ereignisse.csv` nach jedem Lauf.
 - Die Läufe sind täglich geplant: Quellensuche 01:17 UTC, Register 06:43 UTC.
 
