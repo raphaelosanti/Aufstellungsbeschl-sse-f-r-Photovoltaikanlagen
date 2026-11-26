@@ -22,6 +22,8 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
+from pv_amtsblatt import fenster
+
 FOLGEN = re.compile(
     r"bekanntmach|amtsblatt|mitteilungsblatt|bauleit|bebauungsplan|b-plan|bplan|flaechennutzung|"
     r"flächennutzung|oeffentliche-?bekannt|öffentliche|beteiligung|auslegung|planung|bauen|"
@@ -81,7 +83,14 @@ def homepage_vorlagen(http, q, seit: str | None, zustand=None):
         if soup is not None:
             t = soup.find("h1") or soup.find("title")
             titel = t.get_text(" ", strip=True)[:300] if t else ""
-        if not pv.PV_RE.search(titel + "\n" + text[:6000]) or not pv.PLANUNG_RE.search(text[:20000]):
+        # PV und Planung müssen im selben Textfenster stehen (nicht irgendwo auf derselben Seite), sonst
+        # reicht eine Solarförder-Meldung plus ein beliebiges "Satzung" weiter unten. Steht PV schon im Titel,
+        # genügt Planungsbezug im Text.
+        fens = fenster(text)
+        if fens:
+            text = "\n\n".join(fens)
+        elif not (pv.PV_RE.search(titel) and pv.PLANUNG_RE.search(text[:20000])):
+            http.zaehle("Homepage: PV und Planung nicht zusammen")
             continue
         if zustand and zustand.hat(url):
             continue
