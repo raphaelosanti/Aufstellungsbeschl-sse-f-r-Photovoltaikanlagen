@@ -191,6 +191,20 @@ class Http:
     def diag(self, v: dict[str, int]) -> None:
         self._tl.diag = v
 
+    def frist_setzen(self, sekunden: float | None) -> None:
+        """Harte Frist für diesen Thread: danach lösen alle Abrufe sofort TimeoutError aus (None = aufheben)."""
+        self._tl.frist = None if sekunden is None else time.time() + sekunden
+
+    def _frist_pruefen(self) -> float | None:
+        frist = getattr(self._tl, "frist", None)
+        if frist is None:
+            return None
+        rest = frist - time.time()
+        if rest <= 0:
+            self.zaehle("Zeitlimit je Gemeinde")
+            raise TimeoutError("Zeitlimit je Gemeinde überschritten")
+        return rest
+
     def hostlock(self, host: str) -> threading.Lock:
         with self._glock:
             return self._hosts.setdefault(host, threading.Lock())
@@ -203,12 +217,13 @@ class Http:
         return d
 
     def _erlaubt(self, url: str) -> bool:
+        rest = self._frist_pruefen()
         p = urlparse(url)
         root = f"{p.scheme}://{p.netloc}"
         if root not in self.robots:
             rp = urllib.robotparser.RobotFileParser()
             try:
-                r = self.s.get(root + "/robots.txt", timeout=15)
+                r = self.s.get(root + "/robots.txt", timeout=15 if rest is None else max(3.0, min(15.0, rest)))
                 if r.status_code == 200:
                     rp.parse(r.text.splitlines())
                 else:
@@ -220,6 +235,7 @@ class Http:
         return True if rp is None else rp.can_fetch(USER_AGENT, url)
 
     def get(self, url: str, binary: bool = False, cache: bool = True, **kw):
+        self._frist_pruefen()
         if not self._erlaubt(url):
             self.zaehle("robots.txt verbietet")
             raise PermissionError(f"robots.txt verbietet: {url}")
@@ -234,8 +250,9 @@ class Http:
             wait = self.pause - (time.time() - self.last.get(host, 0))
             if wait > 0:
                 time.sleep(wait)
+            rest = self._frist_pruefen()
             try:
-                r = self.s.get(url, timeout=30, **kw)
+                r = self.s.get(url, timeout=30 if rest is None else max(3.0, min(20.0, rest)), **kw)
             except requests.RequestException:
                 self.zaehle("Verbindungsfehler")
                 raise
