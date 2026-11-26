@@ -1,19 +1,615 @@
 {
  "Ahlsdorf": {
-  "si_max": 8434,
-  "zuletzt": "2026-11-16"
+  "si_max": 8430,
+  "zuletzt": "2026-11-26"
+ },
+ "Aken (Elbe)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alsleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altmärkische Höhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altmärkische Wische": {
+  "zuletzt": "2026-11-26"
+ },
+ "Am Großen Bruch": {
+  "zuletzt": "2026-11-26"
+ },
+ "An der Poststraße": {
+  "zuletzt": "2026-11-26"
+ },
+ "Angern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Annaburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Apenburg-Winterfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Arendsee": {
+  "zuletzt": "2026-11-26"
  },
  "Arneburg": {
-  "si_max": 6598,
-  "zuletzt": "2026-11-16"
+  "si_max": 6603,
+  "zuletzt": "2026-11-26"
+ },
+ "Arnstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aschersleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ausleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Bibra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Dürrenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Lauchstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Schmiedeberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Suderode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ballenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barby": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barnstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beetzendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berga": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biederitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bismark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bitterfeld-Wolfen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blankenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Braunsbedra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brücken-Hackpfüffel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Börde-Hakel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bördeaue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bördeland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bülstringen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Calbe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Calvörde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Colbitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Coswig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dessau-Roßlau": {
+  "si_max": 10241,
+  "zuletzt": "2026-11-26"
+ },
+ "Diesdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ditfurt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Droyßig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dähre": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eckartsberga": {
+  "zuletzt": "2026-11-26"
+ },
+ "Edersleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Egeln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eilsleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eisleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elsteraue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erxleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkenstein/Harz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Farnstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Finne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Finneland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Flechtingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freyburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gardelegen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Genthin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gerbstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gernrode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Giersleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gommern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Goseck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Quenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gräfenhainichen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gröningen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gutenborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Güsten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halberstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haldensleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halle (Saale)": {
+  "si_max": 22030,
+  "zuletzt": "2026-11-26"
+ },
+ "Harbke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Harsleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Harzgerode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Havelberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hecklingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hedersleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hettstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohe Börde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenmölsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Huy": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hötensleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ilberstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ingersleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jessen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jübar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kabelsketal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kaiserpfalz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kalbe (Milde)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kamern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kelbra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kemberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klietz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klötze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kretzschau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kroppenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kuhfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Könnern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Köthen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Landsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lanitz-Hassel-Tal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laucha an der Unstrut": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leuna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Loitsche-Heinrichsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lutherstadt Wittenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lützen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mansfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meineweh": {
+  "zuletzt": "2026-11-26"
+ },
+ "Merseburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mertendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Molauer Land": {
+  "zuletzt": "2026-11-26"
+ },
+ "Muldestausee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Möckern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Möser": {
+  "si_max": 2213,
+  "zuletzt": "2026-11-26"
+ },
+ "Mücheln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlanger": {
+  "zuletzt": "2026-11-26"
+ },
+ "Naumburg (Saale)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nebra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nemsdorf-Göhrendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukirchen (Altmark)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niedere Börde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nienburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nordharz": {
+  "si_max": 190,
+  "zuletzt": "2026-11-26"
+ },
+ "Oberharz am Brocken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Obhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oebisfelde-Weferlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oranienbaum-Wörlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oschersleben (Bode)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osterburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osterfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osternienburger Land": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osterwieck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Petersberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plötzkau": {
+  "zuletzt": "2026-11-26"
  },
  "Portal Beteiligung Sachsen-Anhalt": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-26"
+ },
+ "Quedlinburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Querfurt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Raguhn-Jeßnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rogätz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rohrberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Salzwedel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sandau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sandersdorf-Brehna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schkopau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schnaudertal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schollene": {
+  "zuletzt": "2026-11-26"
  },
  "Schraplau": {
-  "zuletzt": "2026-11-16"
+  "zuletzt": "2026-11-26"
+ },
+ "Schwanebeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönebeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönhausen (Elbe)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seegebiet Mansfelder Land": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seehausen (Altmark)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seeland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Selke-Aue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sommersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Staßfurt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stendal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stößen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Südharz": {
+  "si_max": 113388,
+  "zuletzt": "2026-11-26"
+ },
+ "Sülzetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Süplingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tangerhütte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tangermünde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Teuchern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Teutschenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ummendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Völpke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wallhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wallstawe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wanzleben-Börde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wefensleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wegeleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weißenfels": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wendemark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wernigerode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wethau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wetterzeube": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wettin-Löbejün": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wimmelburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wolmirsleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wust-Fischbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zahna-Elster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zehrental": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zeitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zerbst/Anhalt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zielitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zörbig": {
+  "zuletzt": "2026-11-26"
  },
  "_verworfen": [
+  "http://buergerinfo.halle.de/to0050.asp?__ktonr=226330",
+  "http://buergerinfo.halle.de/to0050.asp?__ktonr=228284",
+  "http://buergerinfo.halle.de/to0050.asp?__ktonr=228307",
+  "http://buergerinfo.halle.de/to0050.asp?__ktonr=228490",
+  "http://buergerinfo.halle.de/to0050.asp?__ktonr=228491",
+  "http://buergerinfo.halle.de/to0050.asp?__ktonr=246040",
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=63150",
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=63151",
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=64205",
@@ -23,6 +619,11 @@
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=68290",
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=69279",
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/vo0050.asp?__kvonr=11626",
+  "https://sessionnet.dessau.de/bi/vo0050.asp?__kvonr=19483",
+  "https://sessionnet.dessau.de/bi/vo0050.asp?__kvonr=19484",
+  "https://sessionnet.dessau.de/bi/vo0050.asp?__kvonr=19485",
+  "https://sessionnet.dessau.de/bi/vo0050.asp?__kvonr=19486",
+  "https://sessionnet.gemeinde-moeser.de/sessionnet/bi/vo0050.asp?__kvonr=4453",
   "https://weida-land.gremien.info/oparl/paper/202270212100032",
   "https://weida-land.gremien.info/oparl/paper/202351508100009"
  ]
