@@ -1,19 +1,2179 @@
 {
+ "Admannshagen-Bargeshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahlbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahrenshagen-Daskow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Bukow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Krenzlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Meteln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Schwerin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Sührkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Tellin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Zachun": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altefähr": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenhof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenpleen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altentreptow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altkalen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altwarp": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altwigshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Am Salzhaff": {
+  "zuletzt": "2026-11-26"
+ },
  "Amt Am Peenestrom": {
   "si_max": 2536,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
  },
  "Amt Darß/Fischland": {
   "si_max": 200451,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Ankershagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Anklam": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baabe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Doberan": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Kleinen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Sülze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Balow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bandelin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bandenitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Banzkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bargischow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barkhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barnekow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barnin": {
+  "zuletzt": "2026-11-26"
  },
  "Bartelshagen II b. Barth": {
   "si_max": 10116,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Bartenshagen-Parkentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bartow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Basedow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bastorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baumgarten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beggerow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Behren-Lübchin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Behrenhoff": {
+  "zuletzt": "2026-11-26"
+ },
+ "Belsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bengerstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Benitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bentwisch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bentzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Benz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergen auf Rügen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernitt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beseritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Besitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bibow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Binz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blankenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blankenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blankenhof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blankensee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blesewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blievenstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blowatz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blumenholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bobitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bobzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boddin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boiensdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boldekow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bollewick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boltenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boock": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borrentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brahlstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bredenfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breege": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breesen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brenz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bresegard bei Eldena": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bresegard bei Picher": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brietzig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Briggow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Broderstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brunn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brunow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bröbberow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brüel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brünzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brüsewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buchholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bugewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buggenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burg Stargard": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buschvitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Butzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Börgerende-Rethwisch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Börzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bülow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bütow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bützow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cambs": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cammin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Carinerland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Carlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Carpin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cramonshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Crivitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cölpin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dabel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Daberkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dahmen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dalberg-Wendelstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dalkendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dambeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Damm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Damshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dargelin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dargen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dargun": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dassow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Datzetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dechow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Demen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Demmin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dersekow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dersenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Deyelsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Diedrichshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dobbertin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dobbin-Linstow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dobin am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dolgen am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Domsühl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dorf Mecklenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dragun": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dranske": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drechow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dreetz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dreschvitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ducherow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Duckow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dummerstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dömitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dümmer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eggesin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eixen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eldena": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elmenhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elmenhorst/Lichtenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fahrenwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Faulenrost": {
+  "zuletzt": "2026-11-26"
+ },
+ "Feldberger Seenlandschaft": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ferdinandshof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fincken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Finkenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Franzburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedrichsruhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fuhlendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fünfseen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gadebusch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Galenbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gallin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gallin-Kuppentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gammelin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ganzlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Garz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Garz/Rügen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gehlsbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gelbensande": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gielow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gingst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glasewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glasin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glasow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glienke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glowe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gneven": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gnevkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gnewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gnoien": {
+  "zuletzt": "2026-11-26"
+ },
+ "Godendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Golchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Goldberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gorlosen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gottesgabe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gotthun": {
+  "zuletzt": "2026-11-26"
+ },
+ "Graal-Müritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grabow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grabow-Below": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grabowhöfe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grambin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grambow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grammendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grammentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grammow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gransebieth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Granzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grapzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grebbin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grebs-Niendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Greifswald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gremersdorf-Buchholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gresse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Greven": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grevesmühlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gribow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grieben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grimmen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grischow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Dratow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Gievitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Godems": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Kelle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Kiesow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Kordshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Krams": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Laasch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Luckow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Miltzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Mohrdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Molzahn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Nemerow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Plasten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Polzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Roge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Schwiesow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Stieten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Teetzleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Wokern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Wüstenfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gustow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gutow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gägelow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Göhlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Göhren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Göhren-Lebbin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Görmin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gültz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gülzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gülzow-Prüzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Güstrow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gützkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hagenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hammer a. d. Uecker": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hanshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heinrichswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Helpt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heringsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hinrichshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hintersee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohen Demzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohen Pritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohen Sprenz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohen Viecheln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohen Wangelin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenbollentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenmocker": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenzieritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holldorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holthusen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoort": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoppenrade": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hornstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hugoldsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hülseburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Schwerin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Insel Hiddensee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Iven": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ivenack": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jabel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jakobsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jarmen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jatznick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jesendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jördenstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jürgenshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jürgenstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kalkhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kamminke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karenz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kargow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karlsburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karlshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karrenzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kassow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Katzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kemnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kentzlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kenz-Küstrow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kieve": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirch Jesar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirch Mulsow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kittendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klausdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Belitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Bünzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Kussewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Rogahn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Trebbow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Upahl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Vielen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kletzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klink": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klocksin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kloster Tempzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kluis": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klütz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kneese": {
+  "zuletzt": "2026-11-26"
+ },
+ "Knorrendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Koblentz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kobrow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kogel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Korswandt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Koserow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krackow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krakow am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kramerhof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kratzeburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kreien": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krembz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kremmin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krien": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kriesow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kritzmow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kritzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kruckow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krugsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krukow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krummin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krusenfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krusenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kröpelin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kröslin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kublank": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kuchelmiß": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kuckssee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kuhlen-Wendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kuhs": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kuhstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kummerow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kölzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königsfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Körchow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kühlungsborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laage": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lalendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lambrechtshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lancken-Granitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langen Brütz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langen Jarchow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lansen-Schönau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lapitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lassan": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leezen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lehsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leizen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lelkendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leopoldshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leussow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Levenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lewitzrand": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liepen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liepgarten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lietzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lockwisch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Loddin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lohme": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lohmen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Loissin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Loitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lubmin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Luckow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ludorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ludwigslust": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lärz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löbnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löcknitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübberstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübesse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüblow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübs": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübtheen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüdersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüdershagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lühburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lühmannsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüssow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lütow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüttow-Valluhn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lützow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Malchin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Malchow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Malk Göhren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mallentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mallin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Malliß": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Massow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Medow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meesiger": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meiersberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mellenthin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Melz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Menzendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mesekenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mestlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Metelsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mildenitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Millienhagen-Oebelitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Milow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Miltzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mirow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mistorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moltzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moraas": {
+  "zuletzt": "2026-11-26"
+ },
+ "Muchow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Murchin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mustin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Möllenbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Möllenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mölln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mölschow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mönchgut": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mönchhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mönkebude": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühl Rosin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlen Eichsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nadrensee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neddemin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neetzka": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neetzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neetzow-Liepen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nesow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Bartelshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Boltenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Gaarz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Gülze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Kaliß": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Kosenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Poserin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neubrandenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neubukow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuenkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukalen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukloster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neustadt-Glewe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neustrelitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neverin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nieden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nienhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niepars": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nossendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nossentiner Hütte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nostorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nustrow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Obere Warnow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pampow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pantelitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Papendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Papenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Papenhusen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Parchtitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pasewalk": {
+  "zuletzt": "2026-11-26"
+ },
+ "Passee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Passow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Patzig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Peenehagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Peenemünde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Penkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Penkun": {
+  "zuletzt": "2026-11-26"
+ },
+ "Penzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Penzlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Perlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Petersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Picher": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pingelshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pinnow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plaaz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plate": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plau am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plöwen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plüschow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Poel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pokrent": {
+  "zuletzt": "2026-11-26"
+ },
+ "Polzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Poppendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Postlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pragsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Preetz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Priborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Priepert": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pripsleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Prislich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pritzier": {
+  "zuletzt": "2026-11-26"
+ },
+ "Prohn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pruchten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Puchow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pudagla": {
+  "zuletzt": "2026-11-26"
+ },
+ "Putbus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pätow-Steegen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pölchow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Raben Steinfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ralswiek": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rambin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ramin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rankwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rappin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rastow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rechlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Redefin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rehna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reimershagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rerik": {
+  "zuletzt": "2026-11-26"
+ },
+ "Retschow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ribnitz-Damgarten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Richtenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rieps": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ritzerow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roduchelstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roggendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roggenstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roggentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rollwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rom": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rossin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rossow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rostock": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rothemühl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rothenklempenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rubenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rubkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ruhner Berge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rukieten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Röbel/Müritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Röckwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rögnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rövershagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rühn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rüting": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sagard": {
+  "zuletzt": "2026-11-26"
+ },
+ "Samtens": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sanitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sarmstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sarow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sassen-Trantow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sassnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sauzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schaprode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schildetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schimm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlagsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlemmin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schloen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schloen-Dratow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schmatzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schorssow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schossin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwaan": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwanheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwarz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwasdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwerin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwinkendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seehof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sehlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sellin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Selmsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Selpin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Semlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Setzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Severin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Siedenbollentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Siedenbrünzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Siemz-Niendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sietow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Siggelkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Silz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sommersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spantekow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Splietsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sponholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spornitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Staven": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stavenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steesow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steffenshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stepenitztal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sternberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stolpe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stolpe an der Peene": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stolpe auf Usedom": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stralendorf": {
+  "zuletzt": "2026-11-26"
  },
  "Stralsund": {
   "si_max": 8627,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Strasburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Strohkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stubbendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stuer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stäbelow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Suckow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sukow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sukow-Levitzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sundhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Süderholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Südmüritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sülstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tarnow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Techentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Teldau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tessenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tessin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tessin b. Boizenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Testorf-Steinfort": {
+  "zuletzt": "2026-11-26"
+ },
+ "Teterow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thandorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thelkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thiessow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thulendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thürkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Toddin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Torgelow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Torgelow am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tramm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trassenheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tribsees": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trinwillershagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trollenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tutow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tützpatz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ueckermünde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Uelitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ummanz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Upahl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Usedom": {
+  "zuletzt": "2026-11-26"
+ },
+ "Userin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Utecht": {
+  "zuletzt": "2026-11-26"
+ },
+ "Utzedel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Varchentin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Veelböken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Velgast": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vellahn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ventschow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Verchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vielank": {
+  "zuletzt": "2026-11-26"
+ },
+ "Viereck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vipperow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vitense": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vogelsang-Warsin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Voigtsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vollrathsruhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vorbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Völschow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wackerow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wahlstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Walkendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Walow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wardow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warnkenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warnow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warrenzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warsow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wedendorfersee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weitendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weitenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wendisch Baggendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wendisch Priborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werder": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wesenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wiek": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wiendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wildberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wilhelmsburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wilmshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wismar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittenbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittendörp": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittenförden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Witzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Woggersin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wokuhl-Dabelow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wolde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Woldegk": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wrangelsburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wredenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wulkenzin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wusterhusen": {
+  "zuletzt": "2026-11-26"
+ },
+ "_nachklaeren": {
+  "https://ris.darss-fischland.de/bi/vo0050.php?__kvonr=759": "2026-11-26",
+  "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7183": "2026-11-26",
+  "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9384": "2026-11-26",
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=68439": "2026-11-26",
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=68440": "2026-11-26",
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=74748": "2026-11-26",
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=74749": "2026-11-26"
  },
  "_verworfen": [
   "https://session.amt-barth.de/bi/vo0050.asp?__kvonr=17405",
