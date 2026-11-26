@@ -1,25 +1,540 @@
 {
+ "Aach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Abstatt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Abtsgmünd": {
+  "zuletzt": "2026-11-26"
+ },
+ "Achberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Achern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Achstetten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Adelberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Adelmannsfelden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Adelsheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Affalterbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aglasterhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahorn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aichelberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aichhalden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aichstetten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aichtal": {
+  "zuletzt": "2026-11-26"
+ },
  "Aichwald": {
   "si_max": 572,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Aidlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aitern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aitrach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Albbruck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Albershausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Albstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aldingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alfdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allensbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alleshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allmannsweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allmendingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allmersbach im Tal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alpirsbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenriet": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altensteig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altheim (Alb)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Althengstett": {
+  "zuletzt": "2026-11-26"
+ },
+ "Althütte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altlußheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ammerbuch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Amstetten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Amtzell": {
+  "zuletzt": "2026-11-26"
+ },
+ "Angelbachtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Appenweier": {
+  "zuletzt": "2026-11-26"
+ },
+ "Argenbühl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aspach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Asperg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Assamstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Asselfingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Attenweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Au": {
+  "zuletzt": "2026-11-26"
+ },
+ "Au am Rhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Auenwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Auggen": {
+  "zuletzt": "2026-11-26"
  },
  "Aulendorf": {
   "si_max": 2056,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Backnang": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Bellingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Boll": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Buchau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Ditzenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Dürrheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Friedrichshall": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Herrenalb": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Krozingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Liebenzell": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Mergentheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Peterstal-Griesbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Rippoldsau-Schapbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Saulgau": {
+  "zuletzt": "2026-11-26"
  },
  "Bad Schussenried": {
   "si_max": 2598,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Schönborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Säckingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Teinach-Zavelstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Urach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Waldsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Wildbad": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Wimpfen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Wurzach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Überkingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baden-Baden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Badenweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bahlingen am Kaiserstuhl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baienfurt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baiersbronn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baindt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Balgheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Balingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ballendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ballrechten-Dottingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baltmannsweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Balzheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bammental": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bartholomä": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beilstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beimerstetten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bempflingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Benningen am Neckar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergatreute": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berghaupten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berghülen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berkheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bermatingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernau im Schwarzwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernstadt": {
+  "zuletzt": "2026-11-26"
  },
  "Besigheim": {
-  "si_max": 3935,
-  "zuletzt": "2026-11-23"
+  "si_max": 3941,
+  "zuletzt": "2026-11-26"
+ },
+ "Betzenweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beuren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beuron": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biberach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biberach an der Riß": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biederbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bietigheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bietigheim-Bissingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Billigheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Binau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Binzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Birenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Birkenfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bischweier": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bisingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bissingen an der Teck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blaubeuren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blaufelden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blaustein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blumberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bodelshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bodman-Ludwigshafen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bodnegg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bollschweil": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boms": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bondorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bonndorf im Schwarzwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bopfingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boxberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brackenheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Braunsbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breisach am Rhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breitingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breitnau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bretten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bretzfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brigachtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bruchsal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bräunlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brühl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bubsheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buchenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buchheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buggingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burgrieden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burgstetten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burladingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bärenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Böbingen an der Rems": {
+  "zuletzt": "2026-11-26"
+ },
+ "Böblingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Böhmenkirch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Böllen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bönnigheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Börslingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Börtlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bösingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Böttingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bötzingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bühl": {
+  "zuletzt": "2026-11-26"
  },
  "Freiburg im Breisgau": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Region Stuttgart": {
+  "zuletzt": "2026-11-26"
  },
  "Ulm": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "_nachklaeren": {
+  "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/8373": "2026-11-26",
+  "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/8966": "2026-11-26",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=10386": "2026-11-26",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=7604": "2026-11-26",
+  "https://ratsinfo.aulendorf.de/bi/vo0050.php?__kvonr=9339": "2026-11-26",
+  "https://ris.freiburg.de/oparl/paper/4891702100061": "2026-11-26",
+  "https://ris.freiburg.de/oparl/paper/5160504100112": "2026-11-26",
+  "https://ris.freiburg.de/oparl/paper/5422802100081": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=4607": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5021": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5030": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5052": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5088": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5153": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5407": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5431": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5628": "2026-11-26",
+  "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5677": "2026-11-26"
  },
  "_verworfen": [
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/7773",
