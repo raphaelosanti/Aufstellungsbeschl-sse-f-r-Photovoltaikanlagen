@@ -270,6 +270,13 @@ class Http:
         if binary:
             return r.content
         if "charset" in r.headers.get("content-type", "").lower() and r.encoding:
+            if r.encoding.lower().replace("_", "-") in ("iso-8859-1", "latin-1", "windows-1252", "cp1252"):
+                try:       # Header sagt Latin-1, der Inhalt ist aber UTF-8 (z. B. sessionnet.wolgast.de): "FrÃ¼hzeitige"
+                    utf8 = r.content.decode("utf-8")
+                    if utf8 != r.text:
+                        return utf8
+                except UnicodeDecodeError:
+                    pass
             return r.text
         try:                       # ohne Zeichensatz im Header: erst UTF-8 versuchen (requests rät sonst Latin-1 -> "KarstÃ¤dt")
             return r.content.decode("utf-8")

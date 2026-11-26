@@ -24,6 +24,28 @@ def _slug(land: str) -> str:
                   .replace("ü", "ue").replace("ß", "ss")).strip("_")
 
 
+_MOJI = re.compile(r"[ÃÂ][^\x00-\x7f]|â€.")
+
+
+def _byte(c: str) -> bytes:
+    try:
+        return c.encode("cp1252")
+    except UnicodeEncodeError:
+        return c.encode("latin-1")
+
+
+def _moji_teil(m) -> str:
+    try:
+        return b"".join(_byte(c) for c in m.group()).decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return m.group()
+
+
+def repariere_text(t):
+    """Behebt UTF-8-Text, der als Latin-1 gelesen wurde ("FrÃ¼hzeitige" -> "Frühzeitige"). Harmlos für sauberen Text."""
+    return _MOJI.sub(_moji_teil, t) if isinstance(t, str) else t
+
+
 class Zustand:
     def __init__(self, verzeichnis: str, land: str):
         os.makedirs(verzeichnis, exist_ok=True)
@@ -39,6 +61,7 @@ class Zustand:
                 for zeile in f:
                     if zeile.strip():
                         d = json.loads(zeile)
+                        d = {k: repariere_text(v) for k, v in d.items()}   # alte Einträge mit kaputten Umlauten heilen
                         self.eintraege[self.key(d)] = d
         if os.path.exists(self.marken_pfad):
             with open(self.marken_pfad, encoding="utf-8") as f:
