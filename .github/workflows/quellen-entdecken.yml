@@ -85,7 +85,7 @@ jobs:
           if [ "${{ inputs.kein_ris_erneut }}" = "true" ]; then EXTRA="--kein-ris-erneut"; fi
           python quellen_entdecken.py \
             --land "${{ matrix.land }}" \
-            --budget ${{ inputs.budget || '700' }} $EXTRA
+            --budget ${{ inputs.budget || '700' }} --parallel 8 --max-minuten 280 $EXTRA
       - name: Ergebnis dieses Landes ablegen
         if: always()
         run: |

@@ -27,6 +27,7 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -296,6 +297,9 @@ def main() -> int:
                     help="Liste der Gemeinden ohne RIS, deren Homepage nach Bekanntmachungen durchsucht wird")
     ap.add_argument("--nur-gemeinden", action="store_true", help="nur Gemeindetabelle (Koordinaten) aktualisieren")
     ap.add_argument("--pause", type=float, default=0.7)
+    ap.add_argument("--parallel", type=int, default=8, help="Gemeinden gleichzeitig prüfen (je Server weiter nacheinander)")
+    ap.add_argument("--frist", type=float, default=120.0, help="harte Frist je Gemeinde in Sekunden")
+    ap.add_argument("--max-minuten", type=float, default=0, help="danach sauber beenden und speichern (0 = unbegrenzt)")
     a = ap.parse_args()
 
     http = pv.Http(pause=a.pause)
@@ -361,32 +365,66 @@ def main() -> int:
         offen = offen[:a.budget]
     print(f"\n{len(offen)} Gemeinden werden in diesem Lauf geprüft\n")
 
-    for i, g in enumerate(offen, 1):
-        print(f"[{i}/{len(offen)}] {g['land']} / {g['name']}", end=" ", flush=True)
+    def pruefe_gemeinde(g: dict):
+        """Läuft im Arbeits-Thread: nur lesen, nichts an gemeinsamen Listen ändern. Harte Frist je Gemeinde."""
+        if not g["web"]:
+            return ("keine_homepage", None, None, True)
+        http.frist_setzen(a.frist)
         try:
-            if not g["web"]:
-                g.update(ris_status="keine_homepage", geprueft_am=heute.isoformat())
-                print("– keine Homepage in Wikidata")
-                continue
+            try:
+                http.get(g["web"])
+            except requests.RequestException:       # Startseite nicht erreichbar: Raten wäre Zeitverschwendung
+                return ("kein_ris", None, None, True)
             cands = kandidaten(http, g["web"])
             gefunden = next((x for x in (pruefe(http, u) for u in cands) if x), None)
-            if not gefunden:   # Rückfall: typische Subdomains/Pfade raten (jetzt immer, nicht nur mit --raten)
+            if not gefunden:   # Rückfall: typische Subdomains/Pfade raten
                 gefunden = next((x for x in (pruefe(http, u) for u in raten(urlparse(g["web"]).netloc)) if x), None)
             if not gefunden:
-                g.update(ris_status="kein_ris", geprueft_am=heute.isoformat())
-                print("– kein RIS erkannt")
-                continue
+                return ("kein_ris", None, None, True)
             typ, url = gefunden
             try:
                 erlaubt = http._erlaubt(url)
             except Exception:  # noqa: BLE001
                 erlaubt = True
-            eintragen(g, typ, url, erlaubt)
-            print(f"→ {typ} {url}{'' if erlaubt else '  (robots.txt gesperrt)'}")
-        except Exception as e:  # noqa: BLE001
-            print(f"! Fehler: {e}")
-        if i % 25 == 0:
-            sichern()
+            return ("gefunden", typ, url, erlaubt)
+        except TimeoutError:
+            return ("zeitlimit", None, None, True)
+        finally:
+            http.frist_setzen(None)
+
+    ende = time.time() + a.max_minuten * 60 if a.max_minuten else None
+    fertig = 0
+    stueck = max(1, a.parallel) * 4
+    with ThreadPoolExecutor(max_workers=max(1, a.parallel)) as pool:
+        for von in range(0, len(offen), stueck):
+            if ende and time.time() > ende:
+                print(f"\nZeitbudget von {a.max_minuten} Minuten erreicht – Rest beim nächsten Lauf.")
+                break
+            teil = offen[von:von + stueck]
+            futs = {pool.submit(pruefe_gemeinde, g): g for g in teil}
+            for f in as_completed(futs):
+                g = futs[f]
+                fertig += 1
+                try:
+                    status, typ, url, erlaubt = f.result()
+                except Exception as e:  # noqa: BLE001
+                    print(f"[{fertig}/{len(offen)}] {g['land']} / {g['name']} ! Fehler: {e}")
+                    continue
+                if status == "keine_homepage":
+                    g.update(ris_status="keine_homepage", geprueft_am=heute.isoformat())
+                    msg = "– keine Homepage in Wikidata"
+                elif status == "gefunden":
+                    eintragen(g, typ, url, erlaubt)
+                    msg = f"→ {typ} {url}{'' if erlaubt else '  (robots.txt gesperrt)'}"
+                elif status == "zeitlimit":     # als geprüft markieren, sonst blockiert sie jeden Lauf; Wiederholung nach recheck-tage
+                    g.update(ris_status="kein_ris", geprueft_am=heute.isoformat())
+                    msg = f"– Zeitlimit ({a.frist:.0f}s), als kein RIS markiert"
+                else:
+                    g.update(ris_status="kein_ris", geprueft_am=heute.isoformat())
+                    msg = "– kein RIS erkannt"
+                print(f"[{fertig}/{len(offen)}] {g['land']} / {g['name']} {msg}", flush=True)
+                if fertig % 25 == 0:
+                    sichern()
     amt_zuordnen(tab, laender, eintragen)
     sichern()
     homepage_liste(tab, laender, a.homepage_quellen)

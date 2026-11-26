@@ -46,11 +46,12 @@ def main() -> int:
         neu_g = [r for r in lade_csv(g_pfad) if r.get("land") == land]
         for r in neu_g:
             gem[r["ags"]] = {k: (r.get(k) or "") for k in GEM_FELDER}
-        h_pfad = os.path.join(a.shards, slug, "quellen_homepage.csv")
-        if os.path.exists(h_pfad):
-            homepage = [r for r in homepage if r["bundesland"] != land] + [
-                {k: (r.get(k) or "") for k in QUELLEN_FELDER} for r in lade_csv(h_pfad)
-                if (r.get("bundesland") or "") == land]
+        # Homepage-Quellen (Gemeinden ohne RIS, aber mit Homepage) aus der zusammengeführten Tabelle ableiten –
+        # unabhängig davon, ob der Länder-Job bis zum Ende durchgelaufen ist
+        homepage = [r for r in homepage if r["bundesland"] != land] + [
+            {"name": g["name"], "landkreis": g["landkreis"], "typ": "homepage", "url": g["web"],
+             "bundesland": land, "hinweis": "kein RIS; Bekanntmachungen"}
+            for g in gem.values() if g["land"] == land and g["ris_status"] == "kein_ris" and g["web"]]
         uebernommen += 1
         print(f"{land}: {len(neu_q)} Quellen, {len(neu_g)} Gemeinden übernommen")
 
