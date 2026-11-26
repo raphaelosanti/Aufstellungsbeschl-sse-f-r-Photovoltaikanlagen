@@ -1,18 +1,18 @@
 # RIS-Abdeckung (11494 Gemeinden)
 
-Geprüft: 6480 | noch nie geprüft: 5014 | RIS-Betreiber bisher: 452
+Geprüft: 9552 | noch nie geprüft: 1942 | RIS-Betreiber bisher: 835
 
 ## Je Bundesland
 
 | Land | Gemeinden | RIS gefunden | gesperrt | kein RIS | ungeprüft |
 |---|---:|---:|---:|---:|---:|
-| Rheinland-Pfalz | 2307 | 85 | 0 | 625 | 1597 |
-| Bayern | 2205 | 60 | 0 | 640 | 1505 |
-| Schleswig-Holstein | 1121 | 49 | 8 | 646 | 418 |
-| Baden-Württemberg | 1101 | 12 | 0 | 166 | 923 |
-| Niedersachsen | 1039 | 95 | 5 | 608 | 331 |
-| Thüringen | 908 | 20 | 0 | 680 | 208 |
-| Mecklenburg-Vorpommern | 814 | 18 | 0 | 764 | 32 |
+| Rheinland-Pfalz | 2307 | 219 | 7 | 1183 | 898 |
+| Bayern | 2205 | 152 | 6 | 1238 | 809 |
+| Schleswig-Holstein | 1121 | 96 | 96 | 926 | 3 |
+| Baden-Württemberg | 1101 | 115 | 12 | 745 | 229 |
+| Niedersachsen | 1039 | 166 | 64 | 807 | 2 |
+| Thüringen | 908 | 27 | 0 | 880 | 1 |
+| Mecklenburg-Vorpommern | 814 | 86 | 0 | 728 | 0 |
 | Sachsen | 468 | 15 | 0 | 453 | 0 |
 | Hessen | 432 | 50 | 0 | 382 | 0 |
 | Brandenburg | 419 | 27 | 11 | 381 | 0 |
@@ -27,28 +27,48 @@ Geprüft: 6480 | noch nie geprüft: 5014 | RIS-Betreiber bisher: 452
 
 | Plattform | Betreiber | Gemeinden | Adapter vorhanden |
 |---|---:|---:|---|
-| SessionNet (Somacos) | 297 | 400 | ja |
-| gremien.info (OParl) | 26 | 62 | ja (OParl) |
-| ratsinfomanagement.net (OParl) | 41 | 44 | ja (OParl) |
-| OParl (sonstige) | 28 | 28 | ja (OParl) |
+| SessionNet (Somacos) | 483 | 727 | ja |
+| ratsinfomanagement.net (OParl) | 139 | 171 | ja (OParl) |
+| sitzung-online.de | 95 | 155 | nein |
+| gremien.info (OParl) | 34 | 113 | ja (OParl) |
+| OParl (sonstige) | 29 | 36 | ja (OParl) |
+| Kommunalportal / more!rubin | 14 | 34 | nein |
+| ALLRIS (CC e-gov) | 16 | 31 | teilweise (HTML) |
 | ekom21 (OParl) | 1 | 24 | ja (OParl) |
-| sitzung-online.de | 23 | 23 | nein |
 | ratsinfo-online.net | 11 | 20 | teilweise (auto) |
 | kdvz-frechen.de (OParl) | 1 | 18 | ja (OParl) |
-| ALLRIS (CC e-gov) | 11 | 16 | teilweise (HTML) |
 | sdnet / Sitzungsdienst | 11 | 11 | nein |
-| Kommunalportal / more!rubin | 2 | 2 | nein |
+| Mandatos | 1 | 2 | nein |
 
 ## Adapter-Ranking (fehlend oder nur teilweise)
 
-- sitzung-online.de: 23 Gemeinden / 23 Betreiber (nein)
+- sitzung-online.de: 155 Gemeinden / 95 Betreiber (nein)
+- Kommunalportal / more!rubin: 34 Gemeinden / 14 Betreiber (nein)
+- ALLRIS (CC e-gov): 31 Gemeinden / 16 Betreiber (teilweise (HTML))
 - ratsinfo-online.net: 20 Gemeinden / 11 Betreiber (teilweise (auto))
-- ALLRIS (CC e-gov): 16 Gemeinden / 11 Betreiber (teilweise (HTML))
 - sdnet / Sitzungsdienst: 11 Gemeinden / 11 Betreiber (nein)
-- Kommunalportal / more!rubin: 2 Gemeinden / 2 Betreiber (nein)
+- Mandatos: 2 Gemeinden / 1 Betreiber (nein)
 
 ## Per robots.txt gesperrt (Betreiber um Erlaubnis bitten)
 
+- giengen.sitzung-online.de/bi (1 Gemeinden)
+- gundelfingen.ratsinfomanagement.net (1 Gemeinden)
+- karlsdorf-neuthard.ratsinfomanagement.net (1 Gemeinden)
+- konstanz.sitzung-online.de (1 Gemeinden)
+- km.sitzung-online.de (1 Gemeinden)
+- leinfelden-echterdingen.sitzung-online.de (1 Gemeinden)
+- march.ratsinfomanagement.net (1 Gemeinden)
+- obrigheim.sitzung-online.de (1 Gemeinden)
+- radolfzell.sitzung-online.de (1 Gemeinden)
+- roigheim.sitzung-online.de (1 Gemeinden)
+- schriesheim.ratsinfomanagement.net (1 Gemeinden)
+- schwaebischhall.sitzung-online.de (1 Gemeinden)
+- seligenstadt.sitzung-online.de (1 Gemeinden)
+- koenigsbrunn.ratsinfomanagement.net (1 Gemeinden)
+- landsberg.sitzung-online.de (1 Gemeinden)
+- neumarkt.sitzung-online.de (1 Gemeinden)
+- neuried.sitzung-online.de (1 Gemeinden)
+- oberschleissheim.ratsinfomanagement.net (1 Gemeinden)
 - ratsinfo-online.net/hohenneuendorf-ri (1 Gemeinden)
 - ratsinfo-online.net/ruedersdorf-bi (1 Gemeinden)
 - ratsinfo-online.net/schorfheide-bi (1 Gemeinden)
@@ -59,6 +79,50 @@ Geprüft: 6480 | noch nie geprüft: 5014 | RIS-Betreiber bisher: 452
 - horneburg.sitzung-online.de (1 Gemeinden)
 - harsefeld.sitzung-online.de (1 Gemeinden)
 - apensen.sitzung-online.de (1 Gemeinden)
+- flecken-ottersberg.ratsinfomanagement.net (1 Gemeinden)
+- oyten.ratsinfomanagement.net (1 Gemeinden)
+- niedernwoehren.ratsinfomanagement.net (1 Gemeinden)
+- bardowick.sitzung-online.de (2 Gemeinden)
+- sg-hollenstedt.sitzung-online.de (2 Gemeinden)
+- rehburg-loccum.sitzung-online.de (1 Gemeinden)
+- rehden.sitzung-online.de (2 Gemeinden)
+- ostheide.sitzung-online.de (4 Gemeinden)
+- gronau-leine.sitzung-online.de (1 Gemeinden)
+- thedinghausen.ratsinfomanagement.net (2 Gemeinden)
+- rinteln.ratsinfomanagement.net (1 Gemeinden)
+- ritterhude.ratsinfomanagement.net (1 Gemeinden)
+- steimbke.sitzung-online.de (3 Gemeinden)
+- scharnebeck.sitzung-online.de (2 Gemeinden)
+- samtgemeinde-brome.sitzung-online.de (1 Gemeinden)
+- salzgitter.sitzung-online.de (1 Gemeinden)
+- sg-salzhausen.sitzung-online.de (3 Gemeinden)
+- salzhemmendorf.sitzung-online.de (1 Gemeinden)
+- schwafoerden.sitzung-online.de (1 Gemeinden)
+- hoya.sitzung-online.de (2 Gemeinden)
+- papenteich.sitzung-online.de (1 Gemeinden)
+- seevetal.sitzung-online.de (1 Gemeinden)
+- sg-nienstaedt.ratsinfomanagement.net (1 Gemeinden)
+- amelinghausen.sitzung-online.de (1 Gemeinden)
+- hankensbuettel.sitzung-online.de (1 Gemeinden)
+- stadthagen.sitzung-online.de (1 Gemeinden)
+- stelle.sitzung-online.de (1 Gemeinden)
+- sg-mittelweser.sitzung-online.de (1 Gemeinden)
+- stuhr.sitzung-online.de (1 Gemeinden)
+- sg-lathen.sitzung-online.de (1 Gemeinden)
+- gemeinde-suedheide.sitzung-online.de (2 Gemeinden)
+- tostedt.sitzung-online.de (2 Gemeinden)
+- twistringen.sitzung-online.de (1 Gemeinden)
+- uetze.sitzung-online.de (1 Gemeinden)
+- verden.ratsinfomanagement.net (1 Gemeinden)
+- visbek.sitzung-online.de (1 Gemeinden)
+- walsrode.sitzung-online.de (1 Gemeinden)
+- isenbuettel.sitzung-online.de (1 Gemeinden)
+- wedemark.sitzung-online.de (1 Gemeinden)
+- wennigsen.ratsinfomanagement.net (1 Gemeinden)
+- flotwedel.sitzung-online.de (1 Gemeinden)
+- weser-aue.sitzung-online.de (1 Gemeinden)
+- winsen.sitzung-online.de (1 Gemeinden)
+- wurster-nordseekueste.sitzung-online.de (1 Gemeinden)
 - ahlen.sitzung-online.de (1 Gemeinden)
 - alfter.ratsinfomanagement.net (1 Gemeinden)
 - altena.ratsinfomanagement.net (1 Gemeinden)
@@ -72,6 +136,11 @@ Geprüft: 6480 | noch nie geprüft: 5014 | RIS-Betreiber bisher: 452
 - greven.ratsinfomanagement.net (1 Gemeinden)
 - halver.ratsinfomanagement.net (1 Gemeinden)
 - heek.ratsinfomanagement.net (1 Gemeinden)
+- vgdiez.sitzung-online.de/bi (1 Gemeinden)
+- vgdiez.sitzung-online.de (3 Gemeinden)
+- vg-winnweiler.sitzung-online.de/bi (1 Gemeinden)
+- bitburgerland.sitzung-online.de (1 Gemeinden)
+- vgkirchen.sitzung-online.de/bi (1 Gemeinden)
 - bexbach.sitzung-online.de (1 Gemeinden)
 - bous.sitzung-online.de/bi (1 Gemeinden)
 - dillingen.sitzung-online.de (1 Gemeinden)
@@ -85,13 +154,44 @@ Geprüft: 6480 | noch nie geprüft: 5014 | RIS-Betreiber bisher: 452
 - saarwellingen.sitzung-online.de (1 Gemeinden)
 - ratsinfo-st-ingbert.sitzung-online.de (1 Gemeinden)
 - ratsinfo-online.net/vgunstruttal-bi (2 Gemeinden)
-- amt-schenefeld.sitzung-online.de (1 Gemeinden)
-- achterwehr.sitzung-online.de/buergerinfo (1 Gemeinden)
-- wilstermarsch.sitzung-online.de (1 Gemeinden)
+- amt-schenefeld.sitzung-online.de (11 Gemeinden)
+- achterwehr.sitzung-online.de/buergerinfo (4 Gemeinden)
+- wilstermarsch.sitzung-online.de (6 Gemeinden)
 - amt-schenefeld.sitzung-online.de/bi (1 Gemeinden)
 - ahrensboek.sitzung-online.de (1 Gemeinden)
-- amt-breitenfelde.sitzung-online.de (1 Gemeinden)
+- amt-breitenfelde.sitzung-online.de (4 Gemeinden)
 - auenland-suedholstein.sitzung-online.de (1 Gemeinden)
 - ammersbek.sitzung-online.de/bi (1 Gemeinden)
+- ahu.sitzung-online.de (6 Gemeinden)
+- breitenburg.sitzung-online.de/bi (3 Gemeinden)
+- mittelholstein.sitzung-online.de (9 Gemeinden)
+- vg-barmstedt-hoernerkirchen.sitzung-online.de (2 Gemeinden)
+- oststeinbek.sitzung-online.de (1 Gemeinden)
+- geltinger-bucht.sitzung-online.de (6 Gemeinden)
+- quickborn.sitzung-online.de (1 Gemeinden)
+- amt-marne-nordsee.sitzung-online.de (4 Gemeinden)
+- trittau.sitzung-online.de (2 Gemeinden)
+- amt-bordesholm.sitzung-online.de/bi (5 Gemeinden)
+- rellingen.sitzung-online.de (1 Gemeinden)
+- krempermarsch.sitzung-online.de (1 Gemeinden)
+- amt-boostedt-rickling.sitzung-online.de (1 Gemeinden)
+- lensahn.sitzung-online.de (1 Gemeinden)
+- amt-mittelangeln.sitzung-online.de (2 Gemeinden)
+- scharbeutz.sitzung-online.de (1 Gemeinden)
+- schleswig.sitzung-online.de (1 Gemeinden)
+- bornhoeved.sitzung-online.de/bi (1 Gemeinden)
+- amt-leezen.sitzung-online.de (3 Gemeinden)
+- ostholstein-mitte.sitzung-online.de (1 Gemeinden)
+- trave.sitzung-online.de (1 Gemeinden)
+- amt-elmshorn-land.sitzung-online.de (1 Gemeinden)
+- horst-herzhorn.sitzung-online.de (1 Gemeinden)
+- amt-suedangeln.sitzung-online.de/bi (1 Gemeinden)
+- bargteheide-land.sitzung-online.de/bi (1 Gemeinden)
+- tornesch.sitzung-online.de (1 Gemeinden)
+- wahlstedt.sitzung-online.de (1 Gemeinden)
+- oldenburg-land.sitzung-online.de (1 Gemeinden)
+- wedel.sitzung-online.de (1 Gemeinden)
+- wentorf.sitzung-online.de (1 Gemeinden)
+- abw.sitzung-online.de/bi (2 Gemeinden)
 
 Hinweis: Die Plattformzahlen beruhen nur auf den bisher geprüften Gemeinden. Sie werden belastbar, sobald quellen_entdecken.py alle Länder durchlaufen hat.

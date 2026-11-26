@@ -52,13 +52,16 @@ Thale,Harz,sessionnet,https://stadt.bodetal.de/stadt-ortsteile/politische-gremie
 Wolmirstedt,Börde,sessionnet,https://ratsinfo.kitu-genossenschaft.de/wolmirst_bi/,Sachsen-Anhalt,Wolmirstedt
 Parchim,Ludwigslust-Parchim,oparl,http://www.parchim.sitzung-online.de/bi/oparl/1.0/system.asp,Mecklenburg-Vorpommern,Parchim
 Amt Darß/Fischland,,sessionnet,https://ris.darss-fischland.de/bi/,Mecklenburg-Vorpommern,Ahrenshoop; Born a. Darß; Dierhagen; Prerow; Wieck a. Darß; Wustrow
-Bartelshagen II b. Barth,Saal,sessionnet,https://session.amt-barth.de/bi/,Mecklenburg-Vorpommern,Bartelshagen II b. Barth; Divitz-Spoldershagen; Karnin; Saal
+Bartelshagen II b. Barth,Saal,sessionnet,https://session.amt-barth.de/bi/,Mecklenburg-Vorpommern,Bartelshagen II b. Barth; Divitz-Spoldershagen; Karnin; Saal; Fuhlendorf; Kenz-Küstrow; Löbnitz; Lüdershagen; Pruchten; Trinwillershagen
 Boizenburg/Elbe,Ludwigslust-Parchim,sessionnet,https://ris.boizenburg.de/,Mecklenburg-Vorpommern,Boizenburg/Elbe
-Amt Mecklenburgische Schweiz,,sessionnet,https://session.amt-ms.de/sessionnet/ri/,Mecklenburg-Vorpommern,Prebberede
-Amt Bad Doberan-Land,,sessionnet,https://www.reddelich.de/gemeindevertretung/sitzungskalender-der-gremien/,Mecklenburg-Vorpommern,Reddelich
+Amt Mecklenburgische Schweiz,,sessionnet,https://session.amt-ms.de/sessionnet/ri/,Mecklenburg-Vorpommern,Prebberede; Alt Sührkow; Dahmen; Dalkendorf; Groß Roge; Groß Wokern; Groß Wüstenfelde; Hohen Demzin; Jördenstorf; Lelkendorf; Schorssow; Schwasdorf; Sukow-Levitzow; Thürkow; Warnkenhagen
+Amt Bad Doberan-Land,,sessionnet,https://www.reddelich.de/gemeindevertretung/sitzungskalender-der-gremien/,Mecklenburg-Vorpommern,Reddelich; Admannshagen-Bargeshagen; Bartenshagen-Parkentin; Börgerende-Rethwisch; Hohenfelde; Nienhagen; Retschow; Steffenshagen; Wittenbeck
 Satow,Rostock,sessionnet,https://ratsinfo.gemeinde-satow.de/ri/,Mecklenburg-Vorpommern,Satow
 Stralsund,Bezirk Rostock,sessionnet,https://webris.stralsund.de/buergerinfo/,Mecklenburg-Vorpommern,Stralsund
-Amt Am Peenestrom,,sessionnet,https://sessionnet.wolgast.de/sessionnet/buergerinfo/,Mecklenburg-Vorpommern,Wolgast
+Amt Am Peenestrom,,sessionnet,https://sessionnet.wolgast.de/sessionnet/buergerinfo/,Mecklenburg-Vorpommern,Wolgast; Buggenhagen; Krummin; Lassan; Lütow; Sauzin; Zemitz
+Amt Lützow-Lübstorf,,sessionnet,https://session.luetzow-luebstorf.de/sessionnet/ratsinfo/,Mecklenburg-Vorpommern,Zickhusen; Alt Meteln; Brüsewitz; Cramonshagen; Dalberg-Wendelstorf; Gottesgabe; Grambow; Klein Trebbow; Lübstorf; Lützow; Perlin; Pingelshagen; Pokrent; Schildetal; Seehof
+Amt Parchimer Umland,,sessionnet,https://bis.amt-parchimer-umland.de/,Mecklenburg-Vorpommern,Ziegendorf; Zölkow; Domsühl; Groß Godems; Karrenzin; Lewitzrand; Obere Warnow; Rom; Spornitz; Stolpe
+Amt Stralendorf,,sessionnet,https://ris.amt-stralendorf.de/,Mecklenburg-Vorpommern,Zülow; Dümmer; Holthusen; Klein Rogahn; Pampow; Schossin; Stralendorf; Warsow; Wittenförden
 Dresden,,oparl,https://oparl.dresden.de/system,Sachsen,Dresden
 Leipzig,,oparl,https://ratsinformation.leipzig.de/allris_leipzig_public/oparl/system,Sachsen,Leipzig
 Portal Sachsen Bauleitplanung,,portal,https://www.bauleitplanung.sachsen.de/,Sachsen,"Landesportal (Testlauf, best effort)"
@@ -75,15 +78,18 @@ Wolkenstein,Erzgebirgskreis,auto,https://ratsinfo-online.net/wolkenstein-ri/,Sac
 Zittau,Görlitz,sessionnet,https://zittau.de/buergerservice/stadtrat/buergerinfoportal/,Sachsen,Zittau
 Zwönitz,Erzgebirgskreis,sessionnet,https://buergerinfo.zwoenitz.de/,Sachsen,Zwönitz
 Altenburg,Altenburger Land,sessionnet,https://www.stadt-altenburg.de/seite/494971/,Thüringen,Altenburg
-Arnstadt,Ilm-Kreis,oparl,https://arnstadt.gremien.info/oparl/system,Thüringen,Arnstadt
+Arnstadt,Ilm-Kreis,oparl,https://arnstadt.gremien.info/oparl/system,Thüringen,Arnstadt; Wipfratal
 Bernterode,Heilbad Heiligenstadt,sessionnet,https://ratsinfo.heilbad-heiligenstadt.de/bi/,Thüringen,Bernterode; Glasehausen; Heilbad Heiligenstadt
 Borxleben,Kyffhäuserkreis,sessionnet,https://ri.lrakyf.de/,Thüringen,Borxleben; Mönchpfiffel-Nikolausrieth
-Crawinkel,Ohrdruf,sessionnet,https://www.ohrdruf.de/unsere-stadt/stadtrat/ratsinfo/,Thüringen,Crawinkel; Gräfenhain; Luisenthal; Ohrdruf
-Dingelstädt,Eichsfeld,sessionnet,https://buergerinfo-dingelstaedt.digitalfabrix.de/,Thüringen,Dingelstädt; Helmsdorf; Kefferhausen; Kreuzebra
+Crawinkel,Ohrdruf,sessionnet,https://www.ohrdruf.de/unsere-stadt/stadtrat/ratsinfo/,Thüringen,Crawinkel; Gräfenhain; Luisenthal; Ohrdruf; Wölfis
+Dingelstädt,Eichsfeld,sessionnet,https://buergerinfo-dingelstaedt.digitalfabrix.de/,Thüringen,Dingelstädt; Helmsdorf; Kefferhausen; Kreuzebra; Silberhausen
 Eisenach,Wartburgkreis,sessionnet,https://ris.eisenach.de/bi/,Thüringen,Eisenach
 Jena,,sessionnet,https://rathaus.jena.de/de/politische-gremien/,Thüringen,Jena
-Linda bei Neustadt an der Orla,Erfüllende Gemeinde Neustadt an der Orla,sessionnet,https://ris.neustadtanderorla.de/,Thüringen,Linda bei Neustadt an der Orla
+Linda bei Neustadt an der Orla,Erfüllende Gemeinde Neustadt an der Orla,sessionnet,https://ris.neustadtanderorla.de/,Thüringen,Linda bei Neustadt an der Orla; Stanau
 Mohlsdorf-Teichwolframsdorf,Greiz,sessionnet,https://ratsinfo.krz-greiz.de/modo/ri/,Thüringen,Mohlsdorf-Teichwolframsdorf
+Schmalkalden,Schmalkalden-Meiningen,html,http://allris.schmalkalden.de/bi/vo040.asp,Thüringen,Schmalkalden
+Schmölln,Altenburger Land,sessionnet,https://www.schmoelln.de/stadt-und-rathaus/stadtverwaltung/buergerinformationsportal-session/,Thüringen,Schmölln
+Unterwellenborn,Saalfeld-Rudolstadt,sessionnet,https://ris.unterwellenborn.de/,Thüringen,Unterwellenborn
 Braunschweig,,oparl,https://ratsinfo.braunschweig.de/bi/oparl/1.0/system.asp,Niedersachsen,Braunschweig
 Schiffdorf,Cuxhaven,oparl,https://schiffdorf.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Schiffdorf
 Harsum,Hildesheim,oparl,https://www.harsum.sitzung-online.de/bi/oparl/1.0/system.asp,Niedersachsen,Harsum
@@ -104,10 +110,10 @@ Barsinghausen,Region Hannover,sessionnet,http://ratsinfo.barsinghausen.de/bi/,Ni
 Bawinkel,Emsland,oparl,https://lengerich.gremien.info/oparl/system,Niedersachsen,Bawinkel; Lengerich
 Bockhorn,Friesland,sessionnet,http://buergerinfo.bockhorn.de/,Niedersachsen,Bockhorn
 Bohmte,Osnabrück,sessionnet,https://bohmteris.itebo.de/bi/,Niedersachsen,Bohmte
-Bothel,Rotenburg (Wümme),sessionnet,https://ris.bothel.de/bi/,Niedersachsen,Bothel; Brockel; Hemsbünde; Hemslingen; Kirchwalsede
+Bothel,Rotenburg (Wümme),sessionnet,https://ris.bothel.de/bi/,Niedersachsen,Bothel; Brockel; Hemsbünde; Hemslingen; Kirchwalsede; Westerwalsede
 Bovenden,Göttingen,sessionnet,https://www.bovenden.de/rathaus-politik/kommunalpolitik/ratsinformationssystem/,Niedersachsen,Bovenden
 Brake,Wesermarsch,sessionnet,https://brake.de/politik-verwaltung/politik/ratsinformationssystem/,Niedersachsen,Brake
-Brinkum,Leer,sessionnet,https://ratsportal.hesel.de/bi/,Niedersachsen,Brinkum; Firrel; Hesel; Holtland; Neukamperfehn
+Brinkum,Leer,sessionnet,https://ratsportal.hesel.de/bi/,Niedersachsen,Brinkum; Firrel; Hesel; Holtland; Neukamperfehn; Schwerinsdorf
 Börger,Emsland,oparl,https://soegel.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Börger; Groß Berßen; Klein Berßen
 Börßum,Wolfenbüttel,sessionnet,https://www.samtgemeinde-oderwald.de/B%C3%BCrgerservice-Informationen/B%C3%BCrger-und-Ratsinformationssystem/,Niedersachsen,Börßum; Flöthe; Heiningen
 Damme,Vechta,sessionnet,https://www.damme.de/B%C3%BCrger-Stadt/Stadt/Ratsinfo/,Niedersachsen,Damme
@@ -115,24 +121,24 @@ Diekholzen,Hildesheim,html,http://www.diekholzen.de/buergerinformationssystem/vo
 Diepholz,Diepholz,sessionnet,https://sitzungsdienst.stadt-diepholz.de/ri/,Niedersachsen,Diepholz
 Drakenburg,Nienburg/Weser,sessionnet,https://ratsinfo.heemsen.de/sessionnet/gi/,Niedersachsen,Drakenburg
 Duderstadt,Göttingen,sessionnet,https://www.duderstadt.de/verwaltung-politik/kommunalpolitik-gremien/,Niedersachsen,Duderstadt
-Elsdorf,Rotenburg (Wümme),sessionnet,https://ris.zeven.de/sessionnet/bi/,Niedersachsen,Elsdorf; Heeslingen
+Elsdorf,Rotenburg (Wümme),sessionnet,https://ris.zeven.de/sessionnet/bi/,Niedersachsen,Elsdorf; Heeslingen; Zeven
 Elsfleth,Wesermarsch,sessionnet,https://www.elsfleth.de/ratsinformationssystem-sessionnet/,Niedersachsen,Elsfleth
 Emden,,sessionnet,https://gremieninfo.emden.de/ri/,Niedersachsen,Emden
-Emlichheim,Grafschaft Bentheim,oparl,https://emlichheim.gremien.info/oparl/system,Niedersachsen,Emlichheim
-Eversmeer,Wittmund,sessionnet,https://buergerinfo.holtriem.de/,Niedersachsen,Eversmeer; Nenndorf; Neuschoo
-Fintel,Rotenburg (Wümme),sessionnet,https://buergerinfo.sgfintel.de/,Niedersachsen,Fintel
+Emlichheim,Grafschaft Bentheim,oparl,https://emlichheim.gremien.info/oparl/system,Niedersachsen,Emlichheim; Ringe
+Eversmeer,Wittmund,sessionnet,https://buergerinfo.holtriem.de/,Niedersachsen,Eversmeer; Nenndorf; Neuschoo; Utarp
+Fintel,Rotenburg (Wümme),sessionnet,https://buergerinfo.sgfintel.de/,Niedersachsen,Fintel; Stemmen; Vahlde
 Friedland,Göttingen,sessionnet,https://www.friedland.de/buergerservice/ratsinformationen/,Niedersachsen,Friedland
 Friesoythe,Cloppenburg,sessionnet,https://buergerinfo.friesoythe.de/,Niedersachsen,Friesoythe
-Gartow,Lüchow-Dannenberg,sessionnet,https://ratsinfo.gartow.de/bi/,Niedersachsen,Gartow; Höhbeck
+Gartow,Lüchow-Dannenberg,sessionnet,https://ratsinfo.gartow.de/bi/,Niedersachsen,Gartow; Höhbeck; Prezelle
 Geeste,Emsland,sessionnet,https://www.geeste.de/rathaus-und-buergerservice/politik-und-rat/buergerinformationssystem/,Niedersachsen,Geeste
 Gehrden,Region Hannover,sessionnet,https://www.gehrden.de/politik-rathaus/politik/ratsinformationssystem/,Niedersachsen,Gehrden
 Georgsmarienhütte,Osnabrück,sessionnet,https://gmh.ris.itebo.de/bi/,Niedersachsen,Georgsmarienhütte
-Gilten,Heidekreis,sessionnet,http://www.schwarmstedt.de/joomla/index.php/politik-rathaus/rathaus/ratsinformationssystem/,Niedersachsen,Gilten
+Gilten,Heidekreis,sessionnet,http://www.schwarmstedt.de/joomla/index.php/politik-rathaus/rathaus/ratsinformationssystem/,Niedersachsen,Gilten; Schwarmstedt
 Glandorf,Osnabrück,sessionnet,https://glandorfris.itebo.de/bi/,Niedersachsen,Glandorf
 Gnarrenburg,Rotenburg (Wümme),sessionnet,https://gnarrenburg.ris.itebo.de/bi/,Niedersachsen,Gnarrenburg
 Großenkneten,Oldenburg,sessionnet,https://ratsinfo.grossenkneten.de/bi/,Niedersachsen,Großenkneten
-Hamersen,Rotenburg (Wümme),sessionnet,https://ris.sittensen.de/sessionnet/bi/,Niedersachsen,Hamersen; Kalbe; Lengenbostel
-Harbarnsen,Lamspringe,html,http://www.lamspringe.de/buergerinformationssystem/vo040.asp,Niedersachsen,Harbarnsen
+Hamersen,Rotenburg (Wümme),sessionnet,https://ris.sittensen.de/sessionnet/bi/,Niedersachsen,Hamersen; Kalbe; Lengenbostel; Sittensen; Wohnste
+Harbarnsen,Lamspringe,html,http://www.lamspringe.de/buergerinformationssystem/vo040.asp,Niedersachsen,Harbarnsen; Sehlem; Woltershausen
 Harpstedt,Samtgemeinde Harpstedt,sessionnet,https://ratsinfo.harpstedt.info/bi/,Niedersachsen,Harpstedt
 Haselünne,Emsland,sessionnet,https://haseluenneris.itebo.de/bi/,Niedersachsen,Haselünne
 Herzberg am Harz,Göttingen,sessionnet,https://www.herzberg.de/stadt/politik/ratsinformationssystem/,Niedersachsen,Herzberg am Harz
@@ -164,13 +170,104 @@ Achim,Verden,auto,https://achim.ratsinfomanagement.net/termine/,Niedersachsen,Ac
 # Ahlerstedt,Stade,auto,https://www.harsefeld.sitzung-online.de/ri/,Niedersachsen,robots.txt verbietet Bots; Ahlerstedt
 Andervenne,Emsland,sessionnet,https://www.freren.de/rathaus/ratsinformationssystem/,Niedersachsen,Andervenne
 # Apensen,Stade,auto,https://www.apensen.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Apensen
+Ostereistedt,Rotenburg (Wümme),auto,https://selsingen.ratsinfomanagement.net/tops/,Niedersachsen,Ostereistedt; Sandbostel; Selsingen
+Otterndorf,Cuxhaven,auto,https://land-hadeln.ratsinfomanagement.net/,Niedersachsen,Otterndorf; Wingst
+Osterode am Harz,Göttingen,sessionnet,https://www.osterode.de/rathaus-politik-service/buergerservice/buergerbuero/neubuergerinformationen/,Niedersachsen,Osterode am Harz
+# Ottersberg,Verden,auto,https://flecken-ottersberg.ratsinfomanagement.net/,Niedersachsen,robots.txt verbietet Bots; Ottersberg
+# Oyten,Verden,auto,https://oyten.ratsinfomanagement.net/,Niedersachsen,robots.txt verbietet Bots; Oyten
+Ostrhauderfehn,Leer,sessionnet,https://buergerinfo.ostrhauderfehn.de/,Niedersachsen,Ostrhauderfehn
+# Pollhagen,Schaumburg,auto,https://niedernwoehren.ratsinfomanagement.net/termine/,Niedersachsen,robots.txt verbietet Bots; Pollhagen
+Quendorf,Grafschaft Bentheim,auto,https://schuettorf.more-rubin1.de/,Niedersachsen,Quendorf; Schüttorf
+# Radbruch,Lüneburg,auto,https://www.bardowick.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Radbruch; Vögelsen
+Rastdorf,Emsland,auto,https://sgwerlte.ratsinfomanagement.net/startseite/,Niedersachsen,Rastdorf; Vrees; Werlte
+# Reinstorf,Lüneburg,auto,https://www.ostheide.sitzung-online.de/integration/si010/,Niedersachsen,robots.txt verbietet Bots; Reinstorf; Thomasburg; Wendisch Evern
+# Rehden,Diepholz,auto,https://www.rehden.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Rehden; Wetschen
+# Regesbostel,Harburg,auto,https://www.sg-hollenstedt.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Regesbostel; Wenzendorf
+# Rehburg-Loccum,Nienburg/Weser,auto,https://www.rehburg-loccum.sitzung-online.de/public/dooeff/,Niedersachsen,robots.txt verbietet Bots; Rehburg-Loccum
+Rhede,Emsland,auto,https://rhede-ems.ratsinfomanagement.net/recherche/,Niedersachsen,Rhede
+Reppenstedt,Lüneburg,sessionnet,https://rat.gellersen.de/buergerinfo/,Niedersachsen,Reppenstedt; Westergellersen
+# Rheden,Gronau (Leine),auto,http://www.gronau-leine.sitzung-online.de/ri/,Niedersachsen,robots.txt verbietet Bots; Rheden
+Rhauderfehn,Leer,auto,https://rhauderfehn.ratsinfomanagement.net/,Niedersachsen,Rhauderfehn
+# Riede,Verden,auto,https://thedinghausen.ratsinfomanagement.net/,Niedersachsen,robots.txt verbietet Bots; Riede; Thedinghausen
+Rethem (Aller),Heidekreis,sessionnet,https://ratsinfo.rethem.de/,Niedersachsen,Rethem (Aller)
+# Rinteln,Schaumburg,auto,https://rinteln.ratsinfomanagement.net/termine/,Niedersachsen,robots.txt verbietet Bots; Rinteln
+# Ritterhude,Osterholz,auto,https://ritterhude.ratsinfomanagement.net/,Niedersachsen,robots.txt verbietet Bots; Ritterhude
+# Rodewald,Nienburg/Weser,auto,https://www.steimbke.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Rodewald; Steimbke; Stöckse
+# Rullstorf,Lüneburg,auto,https://www.scharnebeck.sitzung-online.de/public/si018/,Niedersachsen,robots.txt verbietet Bots; Rullstorf; Scharnebeck
+Rotenburg,Rotenburg (Wümme),sessionnet,http://www.rotenburg-wuemme.eu/sessionnet/bi/,Niedersachsen,Rotenburg
+Rosdorf,Göttingen,sessionnet,https://www.rosdorf.de/verwaltung-service/politik/buergerinformationssystem/,Niedersachsen,Rosdorf
+Sachsenhagen,Schaumburg,auto,http://sachsenhagen.ratsinfomanagement.net/termine/,Niedersachsen,Sachsenhagen; Wölpinghausen
+# Rühen,Gifhorn,auto,https://www.samtgemeinde-brome.sitzung-online.de/public/gr010/,Niedersachsen,robots.txt verbietet Bots; Rühen
+# Salzgitter,,auto,https://www.salzgitter.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Salzgitter
+# Salzhausen,Harburg,auto,https://www.sg-salzhausen.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Salzhausen; Toppenstedt; Vierhöfen
+Salzbergen,Emsland,sessionnet,http://salzbergenris.itebo.de/bi/,Niedersachsen,Salzbergen
+# Salzhemmendorf,Hameln-Pyrmont,auto,https://www.salzhemmendorf.sitzung-online.de/public/si010/,Niedersachsen,robots.txt verbietet Bots; Salzhemmendorf
+Sande,Friesland,sessionnet,https://ratsinfo.sande.de/net6sande/,Niedersachsen,Sande
+Schladen-Werla,Wolfenbüttel,sessionnet,https://session.schladen.de/buergerinfo/,Niedersachsen,Schladen-Werla
+# Scholen,Diepholz,auto,https://www.schwafoerden.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Scholen
+Schwanewede,Osterholz,auto,https://schwanewede.ratsinfomanagement.net/,Niedersachsen,Schwanewede
+# Schweringen,Nienburg/Weser,auto,https://www.hoya.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Schweringen; Warpe
+Schortens,Friesland,sessionnet,https://buergerinfo.schortens.de/,Niedersachsen,Schortens
+# Schwülper,Gifhorn,auto,https://www.papenteich.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Schwülper
+Schweindorf,Wittmund,sessionnet,https://www.gemeinde-schweindorf.de/sessionnet/,Niedersachsen,Schweindorf
+Schneverdingen,Heidekreis,sessionnet,https://ris.schneverdingen.de/BI/,Niedersachsen,Schneverdingen
+# Seevetal,Harburg,auto,https://www.seevetal.sitzung-online.de/personal/logon/,Niedersachsen,robots.txt verbietet Bots; Seevetal
+# Seggebruch,Schaumburg,auto,https://sg-nienstaedt.ratsinfomanagement.net/seggebruch/,Niedersachsen,robots.txt verbietet Bots; Seggebruch
+Seulingen,Göttingen,sessionnet,https://www.seulingen.de/verwaltung-politik/kommunalpolitik/ratsinformationssystem/,Niedersachsen,Seulingen
+Seelze,Region Hannover,oparl,https://seelze.gremien.info/oparl/system,Niedersachsen,Seelze
+# Soderstorf,Lüneburg,auto,https://www.amelinghausen.sitzung-online.de/public/si018/,Niedersachsen,robots.txt verbietet Bots; Soderstorf
+Soltau,Heidekreis,sessionnet,https://ris.stadt-soltau.de/bi/,Niedersachsen,Soltau
+Spahnharrenstätte,Emsland,auto,https://soegel.ratsinfomanagement.net/,Niedersachsen,Spahnharrenstätte; Stavern; Sögel; Werpeloh
+Spiekeroog,Wittmund,sessionnet,https://buergerinfo.spiekeroog.de/,Niedersachsen,Spiekeroog
+# Sprakensehl,Gifhorn,auto,https://www.hankensbuettel.sitzung-online.de/personal/,Niedersachsen,robots.txt verbietet Bots; Sprakensehl
+Stadland,Wesermarsch,sessionnet,http://buergerinfo.stadland.de/,Niedersachsen,Stadland
+# Stadthagen,Schaumburg,auto,https://www.stadthagen.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Stadthagen
+Stadtoldendorf,Holzminden,auto,https://eschershausen-stadtoldendorf.ratsinfomanagement.net/termine/,Niedersachsen,Stadtoldendorf; Wangelnstedt
+# Stelle,Harburg,auto,https://www.stelle.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Stelle
+Stinstedt,Cuxhaven,auto,https://boerde-lamstedt.ratsinfomanagement.net/,Niedersachsen,Stinstedt
+# Stuhr,Diepholz,auto,https://www.stuhr.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Stuhr
+# Sustrum,Emsland,auto,https://www.sg-lathen.sitzung-online.de/public/gr010/,Niedersachsen,robots.txt verbietet Bots; Sustrum
+# Stolzenau,Samtgemeinde Mittelweser,auto,https://www.sg-mittelweser.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Stolzenau
+Sulingen,Diepholz,sessionnet,https://www.sulingen.de/rathaus-politik/politik/ratsinfosystem/,Niedersachsen,Sulingen
+# Südheide,Celle,auto,https://www.gemeinde-suedheide.sitzung-online.de/personal/,Niedersachsen,robots.txt verbietet Bots; Südheide; Unterlüß
+Tarmstedt,Rotenburg (Wümme),sessionnet,https://ratsinfo.tarmstedt.de/,Niedersachsen,Tarmstedt
+# Tostedt,Harburg,auto,https://www.tostedt.sitzung-online.de/personal/logon/,Niedersachsen,robots.txt verbietet Bots; Tostedt; Welle
+# Twistringen,Diepholz,auto,https://www.twistringen.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Twistringen
+# Uetze,Region Hannover,auto,https://www.uetze.sitzung-online.de/public/si010/,Niedersachsen,robots.txt verbietet Bots; Uetze
+Twist,Emsland,sessionnet,https://twist.ris.itebo.de/ri/,Niedersachsen,Twist
+Uslar,Northeim,sessionnet,https://www.uslar.de/rat-verwaltung/ratsinformationssystem/onlinesitzungen/,Niedersachsen,Uslar
+# Vastorf,Lüneburg,auto,https://www.ostheide.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Vastorf
+Varel,Friesland,sessionnet,https://ratsinfo.varel.de/,Niedersachsen,Varel
+Vechta,Vechta,sessionnet,https://ratsinfo.vechta.de/bi/,Niedersachsen,Vechta
+# Verden (Aller),Verden,auto,https://verden.ratsinfomanagement.net/termine/,Niedersachsen,robots.txt verbietet Bots; Verden (Aller)
+# Visbek,Vechta,auto,https://www.visbek.sitzung-online.de/public/si010/,Niedersachsen,robots.txt verbietet Bots; Visbek
+Vollersode,Osterholz,auto,https://hambergen.ratsinfomanagement.net/,Niedersachsen,Vollersode
+Visselhövede,Rotenburg (Wümme),sessionnet,https://ris.visselhoevede.de/ris6/,Niedersachsen,Visselhövede
+# Walsrode,Heidekreis,auto,https://www.walsrode.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Walsrode
+Wangerland,Friesland,sessionnet,https://ratsinfo.wangerland.org/startseite/,Niedersachsen,Wangerland
+# Wasbüttel,Samtgemeinde Isenbüttel,auto,https://www.isenbuettel.sitzung-online.de/public/si018/,Niedersachsen,robots.txt verbietet Bots; Wasbüttel
+# Wedemark,Region Hannover,auto,https://www.wedemark.sitzung-online.de/personal/,Niedersachsen,robots.txt verbietet Bots; Wedemark
+Wehrbleck,Diepholz,sessionnet,https://www.wehrbleck.de/sessionnet/,Niedersachsen,Wehrbleck
+# Wennigsen,Region Hannover,auto,https://wennigsen.ratsinfomanagement.net/termine/,Niedersachsen,robots.txt verbietet Bots; Wennigsen
+Westoverledingen,Leer,auto,https://westoverledingen.ratsinfomanagement.net/,Niedersachsen,Westoverledingen
+# Wienhausen,Celle,auto,https://www.flotwedel.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Wienhausen
+Wietmarschen,Grafschaft Bentheim,sessionnet,https://riswietmarschen.itebo.de/bi/,Niedersachsen,Wietmarschen
+Wiesmoor,Aurich,sessionnet,https://wiesmoor-sessionet.active-city.net/bi/,Niedersachsen,Wiesmoor
+# Wietzen,Nienburg/Weser,auto,https://www.weser-aue.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Wietzen
+# Winsen,Harburg,auto,https://www.winsen.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Winsen
+Wilhelmshaven,,sessionnet,https://ratsinformation.wilhelmshaven.de/bi/,Niedersachsen,Wilhelmshaven
+Winnigstedt,Wolfenbüttel,sessionnet,http://elmasse.ris.itebo.de/bi/,Niedersachsen,Winnigstedt
+Wittmund,Wittmund,sessionnet,https://ratsinfo.wittmund.de/ri/,Niedersachsen,Wittmund
+Worpswede,Osterholz,auto,https://worpswede.ratsinfomanagement.net/startseite/,Niedersachsen,Worpswede
+# Wurster Nordseeküste,Cuxhaven,auto,https://www.wurster-nordseekueste.sitzung-online.de/ri/,Niedersachsen,robots.txt verbietet Bots; Wurster Nordseeküste
+Zetel,Friesland,sessionnet,http://gemeinderats.info/ratsinfo/,Niedersachsen,Zetel
 Itzstedt,Kreis Segeberg,oparl,https://www.itzstedt.sitzung-online.de/bi/oparl/1.0/system.asp,Schleswig-Holstein,Itzstedt; Kayhude
 Travenhorst,Kreis Segeberg,oparl,https://www.trave.sitzung-online.de/bi/oparl/1.0/system.asp,Schleswig-Holstein,Travenhorst
-Badendorf,Kreis Stormarn,oparl,https://www.amt-nordstormarn.de/buergerinformationssystem/oparl/1.0/system.asp,Schleswig-Holstein,Badendorf; Barnitz; Feldhorst; Hamberge; Heidekamp; Heilshoop; Mönkhagen
+Badendorf,Kreis Stormarn,oparl,https://www.amt-nordstormarn.de/buergerinformationssystem/oparl/1.0/system.asp,Schleswig-Holstein,Badendorf; Barnitz; Feldhorst; Hamberge; Heidekamp; Heilshoop; Mönkhagen; Rehhorst; Wesenberg; Westerau
 Barlt,Kreis Dithmarschen,sessionnet,https://www.mitteldithmarschen.de/verwaltung-politik/im-dienste-der-buerger/gremieninformationssystem/,Schleswig-Holstein,Barlt; Nindorf
 Bekdorf,Kreis Steinburg,sessionnet,https://www.amt-itzehoe-land.de/amt-und-gemeinden/kennenlernen/buergerinformation-des-amtes/,Schleswig-Holstein,Bekdorf; Bekmünde; Drage; Hodorf; Hohenaspe; Huje; Kleve; Krummendiek; Lohbarbek; Moorhusen
-Belau,Kreis Plön,sessionnet,https://amt-bokhorst-wankendorf.de/ratsinformation/,Schleswig-Holstein,Belau; Großharrie
-Besenthal,Kreis Herzogtum Lauenburg,sessionnet,https://sessionnet.amt-buechen.de/ri/,Schleswig-Holstein,Besenthal; Bröthen; Büchen; Fitzen; Göttin
+Belau,Kreis Plön,sessionnet,https://amt-bokhorst-wankendorf.de/ratsinformation/,Schleswig-Holstein,Belau; Großharrie; Rendswühren; Schillsdorf; Tasdorf
+Besenthal,Kreis Herzogtum Lauenburg,sessionnet,https://sessionnet.amt-buechen.de/ri/,Schleswig-Holstein,Besenthal; Bröthen; Büchen; Fitzen; Göttin; Schulendorf; Siebeneichen; Tramm
 Dänischenhagen,Kreis Rendsburg-Eckernförde,sessionnet,https://www.amt-daenischenhagen.de/amt_daenischenhagen/Politik/Ratsinformation/,Schleswig-Holstein,Dänischenhagen; Noer
 Epenwöhrden,Kreis Dithmarschen,sessionnet,https://www.epenwoehrden.de/buergerservice-politik/buergerinformationssystem/gemeindevertretung/,Schleswig-Holstein,Epenwöhrden
 Fitzbek,Kreis Steinburg,sessionnet,https://www.fitzbek.de/buergerinformationen/,Schleswig-Holstein,Fitzbek
@@ -180,23 +277,73 @@ Heist,Kreis Pinneberg,sessionnet,https://www.amt-geest-und-marsch-suedholstein.d
 Hohenlockstedt,Kreis Steinburg,sessionnet,https://www.hohenlockstedt.de/buergerservice-politik/politik/sitzungstermine/,Schleswig-Holstein,Hohenlockstedt
 Itzehoe,Kreis Steinburg,sessionnet,https://www.itzehoe.de/rathaus/politik-gremien/buerger-ratsinformationssystem/,Schleswig-Holstein,Itzehoe
 Kellinghusen,Kreis Steinburg,sessionnet,https://www.kellinghusen.de/buergerservice/politik/sitzungskalender/,Schleswig-Holstein,Kellinghusen
-Klein Pampau,Kreis Herzogtum Lauenburg,sessionnet,https://sessionnet.amt-buechen.eu/bi/,Schleswig-Holstein,Klein Pampau
-Kolkerheide,Kreis Nordfriesland,sessionnet,https://www.amnf.de/amt-verwaltung/ratsinformationssystem/,Schleswig-Holstein,Kolkerheide
-Krokau,Kreis Plön,sessionnet,https://ratsinfo.amt-probstei.de/bi/,Schleswig-Holstein,Krokau
-Amt Mitteldithmarschen,,sessionnet,https://www.stadt-meldorf.de/buergerservice-politik/politik/sitzungen/,Schleswig-Holstein,Meldorf
+Klein Pampau,Kreis Herzogtum Lauenburg,sessionnet,https://sessionnet.amt-buechen.eu/bi/,Schleswig-Holstein,Klein Pampau; Witzeeze
+Kolkerheide,Kreis Nordfriesland,sessionnet,https://www.amnf.de/amt-verwaltung/ratsinformationssystem/,Schleswig-Holstein,Kolkerheide; Vollstedt
+Krokau,Kreis Plön,sessionnet,https://ratsinfo.amt-probstei.de/bi/,Schleswig-Holstein,Krokau; Prasdorf; Stein; Wendtorf; Wisch
+Amt Mitteldithmarschen,,sessionnet,https://www.stadt-meldorf.de/buergerservice-politik/politik/sitzungen/,Schleswig-Holstein,Meldorf; Albersdorf
 Neumünster,,sessionnet,https://session.neumuenster.de/bi/,Schleswig-Holstein,Neumünster
 Neustadt in Holstein,Kreis Ostholstein,html,https://ris.stadt-neustadt.eu/bi/vo040.asp,Schleswig-Holstein,Neustadt in Holstein
 Portal DiPlanung Schleswig-Holstein,,portal,https://sh.beteiligung.diplanung.de/,Schleswig-Holstein,Landesportal; Sonde 2026-11-23: erreichbar
-# Aasbüttel,Kreis Steinburg,auto,https://www.amt-schenefeld.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Aasbüttel
-# Achterwehr,Kreis Rendsburg-Eckernförde,auto,https://www.achterwehr.sitzung-online.de/buergerinfo/,Schleswig-Holstein,robots.txt verbietet Bots; Achterwehr
-# Aebtissinwisch,Kreis Steinburg,auto,https://www.wilstermarsch.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Aebtissinwisch
+# Aasbüttel,Kreis Steinburg,auto,https://www.amt-schenefeld.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Aasbüttel; Nutteln; Oldenborstel; Puls; Pöschendorf; Reher; Vaalermoor; Wacken; Warringholz
+# Achterwehr,Kreis Rendsburg-Eckernförde,auto,https://www.achterwehr.sitzung-online.de/buergerinfo/,Schleswig-Holstein,robots.txt verbietet Bots; Achterwehr; Ottendorf; Quarnbek; Westensee
+# Aebtissinwisch,Kreis Steinburg,auto,https://www.wilstermarsch.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Aebtissinwisch; Nortorf; Sankt Margarethen; Stördorf; Wewelsfleth; Wilster
 # Agethorst,Kreis Steinburg,auto,https://www.amt-schenefeld.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Agethorst
 Ahrensburg,Kreis Stormarn,sessionnet,https://www.ahrensburg.de/ratsinformationssystem/,Schleswig-Holstein,Ahrensburg
 # Ahrensbök,Kreis Ostholstein,auto,https://www.ahrensboek.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Ahrensbök
-# Alt-Mölln,Kreis Herzogtum Lauenburg,auto,https://www.amt-breitenfelde.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Alt-Mölln
+# Alt-Mölln,Kreis Herzogtum Lauenburg,auto,https://www.amt-breitenfelde.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Alt-Mölln; Schretstaken; Talkau; Woltersdorf
 Altenholz,Kreis Rendsburg-Eckernförde,auto,https://altenholz.more-rubin1.de/,Schleswig-Holstein,Altenholz
 # Alveslohe,Kreis Segeberg,auto,http://www.auenland-suedholstein.sitzung-online.de/bi2/,Schleswig-Holstein,robots.txt verbietet Bots; Alveslohe
 # Ammersbek,Kreis Stormarn,auto,https://www.ammersbek.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Ammersbek
+Nortorf,Kreis Rendsburg-Eckernförde,auto,https://www.nortorfer-land.sitzung-online.de/bi/,Schleswig-Holstein,Nortorf; Oldenhütten; Schülp b. Nortorf; Timmaspe; Warder
+# Nordhastedt,Kreis Dithmarschen,auto,https://www.ahu.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Nordhastedt; Norderwöhrden; Ostrohe; Stelle-Wittenwurth; Weddingstedt; Wesseln
+Norderstedt,Kreis Segeberg,sessionnet,https://ratsinfo.norderstedt.de/,Schleswig-Holstein,Norderstedt
+# Oelixdorf,Kreis Steinburg,auto,https://www.breitenburg.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Oelixdorf; Westermoor; Wittenbergen
+# Oering,Kreis Segeberg,auto,https://www.itzstedt.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Oering; Tangstedt
+Amt Büsum-Wesselburen,Kreis Dithmarschen,auto,https://www.abw.sitzung-online.de/ri/,Schleswig-Holstein,Oesterdeichstrich; Oesterwurth; Reinsbüttel; Schülp; Strübbel; Süderdeich; Warwerort; Wesselburener Deichhausen; Westerdeichstrich; Büsum; Büsumer Deichhausen
+# Amt Mittelholstein,Kreis Rendsburg-Eckernförde,auto,https://www.mittelholstein.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Oldenbüttel; Padenstedt; Rade b. Hohenwestedt; Remmels; Steenfeld; Tackesdorf; Tappendorf; Thaden; Wapelfeld
+Oldendorf,Kreis Steinburg,sessionnet,https://sessionnet.amt-itzehoe-land.de/ri/,Schleswig-Holstein,Oldendorf; Peissen; Schlotfeld; Silzen; Winseldorf
+# Osterhorn,Kreis Pinneberg,auto,https://www.vg-barmstedt-hoernerkirchen.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Osterhorn; Westerhorn
+# Oststeinbek,Kreis Stormarn,auto,https://www.oststeinbek.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Oststeinbek
+# Pommerby,Kreis Schleswig-Flensburg,auto,https://www.geltinger-bucht.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Pommerby; Stangheck; Steinbergkirche
+Preetz,Kreis Plön,sessionnet,https://ratsinfo.preetz.de/,Schleswig-Holstein,Preetz
+# Quern,Steinbergkirche,auto,https://www.geltinger-bucht.sitzung-online.de/integration/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Quern; Rabenholz; Steinberg
+# Quickborn,Kreis Pinneberg,auto,https://www.quickborn.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Quickborn
+# Ramhusen,Kreis Dithmarschen,auto,https://www.amt-marne-nordsee.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Ramhusen; Schmedeswurth; Trennewurth; Volsemenhusen
+# Amt Trittau,Kreis Stormarn,auto,https://www.trittau.sitzung-online.de/public/gr010/,Schleswig-Holstein,robots.txt verbietet Bots; Rausdorf
+# Reesdorf,Kreis Rendsburg-Eckernförde,auto,https://www.amt-bordesholm.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Reesdorf; Schmalstede; Schönbek; Sören; Wattenbek
+# Rellingen,Kreis Pinneberg,auto,https://www.rellingen.sitzung-online.de/integration/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Rellingen
+# Rethwisch,Kreis Steinburg,auto,https://www.krempermarsch.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Rethwisch
+Rendsburg,Kreis Rendsburg-Eckernförde,sessionnet,https://bis.rendsburg.de/,Schleswig-Holstein,Rendsburg
+# Rickling,Kreis Segeberg,auto,https://www.amt-boostedt-rickling.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Rickling
+# Riepsdorf,Kreis Ostholstein,auto,https://www.lensahn.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Riepsdorf
+Roseburg,Kreis Herzogtum Lauenburg,sessionnet,https://sessionnet.amt-buechen.eu/ri/,Schleswig-Holstein,Roseburg
+# Rüde,Mittelangeln,auto,https://www.amt-mittelangeln.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Rüde; Schnarup-Thumby
+# Scharbeutz,Kreis Ostholstein,auto,https://www.scharbeutz.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Scharbeutz
+# Schenefeld,Kreis Steinburg,auto,https://www.amt-schenefeld.sitzung-online.de/ri/,Schleswig-Holstein,robots.txt verbietet Bots; Schenefeld
+# Schmalensee,Kreis Segeberg,auto,http://www.bornhoeved.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Schmalensee
+# Schleswig,Kreis Schleswig-Flensburg,auto,https://www.schleswig.sitzung-online.de/integration/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Schleswig
+# Schwissel,Kreis Segeberg,auto,https://www.amt-leezen.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Schwissel; Todesfelde; Wittenborn
+# Schönwalde am Bungsberg,Kreis Ostholstein,auto,https://www.ostholstein-mitte.sitzung-online.de/public/rss/sifuture/,Schleswig-Holstein,robots.txt verbietet Bots; Schönwalde am Bungsberg
+# Seedorf,Kreis Segeberg,auto,https://www.trave.sitzung-online.de/public/gr010/,Schleswig-Holstein,robots.txt verbietet Bots; Seedorf
+# Seeth-Ekholt,Kreis Pinneberg,auto,https://www.amt-elmshorn-land.sitzung-online.de/public/dooeff/,Schleswig-Holstein,robots.txt verbietet Bots; Seeth-Ekholt
+Selk,Kreis Schleswig-Flensburg,auto,http://www.haddeby.sitzung-online.de/public/gr020/,Schleswig-Holstein,Selk
+# Sommerland,Kreis Steinburg,auto,https://www.horst-herzhorn.sitzung-online.de/public/si018/,Schleswig-Holstein,robots.txt verbietet Bots; Sommerland
+Sönnebüll,Kreis Nordfriesland,sessionnet,https://www.amnf.de/gemeinden-stadt/soennebuell/,Schleswig-Holstein,Sönnebüll
+# Taarstedt,Kreis Schleswig-Flensburg,auto,http://www.amt-suedangeln.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Taarstedt
+# Todendorf,Kreis Stormarn,auto,https://www.bargteheide-land.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Todendorf
+# Tornesch,Kreis Pinneberg,auto,https://www.tornesch.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Tornesch
+# Amt Trittau,Kreis Stormarn,auto,https://www.trittau.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Trittau
+Tönning,Kreis Eiderstedt,sessionnet,https://ratsinfo.toenning.de/bi/,Schleswig-Holstein,Tönning
+# Wahlstedt,Kreis Segeberg,auto,https://www.wahlstedt.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Wahlstedt
+# Wangels,Kreis Ostholstein,auto,https://www.oldenburg-land.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Wangels
+Wasbek,Kreis Rendsburg-Eckernförde,sessionnet,https://session.neumuenster.de/was_bi/,Schleswig-Holstein,Wasbek
+Weddelbrook,Kreis Segeberg,auto,https://www.bad-bramstedt-land.sitzung-online.de/bi/,Schleswig-Holstein,Weddelbrook
+Wankendorf,Kreis Plön,sessionnet,https://wankendorf.de/bi/,Schleswig-Holstein,Wankendorf
+# Wedel,Kreis Pinneberg,auto,https://www.wedel.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Wedel
+Wees,Kreis Schleswig-Flensburg,sessionnet,https://www.wees.de/sessionnet/,Schleswig-Holstein,Wees
+# Amt Büsum-Wesselburen,Kreis Dithmarschen,auto,https://www.abw.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Wesselburenerkoog
+# Wentorf bei Hamburg,Kreis Herzogtum Lauenburg,auto,https://www.wentorf.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Wentorf bei Hamburg
+# Amt Büsum-Wesselburen,Kreis Dithmarschen,auto,http://www.abw.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Wesselburen
 Köln,Regierungsbezirk Köln,oparl,https://buergerinfo.stadt-koeln.de/oparl/system,Nordrhein-Westfalen,Köln
 Bonn,Regierungsbezirk Köln,oparl,https://www.bonn.sitzung-online.de/public/oparl/system,Nordrhein-Westfalen,Bonn
 Aachen,Kreis Aachen,oparl,https://ratsinfo.aachen.de/bi/oparl/1.0/system.asp,Nordrhein-Westfalen,Aachen
@@ -390,41 +537,82 @@ Wetzlar,Lahn-Dill-Kreis,sessionnet,https://politik.wetzlar.de/BI/,Hessen,Wetzlar
 Wächtersbach,Main-Kinzig-Kreis,sessionnet,https://www.stadt-waechtersbach.de/rathaus/politik/buergerinfoportal/,Hessen,Wächtersbach
 Bad Kreuznach,Bad Kreuznach,oparl,https://bad-kreuznach-stadt.gremien.info/oparl/system,Rheinland-Pfalz,Bad Kreuznach
 Pirmasens,,oparl,https://oparl.stadt-pirmasens.de/oparl/system,Rheinland-Pfalz,Pirmasens
-Ailertchen,Verbandsgemeinde Westerburg,oparl,https://westerburg.gremien.info/oparl/system,Rheinland-Pfalz,Ailertchen; Brandscheid
+Ailertchen,Verbandsgemeinde Westerburg,oparl,https://westerburg.gremien.info/oparl/system,Rheinland-Pfalz,Ailertchen; Brandscheid; Halbs; Hergenroth
 Boppard,Rhein-Hunsrück-Kreis,oparl,http://www.boppard.sitzung-online.de/bi/oparl/1.0/system.asp,Rheinland-Pfalz,Boppard
 Hagenbach,Verbandsgemeinde Hagenbach,oparl,http://www.hagenbach.sitzung-online.de/bi/oparl/1.0/system.asp,Rheinland-Pfalz,Hagenbach
 Herxheimweyher,Verbandsgemeinde Herxheim,oparl,https://herxheim.gremien.info/oparl/system,Rheinland-Pfalz,Herxheimweyher
-Mühlpfad,Rhein-Hunsrück-Kreis,oparl,https://emmelshausen.gremien.info/oparl/system,Rheinland-Pfalz,Mühlpfad; Badenhard; Birkheim
-Daubach,Verbandsgemeinde Montabaur,oparl,https://montabaur.gremien.info/oparl/system,Rheinland-Pfalz,Daubach; Boden; Gackenbach; Girod; Großholbach
+Mühlpfad,Rhein-Hunsrück-Kreis,oparl,https://emmelshausen.gremien.info/oparl/system,Rheinland-Pfalz,Mühlpfad; Badenhard; Birkheim; Hausbay; Hungenroth; Kratzenburg; Mermuth
+Daubach,Verbandsgemeinde Montabaur,oparl,https://montabaur.gremien.info/oparl/system,Rheinland-Pfalz,Daubach; Boden; Gackenbach; Girod; Großholbach; Görgeshausen; Heilberscheid; Horbach; Hübingen; Kadenbach
 Gommersheim,Verbandsgemeinde Edenkoben,oparl,https://edenkoben.gremien.info/oparl/system,Rheinland-Pfalz,Gommersheim
 Sembach,Kaiserslautern,oparl,https://enkenbach-alsenborn.gremien.info/oparl/system,Rheinland-Pfalz,Sembach
-Acht,Mayen-Koblenz,sessionnet,https://www.vordereifel.de/politik/rats-und-buergerinformationssystem/,Rheinland-Pfalz,Acht; Anschau; Arft; Baar; Bermel; Ditscheid
-Adenbach,Verbandsgemeinde Lauterecken-Wolfstein,oparl,https://lauterecken.gremien.info/oparl/system,Rheinland-Pfalz,Adenbach; Buborn; Cronenberg; Ginsweiler; Glanbrücken; Grumbach
-Affler,Eifelkreis Bitburg-Prüm,oparl,https://suedeifel.gremien.info/oparl/system,Rheinland-Pfalz,Affler; Alsdorf; Altscheid; Ammeldingen an der Our; Bauler; Berscheid; Biesdorf; Burg; Dauwelshausen; Fischbach-Oberraden; Gemünd; Gentingen; Gilzem
+Acht,Mayen-Koblenz,sessionnet,https://www.vordereifel.de/politik/rats-und-buergerinformationssystem/,Rheinland-Pfalz,Acht; Anschau; Arft; Baar; Bermel; Ditscheid; Hausten; Herresbach; Hirten; Kehrig; Kirchwald; Langenfeld; Langscheid; Lind; Luxem
+Adenbach,Verbandsgemeinde Lauterecken-Wolfstein,oparl,https://lauterecken.gremien.info/oparl/system,Rheinland-Pfalz,Adenbach; Buborn; Cronenberg; Ginsweiler; Glanbrücken; Grumbach; Hausweiler; Heinzenhausen; Herren-Sulzbach; Hohenöllen; Hoppstädten; Langweiler; Lohnweiler; Medard
+Affler,Eifelkreis Bitburg-Prüm,oparl,https://suedeifel.gremien.info/oparl/system,Rheinland-Pfalz,Affler; Alsdorf; Altscheid; Ammeldingen an der Our; Bauler; Berscheid; Biesdorf; Burg; Dauwelshausen; Fischbach-Oberraden; Gemünd; Gentingen; Gilzem; Heilbach; Herbstmühle; Hommerdingen; Hütten; Hüttingen bei Lahr; Karlshausen; Kaschenbach; Keppeshausen; Koxhausen; Kruchten; Leimbach; Menningen; Minden; Muxerath; Nasingen
 Altenglan,Verbandsgemeinde Kusel-Altenglan,sessionnet,https://ratsinfo.vgka.de/ri/,Rheinland-Pfalz,Altenglan; Bedesbach; Bosenbach; Elzweiler; Föckelberg
 Astert,Verbandsgemeinde Hachenburg,oparl,https://hachenburg.gremien.info/oparl/system,Rheinland-Pfalz,Astert; Atzelgift; Borod; Dreifelden; Gehlert; Giesenhausen
 Auderath,Cochem-Zell,sessionnet,https://www.ulmen.de/rathaus-gemeinden/ratsinformationssystem/,Rheinland-Pfalz,Auderath; Beuren; Filz
-Bann,Kaiserslautern,sessionnet,https://www.landstuhl.de/verbandsgemeinde-landstuhl/buergerinfo/ratsinformationssystem/,Rheinland-Pfalz,Bann
-Beilstein,Cochem-Zell,oparl,https://vgcochem.gremien.info/oparl/system,Rheinland-Pfalz,Beilstein
-Belg,Rhein-Hunsrück-Kreis,oparl,https://ris.kirchberg-hunsrueck.de/oparl/system,Rheinland-Pfalz,Belg
-Bell,Verbandsgemeinde Mendig,sessionnet,https://buergerinfo.mendig.de/,Rheinland-Pfalz,Bell
+Bann,Kaiserslautern,sessionnet,https://www.landstuhl.de/verbandsgemeinde-landstuhl/buergerinfo/ratsinformationssystem/,Rheinland-Pfalz,Bann; Hauptstuhl; Landstuhl; Mittelbrunn
+Beilstein,Cochem-Zell,oparl,https://vgcochem.gremien.info/oparl/system,Rheinland-Pfalz,Beilstein; Lieg
+Belg,Rhein-Hunsrück-Kreis,oparl,https://ris.kirchberg-hunsrueck.de/oparl/system,Rheinland-Pfalz,Belg; Hecken; Henau; Hirschfeld; Kludenbach; Lindenschied; Maitzborn; Metzenhausen
+Bell,Verbandsgemeinde Mendig,sessionnet,https://buergerinfo.mendig.de/,Rheinland-Pfalz,Bell; Mendig
 Bendorf,Mayen-Koblenz,sessionnet,https://www.bendorf.de/,Rheinland-Pfalz,Bendorf
-Birkenbeul,Altenkirchen,sessionnet,https://www.hamm-sieg.de/de/verwaltung-politik/politik-gremienarbeit/ratsinformationssystem/,Rheinland-Pfalz,Birkenbeul; Breitscheidt; Forst
-Breitscheid,Neuwied,oparl,https://vg-rw.gremien.info/oparl/system,Rheinland-Pfalz,Breitscheid
+Birkenbeul,Altenkirchen,sessionnet,https://www.hamm-sieg.de/de/verwaltung-politik/politik-gremienarbeit/ratsinformationssystem/,Rheinland-Pfalz,Birkenbeul; Breitscheidt; Forst; Hamm (Sieg)
+Breitscheid,Neuwied,oparl,https://vg-rw.gremien.info/oparl/system,Rheinland-Pfalz,Breitscheid; Kurtscheid
 Böhl-Iggelheim,Rhein-Pfalz-Kreis,oparl,https://boehl-iggelheim.gremien.info/oparl/system,Rheinland-Pfalz,Böhl-Iggelheim
 Büchel,Cochem-Zell,sessionnet,https://www.buechel.de/amtliches/ratsinformationen-fuer-buergerinnen-und-buerger/,Rheinland-Pfalz,Büchel
-Daubach,Bad Kreuznach,oparl,https://vg-nahe-glan.gremien.info/oparl/system,Rheinland-Pfalz,Daubach
+Daubach,Bad Kreuznach,oparl,https://vg-nahe-glan.gremien.info/oparl/system,Rheinland-Pfalz,Daubach; Langenthal; Martinstein; Meddersheim
 Daun,Vulkaneifel,oparl,https://daun.gremien.info/oparl/system,Rheinland-Pfalz,Daun
 Derschen,Altenkirchen,oparl,https://vgdaaden.gremien.info/oparl/system,Rheinland-Pfalz,Derschen; Emmerzhausen; Friedewald
 Dolgesheim,Verbandsgemeinde Rhein-Selz,oparl,https://rhein-selz.gremien.info/oparl/system,Rheinland-Pfalz,Dolgesheim; Dorn-Dürkheim
-Einig,Verbandsgemeinde Maifeld,sessionnet,https://www.maifeld.de/rathaus-buergerservice/ratsinformationssystem/ratsinformationssystem/,Rheinland-Pfalz,Einig; Gappenach
+Einig,Verbandsgemeinde Maifeld,sessionnet,https://www.maifeld.de/rathaus-buergerservice/ratsinformationssystem/ratsinformationssystem/,Rheinland-Pfalz,Einig; Gappenach; Kerben
 Elmstein,Verbandsgemeinde Lambrecht (Pfalz),sessionnet,http://www.buergerinfo-kreis-duew.de/,Rheinland-Pfalz,Elmstein
 Esthal,Verbandsgemeinde Lambrecht (Pfalz),oparl,https://lambrecht.gremien.info/oparl/system,Rheinland-Pfalz,Esthal; Frankeneck
 Etschberg,Verbandsgemeinde Kusel-Altenglan,sessionnet,https://ratsinfo.vgka.de/,Rheinland-Pfalz,Etschberg
-Eußerthal,Verbandsgemeinde Annweiler am Trifels,sessionnet,https://www.bi-annweiler.de/bi/,Rheinland-Pfalz,Eußerthal
+Eußerthal,Verbandsgemeinde Annweiler am Trifels,sessionnet,https://www.bi-annweiler.de/bi/,Rheinland-Pfalz,Eußerthal; Münchweiler am Klingbach
 Frankenthal,,sessionnet,https://bis.frankenthal.de/bi/,Rheinland-Pfalz,Frankenthal
 Geisig,Verbandsgemeinde Bad Ems-Nassau,sessionnet,https://www.rat-vgben.de/bi/,Rheinland-Pfalz,Geisig
 Grünstadt,Bad Dürkheim,sessionnet,https://www.gruenstadt.de/rathaus-politik/politik/buerger-gremieninfo/,Rheinland-Pfalz,Grünstadt
+# Gückingen,Rhein-Lahn-Kreis,auto,https://www.vgdiez.sitzung-online.de/bi/,Rheinland-Pfalz,robots.txt verbietet Bots; Gückingen
+Hachenburg,Verbandsgemeinde Hachenburg,auto,https://hachenburg.more-rubin1.de/,Rheinland-Pfalz,Hachenburg; Hattert; Heimborn; Heuzert; Höchstenbach; Kroppach; Kundert; Limbach; Lochum; Marzhausen; Mudenbach; Mörsbach; Müschenbach
+Hahn am See,Verbandsgemeinde Wallmerod,auto,https://wallmerod.ratsinfomanagement.net/,Rheinland-Pfalz,Hahn am See; Herschbach; Kuhnhöfen; Meudt; Molsberg
+Hanroth,Verbandsgemeinde Puderbach,auto,https://puderbach.more-rubin1.de/,Rheinland-Pfalz,Hanroth; Harschbach
+Harxheim,Mainz-Bingen,sessionnet,https://www.harxheim.de/sitzungstermine/,Rheinland-Pfalz,Harxheim
+Hasborn,Bernkastel-Wittlich,auto,https://vg-wittlich.more-rubin1.de/,Rheinland-Pfalz,Hasborn; Heckenmünster; Heidweiler; Karl; Musweiler
+Harthausen,Verbandsgemeinde Römerberg-Dudenhofen,sessionnet,https://www.vgrd.de/sessionnet/,Rheinland-Pfalz,Harthausen
+Hasselbach,Altenkirchen,auto,https://vg-ak-ff.ratsinfomanagement.net/,Rheinland-Pfalz,Hasselbach; Helmeroth; Hemmelzen; Heupelzen; Hilgenroth; Hirz-Maulsbach; Idelberg; Ingelbach; Isert; Kescheid; Kettenhausen; Kraam; Mammelzen
+Haßloch,Bad Dürkheim,sessionnet,https://www.hassloch.de/buergerinfo/,Rheinland-Pfalz,Haßloch
+Heidesheim am Rhein,Ingelheim am Rhein,oparl,https://ingelheim.gremien.info/oparl/system,Rheinland-Pfalz,Heidesheim am Rhein; Ingelheim am Rhein
+Hermeskeil,Verbandsgemeinde Hermeskeil,sessionnet,https://www.hermeskeil.de/buerger-verwaltung/kommunalpolitik/mandatos/,Rheinland-Pfalz,Hermeskeil; Hinzert-Pölert
+Hochstätten,Bad Kreuznach,sessionnet,https://www.hochstaetten-pfalz.de/sessionnet/,Rheinland-Pfalz,Hochstätten
+# Holzheim,Rhein-Lahn-Kreis,auto,https://www.vgdiez.sitzung-online.de/public/si010/,Rheinland-Pfalz,robots.txt verbietet Bots; Holzheim
+Hosten,Eifelkreis Bitburg-Prüm,oparl,https://speicher.gremien.info/oparl/system,Rheinland-Pfalz,Hosten
+Hundsdorf,Verbandsgemeinde Ransbach-Baumbach,sessionnet,https://www.ransbach-baumbach.de/ratsinfo/,Rheinland-Pfalz,Hundsdorf
+Hütschenhausen,Verbandsgemeinde Ramstein-Miesenbach,auto,https://ramstein-miesenbach.ratsinfomanagement.net/,Rheinland-Pfalz,Hütschenhausen
+Idar-Oberstein,Birkenfeld,oparl,https://idar-oberstein.gremien.info/oparl/system,Rheinland-Pfalz,Idar-Oberstein
+# Imsbach,Donnersbergkreis,auto,https://www.vg-winnweiler.sitzung-online.de/bi/,Rheinland-Pfalz,robots.txt verbietet Bots; Imsbach
+Kastellaun,Bürgermeisterei Kastellaun,auto,https://www.kastellaun.de/kastellaunmore-rubin1de/,Rheinland-Pfalz,Kastellaun
+Koblenz,,sessionnet,https://buergerinfo.koblenz.de/,Rheinland-Pfalz,Koblenz
+Kopp,Vulkaneifel,oparl,https://session.gerolstein.de/oparl/system,Rheinland-Pfalz,Kopp
+Köngernheim,Verbandsgemeinde Rhein-Selz,auto,https://rhein-selz.more-rubin1.de/,Rheinland-Pfalz,Köngernheim
+Königsfeld,Verbandsgemeinde Brohltal,auto,https://brohltal.more-rubin1.de/recherche/,Rheinland-Pfalz,Königsfeld
+Lahnstein,Rhein-Lahn-Kreis,sessionnet,https://session.lahnstein.de/bi/,Rheinland-Pfalz,Lahnstein
+Lambsheim,Verbandsgemeinde Lambsheim-Heßheim,sessionnet,https://www.lambsheim.de/sessionnet/,Rheinland-Pfalz,Lambsheim
+Landscheid,Bernkastel-Wittlich,auto,https://vg-wittlich.more-rubin1.de/recherche/,Rheinland-Pfalz,Landscheid; Laufeld
+# Langenscheid,Rhein-Lahn-Kreis,auto,https://www.vgdiez.sitzung-online.de/public/,Rheinland-Pfalz,robots.txt verbietet Bots; Langenscheid; Laurenburg
+Lauterecken,Kusel,sessionnet,https://www.lauterecken.de/sessionnet/,Rheinland-Pfalz,Lauterecken
+Lollschied,Verbandsgemeinde Bad Ems-Nassau,sessionnet,https://lollschied.de/sessionnet/,Rheinland-Pfalz,Lollschied
+# Malberg,Eifelkreis Bitburg-Prüm,auto,https://www.bitburgerland.sitzung-online.de/public/to020/,Rheinland-Pfalz,robots.txt verbietet Bots; Malberg
+Mainz,,sessionnet,https://bi.mainz.de/,Rheinland-Pfalz,Mainz
+Martinshöhe,Kaiserslautern,auto,https://bruchmuehlbach-miesau.more-rubin1.de/,Rheinland-Pfalz,Martinshöhe
+Maßweiler,Verbandsgemeinde Thaleischweiler-Wallhalben,oparl,https://vgtw.gremien.info/oparl/system,Rheinland-Pfalz,Maßweiler
+Mayen,Mayen-Koblenz,sessionnet,https://www.mayen.de/rathaus-buergerservice/politik/rat-gremien/,Rheinland-Pfalz,Mayen
+Meckenbach,Birkenfeld,sessionnet,https://www.meckenbach.com/verwaltung/gemeinderat/gemeinderatssitzungen/,Rheinland-Pfalz,Meckenbach
+Melsbach,Neuwied,auto,https://vg-rw.more-rubin1.de/,Rheinland-Pfalz,Melsbach
+Mertesdorf,Trier-Saarburg,sessionnet,https://www.mertesdorf.de/service/rats-und-buergerinformationssystem-der-vg/,Rheinland-Pfalz,Mertesdorf
+Monsheim,Alzey-Worms,auto,http://monsheim.more-rubin1.de/,Rheinland-Pfalz,Monsheim
+# Mudersbach,Altenkirchen,auto,http://www.vgkirchen.sitzung-online.de/bi/,Rheinland-Pfalz,robots.txt verbietet Bots; Mudersbach
+Mähren,Verbandsgemeinde Wallmerod,sessionnet,https://www.maehren-ww.de/sessionnet/,Rheinland-Pfalz,Mähren
+Nannhausen,Rhein-Hunsrück-Kreis,auto,https://simmern.more-rubin1.de/recherche/,Rheinland-Pfalz,Nannhausen
 Freiburg im Breisgau,Baden,oparl,https://ris.freiburg.de/oparl,Baden-Württemberg,Freiburg im Breisgau
 Ulm,Regierungsbezirk Tübingen,oparl,https://buergerinfo.ulm.de/oparl/system,Baden-Württemberg,Ulm
 Lahr/Schwarzwald,Ortenaukreis,oparl,https://lahr.ratsinfomanagement.net/webservice/oparl/v1.1/system,Baden-Württemberg,Lahr/Schwarzwald
@@ -437,6 +625,120 @@ Berg,Gemeindeverwaltungsverband Mittleres Schussental,sessionnet,http://www.berg
 Berglen,Rems-Murr-Kreis,sessionnet,https://www.berglen.de/rathaus-service/gemeinderat/ratsinformationssystem/,Baden-Württemberg,Berglen
 Besigheim,Gemeindeverwaltungsverband Besigheim,sessionnet,https://sessionnet.besigheim.de/bi/,Baden-Württemberg,Besigheim
 Bühlertal,Rastatt,sessionnet,https://www.buehlertal.de/home/meine-anliegen/online-services/online-buergerinfoportal/,Baden-Württemberg,Bühlertal
+Deißlingen,Rottweil,auto,https://deisslingen.ratsinfomanagement.net/,Baden-Württemberg,Deißlingen
+Denzlingen,Gemeindeverwaltungsverband Denzlingen-Vörstetten-Reute,auto,https://denzlingen.more-rubin1.de/,Baden-Württemberg,Denzlingen
+Dobel,Calw,auto,https://dobel.ratsinfomanagement.net/startseite/,Baden-Württemberg,Dobel
+Dischingen,Heidenheim,sessionnet,https://www.dischingen.de/gemeinderatssitzungen/,Baden-Württemberg,Dischingen
+Ditzingen,Ludwigsburg,oparl,https://ditzingen.gremien.info/oparl/system,Baden-Württemberg,Ditzingen
+Dielheim,Rhein-Neckar-Kreis,auto,https://dielheim.ratsinfomanagement.net/,Baden-Württemberg,Dielheim
+Dossenheim,Rhein-Neckar-Kreis,sessionnet,http://www.dossenheim.de/rathaus-service/gemeinderat/ratsinformation/,Baden-Württemberg,Dossenheim
+Donaueschingen,Schwarzwald-Baar-Kreis,sessionnet,http://ratsinfo.donaueschingen.de/buergerinfo/,Baden-Württemberg,Donaueschingen
+Eberbach,Rhein-Neckar-Kreis,sessionnet,https://session.eberbach.de/bi/,Baden-Württemberg,Eberbach
+Ehrenkirchen,Breisgau-Hochschwarzwald,auto,https://ehrenkirchen.ratsinfomanagement.net/,Baden-Württemberg,Ehrenkirchen
+Ehningen,Gemeindeverwaltungsverband Gärtringen/Ehningen,sessionnet,https://sitzungsdienst.ehningen.de/buergerinfo/,Baden-Württemberg,Ehningen
+Eisingen,Enzkreis,auto,https://eisingen.ratsinfomanagement.net/tops/,Baden-Württemberg,Eisingen
+Ellwangen,Ostalbkreis,auto,https://ellwangen.ratsinfomanagement.net/diverses/downloads/1/,Baden-Württemberg,Ellwangen
+Emmendingen,Emmendingen,sessionnet,https://www.emmendingen.de/rathaus-service/stadtrat-politik/stadtrat/,Baden-Württemberg,Emmendingen
+Engelsbrand,Enzkreis,auto,https://engelsbrand.ratsinfomanagement.net/,Baden-Württemberg,Engelsbrand
+Endingen am Kaiserstuhl,Emmendingen,auto,https://endingen.ratsinfomanagement.net/startseite/,Baden-Württemberg,Endingen am Kaiserstuhl; Forchheim
+Eningen unter Achalm,Reutlingen,auto,http://eningen.ratsinfomanagement.net/,Baden-Württemberg,Eningen unter Achalm
+Eppingen,Heilbronn,sessionnet,https://ratsinfo-eppingen.de/bi/,Baden-Württemberg,Eppingen
+Ettenheim,Ortenaukreis,auto,https://ettenheim.ratsinfomanagement.net/,Baden-Württemberg,Ettenheim
+Fischerbach,Ortenaukreis,auto,https://fischerbach.ratsinfomanagement.net/,Baden-Württemberg,Fischerbach
+Freiamt,Emmendingen,auto,https://freiamt.ratsinfomanagement.net/,Baden-Württemberg,Freiamt
+Friesenheim,Ortenaukreis,auto,https://friesenheim.ratsinfomanagement.net/termine/,Baden-Württemberg,Friesenheim
+Furtwangen im Schwarzwald,Schwarzwald-Baar-Kreis,auto,https://furtwangen.ratsinfomanagement.net/,Baden-Württemberg,Furtwangen im Schwarzwald
+Gemmingen,Heilbronn,sessionnet,https://ratsinfo.gemeinde-gemmingen.de/bi/,Baden-Württemberg,Gemmingen
+# Giengen an der Brenz,Heidenheim,auto,https://www.giengen.sitzung-online.de/bi/,Baden-Württemberg,robots.txt verbietet Bots; Giengen an der Brenz
+Gingen an der Fils,Gemeindeverwaltungsverband Mittleres Fils-Lautertal,sessionnet,https://www.gingen.de/rathaus-service/gemeinderat/ratsinformationssystem/,Baden-Württemberg,Gingen an der Fils
+Gottenheim,Breisgau-Hochschwarzwald,auto,https://gottenheim.ratsinfomanagement.net/,Baden-Württemberg,Gottenheim
+Graben-Neudorf,Karlsruhe,auto,https://graben-neudorf.ratsinfomanagement.net/,Baden-Württemberg,Graben-Neudorf
+Grafenhausen,Gemeindeverwaltungsverband Oberes Schlüchttal,sessionnet,http://www.grafenhausen.de/rathaus-service/kommunale-politik/ratsinformationsprogramm/,Baden-Württemberg,Grafenhausen
+Gundelsheim,Heilbronn,sessionnet,https://ratsinfo.gundelsheim.de/bi/,Baden-Württemberg,Gundelsheim
+# Gundelfingen,Breisgau-Hochschwarzwald,auto,https://gundelfingen.ratsinfomanagement.net/gremien/,Baden-Württemberg,robots.txt verbietet Bots; Gundelfingen
+Göggingen,Gemeindeverwaltungsverband Leintal-Frickenhofer Höhe,sessionnet,http://www.gemeinde-goeggingen.de/rathaus-service/gemeinderat/ratsinformationssystem/,Baden-Württemberg,Göggingen
+Haiterbach,Calw,sessionnet,https://session.haiterbach.de/bi/,Baden-Württemberg,Haiterbach
+Haslach im Kinzigtal,Ortenaukreis,auto,https://haslach.ratsinfomanagement.net/,Baden-Württemberg,Haslach im Kinzigtal
+Hausen im Wiesental,Lörrach,sessionnet,https://www.hausen-im-wiesental.de/pb/Startseite/Rathaus+_+Buerger/,Baden-Württemberg,Hausen im Wiesental
+Hechingen,Vereinbarte Verwaltungsgemeinschaft Hechingen,sessionnet,https://www.hechingen.de/buergerinfo/,Baden-Württemberg,Hechingen
+Heimsheim,Enzkreis,auto,https://heimsheim.ratsinfomanagement.net/,Baden-Württemberg,Heimsheim
+Hohentengen,Gemeindeverwaltungsverband Mengen,auto,https://hohentengen.ratsinfomanagement.net/,Baden-Württemberg,Hohentengen
+Iffezheim,Rastatt,sessionnet,https://session.iffezheim.de/bi/,Baden-Württemberg,Iffezheim
+Illingen,Enzkreis,auto,https://illingen.ratsinfomanagement.net/,Baden-Württemberg,Illingen
+Ispringen,Enzkreis,auto,https://ispringen.ratsinfomanagement.net/,Baden-Württemberg,Ispringen
+Kappel-Grafenhausen,Ortenaukreis,auto,https://kappel-grafenhausen.ratsinfomanagement.net/,Baden-Württemberg,Kappel-Grafenhausen
+# Karlsdorf-Neuthard,Karlsruhe,auto,https://karlsdorf-neuthard.ratsinfomanagement.net/startseite/,Baden-Württemberg,robots.txt verbietet Bots; Karlsdorf-Neuthard
+Karlsbad,Karlsruhe,sessionnet,https://www.karlsbad.de/website/de/gemeinde-buerger/rathaus/ratsinformationssystem/,Baden-Württemberg,Karlsbad
+Kernen im Remstal,Rems-Murr-Kreis,auto,https://kernen.ratsinfomanagement.net/,Baden-Württemberg,Kernen im Remstal
+Kippenheim,Ortenaukreis,auto,https://kippenheim.ratsinfomanagement.net/,Baden-Württemberg,Kippenheim
+Keltern,Enzkreis,auto,https://keltern.ratsinfomanagement.net/news/,Baden-Württemberg,Keltern
+Kirchardt,Heilbronn,auto,https://kirchardt.ratsinfomanagement.net/termine/,Baden-Württemberg,Kirchardt
+Kirchheim am Neckar,Gemeindeverwaltungsverband Bönnigheim,auto,https://kirchheim-neckar.ratsinfomanagement.net/startseite/,Baden-Württemberg,Kirchheim am Neckar
+Korb,Rems-Murr-Kreis,auto,https://korb.ratsinfomanagement.net/,Baden-Württemberg,Korb
+# Konstanz,Bezirksamt Konstanz,auto,https://www.konstanz.sitzung-online.de/public/,Baden-Württemberg,robots.txt verbietet Bots; Konstanz
+# Korntal-Münchingen,Ludwigsburg,auto,https://www.km.sitzung-online.de/public/,Baden-Württemberg,robots.txt verbietet Bots; Korntal-Münchingen
+Kronau,Karlsruhe,auto,https://kronau.ratsinfomanagement.net/,Baden-Württemberg,Kronau
+Krauchenwies,Fürstentum Hohenzollern-Sigmaringen,auto,https://krauchenwies.ratsinfomanagement.net/,Baden-Württemberg,Krauchenwies
+Kuppenheim,Gemeindeverwaltungsverband Nachbarschaftsverband Bischweier-Kuppenheim,auto,https://kuppenheim.ratsinfomanagement.net/,Baden-Württemberg,Kuppenheim
+Königsbach-Stein,Enzkreis,auto,https://koenigsbach-stein.ratsinfomanagement.net/,Baden-Württemberg,Königsbach-Stein
+Köngen,Gemeindeverwaltungsverband Wendlingen am Neckar,auto,https://koengen.ratsinfomanagement.net/,Baden-Württemberg,Köngen
+Kämpfelbach,Enzkreis,auto,https://kaempfelbach.ratsinfomanagement.net/tops/,Baden-Württemberg,Kämpfelbach
+Lauchringen,Waldshut,sessionnet,https://ratsinfo.lauchringen.de/buergerinfo/,Baden-Württemberg,Lauchringen
+Lautenbach,Ortenaukreis,auto,https://lautenbach-renchtal.ratsinfomanagement.net/,Baden-Württemberg,Lautenbach
+Lauf,Ortenaukreis,auto,https://lauf.ratsinfomanagement.net/startseite/,Baden-Württemberg,Lauf
+# Leinfelden-Echterdingen,Esslingen,auto,https://www.leinfelden-echterdingen.sitzung-online.de/si010/,Baden-Württemberg,robots.txt verbietet Bots; Leinfelden-Echterdingen
+Löchgau,Gemeindeverwaltungsverband Besigheim,auto,https://loechgau.ratsinfomanagement.net/,Baden-Württemberg,Löchgau
+Lörrach,Vereinbarte Verwaltungsgemeinschaft Lörrach,sessionnet,https://buergerinfo-loerrach.de/,Baden-Württemberg,Lörrach
+Mainhardt,Schwäbisch Hall,sessionnet,https://ratsinfo.mainhardt.de/bi/,Baden-Württemberg,Mainhardt
+Mahlberg,Ortenaukreis,auto,https://mahlberg.ratsinfomanagement.net/,Baden-Württemberg,Mahlberg
+Marbach am Neckar,Gemeindeverwaltungsverband Marbach am Neckar,auto,https://schillerstadt-marbach.ratsinfomanagement.net/termine/,Baden-Württemberg,Marbach am Neckar
+# March,Gemeindeverwaltungsverband March-Umkirch,auto,https://march.ratsinfomanagement.net/,Baden-Württemberg,robots.txt verbietet Bots; March
+Maulbronn,Enzkreis,auto,https://maulbronn.ratsinfomanagement.net/,Baden-Württemberg,Maulbronn
+Merdingen,Breisgau-Hochschwarzwald,auto,https://merdingen.ratsinfomanagement.net/,Baden-Württemberg,Merdingen
+Meßkirch,Vereinbarte Verwaltungsgemeinschaft Meßkirch,auto,http://messkirch.ratsinfomanagement.net/,Baden-Württemberg,Meßkirch
+Mosbach,Neckar-Odenwald-Kreis,sessionnet,https://www.info-mosbach.de/bi/,Baden-Württemberg,Mosbach
+Murrhardt,Rems-Murr-Kreis,sessionnet,https://service.murrhardt.de/bi/,Baden-Württemberg,Murrhardt
+Murr,Ludwigsburg,auto,https://murr.ratsinfomanagement.net/,Baden-Württemberg,Murr
+Möglingen,Ludwigsburg,auto,https://moeglingen.ratsinfomanagement.net/,Baden-Württemberg,Möglingen
+Mönsheim,Enzkreis,auto,https://moensheim.ratsinfomanagement.net/,Baden-Württemberg,Mönsheim
+Möckmühl,Heilbronn,sessionnet,https://sitzungsdienst.moeckmuehl.de/bi/,Baden-Württemberg,Möckmühl
+Mühlhausen im Täle,Gemeindeverwaltungsverband Oberes Filstal,sessionnet,https://buergerinfo.landkreis-goeppingen.de/,Baden-Württemberg,Mühlhausen im Täle
+Neckarwestheim,Heilbronn,auto,https://neckarwestheim.ratsinfomanagement.net/,Baden-Württemberg,Neckarwestheim
+Neuenbürg,Enzkreis,auto,https://neuenbuerg.ratsinfomanagement.net/,Baden-Württemberg,Neuenbürg
+Neuhausen,Enzkreis,auto,https://neuhausen-enzkreis.ratsinfomanagement.net/termine/,Baden-Württemberg,Neuhausen
+Neuried,Ortenaukreis,auto,https://neuried.ratsinfomanagement.net/,Baden-Württemberg,Neuried
+Neulußheim,Rhein-Neckar-Kreis,auto,https://neulussheim.ratsinfomanagement.net/,Baden-Württemberg,Neulußheim
+Neuweiler,Gemeindeverwaltungsverband Teinachtal,sessionnet,https://session.neuweiler.de/bi/,Baden-Württemberg,Neuweiler
+Niedernhall,Hohenlohekreis,sessionnet,https://buergerinfo.niedernhall.de/bi/,Baden-Württemberg,Niedernhall
+Oberstenfeld,Ludwigsburg,auto,https://oberstenfeld.ratsinfomanagement.net/,Baden-Württemberg,Oberstenfeld
+# Obrigheim,Neckar-Odenwald-Kreis,auto,https://www.obrigheim.sitzung-online.de/public/,Baden-Württemberg,robots.txt verbietet Bots; Obrigheim
+Ohlsbach,Ortenaukreis,auto,https://ohlsbach.ratsinfomanagement.net/personen/,Baden-Württemberg,Ohlsbach
+Ostrach,Sigmaringen,auto,https://ostrach.ratsinfomanagement.net/termine/,Baden-Württemberg,Ostrach
+Pfedelbach,Hohenlohekreis,auto,https://pfedelbach.ratsinfomanagement.net/,Baden-Württemberg,Pfedelbach
+Pfinztal,Karlsruhe,sessionnet,https://session.pfinztal.de/bi/,Baden-Württemberg,Pfinztal
+Plüderhausen,Gemeindeverwaltungsverband Plüderhausen-Urbach,auto,https://pluederhausen.ratsinfomanagement.net/,Baden-Württemberg,Plüderhausen
+# Radolfzell am Bodensee,Konstanz,auto,https://www.radolfzell.sitzung-online.de/public/si010/,Baden-Württemberg,robots.txt verbietet Bots; Radolfzell am Bodensee
+Remchingen,Enzkreis,auto,https://remchingen.ratsinfomanagement.net/,Baden-Württemberg,Remchingen
+Rheinau,Ortenaukreis,sessionnet,https://ratsinfo.rheinau.de/ratsinfo/,Baden-Württemberg,Rheinau
+Remseck am Neckar,Ludwigsburg,sessionnet,https://www.stadt-remseck.de/rathaus-service/gemeinderat-und-politik/B%C3%BCrgerinfoportal/,Baden-Württemberg,Remseck am Neckar
+Rheinhausen im Breisgau,Gemeindeverwaltungsverband Kenzingen-Herbolzheim,auto,https://rheinhausen.ratsinfomanagement.net/,Baden-Württemberg,Rheinhausen im Breisgau
+Rheinfelden (Baden),Lörrach,sessionnet,https://www.ratsinfo-rheinfelden.de/buergerinfo/,Baden-Württemberg,Rheinfelden (Baden)
+Ringsheim,Ortenaukreis,auto,https://ringsheim.ratsinfomanagement.net/,Baden-Württemberg,Ringsheim
+# Roigheim,Heilbronn,auto,https://www.roigheim.sitzung-online.de/public/,Baden-Württemberg,robots.txt verbietet Bots; Roigheim
+Rust,Ortenaukreis,auto,http://rust.ratsinfomanagement.net/,Baden-Württemberg,Rust
+Rutesheim,Böblingen,sessionnet,https://service.rutesheim.de/bi/,Baden-Württemberg,Rutesheim
+Sasbach,Ortenaukreis,auto,https://sasbach.ratsinfomanagement.net/,Baden-Württemberg,Sasbach
+Sasbachwalden,Ortenaukreis,auto,https://sasbachwalden.ratsinfomanagement.net/termine/,Baden-Württemberg,Sasbachwalden
+# Schriesheim,Rhein-Neckar-Kreis,auto,https://schriesheim.ratsinfomanagement.net/,Baden-Württemberg,robots.txt verbietet Bots; Schriesheim
+Schorndorf,Rems-Murr-Kreis,auto,https://schorndorf.ratsinfomanagement.net/termine/,Baden-Württemberg,Schorndorf
+Schopfheim,Lörrach,sessionnet,https://session.loerrach-landkreis.de/data/buergerinfo/,Baden-Württemberg,Schopfheim
+Schwaikheim,Gemeindeverwaltungsverband Winnenden,auto,http://schwaikheim.ratsinfomanagement.net/,Baden-Württemberg,Schwaikheim
+Schwaigern,Heilbronn,sessionnet,https://service.schwaigern.de/bi/,Baden-Württemberg,Schwaigern
+Schwetzingen,Rhein-Neckar-Kreis,sessionnet,https://ratsinfo.schwetzingen.de/bi/,Baden-Württemberg,Schwetzingen
+Schömberg,Calw,auto,https://schoemberg.ratsinfomanagement.net/,Baden-Württemberg,Schömberg
+# Schwäbisch Hall,Schwäbisch Hall,auto,https://www.schwaebischhall.sitzung-online.de/integration/si018/,Baden-Württemberg,robots.txt verbietet Bots; Schwäbisch Hall
+Schömberg,Gemeindeverwaltungsverband Oberes Schlichemtal,sessionnet,https://session.stadt-schoemberg.de/bi/,Baden-Württemberg,Schömberg
+Schönaich,Böblingen,auto,https://schoenaich.ratsinfomanagement.net/startseite/,Baden-Württemberg,Schönaich
 Portal DiPlanung Bayern,,portal,https://by.beteiligung.diplanung.de/,Bayern,"Landesportal (Testlauf, best effort)"
 Ahorntal,Bayreuth,sessionnet,http://buergerinfo.ahorntal.de/,Bayern,Ahorntal
 Aiterhofen,Straubing-Bogen,sessionnet,https://ratsinfo-vg-aiterhofen.digitalfabrix.de/,Bayern,Aiterhofen
@@ -453,18 +755,18 @@ Bayerisch Eisenstein,Regen,sessionnet,https://buergerinfo-bayerisch-eisenstein.d
 Bayerisch Gmain,Berchtesgadener Land,sessionnet,https://www.bayerisch.gmain.de/gemeinde-bayerisch-gmain/buergerinfo-portal/,Bayern,Bayerisch Gmain
 Berchtesgaden,Berchtesgadener Land,sessionnet,https://www.gemeinde.berchtesgaden.de/buergerinfo-portal-1/,Bayern,Berchtesgaden
 Bergkirchen,Dachau,sessionnet,http://www.bergkirchen.de/meta/ratsinfo/,Bayern,Bergkirchen
-Berglern,Erding,sessionnet,https://buergerinfo-vg-wartenberg.digitalfabrix.de/,Bayern,Berglern
+Berglern,Erding,sessionnet,https://buergerinfo-vg-wartenberg.digitalfabrix.de/,Bayern,Berglern; Langenpreising
 Bernried,Deggendorf,sessionnet,https://buergerinfo-bernried.digitalfabrix.de/,Bayern,Bernried
 Betzenstein,Bayreuth,sessionnet,https://buergerinfo-vgem-betzenstein.digitalfabrix.de/,Bayern,Betzenstein
 Bobingen,Augsburg,sessionnet,https://www.stadt-bobingen.de/rathaus-service/energiestadt-bobingen/buergerinfo-energie/,Bayern,Bobingen
 Bogen,Straubing-Bogen,sessionnet,http://ratsinfo.bogen.de/,Bayern,Bogen
 Bruckberg,Landshut,sessionnet,https://www.bruckberg.org/ratsinformationssystem/,Bayern,Bruckberg
 Burghausen,Altötting,sessionnet,https://buergerinfo-burghausen.digitalfabrix.de/,Bayern,Burghausen
-Burglauer,Rhön-Grabfeld,sessionnet,https://buergerinfo-vg-bad-neustadt.digitalfabrix.de/,Bayern,Burglauer
-Böhen,Unterallgäu,sessionnet,https://buergerinfo-vg-ottobeuren.digitalfabrix.de/,Bayern,Böhen
+Burglauer,Rhön-Grabfeld,sessionnet,https://buergerinfo-vg-bad-neustadt.digitalfabrix.de/,Bayern,Burglauer; Hohenroth; Niederlauer
+Böhen,Unterallgäu,sessionnet,https://buergerinfo-vg-ottobeuren.digitalfabrix.de/,Bayern,Böhen; Hawangen
 Bürgstadt,Miltenberg,sessionnet,http://www.buergstadt.de/gemeinderat/buergerinfoportal/,Bayern,Bürgstadt
 Cadolzburg,Fürth,sessionnet,https://buergerinfo.cadolzburg.de/,Bayern,Cadolzburg
-Creußen,Bayreuth,sessionnet,https://buergerinfo-vgem-creussen.digitalfabrix.de/,Bayern,Creußen
+Creußen,Bayreuth,sessionnet,https://buergerinfo-vgem-creussen.digitalfabrix.de/,Bayern,Creußen; Haag
 Denklingen,Landsberg am Lech,sessionnet,https://buergerinfo-denklingen.digitalfabrix.de/,Bayern,Denklingen
 Dietenhofen,Ansbach,sessionnet,https://buergerinfo-dietenhofen.digitalfabrix.de/,Bayern,Dietenhofen
 Dorfen,Erding,sessionnet,https://ri.dorfen.de/bi/,Bayern,Dorfen
@@ -475,7 +777,7 @@ Ebersdorf bei Coburg,Coburg,sessionnet,https://buergerinfo.ebersdorf.de/,Bayern,
 Eching,Freising,sessionnet,https://buergerinfo-eching.digitalfabrix.de/,Bayern,Eching
 Effeltrich,Forchheim,sessionnet,https://buergerinfo-vg-effeltrich.digitalfabrix.de/,Bayern,Effeltrich
 Eggenfelden,Rottal-Inn,sessionnet,https://www.eggenfelden.de/rathaus-eggenfelden/ris-ratsinformationssystem/,Bayern,Eggenfelden
-Eitting,Erding,sessionnet,https://ratsinfo-vg-oberding.digitalfabrix.de/,Bayern,Eitting
+Eitting,Erding,sessionnet,https://ratsinfo-vg-oberding.digitalfabrix.de/,Bayern,Eitting; Oberding
 Elsenfeld,Miltenberg,sessionnet,https://buergerinfo-elsenfeld.digitalfabrix.de/,Bayern,Elsenfeld
 Emskirchen,Neustadt an der Aisch-Bad Windsheim,sessionnet,https://buergerinfo-emskirchen.digitalfabrix.de/,Bayern,Emskirchen
 Erding,Erding,sessionnet,https://ratsinfo-erding.digitalfabrix.de/,Bayern,Erding
@@ -497,6 +799,97 @@ Goldkronach,Bayreuth,sessionnet,https://buergerinfo-goldkronach.digitalfabrix.de
 Grafing bei München,Ebersberg,sessionnet,https://buergerinfo-grafing.digitalfabrix.de/,Bayern,Grafing bei München
 Grassau,Traunstein,sessionnet,https://buergerinfo-grassau.digitalfabrix.de/,Bayern,Grassau
 Gädheim,Haßberge,sessionnet,https://buerger.ratsinfo-theres.de/,Bayern,Gädheim
+Haag in Oberbayern,Mühldorf am Inn,sessionnet,https://buergerinfo-haag.digitalfabrix.de/,Bayern,Haag in Oberbayern
+Hallerndorf,Forchheim,sessionnet,https://buergerinfo-hallerndorf.digitalfabrix.de/,Bayern,Hallerndorf
+Hallstadt,Bamberg,sessionnet,https://buergerinfo.hallstadt.de/,Bayern,Hallstadt
+Hallbergmoos,Freising,sessionnet,https://buergerinfo-hallbergmoos.digitalfabrix.de/,Bayern,Hallbergmoos
+Hasloch,Main-Spessart,sessionnet,https://buergerinfo-vgem-kreuzwertheim.digitalfabrix.de/,Bayern,Hasloch; Kreuzwertheim
+Happurg,Landgericht Hersbruck,sessionnet,https://buergerinfo-vg-happurg.digitalfabrix.de/,Bayern,Happurg
+Hauzenberg,Passau,sessionnet,https://hauzenberg.de/stadtrat-politik/,Bayern,Hauzenberg
+Hebertshausen,Dachau,sessionnet,https://www.hebertshausen.de/rathaus-und-buergerservice/gemeinderat-und-ausschuesse/ratsinformation/,Bayern,Hebertshausen
+Helmstadt,Würzburg,sessionnet,http://www.helmstadt-ufr.de/buergerservice/marktgemeinderat/sitzungskalender/,Bayern,Helmstadt
+Hemhofen,Erlangen-Höchstadt,sessionnet,http://buergerinfo.hemhofen.de/,Bayern,Hemhofen
+Hepberg,Eichstätt,sessionnet,https://www.hepberg.de/sessionnet/,Bayern,Hepberg
+Heroldsbach,Forchheim,sessionnet,https://buergerinfo-heroldsbach.digitalfabrix.de/,Bayern,Heroldsbach
+Herrsching am Ammersee,Starnberg,sessionnet,https://buergerinfo-herrsching.digitalfabrix.de/,Bayern,Herrsching am Ammersee
+Herzogenaurach,Erlangen-Höchstadt,sessionnet,https://buergerinfo-herzogenaurach.digitalfabrix.de/,Bayern,Herzogenaurach
+Hilgertshausen-Tandern,Dachau,sessionnet,https://ratsinfo-hilgertshausen-tandern.digitalfabrix.de/,Bayern,Hilgertshausen-Tandern
+Hirschau,Amberg-Sulzbach,sessionnet,https://buergerinfo-hirschau.digitalfabrix.de/,Bayern,Hirschau
+Hinterschmiding,Freyung-Grafenau,sessionnet,https://bi.vg-hinterschmiding.de/,Bayern,Hinterschmiding
+Hitzhofen,Eichstätt,sessionnet,https://ratsinfo-hitzhofen.digitalfabrix.de/,Bayern,Hitzhofen
+Hof,Oberfranken,sessionnet,https://buergerinfo-hof.digitalfabrix.de/,Bayern,Hof
+Hohenbrunn,München,oparl,https://hohenbrunn.gremien.info/oparl/system,Bayern,Hohenbrunn
+Hohenburg,Amberg-Sulzbach,sessionnet,https://ratsinfo-hohenburg.digitalfabrix.de/,Bayern,Hohenburg
+Hunderdorf,Bogen,sessionnet,https://ratsinfo.hunderdorf.de/,Bayern,Hunderdorf
+Huglfing,Weilheim-Schongau,sessionnet,https://www.huglfing.de/sessionnet/,Bayern,Huglfing
+Hösbach,Aschaffenburg,sessionnet,https://buergerinfo.hoesbach.de/,Bayern,Hösbach
+Höhenkirchen-Siegertsbrunn,München,oparl,https://hksbr.gremien.info/oparl/system,Bayern,Höhenkirchen-Siegertsbrunn
+Igensdorf,Forchheim,sessionnet,https://buergerinfo-igensdorf.digitalfabrix.de/,Bayern,Igensdorf
+Innernzell,Freyung-Grafenau,auto,https://vg-schoenberg.ratsinfomanagement.net/startseite/,Bayern,Innernzell
+Ingolstadt,Oberbayern,sessionnet,http://www.ingolstadt.de/sessionnet/,Bayern,Ingolstadt
+Irlbach,Straubing-Bogen,sessionnet,https://ratsinfo-vg-strasskirchen.digitalfabrix.de/,Bayern,Irlbach
+Ipsheim,Neustadt an der Aisch-Bad Windsheim,sessionnet,https://buergerinfo-ipsheim.digitalfabrix.de/,Bayern,Ipsheim
+Jandelsbrunn,Freyung-Grafenau,sessionnet,https://buergerinfo-jandelsbrunn.digitalfabrix.de/,Bayern,Jandelsbrunn
+Ismaning,München,sessionnet,https://ratsinfo-ismaning.digitalfabrix.de/,Bayern,Ismaning
+Johannesberg,Aschaffenburg,sessionnet,https://www.johannesberg.de/gemeinderatssitzungen/buergerinformationssystem/,Bayern,Johannesberg
+Kammeltal,Günzburg,sessionnet,https://ratsinfo-kammeltal.digitalfabrix.de/,Bayern,Kammeltal
+# Karlstein am Main,Aschaffenburg,auto,https://www.seligenstadt.sitzung-online.de/public/vo020/,Bayern,robots.txt verbietet Bots; Karlstein am Main
+Kaufbeuren,Schwaben,sessionnet,https://buergerinfo.kaufbeuren.de/,Bayern,Kaufbeuren
+Kemnath,Tirschenreuth,sessionnet,https://ratsinfo.kemnath.de/,Bayern,Kemnath
+Kirchdorf an der Amper,Freising,sessionnet,https://buergerinfo-kirchdorf.digitalfabrix.de/,Bayern,Kirchdorf an der Amper
+Kirchenlamitz,Fürstentum Bayreuth,sessionnet,https://ratsinfo.kirchenlamitz.de/,Bayern,Kirchenlamitz
+Kirchheim,Würzburg,sessionnet,https://ratsinfo-vgem-kirchheim-ufr.digitalfabrix.de/,Bayern,Kirchheim
+Kolitzheim,Schweinfurt,sessionnet,https://buergerinfo-kolitzheim.digitalfabrix.de/,Bayern,Kolitzheim
+Krailling,Starnberg,sessionnet,https://buergerinfo-krailling.digitalfabrix.de/,Bayern,Krailling
+Konradsreuth,Hof,sessionnet,https://ratsinfo.konradsreuth.de/,Bayern,Konradsreuth
+Kronach,Kronach,sessionnet,https://ratsinfo-kronach.digitalfabrix.de/,Bayern,Kronach
+Krumbach,Günzburg,sessionnet,https://buergerinfo-krumbach.digitalfabrix.de/,Bayern,Krumbach
+Kutzenhausen,Augsburg,sessionnet,https://buergerinfo-kutzenhausen.digitalfabrix.de/,Bayern,Kutzenhausen
+# Königsbrunn,Augsburg,auto,https://koenigsbrunn.ratsinfomanagement.net/,Bayern,robots.txt verbietet Bots; Königsbrunn
+# Landsberg am Lech,Landsberg am Lech,auto,https://www.landsberg.sitzung-online.de/public/,Bayern,robots.txt verbietet Bots; Landsberg am Lech
+Kürnach,Würzburg,sessionnet,https://ratsinfo-kuernach.digitalfabrix.de/,Bayern,Kürnach
+Langdorf,Regen,sessionnet,https://buergerinfo-langdorf.digitalfabrix.de/,Bayern,Langdorf
+Langensendelbach,Forchheim,sessionnet,https://buergerinfo-langensendelbach.digitalfabrix.de/,Bayern,Langensendelbach
+Langfurth,Ansbach,sessionnet,https://buergerinfo-langfurth.digitalfabrix.de/,Bayern,Langfurth
+Langweid am Lech,Augsburg,sessionnet,https://buergerinfo-langweid.digitalfabrix.de/,Bayern,Langweid am Lech
+Lautertal,Coburg,sessionnet,https://buergerinfo-lautertal.digitalfabrix.de/,Bayern,Lautertal
+Leidersbach,Miltenberg,sessionnet,https://ratsinfo-leidersbach.digitalfabrix.de/,Bayern,Leidersbach
+Lindberg,Regen,sessionnet,http://buergerinfo-lindberg.digitalfabrix.de/,Bayern,Lindberg
+Margetshöchheim,Würzburg,sessionnet,http://bis-margetshoechheim.de/,Bayern,Margetshöchheim
+Markt Sulzberg,Oberallgäu,sessionnet,https://buergerinfo-sulzberg.digitalfabrix.de/,Bayern,Markt Sulzberg
+Markt Indersdorf,Dachau,sessionnet,https://www.markt-indersdorf.de/rathaus-politik/kommunalpolitik/informationen-ueber-die-sitzungen-des-marktgemeinderates-und-seiner-ausschuesse/,Bayern,Markt Indersdorf
+Marktoberdorf,Ostallgäu,sessionnet,https://buergerinfo-marktoberdorf.digitalfabrix.de/,Bayern,Marktoberdorf
+Meeder,Coburg,sessionnet,https://ratsinfo.gemeinde-meeder.de/,Bayern,Meeder
+Maxhütte-Haidhof,Schwandorf,sessionnet,https://ris.maxhuette-haidhof.de/,Bayern,Maxhütte-Haidhof
+Meitingen,Augsburg,auto,https://meitingen.ratsinfomanagement.net/,Bayern,Meitingen
+Memmelsdorf,Bezirksamt Bamberg,sessionnet,https://www.memmelsdorf.de/rathaus-service/gemeinderat-sitzungen/sitzungen-des-gemeinderates/,Bayern,Memmelsdorf
+Mering,Aichach-Friedberg,oparl,https://www.mering.de/buergerinformationssystem/oparl/1.0/system.asp,Bayern,Mering
+Metten,Deggendorf,sessionnet,https://buergerinfo-markt-metten.digitalfabrix.de/,Bayern,Metten
+Mitterteich,Tirschenreuth,sessionnet,https://ratsinfo.mitterteich.de/,Bayern,Mitterteich
+Mönchberg,Miltenberg,sessionnet,https://buergerinfo.vg-moenchberg.de/,Bayern,Mönchberg
+Mömlingen,Miltenberg,sessionnet,https://www.moemlingen.de/gemeinderat/ratsinfoportal/,Bayern,Mömlingen
+Münchsmünster,Pfaffenhofen an der Ilm,sessionnet,https://www.ratsinfo-muenchsmuenster.de/,Bayern,Münchsmünster
+Münchberg,Hof,sessionnet,https://ratsinfo.muenchberg.de/,Bayern,Münchberg
+Neubrunn,Würzburg,sessionnet,https://buergerinfo-neubrunn.digitalfabrix.de/,Bayern,Neubrunn
+Neuburg am Inn,Passau,sessionnet,https://buergerinfo-neuburg-am-inn.digitalfabrix.de/,Bayern,Neuburg am Inn
+Neuendettelsau,Ansbach,sessionnet,https://buergerinfo-neuendettelsau.digitalfabrix.de/,Bayern,Neuendettelsau
+Neufahrn bei Freising,Freising,sessionnet,https://buergerinfo-neufahrn.digitalfabrix.de/,Bayern,Neufahrn bei Freising
+# Neuried,München,auto,https://www.neuried.sitzung-online.de/public/si010/,Bayern,robots.txt verbietet Bots; Neuried
+Neunkirchen,Miltenberg,sessionnet,http://www.neunkirchen-unterfranken.de/gemeinderat/buergerinfoportal/,Bayern,Neunkirchen
+Neureichenau,Freyung-Grafenau,auto,https://neureichenau.ratsinfomanagement.net/,Bayern,Neureichenau
+# Neumarkt in der Oberpfalz,Neumarkt in der Oberpfalz,auto,https://www.neumarkt.sitzung-online.de/public/gr020/,Bayern,robots.txt verbietet Bots; Neumarkt in der Oberpfalz
+Neustadt bei Coburg,Coburg,sessionnet,https://buergerinfo-neustadt-bei-coburg.digitalfabrix.de/,Bayern,Neustadt bei Coburg
+Niedernberg,Miltenberg,sessionnet,https://niedernberg.de/gemeinde-buerger/buergermeister-gemeinderat/buergerinfo/,Bayern,Niedernberg
+Nürnberg,Mittelfranken,sessionnet,https://online-service2.nuernberg.de/Eris/,Bayern,Nürnberg
+Nördlingen,Donau-Ries,sessionnet,https://buergerinfo-noerdlingen.digitalfabrix.de/,Bayern,Nördlingen
+Oberasbach,Fürth,sessionnet,https://buergerinfo-oberasbach.digitalfabrix.de/,Bayern,Oberasbach
+Obernzell,Passau,sessionnet,https://buergerinfo-obernzell.digitalfabrix.de/,Bayern,Obernzell
+# Oberschleißheim,München,auto,https://oberschleissheim.ratsinfomanagement.net/,Bayern,robots.txt verbietet Bots; Oberschleißheim
+Oberthulba,Bad Kissingen,sessionnet,https://ratsinfo-oberthulba.digitalfabrix.de/,Bayern,Oberthulba
+Ochsenfurt,Würzburg,sessionnet,https://buergerinfo-ochsenfurt.digitalfabrix.de/,Bayern,Ochsenfurt
+Offenberg,Deggendorf,sessionnet,http://www.offenberg.de/buergerservice/buergerinfoportal/,Bayern,Offenberg
+Offingen,Günzburg,sessionnet,https://www.offingen.de/sessionnet/,Bayern,Offingen
+Osterhofen,Deggendorf,sessionnet,https://buergerinfo-osterhofen.digitalfabrix.de/,Bayern,Osterhofen
 Heusweiler,Regionalverband Saarbrücken,sessionnet,https://ratsinfo.heusweiler.de/,Saarland,Heusweiler
 Kleinblittersdorf,Regionalverband Saarbrücken,sessionnet,https://www.kleinblittersdorf.de/gremien/,Saarland,Kleinblittersdorf
 Beckingen,Merzig-Wadern,sessionnet,https://www.beckingen.de/ratsinfo/,Saarland,Beckingen
