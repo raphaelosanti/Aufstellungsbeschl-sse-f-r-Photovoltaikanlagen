@@ -1,42 +1,1371 @@
 {
+ "Altenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altmittweida": {
+  "zuletzt": "2026-11-26"
+ },
+ "Amtsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Annaberg-Buchholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Arnsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Arzberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aue-Bad Schlema": {
+  "zuletzt": "2026-11-26"
+ },
+ "Auerbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Auerbach/Vogtl.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Augustusburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Brambach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Düben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Elster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Gottleuba-Berggießhübel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Lausick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Muskau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Schandau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Schlema": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bahretal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bannewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bautzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beiersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beilrode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Belgern-Schildau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Belgershain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bennewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernsbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernstadt a. d. Eigen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berthelsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bertsdorf-Hörnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bischofswerda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bobritzsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bobritzsch-Hilbersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bockau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borstendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boxberg/O.L.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brand-Erbisdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brandis": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breitenbrunn/Erzgebirge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bretnig-Hauswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burgstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burkhardtsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bärenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Böhlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Börnichen/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bösenbrunn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Callenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cavertitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Chemnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Claußnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Colditz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Coswig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Crimmitschau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Crinitzberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Crostwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Crottendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cunewalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dahlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Delitzsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Demitz-Thumitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dennheritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Deutschneudorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Deutzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Diera-Zehren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dippoldiswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Doberschau-Gaußig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Doberschütz": {
+  "zuletzt": "2026-11-26"
+ },
  "Dohma": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Dohna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dommitzsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dorfchemnitz bei Sayda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dorfhain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drebach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dreiheide": {
+  "zuletzt": "2026-11-26"
  },
  "Dresden": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
  },
  "Döbeln": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Dürrhennersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dürrröhrsdorf-Dittersbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ebersbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ebersbach-Neugersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ehrenfriedersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eibenstock": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eichigt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eilenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ellefeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elsnig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elsterberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elsterheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elstertrebnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elstra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elterlein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eppendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erlau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erlbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erlbach-Kirchberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Espenhain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkenhain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkenstein/Vogtl.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Flöha": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frankenberg/Sa.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frankenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frauenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fraureuth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freiberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freital": {
+  "zuletzt": "2026-11-26"
  },
  "Frohburg": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Gablenz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Geithain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gelenau/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Geringswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Geyer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glashütte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glaubitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glauchau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gohrisch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gornau/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gornsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grimma": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groitzsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Düben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großdubrau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großenhain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großharthau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großhartmannsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großnaundorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großolbersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großpostwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großpösna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großröhrsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großrückerswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großschirma": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großschweidnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großschönau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großweitzschen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gröditz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünhain-Beierfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünhainichen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Göda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Görlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hainewalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hainichen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halsbrücke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hartenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hartha": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hartmannsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hartmannsdorf bei Kirchberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haselbachtal": {
+  "zuletzt": "2026-11-26"
  },
  "Heidenau": {
   "si_max": 99122367,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Heidersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heinsdorfergrund": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hermsdorf/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herrnhut": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hilbersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hirschfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hirschstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hochkirch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohendubrau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenstein-Ernstthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohndorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohnstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Horka": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hormersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoyerswerda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hähnichen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Höckendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Dresden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jahnatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jahnsdorf/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jesewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Johanngeorgenstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jonsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jöhstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kamenz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ketzerbachtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kitzscher": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klingenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klingenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klipphausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kodersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kottmar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krauschwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kreba-Neudorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kreischa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kriebstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krostitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kubschütz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Käbschütztal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königsbrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königsfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königshain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königshain-Wiederau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königswartha": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lampertswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langenbernsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langenweißbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauta": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauter-Bernsbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauter/Sa.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laußig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laußnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lawalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leisnig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lengefeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lengenfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leuben-Schleinitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leubsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leutersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lichtenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lichtenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lichtenberg/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lichtenstein/Sa.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lichtentanne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liebschützberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liebstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Limbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Limbach-Oberfrohna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lohmen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lohsa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lommatzsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lossatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lugau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lunzenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löbau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löbnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lößnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Machern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Malschwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marienberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Markersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Markneukirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Markranstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meerane": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meißen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mildenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mittelherwigsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mittweida": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mochau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mockrehna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moritzburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mulda/Sa.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Muldenhammer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mylau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mücka": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mügeln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Müglitztal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlental": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühltroff": {
+  "zuletzt": "2026-11-26"
+ },
+ "Narsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Naundorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Naunhof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nauwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nebelschütz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neißeaue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neschwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Netzschkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuensalz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuhausen/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukieritzsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukirch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukirch/Lausitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukirchen/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukirchen/Pleiße": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukyhna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neumark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neusalza-Spremberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neustadt in Sachsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neustadt/Vogtl.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederfrohna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederwiesa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederwürschnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niesky": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nossen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nünchritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Obergurig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberlungwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberschöna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberwiera": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberwiesenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oderwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oederan": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oelsnitz/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oelsnitz/Vogtl.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ohorn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Olbernhau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Olbersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oppach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oschatz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ostritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ottendorf-Okrilla": {
+  "zuletzt": "2026-11-26"
+ },
+ "Otterwisch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oybin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oßling": {
+  "zuletzt": "2026-11-26"
+ },
+ "Panschwitz-Kuckau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Parthenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pausa-Mühltroff": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pegau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Penig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pfaffroda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pirna": {
+  "zuletzt": "2026-11-26"
  },
  "Plauen": {
   "si_max": 60261626,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Pockau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pockau-Lengefeld": {
+  "zuletzt": "2026-11-26"
  },
  "Portal Sachsen Bauleitplanung": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Pretzschendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Priestewitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pulsnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Puschwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pöhl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Quitzdorf am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rabenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rackwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Radeberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Radebeul": {
+  "zuletzt": "2026-11-26"
+ },
+ "Radeburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Radibor": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ralbitz-Rosenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rammenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Raschau-Markersbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rathen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rathmannsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rechenberg-Bienenmühle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Regis-Breitingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reichenbach im Vogtland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reichenbach/O.L.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reinhardtsdorf-Schöna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reinsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reinsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Remse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reuth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Riesa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rietschen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rochlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rodewisch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosenbach/Vogtl.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosenthal-Bielatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rossau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rothenburg/O.L.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roßwein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Räckelwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Röderaue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rötha": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sayda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Scheibenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schildau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schirgiswalde-Kirschau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schkeuditz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schleife": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlettau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schmiedeberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schmölln-Putzkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schneeberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwarzenberg/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwepnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönau-Berzdorf auf dem Eigen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schöneck/Vogtland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönteichen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönwölkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schöpstal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sebnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seelitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sehmatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seiffen/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seifhennersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sohland am Rotstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sohland an der Spree": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spreetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "St. Egidien": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stadt Wehlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stauchitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steina": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinigtwolmsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stollberg/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stolpen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Strehla": {
+  "zuletzt": "2026-11-26"
+ },
+ "Striegistal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Struppen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stützengrün": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tannenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Taucha": {
+  "zuletzt": "2026-11-26"
+ },
+ "Taura": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tauscha": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thalheim/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thallwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tharandt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thermalbad Wiesenbad": {
+  "zuletzt": "2026-11-26"
+ },
+ "Theuma": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thiendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Thum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tirpersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Torgau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trebendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trebsen/Mulde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Treuen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Triebel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trossin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vierkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wachau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldhufen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wechselburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weinböhla": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weischlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weißenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weißenborn/Erzgeb.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weißkeißel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weißwasser/O.L.": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werdau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wermsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wiedemar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wildenfels": {
+  "zuletzt": "2026-11-26"
  },
  "Wilkau-Haßlau": {
   "si_max": 672,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Wilsdruff": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wilthen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittichenau": {
+  "zuletzt": "2026-11-26"
  },
  "Wolkenstein": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Wurzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wülknitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zeithain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zettlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ziegra-Knobelsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zschepplin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zschopau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zschorlau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zwenkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zwickau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zwochau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zwota": {
+  "zuletzt": "2026-11-26"
  },
  "Zwönitz": {
   "si_max": 3422,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "_nachklaeren": {
+  "https://buergerinfo.zwoenitz.de/to0050.php?__ktonr=21901": "2026-11-26",
+  "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=18952": "2026-11-26",
+  "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=34338": "2026-11-26"
  },
  "_verworfen": [
   "http://oparl.dresden.de/bodies/0001/papers/vo/28900",
   "http://oparl.dresden.de/bodies/0001/papers/vo/29435",
   "http://oparl.dresden.de/bodies/0001/papers/vo/31177",
+  "https://session.wilkau-hasslau.de/bi/to0050.php?__ktonr=13085",
   "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=34343",
   "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=34404",
   "https://www.heidenau.de/ris/buergerinfo/to0050.php?__ktonr=35805",
