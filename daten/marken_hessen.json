@@ -1,99 +1,1390 @@
 {
  "Aarbergen": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Abtsteinach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahnatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allendorf (Eder)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allendorf (Eder) (Bromskirchen)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Allendorf (Lumda)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alsbach-Hähnlein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alsfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Amöneburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Angelburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Antrifttal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aßlar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Babenhausen": {
+  "zuletzt": "2026-11-26"
  },
  "Bad Arolsen": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Camberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Emstal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Endbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Hersfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Homburg v. d. Höhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Homburg v.d. Höhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Homburg vor der Höhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Karlshafen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad König": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Nauheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Orb": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Salzschlirf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Schwalbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Soden Salmünster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Soden am Taununs": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Soden am Taunus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Soden-Salmünster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Sooden-Allendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Vilbel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Wildungen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Zwesten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Battenberg (Eder)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baunatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bebra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beerfelden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bensheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berkatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beselich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biblis": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bickenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biebergemünd": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biebertal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biebesheim am Rhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biedenkopf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Birkenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Birstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bischoffen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bischofsheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brachttal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Braunfels": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brechen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breidenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breitenbach am Herzberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breitscheid": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brensbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breuberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breuna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brombachtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bromskirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bruchköbel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burghaun": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burgwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buseck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Butzbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Büdingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bürstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Büttelborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Calden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cornberg": {
+  "zuletzt": "2026-11-26"
  },
  "Cölbe": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Darmstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dautphetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dieburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Diemelsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Diemelstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dietzenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dietzhölztal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dillenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dipperz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dornburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dreieich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Driedorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ebersburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ebsdorfergrund": {
+  "zuletzt": "2026-11-26"
+ },
+ "Echzell": {
+  "zuletzt": "2026-11-26"
+ },
+ "Edermünde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Edertal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Egelsbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ehrenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ehrenberg (Rhön)": {
+  "zuletzt": "2026-11-26"
  },
  "Ehringshausen": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Eichenzell": {
+  "zuletzt": "2026-11-26"
+ },
+ "Einhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eiterfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elbtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eltville": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eltville am Rhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eppertshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eppstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erlensee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erzhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eschborn": {
+  "zuletzt": "2026-11-26"
  },
  "Eschenburg": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Eschwege": {
+  "zuletzt": "2026-11-26"
+ },
+ "Espenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Feldatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Felsberg": {
+  "zuletzt": "2026-11-26"
  },
  "Fernwald": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Fischbachtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Flieden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Florstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Flörsbachtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Flörsheim am Main": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frankenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frankenberg (Eder)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frankfurt am Main": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freiensteinau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freigericht": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedewald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedrichsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frielendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fritzlar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fronhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fränkisch-Crumbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fulda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fuldabrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fuldatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fürth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gedern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Geisenheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gelnhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gemünden (Felda)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gemünden (Wohra)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gernsheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gersfeld (Rhön)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gießen": {
+  "zuletzt": "2026-11-26"
  },
  "Gilserberg": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Ginsheim-Gustavsburg": {
+  "zuletzt": "2026-11-26"
  },
  "Gladenbach": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
  },
  "Glashütten": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Glauburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gorxheimertal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grasellenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grebenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grebenhain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grebenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Greifenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Griesheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß-Bieberau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß-Gerau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß-Rohrheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß-Umstadt": {
+  "si_max": 5709,
+  "zuletzt": "2026-11-26"
+ },
+ "Groß-Zimmern": {
+  "zuletzt": "2026-11-26"
  },
  "Großalmerode": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Großenlüder": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großkrotzenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grävenwiesbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gründau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gudensberg": {
+  "zuletzt": "2026-11-26"
  },
  "Guxhagen": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Habichtswald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hadamar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haiger": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haina (Kloster)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hainburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hammersbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hanau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hasselroth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hattersheim am Main": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hatzfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hatzfeld (Eder)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hauneck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haunetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heidenrod": {
+  "zuletzt": "2026-11-26"
+ },
+ "Helsa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heppenheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herbstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heringen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heringen (Werra)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herleshausen": {
+  "zuletzt": "2026-11-26"
  },
  "Hessisch Lichtenau": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Heuchelheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heuchelheim an der Lahn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heusenstamm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hilders": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hirschhorn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hirzenhain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hochheim am Main": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hofbieber": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hofgeismar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hofheim am Taunus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenahr": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenroda": {
+  "zuletzt": "2026-11-26"
  },
  "Hohenstein": {
   "si_max": 1184,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
  },
  "Homberg (Efze)": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
  },
  "Homberg (Ohm)": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Hosenfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hungen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Höchst im Odenwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hünfeld": {
+  "zuletzt": "2026-11-26"
  },
  "Hünfelden": {
-  "si_max": 2861,
-  "zuletzt": "2026-11-23"
+  "si_max": 2866,
+  "zuletzt": "2026-11-26"
+ },
+ "Hünstetten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hüttenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Darmstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Lahn-Dill": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Wiesbaden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Idstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Immenhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jesberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jossgrund": {
+  "zuletzt": "2026-11-26"
  },
  "Kalbach": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Karben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kassel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kaufungen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kefenrod": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kelkheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kelkheim (Taunus)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kelsterbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kiedrich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchhain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirtorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Knüllwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Korbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kriftel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kronberg in Taunus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königstein im Taunus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Körle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Künzell": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lahnau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lahntal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lampertheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langenselbold": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langgöns": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laubach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauterbach": {
+  "zuletzt": "2026-11-26"
  },
  "Lautertal": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Lautertal (Odenwald)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lautertal (Vogelsberg)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leun": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lich": {
+  "zuletzt": "2026-11-26"
  },
  "Lichtenfels": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Liebenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liederbach am Taunus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Limburg an der Lahn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Limeshain": {
+  "zuletzt": "2026-11-26"
  },
  "Linden": {
   "si_max": 7172,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Lindenfels": {
+  "zuletzt": "2026-11-26"
+ },
+ "Linsengericht": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lohfelden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lohra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lollar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lorch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lorsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ludwigsau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löhnberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lützelbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mainhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Maintal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Malsfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meinhard": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meißner": {
+  "zuletzt": "2026-11-26"
+ },
+ "Melsungen": {
+  "zuletzt": "2026-11-26"
  },
  "Mengerskirchen": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Merenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Messel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Michelstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mittenaar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Modautal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Morschen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mossautal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mörfelden-Walldorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mörlenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mücke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlheim am Main": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühltal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Münchhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Münster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Münster (Hessen)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Münzenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nauheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Naumburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neckarsteinach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nentershausen": {
+  "zuletzt": "2026-11-26"
  },
  "Neu-Anspach": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Neu-Eichenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu-Isenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuental": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuhof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neustadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nidda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niddatal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nidderau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niedenstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederaula": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederdorfelden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niedernhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nieste": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niestetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nüsttal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ober-Mörlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ober-Ramstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberaula": {
+  "zuletzt": "2026-11-26"
+ },
+ "Obertshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberursel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberursel (Taunus)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberweser": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberzent": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oestrich-Winkel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Offenbach am Main": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ortenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ottrau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Otzberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Petersberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pfungstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Philippsthal (Werra)": {
+  "zuletzt": "2026-11-26"
  },
  "Pohlheim": {
-  "si_max": 5521,
-  "zuletzt": "2026-11-23"
+  "si_max": 5608,
+  "zuletzt": "2026-11-26"
+ },
+ "Poppenhausen (Wasserkuppe)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rabenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ranstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rasdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Raunheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rauschenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Regionalverband FrankfurtRheinMain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reichelsheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reichelsheim (Odenwald)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reichelsheim (Wetterau)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reinhardshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reinheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reiskirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Riedstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rimbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ringgau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rockenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rodenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rodgau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Romrod": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ronneburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ronshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosbach v. d. Höhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rotenburg an der Fulda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rothenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roßdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Runkel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rödermark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rüdesheim am Rhein": {
+  "zuletzt": "2026-11-26"
  },
  "Rüsselsheim am Main": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Schaafheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schauenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schenklengsfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlangenbad": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlüchtern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schmitten": {
+  "zuletzt": "2026-11-26"
  },
  "Schmitten im Taunus": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Schotten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schrecksbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwalbach am Taunus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwalmstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwalmtal": {
+  "zuletzt": "2026-11-26"
  },
  "Schwarzenborn": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Schöffengrund": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schöneck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seeheim-Jugenheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seligenstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Selters": {
+  "zuletzt": "2026-11-26"
+ },
+ "Selters (Taunus)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Siegbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sinn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sinntal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Solms": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sontra": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spangenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stadtallendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Staufenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steffenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinau an der Straße": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinbach (Taunus)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stockstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stockstadt am Rhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sulzbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sulzbach (Taunus)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Söhrewald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tann (Rhön)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Taunusstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trebur": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trendelburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Twistetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ulrichstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Usingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vellmar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Viernheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Villmar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Volkmarsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vöhl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wabern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wahlsburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wald-Michelbach": {
+  "zuletzt": "2026-11-26"
  },
  "Waldbrunn": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Waldbrunn (Westerwald)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldems": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldkappel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldsolms": {
+  "zuletzt": "2026-11-26"
+ },
+ "Walluf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wanfried": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wartenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wehretal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wehrheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weilburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weilmünster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weilrod": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weimar (Lahn)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weinbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weiterstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weißenborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wesertal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wettenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wetter": {
+  "zuletzt": "2026-11-26"
  },
  "Wetzlar": {
-  "si_max": 6183,
-  "zuletzt": "2026-11-23"
+  "si_max": 6200,
+  "zuletzt": "2026-11-26"
+ },
+ "Wiesbaden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wildeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Willingen": {
+  "zuletzt": "2026-11-26"
  },
  "Willingen (Upland)": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Willingshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Witzenhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wohratal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wolfhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wächtersbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wölfersheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wöllstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zierenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zwingenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "_nachklaeren": {
+  "https://parlamentsinfo.gross-umstadt.de/vo0050.asp?__kvonr=24438": "2026-11-26",
+  "https://rim.ekom21.de/coelbe/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfJCKa-n2XqxH_zDrJCXTHk": "2026-11-26",
+  "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUWROIuZDbYrBefHwYKZftA": "2026-11-26",
+  "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXYyMvk9tLPyGELpVKbk23s": "2026-11-26",
+  "https://rim.ekom21.de/grossalmerode/vorgang/?__=UGhVM0hpd2NXNFdFcExjZe6LVSjRklQY2WUfu-5EF9w": "2026-11-26",
+  "https://rim.ekom21.de/homberg-efze/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdxqt0bm2MU3r6Xc94o4xJ8": "2026-11-26",
+  "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVlc2yAOkR3DrIoOuwaqmxE": "2026-11-26",
+  "https://rim.ekom21.de/neu-anspach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWzcSQKpI-C9alzYOpcasvM": "2026-11-26",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQjQkd7aEIhfGGcG4ZiWAvg": "2026-11-26",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQlKfU5bI2vQffI0UHRHM84": "2026-11-26",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbqB70oo78wOjenJFYTGx6E": "2026-11-26",
+  "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcmrHW7wmb7PaZ9nTug2TMw": "2026-11-26",
+  "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdvcUZJijlUjIHM3dGkfpH0": "2026-11-26",
+  "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=32274": "2026-11-26",
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36904": "2026-11-26"
  },
  "_verworfen": [
   "https://lautertal.gremien.info/oparl/paper/20230206100094",
   "https://lautertal.gremien.info/oparl/paper/20240803100030",
+  "https://parlamentsinfo.gross-umstadt.de/vo0050.asp?__kvonr=18721",
+  "https://parlamentsinfo.gross-umstadt.de/vo0050.asp?__kvonr=19837",
+  "https://parlamentsinfo.gross-umstadt.de/vo0050.asp?__kvonr=35326",
+  "https://parlamentsinfo.gross-umstadt.de/vo0050.asp?__kvonr=36370",
   "https://politik.wetzlar.de/BI/vo0050.asp?__kvonr=11850",
   "https://rim.ekom21.de/ehringshausen/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQaULKx7mgfyOoT0AJBs9GQ",
   "https://rim.ekom21.de/eschenburg/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTdxIhcYBGT13UIEMSXz6qI",
@@ -183,6 +1474,14 @@
   "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=10955",
   "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=11080",
   "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=11083",
-  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=11263"
+  "https://sitzungsdienst.pohlheim.de/bi/vo0050.asp?__kvonr=11263",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#2a279bdd4422",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#2d936fba2640",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#31e74d0f235c",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#449c60b8d79b",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#49286bb063d2",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#7f7279c1e62e",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#8b42035a1af2",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#b80f8754427e"
  ]
 }
