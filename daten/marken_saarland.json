@@ -1,7 +1,198 @@
 {
+ "Bexbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blieskastel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bous": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dillingen/Saar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ensdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eppelborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freisen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedrichsthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gersheim": {
+  "zuletzt": "2026-11-26"
+ },
  "Heusweiler": {
   "si_max": 3220,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
  },
- "_verworfen": []
+ "Kirkel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lebach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Losheim am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mandelbachtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marpingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Merchweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Merzig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mettlach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nalbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Namborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neunkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nohfelden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nonnweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ottweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Perl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Püttlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Quierschied": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rehlingen-Siersburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Riegelsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Saarlouis": {
+  "zuletzt": "2026-11-26"
+ },
+ "Saarwellingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schiffweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schmelz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwalbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spiesen-Elversberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "St. Ingbert": {
+  "zuletzt": "2026-11-26"
+ },
+ "St. Wendel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sulzbach/Saar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tholey": {
+  "zuletzt": "2026-11-26"
+ },
+ "Völklingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wadern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wadgassen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wallerfangen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weiskirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "_verworfen": [
+  "http://www.bous.de/bous/uploads/2021/12/Str.u.Kanalsanierung-Burgstrasse_EFB-121.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW35.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW36.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW37.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW38.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW39.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW40.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW41.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW42.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW43.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW44.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW45.pdf",
+  "https://perl.saarland/mitteilungsblatt-mosella.html?file=files/Rathaus/mosella/2026/Mosella%202026%20KW46.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-04-02_OR_Bexbach_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-04-02_OR_Frankenholz_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-04-02_OR_Oberbexbach_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-04-03_BST_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-04-03_OR_Hoechen_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-04-03_OR_Kleinottweiler_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-07-01_Hauptausschuss_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-07-01_OR_Frankenholz_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-07-02_OR_Hoechen_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-07-03_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2025-11-18_Hauptausschuss_BM.pdf",
+  "https://www.bexbach.de/fileadmin/user_upload/bexbach/Presse/Material_2025/OEffentliche_Bekanntmachungen/2026/Juni/2026_06_10_Bek_StR_18.06.2026.pdf",
+  "https://www.dillingen-saar.de/wp-content/uploads/2020/06/Dillinger_Radverkehrskonzept_2025_Bericht.pdf",
+  "https://www.dillingen-saar.de/wp-content/uploads/2025/01/Einsichtnahme-WVZ.pdf",
+  "https://www.dillingen-saar.de/wp-content/uploads/2025/01/Wahlinformation.pdf",
+  "https://www.dillingen-saar.de/wp-content/uploads/2025/02/Aenderung-Wahllokal-Roemerhalle.pdf",
+  "https://www.dillingen-saar.de/wp-content/uploads/2025/02/Anlage-27-BWO-Wahlbekannt.-2025-002.pdf",
+  "https://www.dillingen-saar.de/wp-content/uploads/2025/06/Bekanntmachungssatzung.pdf",
+  "https://www.dillingen-saar.de/wp-content/uploads/2026/11/Sitzung-des-Finanz-und-Personalausschusses-am-25.11.2026.pdf",
+  "https://www.mettlach.de/rathaus-online/dokumentenausgabebox/",
+  "https://www.mettlach.de/wp-content/uploads/2025/01/notfallschutz-cattenom.pdf",
+  "https://www.mettlach.de/wp-content/uploads/NEU-Telefonverzeichnis-Gemeinde-Mettlach-1.pdf",
+  "https://www.mettlach.de/wp-content/uploads/Organigramm_Mettlach_04_2025.pdf",
+  "https://www.saarwellingen.de/fileadmin/user_upload/1_Rathaus_und_Buergerdienste/Service_und_Info/Online-_und_Buergerdienste/Gemeindearchiv/Abtretungserklaerung_2020_NEU.pdf",
+  "https://www.saarwellingen.de/fileadmin/user_upload/1_Rathaus_und_Buergerdienste/Service_und_Info/Online-_und_Buergerdienste/Gemeindearchiv/Datenschutz_Digitalarchiv.pdf",
+  "https://www.saarwellingen.de/fileadmin/user_upload/1_Rathaus_und_Buergerdienste/Service_und_Info/Online-_und_Buergerdienste/Gemeindearchiv/Nutzungsbedingungen_Digitalarchiv.pdf",
+  "https://www.saarwellingen.de/fileadmin/user_upload/1_Rathaus_und_Buergerdienste/Service_und_Info/Online-_und_Buergerdienste/Gemeindearchiv/Registrierung_Anfrage_Materialenzusendung.pdf",
+  "https://www.saarwellingen.de/fileadmin/user_upload/1_Rathaus_und_Buergerdienste/Service_und_Info/Ortsrechtsammlung/Gemeindearchiv/Archivsatzung.pdf",
+  "https://www.saarwellingen.de/fileadmin/user_upload/1_Rathaus_und_Buergerdienste/Service_und_Info/Ortsrechtsammlung/Gemeindearchiv/Verwaltungsgebuehrensatzung.pdf",
+  "https://www.saarwellingen.de/fileadmin/user_upload/1_Rathaus_und_Buergerdienste/Service_und_Info/Ortsrechtsammlung/Gemeindearchiv/Verwaltungsgebuehrenverzeichnis_2020.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/01/Bekanntmachung-2026-01-26-OR-RO.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/02/20260119_Bekanntmachung-BP-Scoping.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/02/20260119_Bekanntmachung-FNP-Scoping.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/03/20260313_Bekanntmachung-BP-Scoping-1.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/04/04620-2025000165-Neufassung-Satzung-Volkshochschule-VHS-2025-29.04.2026-Satzung-VHS-vom-28.04.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/05/20260526-Bekanntmachg-Einleitg-Aufhebg-RE4.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/05/VOe-VKR-Satzg-GeistkircherHof_20260528.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/09/20260721_VOe-1Aend-VKR-Zw-SchlachthofstrAlleestr.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/09/20260825_VOe_VKR-ZW-WollbachstrAlte-Messstr.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/09/20260916_Veroeffentlichung-Satzungsbeschluss.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/10/Bekanntmachung-Sondersitzung-2026-10-27-OR-Hassel.pdf",
+  "https://www.st-ingbert.de/wp-content/uploads/2026/11/06011-2026000888-OW-9.01-Am-Feuerwehrgeraetehaus-An-der-Ommersheimer-Strasse-30.10.2026-Allgem.pdf"
+ ],
+ "Überherrn": {
+  "zuletzt": "2026-11-26"
+ }
 }
