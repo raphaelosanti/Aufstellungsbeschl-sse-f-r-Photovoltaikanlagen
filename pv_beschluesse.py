@@ -967,6 +967,15 @@ def von_dict(d: dict) -> Beschluss:
 SPERRE = threading.RLock()   # schützt Zustand, Geocoder und Protokoll bei parallelen Quellen
 
 
+def reihenfolge(quellen: list[Quelle], z: Zustand) -> list[Quelle]:
+    """Noch nie abgefragte Quellen zuerst, danach die am längsten nicht abgefragten. So kommt bei knapper Laufzeit
+    jeder Lauf bei den Quellen weiter, statt immer wieder dieselben ersten abzuarbeiten."""
+    nie = sum(1 for q in quellen if not z.marke(q.name, "zuletzt"))
+    if quellen:
+        print(f"   {len(quellen)} Quellen, davon {nie} noch nie abgefragt (kommen zuerst)")
+    return sorted(quellen, key=lambda q: (z.marke(q.name, "zuletzt") or "0000-00-00"))
+
+
 def sammle_quelle(http, q: Quelle, a, z: Zustand, geo, protokoll: list) -> None:
     """Eine Quelle abrufen. Neue Beschlüsse landen im Zustand z (und werden nie zweimal verarbeitet)."""
     erneut_nach = {"homepage": 21, "amtsblatt": 6, "ihk": 2}.get(q.typ.lower())   # Tage bis zur nächsten Abfrage
@@ -1085,7 +1094,7 @@ def main(argv=None) -> int:
     for land in sorted({q.bundesland or "Brandenburg" for q in quellen}):
         print(f"\n=== {land} ===")
         z = Zustand(a.daten, land)
-        meine = [q for q in quellen if (q.bundesland or "Brandenburg") == land]
+        meine = reihenfolge([q for q in quellen if (q.bundesland or "Brandenburg") == land], z)
         if a.parallel > 1:
             from concurrent.futures import ThreadPoolExecutor
             with ThreadPoolExecutor(max_workers=a.parallel) as pool:
