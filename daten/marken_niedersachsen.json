@@ -1,6 +1,1838 @@
 {
+ "Adelebsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Adelheidsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Adenbüttel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Adendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Adenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Aerzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Affinghausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Agathenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahlden (Aller)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahnsbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahnsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alfeld": {
+  "si_max": 1708,
+  "zuletzt": "2026-11-26"
+ },
+ "Alfhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alfstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Algermissen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenmedingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Amelinghausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Amt Neuhaus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Anderlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ankum": {
+  "si_max": 3305,
+  "zuletzt": "2026-11-26"
+ },
+ "Apelern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Apen": {
+  "si_max": 609,
+  "zuletzt": "2026-11-26"
+ },
+ "Apensen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Appel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Arholzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Armstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Artlenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Asendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Auetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Auhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Axstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Bederkesa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Bentheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Bevensen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Bodenteich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Eilsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Essen": {
+  "si_max": 1568,
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Fallingbostel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Gandersheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Harzburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Iburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Laer": {
+  "si_max": 743,
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Lauterberg im Harz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Münder am Deister": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Nenndorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Rothenfelde": {
+  "si_max": 787,
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Sachsa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Salzdetfurth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Zwischenahn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Badbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baddeckenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bahrdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bahrenborstel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bakum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Balge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Balje": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baltrum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bardowick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bargstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barnstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barnstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barsinghausen": {
+  "si_max": 3163,
+  "zuletzt": "2026-11-26"
+ },
+ "Barum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barver": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barwedel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barßel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Basdahl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bassum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bawinkel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beckdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beckedorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beckeln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beedenbostel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beesten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beierstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Belm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Belum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bendestorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergen an der Dumme": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berumbur": {
+  "zuletzt": "2026-11-26"
+ },
+ "Betzendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bevern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beverstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bienenbüttel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bilshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Binnen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bippen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bispingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bissendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blender": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bliedersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blomberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bockenem": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bockhorn": {
+  "si_max": 2961,
+  "zuletzt": "2026-11-26"
+ },
+ "Bockhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bodenfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bodensee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bodenwerder": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boffzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bohmte": {
+  "si_max": 1113,
+  "zuletzt": "2026-11-26"
+ },
+ "Boitze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bokensdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bomlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borkum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borstel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bothel": {
+  "si_max": 3868,
+  "zuletzt": "2026-11-26"
+ },
+ "Brackel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bramsche": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bramstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Braunlage": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breddenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breddorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bremervörde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brest": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brevörde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brietlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brinkum": {
+  "si_max": 7587,
+  "zuletzt": "2026-11-26"
+ },
+ "Brockum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brome": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bruchhausen-Vilsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bröckel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buchholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buchholz (Aller)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buchholz in der Nordheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bunde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burgdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burgwedel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burweg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Butjadingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buxtehude": {
+  "zuletzt": "2026-11-26"
+ },
+ "Böhme": {
+  "zuletzt": "2026-11-26"
+ },
+ "Börger": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bösel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bötersen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bückeburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bücken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Büddenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bühren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bülkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bülstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cadenberge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Calberlah": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cappeln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Celle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Clausthal-Zellerfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Clenze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cloppenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Colnrade": {
+  "zuletzt": "2026-11-26"
+ },
+ "Coppenbrügge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Coppengrave": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cramme": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cremlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cuxhaven": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dahlem": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dahlenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dahlum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Damnatz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Danndorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dassel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dedelstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Deensen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Deinste": {
+  "zuletzt": "2026-11-26"
+ },
+ "Deinstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Delligsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Delmenhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Denkte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Derental": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dersum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Despetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Detern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dettum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Deutsch Evern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dickel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Didderse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Diekholzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dielmissen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Diepenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dinklage": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dissen am Teutoburger Wald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dohren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dollern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dornum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dorstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drage": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drakenburg": {
+  "si_max": 2189,
+  "zuletzt": "2026-11-26"
+ },
+ "Drangstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dransfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drebber": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drentwede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drestedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Driftsethe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drochtersen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Duingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dunum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dörpen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dörverden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dötlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Düdenbüttel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dünsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ebergötzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eberholzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ebersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ebstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Echem": {
+  "zuletzt": "2026-11-26"
+ },
+ "Edemissen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Edewecht": {
+  "zuletzt": "2026-11-26"
+ },
+ "Egestorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eggermühlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ehra-Lessien": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ehrenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eickeloh": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eicklingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eime": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eimen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eimke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Einbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eisdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elbe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elbingerode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eldingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elmlohe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elsdorf": {
+  "si_max": 8568,
+  "zuletzt": "2026-11-26"
+ },
+ "Elze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Embsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emlichheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emmendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emmerthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emsbüren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emstek": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emtinghausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Engden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Engelschoff": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erkerode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Esche": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eschede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eschershausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Esens": {
+  "zuletzt": "2026-11-26"
+ },
+ "Essel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Essen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Esterwegen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Estorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Everode": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eversmeer": {
+  "si_max": 887,
+  "zuletzt": "2026-11-26"
+ },
+ "Evessen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eydelstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eyendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eystrup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Farven": {
+  "zuletzt": "2026-11-26"
+ },
+ "Faßberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Filsum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fintel": {
+  "si_max": 533,
+  "zuletzt": "2026-11-26"
+ },
+ "Flögeln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frankenfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fredenbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freiburg/Elbe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freistatt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frellstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fresenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedeburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friesoythe": {
+  "si_max": 2205,
+  "zuletzt": "2026-11-26"
+ },
+ "Fürstenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fürstenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ganderkesee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gandesbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Garbsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Garlstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Garrel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Garstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gartow": {
+  "si_max": 1179,
+  "zuletzt": "2026-11-26"
+ },
+ "Geestland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gehrde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Georgsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Georgsmarienhütte": {
+  "si_max": 13649,
+  "zuletzt": "2026-11-26"
+ },
+ "Gerdau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gersten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Getelo": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gevensleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Geversdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gieboldehausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gielde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Giesen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gifhorn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Glandorf": {
+  "si_max": 630,
+  "zuletzt": "2026-11-26"
+ },
+ "Gleichen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gnarrenburg": {
+  "si_max": 260,
+  "zuletzt": "2026-11-26"
+ },
+ "Goldenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Golmbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gorleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Goslar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grafhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grasberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grasleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grethem": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gronau (Leine)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Ippener": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Meckelsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Oesingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Twülpstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großefehn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großenkneten": {
+  "si_max": 469,
+  "zuletzt": "2026-11-26"
+ },
+ "Großenwörden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünendeich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Guderhandviertel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gusborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gyhum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gödenstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Göhrde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gölenkamp": {
+  "zuletzt": "2026-11-26"
+ },
+ "Göttingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hademstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hage": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hagen am Teutoburger Wald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hagen im Bremischen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hagenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hagermarsch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hahausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halbemond": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halvesbostel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hambergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hambühren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hameln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hamersen": {
+  "si_max": 22675,
+  "zuletzt": "2026-11-26"
+ },
+ "Hammah": {
+  "zuletzt": "2026-11-26"
+ },
+ "Handeloh": {
+  "zuletzt": "2026-11-26"
+ },
+ "Handorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Handrup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hankensbüttel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hann. Münden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hannover": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hanstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Harbarnsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hardegsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Harmstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Harpstedt": {
+  "si_max": 51195,
+  "zuletzt": "2026-11-26"
+ },
+ "Harsefeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hasbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haselünne": {
+  "si_max": 1901,
+  "zuletzt": "2026-11-26"
+ },
+ "Hassel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hassendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haste": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hatten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hattorf am Harz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haverlah": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haßbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hechthausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hedeper": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heemsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heere": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heeßen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hehlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heidenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heinade": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heinbockel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heinsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hellwege": {
+  "zuletzt": "2026-11-26"
+ },
+ "Helmstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Helpsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Helvesiek": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hemmingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hemmoor": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hemsloh": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hepstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hermannsburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herzlake": {
+  "si_max": 971,
+  "zuletzt": "2026-11-26"
+ },
+ "Hespe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hessisch Oldendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heuerßen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heyen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hildesheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hilgermissen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hilkenbrook": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hillerse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hilter am Teutoburger Wald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Himbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Himmelpforten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hinte": {
+  "si_max": 1165,
+  "zuletzt": "2026-11-26"
+ },
+ "Hipstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hittbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hitzacker": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hodenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenhameln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohnhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohnstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hollenstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hollern-Twielenfleth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hollnseth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holste": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holtgast": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holzminden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoogstede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hornburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Horneburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Horstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoya": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoyerhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoyershausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hude": {
+  "zuletzt": "2026-11-26"
+ },
+ "Husum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hämelhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Höfer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hörden am Harz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hüde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hülsede": {
+  "zuletzt": "2026-11-26"
+ },
  "Hüven": {
   "zuletzt": "2026-11-23"
+ },
+ "IHK Elbe-Weser": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Ostfriesland und Papenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Stade": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ihlienworth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ihlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Isenbüttel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Isernhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Isterberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Itterbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jade": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jameln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jelmstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jembke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jemgum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jerxheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jesteburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jork": {
+  "zuletzt": "2026-11-26"
+ },
+ "Juist": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jühnde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kakenstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kalefeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Katlenburg-Lindau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kettenkamp": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchbrak": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchgellersen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchlinteln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchseelte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchtimke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kissenbrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Klein Meckelsen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kluse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kneitlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kranenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krebeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kreiensen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krummendeich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kutenholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Köhlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königslutter am Elm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königsmoor": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kührstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Küsten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laatzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lachendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lage": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lahn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lamspringe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lamstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Landesbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Landolfshausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Landwehr": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langelsheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langeoog": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langlingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langwedel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lastrup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lathen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauenbrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauenförde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leese": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leezdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lehe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lehre": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lehrte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leiferde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lembruch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lemförde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lemgow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lengede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lenne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liebenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liebenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lilienthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindwedel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Linsburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lintig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lohheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lorup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Loxstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Luckau (Wendland)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Luhden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lutter am Barenberge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löningen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübberstedt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübbow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüder": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüdersburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüdersfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüerdissen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüneburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lünne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lütetsburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Maasen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marienhafe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marienhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mariental": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marklohe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marschacht": {
+  "zuletzt": "2026-11-26"
+ },
+ "Martfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marxen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mechtersen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meerbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meine": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meinersen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Melbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mellinghausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Menslage": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meppen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Merzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Messenkamp": {
+  "zuletzt": "2026-11-26"
+ },
+ "Messingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mittelnkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mittelstenahe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moisburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Molbergen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moormerland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moorweg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moringen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Munster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Müden (Aller)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nahrendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Natendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neetze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Negenborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Darchau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Wulmstorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neubörger": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuenhaus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuenkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuharlingersiel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuhaus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neulehe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederlangen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niedernwöhren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niemetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nienhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nienstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Norden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nordhorn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nordleda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nordsehl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Northeim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nortmoor": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nortrup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nottensdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nörten-Hardenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberlangen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberndorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Obernfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Obernholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Obernkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ochtersum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Odisheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oederquart": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oerel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oetzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ohne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ohrum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oldenburgische IHK": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oldendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oldendorf (Luhe)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osloß": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osnabrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osteel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Osterbruch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ostercappeln": {
+  "zuletzt": "2026-11-26"
  },
  "Schiffdorf": {
   "zuletzt": "2026-11-23"
@@ -9,6 +1841,151 @@
   "zuletzt": "2026-11-23"
  },
  "_verworfen": [
+  "http://buergerinfo.apen.de/to0050.asp?__ktonr=16337",
+  "http://buergerinfo.apen.de/to0050.asp?__ktonr=17706",
+  "http://buergerinfo.apen.de/to0050.asp?__ktonr=18669",
+  "http://buergerinfo.apen.de/to0050.asp?__ktonr=18672",
+  "http://buergerinfo.apen.de/to0050.asp?__ktonr=21237",
+  "http://buergerinfo.apen.de/to0050.asp?__ktonr=24775",
+  "http://buergerinfo.apen.de/vo0050.asp?__kvonr=1399",
+  "http://buergerinfo.apen.de/vo0050.asp?__kvonr=1572",
+  "http://buergerinfo.apen.de/vo0050.asp?__kvonr=1674",
+  "http://buergerinfo.apen.de/vo0050.asp?__kvonr=1677",
+  "http://buergerinfo.apen.de/vo0050.asp?__kvonr=1939",
+  "http://buergerinfo.apen.de/vo0050.asp?__kvonr=2262",
+  "http://buergerinfo.bockhorn.de/to0050.asp?__ktonr=12729",
+  "http://buergerinfo.bockhorn.de/to0050.asp?__ktonr=13851",
+  "http://buergerinfo.bockhorn.de/vo0050.asp?__kvonr=2889",
+  "http://buergerinfo.bockhorn.de/vo0050.asp?__kvonr=3150",
+  "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=1715",
+  "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=1835",
+  "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=1850",
+  "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=2008",
+  "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=2108",
+  "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=37207",
+  "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=38812",
+  "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=39009",
+  "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=4943",
+  "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=5175",
+  "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=5205",
+  "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5475",
+  "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5576",
+  "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5711",
+  "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5717",
+  "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=6107",
+  "http://www.diekholzen.de/buergerinformationssystem/vo020.asp?VOLFDNR=1082",
+  "http://www.diekholzen.de/buergerinformationssystem/vo020.asp?VOLFDNR=968",
+  "https://badessenris.itebo.de/bi/vo0050.asp?__kvonr=1280",
+  "https://badessenris.itebo.de/bi/vo0050.asp?__kvonr=1284",
+  "https://badessenris.itebo.de/bi/vo0050.asp?__kvonr=1342",
+  "https://badlaer.ris.itebo.de/bi/vo0050.asp?__kvonr=1615",
+  "https://badlaer.ris.itebo.de/bi/vo0050.asp?__kvonr=2042",
+  "https://bohmteris.itebo.de/bi/vo0050.asp?__kvonr=4246",
+  "https://bohmteris.itebo.de/bi/vo0050.asp?__kvonr=4247",
+  "https://bohmteris.itebo.de/bi/vo0050.asp?__kvonr=4334",
+  "https://bohmteris.itebo.de/bi/vo0050.asp?__kvonr=4438",
+  "https://bohmteris.itebo.de/bi/vo0050.asp?__kvonr=5028",
+  "https://bohmteris.itebo.de/bi/vo0050.asp?__kvonr=5055",
+  "https://buergerinfo.friesoythe.de/vo0050.asp?__kvonr=5894",
+  "https://buergerinfo.friesoythe.de/vo0050.asp?__kvonr=6142",
+  "https://buergerinfo.friesoythe.de/vo0050.asp?__kvonr=6367",
+  "https://buergerinfo.friesoythe.de/vo0050.asp?__kvonr=6608",
+  "https://buergerinfo.friesoythe.de/vo0050.asp?__kvonr=6650",
+  "https://buergerinfo.friesoythe.de/vo0050.asp?__kvonr=7145",
+  "https://buergerinfo.holtriem.de/to0050.asp?__ktonr=8398",
+  "https://buergerinfo.holtriem.de/to0050.asp?__ktonr=8399",
+  "https://buergerinfo.holtriem.de/to0050.asp?__ktonr=8507",
+  "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=3148",
+  "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=3732",
+  "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=3767",
+  "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=4568",
+  "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=4688",
+  "https://buergerinfo.sgfintel.de/vo0050.asp?__kvonr=606",
+  "https://buergerinfo.sgfintel.de/vo0050.asp?__kvonr=727",
+  "https://emlichheim.gremien.info/oparl/paper/20261007100156",
+  "https://emlichheim.gremien.info/oparl/paper/20262908100192",
+  "https://emlichheim.gremien.info/oparl/paper/233001100044",
+  "https://glandorfris.itebo.de/bi/vo0050.asp?__kvonr=1114",
+  "https://glandorfris.itebo.de/bi/vo0050.asp?__kvonr=1426",
+  "https://glandorfris.itebo.de/bi/vo0050.asp?__kvonr=940",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=244749",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=247060",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=247489",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=248593",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=249229",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=252049",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=252051",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=252792",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=252793",
+  "https://gmh.ris.itebo.de/bi/to0050.asp?__ktonr=253289",
+  "https://gmh.ris.itebo.de/bi/vo0050.asp?__kvonr=20036",
+  "https://gmh.ris.itebo.de/bi/vo0050.asp?__kvonr=20301",
+  "https://gmh.ris.itebo.de/bi/vo0050.asp?__kvonr=22061",
+  "https://gmh.ris.itebo.de/bi/vo0050.asp?__kvonr=22062",
+  "https://gmh.ris.itebo.de/bi/vo0050.asp?__kvonr=23178",
+  "https://gmh.ris.itebo.de/bi/vo0050.asp?__kvonr=23179",
+  "https://gmh.ris.itebo.de/bi/vo0050.asp?__kvonr=23264",
+  "https://gnarrenburg.ris.itebo.de/bi/to0050.asp?__ktonr=1016",
+  "https://gnarrenburg.ris.itebo.de/bi/to0050.asp?__ktonr=2349",
+  "https://haseluenneris.itebo.de/bi/vo0050.asp?__kvonr=4038",
+  "https://herzlakeris.itebo.de/bi/vo0050.asp?__kvonr=2162",
+  "https://lengerich.gremien.info/oparl/paper/20221209100157",
+  "https://lengerich.gremien.info/oparl/paper/2024030805100025",
+  "https://ratsinfo.gartow.de/bi/to0050.asp?__ktonr=1006",
+  "https://ratsinfo.gartow.de/bi/to0050.asp?__ktonr=1462",
+  "https://ratsinfo.gartow.de/bi/to0050.asp?__ktonr=53",
+  "https://ratsinfo.grossenkneten.de/bi/to0050.asp?__ktonr=14934",
+  "https://ratsinfo.grossenkneten.de/bi/to0050.asp?__ktonr=14935",
+  "https://ratsinfo.grossenkneten.de/bi/to0050.asp?__ktonr=15212",
+  "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52265",
+  "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52739",
+  "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52766",
+  "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52804",
+  "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52909",
+  "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52997",
+  "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=53396",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=43564",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=44548",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=30550",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=31223",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=32820",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=34296",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=34749",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=35093",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=35756",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=37792",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=39027",
+  "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=42718",
+  "https://ratsinfo.rethem.de/bi/vo0050.asp?__kvonr=17174",
+  "https://ratsinfo.rethem.de/bi/vo0050.asp?__kvonr=18549",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=29079",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=29127",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=30602",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=31219",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=31869",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=31870",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=32107",
+  "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=32108",
+  "https://ratsportal.hesel.de/bi/vo0050.asp?__kvonr=14260",
+  "https://ratsportal.hesel.de/bi/vo0050.asp?__kvonr=14261",
+  "https://ratsportal.hesel.de/bi/vo0050.asp?__kvonr=14303",
+  "https://ratsportal.hesel.de/bi/vo0050.asp?__kvonr=14304",
+  "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=4292",
+  "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=4559",
+  "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=5618",
+  "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=5775",
+  "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=5866",
+  "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=6238",
+  "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=6386",
+  "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8038",
+  "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8057",
+  "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8088",
+  "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8475",
+  "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8793",
+  "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8905",
+  "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=9129",
+  "https://rothenfelde.ris.itebo.de/bi/vo0050.asp?__kvonr=1062",
+  "https://rothenfelde.ris.itebo.de/bi/vo0050.asp?__kvonr=941",
   "https://schiffdorf.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQPQLchwFumu4EGpv1bOmiM",
   "https://schiffdorf.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSEaNKdaSaSG2tHJn90t9uo",
   "https://schiffdorf.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTUBoAvAAMu3NIqgllARkiA",
@@ -23,6 +2000,36 @@
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZTEfEklGZych9XntvmkX2A",
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdvQCRbOFgd2lQieQ8TLtjU",
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeSyM6VCwIAGyiEQDFyE51c",
-  "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfz9s7Yrl7qvzyII-IQhj6M"
+  "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfz9s7Yrl7qvzyII-IQhj6M",
+  "https://www.adendorf.de/1/wp-content/uploads/2019/05/Konzeptpapier_kommunale_Kinder_und_Jugendarbeit.pdf",
+  "https://www.adendorf.de/1/wp-content/uploads/2021/12/Allgemeinverfuegung-Erweiterung-ASP-Monitoring-KaGr-10.12.2021.pdf",
+  "https://www.adendorf.de/1/wp-content/uploads/2021/12/Anschreiben-Jaeger-Erweiterung-ASP-Monitoring-Loe-Gr-10.12.2021-.pdf",
+  "https://www.adendorf.de/1/wp-content/uploads/2021/12/Infoschreiben-ML-an-Jaeger-Hinweise-ASP-in-MV.pdf",
+  "https://www.adendorf.de/1/wp-content/uploads/2023/07/Sportentwicklungsplan.pdf",
+  "https://www.aerzen.de/index.php/alle-kategorien?task=download.send&id=1986:amtsblatt-1a-2026-veroeffentlicht-am-14-01-2026&catid=32",
+  "https://www.aerzen.de/index.php/alle-kategorien?task=download.send&id=2014:amtsblatt-05a-veroeffentlicht-am-04-05-2026&catid=32",
+  "https://www.aerzen.de/index.php/alle-kategorien?task=download.send&id=2015:amtsblatt-05b-2026-veroeffentlicht-am-04-05-2026&catid=32",
+  "https://www.aerzen.de/index.php/alle-kategorien?task=download.send&id=2019:amtsblatt-05e-2026-veroeffentlicht-am-09-05-2026&catid=32",
+  "https://www.apensen.de/downloads/datei/N2QyNmE1ZTk4OWI2MWJmNjh0WHlNbk5MeTg5NnVydGdXandNSWlwMEJOVG1OeTBGQVQxREkySXlKeGJwaCtKSm9VUFg0ZGlJWlc0WENpdE9xb2VZMHZIRVFMYmk4R0xKNEwvY0dVWk9JMXVWdytQRGxYdDA3TDRKSlFITldOSHVkK3FIcGltT1dJNEtpSTdwQS9FRFBHQkNLUStYV1p6a1BjWXFFZEJGM1FvcE1BMTRQRlZGZEJ2VzA0dz0",
+  "https://www.apensen.de/downloads/datei/NzMzYzc2MGIwNmQ2OTE0NHliSHA5YzBHVDdlVys2bzZLdjBCWG1DMnRKUGE1Y3JiUXNGRlVSRE5yRlY5OHRSRDhHYXZiUW5QRXlYMmpQTHEzbFhRZlJwbTk1elVsZXorRTRMdXhtbm5MWkZQQ2FHaUQ5VlhBcWhJVStEQjVrVlVrRTdhL2ZjUGxMSmRpUEVUWFh0bU9kenBJVG5oY0pEbzdwZC9pWHJSZ3JsTFdLQ2ptZ201WWFnRHVsQzhmVjAyTjhqQ1FIYzhpYU5SM1l0Y3F1dHM5WllyN05IcWQ3YzVDSlB4NFE9PQ",
+  "https://www.apensen.de/downloads/datei/YjU5MzkxMTFiZjYwODRjOWg2d1Z4dHRMZ1NTV1QxWDlzOU1zcE9XS2IxVVliQit5bkpSRCt4OXJiUFZXOXk1MktkOTJLcm5BdXN3K3lxSllGT0t1cXZUSGZTd0diS2lhbnJyMVNYMGN2SllxOGpRWGY4RVFpZm1uMy9wN29BbTVxWE9WVm5nQWNOUWtiOTM5SjdsNVdGaERMTEl0OElSODN1UGcvT29vTUdXRlN6QkhRT3lqY0Q0UHVjSWNMNGZaTTlxWWp0MXpERCtrOFE0ag",
+  "https://www.apensen.de/downloads/datei/YmEzODRlYWQxNTg4OTkwZCt0QVU0aE1qQSt1YitBcFltbkJWRExXV1Y0R1U4QlVXTnIxdGFJMzdUOEhnZzF2T2FYQndkQ2laM1Juc3E3dGFtbGNFTWN6TmdSdHkyU0k4d1JuT2dwRitzWmVxVlM1N3FkK2VpTEJoZmoySkVyMEdRTDNYTjJ2Z3d3ajVEZVJvNkltdmdLRmFmSGc2bzNnVDVFQ0ltUkpRb0NmdFpuTjFDVit4aDdmY1lJOD0",
+  "https://www.apensen.de/downloads/datei/YzU2YzQwZjk4NGVmMDdhYTBYcXh5WXJOUVA0c2dhdEEzdVB6N3RDWUhONmpidXg5ZExLMk1MNWh1RW1LcERlWHMyeXBvc0RjMW9TYnlHZUJqZks1bmNCem52NXRvMFpnUnQxaW1XaTM1UVRicWZGYmdjK1M5U0UvWVBuQ2ZRNzduMkVMZ1dpaVU5V1JtVGJtYndhTTNYbGR5dGJObGRkanpGRDNBNFVDbkNwS1NvUHd4SERHYzlwS3REdXVWd2IyTDRyRnV1akhidlV1ZitYOA",
+  "https://www.apensen.de/downloads/datei/ZDZmYjQyMjVkNDc1NGRhZXErRkpDT2Z3a0pJb0JCSmZiZGtsSEZaR29sU0lacytBV2lNWGlnVFlSaCtEK2VSTEE5RmI3TjBwM1c3OWZYVi91REZxNHVWajBWWFEyOUhEaE56SVlJSDlLZjBvaVBGU2dXUCtGUWFFcFZsandCWlpQSytxbDJvdmdFbE9ZbUVJTjdNb2c3M3ozYzJNakovMWF6SEtMclVWdUp0bzhtbWtXVzVFdXNhU3Rtdz0",
+  "https://www.apensen.de/downloads/datei/ZmQyMDI3NmEzODMwMjBmMU16MTM4WjRXeUNlNWJvS0c0RFB6NVZHVTVReHg4eTZYNUxnT3pZS3N3VkI5dlllUTZRN1l2NDl2SFArQXk1SkRSOE9jVy9KMlMvMUhsVEJyVTBpd1ZLOHZHRHB3UEtEM1FoMnBrRkhINXlyZXRhZTFzRVRpdlBnZ2c2MkRxVmwxdzAycHNNeVdYTTBLNExnODhvSXROdjI1VnIyNWJGN0hPaExIK2x0NEFCZjJ2M0hWVklCT2JMcys1NVl6emNLdw",
+  "https://www.horneburg.de/buergerservice/online/angebot/statusabfrage-hoheitlicher-dokumente-900000017-20450.html",
+  "https://www.horneburg.de/medien/dokumente/251125_p25312_a500_ortsuebliche_bekanntmachung_bghus.pdf?20251126125800",
+  "https://www.horneburg.de/medien/dokumente/bekanntmachung_ag.pdf?20260918104901",
+  "https://www.horneburg.de/medien/dokumente/bekanntmachung_bld.pdf?20260918104350",
+  "https://www.horneburg.de/medien/dokumente/bekanntmachung_do.pdf?20260918104649",
+  "https://www.horneburg.de/medien/dokumente/bekanntmachung_ho.pdf?20260918105016",
+  "https://www.horneburg.de/medien/dokumente/bekanntmachung_no.pdf?20260918104519",
+  "https://www.horneburg.de/medien/dokumente/bekanntmachung_sg.pdf?20260918104201",
+  "https://www.horneburg.de/medien/dokumente/bekanntmachung_sgbgm.pdf?20260918103939",
+  "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=40475",
+  "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=40476",
+  "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=41601",
+  "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=6059",
+  "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=6060"
  ]
 }
