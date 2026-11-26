@@ -1,39 +1,969 @@
 {
+ "Ahaus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ahlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alfter": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alpen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenbeken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altenberge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Arnsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Attendorn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Augustdorf": {
+  "si_max": 14594,
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Berleburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Driburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Honnef": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Laasphe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Lippspringe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Oeynhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Wünnenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baesweiler": {
+  "zuletzt": "2026-11-26"
+ },
+ "Balve": {
+  "zuletzt": "2026-11-26"
+ },
+ "Barntrup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beckum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bedburg-Hau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergisch Gladbach": {
+  "si_max": 2630,
+  "zuletzt": "2026-11-26"
+ },
+ "Bergkamen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bergneustadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bestwig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beverungen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bielefeld": {
+  "si_max": 8764,
+  "zuletzt": "2026-11-26"
+ },
+ "Billerbeck": {
+  "si_max": 2746,
+  "zuletzt": "2026-11-26"
+ },
+ "Blankenheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blomberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bocholt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bochum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borgentreich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borgholzhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bottrop": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breckerfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brüggen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burscheid": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bönen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bünde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Büren": {
+  "zuletzt": "2026-11-26"
+ },
  "Castrop-Rauxel": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Coesfeld": {
+  "si_max": 13368,
+  "zuletzt": "2026-11-26"
+ },
+ "Dahlem": {
+  "zuletzt": "2026-11-26"
+ },
+ "Datteln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Delbrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dinslaken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dormagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dorsten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dortmund": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drolshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Duisburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dörentrup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emmerich am Rhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Emsdetten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Engelskirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ennepetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erkrath": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erndtebrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eslohe (Sauerland)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Espelkamp": {
+  "zuletzt": "2026-11-26"
+ },
+ "Essen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Euskirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Extertal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Finnentrop": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frechen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Freudenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Geilenkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Geldern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gelsenkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gescher": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gevelsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gladbeck": {
+  "zuletzt": "2026-11-26"
  },
  "Goch": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Grefrath": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grevenbroich": {
+  "si_max": 4032,
+  "zuletzt": "2026-11-26"
+ },
+ "Gummersbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gütersloh": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haan": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halle (Westf.)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hallenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Haltern am See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hamminkeln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Harsewinkel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hattingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Havixbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heek": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heiden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heimbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heinsberg": {
+  "si_max": 11473,
+  "zuletzt": "2026-11-26"
+ },
+ "Hellenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hemer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hennef": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herdecke": {
+  "zuletzt": "2026-11-26"
  },
  "Herford": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Herne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herscheid": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herzebrock-Clarholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herzogenrath": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hilchenbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hilden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hille": {
+  "zuletzt": "2026-11-26"
+ },
+ "Holzwickede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hopsten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Horn-Bad Meinberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Horstmar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hörstel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hövelhof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hückeswagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hüllhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hünxe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hürth": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Niederrhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Nord Westfalen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ibbenbüren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Iserlohn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Isselburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Issum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kalkar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kalletal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kamen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kamp-Lintfort": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kempen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kerken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kevelaer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kierspe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kirchhundem": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kleve": {
+  "zuletzt": "2026-11-26"
+ },
+ "Korschenbroich": {
+  "si_max": 5483,
+  "zuletzt": "2026-11-26"
+ },
+ "Kranenburg": {
+  "zuletzt": "2026-11-26"
  },
  "Krefeld": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Kreuztal": {
+  "zuletzt": "2026-11-26"
  },
  "Köln": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Königswinter": {
+  "zuletzt": "2026-11-26"
+ },
+ "Laer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lage": {
+  "zuletzt": "2026-11-26"
  },
  "Langenberg": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Legden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lemgo": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lengerich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lennestadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leverkusen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lichtenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lienen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindlar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lotte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löhne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübbecke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüdenscheid": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lüdinghausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lügde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lünen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marienheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marienmünster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mechernich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meckenheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meerbusch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meinerzhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meschede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Metelen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mettingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mettmann": {
+  "zuletzt": "2026-11-26"
+ },
+ "Minden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Moers": {
+  "zuletzt": "2026-11-26"
+ },
+ "Monheim am Rhein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Monschau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Morsbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Much": {
+  "zuletzt": "2026-11-26"
+ },
+ "Möhnesee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mülheim an der Ruhr": {
+  "zuletzt": "2026-11-26"
  },
  "Münster": {
   "zuletzt": "2026-11-16"
  },
+ "Nachrodt-Wiblingwerde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Netphen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nettetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuenkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuenrade": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neukirchen-Vluyn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neunkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nideggen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederkrüchten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederzier": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nieheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nordkirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nordwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nottuln": {
+  "si_max": 3705,
+  "zuletzt": "2026-11-26"
+ },
+ "Oberhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ochtrup": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oer-Erkenschwick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oerlinghausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Olfen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Olsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ostbevern": {
+  "si_max": 947,
+  "zuletzt": "2026-11-26"
+ },
+ "Overath": {
+  "zuletzt": "2026-11-26"
+ },
+ "Paderborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Petershagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plettenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Porta Westfalica": {
+  "zuletzt": "2026-11-26"
+ },
  "Portal Beteiligung NRW": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Preußisch Oldendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Raesfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ratingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Recke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Recklinghausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reichshof": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reken": {
+  "zuletzt": "2026-11-26"
+ },
+ "Remscheid": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rhede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rheinbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rheinberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rheine": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rheurdt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rietberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roetgen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rommerskirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosendahl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ruppichteroth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rösrath": {
+  "zuletzt": "2026-11-26"
+ },
+ "SIHK Hagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Saerbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Salzkotten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sankt Augustin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sassenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schalksmühle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schermbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schieder-Schwalenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlangen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schleiden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schloß Holte-Stukenbrock": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schmallenberg": {
+  "zuletzt": "2026-11-26"
  },
  "Schwalmtal": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Schöppingen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Selfkant": {
+  "zuletzt": "2026-11-26"
+ },
+ "Selm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Senden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sendenhorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Siegen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Simmerath": {
+  "zuletzt": "2026-11-26"
+ },
+ "Soest": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sonsbeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stadtlohn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinfurt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinheim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stolberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Straelen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sundern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Swisttal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Südlohn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tecklenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Telgte": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tönisvorst": {
+  "zuletzt": "2026-11-26"
+ },
+ "Uedem": {
+  "zuletzt": "2026-11-26"
+ },
+ "Unna": {
+  "zuletzt": "2026-11-26"
+ },
+ "Velbert": {
+  "zuletzt": "2026-11-26"
+ },
+ "Verl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Versmold": {
+  "zuletzt": "2026-11-26"
+ },
+ "Viersen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Voerde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vreden": {
+  "zuletzt": "2026-11-26"
  },
  "Wachtendonk": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Wadersloh": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldbröl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldfeucht": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waltrop": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Warstein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weeze": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wegberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Welver": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wenden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werdohl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wermelskirchen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werther (Westf.)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wesel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Westerkappeln": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wetter (Ruhr)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wettringen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wickede": {
+  "zuletzt": "2026-11-26"
+ },
+ "Willebadessen": {
+  "zuletzt": "2026-11-26"
  },
  "Willich": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Wilnsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Windeck": {
+  "zuletzt": "2026-11-26"
+ },
+ "Winterberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wipperfürth": {
+  "zuletzt": "2026-11-26"
+ },
+ "Witten": {
+  "zuletzt": "2026-11-26"
  },
  "Wuppertal": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Wülfrath": {
+  "zuletzt": "2026-11-26"
+ },
+ "Würselen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Xanten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zülpich": {
+  "zuletzt": "2026-11-26"
+ },
+ "_nachklaeren": {
+  "http://oparl.wuppertal.de/oparl/bodies/0001/papers/vo/32848": "2026-11-26",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0011/papers/vo/21054": "2026-11-26",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0011/papers/vo/21315": "2026-11-26",
+  "https://beteiligung.nrw.de/portal/hueckelhoven/beteiligung/themen/1033050": "2026-11-26",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTurK0ctAbWFLh2jrvJJIKI": "2026-11-26",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUX2BwvORfDJrpuMCmTJWQg": "2026-11-26",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=32052": "2026-11-26",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=34462": "2026-11-26",
+  "https://ochtrup.gremien.info/oparl/paper/20220504100080": "2026-11-26",
+  "https://ochtrup.gremien.info/oparl/paper/20220706100126": "2026-11-26",
+  "https://ochtrup.gremien.info/oparl/paper/20220706100128": "2026-11-26",
+  "https://ochtrup.gremien.info/oparl/paper/20220707100152": "2026-11-26",
+  "https://ochtrup.gremien.info/oparl/paper/20222203100074": "2026-11-26",
+  "https://ochtrup.gremien.info/oparl/paper/20222806100147": "2026-11-26",
+  "https://ochtrup.gremien.info/oparl/paper/20230211100223": "2026-11-26",
+  "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004051293": "2026-11-26",
+  "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004054708": "2026-11-26",
+  "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004055884": "2026-11-26",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=20709": "2026-11-26",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=21172": "2026-11-26",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24189": "2026-11-26",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24252": "2026-11-26",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24422": "2026-11-26",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24446": "2026-11-26",
+  "https://ratsinfo.billerbeck.de/bi/vo0050.asp?__kvonr=4342": "2026-11-26",
+  "https://ratsinfo.langenberg.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZV7jd-NRfgXTb6s4pE_ATO4": "2026-11-26",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=150022&smcspf=4": "2026-11-26",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=157034&smcspf=4": "2026-11-26",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=157861&smcspf=4": "2026-11-26",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=20858&smcspf=4": "2026-11-26",
+  "https://ris-korschenbroich.itk-rheinland.de/SessionNetKorBi/to0050.asp?__ktonr=126423": "2026-11-26",
+  "https://ris-korschenbroich.itk-rheinland.de/SessionNetKorBi/to0050.asp?__ktonr=126759": "2026-11-26",
+  "https://ris-korschenbroich.itk-rheinland.de/SessionNetKorBi/to0050.asp?__ktonr=126955": "2026-11-26",
+  "https://ris.goch.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZc4ESN2zW2T8GmqxC_JqN4U": "2026-11-26",
+  "https://ris.goch.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcDhd_534RH4yHQZGCql6xg": "2026-11-26",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZT_v04DhcyuqRX3SGPS5eHA": "2026-11-26",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVNQ2foTvk80W40oriMd8pI": "2026-11-26",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXcGR_nmaj7hfAdaX1G3usI": "2026-11-26",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXx8vXJUSaL1uU_7MlsDN6U": "2026-11-26",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZc7VMUHRnOmn3Oz3nVlq0_o": "2026-11-26",
+  "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZT-i_ailvHx11KIFEsSi6W0": "2026-11-26",
+  "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVHEiSC56o2eJOYnef7MHUA": "2026-11-26",
+  "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeTZcgXpLO5122GOAnxZhqo": "2026-11-26",
+  "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTPzSMUWqzjcaaOnc7EJAiA": "2026-11-26",
+  "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYZo5LOy0Z41bndU8kUt7Og": "2026-11-26",
+  "https://ris.stadt-willich.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaGdCLwuf9verLUsqJ-NBSQ": "2026-11-26",
+  "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbnY64IAjkeLdohx5gu2y3I": "2026-11-26",
+  "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZexqgQnRjvaDQLK5Ud4NkLQ": "2026-11-26",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbpzobvS45w7Q4WpiPI7ec4": "2026-11-26",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=28229": "2026-11-26",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=28624": "2026-11-26"
  },
  "_verworfen": [
   "http://oparl.wuppertal.de/oparl/bodies/0001/papers/vo/27040",
@@ -92,7 +1022,95 @@
   "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20293",
   "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20533",
   "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20650",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20743",
   "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20744",
+  "http://ris-oparl.itk-rheinland.de/Oparl/bodies/0013/papers/vo/20858",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=32888",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34027",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34264",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34271",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34294",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34310",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34315",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34330",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34331",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34375",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34587",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34657",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34661",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34780",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=34815",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=35063",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=35143",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=35391",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=35392",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=35567",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=35730",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=35926",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36135",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36223",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36280",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36294",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36387",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36587",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36604",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36657",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36842",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=36975",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=37102",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=37133",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=37693",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=38385",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=38878",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=38922",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39002",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39189",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39193",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39706",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39726",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39771",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39778",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39783",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39791",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=39825",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=40075",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=40136",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=40802",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=40888",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=41016",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=41212",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=41518",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=41861",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=42047",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=42810",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=43102",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=43335",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=43562",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=43876",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=44382",
+  "https://anwendungen.bielefeld.de/bi/vo0050.asp?__kvonr=44448",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRv8fZgFg_5eB5Aw-GnSu2U",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSRxSMuxF2moDm1WnR3GJf4",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTGYINpwRVq3LklmJ1Bt1mc",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTVD3YyX0xC1hrcJ5SsdIgg",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTXhy5S_2_4sbn7juxx2AYE",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZULxlXHfU1C3HeP7T-RXYQs",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUVxAAs73bUMsw025DYPgzM",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUhU_5LXLjSg4UiYrSXEUng",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUt0d5gw-Phax1GnnJ90qic",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWJcHHYN__1acgitfqAAAjo",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWLfz5PMkhPY6rFEPxv6Sqk",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWhxRxyQI7gNv_gQm4nMWlY",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWpnHgSSNdufsOAsBjtiqw8",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZNPbZAM_PyFlwykMSX0fKs",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZcjqOVjAKxm9g8AOVEQOuY",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZa2wHa1biYXrxZGL_Uu3VXY",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaLSnDLQwsMPJq8MsES63Ik",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZc_D_llnLVxHwg7Zmtl_Lkg",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdmL3ik_2fIQ67_C2aaAir4",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdmsL_piBKEtsbb4KOnW7uQ",
+  "https://bochum.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZf8ZBT1kntCi2aJjV5wofvw",
+  "https://buergerinfo.coesfeld.de/vo0050.php?__kvonr=2004032604",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/127991",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/128176",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/128243",
@@ -111,6 +1129,8 @@
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135302",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135626",
   "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135628",
+  "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135850",
+  "https://buergerinfo.stadt-koeln.de/oparl/bodies/stadtverwaltung_koeln/papers/vo/135937",
   "https://castroprauxel.gremien.info/oparl/paper/310407100203",
   "https://castroprauxel.gremien.info/oparl/paper/311201100006",
   "https://castroprauxel.gremien.info/oparl/paper/312802100089",
@@ -128,6 +1148,23 @@
   "https://herford.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdlCOgIAcWRe9AMW2vL8wyI",
   "https://herford.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdtdnypVXHeCmi8iwNe3S7k",
   "https://herford.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZf_ArKjpMjxiuum8aX4b5m8",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=30577",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=33062",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=34813",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=35090",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=35342",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=35695",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=35701",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=35917",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=5099",
+  "https://mandatsinfo.bergischgladbach.de/bi/vo0050.asp?__kvonr=8411",
+  "https://ochtrup.gremien.info/oparl/paper/20220510100213",
+  "https://ochtrup.gremien.info/oparl/paper/20222308100176",
+  "https://ochtrup.gremien.info/oparl/paper/20230902100034",
+  "https://ochtrup.gremien.info/oparl/paper/20231407100132",
+  "https://ochtrup.gremien.info/oparl/paper/20232903100069",
+  "https://ochtrup.gremien.info/oparl/paper/20240205100126",
+  "https://ochtrup.gremien.info/oparl/paper/20241901100031",
   "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004050543",
   "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004050568",
   "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004051063",
@@ -141,6 +1178,25 @@
   "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004056346",
   "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004056347",
   "https://oparl.stadt-muenster.de/bodies/0001/papers/vo/2004056470",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=20629",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=20909",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=22501",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=23878",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24045",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24100",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24253",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=24463",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=25415",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=26109",
+  "https://ratsinfo.billerbeck.de/bi/to0050.asp?__ktonr=4367",
+  "https://ratsinfo.billerbeck.de/bi/vo0050.asp?__kvonr=4359",
+  "https://ratsinfo.billerbeck.de/bi/vo0050.asp?__kvonr=4402",
+  "https://ratsinfo.billerbeck.de/bi/vo0050.asp?__kvonr=4472",
+  "https://ratsinfo.billerbeck.de/bi/vo0050.asp?__kvonr=5715",
+  "https://ratsinfo.billerbeck.de/bi/vo0050.asp?__kvonr=5976",
+  "https://ratsinfo.billerbeck.de/bi/vo0050.asp?__kvonr=973",
+  "https://ratsinfo.bocholt.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQ012BtlHP-_ANbemskGnFw",
+  "https://ratsinfo.bocholt.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcdq93GnkQarX5w5QnfTGQo",
   "https://ratsinfo.langenberg.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRl3SSiAcmS0YAyF7BhdL1s",
   "https://ratsinfo.langenberg.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZULUB3GIAAGdHrTrfJX4bDA",
   "https://ratsinfo.langenberg.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVWm72l-guHk4mWyVsitSio",
@@ -152,8 +1208,76 @@
   "https://ratsinfo.langenberg.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaqvruRof2NgypIDMk36QH8",
   "https://ratsinfo.langenberg.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbJX5RhD9mF7v_FC6utee2E",
   "https://ratsinfo.langenberg.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZei7ygzmZRo7FKwUm266liA",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=130974&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=135769&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=136456&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=137335&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=138057&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=138191&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=138203&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=139707&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=140160&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=140199&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=140843&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=142064&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=142131&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=142208&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=142209&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=142321&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=143408&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=145043&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=145252&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=145333&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=145887&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=145999&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=146003&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=147144&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=148926&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=149656&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=156242&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=156478&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=156479&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=157355&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/to0050.asp?__ktonr=157928&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=14628&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=15798&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16050&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16317&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16515&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16540&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16572&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16755&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16901&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16956&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=16971&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=17305&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=17340&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=17538&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=17897&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=17969&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=17974&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=18088&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=18138&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=18143&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=18350&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=18540&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=18762&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=20202&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=20292&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=20293&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=20533&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=20743&smcspf=4",
+  "https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/vo0050.asp?__kvonr=20744&smcspf=4",
+  "https://ris-korschenbroich.itk-rheinland.de/SessionNetKorBi/to0050.asp?__ktonr=123456",
+  "https://ris-korschenbroich.itk-rheinland.de/SessionNetKorBi/vo0050.asp?__kvonr=6315",
   "https://ris.goch.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZa8k8W_u_wz_KP-oCmvVEzg",
   "https://ris.goch.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeJPJcDMiZvf3MDNJYclju0",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUd3JJegUTjCL__R8Yz4MX8",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdQU-laGoQd2TCQiZrHPdao",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdYArTsZ7SY8HOPZJAXNCCU",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfeYYIm_rigERCuBgiUHTnI",
+  "https://ris.issum.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZT3gWGipPSSsDQdkFOpTrag",
+  "https://ris.issum.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZapQtN1pHmh1aRD6UZ6S0A8",
   "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQ2X-EhnBsJAexUGGU7eq7Q",
   "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQIBiyEXzcwZefgPtRCvDQI",
   "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQn4W3nl0enywohGxa3v9UI",
@@ -173,6 +1297,17 @@
   "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfoGtV6ziGGnR67jN8Z0kJc",
   "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZftIuWFCJZ0xtUJFmWg2TL0",
   "https://ris.krefeld.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfv1s3Sj-wO99RRq3pnmC20",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQ_2sa-U9RrQMYOWYJM3jT0",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZU5VSQ0V4cr62TAp_yFeM-Y",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZV5ag6WEgWdllY5VG0HAgOE",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZY8zfMqaHZtycefkgwa24Fw",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZe-dY-zbV2N4N_AjtB4jqY",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZb2w5Sav2-YEV-MjSEFyYlU",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZerAcWcisfYL56FfXsamdP0",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZf5umxlZ68Bkb7Bn-wy9Xyk",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfN3Ia4eCgwiQIaCXDj4Kh4",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfWss2Z1lnY6OSY4U1aXLuE",
+  "https://ris.nettetal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfcEHbF4Hb2NowrYsSPlbNI",
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQ9IGfnmHiD3zj0gw0DydD8",
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUfPL3Fdh2gM6UIhBfQtiH8",
   "https://ris.schwalmtal.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaxC5uiZf6r7RPkQcWQ59qg",
@@ -197,6 +1332,128 @@
   "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRRVlMPKfRbLvYWdcca4LcM",
   "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZURHyfVez-yXC876UETWnoc",
   "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZd_r-Ul9wPLpJXMlV9Eb2BQ",
-  "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeen8gJdxgjYD2EwMp4rQXM"
- ]
+  "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeen8gJdxgjYD2EwMp4rQXM",
+  "https://schalksmuehle.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRHpDn7_gM8mdanK9wRLWbk",
+  "https://schalksmuehle.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXnL5fGxr2TX2xdg0wTObzU",
+  "https://schalksmuehle.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfiKqWbXER_cKSvczzg-Knc",
+  "https://sitzungsdienst.heinsberg.de/bi/to0050.asp?__ktonr=16960",
+  "https://sitzungsdienst.heinsberg.de/bi/to0050.asp?__ktonr=17041",
+  "https://sitzungsdienst.heinsberg.de/bi/vo0050.asp?__kvonr=15142",
+  "https://sitzungsdienst.heinsberg.de/bi/vo0050.asp?__kvonr=15182",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQhWs19o2Wji4ah3i0X0X_4",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZStjZI7y-VVG2IRN7b6h5MA",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTen4EvF8qi6X9hifs86VwU",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVj_xnQ6taOLOV2ywv0NGTg",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXj71KX6XzyMJY8ufivotuI",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYFtKkSPMlhViRVD0QynBTQ",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYt4tEImzG_JQ6WBy03mbOk",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZrEFOjizUi2ign3pgQ6rpY",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZa6kinOKoRTmUc5Ecu4ifaE",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaPq_vzBdk0I6ON-oGjmJWc",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbHJHzqR2Fs8fDpR7yv1-FA",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcMud11rAjb_iqlhNU2L8bk",
+  "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfKNjMkfgNGId-CMr54jCoQ",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_01-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_02-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_03-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_04-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_05-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_06-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_07-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_08-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_09-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_10-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/2026/Amtsblatt_11-2026.pdf",
+  "https://www.ahlen.de/fileadmin/Dateien/Stadtverwaltung/Amtsblatt/Datenschutzerklaerung_Amtsblatt.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-10-21_Satzungsbeschluss_BP096.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-10-26_Bekanntmachung_Entwurf_Haushalt_2027.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-10-30_Hambach.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-11-02_Entw%C3%A4sserung_Bekanntmachungsanordnung.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-11-02_Entw%C3%A4sserungssatzung.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-11-10_AWA-09a_Bekanntmachungstexte_JA_2025.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-11-10_WWA-09a_Bekanntmachungstexte_JA_2025.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2026-11-18_VorbereitungVer%C3%B6ffentlichungJAP2025.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2027-05-27_Bekanntmachung_Aufstellung_Offenlage.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2027-05-27_Bekanntmachungsanordnung.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/2026/2027-05-27_Uebersicht.pdf",
+  "https://www.alfter.de/fileadmin/redaktion/downloads/Bekanntmachungen/Haushalt-Finanzen/2026-11-04_B%C3%BCrgerinformationsveranstaltung_Haushalt_2027.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/2025_12_15_Hinweisbekanntmachung_neu.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/2026_03_31_Bekanntmachung_Satzungsaenderung_OGS.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/5._Sitzung_des_Ausschusses_fuer_Gemeindeentwicklung.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/5._Sitzung_des_Ausschusses_fuer_kommunale_Betriebe.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/Bekanntmachung_39.AEnderung_FNP.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/Bekanntmachung_42.-AEnderung-FNP.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/Bekanntmachung_GoeSiB.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/Flurbereinigungsverfahren_Liersbachtal___Auf_der_Heide.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/Jahrsabschluss_Abwasser.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/Jahrsabschluss_Wasser.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/OEffentlicheBekanntmachung.pdf",
+  "https://www.blankenheim.de/fileadmin/Dateien/Dateien/Rathaus/Bekanntmachungen/Planzeichnung_39.AEnderung_FNP.pdf",
+  "https://www.breckerfeld.de/images/Datenschutz/Datenschutz_Meldebehoerde.Breckerfeld.pdf",
+  "https://www.breckerfeld.de/images/Datenschutz/Datenschutzhinweise_Online_Terminvereinbarung.pdf",
+  "https://www.emsdetten.de/pdfs/rathaus-politik-buergerservice/amtsblaetter/2026/amtsblatt-nr.21-2026.pdf?cid=1yhm",
+  "https://www.emsdetten.de/pdfs/rathaus-politik-buergerservice/amtsblaetter/2026/amtsblatt-nr.22-2026.pdf?cid=1ykp",
+  "https://www.emsdetten.de/pdfs/rathaus-politik-buergerservice/amtsblaetter/2026/amtsblatt-nr.23-2026.pdf?cid=1ymj",
+  "https://www.emsdetten.de/pdfs/rathaus-politik-buergerservice/amtsblaetter/2026/amtsblatt-nr.24-2026.pdf?cid=1yqd",
+  "https://www.emsdetten.de/pdfs/rathaus-politik-buergerservice/amtsblaetter/2026/amtsblatt-nr.25-2026.pdf?cid=1ys4",
+  "https://www.emsdetten.de/rathaus-politik-buergerservice/strategische-ausrichtung/zukunft-emsdetten-2038/unser-weg/2022-08-18-impuls-megatrends-emsdetten2038-export.pdf?cid=1914",
+  "https://www.emsdetten.de/rathaus-politik-buergerservice/strategische-ausrichtung/zukunft-emsdetten-2038/unser-weg/protokoll-aufwachsen-emsdetten-2038-2023-01-21.pdf?cid=1ee4",
+  "https://www.emsdetten.de/rathaus-politik-buergerservice/strategische-ausrichtung/zukunft-emsdetten-2038/unser-weg/protokoll-freizeit-emsdetten-2038-2023-03-24.pdf?cid=1gz7",
+  "https://www.emsdetten.de/rathaus-politik-buergerservice/strategische-ausrichtung/zukunft-emsdetten-2038/unser-weg/protokoll-gesundheit-emsdetten-2038-2022-08-24.pdf?cid=1br4",
+  "https://www.emsdetten.de/rathaus-politik-buergerservice/strategische-ausrichtung/zukunft-emsdetten-2038/unser-weg/protokoll-okologie-emsdetten-2038-2023-02-25.pdf?cid=1fo7",
+  "https://www.emsdetten.de/rathaus-politik-buergerservice/strategische-ausrichtung/zukunft-emsdetten-2038/unser-weg/protokoll-st-ws-emsdetten-2038-2023-04-21.pdf?cid=1hnv",
+  "https://www.emsdetten.de/rathaus-politik-buergerservice/strategische-ausrichtung/zukunft-emsdetten-2038/unser-weg/visionen-zukunftswerkstatten-emsdetten-2038-2022-08-24.pdf?cid=1gzd",
+  "https://www.extertal.de/city_info/display/dokument/show.cfm?region_id=159&id=421341",
+  "https://www.extertal.de/city_info/display/dokument/show.cfm?region_id=159&id=421350",
+  "https://www.extertal.de/city_info/display/dokument/show.cfm?region_id=159&id=421461",
+  "https://www.gescher.de/medien/dokumente/bekanntmachung_der_amprion_gmbh_ueber_vorarbeiten_fuer_netzausbauvorhaben.pdf?20261013145042",
+  "https://www.gescher.de/medien/dokumente/bekanntmachung_der_bezirksregierung_muenster_flurbereinigungsbehoerde.pdf?20260827141053",
+  "https://www.gescher.de/medien/dokumente/bekanntmachung_homepage__18__.pdf?20260707180822",
+  "https://www.gescher.de/medien/dokumente/bekanntmachung_homepage__20__.pdf?20260706123433",
+  "https://www.gescher.de/medien/dokumente/bekanntmachung_homepage__21__.pdf?20260707181035",
+  "https://www.gescher.de/medien/dokumente/bekanntmachung_homepage__22__.pdf?20261117102540",
+  "https://www.gescher.de/medien/dokumente/bekanntmachung_internetseite_ja_2025_stadt.pdf?20260716160855",
+  "https://www.gescher.de/medien/dokumente/bpl_bekanntmachung_homepage__2__.pdf?20261110095001",
+  "https://www.gescher.de/medien/dokumente/bpl_bekanntmachung_homepage__4__.pdf?20261113084114",
+  "https://www.gescher.de/medien/dokumente/einladung_zur_mitgliederversammlung_des_wasser_und_bodenverbandes_obere_schlinge.pdf?20260709161211",
+  "https://www.gescher.de/medien/dokumente/entwurfhhsatzung_2027.pdf?20261106122015",
+  "https://www.gescher.de/medien/dokumente/fnp_bekanntmachung_homepage__2__.pdf?20261110094700",
+  "https://www.heek.de/downloads/datei/MDAwOGI0MWEwNjE5NGVkMENrWlRGY1VNdC9GSzNSK05xNmJGRDQ2SmE1RU5FU1NhZVpieTVwL2R3OVJBa1BqLzJoQXpZaFRhT2wwc2Q0OFNMRmxISHhOQ0grSENTTVBrdVI3MTV0U1lvZHdiM1d3MFJ4VFJvRHpQVldKSDlnNHJUUWNtYVBzTjVRbXhkTlBrenNzQzEzc2FGNDhzTlJrY2ZHMFYxVUxRN0U5MjVVdmg1V3RFdkxwV2VBWT0",
+  "https://www.heek.de/downloads/datei/MDEyZWU0YzU0NjhmZTBhM2JPazFEZVhIek1Rb3FXMStPdWF5ano4cUlBNUYwYWxJZENqUGp4blczSExBeDliOEpqTVM4OExjU3JsemhsZVNDWUw4aTBnOHYyb1BwQ1d3a3lWYTN2cWZDanp5dGxnV1lkWnFxemtQQ3FUaXJjcldYN09kTGgzZlAwd3Iva3p1",
+  "https://www.heek.de/downloads/datei/YjNiOTkzMmJmZDc2YmZiY0hXSmszYyt3NDRxTFhDYUlNcElGd0pQeEpqd1FQVTFMWE51b2hoeXZkcnhrZW50REh4dTRITWRsTzNsQ2h6N0JQVVFNbHdzMmtDSmtIclAwRnhJYmJsbUtHMzJIZjR0Y3NnOVZCNnYxWGtuQUNaRnoyeHNKb2w1MHl4RFM2ZVRVV0FJZ3YydWJHREhLQXhuZXlNazVqL0ZldjBSSitiVWkra25sQ2xlZWE2WT0",
+  "https://www.heek.de/downloads/datei/YjZlZDkzNDQwMDFmYWZiNTRNbk54Z2lSTW43UVc1Qy8xL0NqblNhc21GUUV1bWRWdTdXakV3WEU5NjV5bFZGOWxVOUJLaXQ2STdSWGd3NUVoRURNZDRPUUt2Y3hnY3FrekYySktjQjFKdENaWmQ3eTVFaloyZndzRjQweVV1ZXpqMVpRRXhEeUh3OWFtc0xW",
+  "https://www.heek.de/downloads/datei/ZDExOTZiOTM5ZjQyM2FlYjBxb0V4TzlCNzhKNGpKYmVjbjRhSGJlZ29vWkVCQVkrRjdRV0QzT2Ivd0M2bUtYYmlubEp4dmxZdEJJejgvWVhjL0N0L2ZwN2Vib1BkeHRncDBUcVp2ZVE0NjdXVkNJQnljUUg4NGVVeURmcjJzb2MxbUJVaWFleGt3NWg3elBwSWFpSVpnNzVvWExtY3B3MHhhR0VuQT09",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#0bf51689a6d7",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#2310b7704c69",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#58bdaf6068c1",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#5b169bb89a69",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#ad73135a253f",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#b84d1d085287",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#e9f9a25d7384",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=27077",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=27169",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=27438",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=28856",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=29060",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=29187",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=29203",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=31763",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=31814",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=32007",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=32274",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=34550",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=34641",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=34682",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006032613",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006032661",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006032792",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006032823",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006032905",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006032959",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006033278",
+  "https://www.nottuln.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2006033294"
+ ],
+ "Übach-Palenberg": {
+  "zuletzt": "2026-11-26"
+ }
 }
