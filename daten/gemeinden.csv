@@ -3305,34 +3305,34 @@ Q9393264,09471462,Zückshuter Forst,Bamberg,Bayern,,,49.95,10.9,,,,
 Q15310068,09574461,gemeindefreies Gebiet Leinburg,Nürnberger Land,Bayern,,,49.435330555,11.313688888,,,,
 Q257831,09189159,Übersee,Traunstein,Bayern,,https://www.uebersee.com/,47.816666666,12.466666666,,,,
 Q334666,09678186,Üchtelhausen,Schweinfurt,Bayern,,https://www.uechtelhausen.de/,50.083333333,10.266666666,,,,
-Q64,11000000,Berlin,Deutschland,Berlin,,https://www.berlin.de/,52.516666666,13.383333333,,,kein_ris,2026-11-23
-Q366076,12060005,Ahrensfelde,Barnim,Brandenburg,,https://www.ahrensfelde.de/,52.576194444,13.575277777,,,kein_ris,2026-11-02
-Q433372,12064009,Alt Tucheband,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52504,52.533333333,14.516666666,,,kein_ris,2026-11-02
-Q433427,12061005,Alt Zauche-Wußwerk,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Alt-Zauche-Wusswerk,51.916666666,14.016666666,,,kein_ris,2026-11-02
-Q435325,12066008,Altdöbern,Oberspreewald-Lausitz,Brandenburg,,https://www.gemeinde-altdoebern.de/,51.65,14.03333,,,kein_ris,2026-11-02
-Q441158,12060012,Althüttendorf,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73155,52.96234,13.806664,,,kein_ris,2026-11-02
+Q64,11000000,Berlin,Deutschland,Berlin,,https://www.berlin.de/,52.516666666,13.383333333,,,kein_ris,2026-11-25
+Q366076,12060005,Ahrensfelde,Barnim,Brandenburg,,https://www.ahrensfelde.de/,52.576194444,13.575277777,https://www.ahrensfelde.de/bi/vo040.asp,html,gefunden,2026-11-25
+Q433372,12064009,Alt Tucheband,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52504,52.533333333,14.516666666,,,kein_ris,2026-11-25
+Q433427,12061005,Alt Zauche-Wußwerk,Dahme-Spreewald,Brandenburg,,https://www.lieberose-oberspreewald.de/Die-Gemeinden/Alt-Zauche-Wusswerk,51.916666666,14.016666666,,,kein_ris,2026-11-25
+Q435325,12066008,Altdöbern,Oberspreewald-Lausitz,Brandenburg,,https://www.gemeinde-altdoebern.de/,51.65,14.03333,,,kein_ris,2026-11-25
+Q441158,12060012,Althüttendorf,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73155,52.96234,13.806664,,,kein_ris,2026-11-25
 Q442339,12064029,Altlandsberg,Märkisch-Oderland,Brandenburg,,https://www.altlandsberg.de/,52.566666666,13.733055555,https://ratsinfo-online.net/altlandsberg-bi/,auto,gefunden,2026-11-02
-Q451382,12072002,Am Mellensee,Teltow-Fläming,Brandenburg,,https://www.gemeinde-am-mellensee.de/,52.160495,13.400595,,,kein_ris,2026-11-02
-Q490066,12073008,Angermünde,Uckermark,Brandenburg,,https://www.angermuende.de/,53.033333333,14.0,,,kein_ris,2026-11-02
-Q523642,12069020,Bad Belzig,Potsdam-Mittelmark,Brandenburg,,https://www.bad-belzig.de/,52.142222222,12.595555555,,,kein_ris,2026-11-02
-Q427655,12064044,Bad Freienwalde (Oder),Märkisch-Oderland,Brandenburg,,https://bad-freienwalde.de/,52.785555555,14.0325,,,kein_ris,2026-11-02
-Q589277,12062024,Bad Liebenwerda,Elbe-Elster,Brandenburg,,https://www.badliebenwerda.de/,51.516666666,13.4,,,kein_ris,2026-11-02
-Q49421,12067024,Bad Saarow,Kreis Fürstenwalde,Brandenburg,Amt Scharmützelsee,https://www.bad-saarow.de/,52.291578,14.055805,,,kein_ris,2026-11-02
-Q570108,12070008,Bad Wilsnack,Prignitz,Brandenburg,,https://bad-wilsnack.de/,52.95,11.949722222,,,kein_ris,2026-11-02
-Q311543,12072014,Baruth/Mark,Teltow-Fläming,Brandenburg,,https://www.stadt-baruth-mark.de/,52.04637,13.501398,,,kein_ris,2026-11-02
+Q451382,12072002,Am Mellensee,Teltow-Fläming,Brandenburg,,https://www.gemeinde-am-mellensee.de/,52.160495,13.400595,,,kein_ris,2026-11-25
+Q490066,12073008,Angermünde,Uckermark,Brandenburg,,https://www.angermuende.de/,53.033333333,14.0,https://www.angermuende.de/bi/,sessionnet,gefunden,2026-11-25
+Q523642,12069020,Bad Belzig,Potsdam-Mittelmark,Brandenburg,,https://www.bad-belzig.de/,52.142222222,12.595555555,,,kein_ris,2026-11-25
+Q427655,12064044,Bad Freienwalde (Oder),Märkisch-Oderland,Brandenburg,,https://bad-freienwalde.de/,52.785555555,14.0325,,,kein_ris,2026-11-25
+Q589277,12062024,Bad Liebenwerda,Elbe-Elster,Brandenburg,,https://www.badliebenwerda.de/,51.516666666,13.4,,,kein_ris,2026-11-25
+Q49421,12067024,Bad Saarow,Kreis Fürstenwalde,Brandenburg,Amt Scharmützelsee,https://www.bad-saarow.de/,52.291578,14.055805,,,kein_ris,2026-11-25
+Q570108,12070008,Bad Wilsnack,Prignitz,Brandenburg,,https://bad-wilsnack.de/,52.95,11.949722222,,,kein_ris,2026-11-25
+Q311543,12072014,Baruth/Mark,Teltow-Fläming,Brandenburg,,https://www.stadt-baruth-mark.de/,52.04637,13.501398,,,kein_ris,2026-11-25
 Q544439,12069017,Beelitz,Potsdam-Mittelmark,Brandenburg,,https://beelitz.de/,52.233333333,12.966666666,https://beelitz.de/ratsinformation/,sessionnet,gefunden,2026-11-02
-Q572615,12067036,Beeskow,Oder-Spree,Brandenburg,,https://www.beeskow.de/,52.17217,14.246585,,,kein_ris,2026-11-02
-Q836639,12069018,Beetzsee,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,http://www.gemeinde-beetzsee.de/,52.466666666,12.55,,,kein_ris,2026-11-02
-Q624298,12069019,Beetzseeheide,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,https://www.beetzseeheide.org/,52.5,12.633055555,,,kein_ris,2026-11-02
-Q581980,12064053,Beiersdorf-Freudenberg,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373816/beiersdorf-freudenberg.html,52.696666666,13.801388888,,,kein_ris,2026-11-02
-Q636892,12069028,Bensdorf,Potsdam-Mittelmark,Brandenburg,,https://www.amt-wusterwitz.de/verzeichnis/objekt.php?mandat=74258,52.416666666,12.333055555,,,kein_ris,2026-11-02
-Q636945,12070028,Berge,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55442,53.233055555,11.866666666,,,kein_ris,2026-11-02
-Q627935,12067040,Berkenbrück,Oder-Spree,Brandenburg,,https://www.amt-odervorland.de/index.php_id=102,52.35,14.15,,,kein_ris,2026-11-02
-Q621916,12073032,Berkholz-Meyenburg,Schwedt/Oder,Brandenburg,,https://www.schwedt.eu/de/schwedt-entdecken/ortsteile/berkholzmeyenburg/31952,53.05,14.233333333,,,kein_ris,2026-11-02
-Q9300,12060020,Bernau bei Berlin,Barnim,Brandenburg,,https://www.bernau.de/,52.666666666,13.583055555,,,kein_ris,2026-11-02
-Q584757,12061017,Bersteland,Dahme-Spreewald,Brandenburg,Amt Unterspreewald,https://www.unterspreewald.de/Stadt-und-Gemeinden/Bersteland.htm,51.943516,13.784406,,,kein_ris,2026-11-02
-Q582789,12061020,Bestensee,Dahme-Spreewald,Brandenburg,,https://www.bestensee.de/,52.234027777,13.630694444,,,kein_ris,2026-11-02
-Q541642,12060024,Biesenthal,Barnim,Brandenburg,,https://www.stadt-biesenthal.de/,52.766666666,13.633055555,,,kein_ris,2026-11-02
+Q572615,12067036,Beeskow,Oder-Spree,Brandenburg,,https://www.beeskow.de/,52.17217,14.246585,https://session.beeskow.de:5848/bi/,sessionnet,gefunden,2026-11-25
+Q836639,12069018,Beetzsee,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,http://www.gemeinde-beetzsee.de/,52.466666666,12.55,,,kein_ris,2026-11-25
+Q624298,12069019,Beetzseeheide,Potsdam-Mittelmark,Brandenburg,Amt Beetzsee,https://www.beetzseeheide.org/,52.5,12.633055555,,,kein_ris,2026-11-25
+Q581980,12064053,Beiersdorf-Freudenberg,Märkisch-Oderland,Brandenburg,,https://www.amt-fahoe.de/seite/373816/beiersdorf-freudenberg.html,52.696666666,13.801388888,,,kein_ris,2026-11-25
+Q636892,12069028,Bensdorf,Potsdam-Mittelmark,Brandenburg,,https://www.amt-wusterwitz.de/verzeichnis/objekt.php?mandat=74258,52.416666666,12.333055555,,,kein_ris,2026-11-25
+Q636945,12070028,Berge,Prignitz,Brandenburg,,https://www.amtputlitz-berge.de/verzeichnis/visitenkarte.php?mandat=55442,53.233055555,11.866666666,,,kein_ris,2026-11-25
+Q627935,12067040,Berkenbrück,Oder-Spree,Brandenburg,,https://www.amt-odervorland.de/index.php_id=102,52.35,14.15,,,kein_ris,2026-11-25
+Q621916,12073032,Berkholz-Meyenburg,Schwedt/Oder,Brandenburg,,https://www.schwedt.eu/de/schwedt-entdecken/ortsteile/berkholzmeyenburg/31952,53.05,14.233333333,,,kein_ris,2026-11-25
+Q9300,12060020,Bernau bei Berlin,Barnim,Brandenburg,,https://www.bernau.de/,52.666666666,13.583055555,,,kein_ris,2026-11-25
+Q584757,12061017,Bersteland,Dahme-Spreewald,Brandenburg,Amt Unterspreewald,https://www.unterspreewald.de/Stadt-und-Gemeinden/Bersteland.htm,51.943516,13.784406,,,kein_ris,2026-11-25
+Q582789,12061020,Bestensee,Dahme-Spreewald,Brandenburg,,https://www.bestensee.de/,52.234027777,13.630694444,https://bestensee.ratsinfomanagement.net/,auto,gefunden,2026-11-25
+Q541642,12060024,Biesenthal,Barnim,Brandenburg,,https://www.stadt-biesenthal.de/,52.766666666,13.633055555,https://amt-biesenthal-barnim.ratsinfomanagement.net/termine/,auto,gefunden,2026-11-25
 Q587077,12065036,Birkenwerder,Oberhavel,Brandenburg,,https://www.birkenwerder.de/,52.6885,13.283051,,,kein_ris,2026-11-02
 Q574128,12072017,Blankenfelde-Mahlow,Teltow-Fläming,Brandenburg,,https://www.blankenfelde-mahlow.de/,52.35,13.4,,,kein_ris,2026-11-02
 Q583124,12064057,Bleyen-Genschmar,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52507,52.611944444,14.539444444,,,kein_ris,2026-11-02
@@ -3725,9 +3725,9 @@ Q199233,12069696,Ziesar,Potsdam-Mittelmark,Brandenburg,Amt Ziesar,https://www.zi
 Q199278,12060296,Ziethen,Barnim,Brandenburg,,https://www.amt-joachimsthal.de/texte/seite.php?id=73150,52.966666666,13.916666666,,,kein_ris,2026-11-15
 Q203347,12067552,Ziltendorf,Oder-Spree,Brandenburg,,http://www.ziltendorf.de/,52.216666666,14.65,,,kein_ris,2026-11-15
 Q226884,12072477,Zossen,Teltow-Fläming,Brandenburg,,https://www.zossen.de/,52.216666666,13.449722222,,,kein_ris,2026-11-15
-Q24879,04011000,Bremen,Freie Hansestadt Bremen,Bremen,,https://www.bremen.de/,53.075833333,8.807222222,,,kein_ris,2026-11-23
-Q2706,04012000,Bremerhaven,Freie Hansestadt Bremen,Bremen,,https://www.bremerhaven.de/,53.55,8.583333333,,,kein_ris,2026-11-23
-Q1055,02000000,Hamburg,Deutschland,Hamburg,,https://www.hamburg.de/,53.55,10.0,,,kein_ris,2026-11-23
+Q24879,04011000,Bremen,Freie Hansestadt Bremen,Bremen,,https://www.bremen.de/,53.075833333,8.807222222,,,kein_ris,2026-11-25
+Q2706,04012000,Bremerhaven,Freie Hansestadt Bremen,Bremen,,https://www.bremerhaven.de/,53.55,8.583333333,https://sitzungsdienst.bremerhaven.de/,sessionnet,gefunden,2026-11-25
+Q1055,02000000,Hamburg,Deutschland,Hamburg,,https://www.hamburg.de/,53.55,10.0,,,kein_ris,2026-11-25
 Q301056,06439001,Aarbergen,Rheingau-Taunus-Kreis,Hessen,,https://www.aarbergen.de/,50.246388888,8.072222222,https://rim.ekom21.de/aarbergen/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
 Q334649,06431001,Abtsteinach,Bergstraße,Hessen,,https://www.abtsteinach.de/,49.544166666,8.785486111,,,kein_ris,2026-11-23
 Q402210,06633001,Ahnatal,Kassel,Hessen,,https://www.ahnatal.de/,51.365,9.390833333,,,kein_ris,2026-11-23
@@ -4974,36 +4974,36 @@ Q248106,13076163,Zülow,,Mecklenburg-Vorpommern,Amt Stralendorf,http://www.amt-s
 Q248860,13074091,Züsow,,Mecklenburg-Vorpommern,Amt Neukloster-Warin,http://www.neukloster.de/doc/zuesow_info.htm,53.916666666,11.666666666,,,,
 Q248869,13075154,Züssow,,Mecklenburg-Vorpommern,Amt Züssow,http://www.amt-zuessow.de/,53.966666666,13.55,,,,
 Q334669,13075135,Ückeritz,,Mecklenburg-Vorpommern,Amt Usedom-Süd,http://www.ueckeritz.de,54.016666666,14.05,,,,
-Q16143,03361001,Achim,Verden,Niedersachsen,,https://www.achim.de/,53.01301,9.033031,,,kein_ris,2026-11-23
-Q354547,03159001,Adelebsen,Göttingen,Niedersachsen,,https://www.adelebsen.de/,51.58,9.754444444,,,kein_ris,2026-11-23
-Q354978,03351001,Adelheidsdorf,Celle,Niedersachsen,,https://www.wathlingen.de/,52.565555555,10.060555555,,,kein_ris,2026-11-23
-Q355904,03151001,Adenbüttel,Gifhorn,Niedersachsen,,https://www.adenbuettel.de/,52.380833333,10.4525,,,kein_ris,2026-11-23
-Q355913,03355001,Adendorf,Lüneburg,Niedersachsen,,http://www.adendorf.de/,53.283333333,10.45,,,kein_ris,2026-11-23
-Q356229,03254001,Adenstedt,Sibbesse,Niedersachsen,,http://www.samtgemeinde-sibbesse.de/,52.000277777,9.936388888,,,kein_ris,2026-11-23
-Q381811,03252001,Aerzen,Hameln-Pyrmont,Niedersachsen,,https://www.aerzen.de/,52.049583333,9.263777777,,,kein_ris,2026-11-23
-Q382750,03251001,Affinghausen,Diepholz,Niedersachsen,,https://www.gemeinde-affinghausen.de/,52.784055555,8.876527777,,,kein_ris,2026-11-23
-Q391337,03359001,Agathenburg,Stade,Niedersachsen,,http://www.horneburg.de/,53.563888888,9.529722222,,,kein_ris,2026-11-23
-Q400136,03357001,Ahausen,Rotenburg (Wümme),Niedersachsen,,http://www.sottrum.de/,53.064166666,9.314722222,,,kein_ris,2026-11-23
-Q400396,03358001,Ahlden (Aller),Heidekreis,Niedersachsen,,http://www.ahlden.de/,52.761388888,9.554166666,,,kein_ris,2026-11-23
-Q400503,03359002,Ahlerstedt,Stade,Niedersachsen,,http://www.ahlerstedt.de/,53.406944444,9.452777777,,,kein_ris,2026-11-23
-Q402327,03351002,Ahnsbeck,Celle,Niedersachsen,,http://www.ahnsbeck.de/,52.610833333,10.290555555,,,kein_ris,2026-11-23
-Q402328,03257001,Ahnsen,Schaumburg,Niedersachsen,,https://www.ahnsen-schaumburg.de/,52.2575,9.095277777,,,kein_ris,2026-11-23
+Q16143,03361001,Achim,Verden,Niedersachsen,,https://www.achim.de/,53.01301,9.033031,https://achim.ratsinfomanagement.net/termine/,auto,gefunden,2026-11-25
+Q354547,03159001,Adelebsen,Göttingen,Niedersachsen,,https://www.adelebsen.de/,51.58,9.754444444,,,kein_ris,2026-11-25
+Q354978,03351001,Adelheidsdorf,Celle,Niedersachsen,,https://www.wathlingen.de/,52.565555555,10.060555555,,,kein_ris,2026-11-25
+Q355904,03151001,Adenbüttel,Gifhorn,Niedersachsen,,https://www.adenbuettel.de/,52.380833333,10.4525,,,kein_ris,2026-11-25
+Q355913,03355001,Adendorf,Lüneburg,Niedersachsen,,http://www.adendorf.de/,53.283333333,10.45,https://www.adendorf.sitzung-online.de/public/si010/,auto,gesperrt,2026-11-25
+Q356229,03254001,Adenstedt,Sibbesse,Niedersachsen,,http://www.samtgemeinde-sibbesse.de/,52.000277777,9.936388888,,,kein_ris,2026-11-25
+Q381811,03252001,Aerzen,Hameln-Pyrmont,Niedersachsen,,https://www.aerzen.de/,52.049583333,9.263777777,https://www.aerzen.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q382750,03251001,Affinghausen,Diepholz,Niedersachsen,,https://www.gemeinde-affinghausen.de/,52.784055555,8.876527777,,,kein_ris,2026-11-25
+Q391337,03359001,Agathenburg,Stade,Niedersachsen,,http://www.horneburg.de/,53.563888888,9.529722222,https://www.horneburg.sitzung-online.de/personal/logon/,auto,gesperrt,2026-11-25
+Q400136,03357001,Ahausen,Rotenburg (Wümme),Niedersachsen,,http://www.sottrum.de/,53.064166666,9.314722222,,,kein_ris,2026-11-25
+Q400396,03358001,Ahlden (Aller),Heidekreis,Niedersachsen,,http://www.ahlden.de/,52.761388888,9.554166666,,,kein_ris,2026-11-25
+Q400503,03359002,Ahlerstedt,Stade,Niedersachsen,,http://www.ahlerstedt.de/,53.406944444,9.452777777,https://www.harsefeld.sitzung-online.de/ri/,auto,gesperrt,2026-11-25
+Q402327,03351002,Ahnsbeck,Celle,Niedersachsen,,http://www.ahnsbeck.de/,52.610833333,10.290555555,,,kein_ris,2026-11-25
+Q402328,03257001,Ahnsen,Schaumburg,Niedersachsen,,https://www.ahnsen-schaumburg.de/,52.2575,9.095277777,,,kein_ris,2026-11-25
 Q486543,03254002,Alfeld,Hildesheim,Niedersachsen,,https://www.alfeld.de/,51.988611111,9.826944444,https://ratsinfo.stadt-alfeld.de/bi/,sessionnet,gefunden,2026-11-23
-Q658483,03459001,Alfhausen,Osnabrück,Niedersachsen,,http://www.alfhausen.de/,52.501944444,7.951388888,,,kein_ris,2026-11-23
-Q515065,03357002,Alfstedt,Rotenburg (Wümme),Niedersachsen,,https://alfstedt.de/,53.548055555,9.067777777,,,kein_ris,2026-11-23
-Q574412,03254003,Algermissen,Hildesheim,Niedersachsen,,https://www.algermissen.de/,52.254444444,9.971111111,,,kein_ris,2026-11-23
+Q658483,03459001,Alfhausen,Osnabrück,Niedersachsen,,http://www.alfhausen.de/,52.501944444,7.951388888,,,kein_ris,2026-11-25
+Q515065,03357002,Alfstedt,Rotenburg (Wümme),Niedersachsen,,https://alfstedt.de/,53.548055555,9.067777777,,,kein_ris,2026-11-25
+Q574412,03254003,Algermissen,Hildesheim,Niedersachsen,,https://www.algermissen.de/,52.254444444,9.971111111,,,kein_ris,2026-11-25
 Q253635,03254004,Almstedt,Hildesheim,Niedersachsen,,,52.032575,9.962925,,,keine_homepage,2026-11-23
-Q436639,03153001,Altenau,Clausthal-Zellerfeld,Niedersachsen,,https://www.altenau.info/,51.8035,10.4473,,,kein_ris,2026-11-23
-Q437426,03360001,Altenmedingen,Uelzen,Niedersachsen,,https://altenmedingen.de/,53.132777777,10.604444444,,,kein_ris,2026-11-23
+Q436639,03153001,Altenau,Clausthal-Zellerfeld,Niedersachsen,,https://www.altenau.info/,51.8035,10.4473,,,kein_ris,2026-11-25
+Q437426,03360001,Altenmedingen,Uelzen,Niedersachsen,,https://altenmedingen.de/,53.132777777,10.604444444,,,kein_ris,2026-11-25
 Q9149316,03158501,Am Großen Rhode,Wolfenbüttel,Niedersachsen,,,52.2,10.7667,,,keine_homepage,2026-11-23
-Q461811,03355002,Amelinghausen,Lüneburg,Niedersachsen,,http://www.amelinghausen.de/,53.126666666,10.214722222,,,kein_ris,2026-11-23
-Q479687,03355049,Amt Neuhaus,Lüneburg,Niedersachsen,,https://www.amt-neuhaus.de/,53.285277777,10.932222222,,,kein_ris,2026-11-23
-Q490614,03357003,Anderlingen,Rotenburg (Wümme),Niedersachsen,,https://www.selsingen.de/rathaus/gemeinde-anderlingen,53.374166666,9.303611111,,,kein_ris,2026-11-23
-Q491769,03454001,Andervenne,Emsland,Niedersachsen,,http://www.freren.de/,52.510555555,7.5725,,,kein_ris,2026-11-23
+Q461811,03355002,Amelinghausen,Lüneburg,Niedersachsen,,http://www.amelinghausen.de/,53.126666666,10.214722222,,,kein_ris,2026-11-25
+Q479687,03355049,Amt Neuhaus,Lüneburg,Niedersachsen,,https://www.amt-neuhaus.de/,53.285277777,10.932222222,,,kein_ris,2026-11-25
+Q490614,03357003,Anderlingen,Rotenburg (Wümme),Niedersachsen,,https://www.selsingen.de/rathaus/gemeinde-anderlingen,53.374166666,9.303611111,,,kein_ris,2026-11-25
+Q491769,03454001,Andervenne,Emsland,Niedersachsen,,http://www.freren.de/,52.510555555,7.5725,https://www.freren.de/rathaus/ratsinformationssystem/,sessionnet,gefunden,2026-11-25
 Q557523,03459002,Ankum,Osnabrück,Niedersachsen,,http://www.ankum.de/,52.543333333,7.870833333,https://ris.bersenbrueck.de/bi/,sessionnet,gefunden,2026-11-23
-Q618147,03257002,Apelern,Schaumburg,Niedersachsen,,https://rodenberg.de/apelern/,52.290277777,9.337222222,,,kein_ris,2026-11-23
+Q618147,03257002,Apelern,Schaumburg,Niedersachsen,,https://rodenberg.de/apelern/,52.290277777,9.337222222,,,kein_ris,2026-11-25
 Q503471,03451001,Apen,Ammerland,Niedersachsen,,https://www.apen.de/,53.221388888,7.809722222,http://buergerinfo.apen.de/,sessionnet,gefunden,2026-11-23
-Q503857,03359003,Apensen,Stade,Niedersachsen,,https://www.apensen.de/,53.435833333,9.615555555,,,kein_ris,2026-11-23
+Q503857,03359003,Apensen,Stade,Niedersachsen,,https://www.apensen.de/,53.435833333,9.615555555,https://www.apensen.sitzung-online.de/public/,auto,gesperrt,2026-11-25
 Q620740,03353001,Appel,Harburg,Niedersachsen,,https://www.gemeinde-appel.de/,53.393055555,9.747222222,,,kein_ris,2026-11-23
 Q33984,03255001,Arholzen,Holzminden,Niedersachsen,,https://www.eschershausen-stadtoldendorf.de/,51.867777777,9.570555555,,,kein_ris,2026-11-23
 Q256680,03352002,Armstorf,Cuxhaven,Niedersachsen,,http://www.armstorf.de/,53.5979,9.074339722,,,kein_ris,2026-11-23
@@ -6014,135 +6014,135 @@ Q196850,03455027,Zetel,Friesland,Niedersachsen,,https://www.zetel.de/,53.4197222
 Q197045,03357057,Zeven,Kreis Zeven,Niedersachsen,,http://www.zeven.de,53.296944444,9.278888888,,,,
 Q226726,03156016,Zorge,Walkenried,Niedersachsen,,http://www.rathaus.walkenried.de,51.636666666,10.634722222,,,,
 Q1017,05334002,Aachen,Kreis Aachen,Nordrhein-Westfalen,,https://www.aachen.de/,50.776207,6.083788,https://ratsinfo.aachen.de/bi/oparl/1.0/system.asp,oparl,gefunden,2026-11-02
-Q14888,05554004,Ahaus,Kreis Borken,Nordrhein-Westfalen,,https://www.stadt-ahaus.de/,52.07936,7.01344,,,kein_ris,2026-11-23
-Q1132,05570004,Ahlen,Kreis Warendorf,Nordrhein-Westfalen,,https://www.ahlen.de/,51.763333333,7.891111111,,,kein_ris,2026-11-23
+Q14888,05554004,Ahaus,Kreis Borken,Nordrhein-Westfalen,,https://www.stadt-ahaus.de/,52.07936,7.01344,,,kein_ris,2026-11-25
+Q1132,05570004,Ahlen,Kreis Warendorf,Nordrhein-Westfalen,,https://www.ahlen.de/,51.763333333,7.891111111,https://www.ahlen.sitzung-online.de/public/,auto,gesperrt,2026-11-25
 Q199968,05358004,Aldenhoven,Kreis Düren,Nordrhein-Westfalen,,https://aldenhoven.de/,50.895833333,6.283055555,https://ratsinfo.aldenhoven.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
-Q254774,05382004,Alfter,Rhein-Sieg-Kreis,Nordrhein-Westfalen,,https://www.alfter.de/,50.735555555,7.009166666,,,kein_ris,2026-11-23
-Q162976,05170004,Alpen,Kreis Wesel,Nordrhein-Westfalen,,https://www.alpen.de/,51.575,6.5125,,,kein_ris,2026-11-23
-Q6992,05334004,Alsdorf,Städteregion Aachen,Nordrhein-Westfalen,,https://alsdorf.de/,50.874361111,6.161527777,,,kein_ris,2026-11-23
-Q5276,05962004,Altena,Märkischer Kreis,Nordrhein-Westfalen,,http://www.altena.de/,51.3,7.666666666,,,kein_ris,2026-11-23
-Q183262,05774004,Altenbeken,Kreis Paderborn,Nordrhein-Westfalen,,https://www.altenbeken.de/,51.766666666,8.933333333,,,kein_ris,2026-11-23
-Q181809,05566004,Altenberge,Kreis Steinfurt,Nordrhein-Westfalen,,https://altenberge.de/,52.045833333,7.465277777,,,kein_ris,2026-11-23
-Q11126,05974004,Anröchte,Kreis Soest,Nordrhein-Westfalen,,https://www.anroechte.de/,51.566666666,8.333333333,,,kein_ris,2026-11-23
-Q3912,05958004,Arnsberg,Hochsauerlandkreis,Nordrhein-Westfalen,,https://www.arnsberg.de/,51.396666666,8.064444444,,,kein_ris,2026-11-23
-Q14921,05558004,Ascheberg,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.ascheberg.de/,51.788888888,7.62,,,kein_ris,2026-11-23
-Q10887,05966004,Attendorn,Kreis Olpe,Nordrhein-Westfalen,,https://www.attendorn.de/,51.12645,7.90333,,,kein_ris,2026-11-23
-Q242632,05766004,Augustdorf,Kreis Lippe,Nordrhein-Westfalen,,https://www.augustdorf.de/,51.90944,8.73173,,,kein_ris,2026-11-23
-Q10944,05970004,Bad Berleburg,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.bad-berleburg.de/,51.049722222,8.4,,,kein_ris,2026-11-23
-Q242195,05762004,Bad Driburg,Kreis Höxter,Nordrhein-Westfalen,,https://www.bad-driburg.de/,51.733333333,9.016666666,,,kein_ris,2026-11-23
-Q12434,05382008,Bad Honnef,Rhein-Sieg-Kreis,Nordrhein-Westfalen,,https://meinbadhonnef.de/,50.645,7.226944444,,,kein_ris,2026-11-23
-Q6755,05970028,Bad Laasphe,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.stadt-badlaasphe.de/,50.930277777,8.416666666,,,kein_ris,2026-11-23
-Q183307,05774008,Bad Lippspringe,Kreis Paderborn,Nordrhein-Westfalen,,https://www.bad-lippspringe.de/,51.783333333,8.816666666,,,kein_ris,2026-11-23
+Q254774,05382004,Alfter,Rhein-Sieg-Kreis,Nordrhein-Westfalen,,https://www.alfter.de/,50.735555555,7.009166666,https://alfter.ratsinfomanagement.net/startseite/,auto,gesperrt,2026-11-25
+Q162976,05170004,Alpen,Kreis Wesel,Nordrhein-Westfalen,,https://www.alpen.de/,51.575,6.5125,,,kein_ris,2026-11-25
+Q6992,05334004,Alsdorf,Städteregion Aachen,Nordrhein-Westfalen,,https://alsdorf.de/,50.874361111,6.161527777,,,kein_ris,2026-11-25
+Q5276,05962004,Altena,Märkischer Kreis,Nordrhein-Westfalen,,http://www.altena.de/,51.3,7.666666666,https://altena.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
+Q183262,05774004,Altenbeken,Kreis Paderborn,Nordrhein-Westfalen,,https://www.altenbeken.de/,51.766666666,8.933333333,,,kein_ris,2026-11-25
+Q181809,05566004,Altenberge,Kreis Steinfurt,Nordrhein-Westfalen,,https://altenberge.de/,52.045833333,7.465277777,,,kein_ris,2026-11-25
+Q11126,05974004,Anröchte,Kreis Soest,Nordrhein-Westfalen,,https://www.anroechte.de/,51.566666666,8.333333333,https://www.anroechte.de/sitzungsdienst/,sessionnet,gefunden,2026-11-25
+Q3912,05958004,Arnsberg,Hochsauerlandkreis,Nordrhein-Westfalen,,https://www.arnsberg.de/,51.396666666,8.064444444,,,kein_ris,2026-11-25
+Q14921,05558004,Ascheberg,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.ascheberg.de/,51.788888888,7.62,https://www.ascheberg.de/bi/,sessionnet,gefunden,2026-11-25
+Q10887,05966004,Attendorn,Kreis Olpe,Nordrhein-Westfalen,,https://www.attendorn.de/,51.12645,7.90333,,,kein_ris,2026-11-25
+Q242632,05766004,Augustdorf,Kreis Lippe,Nordrhein-Westfalen,,https://www.augustdorf.de/,51.90944,8.73173,https://www.augustdorf.de/ratsinformationssystem/,sessionnet,gefunden,2026-11-25
+Q10944,05970004,Bad Berleburg,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.bad-berleburg.de/,51.049722222,8.4,,,kein_ris,2026-11-25
+Q242195,05762004,Bad Driburg,Kreis Höxter,Nordrhein-Westfalen,,https://www.bad-driburg.de/,51.733333333,9.016666666,,,kein_ris,2026-11-25
+Q12434,05382008,Bad Honnef,Rhein-Sieg-Kreis,Nordrhein-Westfalen,,https://meinbadhonnef.de/,50.645,7.226944444,,,kein_ris,2026-11-25
+Q6755,05970028,Bad Laasphe,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.stadt-badlaasphe.de/,50.930277777,8.416666666,,,kein_ris,2026-11-25
+Q183307,05774008,Bad Lippspringe,Kreis Paderborn,Nordrhein-Westfalen,,https://www.bad-lippspringe.de/,51.783333333,8.816666666,,,kein_ris,2026-11-25
 Q241450,05366004,Bad Münstereifel,Kreis Euskirchen,Nordrhein-Westfalen,,https://www.bad-muenstereifel.de/,50.553055555,6.766111111,https://ratsinfo.bad-muenstereifel.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
-Q6858,05770004,Bad Oeynhausen,Kreis Minden-Lübbecke,Nordrhein-Westfalen,,https://www.badoeynhausen.de/,52.2,8.8,,,kein_ris,2026-11-23
-Q4108,05766008,Bad Salzuflen,Kreis Lippe,Nordrhein-Westfalen,,https://www.stadt-bad-salzuflen.de/,52.083333333,8.746666666,,,kein_ris,2026-11-23
-Q11130,05974008,Bad Sassendorf,Kreis Soest,Nordrhein-Westfalen,,https://rathaus.bad-sassendorf.de/,51.583055555,8.166666666,,,kein_ris,2026-11-23
-Q183345,05774040,Bad Wünnenberg,Kreis Paderborn,Nordrhein-Westfalen,,https://www.bad-wuennenberg.de/,51.516666666,8.7,,,kein_ris,2026-11-23
-Q200894,05334008,Baesweiler,Städteregion Aachen,Nordrhein-Westfalen,,https://www.baesweiler.de/,50.90615,6.18735,,,kein_ris,2026-11-23
-Q5274,05962008,Balve,Märkischer Kreis,Nordrhein-Westfalen,,https://www.balve.de/,51.333333333,7.866666666,,,kein_ris,2026-11-23
-Q242953,05766012,Barntrup,Kreis Lippe,Nordrhein-Westfalen,,https://www.barntrup.de/,51.9935,9.1206,,,kein_ris,2026-11-23
-Q2707,05570008,Beckum,Kreis Warendorf,Nordrhein-Westfalen,,https://www.beckum.de/,51.755833333,8.040833333,,,kein_ris,2026-11-23
+Q6858,05770004,Bad Oeynhausen,Kreis Minden-Lübbecke,Nordrhein-Westfalen,,https://www.badoeynhausen.de/,52.2,8.8,,,kein_ris,2026-11-25
+Q4108,05766008,Bad Salzuflen,Kreis Lippe,Nordrhein-Westfalen,,https://www.stadt-bad-salzuflen.de/,52.083333333,8.746666666,https://bad-salzuflen.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
+Q11130,05974008,Bad Sassendorf,Kreis Soest,Nordrhein-Westfalen,,https://rathaus.bad-sassendorf.de/,51.583055555,8.166666666,https://rathaus.bad-sassendorf.de/ratsinfo/,sessionnet,gefunden,2026-11-25
+Q183345,05774040,Bad Wünnenberg,Kreis Paderborn,Nordrhein-Westfalen,,https://www.bad-wuennenberg.de/,51.516666666,8.7,,,kein_ris,2026-11-25
+Q200894,05334008,Baesweiler,Städteregion Aachen,Nordrhein-Westfalen,,https://www.baesweiler.de/,50.90615,6.18735,,,kein_ris,2026-11-25
+Q5274,05962008,Balve,Märkischer Kreis,Nordrhein-Westfalen,,https://www.balve.de/,51.333333333,7.866666666,https://balve.ratsinfomanagement.net/gremien/,auto,gefunden,2026-11-25
+Q242953,05766012,Barntrup,Kreis Lippe,Nordrhein-Westfalen,,https://www.barntrup.de/,51.9935,9.1206,https://barntrup.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
+Q2707,05570008,Beckum,Kreis Warendorf,Nordrhein-Westfalen,,https://www.beckum.de/,51.755833333,8.040833333,,,kein_ris,2026-11-25
 Q245292,05362004,Bedburg,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.bedburg.de/,51.0,6.5625,https://sdnetrim.kdvz-frechen.de/rim4780/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
-Q243433,05154004,Bedburg-Hau,Kreis Kleve,Nordrhein-Westfalen,,https://www.bedburg-hau.de/,51.766666666,6.183333333,,,kein_ris,2026-11-23
+Q243433,05154004,Bedburg-Hau,Kreis Kleve,Nordrhein-Westfalen,,https://www.bedburg-hau.de/,51.766666666,6.183333333,,,kein_ris,2026-11-25
 Q2815,05570012,Beelen,Kreis Warendorf,Nordrhein-Westfalen,,https://www.beelen.de/,51.929166666,8.118055555,https://www.beelen.de/verwaltung-politik/sitzungsdienste-bis-112020/,sessionnet,gefunden,2026-11-23
 Q3989,05362008,Bergheim,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.bergheim.de/,50.954061111,6.641238888,https://sdnetrim.kdvz-frechen.de/rim4800/webservice/oparl/v1.0/system,oparl,gefunden,2026-11-02
-Q3117,05378004,Bergisch Gladbach,Rheinisch-Bergischer Kreis,Nordrhein-Westfalen,,https://www.bergischgladbach.de/,50.991666666,7.136666666,,,kein_ris,2026-11-23
-Q4192,05978004,Bergkamen,Kreis Unna,Nordrhein-Westfalen,,https://www.bergkamen.de/,51.616666666,7.633333333,,,kein_ris,2026-11-23
-Q10976,05374004,Bergneustadt,Oberbergischer Kreis,Nordrhein-Westfalen,,https://www.bergneustadt.de/,51.020833333,7.648055555,,,kein_ris,2026-11-23
-Q10928,05958008,Bestwig,Hochsauerlandkreis,Nordrhein-Westfalen,,https://bestwig.de/,51.366666666,8.4,,,kein_ris,2026-11-23
-Q242098,05762008,Beverungen,Kreis Höxter,Nordrhein-Westfalen,,https://www.beverungen.de/,51.662777777,9.3725,,,kein_ris,2026-11-23
+Q3117,05378004,Bergisch Gladbach,Rheinisch-Bergischer Kreis,Nordrhein-Westfalen,,https://www.bergischgladbach.de/,50.991666666,7.136666666,https://mandatsinfo.bergischgladbach.de/bi/,sessionnet,gefunden,2026-11-25
+Q4192,05978004,Bergkamen,Kreis Unna,Nordrhein-Westfalen,,https://www.bergkamen.de/,51.616666666,7.633333333,,,kein_ris,2026-11-25
+Q10976,05374004,Bergneustadt,Oberbergischer Kreis,Nordrhein-Westfalen,,https://www.bergneustadt.de/,51.020833333,7.648055555,,,kein_ris,2026-11-25
+Q10928,05958008,Bestwig,Hochsauerlandkreis,Nordrhein-Westfalen,,https://bestwig.de/,51.366666666,8.4,,,kein_ris,2026-11-25
+Q242098,05762008,Beverungen,Kreis Höxter,Nordrhein-Westfalen,,https://www.beverungen.de/,51.662777777,9.3725,,,kein_ris,2026-11-25
 Q2112,05711000,Bielefeld,Regierungsbezirk Detmold,Nordrhein-Westfalen,,https://www.bielefeld.de/,52.016666666,8.533333333,https://anwendungen.bielefeld.de/bi/,sessionnet,gefunden,2026-11-23
 Q14946,05558008,Billerbeck,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.billerbeck.de/,51.979166666,7.295,https://ratsinfo.billerbeck.de/bi/,sessionnet,gefunden,2026-11-23
-Q241235,05366008,Blankenheim,Kreis Euskirchen,Nordrhein-Westfalen,,https://www.blankenheim.de/,50.433055555,6.65,,,kein_ris,2026-11-23
-Q168646,05766016,Blomberg,Kreis Lippe,Nordrhein-Westfalen,,https://www.blomberg-lippe.de/,51.933055555,9.083055555,,,kein_ris,2026-11-23
+Q241235,05366008,Blankenheim,Kreis Euskirchen,Nordrhein-Westfalen,,https://www.blankenheim.de/,50.433055555,6.65,https://blankenheim.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
+Q168646,05766016,Blomberg,Kreis Lippe,Nordrhein-Westfalen,,https://www.blomberg-lippe.de/,51.933055555,9.083055555,,,kein_ris,2026-11-25
 Q3917,05554008,Bocholt,Kreis Borken,Nordrhein-Westfalen,,https://www.bocholt.de/,51.833333333,6.616666666,https://ratsinfo.bocholt.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-23
-Q2103,05911000,Bochum,Regierungsbezirk Arnsberg,Nordrhein-Westfalen,,https://www.bochum.de/,51.483333333,7.216666666,,,kein_ris,2026-11-23
+Q2103,05911000,Bochum,Regierungsbezirk Arnsberg,Nordrhein-Westfalen,,https://www.bochum.de/,51.483333333,7.216666666,https://bochum.ratsinfomanagement.net/,auto,gefunden,2026-11-25
 Q586,05314000,Bonn,Regierungsbezirk Köln,Nordrhein-Westfalen,,https://www.bonn.de/,50.735277777,7.102222222,https://www.bonn.sitzung-online.de/public/oparl/system,oparl,gefunden,2026-11-02
-Q183374,05774012,Borchen,Kreis Paderborn,Nordrhein-Westfalen,,https://www.borchen.de/,51.666666666,8.733333333,,,kein_ris,2026-11-23
-Q241978,05762012,Borgentreich,Kreis Höxter,Nordrhein-Westfalen,,https://www.borgentreich.de/,51.569169444,9.241130555,,,kein_ris,2026-11-23
-Q225794,05754004,Borgholzhausen,Kreis Gütersloh,Nordrhein-Westfalen,,https://www.borgholzhausen.de/,52.1,8.3,,,kein_ris,2026-11-23
-Q453,05554012,Borken,Kreis Borken,Nordrhein-Westfalen,,https://www.borken.de/,51.843888888,6.858333333,,,kein_ris,2026-11-23
+Q183374,05774012,Borchen,Kreis Paderborn,Nordrhein-Westfalen,,https://www.borchen.de/,51.666666666,8.733333333,https://borchen.more-rubin1.de/,auto,gefunden,2026-11-25
+Q241978,05762012,Borgentreich,Kreis Höxter,Nordrhein-Westfalen,,https://www.borgentreich.de/,51.569169444,9.241130555,,,kein_ris,2026-11-25
+Q225794,05754004,Borgholzhausen,Kreis Gütersloh,Nordrhein-Westfalen,,https://www.borgholzhausen.de/,52.1,8.3,,,kein_ris,2026-11-25
+Q453,05554012,Borken,Kreis Borken,Nordrhein-Westfalen,,https://www.borken.de/,51.843888888,6.858333333,,,kein_ris,2026-11-25
 Q6852,05382012,Bornheim,Rhein-Sieg-Kreis,Nordrhein-Westfalen,,https://www.bornheim.de/,50.759166666,7.005,https://www.bornheim.de/rathaus/ratsinformationssystem/,sessionnet,gefunden,2026-11-23
-Q3069,05512000,Bottrop,Regierungsbezirk Münster,Nordrhein-Westfalen,,https://www.bottrop.de/,51.52325,6.925269444,,,kein_ris,2026-11-23
-Q242149,05762016,Brakel,Kreis Höxter,Nordrhein-Westfalen,,https://www.brakel.de/,51.716666666,9.183333333,,,kein_ris,2026-11-23
-Q11323,05954004,Breckerfeld,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,https://www.breckerfeld.de/,51.261111111,7.466666666,,,kein_ris,2026-11-23
+Q3069,05512000,Bottrop,Regierungsbezirk Münster,Nordrhein-Westfalen,,https://www.bottrop.de/,51.52325,6.925269444,,,kein_ris,2026-11-25
+Q242149,05762016,Brakel,Kreis Höxter,Nordrhein-Westfalen,,https://www.brakel.de/,51.716666666,9.183333333,https://ratsinfo.brakel.de/,sessionnet,gefunden,2026-11-25
+Q11323,05954004,Breckerfeld,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,https://www.breckerfeld.de/,51.261111111,7.466666666,https://breckerfeld.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
 Q5642,05958012,Brilon,Hochsauerlandkreis,Nordrhein-Westfalen,,https://www.brilon.de/,51.395555555,8.567777777,https://www.brilon.de/rathaus-politik/dienstleistungen-und-themenbereiche-a-z/dienstleistung/show/kommunalpolitik/,sessionnet,gefunden,2026-11-23
-Q163693,05166004,Brüggen,Kreis Viersen,Nordrhein-Westfalen,,https://www.brueggen.de/,51.241666666,6.182222222,,,kein_ris,2026-11-23
+Q163693,05166004,Brüggen,Kreis Viersen,Nordrhein-Westfalen,,https://www.brueggen.de/,51.241666666,6.182222222,,,kein_ris,2026-11-25
 Q7036,05362012,Brühl,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://bruehl.de,50.833333333,6.9,https://ratsinfo.bruehl.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
-Q10952,05970008,Burbach,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.burbach-siegerland.de/,50.744444444,8.086111111,,,kein_ris,2026-11-23
-Q245579,05378008,Burscheid,Rheinisch-Bergischer Kreis,Nordrhein-Westfalen,,https://www.burscheid.de/,51.085555555,7.113611111,,,kein_ris,2026-11-23
-Q10938,05978008,Bönen,Kreis Unna,Nordrhein-Westfalen,,https://www.boenen.de/,51.598611111,7.759166666,,,kein_ris,2026-11-23
-Q7021,05758004,Bünde,Kreis Herford,Nordrhein-Westfalen,,https://www.buende.de/,52.2,8.6,,,kein_ris,2026-11-23
-Q183404,05774016,Büren,Kreis Paderborn,Nordrhein-Westfalen,,https://www.bueren.de/,51.55,8.566666666,,,kein_ris,2026-11-23
+Q10952,05970008,Burbach,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.burbach-siegerland.de/,50.744444444,8.086111111,,,kein_ris,2026-11-25
+Q245579,05378008,Burscheid,Rheinisch-Bergischer Kreis,Nordrhein-Westfalen,,https://www.burscheid.de/,51.085555555,7.113611111,,,kein_ris,2026-11-25
+Q10938,05978008,Bönen,Kreis Unna,Nordrhein-Westfalen,,https://www.boenen.de/,51.598611111,7.759166666,,,kein_ris,2026-11-25
+Q7021,05758004,Bünde,Kreis Herford,Nordrhein-Westfalen,,https://www.buende.de/,52.2,8.6,,,kein_ris,2026-11-25
+Q183404,05774016,Büren,Kreis Paderborn,Nordrhein-Westfalen,,https://www.bueren.de/,51.55,8.566666666,,,kein_ris,2026-11-25
 Q3898,05562004,Castrop-Rauxel,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.castrop-rauxel.de/,51.55,7.316666666,https://castroprauxel.gremien.info/oparl,oparl,gefunden,2026-11-02
-Q14914,05558012,Coesfeld,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.coesfeld.de/,51.945833333,7.1675,,,kein_ris,2026-11-23
-Q241048,05366012,Dahlem,Kreis Euskirchen,Nordrhein-Westfalen,,https://www.dahlem.de/,50.383055555,6.549722222,,,kein_ris,2026-11-23
-Q14940,05562008,Datteln,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.datteln.de/,51.653888888,7.341666666,,,kein_ris,2026-11-23
-Q16146,05774020,Delbrück,Kreis Paderborn,Nordrhein-Westfalen,,https://www.stadt-delbrueck.de/,51.766666666,8.566666666,,,kein_ris,2026-11-23
-Q3922,05766020,Detmold,Kreis Lippe,Nordrhein-Westfalen,,https://www.detmold.de/,51.937777777,8.883333333,,,kein_ris,2026-11-23
-Q3939,05170008,Dinslaken,Kreis Wesel,Nordrhein-Westfalen,,https://www.dinslaken.de/,51.566666666,6.733333333,,,kein_ris,2026-11-23
-Q3978,05162004,Dormagen,Rhein-Kreis Neuss,Nordrhein-Westfalen,,https://www.dormagen.de/,51.0964,6.84,,,kein_ris,2026-11-23
-Q3886,05562012,Dorsten,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.dorsten.de/,51.66,6.964166666,,,kein_ris,2026-11-23
-Q1295,05913000,Dortmund,Regierungsbezirk Arnsberg,Nordrhein-Westfalen,,https://www.dortmund.de/,51.513888888,7.465277777,,,kein_ris,2026-11-23
+Q14914,05558012,Coesfeld,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.coesfeld.de/,51.945833333,7.1675,https://buergerinfo.coesfeld.de/,sessionnet,gefunden,2026-11-25
+Q241048,05366012,Dahlem,Kreis Euskirchen,Nordrhein-Westfalen,,https://www.dahlem.de/,50.383055555,6.549722222,,,kein_ris,2026-11-25
+Q14940,05562008,Datteln,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.datteln.de/,51.653888888,7.341666666,,,kein_ris,2026-11-25
+Q16146,05774020,Delbrück,Kreis Paderborn,Nordrhein-Westfalen,,https://www.stadt-delbrueck.de/,51.766666666,8.566666666,,,kein_ris,2026-11-25
+Q3922,05766020,Detmold,Kreis Lippe,Nordrhein-Westfalen,,https://www.detmold.de/,51.937777777,8.883333333,https://www.detmold.de/ratsinformationssystem/,sessionnet,gefunden,2026-11-25
+Q3939,05170008,Dinslaken,Kreis Wesel,Nordrhein-Westfalen,,https://www.dinslaken.de/,51.566666666,6.733333333,,,kein_ris,2026-11-25
+Q3978,05162004,Dormagen,Rhein-Kreis Neuss,Nordrhein-Westfalen,,https://www.dormagen.de/,51.0964,6.84,,,kein_ris,2026-11-25
+Q3886,05562012,Dorsten,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.dorsten.de/,51.66,6.964166666,,,kein_ris,2026-11-25
+Q1295,05913000,Dortmund,Regierungsbezirk Arnsberg,Nordrhein-Westfalen,,https://www.dortmund.de/,51.513888888,7.465277777,,,kein_ris,2026-11-25
 Q2713,05570016,Drensteinfurt,Kreis Warendorf,Nordrhein-Westfalen,,https://www.drensteinfurt.de/,51.794444444,7.739166666,https://www.drensteinfurt.de/rathaus-politik/politik/kommunalpolitik-ratsinformationssystem-ris-/,sessionnet,gefunden,2026-11-23
-Q10890,05966008,Drolshagen,Kreis Olpe,Nordrhein-Westfalen,,https://www.drolshagen.de/,51.02375,7.777194444,,,kein_ris,2026-11-23
-Q2100,05112000,Duisburg,Regierungsbezirk Düsseldorf,Nordrhein-Westfalen,,https://duisburg.de,51.432222222,6.761111111,,,kein_ris,2026-11-23
-Q242572,05766024,Dörentrup,Kreis Lippe,Nordrhein-Westfalen,,https://www.doerentrup-lippe.de/,52.033055555,9.0,,,kein_ris,2026-11-23
+Q10890,05966008,Drolshagen,Kreis Olpe,Nordrhein-Westfalen,,https://www.drolshagen.de/,51.02375,7.777194444,,,kein_ris,2026-11-25
+Q2100,05112000,Duisburg,Regierungsbezirk Düsseldorf,Nordrhein-Westfalen,,https://duisburg.de,51.432222222,6.761111111,,,kein_ris,2026-11-25
+Q242572,05766024,Dörentrup,Kreis Lippe,Nordrhein-Westfalen,,https://www.doerentrup-lippe.de/,52.033055555,9.0,,,kein_ris,2026-11-25
 Q6910,05558016,Dülmen,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.duelmen.de/,51.830833333,7.278333333,https://sessionweb.duelmen.de/gi/,sessionnet,gefunden,2026-11-23
 Q1884,05358008,Düren,Kreis Düren,Nordrhein-Westfalen,,https://www.dueren.de/,50.8031684,6.4820806,https://www.dueren.de/verwaltung-politik/politik/ratsinformationssystem/,sessionnet,gefunden,2026-11-23
 Q1718,05111000,Düsseldorf,Regierungsbezirk Düsseldorf,Nordrhein-Westfalen,,https://www.duesseldorf.de/,51.225555555,6.776666666,https://ris-oparl.itk-rheinland.de/Oparl/system,oparl,gefunden,2026-11-02
 Q254649,05382016,Eitorf,Rhein-Sieg-Kreis,Nordrhein-Westfalen,,https://www.eitorf.de/,50.769722222,7.451666666,https://www.eitorf.de/rathaus/rat-buergermeister/ratsinformationssystem/,sessionnet,gefunden,2026-11-23
-Q4615,05362016,Elsdorf,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.elsdorf.de/,50.933333333,6.566666666,,,kein_ris,2026-11-23
+Q4615,05362016,Elsdorf,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.elsdorf.de/,50.933333333,6.566666666,,,kein_ris,2026-11-25
 Q57006,05154008,Emmerich am Rhein,Kreis Kleve,Nordrhein-Westfalen,,https://www.emmerich.de/,51.835,6.245277777,https://ratsinfo-emmerich.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-23
-Q14936,05566008,Emsdetten,Kreis Steinfurt,Nordrhein-Westfalen,,https://www.emsdetten.de/,52.172777777,7.534444444,,,kein_ris,2026-11-23
-Q11046,05374008,Engelskirchen,Oberbergischer Kreis,Nordrhein-Westfalen,,https://www.engelskirchen.de/,50.983333333,7.416666666,,,kein_ris,2026-11-23
+Q14936,05566008,Emsdetten,Kreis Steinfurt,Nordrhein-Westfalen,,https://www.emsdetten.de/,52.172777777,7.534444444,https://emsdetten.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
+Q11046,05374008,Engelskirchen,Oberbergischer Kreis,Nordrhein-Westfalen,,https://www.engelskirchen.de/,50.983333333,7.416666666,,,kein_ris,2026-11-25
 Q53901,05758008,Enger,Kreis Herford,Nordrhein-Westfalen,,https://www.enger.de/,52.133333333,8.566666666,https://enger.ratsinfomanagement.net/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
-Q11301,05954008,Ennepetal,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,http://www.ennepetal.de/,51.302119444,7.3425,,,kein_ris,2026-11-23
-Q2760,05570020,Ennigerloh,Kreis Warendorf,Nordrhein-Westfalen,,https://www.stadt-ennigerloh.de/,51.836666666,8.025555555,,,kein_ris,2026-11-23
-Q6111,05974012,Ense,Kreis Soest,Nordrhein-Westfalen,,https://www.gemeinde-ense.de/,51.502097,7.970325,,,kein_ris,2026-11-23
+Q11301,05954008,Ennepetal,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,http://www.ennepetal.de/,51.302119444,7.3425,,,kein_ris,2026-11-25
+Q2760,05570020,Ennigerloh,Kreis Warendorf,Nordrhein-Westfalen,,https://www.stadt-ennigerloh.de/,51.836666666,8.025555555,https://www.stadt-ennigerloh.de/bi/,sessionnet,gefunden,2026-11-25
+Q6111,05974012,Ense,Kreis Soest,Nordrhein-Westfalen,,https://www.gemeinde-ense.de/,51.502097,7.970325,https://www.gemeinde-ense.de/politik-verwaltung/politik/buergerinformationssystem/,sessionnet,gefunden,2026-11-25
 Q4195,05362020,Erftstadt,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.erftstadt.de/,50.816666666,6.766666666,https://sdnetrim.kdvz-frechen.de/rim4490/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
 Q7025,05370004,Erkelenz,Kreis Heinsberg,Nordrhein-Westfalen,,https://www.erkelenz.de/,51.08,6.315555555,https://ratsinfo.erkelenz.de/bi/oparl/1.0/system.asp,oparl,gefunden,2026-11-02
-Q6968,05158004,Erkrath,Kreis Mettmann,Nordrhein-Westfalen,,https://www.erkrath.de/,51.223888888,6.914722222,,,kein_ris,2026-11-23
-Q10956,05970012,Erndtebrück,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.erndtebrueck.de/,50.988888888,8.255555555,,,kein_ris,2026-11-23
+Q6968,05158004,Erkrath,Kreis Mettmann,Nordrhein-Westfalen,,https://www.erkrath.de/,51.223888888,6.914722222,https://erkrath.ratsinfomanagement.net/startseite/,auto,gefunden,2026-11-25
+Q10956,05970012,Erndtebrück,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.erndtebrueck.de/,50.988888888,8.255555555,,,kein_ris,2026-11-25
 Q11064,05974016,Erwitte,Kreis Soest,Nordrhein-Westfalen,,https://www.erwitte.de/,51.616666666,8.349722222,https://www.erwitte.de/stadt/stadtverwaltung/rat-politik/sitzungsdienst/,sessionnet,gefunden,2026-11-23
-Q4083,05334012,Eschweiler,Städteregion Aachen,Nordrhein-Westfalen,,https://www.eschweiler.de/,50.816666666,6.283333333,,,kein_ris,2026-11-23
-Q10929,05958016,Eslohe (Sauerland),Hochsauerlandkreis,Nordrhein-Westfalen,,https://www.eslohe.de/,51.25,8.166666666,,,kein_ris,2026-11-23
-Q182691,05770008,Espelkamp,Kreis Minden-Lübbecke,Nordrhein-Westfalen,,https://www.espelkamp.de/,52.377222222,8.632777777,,,kein_ris,2026-11-23
-Q2066,05113000,Essen,Regierungsbezirk Düsseldorf,Nordrhein-Westfalen,,https://www.essen.de/,51.450833333,7.013055555,,,kein_ris,2026-11-23
-Q4074,05366016,Euskirchen,Kreis Euskirchen,Nordrhein-Westfalen,,https://www.euskirchen.de/,50.661277777,6.787255555,,,kein_ris,2026-11-23
-Q2809,05570024,Everswinkel,Kreis Warendorf,Nordrhein-Westfalen,,https://www.everswinkel.de/,51.925,7.847777777,,,kein_ris,2026-11-23
-Q242514,05766028,Extertal,Kreis Lippe,Nordrhein-Westfalen,,https://www.extertal.de/,52.066666666,9.116666666,,,kein_ris,2026-11-23
-Q10903,05966012,Finnentrop,Kreis Olpe,Nordrhein-Westfalen,,https://www.finnentrop.de/,51.173055555,7.9725,,,kein_ris,2026-11-23
-Q6823,05362024,Frechen,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.stadt-frechen.de/,50.916666666,6.816666666,,,kein_ris,2026-11-23
-Q10946,05970016,Freudenberg,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.freudenberg-stadt.de/,50.8975,7.874166666,,,kein_ris,2026-11-23
+Q4083,05334012,Eschweiler,Städteregion Aachen,Nordrhein-Westfalen,,https://www.eschweiler.de/,50.816666666,6.283333333,https://sessionnet.eschweiler.de/,sessionnet,gefunden,2026-11-25
+Q10929,05958016,Eslohe (Sauerland),Hochsauerlandkreis,Nordrhein-Westfalen,,https://www.eslohe.de/,51.25,8.166666666,,,kein_ris,2026-11-25
+Q182691,05770008,Espelkamp,Kreis Minden-Lübbecke,Nordrhein-Westfalen,,https://www.espelkamp.de/,52.377222222,8.632777777,,,kein_ris,2026-11-25
+Q2066,05113000,Essen,Regierungsbezirk Düsseldorf,Nordrhein-Westfalen,,https://www.essen.de/,51.450833333,7.013055555,,,kein_ris,2026-11-25
+Q4074,05366016,Euskirchen,Kreis Euskirchen,Nordrhein-Westfalen,,https://www.euskirchen.de/,50.661277777,6.787255555,,,kein_ris,2026-11-25
+Q2809,05570024,Everswinkel,Kreis Warendorf,Nordrhein-Westfalen,,https://www.everswinkel.de/,51.925,7.847777777,https://www.everswinkel.de/sessionnet/,sessionnet,gefunden,2026-11-25
+Q242514,05766028,Extertal,Kreis Lippe,Nordrhein-Westfalen,,https://www.extertal.de/,52.066666666,9.116666666,http://extertal.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
+Q10903,05966012,Finnentrop,Kreis Olpe,Nordrhein-Westfalen,,https://www.finnentrop.de/,51.173055555,7.9725,,,kein_ris,2026-11-25
+Q6823,05362024,Frechen,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.stadt-frechen.de/,50.916666666,6.816666666,,,kein_ris,2026-11-25
+Q10946,05970016,Freudenberg,Kreis Siegen-Wittgenstein,Nordrhein-Westfalen,,https://www.freudenberg-stadt.de/,50.8975,7.874166666,,,kein_ris,2026-11-25
 Q10933,05978012,Fröndenberg/Ruhr,Kreis Unna,Nordrhein-Westfalen,,https://www.froendenberg.de/,51.471944444,7.765833333,https://www.froendenberg.de/rathaus-politik/rathaus/politik/,sessionnet,gefunden,2026-11-23
-Q204793,05370008,Gangelt,Kreis Heinsberg,Nordrhein-Westfalen,,https://www.gangelt.de/,50.983055555,6.0,,,kein_ris,2026-11-23
-Q205050,05370012,Geilenkirchen,Kreis Heinsberg,Nordrhein-Westfalen,,https://www.geilenkirchen.de/,50.965277777,6.119444444,,,kein_ris,2026-11-23
-Q16024,05154012,Geldern,Kreis Kleve,Nordrhein-Westfalen,,https://www.geldern.de/,51.519722222,6.3325,,,kein_ris,2026-11-23
-Q2765,05513000,Gelsenkirchen,Regierungsbezirk Münster,Nordrhein-Westfalen,,https://www.gelsenkirchen.de/,51.510277777,7.094166666,,,kein_ris,2026-11-23
-Q200640,05554016,Gescher,Kreis Borken,Nordrhein-Westfalen,,https://www.gescher.de/,51.956944444,7.005555555,,,kein_ris,2026-11-23
+Q204793,05370008,Gangelt,Kreis Heinsberg,Nordrhein-Westfalen,,https://www.gangelt.de/,50.983055555,6.0,https://bi.session.owl-it.de/gangelt/startseite/,sessionnet,gefunden,2026-11-25
+Q205050,05370012,Geilenkirchen,Kreis Heinsberg,Nordrhein-Westfalen,,https://www.geilenkirchen.de/,50.965277777,6.119444444,,,kein_ris,2026-11-25
+Q16024,05154012,Geldern,Kreis Kleve,Nordrhein-Westfalen,,https://www.geldern.de/,51.519722222,6.3325,,,kein_ris,2026-11-25
+Q2765,05513000,Gelsenkirchen,Regierungsbezirk Münster,Nordrhein-Westfalen,,https://www.gelsenkirchen.de/,51.510277777,7.094166666,,,kein_ris,2026-11-25
+Q200640,05554016,Gescher,Kreis Borken,Nordrhein-Westfalen,,https://www.gescher.de/,51.956944444,7.005555555,https://gescher.ratsinfomanagement.net/startseite/,auto,gesperrt,2026-11-25
 Q11102,05974020,Geseke,Kreis Soest,Nordrhein-Westfalen,,https://www.geseke.de/,51.639722222,8.508611111,https://www.geseke.de/rathaus-politik/politik/sitzungsdienst/,sessionnet,gefunden,2026-11-23
-Q11331,05954012,Gevelsberg,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,https://www.gevelsberg.de/,51.32645,7.3559,,,kein_ris,2026-11-23
-Q3905,05562014,Gladbeck,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.gladbeck.de/,51.57134,6.98267,,,kein_ris,2026-11-23
+Q11331,05954012,Gevelsberg,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,https://www.gevelsberg.de/,51.32645,7.3559,,,kein_ris,2026-11-25
+Q3905,05562014,Gladbeck,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.gladbeck.de/,51.57134,6.98267,,,kein_ris,2026-11-25
 Q16006,05154016,Goch,Kreis Kleve,Nordrhein-Westfalen,,https://www.goch.de/,51.683888888,6.161944444,https://ris.goch.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
-Q163772,05166008,Grefrath,Kreis Viersen,Nordrhein-Westfalen,,https://www.grefrath.de/,51.336280555,6.340761111,,,kein_ris,2026-11-23
-Q14917,05566012,Greven,Kreis Steinfurt,Nordrhein-Westfalen,,https://www.greven.net/,52.091666666,7.608333333,,,kein_ris,2026-11-23
-Q3973,05162008,Grevenbroich,Rhein-Kreis Neuss,Nordrhein-Westfalen,,https://www.grevenbroich.de/,51.088333333,6.5875,,,kein_ris,2026-11-23
+Q163772,05166008,Grefrath,Kreis Viersen,Nordrhein-Westfalen,,https://www.grefrath.de/,51.336280555,6.340761111,,,kein_ris,2026-11-25
+Q14917,05566012,Greven,Kreis Steinfurt,Nordrhein-Westfalen,,https://www.greven.net/,52.091666666,7.608333333,https://greven.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
+Q3973,05162008,Grevenbroich,Rhein-Kreis Neuss,Nordrhein-Westfalen,,https://www.grevenbroich.de/,51.088333333,6.5875,https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/,sessionnet,gefunden,2026-11-25
 Q6924,05554020,Gronau,Kreis Borken,Nordrhein-Westfalen,,https://www.gronau.de/,52.2125,7.041666666,https://gronau.ratsinfomanagement.net/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
-Q4181,05374012,Gummersbach,Oberbergischer Kreis,Nordrhein-Westfalen,,https://www.gummersbach.de/,51.033333333,7.566666666,,,kein_ris,2026-11-23
-Q3771,05754008,Gütersloh,Kreis Gütersloh,Nordrhein-Westfalen,,https://www.guetersloh.de/,51.9,8.383333333,,,kein_ris,2026-11-23
-Q2974,05158008,Haan,Kreis Mettmann,Nordrhein-Westfalen,,https://www.haan.de/,51.1954956,7.0085328,,,kein_ris,2026-11-23
+Q4181,05374012,Gummersbach,Oberbergischer Kreis,Nordrhein-Westfalen,,https://www.gummersbach.de/,51.033333333,7.566666666,,,kein_ris,2026-11-25
+Q3771,05754008,Gütersloh,Kreis Gütersloh,Nordrhein-Westfalen,,https://www.guetersloh.de/,51.9,8.383333333,,,kein_ris,2026-11-25
+Q2974,05158008,Haan,Kreis Mettmann,Nordrhein-Westfalen,,https://www.haan.de/,51.1954956,7.0085328,,,kein_ris,2026-11-25
 Q2871,05914000,Hagen,Regierungsbezirk Arnsberg,Nordrhein-Westfalen,,https://www.hagen.de/,51.359444444,7.475,https://www.hagen.de/buergerinfo/oparl/1.0/system.asp,oparl,gefunden,2026-11-02
-Q225774,05754012,Halle (Westf.),Kreis Gütersloh,Nordrhein-Westfalen,,https://www.hallewestfalen.de/,52.060833333,8.359722222,,,kein_ris,2026-11-23
-Q5644,05958020,Hallenberg,Hochsauerlandkreis,Nordrhein-Westfalen,,https://www.stadt-hallenberg.de/,51.112,8.6216,,,kein_ris,2026-11-23
-Q14900,05562016,Haltern am See,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.haltern-am-see.de/,51.75,7.183333333,,,kein_ris,2026-11-23
-Q5567,05962012,Halver,Märkischer Kreis,Nordrhein-Westfalen,,https://www.halver.de/,51.1834,7.5027,,,kein_ris,2026-11-23
+Q225774,05754012,Halle (Westf.),Kreis Gütersloh,Nordrhein-Westfalen,,https://www.hallewestfalen.de/,52.060833333,8.359722222,,,kein_ris,2026-11-25
+Q5644,05958020,Hallenberg,Hochsauerlandkreis,Nordrhein-Westfalen,,https://www.stadt-hallenberg.de/,51.112,8.6216,,,kein_ris,2026-11-25
+Q14900,05562016,Haltern am See,Kreis Recklinghausen,Nordrhein-Westfalen,,https://www.haltern-am-see.de/,51.75,7.183333333,,,kein_ris,2026-11-25
+Q5567,05962012,Halver,Märkischer Kreis,Nordrhein-Westfalen,,https://www.halver.de/,51.1834,7.5027,https://halver.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
 Q2880,05915000,Hamm,Regierungsbezirk Arnsberg,Nordrhein-Westfalen,,https://www.hamm.de/,51.681388888,7.819166666,https://ratsinfo.hamm.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-23
-Q162717,05170012,Hamminkeln,Kreis Wesel,Nordrhein-Westfalen,,https://www.hamminkeln.de/,51.731944444,6.590833333,,,kein_ris,2026-11-23
-Q225729,05754016,Harsewinkel,Kreis Gütersloh,Nordrhein-Westfalen,,https://www.harsewinkel.de/,51.966666666,8.233055555,,,kein_ris,2026-11-23
-Q4082,05954016,Hattingen,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,https://www.hattingen.de/,51.399166666,7.185833333,,,kein_ris,2026-11-23
-Q14943,05558020,Havixbeck,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.havixbeck.de/,51.977777777,7.416666666,,,kein_ris,2026-11-23
-Q200326,05554024,Heek,Kreis Borken,Nordrhein-Westfalen,,https://www.heek.de/,52.116666666,7.099722222,,,kein_ris,2026-11-23
+Q162717,05170012,Hamminkeln,Kreis Wesel,Nordrhein-Westfalen,,https://www.hamminkeln.de/,51.731944444,6.590833333,https://ris.hamminkeln.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-25
+Q225729,05754016,Harsewinkel,Kreis Gütersloh,Nordrhein-Westfalen,,https://www.harsewinkel.de/,51.966666666,8.233055555,,,kein_ris,2026-11-25
+Q4082,05954016,Hattingen,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,,https://www.hattingen.de/,51.399166666,7.185833333,,,kein_ris,2026-11-25
+Q14943,05558020,Havixbeck,Kreis Coesfeld,Nordrhein-Westfalen,,https://www.havixbeck.de/,51.977777777,7.416666666,,,kein_ris,2026-11-25
+Q200326,05554024,Heek,Kreis Borken,Nordrhein-Westfalen,,https://www.heek.de/,52.116666666,7.099722222,https://heek.ratsinfomanagement.net/,auto,gesperrt,2026-11-25
 Q200275,05554028,Heiden,Kreis Borken,Nordrhein-Westfalen,,https://www.heiden.de/,51.825833333,6.933055555,,,kein_ris,2026-11-23
 Q161673,05158012,Heiligenhaus,Kreis Mettmann,Nordrhein-Westfalen,,https://www.heiligenhaus.de/,51.3265,6.971,https://www.heiligenhaus.de/stadt-rathaus/ratsinformationssystem/,sessionnet,gefunden,2026-11-23
 Q200138,05358012,Heimbach,Kreis Düren,Nordrhein-Westfalen,,https://www.heimbach-eifel.de/,50.633055555,6.483055555,,,kein_ris,2026-11-23
@@ -6453,7 +6453,7 @@ Q22461,07338001,Altrip,Verbandsgemeinde Rheinauen,Rheinland-Pfalz,,http://www.al
 Q445293,07232003,Altscheid,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.vg-suedeifel.de/gemeinden/unsere-gemeinden/ortsgemeinden/altscheid/,50.019444444,6.3925,https://suedeifel.gremien.info/oparl/system,oparl,gefunden,2026-11-23
 Q445812,07135004,Altstrimmig,Cochem-Zell,Rheinland-Pfalz,,http://www.zell-mosel.de/,50.093333333,7.292222222,,,kein_ris,2026-11-23
 Q446550,07140002,Altweidelbach,Bürgermeisterei Simmern,Rheinland-Pfalz,,http://www.altweidelbach.de/,49.995277777,7.566388888,,,kein_ris,2026-11-23
-Q450726,07331003,Alzey,Kanton Alzey,Rheinland-Pfalz,,https://www.alzey.de/,49.751666666,8.116111111,,,kein_ris,2026-11-23
+Q450726,07331003,Alzey,Alzey-Worms,Rheinland-Pfalz,,https://www.alzey.de/,49.751666666,8.116111111,,,kein_ris,2026-11-23
 Q472952,07232004,Ammeldingen an der Our,Verbandsgemeinde Südeifel,Rheinland-Pfalz,,https://www.vg-suedeifel.de/gemeinden/unsere-gemeinden/ortsgemeinden/ammeldingen-an-der-our/,49.88916667,6.255,https://suedeifel.gremien.info/oparl/system,oparl,gefunden,2026-11-23
 Q472964,07232005,Ammeldingen bei Neuerburg,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.ammeldingen.de/,50.048333333,6.275,,,kein_ris,2026-11-23
 Q490058,07137003,Andernach,Mayen-Koblenz,Rheinland-Pfalz,,https://www.andernach.de/,50.439722222,7.401666666,,,kein_ris,2026-11-23
@@ -8636,7 +8636,7 @@ Q563170,07131083,Wiesemscheid,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://w
 Q561622,07336104,Wiesweiler,Kusel,Rheinland-Pfalz,,http://www.wiesweiler.de,49.637777777,7.571111111,,,,
 Q565836,07340057,Wilgartswiesen,Südwestpfalz,Rheinland-Pfalz,,https://wilgartswiesen.de/,49.209166666,7.879444444,,,,
 Q674640,07143311,Willingen,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,https://www.rennerod.de/politik-verwaltung/ortsgemeinden/ortsgemeinden/willingen/,50.668333333,8.0875,,,,
-Q659221,07143312,Willmenrod,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,http://www.willmenrod.de,50.541388888,7.981388888,,,,
+Q659221,07143312,Willmenrod,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,https://www.willmenrod.de/,50.541388888,7.981388888,,,,
 Q627775,07132116,Willroth,Altenkirchen,Rheinland-Pfalz,,http://www.willroth.de,50.568055555,7.528888888,,,,
 Q569158,07231132,Willwerscheid,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.willwerscheid.de,50.036111111,6.93,,,,
 Q567588,07232135,Wilsecker,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.wilsecker.de,50.0275,6.583333333,,,,
@@ -8716,59 +8716,59 @@ Q334678,07233075,Üdersdorf,Vulkaneifel,Rheinland-Pfalz,,https://www.uedersdorf.
 Q335018,07231125,Ürzig,Bernkastel-Wittlich,Rheinland-Pfalz,,https://www.uerzig.de/,49.982222222,7.005277777,,,,
 Q335132,07232333,Üttfeld,Verbandsgemeinde Arzfeld,Rheinland-Pfalz,,http://www.uettfeld.de,50.136111111,6.253055555,,,,
 Q335158,07233076,Üxheim,Vulkaneifel,Rheinland-Pfalz,,http://www.uexheim.de,50.341944444,6.758611111,,,,
-Q559689,10042111,Beckingen,Merzig-Wadern,Saarland,,https://www.beckingen.de/,49.392777777,6.700833333,,,kein_ris,2026-11-23
-Q504022,10045111,Bexbach,Saarpfalz-Kreis,Saarland,,https://www.bexbach.de/,49.349444444,7.259444444,,,kein_ris,2026-11-23
-Q523709,10045112,Blieskastel,Saarpfalz-Kreis,Saarland,,https://www.blieskastel.de/,49.237269444,7.252922222,,,kein_ris,2026-11-23
-Q630080,10044122,Bous,Saarlouis,Saarland,,https://www.bous.de/,49.275833333,6.798055555,,,kein_ris,2026-11-23
-Q158408,10044111,Dillingen/Saar,Saarlouis,Saarland,,https://www.dillingen-saar.de/,49.357377777,6.719597222,,,kein_ris,2026-11-23
-Q375399,10044123,Ensdorf,Saarlouis,Saarland,,https://www.gemeinde-ensdorf.de/,49.3,6.766666666,,,kein_ris,2026-11-23
-Q570286,10043111,Eppelborn,Neunkirchen,Saarland,,https://www.eppelborn.de/,49.4022,6.9706,,,kein_ris,2026-11-23
-Q569850,10046111,Freisen,St. Wendel,Saarland,,https://www.freisen.de/,49.54927,7.25201,,,kein_ris,2026-11-23
-Q550828,10041511,Friedrichsthal,Regionalverband Saarbrücken,Saarland,,https://www.friedrichsthal.de/,49.325555555,7.096111111,,,kein_ris,2026-11-23
+Q559689,10042111,Beckingen,Merzig-Wadern,Saarland,,https://www.beckingen.de/,49.392777777,6.700833333,https://www.beckingen.de/ratsinfo/,sessionnet,gefunden,2026-11-25
+Q504022,10045111,Bexbach,Saarpfalz-Kreis,Saarland,,https://www.bexbach.de/,49.349444444,7.259444444,https://www.bexbach.sitzung-online.de/public/gr020/,auto,gesperrt,2026-11-25
+Q523709,10045112,Blieskastel,Saarpfalz-Kreis,Saarland,,https://www.blieskastel.de/,49.237269444,7.252922222,,,kein_ris,2026-11-25
+Q630080,10044122,Bous,Saarlouis,Saarland,,https://www.bous.de/,49.275833333,6.798055555,http://www.bous.sitzung-online.de/bi/,auto,gesperrt,2026-11-25
+Q158408,10044111,Dillingen/Saar,Saarlouis,Saarland,,https://www.dillingen-saar.de/,49.357377777,6.719597222,https://www.dillingen.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q375399,10044123,Ensdorf,Saarlouis,Saarland,,https://www.gemeinde-ensdorf.de/,49.3,6.766666666,,,kein_ris,2026-11-25
+Q570286,10043111,Eppelborn,Neunkirchen,Saarland,,https://www.eppelborn.de/,49.4022,6.9706,,,kein_ris,2026-11-25
+Q569850,10046111,Freisen,St. Wendel,Saarland,,https://www.freisen.de/,49.54927,7.25201,,,kein_ris,2026-11-25
+Q550828,10041511,Friedrichsthal,Regionalverband Saarbrücken,Saarland,,https://www.friedrichsthal.de/,49.325555555,7.096111111,,,kein_ris,2026-11-25
 Q1500976,10042999,Gemeinschaftliches deutsch-luxemburgisches Hoheitsgebiet,Rheinland-Pfalz,Saarland,,,49.713333333,6.506666666,,,keine_homepage,2026-11-23
-Q627722,10045113,Gersheim,Saarpfalz-Kreis,Saarland,,https://gersheim.de/,49.146666666,7.21,,,kein_ris,2026-11-23
-Q39797,10041512,Großrosseln,Regionalverband Saarbrücken,Saarland,,https://www.grossrosseln.de/,49.20296,6.84148,,,kein_ris,2026-11-23
+Q627722,10045113,Gersheim,Saarpfalz-Kreis,Saarland,,https://gersheim.de/,49.146666666,7.21,,,kein_ris,2026-11-25
+Q39797,10041512,Großrosseln,Regionalverband Saarbrücken,Saarland,,https://www.grossrosseln.de/,49.20296,6.84148,https://www.ratsinfo-grossrosseln.sitzung-online.de/public/,auto,gesperrt,2026-11-25
 Q658459,10041513,Heusweiler,Regionalverband Saarbrücken,Saarland,,https://www.heusweiler.de/,49.3375,6.9301,https://ratsinfo.heusweiler.de/,sessionnet,gefunden,2026-11-23
-Q7040,10045114,Homburg,Saarpfalz-Kreis,Saarland,,https://www.homburg.de/,49.326388888,7.338611111,,,kein_ris,2026-11-23
-Q517653,10043112,Illingen,Neunkirchen,Saarland,,https://www.illingen.de/,49.376438888,7.052511111,,,kein_ris,2026-11-23
-Q553589,10045115,Kirkel,Saarpfalz-Kreis,Saarland,,https://www.kirkel.de/,49.283333333,7.233333333,,,kein_ris,2026-11-23
+Q7040,10045114,Homburg,Saarpfalz-Kreis,Saarland,,https://www.homburg.de/,49.326388888,7.338611111,https://www.ratsinfo-homburg.sitzung-online.de/public/si010/,auto,gesperrt,2026-11-25
+Q517653,10043112,Illingen,Neunkirchen,Saarland,,https://www.illingen.de/,49.376438888,7.052511111,https://www.illingen.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q553589,10045115,Kirkel,Saarpfalz-Kreis,Saarland,,https://www.kirkel.de/,49.283333333,7.233333333,,,kein_ris,2026-11-25
 Q39781,10041514,Kleinblittersdorf,Regionalverband Saarbrücken,Saarland,,https://www.kleinblittersdorf.de/,49.158333333,7.038055555,https://www.kleinblittersdorf.de/gremien/,sessionnet,gefunden,2026-11-23
-Q558593,10044112,Lebach,Saarlouis,Saarland,,https://www.lebach.de/,49.41,6.91,,,kein_ris,2026-11-23
-Q629682,10042112,Losheim am See,Merzig-Wadern,Saarland,,https://www.losheim.de/,49.516666666,6.75,,,kein_ris,2026-11-23
-Q818550,10045116,Mandelbachtal,Saarpfalz-Kreis,Saarland,,https://www.mandelbachtal.de/,49.197061111,7.142741666,,,kein_ris,2026-11-23
-Q630853,10046112,Marpingen,St. Wendel,Saarland,,https://marpingen.de/,49.45,7.05,,,kein_ris,2026-11-23
-Q630725,10043113,Merchweiler,Neunkirchen,Saarland,,https://www.merchweiler.de/,49.360277777,7.06,,,kein_ris,2026-11-23
-Q16130,10042113,Merzig,Merzig-Wadern,Saarland,,https://www.merzig.de/,49.442222222,6.6375,,,kein_ris,2026-11-23
-Q543627,10042114,Mettlach,Merzig-Wadern,Saarland,,https://www.mettlach.de/,49.491666666,6.597222222,,,kein_ris,2026-11-23
-Q553221,10044113,Nalbach,Saarlouis,Saarland,,https://www.nalbach.de/,49.3833,6.783330555,,,kein_ris,2026-11-23
-Q555251,10046113,Namborn,St. Wendel,Saarland,,https://www.namborn.de/,49.5167,7.133330555,,,kein_ris,2026-11-23
-Q6880,10043114,Neunkirchen,Neunkirchen,Saarland,,https://www.neunkirchen.de/,49.3448,7.179861111,,,kein_ris,2026-11-23
-Q570209,10046114,Nohfelden,St. Wendel,Saarland,,https://www.nohfelden.de/,49.586666694,7.142777805,,,kein_ris,2026-11-23
-Q550261,10046115,Nonnweiler,St. Wendel,Saarland,,https://www.nonnweiler.de/,49.6064638,6.96935,,,kein_ris,2026-11-23
-Q681213,10046116,Oberthal,St. Wendel,Saarland,,https://www.oberthal.de/,49.516666666,7.083333333,,,kein_ris,2026-11-23
-Q562147,10043115,Ottweiler,Neunkirchen,Saarland,,https://ottweiler.de/,49.401419444,7.163430555,,,kein_ris,2026-11-23
-Q662505,10042115,Perl,Merzig-Wadern,Saarland,,https://perl.saarland/,49.473611111,6.385,,,kein_ris,2026-11-23
-Q544908,10041515,Püttlingen,Regionalverband Saarbrücken,Saarland,,https://www.puettlingen.de/,49.283333333,6.883333333,,,kein_ris,2026-11-23
-Q662580,10041516,Quierschied,Regionalverband Saarbrücken,Saarland,,https://www.quierschied.de/,49.3167,7.05,,,kein_ris,2026-11-23
-Q552797,10044114,Rehlingen-Siersburg,Saarlouis,Saarland,,https://www.rehlingen-siersburg.de/,49.368611111,6.678611111,,,kein_ris,2026-11-23
-Q628341,10041517,Riegelsberg,Regionalverband Saarbrücken,Saarland,,https://www.riegelsberg.eu/,49.305833333,6.943333333,,,kein_ris,2026-11-23
-Q1724,10041100,Saarbrücken,Regionalverband Saarbrücken,Saarland,,https://saarbruecken.de,49.233333333,7.0,,,kein_ris,2026-11-23
-Q14912,10044115,Saarlouis,Saarlouis,Saarland,,https://www.saarlouis.de/,49.316666666,6.75,,,kein_ris,2026-11-23
-Q555648,10044116,Saarwellingen,Saarlouis,Saarland,,https://www.saarwellingen.de/,49.354166666,6.805,,,kein_ris,2026-11-23
-Q631957,10043116,Schiffweiler,Neunkirchen,Saarland,,https://www.schiffweiler.de/,49.370833333,7.128888888,,,kein_ris,2026-11-23
-Q554258,10044117,Schmelz,Saarlouis,Saarland,,https://www.schmelz.de/,49.440708333,6.857930555,,,kein_ris,2026-11-23
-Q686818,10044118,Schwalbach,Saarlouis,Saarland,,https://www.schwalbach-saar.de/,49.306666666,6.823055555,,,kein_ris,2026-11-23
-Q629932,10043117,Spiesen-Elversberg,Neunkirchen,Saarland,,https://www.spiesen-elversberg.de/,49.316666666,7.133055555,,,kein_ris,2026-11-23
-Q14907,10045117,St. Ingbert,Saarpfalz-Kreis,Saarland,,https://www.st-ingbert.de/,49.278888888,7.115,,,kein_ris,2026-11-23
-Q569676,10046117,St. Wendel,St. Wendel,Saarland,,https://www.sankt-wendel.de/,49.466666666,7.166666666,,,kein_ris,2026-11-23
-Q616258,10041518,Sulzbach/Saar,Regionalverband Saarbrücken,Saarland,,https://www.stadt-sulzbach.de/,49.283333333,7.066666666,,,kein_ris,2026-11-23
-Q638618,10046118,Tholey,St. Wendel,Saarland,,https://www.tholey.de/,49.4833,7.033330555,,,kein_ris,2026-11-23
-Q14876,10041519,Völklingen,Regionalverband Saarbrücken,Saarland,,https://www.voelklingen.de/,49.252980555,6.856661111,,,kein_ris,2026-11-23
-Q529164,10042116,Wadern,Merzig-Wadern,Saarland,,https://ssl.wadern.de/,49.539444444,6.89,,,kein_ris,2026-11-23
-Q253419,10044120,Wadgassen,Saarlouis,Saarland,,https://www.wadgassen.de/,49.2667,6.783330555,,,kein_ris,2026-11-23
-Q665005,10044121,Wallerfangen,Saarlouis,Saarland,,https://www.wallerfangen.de/,49.327805555,6.720805555,,,kein_ris,2026-11-23
-Q570294,10042117,Weiskirchen,Merzig-Wadern,Saarland,,https://www.weiskirchen.de/,49.556111111,6.82,,,kein_ris,2026-11-23
-Q332495,10044119,Überherrn,Saarlouis,Saarland,,https://ueberherrn.de/,49.25,6.7,,,kein_ris,2026-11-23
+Q558593,10044112,Lebach,Saarlouis,Saarland,,https://www.lebach.de/,49.41,6.91,,,kein_ris,2026-11-25
+Q629682,10042112,Losheim am See,Merzig-Wadern,Saarland,,https://www.losheim.de/,49.516666666,6.75,,,kein_ris,2026-11-25
+Q818550,10045116,Mandelbachtal,Saarpfalz-Kreis,Saarland,,https://www.mandelbachtal.de/,49.197061111,7.142741666,,,kein_ris,2026-11-25
+Q630853,10046112,Marpingen,St. Wendel,Saarland,,https://marpingen.de/,49.45,7.05,,,kein_ris,2026-11-25
+Q630725,10043113,Merchweiler,Neunkirchen,Saarland,,https://www.merchweiler.de/,49.360277777,7.06,,,kein_ris,2026-11-25
+Q16130,10042113,Merzig,Merzig-Wadern,Saarland,,https://www.merzig.de/,49.442222222,6.6375,http://www.ratsinfo-merzig.sitzung-online.de/public/,auto,gefunden,2026-11-25
+Q543627,10042114,Mettlach,Merzig-Wadern,Saarland,,https://www.mettlach.de/,49.491666666,6.597222222,https://www.ratsinfo-mettlach.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q553221,10044113,Nalbach,Saarlouis,Saarland,,https://www.nalbach.de/,49.3833,6.783330555,,,kein_ris,2026-11-25
+Q555251,10046113,Namborn,St. Wendel,Saarland,,https://www.namborn.de/,49.5167,7.133330555,,,kein_ris,2026-11-25
+Q6880,10043114,Neunkirchen,Neunkirchen,Saarland,,https://www.neunkirchen.de/,49.3448,7.179861111,,,kein_ris,2026-11-25
+Q570209,10046114,Nohfelden,St. Wendel,Saarland,,https://www.nohfelden.de/,49.586666694,7.142777805,,,kein_ris,2026-11-25
+Q550261,10046115,Nonnweiler,St. Wendel,Saarland,,https://www.nonnweiler.de/,49.6064638,6.96935,,,kein_ris,2026-11-25
+Q681213,10046116,Oberthal,St. Wendel,Saarland,,https://www.oberthal.de/,49.516666666,7.083333333,,,kein_ris,2026-11-25
+Q562147,10043115,Ottweiler,Neunkirchen,Saarland,,https://ottweiler.de/,49.401419444,7.163430555,,,kein_ris,2026-11-25
+Q662505,10042115,Perl,Merzig-Wadern,Saarland,,https://perl.saarland/,49.473611111,6.385,https://www.perl.sitzung-online.de/bi-r/,auto,gesperrt,2026-11-25
+Q544908,10041515,Püttlingen,Regionalverband Saarbrücken,Saarland,,https://www.puettlingen.de/,49.283333333,6.883333333,https://www.puettlingen.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q662580,10041516,Quierschied,Regionalverband Saarbrücken,Saarland,,https://www.quierschied.de/,49.3167,7.05,,,kein_ris,2026-11-25
+Q552797,10044114,Rehlingen-Siersburg,Saarlouis,Saarland,,https://www.rehlingen-siersburg.de/,49.368611111,6.678611111,,,kein_ris,2026-11-25
+Q628341,10041517,Riegelsberg,Regionalverband Saarbrücken,Saarland,,https://www.riegelsberg.eu/,49.305833333,6.943333333,https://www.ratsinfo-riegelsberg.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q1724,10041100,Saarbrücken,Regionalverband Saarbrücken,Saarland,,https://saarbruecken.de,49.233333333,7.0,https://sessionnet.saarbruecken.de/,sessionnet,gefunden,2026-11-25
+Q14912,10044115,Saarlouis,Saarlouis,Saarland,,https://www.saarlouis.de/,49.316666666,6.75,,,kein_ris,2026-11-25
+Q555648,10044116,Saarwellingen,Saarlouis,Saarland,,https://www.saarwellingen.de/,49.354166666,6.805,https://www.saarwellingen.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q631957,10043116,Schiffweiler,Neunkirchen,Saarland,,https://www.schiffweiler.de/,49.370833333,7.128888888,,,kein_ris,2026-11-25
+Q554258,10044117,Schmelz,Saarlouis,Saarland,,https://www.schmelz.de/,49.440708333,6.857930555,,,kein_ris,2026-11-25
+Q686818,10044118,Schwalbach,Saarlouis,Saarland,,https://www.schwalbach-saar.de/,49.306666666,6.823055555,,,kein_ris,2026-11-25
+Q629932,10043117,Spiesen-Elversberg,Neunkirchen,Saarland,,https://www.spiesen-elversberg.de/,49.316666666,7.133055555,,,kein_ris,2026-11-25
+Q14907,10045117,St. Ingbert,Saarpfalz-Kreis,Saarland,,https://www.st-ingbert.de/,49.278888888,7.115,https://www.ratsinfo-st-ingbert.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q569676,10046117,St. Wendel,St. Wendel,Saarland,,https://www.sankt-wendel.de/,49.466666666,7.166666666,,,kein_ris,2026-11-25
+Q616258,10041518,Sulzbach/Saar,Regionalverband Saarbrücken,Saarland,,https://www.stadt-sulzbach.de/,49.283333333,7.066666666,,,kein_ris,2026-11-25
+Q638618,10046118,Tholey,St. Wendel,Saarland,,https://www.tholey.de/,49.4833,7.033330555,,,kein_ris,2026-11-25
+Q14876,10041519,Völklingen,Regionalverband Saarbrücken,Saarland,,https://www.voelklingen.de/,49.252980555,6.856661111,,,kein_ris,2026-11-25
+Q529164,10042116,Wadern,Merzig-Wadern,Saarland,,https://ssl.wadern.de/,49.539444444,6.89,,,kein_ris,2026-11-25
+Q253419,10044120,Wadgassen,Saarlouis,Saarland,,https://www.wadgassen.de/,49.2667,6.783330555,,,kein_ris,2026-11-25
+Q665005,10044121,Wallerfangen,Saarlouis,Saarland,,https://www.wallerfangen.de/,49.327805555,6.720805555,,,kein_ris,2026-11-25
+Q570294,10042117,Weiskirchen,Merzig-Wadern,Saarland,,https://www.weiskirchen.de/,49.556111111,6.82,,,kein_ris,2026-11-25
+Q332495,10044119,Überherrn,Saarlouis,Saarland,,https://ueberherrn.de/,49.25,6.7,,,kein_ris,2026-11-25
 Q46853,14523010,Adorf/Vogtl.,Vogtlandkreis,Sachsen,,https://www.adorf-vogtland.de/,50.316666666,12.266666666,https://www.adorf-vogtland.de/inhalte/adorf/_inhalt/_service/session_gi/,sessionnet,gefunden,2026-11-23
 Q436724,14628010,Altenberg,Verwaltungsgemeinschaft Altenberg,Sachsen,,https://www.rathaus-altenberg.de/,50.764444444,13.757777777,,,kein_ris,2026-11-23
 Q70934,14522010,Altmittweida,Mittelsachsen,Sachsen,,https://www.gemeinde-altmittweida.de/,50.967777777,12.957777777,,,kein_ris,2026-11-23
@@ -9464,31 +9464,31 @@ Q16087,15084590,Zeitz,Burgenlandkreis,Sachsen-Anhalt,,https://www.zeitz.de/,51.0
 Q155981,15082430,Zerbst/Anhalt,Anhalt-Bitterfeld,Sachsen-Anhalt,,https://www.stadt-zerbst.de/,51.968055555,12.084444444,,,kein_ris,2026-11-22
 Q198991,15083580,Zielitz,Börde,Sachsen-Anhalt,,https://www.zielitz.de/,52.291666666,11.675,,,kein_ris,2026-11-22
 Q247868,15082440,Zörbig,Anhalt-Bitterfeld,Sachsen-Anhalt,,https://www.stadt-zoerbig.de/,51.616666666,12.116666666,,,kein_ris,2026-11-22
-Q303389,01061001,Aasbüttel,Kreis Steinburg,Schleswig-Holstein,,https://www.gemeinde-aasbuettel.de/,54.066666666,9.433333333,,,kein_ris,2026-11-23
-Q340999,01058001,Achterwehr,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,http://www.achterwehr.de/,54.316666666,9.966666666,,,kein_ris,2026-11-23
-Q341040,01054001,Achtrup,Kreis Nordfriesland,Schleswig-Holstein,,https://www.achtrup.de/,54.7902,9.0279,,,kein_ris,2026-11-23
-Q380485,01061002,Aebtissinwisch,Kreis Steinburg,Schleswig-Holstein,,https://www.wilster.de/amt-stadt-und-gemeinden/ueber-uns/ueber-die-gemeinden/aebtissinwisch,53.966666666,9.283333333,,,kein_ris,2026-11-23
-Q393098,01061003,Agethorst,Kreis Steinburg,Schleswig-Holstein,,https://www.agethorst.de/,54.016666666,9.433333333,,,kein_ris,2026-11-23
-Q400424,01058175,Ahlefeld-Bistensee,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.amt-huettener-berge.de/gemeinden/ahlenfeld-bistensee,54.4,9.666666666,,,kein_ris,2026-11-23
-Q402238,01059102,Ahneby,Kreis Schleswig-Flensburg,Schleswig-Holstein,,https://www.ahneby.de/,54.704,9.728,,,kein_ris,2026-11-23
-Q16104,01062001,Ahrensburg,Kreis Stormarn,Schleswig-Holstein,,https://www.ahrensburg.de/,53.674722222,10.241111111,,,kein_ris,2026-11-23
-Q402773,01055001,Ahrensbök,Kreis Ostholstein,Schleswig-Holstein,,https://www.ahrensboek.de/,54.016666666,10.583333333,,,kein_ris,2026-11-23
-Q402840,01054002,Ahrenshöft,Kreis Nordfriesland,Schleswig-Holstein,,https://www.ahrenshoeft.de/,54.566666666,9.066666666,,,kein_ris,2026-11-23
-Q402850,01054003,Ahrenviöl,Kreis Nordfriesland,Schleswig-Holstein,,https://ahrenvioel.de/,54.531,9.206,,,kein_ris,2026-11-23
-Q48248,01054004,Ahrenviölfeld,Kreis Nordfriesland,Schleswig-Holstein,,https://ahrenvioelfeld.de/,54.533333333,9.283333333,,,kein_ris,2026-11-23
-Q499889,01051001,Albersdorf,,Schleswig-Holstein,Amt Mitteldithmarschen,https://www.albersdorf.de/,54.145555555,9.2875,,,kein_ris,2026-11-23
-Q249684,01053001,Albsfelde,Kreis Herzogtum Lauenburg,Schleswig-Holstein,,http://www.amt-lauenburgische-seen.de/index.php/die-gemeinde.html,53.681944444,10.695277777,,,kein_ris,2026-11-23
-Q20780,01054005,Alkersum,Kreis Nordfriesland,Schleswig-Holstein,,http://www.alkersum.de/,54.709722222,8.512777777,,,kein_ris,2026-11-23
-Q573052,01054006,Almdorf,Kreis Nordfriesland,Schleswig-Holstein,,http://www.almdorf.de/,54.580555555,9.015555555,,,kein_ris,2026-11-23
-Q433069,01059001,Alt Bennebek,Kreis Schleswig-Flensburg,Schleswig-Holstein,,http://www.alt-bennebek.de/,54.377777777,9.431111111,,,kein_ris,2026-11-23
-Q433130,01058003,Alt Duvenstedt,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.alt-duvenstedt.de/,54.358333333,9.644444444,,,kein_ris,2026-11-23
-Q433223,01053002,Alt-Mölln,Kreis Herzogtum Lauenburg,Schleswig-Holstein,,https://alt-moelln.de/,53.621388888,10.658333333,,,kein_ris,2026-11-23
-Q437283,01058004,Altenhof,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.amt-schlei-ostsee.de/gemeinden/altenhof/allgemeines/,54.433333333,9.866666666,,,kein_ris,2026-11-23
-Q437296,01058005,Altenholz,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.altenholz.de/,54.4,10.133333333,,,kein_ris,2026-11-23
-Q437358,01055002,Altenkrempe,Kreis Ostholstein,Schleswig-Holstein,,https://www.altenkrempe.de/,54.133333333,10.833333333,,,kein_ris,2026-11-23
-Q437452,01061004,Altenmoor,Kreis Steinburg,Schleswig-Holstein,,https://www.amt-horst-herzhorn.de/index.php?module=webpage&id=14,53.766666666,9.566666666,,,kein_ris,2026-11-23
-Q448894,01060002,Alveslohe,Kreis Segeberg,Schleswig-Holstein,,https://www.alveslohe.eu/,53.7833,9.916669444,,,kein_ris,2026-11-23
-Q473175,01062090,Ammersbek,Kreis Stormarn,Schleswig-Holstein,,https://www.ammersbek.de/,53.701944444,10.199444444,,,kein_ris,2026-11-23
+Q303389,01061001,Aasbüttel,Kreis Steinburg,Schleswig-Holstein,,https://www.gemeinde-aasbuettel.de/,54.066666666,9.433333333,https://www.amt-schenefeld.sitzung-online.de/personal/logon/,auto,gesperrt,2026-11-25
+Q340999,01058001,Achterwehr,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,http://www.achterwehr.de/,54.316666666,9.966666666,https://www.achterwehr.sitzung-online.de/buergerinfo/,auto,gesperrt,2026-11-25
+Q341040,01054001,Achtrup,Kreis Nordfriesland,Schleswig-Holstein,,https://www.achtrup.de/,54.7902,9.0279,,,kein_ris,2026-11-25
+Q380485,01061002,Aebtissinwisch,Kreis Steinburg,Schleswig-Holstein,,https://www.wilster.de/amt-stadt-und-gemeinden/ueber-uns/ueber-die-gemeinden/aebtissinwisch,53.966666666,9.283333333,https://www.wilstermarsch.sitzung-online.de/public/si010/,auto,gesperrt,2026-11-25
+Q393098,01061003,Agethorst,Kreis Steinburg,Schleswig-Holstein,,https://www.agethorst.de/,54.016666666,9.433333333,https://www.amt-schenefeld.sitzung-online.de/bi/,auto,gesperrt,2026-11-25
+Q400424,01058175,Ahlefeld-Bistensee,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.amt-huettener-berge.de/gemeinden/ahlenfeld-bistensee,54.4,9.666666666,,,kein_ris,2026-11-25
+Q402238,01059102,Ahneby,Kreis Schleswig-Flensburg,Schleswig-Holstein,,https://www.ahneby.de/,54.704,9.728,,,kein_ris,2026-11-25
+Q16104,01062001,Ahrensburg,Kreis Stormarn,Schleswig-Holstein,,https://www.ahrensburg.de/,53.674722222,10.241111111,https://www.ahrensburg.de/ratsinformationssystem/,sessionnet,gefunden,2026-11-25
+Q402773,01055001,Ahrensbök,Kreis Ostholstein,Schleswig-Holstein,,https://www.ahrensboek.de/,54.016666666,10.583333333,https://www.ahrensboek.sitzung-online.de/personal/logon/,auto,gesperrt,2026-11-25
+Q402840,01054002,Ahrenshöft,Kreis Nordfriesland,Schleswig-Holstein,,https://www.ahrenshoeft.de/,54.566666666,9.066666666,,,kein_ris,2026-11-25
+Q402850,01054003,Ahrenviöl,Kreis Nordfriesland,Schleswig-Holstein,,https://ahrenvioel.de/,54.531,9.206,,,kein_ris,2026-11-25
+Q48248,01054004,Ahrenviölfeld,Kreis Nordfriesland,Schleswig-Holstein,,https://ahrenvioelfeld.de/,54.533333333,9.283333333,,,kein_ris,2026-11-25
+Q499889,01051001,Albersdorf,,Schleswig-Holstein,Amt Mitteldithmarschen,https://www.albersdorf.de/,54.145555555,9.2875,,,kein_ris,2026-11-25
+Q249684,01053001,Albsfelde,Kreis Herzogtum Lauenburg,Schleswig-Holstein,,http://www.amt-lauenburgische-seen.de/index.php/die-gemeinde.html,53.681944444,10.695277777,,,kein_ris,2026-11-25
+Q20780,01054005,Alkersum,Kreis Nordfriesland,Schleswig-Holstein,,http://www.alkersum.de/,54.709722222,8.512777777,,,kein_ris,2026-11-25
+Q573052,01054006,Almdorf,Kreis Nordfriesland,Schleswig-Holstein,,http://www.almdorf.de/,54.580555555,9.015555555,,,kein_ris,2026-11-25
+Q433069,01059001,Alt Bennebek,Kreis Schleswig-Flensburg,Schleswig-Holstein,,http://www.alt-bennebek.de/,54.377777777,9.431111111,,,kein_ris,2026-11-25
+Q433130,01058003,Alt Duvenstedt,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.alt-duvenstedt.de/,54.358333333,9.644444444,,,kein_ris,2026-11-25
+Q433223,01053002,Alt-Mölln,Kreis Herzogtum Lauenburg,Schleswig-Holstein,,https://alt-moelln.de/,53.621388888,10.658333333,https://www.amt-breitenfelde.sitzung-online.de/public/,auto,gesperrt,2026-11-25
+Q437283,01058004,Altenhof,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.amt-schlei-ostsee.de/gemeinden/altenhof/allgemeines/,54.433333333,9.866666666,,,kein_ris,2026-11-25
+Q437296,01058005,Altenholz,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,https://www.altenholz.de/,54.4,10.133333333,https://altenholz.more-rubin1.de/,auto,gefunden,2026-11-25
+Q437358,01055002,Altenkrempe,Kreis Ostholstein,Schleswig-Holstein,,https://www.altenkrempe.de/,54.133333333,10.833333333,,,kein_ris,2026-11-25
+Q437452,01061004,Altenmoor,Kreis Steinburg,Schleswig-Holstein,,https://www.amt-horst-herzhorn.de/index.php?module=webpage&id=14,53.766666666,9.566666666,,,kein_ris,2026-11-25
+Q448894,01060002,Alveslohe,Kreis Segeberg,Schleswig-Holstein,,https://www.alveslohe.eu/,53.7833,9.916669444,http://www.auenland-suedholstein.sitzung-online.de/bi2/,auto,gesperrt,2026-11-25
+Q473175,01062090,Ammersbek,Kreis Stormarn,Schleswig-Holstein,,https://www.ammersbek.de/,53.701944444,10.199444444,https://www.ammersbek.sitzung-online.de/bi/,auto,gesperrt,2026-11-25
 Q574225,01056001,Appen,Kreis Pinneberg,Schleswig-Holstein,,http://www.appen.de/,53.661666666,9.744444444,,,kein_ris,2026-11-23
 Q552527,01051002,Arkebek,Kreis Dithmarschen,Schleswig-Holstein,,https://www.arkebek.de/,54.159166666,9.247777777,,,kein_ris,2026-11-23
 Q20745,01054007,Arlewatt,Kreis Nordfriesland,Schleswig-Holstein,Amt Nordsee-Treene,https://www.amt-nordsee-treene.de/Gemeinden-Stadt/A-K/Arlewatt/,54.538,9.082,,,kein_ris,2026-11-23

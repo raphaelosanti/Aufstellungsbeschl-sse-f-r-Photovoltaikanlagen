@@ -24,6 +24,11 @@ Vetschau/Spreewald,Oberspreewald-Lausitz,sessionnet,https://stadt.vetschau.de/ve
 Werneuchen,Barnim,sessionnet,https://www.werneuchen-barnim.de/stadtpolitik/sitzungskalender/,Brandenburg,Werneuchen
 # Zeuthen,Dahme-Spreewald,auto,https://ratsinfo-online.net/zeuthen-ri/,Brandenburg,robots.txt verbietet Bots; Zeuthen
 Portal DiPlanung Brandenburg,,portal,https://bb.beteiligung.diplanung.de/,Brandenburg,"Landesportal (Testlauf, best effort)"
+Ahrensfelde,Barnim,html,https://www.ahrensfelde.de/bi/vo040.asp,Brandenburg,Ahrensfelde
+Angermünde,Uckermark,sessionnet,https://www.angermuende.de/bi/,Brandenburg,Angermünde
+Beeskow,Oder-Spree,sessionnet,https://session.beeskow.de:5848/bi/,Brandenburg,Beeskow
+Bestensee,Dahme-Spreewald,auto,https://bestensee.ratsinfomanagement.net/,Brandenburg,Bestensee
+Biesenthal,Barnim,auto,https://amt-biesenthal-barnim.ratsinfomanagement.net/termine/,Brandenburg,Biesenthal
 Schraplau,Saalekreis,oparl,https://weida-land.gremien.info/oparl/system,Sachsen-Anhalt,Schraplau; Steigra
 Salzatal,Saalekreis,oparl,https://salzatal.gremien.info/oparl/system,Sachsen-Anhalt,Salzatal
 Ahlsdorf,Verbandsgemeinde Mansfelder Grund-Helbra,sessionnet,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,Sachsen-Anhalt,Ahlsdorf; Benndorf; Blankenheim; Bornstedt; Helbra; Hergisdorf; Klostermansfeld
@@ -151,6 +156,14 @@ Nordenham,Wesermarsch,sessionnet,https://www.nordenham.de/de/rathaus/politik/bue
 Norderney,Aurich,sessionnet,https://norderney.ris.itebo.de/bi/,Niedersachsen,Norderney
 Nordstemmen,Hildesheim,oparl,https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/system,Niedersachsen,Nordstemmen
 Oldenburg,,sessionnet,https://buergerinfo.oldenburg.de/,Niedersachsen,Oldenburg
+Portal DiPlanung Niedersachsen,,portal,https://ni.beteiligung.diplanung.de/,Niedersachsen,Landesportal; Sonde 2026-11-23: erreichbar
+Achim,Verden,auto,https://achim.ratsinfomanagement.net/termine/,Niedersachsen,Achim
+# Adendorf,Lüneburg,auto,https://www.adendorf.sitzung-online.de/public/si010/,Niedersachsen,robots.txt verbietet Bots; Adendorf
+# Aerzen,Hameln-Pyrmont,auto,https://www.aerzen.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Aerzen
+# Agathenburg,Stade,auto,https://www.horneburg.sitzung-online.de/personal/logon/,Niedersachsen,robots.txt verbietet Bots; Agathenburg
+# Ahlerstedt,Stade,auto,https://www.harsefeld.sitzung-online.de/ri/,Niedersachsen,robots.txt verbietet Bots; Ahlerstedt
+Andervenne,Emsland,sessionnet,https://www.freren.de/rathaus/ratsinformationssystem/,Niedersachsen,Andervenne
+# Apensen,Stade,auto,https://www.apensen.sitzung-online.de/public/,Niedersachsen,robots.txt verbietet Bots; Apensen
 Itzstedt,Kreis Segeberg,oparl,https://www.itzstedt.sitzung-online.de/bi/oparl/1.0/system.asp,Schleswig-Holstein,Itzstedt; Kayhude
 Travenhorst,Kreis Segeberg,oparl,https://www.trave.sitzung-online.de/bi/oparl/1.0/system.asp,Schleswig-Holstein,Travenhorst
 Badendorf,Kreis Stormarn,oparl,https://www.amt-nordstormarn.de/buergerinformationssystem/oparl/1.0/system.asp,Schleswig-Holstein,Badendorf; Barnitz; Feldhorst; Hamberge; Heidekamp; Heilshoop; Mönkhagen
@@ -173,6 +186,17 @@ Krokau,Kreis Plön,sessionnet,https://ratsinfo.amt-probstei.de/bi/,Schleswig-Hol
 Amt Mitteldithmarschen,,sessionnet,https://www.stadt-meldorf.de/buergerservice-politik/politik/sitzungen/,Schleswig-Holstein,Meldorf
 Neumünster,,sessionnet,https://session.neumuenster.de/bi/,Schleswig-Holstein,Neumünster
 Neustadt in Holstein,Kreis Ostholstein,html,https://ris.stadt-neustadt.eu/bi/vo040.asp,Schleswig-Holstein,Neustadt in Holstein
+Portal DiPlanung Schleswig-Holstein,,portal,https://sh.beteiligung.diplanung.de/,Schleswig-Holstein,Landesportal; Sonde 2026-11-23: erreichbar
+# Aasbüttel,Kreis Steinburg,auto,https://www.amt-schenefeld.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Aasbüttel
+# Achterwehr,Kreis Rendsburg-Eckernförde,auto,https://www.achterwehr.sitzung-online.de/buergerinfo/,Schleswig-Holstein,robots.txt verbietet Bots; Achterwehr
+# Aebtissinwisch,Kreis Steinburg,auto,https://www.wilstermarsch.sitzung-online.de/public/si010/,Schleswig-Holstein,robots.txt verbietet Bots; Aebtissinwisch
+# Agethorst,Kreis Steinburg,auto,https://www.amt-schenefeld.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Agethorst
+Ahrensburg,Kreis Stormarn,sessionnet,https://www.ahrensburg.de/ratsinformationssystem/,Schleswig-Holstein,Ahrensburg
+# Ahrensbök,Kreis Ostholstein,auto,https://www.ahrensboek.sitzung-online.de/personal/logon/,Schleswig-Holstein,robots.txt verbietet Bots; Ahrensbök
+# Alt-Mölln,Kreis Herzogtum Lauenburg,auto,https://www.amt-breitenfelde.sitzung-online.de/public/,Schleswig-Holstein,robots.txt verbietet Bots; Alt-Mölln
+Altenholz,Kreis Rendsburg-Eckernförde,auto,https://altenholz.more-rubin1.de/,Schleswig-Holstein,Altenholz
+# Alveslohe,Kreis Segeberg,auto,http://www.auenland-suedholstein.sitzung-online.de/bi2/,Schleswig-Holstein,robots.txt verbietet Bots; Alveslohe
+# Ammersbek,Kreis Stormarn,auto,https://www.ammersbek.sitzung-online.de/bi/,Schleswig-Holstein,robots.txt verbietet Bots; Ammersbek
 Köln,Regierungsbezirk Köln,oparl,https://buergerinfo.stadt-koeln.de/oparl/system,Nordrhein-Westfalen,Köln
 Bonn,Regierungsbezirk Köln,oparl,https://www.bonn.sitzung-online.de/public/oparl/system,Nordrhein-Westfalen,Bonn
 Aachen,Kreis Aachen,oparl,https://ratsinfo.aachen.de/bi/oparl/1.0/system.asp,Nordrhein-Westfalen,Aachen
@@ -282,6 +306,38 @@ Troisdorf,Rhein-Sieg-Kreis,sessionnet,https://www.troisdorf.de/de/rathaus-servic
 Wachtberg,Rhein-Sieg-Kreis,sessionnet,https://www.wachtberg.de/rathaus-politik/politik/gemeinderat-und-gremien/,Nordrhein-Westfalen,Wachtberg
 Wassenberg,Kreis Heinsberg,sessionnet,https://www.wassenberg.de/buerger/politik/ratsinformationssystem/,Nordrhein-Westfalen,Wassenberg
 Wiehl,Oberbergischer Kreis,sessionnet,https://www.wiehl.de/buerger/rathaus/ratsinfo/,Nordrhein-Westfalen,Wiehl
+# Ahlen,Kreis Warendorf,auto,https://www.ahlen.sitzung-online.de/public/,Nordrhein-Westfalen,robots.txt verbietet Bots; Ahlen
+# Alfter,Rhein-Sieg-Kreis,auto,https://alfter.ratsinfomanagement.net/startseite/,Nordrhein-Westfalen,robots.txt verbietet Bots; Alfter
+# Altena,Märkischer Kreis,auto,https://altena.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Altena
+Anröchte,Kreis Soest,sessionnet,https://www.anroechte.de/sitzungsdienst/,Nordrhein-Westfalen,Anröchte
+Ascheberg,Kreis Coesfeld,sessionnet,https://www.ascheberg.de/bi/,Nordrhein-Westfalen,Ascheberg
+Augustdorf,Kreis Lippe,sessionnet,https://www.augustdorf.de/ratsinformationssystem/,Nordrhein-Westfalen,Augustdorf
+# Bad Salzuflen,Kreis Lippe,auto,https://bad-salzuflen.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Bad Salzuflen
+Bad Sassendorf,Kreis Soest,sessionnet,https://rathaus.bad-sassendorf.de/ratsinfo/,Nordrhein-Westfalen,Bad Sassendorf
+Balve,Märkischer Kreis,auto,https://balve.ratsinfomanagement.net/gremien/,Nordrhein-Westfalen,Balve
+# Barntrup,Kreis Lippe,auto,https://barntrup.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Barntrup
+Bergisch Gladbach,Rheinisch-Bergischer Kreis,sessionnet,https://mandatsinfo.bergischgladbach.de/bi/,Nordrhein-Westfalen,Bergisch Gladbach
+# Blankenheim,Kreis Euskirchen,auto,https://blankenheim.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Blankenheim
+Bochum,Regierungsbezirk Arnsberg,auto,https://bochum.ratsinfomanagement.net/,Nordrhein-Westfalen,Bochum
+Borchen,Kreis Paderborn,auto,https://borchen.more-rubin1.de/,Nordrhein-Westfalen,Borchen
+Brakel,Kreis Höxter,sessionnet,https://ratsinfo.brakel.de/,Nordrhein-Westfalen,Brakel
+# Breckerfeld,Ennepe-Ruhr-Kreis,auto,https://breckerfeld.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Breckerfeld
+Coesfeld,Kreis Coesfeld,sessionnet,https://buergerinfo.coesfeld.de/,Nordrhein-Westfalen,Coesfeld
+Detmold,Kreis Lippe,sessionnet,https://www.detmold.de/ratsinformationssystem/,Nordrhein-Westfalen,Detmold
+# Emsdetten,Kreis Steinfurt,auto,https://emsdetten.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Emsdetten
+Ennigerloh,Kreis Warendorf,sessionnet,https://www.stadt-ennigerloh.de/bi/,Nordrhein-Westfalen,Ennigerloh
+Ense,Kreis Soest,sessionnet,https://www.gemeinde-ense.de/politik-verwaltung/politik/buergerinformationssystem/,Nordrhein-Westfalen,Ense
+Erkrath,Kreis Mettmann,auto,https://erkrath.ratsinfomanagement.net/startseite/,Nordrhein-Westfalen,Erkrath
+Eschweiler,Städteregion Aachen,sessionnet,https://sessionnet.eschweiler.de/,Nordrhein-Westfalen,Eschweiler
+Everswinkel,Kreis Warendorf,sessionnet,https://www.everswinkel.de/sessionnet/,Nordrhein-Westfalen,Everswinkel
+# Extertal,Kreis Lippe,auto,http://extertal.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Extertal
+Gangelt,Kreis Heinsberg,sessionnet,https://bi.session.owl-it.de/gangelt/startseite/,Nordrhein-Westfalen,Gangelt
+# Gescher,Kreis Borken,auto,https://gescher.ratsinfomanagement.net/startseite/,Nordrhein-Westfalen,robots.txt verbietet Bots; Gescher
+# Greven,Kreis Steinfurt,auto,https://greven.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Greven
+Grevenbroich,Rhein-Kreis Neuss,sessionnet,https://ris-grevenbroich.itk-rheinland.de/sessionnetgrebi/,Nordrhein-Westfalen,Grevenbroich
+# Halver,Märkischer Kreis,auto,https://halver.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Halver
+Hamminkeln,Kreis Wesel,oparl,https://ris.hamminkeln.de/webservice/oparl/v1.1/system,Nordrhein-Westfalen,Hamminkeln
+# Heek,Kreis Borken,auto,https://heek.ratsinfomanagement.net/,Nordrhein-Westfalen,robots.txt verbietet Bots; Heek
 Eschwege,Werra-Meißner-Kreis,oparl,https://rim.ekom21.de/eschwege/webservice/oparl/v1.1/system,Hessen,Eschwege
 Aarbergen,Rheingau-Taunus-Kreis,oparl,https://rim.ekom21.de/aarbergen/webservice/oparl/v1.1/system,Hessen,Aarbergen
 Willingen (Upland),Waldeck-Frankenberg,oparl,https://rim.ekom21.de/willingen/webservice/oparl/v1.1/system,Hessen,Willingen (Upland)
@@ -443,8 +499,21 @@ Grassau,Traunstein,sessionnet,https://buergerinfo-grassau.digitalfabrix.de/,Baye
 Gädheim,Haßberge,sessionnet,https://buerger.ratsinfo-theres.de/,Bayern,Gädheim
 Heusweiler,Regionalverband Saarbrücken,sessionnet,https://ratsinfo.heusweiler.de/,Saarland,Heusweiler
 Kleinblittersdorf,Regionalverband Saarbrücken,sessionnet,https://www.kleinblittersdorf.de/gremien/,Saarland,Kleinblittersdorf
-Stadt Bremen – Deputation Mobilität Bau Stadtentwicklung,Bremen,bremen,https://bau.bremen.de/ressort/deputation-3443,Bremen,"Abstimmungsergebnisse-PDFs + Sitzungsdienst der Bürgerschaft; eigener Adapter pv_bremen.py"
-Bremerhaven,Bremerhaven,auto,https://sitzungsapp.bremerhaven.de/ris/bremerhaven/,Bremen,"altes RIS; neues System (Session) seit 02.07.2026 geplant, Adresse ungeprüft"
+Beckingen,Merzig-Wadern,sessionnet,https://www.beckingen.de/ratsinfo/,Saarland,Beckingen
+# Bexbach,Saarpfalz-Kreis,auto,https://www.bexbach.sitzung-online.de/public/gr020/,Saarland,robots.txt verbietet Bots; Bexbach
+# Bous,Saarlouis,auto,http://www.bous.sitzung-online.de/bi/,Saarland,robots.txt verbietet Bots; Bous
+# Dillingen/Saar,Saarlouis,auto,https://www.dillingen.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; Dillingen/Saar
+# Großrosseln,Regionalverband Saarbrücken,auto,https://www.ratsinfo-grossrosseln.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; Großrosseln
+# Homburg,Saarpfalz-Kreis,auto,https://www.ratsinfo-homburg.sitzung-online.de/public/si010/,Saarland,robots.txt verbietet Bots; Homburg
+# Illingen,Neunkirchen,auto,https://www.illingen.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; Illingen
+Merzig,Merzig-Wadern,auto,http://www.ratsinfo-merzig.sitzung-online.de/public/,Saarland,Merzig
+# Mettlach,Merzig-Wadern,auto,https://www.ratsinfo-mettlach.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; Mettlach
+# Perl,Merzig-Wadern,auto,https://www.perl.sitzung-online.de/bi-r/,Saarland,robots.txt verbietet Bots; Perl
+# Püttlingen,Regionalverband Saarbrücken,auto,https://www.puettlingen.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; Püttlingen
+# Riegelsberg,Regionalverband Saarbrücken,auto,https://www.ratsinfo-riegelsberg.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; Riegelsberg
+Saarbrücken,Regionalverband Saarbrücken,sessionnet,https://sessionnet.saarbruecken.de/,Saarland,Saarbrücken
+# Saarwellingen,Saarlouis,auto,https://www.saarwellingen.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; Saarwellingen
+# St. Ingbert,Saarpfalz-Kreis,auto,https://www.ratsinfo-st-ingbert.sitzung-online.de/public/,Saarland,robots.txt verbietet Bots; St. Ingbert
 BVV Charlottenburg-Wilmersdorf,Berlin,html,https://bvv-charlottenburg-wilmersdorf.berlin.de/,Berlin,ALLRIS-Bürgerinfo; Adresse aus Datenschutzseite des Bezirks
 BVV Friedrichshain-Kreuzberg,Berlin,html,https://bvv-friedrichshain-kreuzberg.berlin.de/,Berlin,"ALLRIS-Bürgerinfo; Adresse nach Muster bvv-<bezirk>.berlin.de, ungeprüft"
 BVV Lichtenberg,Berlin,html,https://bvv-lichtenberg.berlin.de/,Berlin,ALLRIS-Bürgerinfo; Adresse aus Datenschutzseite des Bezirks
@@ -457,6 +526,7 @@ BVV Spandau,Berlin,html,https://bvv-spandau.berlin.de/,Berlin,"ALLRIS-Bürgerinf
 BVV Steglitz-Zehlendorf,Berlin,html,https://bvv-steglitz-zehlendorf.berlin.de/,Berlin,"ALLRIS-Bürgerinfo; Adresse nach Muster bvv-<bezirk>.berlin.de, ungeprüft"
 BVV Tempelhof-Schöneberg,Berlin,html,https://bvv-tempelhof-schoeneberg.berlin.de/,Berlin,ALLRIS-Bürgerinfo; Adresse aus Datenschutzseite des Bezirks
 BVV Treptow-Köpenick,Berlin,html,https://bvv-treptow-koepenick.berlin.de/,Berlin,"ALLRIS-Bürgerinfo; Adresse nach Muster bvv-<bezirk>.berlin.de, ungeprüft"
+Portal DiPlanung Berlin,,portal,https://be.beteiligung.diplanung.de/,Berlin,Landesportal; Sonde 2026-11-23: erreichbar
 Bezirksversammlung Altona,Hamburg,html,https://sitzungsdienst-altona.hamburg.de/bi/,Hamburg,ALLRIS-Bürgerinfo; Adresse von hamburg.de bestätigt
 Bezirksversammlung Eimsbüttel,Hamburg,html,https://sitzungsdienst-eimsbuettel.hamburg.de/bi/,Hamburg,ALLRIS-Bürgerinfo; Adresse von hamburg.de bestätigt
 Bezirksversammlung Hamburg-Nord,Hamburg,html,https://sitzungsdienst-hamburg-nord.hamburg.de/bi/,Hamburg,"ALLRIS-Bürgerinfo; Adresse nach Muster sitzungsdienst-<bezirk>.hamburg.de, ungeprüft"
@@ -464,8 +534,8 @@ Bezirksversammlung Hamburg-Mitte,Hamburg,html,https://sitzungsdienst-hamburg-mit
 Bezirksversammlung Harburg,Hamburg,html,https://sitzungsdienst-harburg.hamburg.de/bi/,Hamburg,"ALLRIS-Bürgerinfo; Adresse nach Muster sitzungsdienst-<bezirk>.hamburg.de, ungeprüft"
 Bezirksversammlung Wandsbek,Hamburg,html,https://sitzungsdienst-wandsbek.hamburg.de/bi/,Hamburg,"ALLRIS-Bürgerinfo; Adresse nach Muster sitzungsdienst-<bezirk>.hamburg.de, ungeprüft"
 Bezirksversammlung Bergedorf,Hamburg,html,https://sitzungsdienst-bergedorf.hamburg.de/bi/,Hamburg,"ALLRIS-Bürgerinfo; Adresse nach Muster sitzungsdienst-<bezirk>.hamburg.de, ungeprüft"
-Portal DiPlanung Schleswig-Holstein,,portal,https://sh.beteiligung.diplanung.de/,Schleswig-Holstein,Landesportal; Sonde 2026-11-23: erreichbar
 Portal DiPlanung Hamburg,,portal,https://hh.beteiligung.diplanung.de/,Hamburg,Landesportal; Sonde 2026-11-23: erreichbar
-Portal DiPlanung Berlin,,portal,https://be.beteiligung.diplanung.de/,Berlin,Landesportal; Sonde 2026-11-23: erreichbar
+Stadt Bremen – Deputation Mobilität Bau Stadtentwicklung,Bremen,bremen,https://bau.bremen.de/ressort/deputation-3443,Bremen,Abstimmungsergebnisse-PDFs + Sitzungsdienst der Bürgerschaft; eigener Adapter pv_bremen.py
+Bremerhaven,Bremerhaven,auto,https://sitzungsapp.bremerhaven.de/ris/bremerhaven/,Bremen,"altes RIS; neues System (Session) seit 02.07.2026 geplant, Adresse ungeprüft"
 Portal DiPlanung Bremen,,portal,https://hb.beteiligung.diplanung.de/,Bremen,Landesportal; Sonde 2026-11-23: erreichbar
-Portal DiPlanung Niedersachsen,,portal,https://ni.beteiligung.diplanung.de/,Niedersachsen,Landesportal; Sonde 2026-11-23: erreichbar
+Bremerhaven,Freie Hansestadt Bremen,sessionnet,https://sitzungsdienst.bremerhaven.de/,Bremen,Bremerhaven
