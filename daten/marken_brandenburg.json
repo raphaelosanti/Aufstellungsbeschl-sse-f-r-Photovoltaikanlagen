@@ -1,35 +1,1230 @@
 {
+ "Ahrensfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Tucheband": {
+  "zuletzt": "2026-11-26"
+ },
+ "Alt Zauche-Wußwerk": {
+  "zuletzt": "2026-11-26"
+ },
+ "Altdöbern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Althüttendorf": {
+  "zuletzt": "2026-11-26"
+ },
  "Altlandsberg": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Am Mellensee": {
+  "zuletzt": "2026-11-26"
  },
  "Amt Barnim-Oderbruch": {
-  "si_max": 1972,
-  "zuletzt": "2026-11-23"
+  "si_max": 1994,
+  "zuletzt": "2026-11-26"
  },
  "Amt Lebus": {
   "si_max": 4744,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Angermünde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Belzig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Freienwalde (Oder)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Liebenwerda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Saarow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bad Wilsnack": {
+  "zuletzt": "2026-11-26"
+ },
+ "Baruth/Mark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beeskow": {
+  "si_max": 759,
+  "zuletzt": "2026-11-26"
+ },
+ "Beetzsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beetzseeheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Beiersdorf-Freudenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bensdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berkenbrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Berkholz-Meyenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bernau bei Berlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bersteland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bestensee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Biesenthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Birkenwerder": {
+  "zuletzt": "2026-11-26"
+ },
+ "Blankenfelde-Mahlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Bleyen-Genschmar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Boitzenburger Land": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borkheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Borkwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brandenburg an der Havel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breddin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breese": {
+  "zuletzt": "2026-11-26"
+ },
+ "Breydin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brieselang": {
+  "zuletzt": "2026-11-26"
+ },
+ "Briesen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Briesen (Mark)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brieskow-Finkenheerd": {
+  "zuletzt": "2026-11-26"
  },
  "Britz": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Bronkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Brüssow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buckautal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Buckow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Burg (Spreewald)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Byhleguhre-Byhlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Calau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Carmzow-Wallmow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Casekow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Chorin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cottbus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Crinitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Cumlosen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dabergotz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dahme/Mark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dahmetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dallgow-Döberitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Diensdorf-Radlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dissen-Striesow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Doberlug-Kirchhain": {
+  "zuletzt": "2026-11-26"
  },
  "Drachhausen": {
   "si_max": 3615,
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Drahnsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Drebkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Dreetz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Döbern": {
+  "zuletzt": "2026-11-26"
  },
  "Eberswalde": {
-  "si_max": 1650,
-  "zuletzt": "2026-11-23"
+  "si_max": 1651,
+  "zuletzt": "2026-11-26"
+ },
+ "Eichwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Eisenhüttenstadt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Elsterwerda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Erkner": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkenberg/Elster": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Falkensee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fehrbellin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Felixsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fichtenhöhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fichtwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Finsterwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Flieth-Stegelitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Forst (Lausitz)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frankfurt (Oder)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Frauendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fredersdorf-Vogelsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friedrichswalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Friesack": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fürstenberg/Havel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Fürstenwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gartz (Oder)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Garzau-Garzin": {
+  "zuletzt": "2026-11-26"
  },
  "Gemeinde Rietz-Neuendorf": {
-  "si_max": 6474,
-  "zuletzt": "2026-11-23"
+  "si_max": 6476,
+  "zuletzt": "2026-11-26"
+ },
+ "Gerdshagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gerswalde": {
+  "zuletzt": "2026-11-26"
  },
  "Glienicke/Nordbahn": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Gollenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Golzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Golzow, Mittelmark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Golßen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gorden-Staupitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gosen-Neu Zittau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gramzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gransee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Kreutz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Köris": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Lindow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Pankow (Prignitz)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Groß Schacksdorf-Simmersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großbeeren": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großderschau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großkmehlen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großräschen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großthiemig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Großwoltersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grunow-Dammendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gräben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gröden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünewald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünheide (Mark)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Grünow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Guben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Guhrow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gumtow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gusow-Platkow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Guteborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Göritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Görzke": {
+  "zuletzt": "2026-11-26"
+ },
+ "Gülitz-Reetz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halbe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Halenbeck-Rohlsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Havelaue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Havelsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heckelberg-Brunow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heideblick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heidesee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heiligengrabe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Heinersbrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hennigsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hermsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herzberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Herzberg (Elster)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hirschfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohen Neuendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenbocka": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenbucko": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenfinow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenleipisch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hohenselchow-Groß Pinnow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Hoppegarten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Höhenland": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Ostbrandenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "IHK Potsdam (Prignitz)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ihlow, Fläming": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jacobsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jamlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Joachimsthal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jämlitz-Klein Düben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Jüterbog": {
+  "zuletzt": "2026-11-26"
+ },
+ "Karstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kasel-Golzig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ketzin/Havel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kleinmachnow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kleßen-Görne": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kloster Lehnin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kolkwitz/Gołkojce": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kotzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Krausnick-Groß Wasserburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kremitzaue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kremmen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kroppen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kyritz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Königs Wusterhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Kümmernitztal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Küstriner Vorland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Langewahl": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lanz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lauchhammer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lawitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lebus": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lebusa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Leegebruch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Legde/Quitzöbel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lenzen (Elbe)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lenzerwische": {
+  "zuletzt": "2026-11-26"
+ },
+ "Letschin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lichterfeld-Schacksdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Liebenwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lieberose": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lietzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lindow (Mark)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Linthe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Luckaitztal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Luckau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ludwigsfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lychen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Löwenberger Land": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübben (Spreewald)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Lübbenau/Spreewald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marienfließ": {
+  "zuletzt": "2026-11-26"
+ },
+ "Marienwerder": {
+  "zuletzt": "2026-11-26"
+ },
+ "Massen-Niederlausitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Melchow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Merzdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mescherin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Meyenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Michendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Milmersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Milower Land": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mittenwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Märkisch Buchholz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Märkisch Linden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Märkisch Luch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Märkische Heide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Märkische Höhe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlberg/Elbe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlenbecker Land": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlenberge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Mühlenfließ": {
+  "zuletzt": "2026-11-26"
+ },
+ "Müllrose": {
+  "zuletzt": "2026-11-26"
+ },
+ "Müncheberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Münchehofe": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nauen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neiße-Malxetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nennhausen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu Zauche": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neu-Seeland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuhardenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuhausen/Spree": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neupetershain": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuruppin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neustadt (Dosse)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neutrebbin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Neuzelle": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederer Fläming": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niederfinow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niedergörsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Niemegk": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nordwestuckermark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nuthe-Urstromtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Nuthetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberbarnim": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberkrämer": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oberuckersee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Oranienburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ortrand": {
+  "zuletzt": "2026-11-26"
+ },
+ "Panketal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Passow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Paulinenaue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Perleberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pessin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pinnow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pirow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Planebruch": {
+  "zuletzt": "2026-11-26"
+ },
+ "Planetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plattenburg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Plessa": {
+  "zuletzt": "2026-11-26"
+ },
+ "Podelzig": {
+  "zuletzt": "2026-11-26"
  },
  "Portal DiPlanung Brandenburg": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-26"
+ },
+ "Potsdam": {
+  "zuletzt": "2026-11-26"
+ },
+ "Premnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Prenzlau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Pritzwalk": {
+  "zuletzt": "2026-11-26"
+ },
+ "Putlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Päwesin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rabenstein/Fläming": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ragow-Merz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Randowtal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rangsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rathenow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rauen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rehfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reichenwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Reitwein": {
+  "zuletzt": "2026-11-26"
+ },
+ "Retzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rheinsberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rhinow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rietz-Neuendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rietzneuendorf-Staakow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rosenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Roskow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ruhland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Röderland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rückersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rüdersdorf bei Berlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rüdnitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rühstädt": {
+  "zuletzt": "2026-11-26"
+ },
+ "Rüthnick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sallgast": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schenkenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schenkendöbern": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schilda": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schipkau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlaubetal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlepzig": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schlieben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schmogrow-Fehrow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schorfheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schraden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schulzendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwarzbach": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwarzheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwedt/Oder": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwerin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwielochsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schwielowsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönborn": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schöneberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönefeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schöneiche bei Berlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönermark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönewalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönfeld": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönwald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Schönwalde-Glien": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seddiner See": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seeblick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Seelow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Senftenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Siehdichum": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sieversdorf-Hohenofen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sonnenberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sonnewalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spreenhagen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spreewaldheide": {
+  "zuletzt": "2026-11-26"
+ },
+ "Spremberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stahnsdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stechlin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stechow-Ferchesar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinhöfel": {
+  "zuletzt": "2026-11-26"
+ },
+ "Steinreich": {
+  "zuletzt": "2026-11-26"
+ },
+ "Storbeck-Frankendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Storkow (Mark)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Straupitz (Spreewald)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Strausberg": {
+  "zuletzt": "2026-11-26"
+ },
+ "Stüdenitz-Schönermark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Sydower Fließ": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tantow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tauche": {
+  "zuletzt": "2026-11-26"
+ },
+ "Teltow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Temmen-Ringenwalde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Temnitzquell": {
+  "zuletzt": "2026-11-26"
+ },
+ "Temnitztal": {
+  "zuletzt": "2026-11-26"
+ },
+ "Templin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tettau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Teupitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Trebbin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Treplin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Treuenbrietzen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Triglitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tröbitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Tschernitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Uckerfelde": {
+  "zuletzt": "2026-11-26"
+ },
+ "Uckerland": {
+  "zuletzt": "2026-11-26"
+ },
+ "Uebigau-Wahrenbrück": {
+  "zuletzt": "2026-11-26"
+ },
+ "Unterspreewald": {
+  "zuletzt": "2026-11-26"
+ },
+ "Velten": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vielitzsee": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vierlinden": {
+  "zuletzt": "2026-11-26"
+ },
+ "Vogelsang": {
+  "zuletzt": "2026-11-26"
+ },
+ "Waldsieversdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Walsleben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wandlitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Weisen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Welzow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wendisch Rietz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wenzlow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werben": {
+  "zuletzt": "2026-11-26"
+ },
+ "Werder (Havel)": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wiesenau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wiesenaue": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wiesenburg/Mark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wiesengrund": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wildau": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittenberge": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wittstock/Dosse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wollin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Woltersdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wriezen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wusterhausen/Dosse": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wustermark": {
+  "zuletzt": "2026-11-26"
+ },
+ "Wusterwitz": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zechin": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zehdenick": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zernitz-Lohm": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zeschdorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zeuthen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zichow": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ziesar": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ziethen": {
+  "zuletzt": "2026-11-26"
+ },
+ "Ziltendorf": {
+  "zuletzt": "2026-11-26"
+ },
+ "Zossen": {
+  "zuletzt": "2026-11-26"
+ },
+ "_nachklaeren": {
+  "https://bb.beteiligung.diplanung.de/verfahren/e4d0cfc2-c471-4ced-8bdf-860626e80ba7/public/detail": "2026-11-26",
+  "https://bb.beteiligung.diplanung.de/verfahren/f314f40d-823f-4901-985b-35974b52f876/public/detail": "2026-11-26",
+  "https://bb.beteiligung.diplanung.de/verfahren/fb94f79a-35e3-4b88-9385-c2cd7e5f8e6f/public/detail": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=12729": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=23504": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=25726": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=25727": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=25728": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=27595": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=32070": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=45179": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=46000": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=46279": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=46280": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=46596": "2026-11-26",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=48952": "2026-11-26",
+  "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=10760": "2026-11-26",
+  "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=13963": "2026-11-26",
+  "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=13966": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=20785": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=20838": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=20842": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=21576": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=21579": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=21787": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=22211": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=22527": "2026-11-26",
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/to0050.php?__ktonr=22656": "2026-11-26"
  },
  "_verworfen": [
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=46883",
@@ -40,12 +1235,37 @@
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=49195",
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=49467",
   "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=51027",
+  "http://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=51780",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=6855",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=6950",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7019",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7020",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7077",
   "http://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7287",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2025/AngerAMT_10_25.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_01_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_02_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_03_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_04_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_05_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_06_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_07_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_08_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Amtsblatt/2026/AngerAMT_09_26.pdf",
+  "https://angermuende.de/cms/upload/pdf/Konzepte/Erholungsentwicklungskonzeption_Fortschreibung.pdf",
+  "https://angermuende.de/cms/upload/pdf/Organigramm.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-01-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-02-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-03-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-04-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-05-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-06-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-07-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-08-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-09-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-10-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/amtsblatt/2026-11-amtsblatt-bco.pdf",
+  "https://britz-chorin-oderberg.de/wp-content/uploads/2026-Termine-Amtsblatt.pdf",
   "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=15242",
   "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=27576",
   "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=37096",
@@ -75,6 +1295,7 @@
   "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=49195",
   "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=49467",
   "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=51027",
+  "https://buergerinfo.barnim-oderbruch.de/to0050.php?__ktonr=51780",
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=5951",
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=5962",
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=5973",
@@ -89,6 +1310,22 @@
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7020",
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7077",
   "https://buergerinfo.barnim-oderbruch.de/vo0050.php?__kvonr=7287",
+  "https://hohen-neuendorf.de/sites/default/files/20230609_wahlbekanntmachung_ss_64_iii_bbgkwahlg_20230608_final.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/20231106_bekanntmachung_sitzung_wahlausschuss_15-11-2023.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/20250223_bekanntmachung_repraesent_wahllokal_22.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/20250223_wahlbekanntmachung_btw_termin_wahl_und_briefwahl.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/20250223_wahlbekanntmachung_wahllokale_und_wahlverfahren.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/amtsblatt_hn_nov_26_barrierefrei.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/amtsblatt_hn_okt_26_barrierefrei.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/beteiligungsverfahren/20240115_bekanntmachung_aufforderung_mitglieder_wahlausschuss_benennen_0.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/beteiligungsverfahren/20240510_bekanntmachung_wahlbezirke.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/beteiligungsverfahren/20240605_bekanntmachung_wahlausschuss_2_wahlergebnis.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/beteiligungsverfahren/20240722_bekanntmachung_nachruecker_mehrere_0.pdf",
+  "https://hohen-neuendorf.de/sites/default/files/ltw2024_praesentation_schulung_wahlvorstaende_briefwahl_-_stand_2024-07-16.pdf",
+  "https://session.beeskow.de:5848/bi/to0050.asp?__ktonr=7931",
+  "https://session.beeskow.de:5848/bi/to0050.asp?__ktonr=8021",
+  "https://session.beeskow.de:5848/bi/vo0050.asp?__kvonr=2261",
+  "https://session.beeskow.de:5848/bi/vo0050.asp?__kvonr=2683",
   "https://sessionnet.amt-lebus.de/bi/vo0050.php?__kvonr=6822",
   "https://sessionnet.eberswalde.de/sessionnet/bi/vo0050.php?__kvonr=6208",
   "https://sitzung.rietz-neuendorf.de/buergerinfo/to0050.php?__ktonr=10047",
@@ -119,6 +1356,50 @@
   "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8548",
   "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8660",
   "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8662",
-  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8905"
+  "https://www.amtpeitz.de/sessionnet/buergerinfo/vo0050.php?__kvonr=8905",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Amtsblatt/Amtsblatt_2026/Amtsblatt_Schorfheide_01_Februar_2026_web.pdf",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Amtsblatt/Amtsblatt_2026/Amtsblatt_Schorfheide_02_Februar_2026_web.pdf",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Amtsblatt/Amtsblatt_2026/Amtsblatt_Schorfheide_03_M%C3%A4rz_2026_web.pdf",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Amtsblatt/Amtsblatt_2026/Amtsblatt_Schorfheide_04_Mai_2026_web.pdf",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Amtsblatt/Amtsblatt_2026/Amtsblatt_Schorfheide_05_Juni_2026_web.pdf",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Amtsblatt/Amtsblatt_2026/Amtsblatt_Schorfheide_06_Juli_2026_web.pdf",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Amtsblatt/Amtsblatt_2026/Amtsblatt_Schorfheide_07_Oktober_2026_web.pdf",
+  "https://www.gemeinde-schorfheide.de/fileadmin/daten-gemeinde/buergerservice/Buergerservice_typo3/Formulare_2025_neu/Formulare_2026/Internet-_Liste-Fundsachen_12_11_2026.pdf",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/kommunalwahlen/2024-05-27-wahlbekanntmachung-der-wahlbehoerde.pdf?cid=6py",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/kommunalwahlen/2024-06-04-bekanntmachung-sitzung-wahlausschuss.pdf?cid=6sy",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/kommunalwahlen/2024-06-14-bekanntmachung-wahlergebnis-der-wahlen-zur-gemeindevertretung-und-ortsbeiraete.pdf?cid=6w7",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/kommunalwahlen/2024-06-14-bekanntmachung-wahlergebnis-der-wahlen-zur-gemeindevertretung-und-ortsbeiraete.pdf?cid=6wd",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/kommunalwahlen/2024-06-17-bekanntmachung-uebergang-eines-sitzes-ob-rdf.pdf?cid=6wm",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/kommunalwahlen/2024-06-24-bekanntmachung-uebergang-eines-sitzes-ob-rdf-1.pdf?cid=6zy",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/kommunalwahlen/2024-06-25-bekanntmachung-uebergang-eines-sitzes-ob-rdf.pdf?cid=70s",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/landtagswahl/2024-07-22-aufforderung-der-wahlbehoerde-zur-benennung-von-beisitzern.pdf?cid=7fa",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/landtagswahl/2024-07-22-oeffentliche-bekanntmachung-der-wahlbehoerde-zur-speicherung-personenbezogener-daten.pdf?cid=7f7",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/landtagswahl/2024-08-21-bekanntmachung-einsicht-wvz-landtagswahlen.pdf?cid=7ng",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/landtagswahl/2024-09-04-wahlbekanntmachung-nach-45-bbgkwahlv.pdf?cid=7p4",
+  "https://www.ruedersdorf.de/politik-verwaltung/bekanntmachungen/amtliche-bekanntmachungen/bekanntmachungen-2024/landtagswahl/2024-09-27-endgueltiges-ergebnis-der-lt-wahl-2024-amtsblatt-mol-nr.-282024.pdf?cid=7uy",
+  "https://www.schwielowsee.de/images/downloads/Amtsblatt/2026/Amtsblatt_11_2026.pdf",
+  "https://www.schwielowsee.de/images/downloads/Amtsblatt/2026/Amtsblatt_12_2026.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/INSEK_Schwielowsee_2te_Ortsteilgespraeche_Dokumentation_2024_10_07.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/INSEK_Schwielowsee_Dokumentation_Infostand_Geltow_2023_12_08_Stand_2023_12_13.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/INSEK_Schwielowsee_EG%20Zusammenhalt_Teilhabe_und_Daseinsvorsorge_Praesentation_2023_12_04.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/INSEK_Schwielowsee_EG_sozialer_Zusammenhalt_Teilhabe_Daseinsvorsorge_Protokoll_2023_12_04.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/INSEK_Schwielowsee_Expertengespraech_Wirtschaft_Protokoll_2024_07_05.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/INSEK_Schwielowsee_OT_Gespraech_Geltow_2023_11_09_Dokumentation.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/INSEK_Schwielowsee_OT_Gespraech_Geltow_2023_11_09_Praesentation.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/Ortsteilgespraech_Ferch_2023-11-07_INSEK_Schwielowsee_Dokumentation.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/Ortsteilgespraech_Ferch_2023-11-07_INSEK_Schwielowsee_Praesentation.pdf",
+  "https://www.schwielowsee.de/images/downloads/INSEK_2040/Schwielowsee_INSEK_Bericht_2025-03-19_Endfassung_digital.pdf",
+  "https://www.zeuthen.de/Am-Zeuthener-See-2026-01-705539.pdf",
+  "https://www.zeuthen.de/Am-Zeuthener-See-2026-02-706425.pdf",
+  "https://www.zeuthen.de/Am-Zeuthener-See-2026-03-707154.pdf",
+  "https://www.zeuthen.de/Am-Zeuthener-See-2026-04-707800.pdf",
+  "https://www.zeuthen.de/Am-Zeuthener-See-2026-05-708367.pdf",
+  "https://www.zeuthen.de/Am-Zeuthener-See-2026-06-710283.pdf",
+  "https://www.zeuthen.de/Amtsblatt-2026-02-706426.pdf",
+  "https://www.zeuthen.de/Amtsblatt-2026-03-707155.pdf",
+  "https://www.zeuthen.de/Amtsblatt-2026-04-707801.pdf",
+  "https://www.zeuthen.de/Amtsblatt-2026-05-708368.pdf",
+  "https://www.zeuthen.de/Amtsblatt-2026-06-710282.pdf",
+  "https://www.zeuthen.de/Erscheinungstermine-der-Zeitung-Am-Zeuthener-See-mit-Amtsblatt-2026-pdf-707918.pdf"
  ]
 }
