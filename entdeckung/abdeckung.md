@@ -1,15 +1,15 @@
 # RIS-Abdeckung (11494 Gemeinden)
 
-Geprüft: 9552 | noch nie geprüft: 1942 | RIS-Betreiber bisher: 835
+Geprüft: 11160 | noch nie geprüft: 334 | RIS-Betreiber bisher: 1004
 
 ## Je Bundesland
 
 | Land | Gemeinden | RIS gefunden | gesperrt | kein RIS | ungeprüft |
 |---|---:|---:|---:|---:|---:|
-| Rheinland-Pfalz | 2307 | 219 | 7 | 1183 | 898 |
-| Bayern | 2205 | 152 | 6 | 1238 | 809 |
+| Rheinland-Pfalz | 2307 | 374 | 11 | 1719 | 203 |
+| Bayern | 2205 | 254 | 12 | 1821 | 118 |
 | Schleswig-Holstein | 1121 | 96 | 96 | 926 | 3 |
-| Baden-Württemberg | 1101 | 115 | 12 | 745 | 229 |
+| Baden-Württemberg | 1101 | 144 | 21 | 929 | 7 |
 | Niedersachsen | 1039 | 166 | 64 | 807 | 2 |
 | Thüringen | 908 | 27 | 0 | 880 | 1 |
 | Mecklenburg-Vorpommern | 814 | 86 | 0 | 728 | 0 |
@@ -27,13 +27,13 @@ Geprüft: 9552 | noch nie geprüft: 1942 | RIS-Betreiber bisher: 835
 
 | Plattform | Betreiber | Gemeinden | Adapter vorhanden |
 |---|---:|---:|---|
-| SessionNet (Somacos) | 483 | 727 | ja |
-| ratsinfomanagement.net (OParl) | 139 | 171 | ja (OParl) |
-| sitzung-online.de | 95 | 155 | nein |
-| gremien.info (OParl) | 34 | 113 | ja (OParl) |
-| OParl (sonstige) | 29 | 36 | ja (OParl) |
-| Kommunalportal / more!rubin | 14 | 34 | nein |
-| ALLRIS (CC e-gov) | 16 | 31 | teilweise (HTML) |
+| SessionNet (Somacos) | 606 | 886 | ja |
+| ratsinfomanagement.net (OParl) | 164 | 217 | ja (OParl) |
+| sitzung-online.de | 102 | 162 | nein |
+| gremien.info (OParl) | 37 | 160 | ja (OParl) |
+| Kommunalportal / more!rubin | 24 | 61 | nein |
+| OParl (sonstige) | 30 | 50 | ja (OParl) |
+| ALLRIS (CC e-gov) | 16 | 36 | teilweise (HTML) |
 | ekom21 (OParl) | 1 | 24 | ja (OParl) |
 | ratsinfo-online.net | 11 | 20 | teilweise (auto) |
 | kdvz-frechen.de (OParl) | 1 | 18 | ja (OParl) |
@@ -42,9 +42,9 @@ Geprüft: 9552 | noch nie geprüft: 1942 | RIS-Betreiber bisher: 835
 
 ## Adapter-Ranking (fehlend oder nur teilweise)
 
-- sitzung-online.de: 155 Gemeinden / 95 Betreiber (nein)
-- Kommunalportal / more!rubin: 34 Gemeinden / 14 Betreiber (nein)
-- ALLRIS (CC e-gov): 31 Gemeinden / 16 Betreiber (teilweise (HTML))
+- sitzung-online.de: 162 Gemeinden / 102 Betreiber (nein)
+- Kommunalportal / more!rubin: 61 Gemeinden / 24 Betreiber (nein)
+- ALLRIS (CC e-gov): 36 Gemeinden / 16 Betreiber (teilweise (HTML))
 - ratsinfo-online.net: 20 Gemeinden / 11 Betreiber (teilweise (auto))
 - sdnet / Sitzungsdienst: 11 Gemeinden / 11 Betreiber (nein)
 - Mandatos: 2 Gemeinden / 1 Betreiber (nein)
@@ -63,12 +63,27 @@ Geprüft: 9552 | noch nie geprüft: 1942 | RIS-Betreiber bisher: 835
 - roigheim.sitzung-online.de (1 Gemeinden)
 - schriesheim.ratsinfomanagement.net (1 Gemeinden)
 - schwaebischhall.sitzung-online.de (1 Gemeinden)
+- landratsamt-heilbronn.ratsinfomanagement.net (1 Gemeinden)
+- sigmaringen.ratsinfomanagement.net (1 Gemeinden)
+- sindelfingen.ratsinfomanagement.net (1 Gemeinden)
+- singen.sitzung-online.de (1 Gemeinden)
+- sinzheim.ratsinfomanagement.net (1 Gemeinden)
+- spaichingen.ratsinfomanagement.net (1 Gemeinden)
+- staufen.ratsinfomanagement.net (1 Gemeinden)
+- stockach.ratsinfomanagement.net (1 Gemeinden)
+- wiernsheim.sitzung-online.de (1 Gemeinden)
 - seligenstadt.sitzung-online.de (1 Gemeinden)
 - koenigsbrunn.ratsinfomanagement.net (1 Gemeinden)
 - landsberg.sitzung-online.de (1 Gemeinden)
 - neumarkt.sitzung-online.de (1 Gemeinden)
 - neuried.sitzung-online.de (1 Gemeinden)
 - oberschleissheim.ratsinfomanagement.net (1 Gemeinden)
+- pfaffenhofen.ratsinfomanagement.net (1 Gemeinden)
+- prien.sitzung-online.de/bi (1 Gemeinden)
+- vgmering.sitzung-online.de/bi (1 Gemeinden)
+- starnberg.sitzung-online.de (1 Gemeinden)
+- vaterstetten.sitzung-online.de (1 Gemeinden)
+- wasserburg.sitzung-online.de (1 Gemeinden)
 - ratsinfo-online.net/hohenneuendorf-ri (1 Gemeinden)
 - ratsinfo-online.net/ruedersdorf-bi (1 Gemeinden)
 - ratsinfo-online.net/schorfheide-bi (1 Gemeinden)
@@ -138,9 +153,11 @@ Geprüft: 9552 | noch nie geprüft: 1942 | RIS-Betreiber bisher: 835
 - heek.ratsinfomanagement.net (1 Gemeinden)
 - vgdiez.sitzung-online.de/bi (1 Gemeinden)
 - vgdiez.sitzung-online.de (3 Gemeinden)
-- vg-winnweiler.sitzung-online.de/bi (1 Gemeinden)
+- vg-winnweiler.sitzung-online.de/bi (2 Gemeinden)
 - bitburgerland.sitzung-online.de (1 Gemeinden)
-- vgkirchen.sitzung-online.de/bi (1 Gemeinden)
+- vgkirchen.sitzung-online.de/bi (2 Gemeinden)
+- konz.sitzung-online.de (1 Gemeinden)
+- betzdorf.sitzung-online.de/bi (1 Gemeinden)
 - bexbach.sitzung-online.de (1 Gemeinden)
 - bous.sitzung-online.de/bi (1 Gemeinden)
 - dillingen.sitzung-online.de (1 Gemeinden)
