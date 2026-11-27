@@ -977,7 +977,7 @@
   "zuletzt": "2026-11-27"
  },
  "Gemmingen": {
-  "si_max": 371,
+  "si_max": 372,
   "zuletzt": "2026-11-27"
  },
  "Gemmrigheim": {
@@ -996,6 +996,9 @@
   "zuletzt": "2026-11-27"
  },
  "Gerstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Giengen an der Brenz": {
   "zuletzt": "2026-11-27"
  },
  "Glatten": {
@@ -1076,6 +1079,9 @@
  "Guggenhausen": {
   "zuletzt": "2026-11-27"
  },
+ "Gundelfingen": {
+  "zuletzt": "2026-11-27"
+ },
  "Gundelsheim": {
   "si_max": 331,
   "zuletzt": "2026-11-27"
@@ -1114,7 +1120,7 @@
   "zuletzt": "2026-11-27"
  },
  "Haiterbach": {
-  "si_max": 209,
+  "si_max": 210,
   "zuletzt": "2026-11-27"
  },
  "Hambrücken": {
@@ -1436,6 +1442,9 @@
  "Kappelrodeck": {
   "zuletzt": "2026-11-27"
  },
+ "Karlsdorf-Neuthard": {
+  "zuletzt": "2026-11-27"
+ },
  "Karlsruhe": {
   "zuletzt": "2026-11-27"
  },
@@ -1508,7 +1517,13 @@
  "Kolbingen": {
   "zuletzt": "2026-11-27"
  },
+ "Konstanz": {
+  "zuletzt": "2026-11-27"
+ },
  "Korb": {
+  "zuletzt": "2026-11-27"
+ },
+ "Korntal-Münchingen": {
   "zuletzt": "2026-11-27"
  },
  "Kornwestheim": {
@@ -1647,6 +1662,9 @@
  "Leimen": {
   "zuletzt": "2026-11-27"
  },
+ "Leinfelden-Echterdingen": {
+  "zuletzt": "2026-11-27"
+ },
  "Leingarten": {
   "zuletzt": "2026-11-27"
  },
@@ -1743,6 +1761,9 @@
   "zuletzt": "2026-11-27"
  },
  "Marbach am Neckar": {
+  "zuletzt": "2026-11-27"
+ },
+ "March": {
   "zuletzt": "2026-11-27"
  },
  "Markdorf": {
@@ -2107,6 +2128,9 @@
  "Oberwolfach": {
   "zuletzt": "2026-11-27"
  },
+ "Obrigheim": {
+  "zuletzt": "2026-11-27"
+ },
  "Ochsenhausen": {
   "zuletzt": "2026-11-27"
  },
@@ -2216,6 +2240,9 @@
  "Plüderhausen": {
   "zuletzt": "2026-11-27"
  },
+ "Radolfzell am Bodensee": {
+  "zuletzt": "2026-11-27"
+ },
  "Rainau": {
   "zuletzt": "2026-11-27"
  },
@@ -2283,7 +2310,7 @@
   "zuletzt": "2026-11-27"
  },
  "Rheinfelden (Baden)": {
-  "si_max": 15830,
+  "si_max": 15872,
   "zuletzt": "2026-11-27"
  },
  "Rheinhausen im Breisgau": {
@@ -2323,6 +2350,9 @@
   "zuletzt": "2026-11-27"
  },
  "Rohrdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Roigheim": {
   "zuletzt": "2026-11-27"
  },
  "Rosenberg": {
@@ -2459,6 +2489,9 @@
  "Schramberg": {
   "zuletzt": "2026-11-27"
  },
+ "Schriesheim": {
+  "zuletzt": "2026-11-27"
+ },
  "Schrozberg": {
   "zuletzt": "2026-11-27"
  },
@@ -2497,6 +2530,9 @@
  "Schwäbisch Gmünd": {
   "zuletzt": "2026-11-27"
  },
+ "Schwäbisch Hall": {
+  "zuletzt": "2026-11-27"
+ },
  "Schwörstadt": {
   "zuletzt": "2026-11-27"
  },
@@ -2522,15 +2558,665 @@
  "Schöntal": {
   "zuletzt": "2026-11-27"
  },
+ "Schönwald im Schwarzwald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seckach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seebach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seekirch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seelbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seewald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seitingen-Oberflacht": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sersheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Setzingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sexau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Siegelsbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sigmaringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sigmaringendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simmersfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simmozheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simonswald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sindelfingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Singen (Hohentwiel)": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sinsheim": {
+  "si_max": 4763,
+  "zuletzt": "2026-11-27"
+ },
+ "Sinzheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sipplingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sonnenbühl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spaichingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spechbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spiegelberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spraitbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "St. Blasien": {
+  "zuletzt": "2026-11-27"
+ },
+ "St. Georgen im Schwarzwald": {
+  "si_max": 3263,
+  "zuletzt": "2026-11-27"
+ },
+ "St. Johann": {
+  "zuletzt": "2026-11-27"
+ },
+ "St. Leon-Rot": {
+  "zuletzt": "2026-11-27"
+ },
+ "St. Märgen": {
+  "zuletzt": "2026-11-27"
+ },
+ "St. Peter": {
+  "zuletzt": "2026-11-27"
+ },
+ "Staig": {
+  "zuletzt": "2026-11-27"
+ },
+ "Starzach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Staufen im Breisgau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stegen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinenbronn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinhausen an der Rottum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinheim an der Murr": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinmauern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steißlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sternenfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stetten am kalten Markt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stimpfach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stockach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Straubenhardt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Straßberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stutensee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stuttgart": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stödtlen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stühlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulz am Neckar": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzbach an der Murr": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzbach-Laufen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sölden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süßen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Talheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tamm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tannhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tannheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tauberbischofsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tengen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Teningen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tiefenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tiefenbronn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Titisee-Neustadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Todtmoos": {
+  "zuletzt": "2026-11-27"
+ },
+ "Todtnau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Triberg im Schwarzwald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trochtelfingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trossingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tunau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tuningen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tuttlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Täferrot": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tübingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ubstadt-Weiher": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uhingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uhldingen-Mühlhofen": {
+  "zuletzt": "2026-11-27"
+ },
  "Ulm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Umkirch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ummendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untereisesheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterensingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untergruppenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterkirnach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untermarchtal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untermünkheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterreichenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterschneidheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterstadion": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterwachingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterwaldhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Urbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uttenweiler": {
+  "zuletzt": "2026-11-27"
+ },
+ "Utzenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vaihingen an der Enz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vellberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Veringenstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Villingen-Schwenningen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Villingendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vogt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vogtsburg im Kaiserstuhl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Volkertshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vöhrenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vöhringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vörstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waghäusel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waibstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wain": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldachtal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldbronn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walddorfhäslach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldenburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldkirch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldshut-Tiengen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walldorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walldürn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walzbachtal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wangen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wangen im Allgäu": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wannweil": {
+  "zuletzt": "2026-11-27"
+ },
+ "Warthausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wehingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wehr": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weidenstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weikersheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weil der Stadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weil im Schönbuch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weilen unter den Rinnen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weilheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weilheim an der Teck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weingarten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weingarten (Baden)": {
+  "si_max": 3523,
+  "zuletzt": "2026-11-27"
+ },
+ "Weinheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weinsberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weinstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weisenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weissach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weissach im Tal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weisweil": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weißbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wellendingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Welzheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wembach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wendlingen am Neckar": {
+  "zuletzt": "2026-11-27"
+ },
+ "Werbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wernau (Neckar)": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Widdern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wieden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiernsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesensteig": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesloch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wilhelmsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wilhelmsfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Willstätt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wimsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winden im Elztal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winterbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winterlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittighausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittnau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolfegg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolfschlugen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolpertshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolpertswende": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wurmberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wurmlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wutach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wutöschingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wyhl am Kaiserstuhl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wäschenbeuren": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wörnersberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wört": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wüstenrot": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zaberfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zaisenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zell am Harmersbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zell im Wiesental": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zell unter Aichelberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zimmern ob Rottweil": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zimmern unter der Burg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zuzenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zweiflingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zwiefalten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zwingenberg": {
   "zuletzt": "2026-11-27"
  },
  "_nachklaeren": {
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/8373": "2026-11-27",
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/8966": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=4338": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=4379": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=4425": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=4435": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=4489": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=5617": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=5656": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=6722": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=7779": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=7795": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=8818": "2026-11-27",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=8975": "2026-11-27",
   "http://ratsinfo.donaueschingen.de/buergerinfo/vo0050.php?__kvonr=6373": "2026-11-27",
   "http://ratsinfo.donaueschingen.de/buergerinfo/vo0050.php?__kvonr=7059": "2026-11-27",
   "http://ratsinfo.donaueschingen.de/buergerinfo/vo0050.php?__kvonr=7166": "2026-11-27",
+  "http://www.adelsheim.de/images/verwaltung/bekanntmachungen/Flaechennutzungsplan/PhotovoltaikHergenstadt/7.1GOBLageplan.pdf": "2026-11-27",
+  "http://www.aitrach.de/fileadmin/Website/Dateien/Bebauungplan/Photovoltaik_Haslacher_Stra%C3%9Fe/5244_BBP_Teil_D_VEP_genPlanfassung-A0.pdf": "2026-11-27",
+  "http://www.braunsbach.de/fileadmin/Dateien/Website_2021/Dateien/Rathaus_Buergersevice/Satzung_Ortsrecht/20260702_Vorentwurf_Begr%C3%BCndung_Solarpark_Jungholzhausen.pdf": "2026-11-27",
+  "http://www.epfendorf.de/resources/02%20Datenobjekte/EWS-Solarpark%20Hohe%20Egert%20Trichtingen/Vorhaben-%20und%20Erschlie%C3%9Fungsplan%20%28Modulbelegungsplan%29.pdf": "2026-11-27",
+  "http://www.gemeindebuchheim.de/fileadmin/Website/Dateien/Bauen/Solarpark_Buchheim/5_261106_saP_B-Plan_Solarpark-Buchheim_Entwurf.pdf": "2026-11-27",
+  "http://www.gerabronn.de/rathaus-service/aktuelles/aktuelles-aus-der-stadt/307/vollsperrung-l1037": "2026-11-27",
+  "http://www.gerabronn.de/rathaus-service/aktuelles/aktuelles-aus-der-stadt/320/zur-zukunft-unserer-staedte-gerabronn-und-langenburg": "2026-11-27",
+  "http://www.gerabronn.de/rathaus-service/aktuelles/oeffentliche-bekantmachungen": "2026-11-27",
+  "http://www.hayingen.de/media/pages/Pr%C3%A4sentation%20Regionalplanung%20Wind-%20und%20Solarenergie_Suchraumkulissen%20Wind_Solar.pdf": "2026-11-27",
+  "http://www.hueffenhardt.de/fileadmin/Dateien/Cross7/Root/de/Leben_%26_Wohnen/Bauen_%26_Wohnen/Bebauungsplane/Solarpark_Baumlespfad_-_FNP_Anderung_-_Anlage_1a_-_Begrundung_Teil_1.pdf": "2026-11-27",
+  "http://www.krautheim.de/fileadmin/Website/Dateien/Bauen/Bauleitplanverfahren/Neunstetten/BP_Solarpark_Neunstetten_-_Anlage_3b_-_Gr%C3%BCnordnerischer_Beitrag_-_Bestandsplan.pdf": "2026-11-27",
+  "http://www.krautheim.de/fileadmin/Website/Dateien/Bauen/Bauleitplanverfahren/Neunstetten/BP_Solarpark_Neunstetten_-_Anlage_4_-_Fachbeitrag_Artenschutz.pdf": "2026-11-27",
+  "http://www.lottstetten.de/site/Lottstetten-2021/get/documents_E-23648534/lottstetten/Objekte/Solarpark%20B%C3%A4umle%C3%A4cker/06_Blendgutachten.pdf": "2026-11-27",
+  "http://www.malsch.de/site/Malsch-2022/get/params_E1241498564_Dattachment/3402343/Schwimmende%20Photovoltaikanlage%20Glasersee%20-%20Solarpark%20Untersuchungskonzept.pdf": "2026-11-27",
+  "http://www.mehrstetten.de/seite/709634/photovoltaik-anlage-auf-der-kita-hommeler-neschd.html?modus=drucken": "2026-11-27",
+  "http://www.oberhausen-rheinhausen.de/verwaltung-buergerservice/bebauungsplaene/vorhabensbezogene-bebauungsplaene/vorhabenbezogener-bebauungsplan-solarpark-bruhrain-sued?type=98": "2026-11-27",
+  "http://www.offenau.de/fileadmin/Dateien/Website/Dateien/Bebauungsplaene/4179_offenau_solarpark_ebene/4179_BP_Solarpark_Ebene_-_Anlage_2b_-_Bebauungsplan_Textlicher_Teil.pdf": "2026-11-27",
+  "http://www.pfalzgrafenweiler.de/fileadmin/Dateien/Dateien/Bauen/Bebauungsplaene_und_Satzungen/PV-Anlage_Hayer/%C3%96ffentliche_Auslegung/141201546653_09_Artenschutzbericht_PVFreiflaechenanlage.PDF": "2026-11-27",
+  "http://www.rauenberg.de/fileadmin/Website/Dateien/3_Zuhause_in_Rauenberg/1_Bauen___Wohnen/8_Fl%C3%A4chennutzungsplan_GVV/1_17._Teilfortschreibung/241212_Rauenberg_Solarpark_Zwischenbericht_saP_17_Teilfortschreibung-2.pdf": "2026-11-27",
+  "http://www.rauenberg.de/fileadmin/Website/Dateien/3_Zuhause_in_Rauenberg/1_Bauen___Wohnen/8_Fl%C3%A4chennutzungsplan_GVV/1_17._Teilfortschreibung/250116_Fruehzeitige_Beteiligung_UBGOP_Solarpark_Hungerwiesen_Rauenberg-1-1.pdf": "2026-11-27",
+  "http://www.ravenstein.de/fileadmin/Dateien/Website/Dateien/Satzungen/Kriterienkatalog_Photovoltaik.pdf": "2026-11-27",
+  "http://www.remshalden.de/fileadmin/Dateien/Cross7/Startseite/Leben_%26_Wohnen/Immobilien%2C_Bauen_und_Mobilitat/Bebauungsplane/Anlage_11._Solarpark_Schonbuhl_Bodenschutzkonzept.pdf": "2026-11-27",
+  "http://www.rosenberg-baden.de/fileadmin/Dateien/Website/Dateien/Bebauungsplan_Sindolsheim_Kuhdacher_Weg_Photovoltaikanlage/Sindolsheim-Kudacher-Weg_Avifauna_2022.pdf": "2026-11-27",
+  "http://www.rosenberg-baden.de/fileadmin/Dateien/Website/Dateien/Bebauungsplan_Sindolsheim_Kuhdacher_Weg_Photovoltaikanlage/SolarparkSindolsheimKuhdacherWeg_BPlan_Textfestsetzungen_Satzung_-_Ausfertigungsvermerk.pdf": "2026-11-27",
+  "http://www.salem-baden.de/fileadmin/Dateien/Dateien/Engergie_und_Umwelt/Leitfaden.pdf": "2026-11-27",
+  "http://www.schoental.de/fileadmin/Dateien/Dateien/BPlaene/Bauleitverfahren/FNP_Solarpark_Sieben_Morgen_Beteiligung_der_OEffentlichkeit/FNP-AEnderung_Solarpark_Sieben_Morgen_-_Anlage_2_-_zeichn._Teil.pdf": "2026-11-27",
+  "http://www.schoental.de/fileadmin/Dateien/Dateien/BPlaene/Bpl.__Solarpark_Sieben_Morgen__Beteiligung_der_OEffentlichkeit_nach____3_Abs._2_BauGB/BP_Solarpark_Sieben_Morgen_-_Anlage_4b_-_Gruenordnerischer_Beitrag_-_Bestandsplan.pdf": "2026-11-27",
+  "http://www.schwoerstadt.de/site/Schwoerstadt_Internet/get/documents_E-1924571666/schwoerstadt/Objekte/06%20Bekanntmachungen/Solarpark%20Hollwangen%202026/05_BP%20Solarpark%20Hollwangen_Umweltbericht%202025_10_16.pdf": "2026-11-27",
+  "http://www.schwoerstadt.de/site/Schwoerstadt_Internet/get/documents_E-514695432/schwoerstadt/Objekte/06%20Bekanntmachungen/Solarpark%20Hollwangen%202026/07_BP%20Solarpark%20Hollwangen_Umweltbericht%20Anlage%20II_Artenschutzrechtliches%20Gutachten%2020250703.pdf": "2026-11-27",
   "https://buergerinfo-loerrach.de/vo0050.php?__kvonr=304025": "2026-11-27",
   "https://buergerinfo-loerrach.de/vo0050.php?__kvonr=304271": "2026-11-27",
   "https://buergerinfo.niedernhall.de/bi/vo0050.asp?__kvonr=2232": "2026-11-27",
@@ -2542,8 +3228,16 @@
   "https://deisslingen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXmCMPu6R40HpgXclQUd4O4": "2026-11-27",
   "https://deisslingen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZa38oYcBL-bclTDvY77j-P8": "2026-11-27",
   "https://deisslingen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbEltARXYWpeWzgkwmtrSGg": "2026-11-27",
+  "https://egenhausen.de/wp-content/uploads/2022/12/Egenhausen_2022-KW51.pdf": "2026-11-27",
+  "https://fluorn-winzeln.de/Rathaus/Ortsrecht/Bebauungsplaene-im-Verfahren": "2026-11-27",
+  "https://gemeinde-lauterach.de/wp-content/uploads/2026/11/Mitteilungsblatt-Gemeinde-Lauterach-47-2026.pdf": "2026-11-27",
+  "https://gomadingen.de/wp-content/uploads/2026/02/1837-2026-01-27-BP-STOeB-2.pdf": "2026-11-27",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=20321": "2026-11-27",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=20341": "2026-11-27",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=20567": "2026-11-27",
   "https://kernen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXOGzrsvGtc6PWQcMqwxnt8": "2026-11-27",
   "https://kernen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZf4nIf-SWGDyX5HdK5uctHM": "2026-11-27",
+  "https://oberteuringen.de/leben-wohnen/bauen-mieten/freiflaechen-und-agriphotovoltaik?type=98": "2026-11-27",
   "https://ratsinfo-eppingen.de/bi/vo0050.php?__kvonr=6049": "2026-11-27",
   "https://ratsinfo-eppingen.de/bi/vo0050.php?__kvonr=6251": "2026-11-27",
   "https://ratsinfo-eppingen.de/bi/vo0050.php?__kvonr=6513": "2026-11-27",
@@ -2563,6 +3257,7 @@
   "https://ris.freiburg.de/oparl/paper/4891702100061": "2026-11-27",
   "https://ris.freiburg.de/oparl/paper/5160504100112": "2026-11-27",
   "https://ris.freiburg.de/oparl/paper/5422802100081": "2026-11-27",
+  "https://ris.freiburg.de/oparl/paper/5940710100192": "2026-11-27",
   "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=4607": "2026-11-27",
   "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5021": "2026-11-27",
   "https://service.bad-schussenried.de/buergerinfo/vo0050.php?__kvonr=5030": "2026-11-27",
@@ -2591,26 +3286,95 @@
   "https://session.stadt-schoemberg.de/bi/to0050.asp?__ktonr=3024": "2026-11-27",
   "https://session.stadt-schoemberg.de/bi/to0050.asp?__ktonr=3315": "2026-11-27",
   "https://session.stadt-schoemberg.de/bi/to0050.asp?__ktonr=4387": "2026-11-27",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4485": "2026-11-27",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4769": "2026-11-27",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=8386": "2026-11-27",
   "https://sitzungsdienst.ehningen.de/buergerinfo/vo0050.asp?__kvonr=1314": "2026-11-27",
   "https://sitzungsdienst.moeckmuehl.de/bi/vo0050.asp?__kvonr=675413": "2026-11-27",
   "https://sitzungsdienst.moeckmuehl.de/bi/vo0050.asp?__kvonr=675626": "2026-11-27",
+  "https://www.albstadt.de/uploads_new/downloads/Public_notice/2024/vvg-albstadt-bitz-ausweisung-einer-sonderbauflaeche-mit-der-zf-entsprechend-dem-bebauungsplan-solarpark-lautlingen.pdf": "2026-11-27",
+  "https://www.bad-saulgau.de/de/bauen-wohnen-umwelt-verkehr/bauen-wohnen/bauleitplanung/2196_BP_Erw-Solarpark-Hochberg-VEP-Modulplanung.pdf": "2026-11-27",
+  "https://www.bad-saulgau.de/de/bauen-wohnen-umwelt-verkehr/bauen-wohnen/bauleitplanung/2196_UB_Erw-Solarpark-Hochberg-2023_12_01.pdf": "2026-11-27",
+  "https://www.balingen.de/site/Balingen-2020/get/documents_E1127787735/balingen/Balingen_Objekte/04-Bauen%20und%20Wohnen/Ich%20will%20bauen/Praxisleitfaden-Photovoltaikpflicht-barrierefrei.pdf": "2026-11-27",
+  "https://www.creglingen.de/fileadmin/Dateien/Bilder_Dateien/Wirtschaft-Wohnen/Bauleitplanung/Freiflaechenphotovoltaik/Geplante_FreiflaechenPVAnlagen_mit_Erlaeuterungen_gem._Beschluss_GR_28.02.2023.pdf": "2026-11-27",
+  "https://www.dettingen-teck.de/media/files/buergersolarpark/praesentationen-21.7.26.pdf": "2026-11-27",
+  "https://www.gondelsheim.de/wp-content/uploads/2026/10/02_BBP_Textteil.pdf": "2026-11-27",
+  "https://www.guggenhausen.online/de/rathaus/bauen-in-guggenhausen/06_23063_U1_Anhang1-Standortalternativenpruefung_-red.pdf": "2026-11-27",
+  "https://www.guggenhausen.online/de/rathaus/bauen-in-guggenhausen/06_23063_U2-Bestandsplan_red.pdf": "2026-11-27",
+  "https://www.heitersheim.de/Bauen-Umwelt/Projekte/Neubau-Bauhof-und-Feuerwehr": "2026-11-27",
   "https://www.info-mosbach.de/bi/vo0050.php?__kvonr=15014799": "2026-11-27",
   "https://www.info-mosbach.de/bi/vo0050.php?__kvonr=15014806": "2026-11-27",
   "https://www.info-mosbach.de/bi/vo0050.php?__kvonr=15017139": "2026-11-27",
   "https://www.info-mosbach.de/bi/vo0050.php?__kvonr=15019786": "2026-11-27",
+  "https://www.kuenzelsau.de/site/Kuenzelsau/get/documents_E856245470/kuenzelsau/Dateien/01_RathausUndBuergertheke/%C3%96ffentliche%20Bekanntmachungen/BBPl_Solarpark_Steinacker_Vogelherd_22042025/06c%20BP%20Steinacker-Vogelsberg%20Ma%C3%9FnahmenplanA.pdf": "2026-11-27",
+  "https://www.limbach.de/fileadmin/Dateien/Cross7/Startseite/Rathaus_%26_Service/Abgeschlossene_Bauleitplanung/Bebauungsplanverfahren/3853_BP_Solarpark_Stocklesgewann_-_Anlage_3b_-_GOB_Bestandsplan.pdf": "2026-11-27",
+  "https://www.loeffingen.de/fileadmin/Dateien/Dateien/02_Rathaus_und_Service/Verwaltung___Gemeinderat/%C3%96ffentliche_Bekanntmachungen/Bebauungsplan__Solarpark_Bachheim__fr%C3%BChzeitige_Beteiligung/06_Solarpark_Bachheim_Lageplan_frz_Bteilg.pdf": "2026-11-27",
+  "https://www.neuenstein.de/fileadmin/Content/Stadt_Neuenstein/Dateien/Bebauungspl%C3%A4ne/Solarpark_Taubensee/4188_BP_Solarpark_Taubensee_-_Anlage_2a_-_Bebauungsplan_zeichnerischer_Teil.pdf": "2026-11-27",
+  "https://www.neuenstein.de/fileadmin/Content/Stadt_Neuenstein/Dateien/Bebauungspl%C3%A4ne/Solarpark_Taubensee/4188_BP_Solarpark_Taubensee_-_Anlage_4b_-_Gr%C3%BCnordnerischer_Beitrag_mit_Eingriff-Ausgleich_-_Bestandsplan.pdf": "2026-11-27",
+  "https://www.neuenstein.de/fileadmin/Content/Stadt_Neuenstein/Dateien/Bebauungspl%C3%A4ne/Solarpark_Taubensee/4188_BP_Solarpark_Taubensee_-_Anlage_5_-_Artenschutzfachliches_Gutachten.pdf": "2026-11-27",
+  "https://www.niederstetten.de/fileadmin/Dateien/1_Stadt_Niederstetten/Dateien/Bauleitpl%C3%A4ne/Rechtskr%C3%A4ftige_Bauleitpl%C3%A4ne/Bebauungspl%C3%A4ne/FNP-Plan-%C3%84nderung-Bebauungsplan-Solarpark-Adolzhausen/Zusammenfassende_Erkl%C3%A4rung_Adolzhausen.pdf": "2026-11-27",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=32468": "2026-11-27",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=32644": "2026-11-27",
-  "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=35240": "2026-11-27"
+  "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=35240": "2026-11-27",
+  "https://www.rotamsee.de/fileadmin/Dateien/Cross7/Startseite/Rathaus_%26_Politik/Mitteilungsblatt_Burger_%26_Gemeinde/047.29_-_Mitteilungsblatt_%28MTB%29_eAusgabe_-_23.02.2026_-_23.02.2026_-_26-02-13_KW_7_-_.pdf": "2026-11-27",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/17467": "2026-11-27",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/17899": "2026-11-27",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/18199": "2026-11-27",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZW_9YhN_xm_vluk8uxtJHtA": "2026-11-27",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZc3H_kl6VbtwO5noe9qv98s": "2026-11-27",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcS-BqbN2VDHcnRfIw_smPs": "2026-11-27"
  },
  "_verworfen": [
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/7773",
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/8495",
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/9287",
   "http://buergerinfo.ulm.de/oparl/bodies/0001/papers/vo/9461",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=4437",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=4508",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=5580",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=5626",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=8830",
+  "http://cms.georgen.eu/session/buergerinfo/vo0050.php?__kvonr=8985",
   "http://ratsinfo.donaueschingen.de/buergerinfo/vo0050.php?__kvonr=6083",
   "http://ratsinfo.donaueschingen.de/buergerinfo/vo0050.php?__kvonr=6110",
   "http://ratsinfo.donaueschingen.de/buergerinfo/vo0050.php?__kvonr=6121",
   "http://ratsinfo.donaueschingen.de/buergerinfo/vo0050.php?__kvonr=6847",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E-1230279362/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_23_vom_14_November_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E-1289048549/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_16_vom%208_August_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E-1528590592/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_14_vom%2011_Juli_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E-2046090307/konstanz/Dateien/Service/Amtsblatt/2022/Amtsblatt_Ausgabe_13_vom_29_Juni_2022.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E-823772096/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_15_vom%2025_Juli_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E-863933346/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_17_vom%2022_August_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E-876157604/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_22_vom%2031_Oktober_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E1857333039/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_19_vom%2019_September_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E2006580021/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_18_vom%2005_September_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E656785382/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_20_vom%202_Oktober_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E760840637/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_24_vom_28_November_2026_barrierefrei.pdf",
+  "http://www.konstanz.de/site/Konstanz/get/documents_E849404014/konstanz/Dateien/Service/Amtsblatt/2026/Amtsblatt_Ausgabe_21_vom%2017_Oktober_2026_barrierefrei.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/KW35_0827.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/KW36__0903.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/KW37_0910.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/KW38_0917.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite-und-Siegelsbach-2026_44.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite_und_Siegelsbach_2026_40-1.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite_und_Siegelsbach_2026_41.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite_und_Siegelsbach_2026_42.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite_und_Siegelsbach_2026_43.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite_und_Siegelsbach_2026_45.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite_und_Siegelsbach_2026_46.pdf",
+  "http://www.siegelsbach.de/fileadmin/Website/Dateien/Mitteilungsblatt/2026/Titelseite_und_Siegelsbach_KW39.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/2025-09-25-KatzenschutzVO-abgeaendert-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/2026-05-20-RVO-zur-Anderung-der-Parkgebuehreordnung-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/20260625-06-217-Buwiesen-Alte-Stockaecker-Bekanntmachung-Satzung-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Anderung-der-Satzung-uber-die-Entsorgung-von-Kleinklaranlagen-und-geschlossenen-Gruben.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Anderung-der-Satzung-uber-die-offentliche-Abwasserbeseitigung-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Bebauungsplan-IGGS-Mitte-01-199-Rechtskraft-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Bebauungsplan-Ob-der-Fideliskirche-1-Teilanderung-01-108-1-Rechtskraft-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Bebauungsplan-Obere-Weiden-Laiz-4-Teilaenderung-06-86-4-fruehzeitige-Unterrichtung.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Bekanntmachung-2027-der-Tierseuchenkasse-BW-zur-Meldepflicht-.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Bekanntmachung-Wahlergebnis-Buergermeisterwahl-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/Bekanntmachung-der-Einziehungsabsicht-20251219-signed.pdf",
+  "http://www.sigmaringen.de/de/Buerger-Rathaus/Verwaltung-Politik/Amtliche-Bekanntmachungen/Amtliche-Bekanntmachungen/signed-20250809-FNP019-Bekanntmachung-Genehmigung-signed.pdf",
   "https://buergerinfo-loerrach.de/vo0050.php?__kvonr=303452",
   "https://buergerinfo-loerrach.de/vo0050.php?__kvonr=304027",
   "https://buergerinfo-loerrach.de/vo0050.php?__kvonr=304049",
@@ -2655,6 +3419,19 @@
   "https://ditzingen.gremien.info/oparl/paper/2833006100132",
   "https://ditzingen.gremien.info/oparl/paper/2841507100155",
   "https://ditzingen.gremien.info/oparl/paper/3010502100033",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=18294",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=18390",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=18883",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=19864",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=20860",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=21252",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=21254",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=21265",
+  "https://gr.sinsheim.cloud/bi/to0050.asp?__ktonr=22508",
+  "https://gr.sinsheim.cloud/bi/vo0050.asp?__kvonr=4073",
+  "https://gr.sinsheim.cloud/bi/vo0050.asp?__kvonr=4075",
+  "https://gr.sinsheim.cloud/bi/vo0050.asp?__kvonr=4077",
+  "https://gr.sinsheim.cloud/bi/vo0050.asp?__kvonr=5123",
   "https://kernen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVIWYqcbBC58IRVVcGWxDb4",
   "https://kernen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXrD_dllEEtr_xoKyqF1dMs",
   "https://kernen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeEkq2gBuLFebcFofemKDxs",
@@ -2755,6 +3532,18 @@
   "https://session.stadt-schoemberg.de/bi/vo0050.asp?__kvonr=1195",
   "https://session.stadt-schoemberg.de/bi/vo0050.asp?__kvonr=1330",
   "https://session.stadt-schoemberg.de/bi/vo0050.asp?__kvonr=888",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4227",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4457",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4624",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4689",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4698",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4828",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4887",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=4922",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=5014",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=8457",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=8473",
+  "https://session.weingarten-baden.de/bi/vo0050.asp?__kvonr=8705",
   "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10105",
   "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10210",
   "https://sessionnet.besigheim.de/bi/vo0050.php?__kvonr=10242",
@@ -2772,12 +3561,139 @@
   "https://sitzungsdienst.moeckmuehl.de/bi/vo0050.asp?__kvonr=675543",
   "https://sitzungsdienst.moeckmuehl.de/bi/vo0050.asp?__kvonr=677830",
   "https://sitzungsdienst.moeckmuehl.de/bi/vo0050.asp?__kvonr=679032",
+  "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl120s2675.pdf",
+  "https://www.giengen.de/ceasy/resource/?id=10706&download=1",
+  "https://www.giengen.de/ceasy/resource/?id=11597&download=1",
+  "https://www.giengen.de/ceasy/resource/?id=12907&download=1",
+  "https://www.giengen.de/ceasy/resource/?id=13002&download=1",
+  "https://www.giengen.de/ceasy/resource/?id=13029&download=1",
+  "https://www.giengen.de/ceasy/resource/?id=13043&download=1",
+  "https://www.giengen.de/ceasy/resource/?id=13079&download=1",
+  "https://www.giengen.de/ceasy/resource/?id=13120&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8397&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8409&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8427&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8442&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8463&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8473&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8491&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8501&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8522&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8544&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8546&download=1",
+  "https://www.korntal-muenchingen.de/ceasy/resource/?id=8693&download=1",
+  "https://www.march.de/ceasy/resource/11159?download=1",
+  "https://www.march.de/ceasy/resource/11179?download=1",
+  "https://www.march.de/ceasy/resource/11205?download=1",
+  "https://www.march.de/ceasy/resource/11215?download=1",
+  "https://www.march.de/ceasy/resource/11223?download=1",
+  "https://www.march.de/ceasy/resource/11237?download=1",
+  "https://www.march.de/ceasy/resource/11257?download=1",
+  "https://www.march.de/ceasy/resource/11273?download=1",
+  "https://www.march.de/ceasy/resource/11288?download=1",
+  "https://www.march.de/ceasy/resource/11306?download=1",
+  "https://www.march.de/ceasy/resource/11318?download=1",
+  "https://www.march.de/ceasy/resource/11338?download=1",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=32188",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=32503",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=32556",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=32972",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=35391",
   "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=35568",
-  "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=35976"
- ]
+  "https://www.ratsinfo-rheinfelden.de/buergerinfo/vo0050.asp?__kvonr=35976",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/316.00---Ehrenbarger-Wilhelm-Langheck4.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/361.00---Ehrenbarger-Arthur-K.-Watson5.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/361.00---Ehrenbrger-Wilhelm-Hrmann2.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/361.00--Ehrenbarger-Arthur-Gruber8.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/361.00--Ehrenbarger-Karl-Hummel6.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/361.00--Ehrenbarger-Roger-Combrisson9.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/361.00--Ehrenbrger-Ernst-Schfer7.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/361.00--Ehrenbrgerin-Mina-Zweigart1.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Freizeit___Tourismus/Stadtarchiv/wilhelmHaspel.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Internationales_Sindelfingen/SV-179-2016.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Internationales_Sindelfingen/SV-251-2016.pdf",
+  "https://www.sindelfingen.de/fileadmin/Website/01_Sindelfingen/Dateien/Internationales_Sindelfingen/SV-27-2015.pdf",
+  "https://www.singen.de/site/Singen/get/documents_E-1998700330/singen/Singen_Dateien/Informieren/Bekanntmachungen/2026/20261106-oeb-tierseuchenkasse-meldepflicht-2027_signiert.pdf",
+  "https://www.singen.de/site/Singen/get/documents_E-269957590/singen/Singen_Dateien/Informieren/Bekanntmachungen/2026/20261126-oeb-oeffentliche-sitzung-av-radolfzeller-aach-20261207_signiert.pdf",
+  "https://www.singen.de/site/Singen/get/documents_E-434737321/singen/Singen_Dateien/Erleben/Kultur/Stadtarchiv/benutzungsantrag_stadtarchiv_singen.pdf",
+  "https://www.singen.de/site/Singen/get/documents_E-813838743/singen/Singen_Dateien/Informieren/Bekanntmachungen/2026/20261125-oeb-oeffentliche-sitzung-azv-hegau-nord-20261210_signiert.pdf",
+  "https://www.singen.de/site/Singen/get/documents_E874948677/singen/Singen_Dateien/Informieren/Bekanntmachungen/2026/20261119-oeb-sitzung-azv-20261203_signiert.pdf",
+  "https://www.singen.de/site/Singen/get/documents_E891217478/singen/Singen_Dateien/Informieren/Bekanntmachungen/2026/20261111-oeb-fruehzeitige-beteiligung-31-aend-fnp-2020_signiert.pdf",
+  "https://www.spaichingen.de/ceasy/resource/?id=14129&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14130&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14131&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14132&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14133&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14134&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14135&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14136&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14138&download=1",
+  "https://www.spaichingen.de/ceasy/resource/?id=14139&download=1",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E-1011318302/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2008_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E-1403906639/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2010_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E-1658364884/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2007_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E-1703929932/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2005_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E-735191748/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2001%2002%2003_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E1048715950/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2009_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E1398950129/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2006_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E292911044/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2011_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/documents_E412506615/staufen/Objekte/Dateien/B%C3%BCrgerservice/Rathausblatt/2026/Das%20Rathaus%20KW%2004_2026.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/params_E-1980599080_Dattachment/709059/Redaktionsstatut%20f%C3%BCr%20das%20Amtsblatt%20der%20Stadt%20Staufen.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/params_E637889282_Dattachment/1072631/Beratungsvorlage%20GR%2028.09.2022.pdf",
+  "https://www.staufen.de/site/Staufen-2020/get/params_E654358664_Dattachment/1072623/Beratungsvorlage%20GR%2027.07.2022.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-1147835622/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261120_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-1176161773/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261030_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-2001017920/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20260918_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-2122856770/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20260925.Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-562171397/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261002_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-6008834/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261127_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-736885930/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261016_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-785378800/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261113Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E-927321259/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261009.Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E1110410282/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261113_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E1363344159/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20261023_Web.pdf",
+  "https://www.stockach.de/site/Stockach/get/documents_E2064051390/stockach/Dateien/Stadt%20%26%20Politik/Verwaltung%20%26%20Politik/Stockach%20Informiert/Stockach_Informiert_20260227.pdf",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/16745",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/17403",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/17463",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/17627",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/18360",
+  "https://www.tuebingen.de/oparl/bodies/0001/papers/vo/19006",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXDxNdMyrtjySog151-u7WY",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZIK8mB96IO8O-RFQgEPu64",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZadNCob2otwJgwdiZ5Hxqf4",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcKrlWkuy8MH-15kA0TngzQ",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZd-cFe2Pv1cMrH94Sh4yyf4",
+  "https://zell.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZe2lbH9bchxoCXwxaL_Iy5c"
+ ],
+ "Öhningen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Öhringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ölbronn-Dürrn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Öllingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Öpfingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Östringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ötigheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ötisheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Überlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ühlingen-Birkendorf": {
+  "zuletzt": "2026-11-27"
+ }
 }
