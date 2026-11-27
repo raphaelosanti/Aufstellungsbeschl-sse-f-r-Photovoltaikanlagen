@@ -275,7 +275,7 @@ Q82539,08226018,Eppelheim,Rhein-Neckar-Kreis,Baden-Württemberg,,https://www.epp
 Q506450,08125026,Eppingen,Heilbronn,Baden-Württemberg,,http://www.eppingen.de/,49.133333333,8.916666666,https://ratsinfo-eppingen.de/bi/,sessionnet,gefunden,2026-11-26
 Q505920,08425039,Erbach,Alb-Donau-Kreis,Baden-Württemberg,,http://www.erbach-donau.de/,48.3275,9.8925,,,kein_ris,2026-11-26
 Q61651,08118014,Erdmannhausen,Gemeindeverwaltungsverband Marbach am Neckar,Baden-Württemberg,,https://www.erdmannhausen.de/,48.942222222,9.295555555,,,kein_ris,2026-11-26
-Q515372,08435013,Eriskirch,Bodenseekreis,Baden-Württemberg,,https://eriskirch.de,47.629166666,9.529166666,,,,
+Q515372,08435013,Eriskirch,Bodenseekreis,Baden-Württemberg,,https://eriskirch.de,47.629166666,9.529166666,https://eriskirch.de/sessionnet/,sessionnet,gefunden,2026-11-27
 Q80494,08116018,Erkenbrechtsweiler,Gemeindeverwaltungsverband Lenningen,Baden-Württemberg,,https://erkenbrechtsweiler.de,48.556666666,9.432222222,,,kein_ris,2026-11-26
 Q60136,08125027,Erlenbach,Heilbronn,Baden-Württemberg,,https://www.erlenbach-hn.de/,49.17,9.269444444,,,kein_ris,2026-11-26
 Q515999,08426043,Erlenmoos,Biberach,Baden-Württemberg,,https://www.erlenmoos.de/,48.063055555,9.975,,,kein_ris,2026-11-26
@@ -3196,115 +3196,115 @@ Q526691,09678193,Werneck,Schweinfurt,Bayern,,https://www.werneck.de/,49.98333333
 Q549138,09780145,Wertach,Oberallgäu,Bayern,,https://www.wertach.de/,47.6,10.4,,,kein_ris,2026-11-27
 Q502930,09773182,Wertingen,Dillingen an der Donau,Bayern,,http://www.wertingen.de,48.533333333,10.666666666,https://www.wertingen.de/sessionnet/,sessionnet,gefunden,2026-11-27
 Q520922,09190158,Wessobrunn,Weilheim-Schongau,Bayern,,https://www.wessobrunn.de/,47.883333333,11.033333333,,,kein_ris,2026-11-27
-Q508216,09772217,Westendorf,Augsburg,Bayern,,https://www.westendorf.de/,48.566666666,10.833333333,,,,
-Q549052,09777182,Westendorf,Ostallgäu,Bayern,,https://www.gemeinde-westendorf.de/,47.933333333,10.716666666,,,,
-Q566584,09778214,Westerheim,Unterallgäu,Bayern,,http://www.gemeinde-westerheim.de,48.016666666,10.3,,,,
-Q509320,09671159,Westerngrund,Aschaffenburg,Bayern,,https://www.gemeinde-westerngrund.de/,50.125877777,9.240605555,,,,
-Q525889,09577179,Westheim,Weißenburg-Gunzenhausen,Bayern,,http://www.westheim.info,49.0,10.666666666,,,,
-Q521569,09571222,Wettringen,Ansbach,Bayern,,http://www.wettringen-mfr.de,49.25,10.15,,,,
-Q510936,09176167,Wettstetten,Eichstätt,Bayern,,http://www.wettstetten.de,48.833333333,11.416666666,,,,
-Q517534,09182137,Weyarn,Miesbach,Bayern,,http://www.weyarn.de,47.866666666,11.8,,,,
-Q536419,09188144,Weßling,Starnberg,Bayern,,https://www.gemeinde-wessling.de/,48.078055555,11.2525,,,,
-Q553734,09778216,Wiedergeltingen,Unterallgäu,Bayern,,http://www.wiedergeltingen.de,48.039722222,10.672222222,,,,
-Q306414,09190159,Wielenbach,Weilheim-Schongau,Bayern,,http://www.wielenbach.de,47.874444444,11.157777777,,,,
-Q548571,09377159,Wiesau,Tirschenreuth,Bayern,,http://www.wiesau.de,49.916666666,12.166666666,,,,
-Q288569,09671162,Wiesen,Aschaffenburg,Bayern,,https://www.gemeinde-wiesen.de/,50.116666666,9.366666666,,,,
-Q511462,09774189,Wiesenbach,Günzburg,Bayern,,http://www.wiesenbach.de,48.298333333,10.307222222,,,,
-Q302916,09675177,Wiesenbronn,Kitzingen,Bayern,,http://www.wiesenbronn.de,49.75,10.3,,,,
-Q964723,09671461,Wiesener Forst,Aschaffenburg,Bayern,,,50.118,9.33091,,,,
-Q552116,09278197,Wiesenfelden,Bogen,Bayern,,http://www.wiesenfelden.de,49.033333333,12.533333333,,,,
-Q491818,09375209,Wiesent,Regensburg,Bayern,,https://www.wiesent.de,49.006944444,12.377777777,,,,
-Q503074,09474175,Wiesenthau,Forchheim,Bayern,,https://wiesenthau.de,49.716666666,11.133055555,,,,
-Q166228,09675178,Wiesentheid,Kitzingen,Bayern,,http://www.wiesentheid.de,49.8,10.35,,,,
-Q160758,09474176,Wiesenttal,Forchheim,Bayern,,http://www.wiesenttal.de,49.803008333,11.263002777,,,,
-Q506584,09571223,Wieseth,Ansbach,Bayern,,http://www.wieseth.de,49.166666666,10.466666666,,,,
-Q517471,09677200,Wiesthal,Main-Spessart,Bayern,,http://www.wiesthal.de,50.033333333,9.433333333,,,,
-Q536377,09780146,Wiggensbach,Oberallgäu,Bayern,,https://www.wiggensbach.de/,47.745833333,10.231944444,,,,
-Q507412,09571224,Wilburgstetten,Ansbach,Bayern,,http://www.wilburgstetten.de,49.028055555,10.391944444,,,,
-Q503965,09273181,Wildenberg,Kelheim,Bayern,,http://www.wildenberg.de,48.733333333,11.916666666,,,,
-Q505327,09672163,Wildflecken,Bad Kissingen,Bayern,,https://wildflecken.de,50.366666666,9.916666666,,,,
-Q520426,09780147,Wildpoldsried,Oberallgäu,Bayern,,https://www.wildpoldsried.de/,47.766666666,10.4,,,,
-Q516395,09190160,Wildsteig,Weilheim-Schongau,Bayern,,http://www.wildsteig.de,47.7,10.95,,,,
-Q240874,09575181,Wilhelmsdorf,Neustadt an der Aisch-Bad Windsheim,Bayern,,https://wilhelmsdorf.de,49.563611111,10.738333333,,,,
-Q504933,09476189,Wilhelmsthal,Kronach,Bayern,,http://www.wilhelmsthal.net,50.308611111,11.371111111,,,,
-Q541454,09573133,Wilhermsdorf,Fürth,Bayern,,http://www.markt-wilhermsdorf.de,49.486388888,10.718055555,,,,
-Q504003,09675179,Willanzheim,Kitzingen,Bayern,,https://www.willanzheim.de/,49.683333333,10.233333333,,,,
-Q558901,09673182,Willmars,Rhön-Grabfeld,Bayern,,https://www.willmars.de/,50.5,10.25,,,,
-Q510806,09372175,Willmering,Cham,Bayern,,http://www.willmering.de,49.25,12.666666666,,,,
-Q505762,09181146,Windach,Landsberg am Lech,Bayern,,http://www.windach.de,48.0642,11.0407,,,,
-Q548590,09278198,Windberg,Bogen,Bayern,,http://www.windberg.de,48.95,12.75,,,,
-Q504080,09571225,Windelsbach,Ansbach,Bayern,,https://www.windelsbach.de/,49.398333333,10.299444444,,,,
-Q502642,09374168,Windischeschenbach,Neustadt an der Waldnaab,Bayern,,http://www.windischeschenbach.de,49.803030555,12.154869444,,,,
-Q504443,09275159,Windorf,Passau,Bayern,,http://www.markt-windorf.de,48.625,13.225,,,,
-Q502441,09571226,Windsbach,Ansbach,Bayern,,https://windsbach.de,49.2489,10.8291,,,,
-Q265381,09171137,Winhöring,Altötting,Bayern,,https://www.winhoering.de/,48.266666666,12.65,,,,
-Q1527035,09574464,Winkelhaid,Nürnberger Land,Bayern,,,49.4042,11.2989,,,,
-Q524382,09574164,Winkelhaid,Nürnberger Land,Bayern,,https://www.winkelhaid.de/,49.383333333,11.3,,,,
-Q9375210,09471461,Winkelhofer Forst,Bamberg,Bayern,,,49.8167,10.5167,,,,
-Q559111,09376178,Winklarn,Schwandorf,Bayern,,http://www.vg-oberviechtach.de,49.4261,12.4816,,,,
-Q511175,09774196,Winterbach,Günzburg,Bayern,,https://www.winterbach.bayern/,48.466666666,10.483333333,,,,
-Q139025,09679206,Winterhausen,Würzburg,Bayern,,http://www.winterhausen.de,49.7,10.016666666,,,,
-Q305299,09778217,Winterrieden,Unterallgäu,Bayern,,https://winterrieden.de,48.116666666,10.216666666,,,,
-Q505092,09271153,Winzer,Deggendorf,Bayern,,http://www.marktwinzer.de,48.722769444,13.076888888,,,,
-Q1500409,09774452,Winzerwald,Günzburg,Bayern,,,48.2167,10.4333,,,,
-Q547905,09678196,Wipfeld,Schweinfurt,Bayern,,http://www.wipfeld.de,49.916666666,10.166666666,,,,
-Q504068,09477163,Wirsberg,Kulmbach,Bayern,,https://www.wirsberg.de/,50.106388888,11.606388888,,,,
-Q122073,09571227,Wittelshofen,Ansbach,Bayern,,http://www.wittelshofen.de,49.066666666,10.466666666,,,,
-Q566598,09277152,Wittibreut,Rottal-Inn,Bayern,,https://wittibreut.de,48.329166666,12.987222222,,,,
-Q517577,09773183,Wittislingen,Dillingen an der Donau,Bayern,,http://www.wittislingen.de,48.616666666,10.416666666,,,,
-Q504217,09275160,Witzmannsberg,Passau,Bayern,,http://www.witzmannsberg.de,48.716666666,13.416666666,,,,
-Q9377650,09376455,Wolferlohe,Schwandorf,Bayern,,,49.3,11.9833,,,,
-Q627586,09178156,Wolfersdorf,Freising,Bayern,,http://www.gemeinde-wolfersdorf.de,48.483333333,11.716666666,,,,
-Q503367,09779231,Wolferstadt,Donau-Ries,Bayern,,https://wolferstadt.de,48.916666666,10.783333333,,,,
-Q547916,09778218,Wolfertschwenden,Unterallgäu,Bayern,,https://www.wolfertschwenden.de/,47.892777777,10.266666666,,,,
-Q502591,09571229,Wolframs-Eschenbach,Ansbach,Bayern,,http://www.wolframs-eschenbach.de,49.2264,10.72519,,,,
-Q503160,09173147,Wolfratshausen,Bad Tölz-Wolfratshausen,Bayern,,https://www.wolfratshausen.de/,47.913333333,11.427777777,,,,
-Q9377669,09173452,Wolfratshauser Forst,Bad Tölz-Wolfratshausen,Bayern,,,47.865663888,11.496088888,,,,
-Q491545,09375211,Wolfsegg,Regensburg,Bayern,,http://www.wolfsegg.de,49.1075,11.9775,,,,
-Q143075,09673183,Wollbach,Rhön-Grabfeld,Bayern,,http://www.wollbach.de,50.365833333,10.223611111,,,,
-Q491958,09186162,Wolnzach,Pfaffenhofen an der Ilm,Bayern,,https://www.wolnzach.de/,48.6,11.616666666,,,,
-Q504695,09674219,Wonfurt,Haßberge,Bayern,,https://wonfurt.de,50.016666666,10.466666666,,,,
-Q534090,09189165,Wonneberg,Traunstein,Bayern,,https://wonneberg.de,47.916666666,12.716666666,,,,
-Q503602,09477164,Wonsees,Kulmbach,Bayern,,https://www.wonsees.de/,49.966666666,11.3,,,,
-Q548612,09778219,Woringen,Unterallgäu,Bayern,,https://www.woringen.de/,47.916666666,10.2,,,,
-Q495778,09479169,Wunsiedel,Wunsiedel i. Fichtelgebirge,Bayern,,http://wunsiedel.de,50.037388888,11.999388888,,,,
-Q583211,09277153,Wurmannsquick,Rottal-Inn,Bayern,,http://www.wurmannsquick.de,48.35,12.783333333,,,,
-Q511582,09274193,Wurmsham,Landshut,Bayern,,http://www.wurmsham.de,48.35,12.333333333,,,,
-Q1368974,09678457,Wustvieler Forst,Schweinfurt,Bayern,,,49.9125,10.4897,,,,
-Q503908,09571228,Wörnitz,Ansbach,Bayern,,https://woernitz.de,49.25,10.25,,,,
-Q528465,09177144,Wörth,Erding,Bayern,,https://www.woerth.info/,48.233333333,11.9,,,,
-Q76995,09676169,Wörth am Main,Miltenberg,Bayern,,http://www.woerth-am-main.de,49.796388888,9.1575,,,,
-Q488592,09375210,Wörth an der Donau,Regensburg,Bayern,,http://www.woerth-donau.de,49.000833333,12.401111111,,,,
-Q528579,09274191,Wörth an der Isar,Landshut,Bayern,,http://www.woerth-isar.de,48.623,12.339438888,,,,
-Q526480,09188145,Wörthsee,Starnberg,Bayern,,https://www.woerthsee-online.de/,48.083333333,11.2,,,,
-Q581543,09673184,Wülfershausen an der Saale,Rhön-Grabfeld,Bayern,,https://www.wuelfershausen.de/,50.333333333,10.35,,,,
-Q2999,09663000,Würzburg,Unterfranken,Bayern,,https://www.wuerzburg.de/,49.794444444,9.929444444,,,,
-Q139676,09276146,Zachenberg,Regen,Bayern,,http://www.zachenberg.de,48.966666666,13.0,,,,
-Q146727,09372177,Zandt,Cham,Bayern,,http://www.gemeinde-zandt.de,49.15,12.733333333,,,,
-Q146846,09183151,Zangberg,Mühldorf am Inn,Bayern,,http://www.zangberg.de,48.274722222,12.425277777,,,,
-Q147332,09471214,Zapfendorf,Bamberg,Bayern,,http://www.zapfendorf.de,50.0175,10.930833333,,,,
-Q184873,09674221,Zeil am Main,Haßberge,Bayern,,https://www.zeil-am-main.de,50.016666666,10.6,,,,
-Q184877,09277154,Zeilarn,Rottal-Inn,Bayern,,https://www.zeilarn.de/,48.3,12.833333333,,,,
-Q186158,09672166,Zeitlofs,Bad Kissingen,Bayern,,https://www.markt-zeitlofs.de/,50.266666666,9.666666666,,,,
-Q187503,09372167,Zell,Cham,Bayern,,http://www.gemeinde-zell.de,49.144444444,12.411388888,,,,
-Q32066,09679209,Zell am Main,Würzburg,Bayern,,http://www.zell-main.de,49.816666666,9.866666666,,,,
-Q31614,09475189,Zell im Fichtelgebirge,Hof,Bayern,,https://www.markt-zell.de/,50.133333333,11.820833333,,,,
-Q189058,09677203,Zellingen,Main-Spessart,Bayern,,http://www.zellingen.de,49.9,9.816666666,,,,
-Q189904,09272152,Zenting,Freyung-Grafenau,Bayern,,http://www.zenting.de,48.8,13.266666666,,,,
-Q196794,09574465,Zerzabelshofer Forst,Nürnberger Land,Bayern,,,49.4461,11.1692,,,,
-Q199053,09774198,Ziemetshausen,Günzburg,Bayern,,http://www.ziemetshausen.de,48.3,10.533333333,,,,
-Q199205,09773186,Ziertheim,Dillingen an der Donau,Bayern,,http://www.ziertheim.de,48.65,10.383333333,,,,
-Q72977,09573134,Zirndorf,Fürth,Bayern,,http://www.zirndorf.de,49.45,10.95,,,,
-Q218693,09178157,Zolling,Freising,Bayern,,http://www.zolling.de,48.45,11.766666666,,,,
-Q226775,09175139,Zorneding,Ebersberg,Bayern,,http://www.zorneding.de,48.083333333,11.833333333,,,,
-Q230613,09773188,Zusamaltheim,Dillingen an der Donau,Bayern,,http://www.zusamaltheim.de,48.533333333,10.633333333,,,,
-Q230860,09772223,Zusmarshausen,Augsburg,Bayern,,https://www.zusmarshausen.de/,48.383333333,10.583333333,,,,
-Q163091,09276148,Zwiesel,Regen,Bayern,,http://www.zwiesel.de,49.016666666,13.233333333,,,,
-Q247903,09773187,Zöschingen,Dillingen an der Donau,Bayern,,http://www.zoeschingen.de,48.666666666,10.316666666,,,,
-Q9393264,09471462,Zückshuter Forst,Bamberg,Bayern,,,49.95,10.9,,,,
-Q15310068,09574461,gemeindefreies Gebiet Leinburg,Nürnberger Land,Bayern,,,49.435330555,11.313688888,,,,
-Q257831,09189159,Übersee,Traunstein,Bayern,,https://www.uebersee.com/,47.816666666,12.466666666,,,,
-Q334666,09678186,Üchtelhausen,Schweinfurt,Bayern,,https://www.uechtelhausen.de/,50.083333333,10.266666666,,,,
+Q508216,09772217,Westendorf,Augsburg,Bayern,,https://www.westendorf.de/,48.566666666,10.833333333,,,kein_ris,2026-11-27
+Q549052,09777182,Westendorf,Ostallgäu,Bayern,,https://www.gemeinde-westendorf.de/,47.933333333,10.716666666,,,kein_ris,2026-11-27
+Q566584,09778214,Westerheim,Unterallgäu,Bayern,,http://www.gemeinde-westerheim.de,48.016666666,10.3,,,kein_ris,2026-11-27
+Q509320,09671159,Westerngrund,Aschaffenburg,Bayern,,https://www.gemeinde-westerngrund.de/,50.125877777,9.240605555,,,kein_ris,2026-11-27
+Q525889,09577179,Westheim,Weißenburg-Gunzenhausen,Bayern,,http://www.westheim.info,49.0,10.666666666,,,kein_ris,2026-11-27
+Q521569,09571222,Wettringen,Ansbach,Bayern,,http://www.wettringen-mfr.de,49.25,10.15,,,kein_ris,2026-11-27
+Q510936,09176167,Wettstetten,Eichstätt,Bayern,,http://www.wettstetten.de,48.833333333,11.416666666,https://buergerinfo-wettstetten.digitalfabrix.de/,sessionnet,gefunden,2026-11-27
+Q517534,09182137,Weyarn,Miesbach,Bayern,,http://www.weyarn.de,47.866666666,11.8,,,kein_ris,2026-11-27
+Q536419,09188144,Weßling,Starnberg,Bayern,,https://www.gemeinde-wessling.de/,48.078055555,11.2525,,,kein_ris,2026-11-27
+Q553734,09778216,Wiedergeltingen,Unterallgäu,Bayern,,http://www.wiedergeltingen.de,48.039722222,10.672222222,,,kein_ris,2026-11-27
+Q306414,09190159,Wielenbach,Weilheim-Schongau,Bayern,,http://www.wielenbach.de,47.874444444,11.157777777,,,kein_ris,2026-11-27
+Q548571,09377159,Wiesau,Tirschenreuth,Bayern,,http://www.wiesau.de,49.916666666,12.166666666,https://ratsinfo-vg-wiesau.digitalfabrix.de/,sessionnet,gefunden,2026-11-27
+Q288569,09671162,Wiesen,Aschaffenburg,Bayern,,https://www.gemeinde-wiesen.de/,50.116666666,9.366666666,,,kein_ris,2026-11-27
+Q511462,09774189,Wiesenbach,Günzburg,Bayern,,http://www.wiesenbach.de,48.298333333,10.307222222,,,kein_ris,2026-11-27
+Q302916,09675177,Wiesenbronn,Kitzingen,Bayern,,http://www.wiesenbronn.de,49.75,10.3,,,kein_ris,2026-11-27
+Q964723,09671461,Wiesener Forst,Aschaffenburg,Bayern,,,50.118,9.33091,,,keine_homepage,2026-11-27
+Q552116,09278197,Wiesenfelden,Bogen,Bayern,,http://www.wiesenfelden.de,49.033333333,12.533333333,,,kein_ris,2026-11-27
+Q491818,09375209,Wiesent,Regensburg,Bayern,,https://www.wiesent.de,49.006944444,12.377777777,,,kein_ris,2026-11-27
+Q503074,09474175,Wiesenthau,Forchheim,Bayern,,https://wiesenthau.de,49.716666666,11.133055555,,,kein_ris,2026-11-27
+Q166228,09675178,Wiesentheid,Kitzingen,Bayern,,http://www.wiesentheid.de,49.8,10.35,,,kein_ris,2026-11-27
+Q160758,09474176,Wiesenttal,Forchheim,Bayern,,http://www.wiesenttal.de,49.803008333,11.263002777,,,kein_ris,2026-11-27
+Q506584,09571223,Wieseth,Ansbach,Bayern,,http://www.wieseth.de,49.166666666,10.466666666,,,kein_ris,2026-11-27
+Q517471,09677200,Wiesthal,Main-Spessart,Bayern,,http://www.wiesthal.de,50.033333333,9.433333333,,,kein_ris,2026-11-27
+Q536377,09780146,Wiggensbach,Oberallgäu,Bayern,,https://www.wiggensbach.de/,47.745833333,10.231944444,,,kein_ris,2026-11-27
+Q507412,09571224,Wilburgstetten,Ansbach,Bayern,,http://www.wilburgstetten.de,49.028055555,10.391944444,,,kein_ris,2026-11-27
+Q503965,09273181,Wildenberg,Kelheim,Bayern,,http://www.wildenberg.de,48.733333333,11.916666666,,,kein_ris,2026-11-27
+Q505327,09672163,Wildflecken,Bad Kissingen,Bayern,,https://wildflecken.de,50.366666666,9.916666666,,,kein_ris,2026-11-27
+Q520426,09780147,Wildpoldsried,Oberallgäu,Bayern,,https://www.wildpoldsried.de/,47.766666666,10.4,,,kein_ris,2026-11-27
+Q516395,09190160,Wildsteig,Weilheim-Schongau,Bayern,,http://www.wildsteig.de,47.7,10.95,,,kein_ris,2026-11-27
+Q240874,09575181,Wilhelmsdorf,Neustadt an der Aisch-Bad Windsheim,Bayern,,https://wilhelmsdorf.de,49.563611111,10.738333333,,,kein_ris,2026-11-27
+Q504933,09476189,Wilhelmsthal,Kronach,Bayern,,http://www.wilhelmsthal.net,50.308611111,11.371111111,,,kein_ris,2026-11-27
+Q541454,09573133,Wilhermsdorf,Fürth,Bayern,,http://www.markt-wilhermsdorf.de,49.486388888,10.718055555,,,kein_ris,2026-11-27
+Q504003,09675179,Willanzheim,Kitzingen,Bayern,,https://www.willanzheim.de/,49.683333333,10.233333333,,,kein_ris,2026-11-27
+Q558901,09673182,Willmars,Rhön-Grabfeld,Bayern,,https://www.willmars.de/,50.5,10.25,,,kein_ris,2026-11-27
+Q510806,09372175,Willmering,Cham,Bayern,,http://www.willmering.de,49.25,12.666666666,,,kein_ris,2026-11-27
+Q505762,09181146,Windach,Landsberg am Lech,Bayern,,http://www.windach.de,48.0642,11.0407,https://vg-windach.de/buergerinformationssystem/,sessionnet,gefunden,2026-11-27
+Q548590,09278198,Windberg,Bogen,Bayern,,http://www.windberg.de,48.95,12.75,,,kein_ris,2026-11-27
+Q504080,09571225,Windelsbach,Ansbach,Bayern,,https://www.windelsbach.de/,49.398333333,10.299444444,,,kein_ris,2026-11-27
+Q502642,09374168,Windischeschenbach,Neustadt an der Waldnaab,Bayern,,http://www.windischeschenbach.de,49.803030555,12.154869444,,,kein_ris,2026-11-27
+Q504443,09275159,Windorf,Passau,Bayern,,http://www.markt-windorf.de,48.625,13.225,,,kein_ris,2026-11-27
+Q502441,09571226,Windsbach,Ansbach,Bayern,,https://windsbach.de,49.2489,10.8291,,,kein_ris,2026-11-27
+Q265381,09171137,Winhöring,Altötting,Bayern,,https://www.winhoering.de/,48.266666666,12.65,,,kein_ris,2026-11-27
+Q1527035,09574464,Winkelhaid,Nürnberger Land,Bayern,,,49.4042,11.2989,,,keine_homepage,2026-11-27
+Q524382,09574164,Winkelhaid,Nürnberger Land,Bayern,,https://www.winkelhaid.de/,49.383333333,11.3,https://buergerinfo.winkelhaid.net/,sessionnet,gefunden,2026-11-27
+Q9375210,09471461,Winkelhofer Forst,Bamberg,Bayern,,,49.8167,10.5167,,,keine_homepage,2026-11-27
+Q559111,09376178,Winklarn,Schwandorf,Bayern,,http://www.vg-oberviechtach.de,49.4261,12.4816,,,kein_ris,2026-11-27
+Q511175,09774196,Winterbach,Günzburg,Bayern,,https://www.winterbach.bayern/,48.466666666,10.483333333,,,kein_ris,2026-11-27
+Q139025,09679206,Winterhausen,Würzburg,Bayern,,http://www.winterhausen.de,49.7,10.016666666,https://buergerinfo-vgem-eibelstadt.digitalfabrix.de/,sessionnet,gefunden,2026-11-27
+Q305299,09778217,Winterrieden,Unterallgäu,Bayern,,https://winterrieden.de,48.116666666,10.216666666,,,kein_ris,2026-11-27
+Q505092,09271153,Winzer,Deggendorf,Bayern,,http://www.marktwinzer.de,48.722769444,13.076888888,,,kein_ris,2026-11-27
+Q1500409,09774452,Winzerwald,Günzburg,Bayern,,,48.2167,10.4333,,,keine_homepage,2026-11-27
+Q547905,09678196,Wipfeld,Schweinfurt,Bayern,,http://www.wipfeld.de,49.916666666,10.166666666,,,kein_ris,2026-11-27
+Q504068,09477163,Wirsberg,Kulmbach,Bayern,,https://www.wirsberg.de/,50.106388888,11.606388888,,,kein_ris,2026-11-27
+Q122073,09571227,Wittelshofen,Ansbach,Bayern,,http://www.wittelshofen.de,49.066666666,10.466666666,,,kein_ris,2026-11-27
+Q566598,09277152,Wittibreut,Rottal-Inn,Bayern,,https://wittibreut.de,48.329166666,12.987222222,,,kein_ris,2026-11-27
+Q517577,09773183,Wittislingen,Dillingen an der Donau,Bayern,,http://www.wittislingen.de,48.616666666,10.416666666,,,kein_ris,2026-11-27
+Q504217,09275160,Witzmannsberg,Passau,Bayern,,http://www.witzmannsberg.de,48.716666666,13.416666666,,,kein_ris,2026-11-27
+Q9377650,09376455,Wolferlohe,Schwandorf,Bayern,,,49.3,11.9833,,,keine_homepage,2026-11-27
+Q627586,09178156,Wolfersdorf,Freising,Bayern,,http://www.gemeinde-wolfersdorf.de,48.483333333,11.716666666,,,kein_ris,2026-11-27
+Q503367,09779231,Wolferstadt,Donau-Ries,Bayern,,https://wolferstadt.de,48.916666666,10.783333333,,,kein_ris,2026-11-27
+Q547916,09778218,Wolfertschwenden,Unterallgäu,Bayern,,https://www.wolfertschwenden.de/,47.892777777,10.266666666,,,kein_ris,2026-11-27
+Q502591,09571229,Wolframs-Eschenbach,Ansbach,Bayern,,http://www.wolframs-eschenbach.de,49.2264,10.72519,,,kein_ris,2026-11-27
+Q503160,09173147,Wolfratshausen,Bad Tölz-Wolfratshausen,Bayern,,https://www.wolfratshausen.de/,47.913333333,11.427777777,,,kein_ris,2026-11-27
+Q9377669,09173452,Wolfratshauser Forst,Bad Tölz-Wolfratshausen,Bayern,,,47.865663888,11.496088888,,,keine_homepage,2026-11-27
+Q491545,09375211,Wolfsegg,Regensburg,Bayern,,http://www.wolfsegg.de,49.1075,11.9775,,,kein_ris,2026-11-27
+Q143075,09673183,Wollbach,Rhön-Grabfeld,Bayern,,http://www.wollbach.de,50.365833333,10.223611111,,,kein_ris,2026-11-27
+Q491958,09186162,Wolnzach,Pfaffenhofen an der Ilm,Bayern,,https://www.wolnzach.de/,48.6,11.616666666,,,kein_ris,2026-11-27
+Q504695,09674219,Wonfurt,Haßberge,Bayern,,https://wonfurt.de,50.016666666,10.466666666,https://buerger.ratsinfo-theres.de/,sessionnet,gefunden,2026-11-27
+Q534090,09189165,Wonneberg,Traunstein,Bayern,,https://wonneberg.de,47.916666666,12.716666666,,,kein_ris,2026-11-27
+Q503602,09477164,Wonsees,Kulmbach,Bayern,,https://www.wonsees.de/,49.966666666,11.3,,,kein_ris,2026-11-27
+Q548612,09778219,Woringen,Unterallgäu,Bayern,,https://www.woringen.de/,47.916666666,10.2,,,kein_ris,2026-11-27
+Q495778,09479169,Wunsiedel,Wunsiedel i. Fichtelgebirge,Bayern,,http://wunsiedel.de,50.037388888,11.999388888,,,kein_ris,2026-11-27
+Q583211,09277153,Wurmannsquick,Rottal-Inn,Bayern,,http://www.wurmannsquick.de,48.35,12.783333333,,,kein_ris,2026-11-27
+Q511582,09274193,Wurmsham,Landshut,Bayern,,http://www.wurmsham.de,48.35,12.333333333,,,kein_ris,2026-11-27
+Q1368974,09678457,Wustvieler Forst,Schweinfurt,Bayern,,,49.9125,10.4897,,,keine_homepage,2026-11-27
+Q503908,09571228,Wörnitz,Ansbach,Bayern,,https://woernitz.de,49.25,10.25,,,kein_ris,2026-11-27
+Q528465,09177144,Wörth,Erding,Bayern,,https://www.woerth.info/,48.233333333,11.9,,,kein_ris,2026-11-27
+Q76995,09676169,Wörth am Main,Miltenberg,Bayern,,http://www.woerth-am-main.de,49.796388888,9.1575,,,kein_ris,2026-11-27
+Q488592,09375210,Wörth an der Donau,Regensburg,Bayern,,http://www.woerth-donau.de,49.000833333,12.401111111,,,kein_ris,2026-11-27
+Q528579,09274191,Wörth an der Isar,Landshut,Bayern,,http://www.woerth-isar.de,48.623,12.339438888,,,kein_ris,2026-11-27
+Q526480,09188145,Wörthsee,Starnberg,Bayern,,https://www.woerthsee-online.de/,48.083333333,11.2,,,kein_ris,2026-11-27
+Q581543,09673184,Wülfershausen an der Saale,Rhön-Grabfeld,Bayern,,https://www.wuelfershausen.de/,50.333333333,10.35,,,kein_ris,2026-11-27
+Q2999,09663000,Würzburg,Unterfranken,Bayern,,https://www.wuerzburg.de/,49.794444444,9.929444444,http://www.wuerzburg.sitzung-online.de/BI/,auto,gesperrt,2026-11-27
+Q139676,09276146,Zachenberg,Regen,Bayern,,http://www.zachenberg.de,48.966666666,13.0,,,kein_ris,2026-11-27
+Q146727,09372177,Zandt,Cham,Bayern,,http://www.gemeinde-zandt.de,49.15,12.733333333,,,kein_ris,2026-11-27
+Q146846,09183151,Zangberg,Mühldorf am Inn,Bayern,,http://www.zangberg.de,48.274722222,12.425277777,,,kein_ris,2026-11-27
+Q147332,09471214,Zapfendorf,Bamberg,Bayern,,http://www.zapfendorf.de,50.0175,10.930833333,https://buergerinfo-zapfendorf.digitalfabrix.de/,sessionnet,gefunden,2026-11-27
+Q184873,09674221,Zeil am Main,Haßberge,Bayern,,https://www.zeil-am-main.de,50.016666666,10.6,,,kein_ris,2026-11-27
+Q184877,09277154,Zeilarn,Rottal-Inn,Bayern,,https://www.zeilarn.de/,48.3,12.833333333,,,kein_ris,2026-11-27
+Q186158,09672166,Zeitlofs,Bad Kissingen,Bayern,,https://www.markt-zeitlofs.de/,50.266666666,9.666666666,,,kein_ris,2026-11-27
+Q187503,09372167,Zell,Cham,Bayern,,http://www.gemeinde-zell.de,49.144444444,12.411388888,,,kein_ris,2026-11-27
+Q32066,09679209,Zell am Main,Würzburg,Bayern,,http://www.zell-main.de,49.816666666,9.866666666,,,kein_ris,2026-11-27
+Q31614,09475189,Zell im Fichtelgebirge,Hof,Bayern,,https://www.markt-zell.de/,50.133333333,11.820833333,,,kein_ris,2026-11-27
+Q189058,09677203,Zellingen,Main-Spessart,Bayern,,http://www.zellingen.de,49.9,9.816666666,,,kein_ris,2026-11-27
+Q189904,09272152,Zenting,Freyung-Grafenau,Bayern,,http://www.zenting.de,48.8,13.266666666,https://gemeinde-zenting.de/wichtige-buergerinformationen/,sessionnet,gefunden,2026-11-27
+Q196794,09574465,Zerzabelshofer Forst,Nürnberger Land,Bayern,,,49.4461,11.1692,,,keine_homepage,2026-11-27
+Q199053,09774198,Ziemetshausen,Günzburg,Bayern,,http://www.ziemetshausen.de,48.3,10.533333333,,,kein_ris,2026-11-27
+Q199205,09773186,Ziertheim,Dillingen an der Donau,Bayern,,http://www.ziertheim.de,48.65,10.383333333,,,kein_ris,2026-11-27
+Q72977,09573134,Zirndorf,Fürth,Bayern,,http://www.zirndorf.de,49.45,10.95,https://sitzung.zirndorf.de/bi/,sessionnet,gefunden,2026-11-27
+Q218693,09178157,Zolling,Freising,Bayern,,http://www.zolling.de,48.45,11.766666666,,,kein_ris,2026-11-27
+Q226775,09175139,Zorneding,Ebersberg,Bayern,,http://www.zorneding.de,48.083333333,11.833333333,,,kein_ris,2026-11-27
+Q230613,09773188,Zusamaltheim,Dillingen an der Donau,Bayern,,http://www.zusamaltheim.de,48.533333333,10.633333333,,,kein_ris,2026-11-27
+Q230860,09772223,Zusmarshausen,Augsburg,Bayern,,https://www.zusmarshausen.de/,48.383333333,10.583333333,,,kein_ris,2026-11-27
+Q163091,09276148,Zwiesel,Regen,Bayern,,http://www.zwiesel.de,49.016666666,13.233333333,,,kein_ris,2026-11-27
+Q247903,09773187,Zöschingen,Dillingen an der Donau,Bayern,,http://www.zoeschingen.de,48.666666666,10.316666666,,,kein_ris,2026-11-27
+Q9393264,09471462,Zückshuter Forst,Bamberg,Bayern,,,49.95,10.9,,,keine_homepage,2026-11-27
+Q15310068,09574461,gemeindefreies Gebiet Leinburg,Nürnberger Land,Bayern,,,49.435330555,11.313688888,,,keine_homepage,2026-11-27
+Q257831,09189159,Übersee,Traunstein,Bayern,,https://www.uebersee.com/,47.816666666,12.466666666,,,kein_ris,2026-11-27
+Q334666,09678186,Üchtelhausen,Schweinfurt,Bayern,,https://www.uechtelhausen.de/,50.083333333,10.266666666,https://ratsinfo.uechtelhausen.de/,sessionnet,gefunden,2026-11-27
 Q64,11000000,Berlin,Deutschland,Berlin,,https://www.berlin.de/,52.516666666,13.383333333,,,kein_ris,2026-11-25
 Q366076,12060005,Ahrensfelde,Barnim,Brandenburg,,https://www.ahrensfelde.de/,52.576194444,13.575277777,https://www.ahrensfelde.de/bi/vo040.asp,html,gefunden,2026-11-25
 Q433372,12064009,Alt Tucheband,Märkisch-Oderland,Brandenburg,,https://www.amt-golzow.de/verzeichnis/objekt.php?mandat=52504,52.533333333,14.516666666,,,kein_ris,2026-11-25
@@ -3315,7 +3315,7 @@ Q442339,12064029,Altlandsberg,Märkisch-Oderland,Brandenburg,,https://www.altlan
 Q451382,12072002,Am Mellensee,Teltow-Fläming,Brandenburg,,https://www.gemeinde-am-mellensee.de/,52.160495,13.400595,,,kein_ris,2026-11-25
 Q490066,12073008,Angermünde,Uckermark,Brandenburg,,https://www.angermuende.de/,53.033333333,14.0,https://www.angermuende.de/bi/,sessionnet,gefunden,2026-11-25
 Q523642,12069020,Bad Belzig,Potsdam-Mittelmark,Brandenburg,,https://www.bad-belzig.de/,52.142222222,12.595555555,,,kein_ris,2026-11-25
-Q427655,12064044,Bad Freienwalde (Oder),Märkisch-Oderland,Brandenburg,,https://bad-freienwalde.de/,52.785555555,14.0325,,,kein_ris,2026-11-25
+Q427655,12064044,Bad Freienwalde,Märkisch-Oderland,Brandenburg,,https://bad-freienwalde.de/,52.785555555,14.0325,,,kein_ris,2026-11-25
 Q589277,12062024,Bad Liebenwerda,Elbe-Elster,Brandenburg,,https://www.badliebenwerda.de/,51.516666666,13.4,,,kein_ris,2026-11-25
 Q49421,12067024,Bad Saarow,Kreis Fürstenwalde,Brandenburg,Amt Scharmützelsee,https://www.bad-saarow.de/,52.291578,14.055805,,,kein_ris,2026-11-25
 Q570108,12070008,Bad Wilsnack,Prignitz,Brandenburg,,https://bad-wilsnack.de/,52.95,11.949722222,,,kein_ris,2026-11-25
@@ -3400,7 +3400,7 @@ Q241395,12060068,Friedrichswalde,Barnim,Brandenburg,,https://www.amt-joachimstha
 Q585632,12063088,Friesack,Havelland,Brandenburg,,https://amt-friesack.de,52.733055555,12.583055555,,,kein_ris,2026-11-15
 Q311539,12065084,Fürstenberg/Havel,Oberhavel,Brandenburg,,https://www.fuerstenberg-havel.de/,53.185585,13.145541,,,kein_ris,2026-11-15
 Q16064,12067144,Fürstenwalde,Oder-Spree,Brandenburg,,https://www.fuerstenwalde-spree.de/,52.366666666,14.066666666,,,kein_ris,2026-11-15
-Q571998,12073189,Gartz (Oder),,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18265,53.210277777,14.391111111,,,kein_ris,2026-11-15
+Q571998,12073189,Gartz,,Brandenburg,Amt Gartz (Oder),https://www.gartz.de/verzeichnis/objekt.php?mandat=18265,53.210277777,14.391111111,,,kein_ris,2026-11-15
 Q585328,12064153,Garzau-Garzin,Märkisch-Oderland,Brandenburg,,https://www.amt-maerkische-schweiz.de/gemeinden/gemeinde-garzau-garzin/,52.549722222,13.983055555,,,kein_ris,2026-11-15
 Q622156,12070096,Gerdshagen,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=38437,53.25,12.2,,,kein_ris,2026-11-15
 Q625872,12073201,Gerswalde,Uckermark,Brandenburg,,https://www.amt-gerswalde.de/verzeichnis/objekt.php?mandat=9679,53.170498055,13.748518888,,,kein_ris,2026-11-15
@@ -3512,7 +3512,7 @@ Q574170,12072240,Ludwigsfelde,Teltow-Fläming,Brandenburg,,https://www.ludwigsfe
 Q560013,12060149,Lunow-Stolzenhagen,Barnim,Brandenburg,,https://britz-chorin-oderberg.de/amtliches-ortsrecht/gemeinden/lunow-stolzenhagen-gemeinde,52.933333333,14.108333333,https://ratsinfo-online.net/britzchorinoderberg-bi/,auto,gesperrt,2026-11-15
 Q635901,12073384,Lychen,Uckermark,Brandenburg,,https://www.lychen.de/,53.210055555,13.315333333,,,kein_ris,2026-11-15
 Q583171,12065198,Löwenberger Land,Oberhavel,Brandenburg,,https://www.loewenberger-land.de/,52.896039,13.154618,,,kein_ris,2026-11-15
-Q584815,12061316,Lübben (Spreewald),Dahme-Spreewald,Brandenburg,,https://www.luebben.de/,51.95,13.9,,,kein_ris,2026-11-15
+Q584815,12061316,Lübben,Dahme-Spreewald,Brandenburg,,https://www.luebben.de/,51.95,13.9,,,kein_ris,2026-11-15
 Q147895,12066196,Lübbenau/Spreewald,Oberspreewald-Lausitz,Brandenburg,,https://www.luebbenau-spreewald.de/,51.867874,13.968828,,,kein_ris,2026-11-15
 Q625876,12067310,Madlitz-Wilmersdorf,Briesen (Mark),Brandenburg,,,52.383055555,14.283055555,,,keine_homepage,2026-11-15
 Q622574,12070266,Marienfließ,Prignitz,Brandenburg,,https://www.amtmeyenburg.de/verzeichnis/objekt.php?mandat=53505,53.316666666,12.15,,,kein_ris,2026-11-15
@@ -3865,7 +3865,7 @@ Q494733,06435010,Gelnhausen,Main-Kinzig-Kreis,Hessen,,https://www.gelnhausen.de/
 Q627738,06535005,Gemünden (Felda),Vogelsbergkreis,Hessen,,https://www.gemuenden-felda.de/,50.7,9.05,,,kein_ris,2026-11-23
 Q624854,06635012,Gemünden (Wohra),Waldeck-Frankenberg,Hessen,,https://www.gemuenden-wohra.de/,50.966666666,8.966666666,,,kein_ris,2026-11-23
 Q625091,06433004,Gernsheim,Groß-Gerau,Hessen,,https://www.gernsheim.de/,49.751666666,8.485,,,kein_ris,2026-11-23
-Q593813,06631010,Gersfeld (Rhön),Fulda,Hessen,,https://www.gersfeld.de/,50.45,9.916666666,,,kein_ris,2026-11-23
+Q593813,06631010,Gersfeld,Fulda,Hessen,,https://www.gersfeld.de/,50.45,9.916666666,,,kein_ris,2026-11-23
 Q3874,06531005,Gießen,Gießen,Hessen,,https://www.giessen.de/,50.583333333,8.666666666,,,kein_ris,2026-11-23
 Q628473,06634006,Gilserberg,Schwalm-Eder-Kreis,Hessen,,https://www.gilserberg.de/,50.95,9.066666666,https://rim.ekom21.de/gilserberg/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-23
 Q639519,06433005,Ginsheim-Gustavsburg,Groß-Gerau,Hessen,,https://www.gigu.de/,49.964583333,8.346388888,,,kein_ris,2026-11-23
@@ -4150,7 +4150,7 @@ Q598058,06534021,Wetter,Marburg-Biedenkopf,Hessen,,https://www.wetter-hessen.de/
 Q4178,06532023,Wetzlar,Lahn-Dill-Kreis,Hessen,,https://www.wetzlar.de/,50.566666666,8.5,https://politik.wetzlar.de/BI/,sessionnet,gefunden,2026-11-23
 Q1721,06414000,Wiesbaden,Regierungsbezirk Darmstadt,Hessen,,https://www.wiesbaden.de/,50.0825,8.24,,,kein_ris,2026-11-23
 Q625232,06632020,Wildeck,Hersfeld-Rotenburg,Hessen,,https://www.wildeck.de/,50.95,9.983333333,,,kein_ris,2026-11-23
-Q509580,06635022,Willingen (Upland),Waldeck-Frankenberg,Hessen,,https://www.rathaus-willingen.de/,51.295,8.608055555,https://rim.ekom21.de/willingen/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
+Q509580,06635022,Willingen,Waldeck-Frankenberg,Hessen,,https://www.rathaus-willingen.de/,51.295,8.608055555,https://rim.ekom21.de/willingen/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
 Q624357,06634026,Willingshausen,Schwalm-Eder-Kreis,Hessen,,https://www.willingshausen.de/,50.85,9.2,,,kein_ris,2026-11-23
 Q564827,06636016,Witzenhausen,Werra-Meißner-Kreis,Hessen,,https://www.witzenhausen.eu/,51.341666666,9.856944444,,,kein_ris,2026-11-23
 Q569791,06534022,Wohratal,Marburg-Biedenkopf,Hessen,,https://www.wohratal.de/,50.933333333,8.933333333,,,kein_ris,2026-11-23
@@ -5729,7 +5729,7 @@ Q559610,03457018,Rhauderfehn,Leer,Niedersachsen,,https://www.rhauderfehn.de/,53.
 Q654138,03454044,Rhede,Emsland,Niedersachsen,,https://www.rhede-ems.de/,53.061388888,7.273888888,https://rhede-ems.ratsinfomanagement.net/recherche/,auto,gefunden,2026-11-26
 Q684246,03254027,Rheden,Gronau (Leine),Niedersachsen,,http://www.gronau-leine.de/,52.066666666,9.783333333,http://www.gronau-leine.sitzung-online.de/ri/,auto,gesperrt,2026-11-26
 Q557454,03159027,Rhumspringe,Göttingen,Niedersachsen,,https://www.rhumspringe.de/,51.583055555,10.3,,,kein_ris,2026-11-26
-Q671840,03151022,Ribbesbüttel,Gifhorn,Niedersachsen,,https://www.ribbesbuettel.de/,52.433055555,10.516666666,,,,
+Q671840,03151022,Ribbesbüttel,Gifhorn,Niedersachsen,,https://www.ribbesbuettel.de/,52.433055555,10.516666666,,,kein_ris,2026-11-27
 Q505604,03361010,Riede,Verden,Niedersachsen,,https://www.thedinghausen.de/rathaus/wissenswertes/geschichtliches/gemeinde-riede/,52.966666666,8.95,https://thedinghausen.ratsinfomanagement.net/,auto,gesperrt,2026-11-26
 Q649903,03459031,Rieste,Samtgemeinde Bersenbrück,Niedersachsen,,http://www.rieste.de,52.483333333,8.016666666,,,kein_ris,2026-11-26
 Q499926,03456019,Ringe,Grafschaft Bentheim,Niedersachsen,,https://www.emlichheim.de/rathaus-politik/politik/mitgliedsgemeinden/ringe/,52.6,6.916666666,https://emlichheim.gremien.info/oparl/system,oparl,gefunden,2026-11-26
@@ -5832,7 +5832,7 @@ Q205619,03462015,Stedesdorf,Wittmund,Niedersachsen,,https://www.stedesdorf.de/,5
 Q652577,03256029,Steimbke,Nienburg/Weser,Niedersachsen,,http://www.steimbke.de,52.662222222,9.404166666,https://www.steimbke.sitzung-online.de/public/,auto,gesperrt,2026-11-26
 Q671777,03352051,Steinau,Cuxhaven,Niedersachsen,,https://www.steinau-niedersachsen.de/,53.683333333,8.883333333,,,kein_ris,2026-11-26
 Q693942,03460008,Steinfeld,Vechta,Niedersachsen,,https://www.steinfeld.de/,52.58712,8.21736,,,kein_ris,2026-11-26
-Q694616,03151029,Steinhorst,Gifhorn,Niedersachsen,,https://steinhorster.de/,52.683055555,10.4,,,,
+Q694616,03151029,Steinhorst,Gifhorn,Niedersachsen,,https://steinhorster.de/,52.683055555,10.4,,,kein_ris,2026-11-27
 Q501673,03359039,Steinkirchen,Stade,Niedersachsen,,http://www.luehe-online.de,53.565364,9.610086,,,kein_ris,2026-11-26
 Q701148,03353032,Stelle,Harburg,Niedersachsen,,https://www.gemeinde-stelle.de/,53.366666666,10.116666666,https://www.stelle.sitzung-online.de/public/,auto,gesperrt,2026-11-26
 Q502869,03357046,Stemmen,Rotenburg (Wümme),Niedersachsen,,http://www.fintel.de/,53.216666666,9.55,https://buergerinfo.sgfintel.de/,sessionnet,gefunden,2026-11-26
@@ -6388,7 +6388,7 @@ Q5575,05962060,Werdohl,Märkischer Kreis,Nordrhein-Westfalen,,https://www.werdoh
 Q11120,05974052,Werl,Kreis Soest,Nordrhein-Westfalen,,https://www.werl.de/,51.552777777,7.913888888,,,kein_ris,2026-11-23
 Q7507,05378032,Wermelskirchen,Rheinisch-Bergischer Kreis,Nordrhein-Westfalen,,https://www.wermelskirchen.de/,51.139180555,7.205119444,,,kein_ris,2026-11-23
 Q10936,05978040,Werne,Kreis Unna,Nordrhein-Westfalen,,https://www.werne.de/,51.662669444,7.635530555,,,kein_ris,2026-11-23
-Q32750,05754052,Werther (Westf.),Kreis Gütersloh,Nordrhein-Westfalen,,https://www.stadt-werther.de/,52.075,8.4125,,,kein_ris,2026-11-23
+Q32750,05754052,Werther,Kreis Gütersloh,Nordrhein-Westfalen,,https://www.stadt-werther.de/,52.075,8.4125,,,kein_ris,2026-11-23
 Q4011,05170048,Wesel,Kreis Wesel,Nordrhein-Westfalen,,https://www.wesel.de/,51.658611111,6.617777777,,,kein_ris,2026-11-23
 Q14956,05362040,Wesseling,Rhein-Erft-Kreis,Nordrhein-Westfalen,,https://www.wesseling.de/,50.82075,6.9786,https://ratsinfo.wesseling.de/webservice/oparl/v1.1/system,oparl,gefunden,2026-11-02
 Q182471,05566092,Westerkappeln,Kreis Steinfurt,Nordrhein-Westfalen,,https://www.gemeinde-westerkappeln.de/,52.315277777,7.880555555,,,kein_ris,2026-11-23
@@ -8518,204 +8518,204 @@ Q568205,07340053,Vinningen,Landkommissariat Pirmasens,Rheinland-Pfalz,,http://ww
 Q553708,07137105,Virneburg,Mayen-Koblenz,Rheinland-Pfalz,,https://www.virneburg-eifel.de/,50.342222222,7.078888888,,,kein_ris,2026-11-27
 Q569129,07132110,Volkerzen,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.723611111,7.682777777,https://vg-ak-ff.ratsinfomanagement.net/,auto,gefunden,2026-11-27
 Q568152,07137106,Volkesfeld,Verbandsgemeinde Mendig,Rheinland-Pfalz,,http://www.volkesfeld.de,50.391944444,7.150555555,,,kein_ris,2026-11-27
-Q553326,07134090,Vollmersbach,Birkenfeld,Rheinland-Pfalz,,https://www.vollmersbach.de/,49.743611111,7.307222222,,,,
-Q569279,07334031,Vollmersweiler,Verbandsgemeinde Kandel,Rheinland-Pfalz,,http://www.vg-kandel.de,49.064722222,8.076944444,,,,
-Q305142,07133106,Volxheim,Bad Kreuznach,Rheinland-Pfalz,,http://www.vg-badkreuznach.de/vg_bad_kreuznach/Gemeinden/Volxheim/Die%20Gemeinde/,49.818055555,7.927222222,,,,
-Q567803,07337079,Vorderweidenthal,Verbandsgemeinde Bad Bergzabern,Rheinland-Pfalz,,https://www.vorderweidenthal.de/,49.128055555,7.883055555,,,,
-Q569113,07337078,Völkersweiler,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,http://www.voelkersweiler.de,49.169722222,7.934444444,,,,
-Q569858,07331066,Wachenheim,Alzey-Worms,Rheinland-Pfalz,,http://www.wachenheim.org/,49.636666666,8.166666666,,,,
-Q50897,07332046,Wachenheim an der Weinstraße,Verbandsgemeinde Wachenheim an der Weinstraße,Rheinland-Pfalz,,http://www.wachenheim.de,49.441111111,8.18,,,,
-Q654323,07339061,Wackernheim,Ingelheim am Rhein,Rheinland-Pfalz,,http://www.wackernheim.de,49.974166666,8.116666666,,,,
-Q647490,07135087,Wagenhausen,Cochem-Zell,Rheinland-Pfalz,,https://www.ulmen.de/rathaus-gemeinden/gemeinden/wagenhausen/,50.144444444,6.986388888,,,,
-Q563222,07140158,Wahlbach,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,https://www.wahlbach-hunsrueck.de/,50.000555555,7.596666666,,,,
-Q563738,07140159,Wahlenau,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.kirchberg-hunsrueck.de,49.906111111,7.250277777,,,,
-Q617386,07331067,Wahlheim,Alzey-Worms,Rheinland-Pfalz,,http://www.wahlheim-rheinhessen.de,49.717777777,8.106111111,,,,
-Q642639,07143301,Wahlrod,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,http://www.wahlrod.de,50.650277777,7.720277777,,,,
-Q554273,07336101,Wahnwegen,Verbandsgemeinde Oberes Glantal,Rheinland-Pfalz,,http://www.wahnwegen.de,49.484722222,7.376111111,,,,
-Q554306,07143302,Waigandshain,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,http://www.rennerod.de,50.644722222,8.085277777,,,,
-Q630756,07339062,Waldalgesheim,Mainz-Bingen,Rheinland-Pfalz,,https://www.waldalgesheim.de/,49.951111111,7.836388888,,,,
-Q566027,07138076,Waldbreitbach,Neuwied,Rheinland-Pfalz,,http://www.waldbreitbach.de,50.5525,7.418333333,,,,
-Q554029,07133107,Waldböckelheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.waldboeckelheim.de/,49.817777777,7.717222222,,,,
-Q551755,07137227,Waldesch,Verbandsgemeinde Rhein-Mosel,Rheinland-Pfalz,,http://www.waldesch-online.de,50.2825,7.545,,,,
-Q22471,07340054,Waldfischbach-Burgalben,Verbandsgemeinde Waldfischbach-Burgalben,Rheinland-Pfalz,,http://www.waldfischbach-burgalben.de,49.284722222,7.654166666,,,,
-Q562583,07333079,Waldgrehweiler,Donnersbergkreis,Rheinland-Pfalz,,https://www.nordpfälzerland.de/leben-in-der-vg/unsere-ortsgemeinden/waldgrehweiler/,49.669722222,7.743333333,,,,
-Q647329,07337080,Waldhambach,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,http://www.waldhambach.de,49.166666666,7.990555555,,,,
-Q553481,07232130,Waldhof-Falkenstein,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.vg-suedeifel.de/gemeinden/unsere-gemeinden/ortsgemeinden/waldhof-falkenstein/,49.976666666,6.192777777,,,,
-Q553260,07133108,Waldlaubersheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.waldlaubersheim.de/,49.930555555,7.832777777,,,,
-Q259635,07335048,Waldleiningen,Kaiserslautern,Rheinland-Pfalz,,http://www.waldleiningen.de,49.397777777,7.886666666,,,,
-Q552671,07336102,Waldmohr,Verbandsgemeinde Oberes Glantal,Rheinland-Pfalz,,http://www.waldmohr.org/,49.395277777,7.341111111,,,,
-Q561655,07143303,Waldmühlen,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,http://www.rennerod.de,50.587222222,8.063611111,,,,
-Q651699,07131081,Waldorf,Verbandsgemeinde Bad Breisig,Rheinland-Pfalz,,https://www.bad-breisig.de/gemeinden/waldorf/,50.485555555,7.230555555,,,,
-Q569807,07235141,Waldrach,Trier-Saarburg,Rheinland-Pfalz,,https://www.waldrach.de/,49.745555555,6.744722222,,,,
-Q127200,07337081,Waldrohrbach,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,http://www.waldrohrbach.de,49.171111111,7.968611111,,,,
-Q23023,07338026,Waldsee,Verbandsgemeinde Rheinauen,Rheinland-Pfalz,,http://www.waldsee.de,49.395555555,8.440555555,,,,
-Q569318,07235142,Waldweiler,Verbandsgemeinde Saarburg-Kell,Rheinland-Pfalz,,https://waldweiler.jimdofree.com/,49.612777777,6.799166666,,,,
-Q570253,07135088,Walhausen,Cochem-Zell,Rheinland-Pfalz,,http://www.zell-mosel.de,50.027222222,7.284166666,,,,
-Q553433,07233079,Wallenborn,Vulkaneifel,Rheinland-Pfalz,,https://www.wallenborn-vulkaneifel.de/,50.156111111,6.722222222,,,,
-Q567541,07232131,Wallendorf,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://wallendorf-eifel.de/,49.879444444,6.289444444,,,,
-Q566030,07232318,Wallersheim,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.wallersheim-eifel.de,50.203888888,6.529444444,,,,
-Q659920,07331068,Wallertheim,Alzey-Worms,Rheinland-Pfalz,,https://www.wallertheim.de/,49.835555555,8.051388888,,,,
-Q627653,07340225,Wallhalben,Verbandsgemeinde Thaleischweiler-Wallhalben,Rheinland-Pfalz,,http://www.wallhalben.de,49.316944,7.527222,,,,
-Q165381,07133109,Wallhausen,Bad Kreuznach,Rheinland-Pfalz,,https://www.wallhausen.de/,49.888055555,7.765555555,,,,
-Q567190,07132111,Wallmenroth,Altenkirchen,Rheinland-Pfalz,,http://www.betzdorf.de,50.796944444,7.838888888,,,,
-Q647711,07143304,Wallmerod,Verbandsgemeinde Wallmerod,Rheinland-Pfalz,,http://www.wallmerod.de,50.485555555,7.951666666,,,,
-Q567629,07231127,Wallscheid,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.vg-wittlich-land.de,50.099444444,6.884722222,,,,
-Q654442,07233080,Walsdorf,Vulkaneifel,Rheinland-Pfalz,,https://www.walsdorf-vulkaneifel.de/,50.279722222,6.708333333,,,,
-Q566976,07340226,Walshausen,Südwestpfalz,Rheinland-Pfalz,,https://www.vgzwland.de/,49.209722222,7.481944444,,,,
-Q387101,07337082,Walsheim,Verbandsgemeinde Landau-Land,Rheinland-Pfalz,,http://www.walsheim-pfalz.de,49.238055555,8.125277777,,,,
-Q562608,07132112,Walterschen,Altenkirchen,Rheinland-Pfalz,,http://www.vgflammersfeld.de,50.687222222,7.562777777,,,,
-Q562472,07133110,Warmsroth,Bad Kreuznach,Rheinland-Pfalz,,http://www.stromberg.de,49.956111111,7.788333333,,,,
-Q564637,07333080,Wartenberg-Rohrbach,Donnersbergkreis,Rheinland-Pfalz,,http://www.winnweiler-vg.de,49.526111111,7.853333333,,,,
-Q563865,07141133,Wasenbach,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.wasenbach.com,50.318333333,7.966666666,,,,
-Q554295,07131209,Wassenach,Verbandsgemeinde Brohltal,Rheinland-Pfalz,,https://wassenach.de/,50.433055555,7.279166666,,,,
-Q553357,07235143,Wasserliesch,Trier-Saarburg,Rheinland-Pfalz,,http://wasserliesch.de,49.711111111,6.536666666,,,,
-Q654250,07332047,Wattenheim,Verbandsgemeinde Leiningerland,Rheinland-Pfalz,,http://www.wattenheim.de,49.521666666,8.061666666,,,,
-Q565174,07232320,Watzerath,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.pruem.de/,50.184722222,6.362777777,,,,
-Q565310,07235144,Wawern,Verbandsgemeinde Konz,Rheinland-Pfalz,,http://www.wawern-saar.de,49.653333333,6.55,,,,
-Q678693,07232321,Wawern,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.115555555,6.488333333,,,,
-Q567248,07232322,Waxweiler,Verbandsgemeinde Arzfeld,Rheinland-Pfalz,,http://www.waxweiler.com,50.091666666,6.364444444,,,,
-Q290124,07131211,Weibern,Verbandsgemeinde Brohltal,Rheinland-Pfalz,,https://www.weibern.de/,50.399722222,7.15,,,,
-Q645242,07134091,Weiden,Birkenfeld,Rheinland-Pfalz,,http://www.vg-herrstein.de,49.808611111,7.301944444,,,,
-Q677013,07233081,Weidenbach,Vulkaneifel,Rheinland-Pfalz,,http://www.vgv-daun.de/,50.128611111,6.709444444,,,,
-Q645279,07141134,Weidenbach,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.vgnastaetten.de,50.155833333,7.883333333,,,,
-Q563252,07143305,Weidenhahn,Verbandsgemeinde Selters (Westerwald),Rheinland-Pfalz,,http://www.vg-selters.de,50.547222222,7.838611111,,,,
-Q566035,07332048,Weidenthal,Verbandsgemeinde Lambrecht (Pfalz),Rheinland-Pfalz,,http://www.weidenthal.de,49.423888888,7.990833333,,,,
-Q645495,07232132,Weidingen,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://weidingen-eifel.de/,50.013055555,6.378055555,,,,
-Q651709,07135089,Weiler,Cochem-Zell,Rheinland-Pfalz,,http://www.weiler-vordereifel.de,50.140833333,7.075833333,,,,
-Q678762,07137110,Weiler,Mayen-Koblenz,Rheinland-Pfalz,,http://weiler-eifel.de,50.310277777,7.118888888,,,,
-Q654221,07339063,Weiler bei Bingen,Mainz-Bingen,Rheinland-Pfalz,,https://www.weiler-bei-bingen.de/,49.957777777,7.866944444,,,,
-Q566874,07133111,Weiler bei Monzingen,Bad Kreuznach,Rheinland-Pfalz,,http://www.bad-sobernheim.de,49.810555555,7.561944444,,,,
-Q553992,07335049,Weilerbach,Kaiserslautern,Rheinland-Pfalz,,https://www.weilerbach-pfalz.de/,49.481388888,7.632222222,,,,
-Q654163,07334032,Weingarten,Verbandsgemeinde Lingenfeld,Rheinland-Pfalz,,https://weingarten-pfalz.de/,49.259444444,8.286666666,,,,
-Q565748,07339064,Weinolsheim,Verbandsgemeinde Rhein-Selz,Rheinland-Pfalz,,http://www.weinolsheim.de,49.815555555,8.272777777,,,,
-Q679374,07232226,Weinsheim,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.weinsheim-eifel.de/,50.232222222,6.4725,,,,
-Q630786,07133112,Weinsheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.weinsheim.de/,49.8375,7.766944444,,,,
-Q630092,07141135,Weinähr,Verbandsgemeinde Bad Ems-Nassau,Rheinland-Pfalz,,http://www.wir-in-weinaehr.de/,50.31949,7.84423,,,,
-Q566877,07141136,Weisel,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.weisel.info,50.12,7.801388888,,,,
-Q565367,07332049,Weisenheim am Berg,Verbandsgemeinde Freinsheim,Rheinland-Pfalz,,https://www.weisenheim.de/,49.511944444,8.150277777,,,,
-Q22981,07332050,Weisenheim am Sand,Verbandsgemeinde Freinsheim,Rheinland-Pfalz,,http://www.weisenheimamsand.de,49.518055555,8.247777777,,,,
-Q561811,07132113,Weitefeld,Altenkirchen,Rheinland-Pfalz,,http://www.weitefeld.de,50.726111111,7.930555555,,,,
-Q563191,07134092,Weitersbach,Birkenfeld,Rheinland-Pfalz,,http://www.vg-rhaunen.de,49.873888888,7.3175,,,,
-Q563278,07133113,Weitersborn,Bad Kreuznach,Rheinland-Pfalz,,http://www.kirn-land.de,49.851388888,7.527222222,,,,
-Q629075,07137229,Weitersburg,Verbandsgemeinde Vallendar,Rheinland-Pfalz,,https://www.weitersburg.de/,50.411111111,7.596666666,,,,
-Q561627,07333081,Weitersweiler,Donnersbergkreis,Rheinland-Pfalz,,http://www.vg-goellheim.de,49.615555555,7.996666666,,,,
-Q541616,07137228,Weißenthurm,Verbandsgemeinde Weißenthurm,Rheinland-Pfalz,,https://www.weissenthurm.de/,50.414444444,7.460555555,,,,
-Q515300,07233244,Welcherath,Vulkaneifel,Rheinland-Pfalz,,https://www.vgv-kelberg.de/,50.32,6.965555555,,,,
-Q561594,07336103,Welchweiler,Verbandsgemeinde Kusel-Altenglan,Rheinland-Pfalz,,http://www.welchweiler.com,49.576944444,7.506388888,,,,
-Q250074,07339065,Welgesheim,Mainz-Bingen,Rheinland-Pfalz,,http://www.welgesheim.de,49.882222222,7.961944444,,,,
-Q564233,07143306,Welkenbach,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,https://www.welkenbach-ww.de/,50.633333333,7.726388888,,,,
-Q636208,07235146,Wellen,Verbandsgemeinde Konz,Rheinland-Pfalz,,https://www.wellen-mosel.de/,49.668333333,6.432777777,,,,
-Q648762,07137112,Welling,Verbandsgemeinde Maifeld,Rheinland-Pfalz,,https://www.gemeinde-welling.de/,50.330833333,7.314722222,,,,
-Q553409,07235501,Welschbillig,Trier-Saarburg,Rheinland-Pfalz,,https://www.welschbillig.de/,49.855833333,6.5675,,,,
-Q565362,07137113,Welschenbach,Mayen-Koblenz,Rheinland-Pfalz,,http://www.vordereifel.de,50.363888888,7.064166666,,,,
-Q554316,07143079,Welschneudorf,Verbandsgemeinde Montabaur,Rheinland-Pfalz,,http://www.vg-montabaur.de,50.373333333,7.798055555,,,,
-Q562525,07141137,Welterod,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.welterod.de,50.1325,7.889444444,,,,
-Q645520,07143307,Weltersburg,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,http://www.weltersburg.de,50.523333333,7.960555555,,,,
-Q555562,07331070,Wendelsheim,Alzey-Worms,Rheinland-Pfalz,,http://www.woellstein.de,49.766666666,8.0,,,,
-Q562619,07132114,Werkhausen,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.722777777,7.535555555,,,,
-Q287363,07337083,Wernersberg,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,https://www.wernersberg.de/,49.189444444,7.928333333,,,,
-Q642939,07143080,Weroth,Verbandsgemeinde Wallmerod,Rheinland-Pfalz,,https://www.weroth.de/,50.460277777,7.947777777,,,,
-Q563733,07131082,Wershofen,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://wershofen-eifel.de/,50.443888888,6.813055555,,,,
-Q565369,07340055,Weselberg,Verbandsgemeinde Thaleischweiler-Wallhalben,Rheinland-Pfalz,,http://www.weselberg.de,49.335277777,7.6075,,,,
-Q537491,07143308,Westerburg,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,https://www.stadt-westerburg.de/,50.563888888,7.9725,,,,
-Q642661,07143309,Westernohe,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,https://www.westernohe.de/,50.589166666,8.100277777,,,,
-Q23020,07334033,Westheim,Verbandsgemeinde Lingenfeld,Rheinland-Pfalz,,https://www.westheim-pfalz.de/,49.249166666,8.324166666,,,,
-Q502104,07331071,Westhofen,Alzey-Worms,Rheinland-Pfalz,,http://www.gemeinde-westhofen.de,49.704444444,8.248055555,,,,
-Q430840,07232133,Wettlingen,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,49.929722222,6.406111111,,,,
-Q647666,07141138,Weyer,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.vgloreley.de,50.196388888,7.725277777,,,,
-Q553834,07132115,Weyerbusch,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.715833333,7.555555555,,,,
-Q564998,07337084,Weyher in der Pfalz,Verbandsgemeinde Edenkoben,Rheinland-Pfalz,,https://www.weyher.de/,49.269166666,8.083333333,,,,
-Q562425,07134093,Wickenrodt,Birkenfeld,Rheinland-Pfalz,,http://www.wickenrodt.de,49.816111111,7.359166666,,,,
-Q567621,07140161,Wiebelsheim,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.wiebelsheim.de,50.076666666,7.635,,,,
-Q608034,07143310,Wied,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,http://www.ww-wied.de,50.639166666,7.757222222,,,,
-Q565343,07137114,Wierschem,Verbandsgemeinde Maifeld,Rheinland-Pfalz,,http://www.maifeld.de,50.226944444,7.353888888,,,,
-Q569797,07232134,Wiersdorf,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,50.0075,6.451944444,,,,
-Q566901,07340227,Wiesbach,Südwestpfalz,Rheinland-Pfalz,,https://www.vgzwland.de/verwaltung-gemeinden/ortsgemeinden/wiesbach/,49.333333333,7.453333333,,,,
-Q567676,07233083,Wiesbaum,Vulkaneifel,Rheinland-Pfalz,,http://www.wiesbaum.eu,50.340555555,6.67,,,,
-Q563170,07131083,Wiesemscheid,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.adenau.de/ortsgemeinden/wiesemscheid/,50.336111111,6.891666666,,,,
-Q561622,07336104,Wiesweiler,Kusel,Rheinland-Pfalz,,http://www.wiesweiler.de,49.637777777,7.571111111,,,,
-Q565836,07340057,Wilgartswiesen,Südwestpfalz,Rheinland-Pfalz,,https://wilgartswiesen.de/,49.209166666,7.879444444,,,,
-Q674640,07143311,Willingen,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,https://www.rennerod.de/politik-verwaltung/ortsgemeinden/ortsgemeinden/willingen/,50.668333333,8.0875,,,,
-Q659221,07143312,Willmenrod,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,https://www.willmenrod.de/,50.541388888,7.981388888,,,,
-Q627775,07132116,Willroth,Altenkirchen,Rheinland-Pfalz,,http://www.willroth.de,50.568055555,7.528888888,,,,
-Q569158,07231132,Willwerscheid,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.willwerscheid.de,50.036111111,6.93,,,,
-Q567588,07232135,Wilsecker,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.wilsecker.de,50.0275,6.583333333,,,,
-Q161930,07235148,Wiltingen,Verbandsgemeinde Konz,Rheinland-Pfalz,,https://www.wiltingen.de/,49.658888888,6.59,,,,
-Q564574,07134094,Wilzenberg-Hußweiler,Birkenfeld,Rheinland-Pfalz,,http://www.wilzenberg-hussweiler.de,49.703333333,7.223055555,,,,
-Q563040,07131084,Wimbach,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.adenau.de/ortsgemeinden/wimbach/,50.364166666,6.910555555,,,,
-Q543611,07235149,Wincheringen,Verbandsgemeinde Saarburg-Kell,Rheinland-Pfalz,,http://wincheringen.de/,49.6075,6.423888888,,,,
-Q654146,07334034,Winden,Verbandsgemeinde Kandel,Rheinland-Pfalz,,http://www.vg-kandel.de,49.099444444,8.113888888,,,,
-Q674308,07141139,Winden,Verbandsgemeinde Bad Ems-Nassau,Rheinland-Pfalz,,https://www.wir-in-winden.de/,50.339722222,7.8325,,,,
-Q553263,07133114,Windesheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.windesheim.de/,49.905833333,7.815277777,,,,
-Q566046,07138077,Windhagen,Verbandsgemeinde Asbach,Rheinland-Pfalz,,https://windhagen.de/,50.643461,7.354305,,,,
-Q658559,07233084,Winkel,Vulkaneifel,Rheinland-Pfalz,,https://www.winkel-eifel.de/,50.145833333,6.943333333,,,,
-Q642823,07143313,Winkelbach,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,https://www.hachenburg-vg.de/,50.640097,7.728254,,,,
-Q646443,07143314,Winnen,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,http://www.winnenww.de,50.573333333,8.011666666,,,,
-Q563829,07131085,Winnerath,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.winnerath.de/,50.429444444,6.8775,,,,
-Q822358,07137230,Winningen,Verbandsgemeinde Rhein-Mosel,Rheinland-Pfalz,,http://www.winningen.de,50.312777777,7.521388888,,,,
-Q22469,07333503,Winnweiler,Donnersbergkreis,Rheinland-Pfalz,,http://www.winnweiler.de,49.569166666,7.853888888,,,,
-Q565207,07232327,Winringen,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.154722222,6.415555555,,,,
-Q543528,07133115,Winterbach,Bad Kreuznach,Rheinland-Pfalz,,http://www.winterbachsoonwald.de,49.875555555,7.636388888,,,,
-Q679349,07340228,Winterbach,Verbandsgemeinde Thaleischweiler-Wallhalben,Rheinland-Pfalz,,http://www.wallhalben.de,49.303888888,7.471388888,,,,
-Q567278,07333083,Winterborn,Donnersbergkreis,Rheinland-Pfalz,,http://winterborn-pfalz.de/,49.747222222,7.864722222,,,,
-Q562772,07133116,Winterburg,Bad Kreuznach,Rheinland-Pfalz,,http://www.bad-sobernheim.de,49.862777777,7.650833333,,,,
-Q565146,07232328,Winterscheid,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.232777777,6.253611111,,,,
-Q553848,07339066,Wintersheim,Verbandsgemeinde Rhein-Selz,Rheinland-Pfalz,,https://www.wintersheim-rheinhessen.de/,49.778333333,8.280277777,,,,
-Q645404,07232329,Winterspelt,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.213888888,6.214444444,,,,
-Q627818,07141140,Winterwerb,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.winterwerb-rlp.de,50.238055555,7.741111111,,,,
-Q373778,07231133,Wintrich,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.wintrich-mosel.de,49.884722222,6.953333333,,,,
-Q563014,07131086,Wirft,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.adenau.de/ortsgemeinden/wirft/,50.374722222,6.856111111,,,,
-Q567134,07135090,Wirfus,Cochem-Zell,Rheinland-Pfalz,,http://www.vgcochem.de,50.201666666,7.206111111,,,,
-Q542642,07143081,Wirges,Verbandsgemeinde Wirges,Rheinland-Pfalz,,http://www.wirges.eu,50.474166666,7.795277777,,,,
-Q642580,07143082,Wirscheid,Verbandsgemeinde Ransbach-Baumbach,Rheinland-Pfalz,,http://www.ransbach-baumbach.de,50.478055555,7.667222222,,,,
-Q553712,07134095,Wirschweiler,Birkenfeld,Rheinland-Pfalz,,https://nationalparkgemeinde-wirschweiler.de/,49.764166666,7.173055555,,,,
-Q26364,07132117,Wissen,Altenkirchen,Rheinland-Pfalz,,https://www.stadt-wissen.de,50.7825,7.735,,,,
-Q642807,07143084,Wittgert,Verbandsgemeinde Ransbach-Baumbach,Rheinland-Pfalz,,https://www.ransbach-baumbach.de/,50.497222222,7.6975,,,,
-Q559514,07231134,Wittlich,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.wittlich.de,49.986944444,6.889722222,,,,
-Q566758,07232501,Wißmannsdorf,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,49.987777777,6.443611111,,,,
-Q565201,07138078,Woldert,Verbandsgemeinde Puderbach,Rheinland-Pfalz,,http://www.woldert-online.de,50.602777777,7.648055555,,,,
-Q685329,07339202,Wolfsheim,Mainz-Bingen,Rheinland-Pfalz,,http://www.wolfsheim-rheinhessen.de,49.874722222,8.041388888,,,,
-Q529194,07336105,Wolfstein,Kusel,Rheinland-Pfalz,,http://www.wolfstein.de,49.584166666,7.606111111,,,,
-Q565329,07137231,Wolken,Verbandsgemeinde Rhein-Mosel,Rheinland-Pfalz,,http://www.gemeinde-wolken.eu,50.338055555,7.469444444,,,,
-Q565181,07135091,Wollmerath,Cochem-Zell,Rheinland-Pfalz,,https://www.wollmerath.de/,50.156944444,6.9825,,,,
-Q566906,07232137,Wolsfeld,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,49.906111111,6.467222222,,,,
-Q629196,07140163,Womrath,Pflege Denzen,Rheinland-Pfalz,,https://www.kirchberg-hunsrueck.de/,49.9175,7.448611111,,,,
-Q562420,07331075,Wonsheim,Alzey-Worms,Rheinland-Pfalz,,https://www.wonsheim.de/,49.783055555,7.9625,,,,
-Q628214,07140164,Woppenroth,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.kirchberg-hunsrueck.de,49.875555555,7.415,,,,
-Q3852,07319000,Worms,,Rheinland-Pfalz,,https://www.worms.de/neu-de/index.php,49.6302618,8.3620898,,,,
-Q562496,07143085,Wölferlingen,Verbandsgemeinde Selters (Westerwald),Rheinland-Pfalz,,https://www.vg-selters.de/,50.564444444,7.851111111,,,,
-Q567724,07331072,Wöllstein,Alzey-Worms,Rheinland-Pfalz,,https://www.gemeinde-woellstein.de/,49.814444444,7.960833333,,,,
-Q563960,07132118,Wölmersen,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.715555555,7.601111111,,,,
-Q543978,07331073,Wörrstadt,Alzey-Worms,Rheinland-Pfalz,,http://www.woerrstadt.de,49.843055555,8.115555555,,,,
-Q522165,07334501,Wörth am Rhein,Germersheim,Rheinland-Pfalz,,https://www.woerth.de/,49.051666666,8.260277777,,,,
-Q562864,07140165,Würrich,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.wuerrich-hunsrueck.de,49.976944444,7.303055555,,,,
-Q567728,07333084,Würzweiler,Donnersbergkreis,Rheinland-Pfalz,,http://www.rockenhausen.de,49.654166666,7.862777777,,,,
-Q555239,07140166,Wüschheim,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.simmern.de,50.013055555,7.423333333,,,,
-Q184632,07143315,Zehnhausen bei Rennerod,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,http://www.rennerod.de,50.647222222,8.059722222,,,,
-Q184633,07143316,Zehnhausen bei Wallmerod,Verbandsgemeinde Wallmerod,Rheinland-Pfalz,,http://www.wallmerod.de,50.476111111,7.923611111,,,,
-Q184983,07334036,Zeiskam,Verbandsgemeinde Bellheim,Rheinland-Pfalz,,http://www.zeiskam.de,49.232777777,8.246944444,,,,
-Q187500,07135092,Zell,Cochem-Zell,Rheinland-Pfalz,,http://www.zell-mosel.com,50.026388888,7.183611111,,,,
-Q189027,07333501,Zellertal,Donnersbergkreis,Rheinland-Pfalz,,http://www.vg-goellheim.de,49.649166666,8.139444444,,,,
-Q189241,07231136,Zeltingen-Rachtig,Bernkastel-Wittlich,Rheinland-Pfalz,,https://www.zeltingen-rachtig.de/,49.957222222,7.010555555,,,,
-Q189373,07235151,Zemmer,Trier-Saarburg,Rheinland-Pfalz,,http://www.zemmer.de,49.893888888,6.698611111,,,,
-Q189492,07232331,Zendscheid,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.zendscheid.de/,50.099444444,6.604444444,,,,
-Q191620,07235152,Zerf,Verbandsgemeinde Saarburg-Kell,Rheinland-Pfalz,,https://www.gemeinde-zerf.de/,49.601111111,6.688333333,,,,
-Q196906,07135093,Zettingen,Cochem-Zell,Rheinland-Pfalz,,http://www.zettingen.de,50.230555555,7.199722222,,,,
-Q198800,07132119,Ziegenhain,Altenkirchen,Rheinland-Pfalz,,http://www.vgflammersfeld.de,50.676111111,7.525555555,,,,
-Q203317,07140504,Zilshausen,Verbandsgemeinde Kastellaun,Rheinland-Pfalz,,https://www.zilshausen.de/,50.113055555,7.383333333,,,,
-Q203836,07141141,Zimmerschied,Verbandsgemeinde Bad Ems-Nassau,Rheinland-Pfalz,,https://www.vgben.de/gemeinden/zimmerschied/,50.352222222,7.7825,,,,
-Q226785,07339067,Zornheim,Mainz-Bingen,Rheinland-Pfalz,,http://www.zornheim.de,49.888888888,8.226388888,,,,
-Q226999,07339068,Zotzenheim,Mainz-Bingen,Rheinland-Pfalz,,https://www.zotzenheim.de/,49.874166666,7.968888888,,,,
-Q16017,07320000,Zweibrücken,,Rheinland-Pfalz,,https://www.zweibruecken.de/,49.249444444,7.360833333,,,,
-Q232688,07232138,Zweifelscheid,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.zweifelscheid.de/,50.040277777,6.256944444,,,,
-Q248830,07235153,Züsch,Trier-Saarburg,Rheinland-Pfalz,,http://www.zuesch.de,49.648611111,7.006111111,,,,
-Q297354,07132087,Ölsen,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.738611111,7.604444444,,,,
-Q307470,07143060,Ötzingen,Verbandsgemeinde Wirges,Rheinland-Pfalz,,http://www.wirges.de,50.502222222,7.832777777,,,,
-Q331663,07232127,Übereisenbach,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.vg-suedeifel.de/gemeinden/unsere-gemeinden/ortsgemeinden/uebereisenbach/,50.001666666,6.148333333,,,,
-Q334678,07233075,Üdersdorf,Vulkaneifel,Rheinland-Pfalz,,https://www.uedersdorf.de/,50.153055555,6.803333333,,,,
-Q335018,07231125,Ürzig,Bernkastel-Wittlich,Rheinland-Pfalz,,https://www.uerzig.de/,49.982222222,7.005277777,,,,
-Q335132,07232333,Üttfeld,Verbandsgemeinde Arzfeld,Rheinland-Pfalz,,http://www.uettfeld.de,50.136111111,6.253055555,,,,
-Q335158,07233076,Üxheim,Vulkaneifel,Rheinland-Pfalz,,http://www.uexheim.de,50.341944444,6.758611111,,,,
+Q553326,07134090,Vollmersbach,Birkenfeld,Rheinland-Pfalz,,https://www.vollmersbach.de/,49.743611111,7.307222222,,,kein_ris,2026-11-27
+Q569279,07334031,Vollmersweiler,Verbandsgemeinde Kandel,Rheinland-Pfalz,,http://www.vg-kandel.de,49.064722222,8.076944444,,,kein_ris,2026-11-27
+Q305142,07133106,Volxheim,Bad Kreuznach,Rheinland-Pfalz,,http://www.vg-badkreuznach.de/vg_bad_kreuznach/Gemeinden/Volxheim/Die%20Gemeinde/,49.818055555,7.927222222,,,kein_ris,2026-11-27
+Q567803,07337079,Vorderweidenthal,Verbandsgemeinde Bad Bergzabern,Rheinland-Pfalz,,https://www.vorderweidenthal.de/,49.128055555,7.883055555,,,kein_ris,2026-11-27
+Q569113,07337078,Völkersweiler,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,http://www.voelkersweiler.de,49.169722222,7.934444444,,,kein_ris,2026-11-27
+Q569858,07331066,Wachenheim,Alzey-Worms,Rheinland-Pfalz,,http://www.wachenheim.org/,49.636666666,8.166666666,,,kein_ris,2026-11-27
+Q50897,07332046,Wachenheim an der Weinstraße,Verbandsgemeinde Wachenheim an der Weinstraße,Rheinland-Pfalz,,http://www.wachenheim.de,49.441111111,8.18,,,kein_ris,2026-11-27
+Q654323,07339061,Wackernheim,Ingelheim am Rhein,Rheinland-Pfalz,,http://www.wackernheim.de,49.974166666,8.116666666,https://ingelheim.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q647490,07135087,Wagenhausen,Cochem-Zell,Rheinland-Pfalz,,https://www.ulmen.de/rathaus-gemeinden/gemeinden/wagenhausen/,50.144444444,6.986388888,https://www.ulmen.de/rathaus-gemeinden/ratsinformationssystem/,sessionnet,gefunden,2026-11-27
+Q563222,07140158,Wahlbach,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,https://www.wahlbach-hunsrueck.de/,50.000555555,7.596666666,,,kein_ris,2026-11-27
+Q563738,07140159,Wahlenau,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.kirchberg-hunsrueck.de,49.906111111,7.250277777,https://ris.kirchberg-hunsrueck.de/oparl/system,oparl,gefunden,2026-11-27
+Q617386,07331067,Wahlheim,Alzey-Worms,Rheinland-Pfalz,,http://www.wahlheim-rheinhessen.de,49.717777777,8.106111111,,,kein_ris,2026-11-27
+Q642639,07143301,Wahlrod,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,http://www.wahlrod.de,50.650277777,7.720277777,,,kein_ris,2026-11-27
+Q554273,07336101,Wahnwegen,Verbandsgemeinde Oberes Glantal,Rheinland-Pfalz,,http://www.wahnwegen.de,49.484722222,7.376111111,,,kein_ris,2026-11-27
+Q554306,07143302,Waigandshain,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,http://www.rennerod.de,50.644722222,8.085277777,,,kein_ris,2026-11-27
+Q630756,07339062,Waldalgesheim,Mainz-Bingen,Rheinland-Pfalz,,https://www.waldalgesheim.de/,49.951111111,7.836388888,,,kein_ris,2026-11-27
+Q566027,07138076,Waldbreitbach,Neuwied,Rheinland-Pfalz,,http://www.waldbreitbach.de,50.5525,7.418333333,,,kein_ris,2026-11-27
+Q554029,07133107,Waldböckelheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.waldboeckelheim.de/,49.817777777,7.717222222,,,kein_ris,2026-11-27
+Q551755,07137227,Waldesch,Verbandsgemeinde Rhein-Mosel,Rheinland-Pfalz,,http://www.waldesch-online.de,50.2825,7.545,,,kein_ris,2026-11-27
+Q22471,07340054,Waldfischbach-Burgalben,Verbandsgemeinde Waldfischbach-Burgalben,Rheinland-Pfalz,,http://www.waldfischbach-burgalben.de,49.284722222,7.654166666,,,kein_ris,2026-11-27
+Q562583,07333079,Waldgrehweiler,Donnersbergkreis,Rheinland-Pfalz,,https://www.nordpfälzerland.de/leben-in-der-vg/unsere-ortsgemeinden/waldgrehweiler/,49.669722222,7.743333333,,,kein_ris,2026-11-27
+Q647329,07337080,Waldhambach,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,http://www.waldhambach.de,49.166666666,7.990555555,,,kein_ris,2026-11-27
+Q553481,07232130,Waldhof-Falkenstein,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.vg-suedeifel.de/gemeinden/unsere-gemeinden/ortsgemeinden/waldhof-falkenstein/,49.976666666,6.192777777,https://suedeifel.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q553260,07133108,Waldlaubersheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.waldlaubersheim.de/,49.930555555,7.832777777,https://langenlonsheim.more-rubin1.de/recherche/,auto,gefunden,2026-11-27
+Q259635,07335048,Waldleiningen,Kaiserslautern,Rheinland-Pfalz,,http://www.waldleiningen.de,49.397777777,7.886666666,,,kein_ris,2026-11-27
+Q552671,07336102,Waldmohr,Verbandsgemeinde Oberes Glantal,Rheinland-Pfalz,,http://www.waldmohr.org/,49.395277777,7.341111111,,,kein_ris,2026-11-27
+Q561655,07143303,Waldmühlen,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,http://www.rennerod.de,50.587222222,8.063611111,,,kein_ris,2026-11-27
+Q651699,07131081,Waldorf,Verbandsgemeinde Bad Breisig,Rheinland-Pfalz,,https://www.bad-breisig.de/gemeinden/waldorf/,50.485555555,7.230555555,https://badbreisig.more-rubin1.de/,auto,gefunden,2026-11-27
+Q569807,07235141,Waldrach,Trier-Saarburg,Rheinland-Pfalz,,https://www.waldrach.de/,49.745555555,6.744722222,,,kein_ris,2026-11-27
+Q127200,07337081,Waldrohrbach,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,http://www.waldrohrbach.de,49.171111111,7.968611111,,,kein_ris,2026-11-27
+Q23023,07338026,Waldsee,Verbandsgemeinde Rheinauen,Rheinland-Pfalz,,http://www.waldsee.de,49.395555555,8.440555555,,,kein_ris,2026-11-27
+Q569318,07235142,Waldweiler,Verbandsgemeinde Saarburg-Kell,Rheinland-Pfalz,,https://waldweiler.jimdofree.com/,49.612777777,6.799166666,,,kein_ris,2026-11-27
+Q570253,07135088,Walhausen,Cochem-Zell,Rheinland-Pfalz,,http://www.zell-mosel.de,50.027222222,7.284166666,,,kein_ris,2026-11-27
+Q553433,07233079,Wallenborn,Vulkaneifel,Rheinland-Pfalz,,https://www.wallenborn-vulkaneifel.de/,50.156111111,6.722222222,,,kein_ris,2026-11-27
+Q567541,07232131,Wallendorf,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://wallendorf-eifel.de/,49.879444444,6.289444444,,,kein_ris,2026-11-27
+Q566030,07232318,Wallersheim,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.wallersheim-eifel.de,50.203888888,6.529444444,,,kein_ris,2026-11-27
+Q659920,07331068,Wallertheim,Alzey-Worms,Rheinland-Pfalz,,https://www.wallertheim.de/,49.835555555,8.051388888,,,kein_ris,2026-11-27
+Q627653,07340225,Wallhalben,Verbandsgemeinde Thaleischweiler-Wallhalben,Rheinland-Pfalz,,http://www.wallhalben.de,49.316944,7.527222,,,kein_ris,2026-11-27
+Q165381,07133109,Wallhausen,Bad Kreuznach,Rheinland-Pfalz,,https://www.wallhausen.de/,49.888055555,7.765555555,,,kein_ris,2026-11-27
+Q567190,07132111,Wallmenroth,Altenkirchen,Rheinland-Pfalz,,http://www.betzdorf.de,50.796944444,7.838888888,https://www.betzdorf.sitzung-online.de/bi/,auto,gesperrt,2026-11-27
+Q647711,07143304,Wallmerod,Verbandsgemeinde Wallmerod,Rheinland-Pfalz,,http://www.wallmerod.de,50.485555555,7.951666666,https://wallmerod.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q567629,07231127,Wallscheid,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.vg-wittlich-land.de,50.099444444,6.884722222,https://vg-wittlich.more-rubin1.de/,auto,gefunden,2026-11-27
+Q654442,07233080,Walsdorf,Vulkaneifel,Rheinland-Pfalz,,https://www.walsdorf-vulkaneifel.de/,50.279722222,6.708333333,,,kein_ris,2026-11-27
+Q566976,07340226,Walshausen,Südwestpfalz,Rheinland-Pfalz,,https://www.vgzwland.de/,49.209722222,7.481944444,,,kein_ris,2026-11-27
+Q387101,07337082,Walsheim,Verbandsgemeinde Landau-Land,Rheinland-Pfalz,,http://www.walsheim-pfalz.de,49.238055555,8.125277777,,,kein_ris,2026-11-27
+Q562608,07132112,Walterschen,Altenkirchen,Rheinland-Pfalz,,http://www.vgflammersfeld.de,50.687222222,7.562777777,https://vg-ak-ff.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q562472,07133110,Warmsroth,Bad Kreuznach,Rheinland-Pfalz,,http://www.stromberg.de,49.956111111,7.788333333,,,kein_ris,2026-11-27
+Q564637,07333080,Wartenberg-Rohrbach,Donnersbergkreis,Rheinland-Pfalz,,http://www.winnweiler-vg.de,49.526111111,7.853333333,https://www.vg-winnweiler.sitzung-online.de/bi/,auto,gesperrt,2026-11-27
+Q563865,07141133,Wasenbach,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.wasenbach.com,50.318333333,7.966666666,,,kein_ris,2026-11-27
+Q554295,07131209,Wassenach,Verbandsgemeinde Brohltal,Rheinland-Pfalz,,https://wassenach.de/,50.433055555,7.279166666,,,kein_ris,2026-11-27
+Q553357,07235143,Wasserliesch,Trier-Saarburg,Rheinland-Pfalz,,http://wasserliesch.de,49.711111111,6.536666666,https://www.konz.sitzung-online.de/public/,auto,gesperrt,2026-11-27
+Q654250,07332047,Wattenheim,Verbandsgemeinde Leiningerland,Rheinland-Pfalz,,http://www.wattenheim.de,49.521666666,8.061666666,,,kein_ris,2026-11-27
+Q565174,07232320,Watzerath,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.pruem.de/,50.184722222,6.362777777,,,kein_ris,2026-11-27
+Q565310,07235144,Wawern,Verbandsgemeinde Konz,Rheinland-Pfalz,,http://www.wawern-saar.de,49.653333333,6.55,,,kein_ris,2026-11-27
+Q678693,07232321,Wawern,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.115555555,6.488333333,,,kein_ris,2026-11-27
+Q567248,07232322,Waxweiler,Verbandsgemeinde Arzfeld,Rheinland-Pfalz,,http://www.waxweiler.com,50.091666666,6.364444444,,,kein_ris,2026-11-27
+Q290124,07131211,Weibern,Verbandsgemeinde Brohltal,Rheinland-Pfalz,,https://www.weibern.de/,50.399722222,7.15,,,kein_ris,2026-11-27
+Q645242,07134091,Weiden,Birkenfeld,Rheinland-Pfalz,,http://www.vg-herrstein.de,49.808611111,7.301944444,,,kein_ris,2026-11-27
+Q677013,07233081,Weidenbach,Vulkaneifel,Rheinland-Pfalz,,http://www.vgv-daun.de/,50.128611111,6.709444444,,,kein_ris,2026-11-27
+Q645279,07141134,Weidenbach,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.vgnastaetten.de,50.155833333,7.883333333,,,kein_ris,2026-11-27
+Q563252,07143305,Weidenhahn,Verbandsgemeinde Selters (Westerwald),Rheinland-Pfalz,,http://www.vg-selters.de,50.547222222,7.838611111,,,kein_ris,2026-11-27
+Q566035,07332048,Weidenthal,Verbandsgemeinde Lambrecht (Pfalz),Rheinland-Pfalz,,http://www.weidenthal.de,49.423888888,7.990833333,,,kein_ris,2026-11-27
+Q645495,07232132,Weidingen,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://weidingen-eifel.de/,50.013055555,6.378055555,,,kein_ris,2026-11-27
+Q651709,07135089,Weiler,Cochem-Zell,Rheinland-Pfalz,,http://www.weiler-vordereifel.de,50.140833333,7.075833333,,,kein_ris,2026-11-27
+Q678762,07137110,Weiler,Mayen-Koblenz,Rheinland-Pfalz,,http://weiler-eifel.de,50.310277777,7.118888888,,,kein_ris,2026-11-27
+Q654221,07339063,Weiler bei Bingen,Mainz-Bingen,Rheinland-Pfalz,,https://www.weiler-bei-bingen.de/,49.957777777,7.866944444,,,kein_ris,2026-11-27
+Q566874,07133111,Weiler bei Monzingen,Bad Kreuznach,Rheinland-Pfalz,,http://www.bad-sobernheim.de,49.810555555,7.561944444,https://vg-nahe-glan.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q553992,07335049,Weilerbach,Kaiserslautern,Rheinland-Pfalz,,https://www.weilerbach-pfalz.de/,49.481388888,7.632222222,,,kein_ris,2026-11-27
+Q654163,07334032,Weingarten,Verbandsgemeinde Lingenfeld,Rheinland-Pfalz,,https://weingarten-pfalz.de/,49.259444444,8.286666666,,,kein_ris,2026-11-27
+Q565748,07339064,Weinolsheim,Verbandsgemeinde Rhein-Selz,Rheinland-Pfalz,,http://www.weinolsheim.de,49.815555555,8.272777777,,,kein_ris,2026-11-27
+Q679374,07232226,Weinsheim,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.weinsheim-eifel.de/,50.232222222,6.4725,,,kein_ris,2026-11-27
+Q630786,07133112,Weinsheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.weinsheim.de/,49.8375,7.766944444,,,kein_ris,2026-11-27
+Q630092,07141135,Weinähr,Verbandsgemeinde Bad Ems-Nassau,Rheinland-Pfalz,,http://www.wir-in-weinaehr.de/,50.31949,7.84423,,,kein_ris,2026-11-27
+Q566877,07141136,Weisel,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.weisel.info,50.12,7.801388888,,,kein_ris,2026-11-27
+Q565367,07332049,Weisenheim am Berg,Verbandsgemeinde Freinsheim,Rheinland-Pfalz,,https://www.weisenheim.de/,49.511944444,8.150277777,,,kein_ris,2026-11-27
+Q22981,07332050,Weisenheim am Sand,Verbandsgemeinde Freinsheim,Rheinland-Pfalz,,http://www.weisenheimamsand.de,49.518055555,8.247777777,,,kein_ris,2026-11-27
+Q561811,07132113,Weitefeld,Altenkirchen,Rheinland-Pfalz,,http://www.weitefeld.de,50.726111111,7.930555555,,,kein_ris,2026-11-27
+Q563191,07134092,Weitersbach,Birkenfeld,Rheinland-Pfalz,,http://www.vg-rhaunen.de,49.873888888,7.3175,,,kein_ris,2026-11-27
+Q563278,07133113,Weitersborn,Bad Kreuznach,Rheinland-Pfalz,,http://www.kirn-land.de,49.851388888,7.527222222,,,kein_ris,2026-11-27
+Q629075,07137229,Weitersburg,Verbandsgemeinde Vallendar,Rheinland-Pfalz,,https://www.weitersburg.de/,50.411111111,7.596666666,https://buergerinfo.vg-vallendar.de/,sessionnet,gefunden,2026-11-27
+Q561627,07333081,Weitersweiler,Donnersbergkreis,Rheinland-Pfalz,,http://www.vg-goellheim.de,49.615555555,7.996666666,,,kein_ris,2026-11-27
+Q541616,07137228,Weißenthurm,Verbandsgemeinde Weißenthurm,Rheinland-Pfalz,,https://www.weissenthurm.de/,50.414444444,7.460555555,,,kein_ris,2026-11-27
+Q515300,07233244,Welcherath,Vulkaneifel,Rheinland-Pfalz,,https://www.vgv-kelberg.de/,50.32,6.965555555,,,kein_ris,2026-11-27
+Q561594,07336103,Welchweiler,Verbandsgemeinde Kusel-Altenglan,Rheinland-Pfalz,,http://www.welchweiler.com,49.576944444,7.506388888,,,kein_ris,2026-11-27
+Q250074,07339065,Welgesheim,Mainz-Bingen,Rheinland-Pfalz,,http://www.welgesheim.de,49.882222222,7.961944444,,,kein_ris,2026-11-27
+Q564233,07143306,Welkenbach,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,https://www.welkenbach-ww.de/,50.633333333,7.726388888,,,kein_ris,2026-11-27
+Q636208,07235146,Wellen,Verbandsgemeinde Konz,Rheinland-Pfalz,,https://www.wellen-mosel.de/,49.668333333,6.432777777,,,kein_ris,2026-11-27
+Q648762,07137112,Welling,Verbandsgemeinde Maifeld,Rheinland-Pfalz,,https://www.gemeinde-welling.de/,50.330833333,7.314722222,,,kein_ris,2026-11-27
+Q553409,07235501,Welschbillig,Trier-Saarburg,Rheinland-Pfalz,,https://www.welschbillig.de/,49.855833333,6.5675,,,kein_ris,2026-11-27
+Q565362,07137113,Welschenbach,Mayen-Koblenz,Rheinland-Pfalz,,http://www.vordereifel.de,50.363888888,7.064166666,https://www.vordereifel.de/politik/rats-und-buergerinformationssystem/,sessionnet,gefunden,2026-11-27
+Q554316,07143079,Welschneudorf,Verbandsgemeinde Montabaur,Rheinland-Pfalz,,http://www.vg-montabaur.de,50.373333333,7.798055555,https://montabaur.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q562525,07141137,Welterod,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.welterod.de,50.1325,7.889444444,,,kein_ris,2026-11-27
+Q645520,07143307,Weltersburg,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,http://www.weltersburg.de,50.523333333,7.960555555,,,kein_ris,2026-11-27
+Q555562,07331070,Wendelsheim,Alzey-Worms,Rheinland-Pfalz,,http://www.woellstein.de,49.766666666,8.0,,,kein_ris,2026-11-27
+Q562619,07132114,Werkhausen,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.722777777,7.535555555,https://vg-ak-ff.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q287363,07337083,Wernersberg,Verbandsgemeinde Annweiler am Trifels,Rheinland-Pfalz,,https://www.wernersberg.de/,49.189444444,7.928333333,https://www.bi-annweiler.de/bi/,sessionnet,gefunden,2026-11-27
+Q642939,07143080,Weroth,Verbandsgemeinde Wallmerod,Rheinland-Pfalz,,https://www.weroth.de/,50.460277777,7.947777777,,,kein_ris,2026-11-27
+Q563733,07131082,Wershofen,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://wershofen-eifel.de/,50.443888888,6.813055555,,,kein_ris,2026-11-27
+Q565369,07340055,Weselberg,Verbandsgemeinde Thaleischweiler-Wallhalben,Rheinland-Pfalz,,http://www.weselberg.de,49.335277777,7.6075,,,kein_ris,2026-11-27
+Q537491,07143308,Westerburg,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,https://www.stadt-westerburg.de/,50.563888888,7.9725,,,kein_ris,2026-11-27
+Q642661,07143309,Westernohe,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,https://www.westernohe.de/,50.589166666,8.100277777,,,kein_ris,2026-11-27
+Q23020,07334033,Westheim,Verbandsgemeinde Lingenfeld,Rheinland-Pfalz,,https://www.westheim-pfalz.de/,49.249166666,8.324166666,,,kein_ris,2026-11-27
+Q502104,07331071,Westhofen,Alzey-Worms,Rheinland-Pfalz,,http://www.gemeinde-westhofen.de,49.704444444,8.248055555,,,kein_ris,2026-11-27
+Q430840,07232133,Wettlingen,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,49.929722222,6.406111111,,,kein_ris,2026-11-27
+Q647666,07141138,Weyer,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.vgloreley.de,50.196388888,7.725277777,,,kein_ris,2026-11-27
+Q553834,07132115,Weyerbusch,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.715833333,7.555555555,https://vg-ak-ff.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q564998,07337084,Weyher in der Pfalz,Verbandsgemeinde Edenkoben,Rheinland-Pfalz,,https://www.weyher.de/,49.269166666,8.083333333,,,kein_ris,2026-11-27
+Q562425,07134093,Wickenrodt,Birkenfeld,Rheinland-Pfalz,,http://www.wickenrodt.de,49.816111111,7.359166666,,,kein_ris,2026-11-27
+Q567621,07140161,Wiebelsheim,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.wiebelsheim.de,50.076666666,7.635,,,kein_ris,2026-11-27
+Q608034,07143310,Wied,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,http://www.ww-wied.de,50.639166666,7.757222222,,,kein_ris,2026-11-27
+Q565343,07137114,Wierschem,Verbandsgemeinde Maifeld,Rheinland-Pfalz,,http://www.maifeld.de,50.226944444,7.353888888,https://www.maifeld.de/rathaus-buergerservice/ratsinformationssystem/ratsinformationssystem/,sessionnet,gefunden,2026-11-27
+Q569797,07232134,Wiersdorf,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,50.0075,6.451944444,,,kein_ris,2026-11-27
+Q566901,07340227,Wiesbach,Südwestpfalz,Rheinland-Pfalz,,https://www.vgzwland.de/verwaltung-gemeinden/ortsgemeinden/wiesbach/,49.333333333,7.453333333,,,kein_ris,2026-11-27
+Q567676,07233083,Wiesbaum,Vulkaneifel,Rheinland-Pfalz,,http://www.wiesbaum.eu,50.340555555,6.67,,,kein_ris,2026-11-27
+Q563170,07131083,Wiesemscheid,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.adenau.de/ortsgemeinden/wiesemscheid/,50.336111111,6.891666666,,,kein_ris,2026-11-27
+Q561622,07336104,Wiesweiler,Kusel,Rheinland-Pfalz,,http://www.wiesweiler.de,49.637777777,7.571111111,,,kein_ris,2026-11-27
+Q565836,07340057,Wilgartswiesen,Südwestpfalz,Rheinland-Pfalz,,https://wilgartswiesen.de/,49.209166666,7.879444444,,,kein_ris,2026-11-27
+Q674640,07143311,Willingen,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,https://www.rennerod.de/politik-verwaltung/ortsgemeinden/ortsgemeinden/willingen/,50.668333333,8.0875,,,kein_ris,2026-11-27
+Q659221,07143312,Willmenrod,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,https://www.willmenrod.de/,50.541388888,7.981388888,,,kein_ris,2026-11-27
+Q627775,07132116,Willroth,Altenkirchen,Rheinland-Pfalz,,http://www.willroth.de,50.568055555,7.528888888,,,kein_ris,2026-11-27
+Q569158,07231132,Willwerscheid,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.willwerscheid.de,50.036111111,6.93,,,kein_ris,2026-11-27
+Q567588,07232135,Wilsecker,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.wilsecker.de,50.0275,6.583333333,,,kein_ris,2026-11-27
+Q161930,07235148,Wiltingen,Verbandsgemeinde Konz,Rheinland-Pfalz,,https://www.wiltingen.de/,49.658888888,6.59,,,kein_ris,2026-11-27
+Q564574,07134094,Wilzenberg-Hußweiler,Birkenfeld,Rheinland-Pfalz,,http://www.wilzenberg-hussweiler.de,49.703333333,7.223055555,http://www.wilzenberg-hussweiler.de/ratsinformationssystem/,sessionnet,gefunden,2026-11-27
+Q563040,07131084,Wimbach,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.adenau.de/ortsgemeinden/wimbach/,50.364166666,6.910555555,,,kein_ris,2026-11-27
+Q543611,07235149,Wincheringen,Verbandsgemeinde Saarburg-Kell,Rheinland-Pfalz,,http://wincheringen.de/,49.6075,6.423888888,,,kein_ris,2026-11-27
+Q654146,07334034,Winden,Verbandsgemeinde Kandel,Rheinland-Pfalz,,http://www.vg-kandel.de,49.099444444,8.113888888,,,kein_ris,2026-11-27
+Q674308,07141139,Winden,Verbandsgemeinde Bad Ems-Nassau,Rheinland-Pfalz,,https://www.wir-in-winden.de/,50.339722222,7.8325,,,kein_ris,2026-11-27
+Q553263,07133114,Windesheim,Bad Kreuznach,Rheinland-Pfalz,,https://www.windesheim.de/,49.905833333,7.815277777,https://langenlonsheim.more-rubin1.de/,auto,gefunden,2026-11-27
+Q566046,07138077,Windhagen,Verbandsgemeinde Asbach,Rheinland-Pfalz,,https://windhagen.de/,50.643461,7.354305,https://ratsinfo-vg-asbach.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q658559,07233084,Winkel,Vulkaneifel,Rheinland-Pfalz,,https://www.winkel-eifel.de/,50.145833333,6.943333333,,,kein_ris,2026-11-27
+Q642823,07143313,Winkelbach,Verbandsgemeinde Hachenburg,Rheinland-Pfalz,,https://www.hachenburg-vg.de/,50.640097,7.728254,https://hachenburg.more-rubin1.de/,auto,gefunden,2026-11-27
+Q646443,07143314,Winnen,Verbandsgemeinde Westerburg,Rheinland-Pfalz,,http://www.winnenww.de,50.573333333,8.011666666,,,kein_ris,2026-11-27
+Q563829,07131085,Winnerath,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.winnerath.de/,50.429444444,6.8775,,,kein_ris,2026-11-27
+Q822358,07137230,Winningen,Verbandsgemeinde Rhein-Mosel,Rheinland-Pfalz,,http://www.winningen.de,50.312777777,7.521388888,,,kein_ris,2026-11-27
+Q22469,07333503,Winnweiler,Donnersbergkreis,Rheinland-Pfalz,,http://www.winnweiler.de,49.569166666,7.853888888,https://www.vg-winnweiler.sitzung-online.de/bi/,auto,gesperrt,2026-11-27
+Q565207,07232327,Winringen,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.154722222,6.415555555,,,kein_ris,2026-11-27
+Q543528,07133115,Winterbach,Bad Kreuznach,Rheinland-Pfalz,,http://www.winterbachsoonwald.de,49.875555555,7.636388888,,,kein_ris,2026-11-27
+Q679349,07340228,Winterbach,Verbandsgemeinde Thaleischweiler-Wallhalben,Rheinland-Pfalz,,http://www.wallhalben.de,49.303888888,7.471388888,,,kein_ris,2026-11-27
+Q567278,07333083,Winterborn,Donnersbergkreis,Rheinland-Pfalz,,http://winterborn-pfalz.de/,49.747222222,7.864722222,,,kein_ris,2026-11-27
+Q562772,07133116,Winterburg,Bad Kreuznach,Rheinland-Pfalz,,http://www.bad-sobernheim.de,49.862777777,7.650833333,https://vg-nahe-glan.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q565146,07232328,Winterscheid,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.232777777,6.253611111,,,kein_ris,2026-11-27
+Q553848,07339066,Wintersheim,Verbandsgemeinde Rhein-Selz,Rheinland-Pfalz,,https://www.wintersheim-rheinhessen.de/,49.778333333,8.280277777,,,kein_ris,2026-11-27
+Q645404,07232329,Winterspelt,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.pruem.de,50.213888888,6.214444444,,,kein_ris,2026-11-27
+Q627818,07141140,Winterwerb,Rhein-Lahn-Kreis,Rheinland-Pfalz,,http://www.winterwerb-rlp.de,50.238055555,7.741111111,,,kein_ris,2026-11-27
+Q373778,07231133,Wintrich,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.wintrich-mosel.de,49.884722222,6.953333333,,,kein_ris,2026-11-27
+Q563014,07131086,Wirft,Verbandsgemeinde Adenau,Rheinland-Pfalz,,https://www.adenau.de/ortsgemeinden/wirft/,50.374722222,6.856111111,,,kein_ris,2026-11-27
+Q567134,07135090,Wirfus,Cochem-Zell,Rheinland-Pfalz,,http://www.vgcochem.de,50.201666666,7.206111111,https://vgcochem.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q542642,07143081,Wirges,Verbandsgemeinde Wirges,Rheinland-Pfalz,,http://www.wirges.eu,50.474166666,7.795277777,,,kein_ris,2026-11-27
+Q642580,07143082,Wirscheid,Verbandsgemeinde Ransbach-Baumbach,Rheinland-Pfalz,,http://www.ransbach-baumbach.de,50.478055555,7.667222222,,,kein_ris,2026-11-27
+Q553712,07134095,Wirschweiler,Birkenfeld,Rheinland-Pfalz,,https://nationalparkgemeinde-wirschweiler.de/,49.764166666,7.173055555,,,kein_ris,2026-11-27
+Q26364,07132117,Wissen,Altenkirchen,Rheinland-Pfalz,,https://www.stadt-wissen.de,50.7825,7.735,https://www.stadt-wissen.de/sessionnet/,sessionnet,gefunden,2026-11-27
+Q642807,07143084,Wittgert,Verbandsgemeinde Ransbach-Baumbach,Rheinland-Pfalz,,https://www.ransbach-baumbach.de/,50.497222222,7.6975,,,kein_ris,2026-11-27
+Q559514,07231134,Wittlich,Bernkastel-Wittlich,Rheinland-Pfalz,,http://www.wittlich.de,49.986944444,6.889722222,https://stadt-wittlich.more-rubin1.de/,auto,gefunden,2026-11-27
+Q566758,07232501,Wißmannsdorf,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,49.987777777,6.443611111,,,kein_ris,2026-11-27
+Q565201,07138078,Woldert,Verbandsgemeinde Puderbach,Rheinland-Pfalz,,http://www.woldert-online.de,50.602777777,7.648055555,,,kein_ris,2026-11-27
+Q685329,07339202,Wolfsheim,Mainz-Bingen,Rheinland-Pfalz,,http://www.wolfsheim-rheinhessen.de,49.874722222,8.041388888,,,kein_ris,2026-11-27
+Q529194,07336105,Wolfstein,Kusel,Rheinland-Pfalz,,http://www.wolfstein.de,49.584166666,7.606111111,,,kein_ris,2026-11-27
+Q565329,07137231,Wolken,Verbandsgemeinde Rhein-Mosel,Rheinland-Pfalz,,http://www.gemeinde-wolken.eu,50.338055555,7.469444444,,,kein_ris,2026-11-27
+Q565181,07135091,Wollmerath,Cochem-Zell,Rheinland-Pfalz,,https://www.wollmerath.de/,50.156944444,6.9825,,,kein_ris,2026-11-27
+Q566906,07232137,Wolsfeld,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,http://www.bitburgerland.de,49.906111111,6.467222222,,,kein_ris,2026-11-27
+Q629196,07140163,Womrath,Pflege Denzen,Rheinland-Pfalz,,https://www.kirchberg-hunsrueck.de/,49.9175,7.448611111,https://ris.kirchberg-hunsrueck.de/oparl/system,oparl,gefunden,2026-11-27
+Q562420,07331075,Wonsheim,Alzey-Worms,Rheinland-Pfalz,,https://www.wonsheim.de/,49.783055555,7.9625,,,kein_ris,2026-11-27
+Q628214,07140164,Woppenroth,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.kirchberg-hunsrueck.de,49.875555555,7.415,https://ris.kirchberg-hunsrueck.de/oparl/system,oparl,gefunden,2026-11-27
+Q3852,07319000,Worms,,Rheinland-Pfalz,,https://www.worms.de/neu-de/index.php,49.6302618,8.3620898,,,kein_ris,2026-11-27
+Q562496,07143085,Wölferlingen,Verbandsgemeinde Selters (Westerwald),Rheinland-Pfalz,,https://www.vg-selters.de/,50.564444444,7.851111111,,,kein_ris,2026-11-27
+Q567724,07331072,Wöllstein,Alzey-Worms,Rheinland-Pfalz,,https://www.gemeinde-woellstein.de/,49.814444444,7.960833333,,,kein_ris,2026-11-27
+Q563960,07132118,Wölmersen,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.715555555,7.601111111,https://vg-ak-ff.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q543978,07331073,Wörrstadt,Alzey-Worms,Rheinland-Pfalz,,http://www.woerrstadt.de,49.843055555,8.115555555,,,kein_ris,2026-11-27
+Q522165,07334501,Wörth am Rhein,Germersheim,Rheinland-Pfalz,,https://www.woerth.de/,49.051666666,8.260277777,https://www.woerth.de/rathaus-service/amtliche-bekanntmachungen/,sessionnet,gefunden,2026-11-27
+Q562864,07140165,Würrich,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.wuerrich-hunsrueck.de,49.976944444,7.303055555,,,kein_ris,2026-11-27
+Q567728,07333084,Würzweiler,Donnersbergkreis,Rheinland-Pfalz,,http://www.rockenhausen.de,49.654166666,7.862777777,,,kein_ris,2026-11-27
+Q555239,07140166,Wüschheim,Rhein-Hunsrück-Kreis,Rheinland-Pfalz,,http://www.simmern.de,50.013055555,7.423333333,,,kein_ris,2026-11-27
+Q184632,07143315,Zehnhausen bei Rennerod,Verbandsgemeinde Rennerod,Rheinland-Pfalz,,http://www.rennerod.de,50.647222222,8.059722222,,,kein_ris,2026-11-27
+Q184633,07143316,Zehnhausen bei Wallmerod,Verbandsgemeinde Wallmerod,Rheinland-Pfalz,,http://www.wallmerod.de,50.476111111,7.923611111,https://wallmerod.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q184983,07334036,Zeiskam,Verbandsgemeinde Bellheim,Rheinland-Pfalz,,http://www.zeiskam.de,49.232777777,8.246944444,,,kein_ris,2026-11-27
+Q187500,07135092,Zell,Cochem-Zell,Rheinland-Pfalz,,http://www.zell-mosel.com,50.026388888,7.183611111,,,kein_ris,2026-11-27
+Q189027,07333501,Zellertal,Donnersbergkreis,Rheinland-Pfalz,,http://www.vg-goellheim.de,49.649166666,8.139444444,,,kein_ris,2026-11-27
+Q189241,07231136,Zeltingen-Rachtig,Bernkastel-Wittlich,Rheinland-Pfalz,,https://www.zeltingen-rachtig.de/,49.957222222,7.010555555,,,kein_ris,2026-11-27
+Q189373,07235151,Zemmer,Trier-Saarburg,Rheinland-Pfalz,,http://www.zemmer.de,49.893888888,6.698611111,,,kein_ris,2026-11-27
+Q189492,07232331,Zendscheid,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.zendscheid.de/,50.099444444,6.604444444,,,kein_ris,2026-11-27
+Q191620,07235152,Zerf,Verbandsgemeinde Saarburg-Kell,Rheinland-Pfalz,,https://www.gemeinde-zerf.de/,49.601111111,6.688333333,,,kein_ris,2026-11-27
+Q196906,07135093,Zettingen,Cochem-Zell,Rheinland-Pfalz,,http://www.zettingen.de,50.230555555,7.199722222,,,kein_ris,2026-11-27
+Q198800,07132119,Ziegenhain,Altenkirchen,Rheinland-Pfalz,,http://www.vgflammersfeld.de,50.676111111,7.525555555,https://vg-ak-ff.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q203317,07140504,Zilshausen,Verbandsgemeinde Kastellaun,Rheinland-Pfalz,,https://www.zilshausen.de/,50.113055555,7.383333333,,,kein_ris,2026-11-27
+Q203836,07141141,Zimmerschied,Verbandsgemeinde Bad Ems-Nassau,Rheinland-Pfalz,,https://www.vgben.de/gemeinden/zimmerschied/,50.352222222,7.7825,,,kein_ris,2026-11-27
+Q226785,07339067,Zornheim,Mainz-Bingen,Rheinland-Pfalz,,http://www.zornheim.de,49.888888888,8.226388888,,,kein_ris,2026-11-27
+Q226999,07339068,Zotzenheim,Mainz-Bingen,Rheinland-Pfalz,,https://www.zotzenheim.de/,49.874166666,7.968888888,,,kein_ris,2026-11-27
+Q16017,07320000,Zweibrücken,,Rheinland-Pfalz,,https://www.zweibruecken.de/,49.249444444,7.360833333,http://buergerinfo.zweibruecken.de/,sessionnet,gefunden,2026-11-27
+Q232688,07232138,Zweifelscheid,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.zweifelscheid.de/,50.040277777,6.256944444,,,kein_ris,2026-11-27
+Q248830,07235153,Züsch,Trier-Saarburg,Rheinland-Pfalz,,http://www.zuesch.de,49.648611111,7.006111111,,,kein_ris,2026-11-27
+Q297354,07132087,Ölsen,Altenkirchen,Rheinland-Pfalz,,http://www.vg-altenkirchen.de,50.738611111,7.604444444,https://vg-ak-ff.ratsinfomanagement.net/,auto,gefunden,2026-11-27
+Q307470,07143060,Ötzingen,Verbandsgemeinde Wirges,Rheinland-Pfalz,,http://www.wirges.de,50.502222222,7.832777777,,,kein_ris,2026-11-27
+Q331663,07232127,Übereisenbach,Eifelkreis Bitburg-Prüm,Rheinland-Pfalz,,https://www.vg-suedeifel.de/gemeinden/unsere-gemeinden/ortsgemeinden/uebereisenbach/,50.001666666,6.148333333,https://suedeifel.gremien.info/oparl/system,oparl,gefunden,2026-11-27
+Q334678,07233075,Üdersdorf,Vulkaneifel,Rheinland-Pfalz,,https://www.uedersdorf.de/,50.153055555,6.803333333,https://www.uedersdorf.de/sessionnet/,sessionnet,gefunden,2026-11-27
+Q335018,07231125,Ürzig,Bernkastel-Wittlich,Rheinland-Pfalz,,https://www.uerzig.de/,49.982222222,7.005277777,,,kein_ris,2026-11-27
+Q335132,07232333,Üttfeld,Verbandsgemeinde Arzfeld,Rheinland-Pfalz,,http://www.uettfeld.de,50.136111111,6.253055555,,,kein_ris,2026-11-27
+Q335158,07233076,Üxheim,Vulkaneifel,Rheinland-Pfalz,,http://www.uexheim.de,50.341944444,6.758611111,,,kein_ris,2026-11-27
 Q559689,10042111,Beckingen,Merzig-Wadern,Saarland,,https://www.beckingen.de/,49.392777777,6.700833333,https://www.beckingen.de/ratsinfo/,sessionnet,gefunden,2026-11-25
 Q504022,10045111,Bexbach,Saarpfalz-Kreis,Saarland,,https://www.bexbach.de/,49.349444444,7.259444444,https://www.bexbach.sitzung-online.de/public/gr020/,auto,gesperrt,2026-11-25
 Q523709,10045112,Blieskastel,Saarpfalz-Kreis,Saarland,,https://www.blieskastel.de/,49.237269444,7.252922222,,,kein_ris,2026-11-25
@@ -9238,7 +9238,7 @@ Q16074,14730370,Zwochau,Wiedemar,Sachsen,,http://www.zwochau.de/,51.466666666,12
 Q46828,14523470,Zwota,Klingenthal,Sachsen,,http://www.zwota.de/,50.35,12.416666666,,,kein_ris,2026-11-23
 Q58002,14521710,Zwönitz,Erzgebirgskreis,Sachsen,,https://www.zwoenitz.de/,50.630277777,12.813333333,https://buergerinfo.zwoenitz.de/,sessionnet,gefunden,2026-11-23
 Q400556,15087010,Ahlsdorf,Verbandsgemeinde Mansfelder Grund-Helbra,Sachsen-Anhalt,,https://www.verwaltungsamt-helbra.de/gemeinden/ahlsdorf/,51.54543,11.46655,https://www.verwaltungsamt-helbra.eu/sessionnet/gi/,sessionnet,gefunden,2026-11-15
-Q417336,15082005,Aken (Elbe),Anhalt-Bitterfeld,Sachsen-Anhalt,,https://www.aken.de/,51.85,12.05,,,kein_ris,2026-11-15
+Q417336,15082005,Aken,Anhalt-Bitterfeld,Sachsen-Anhalt,,https://www.aken.de/,51.85,12.05,,,kein_ris,2026-11-15
 Q673211,15090003,Aland,Verbandsgemeinde Seehausen,Sachsen-Anhalt,,https://www.seehausen-altmark.de/service-verwaltung/gemeinden-politik/mitgliedsgemeinden/gemeinde-aland/,52.95833,11.64167,,,kein_ris,2026-11-15
 Q489932,15087015,Allstedt,Mansfeld-Südharz,Sachsen-Anhalt,,https://allstedt.de/,51.4,11.383333333,,,kein_ris,2026-11-15
 Q488270,15089005,Alsleben,Verbandsgemeinde Saale-Wipper,Sachsen-Anhalt,,https://www.alsleben-saale-online.de/,51.701,11.68,,,kein_ris,2026-11-15
@@ -9395,7 +9395,7 @@ Q703001,15085228,Oberharz am Brocken,Harz,Sachsen-Anhalt,,https://stadtoberharz.
 Q542937,15088265,Obhausen,Saalekreis,Sachsen-Anhalt,,https://www.obhausen.de/,51.399722222,11.666666666,,,kein_ris,2026-11-22
 Q668316,15083411,Oebisfelde-Weferlingen,Börde,Sachsen-Anhalt,,https://www.stadt-oebisfelde-weferlingen.de/,52.433333333,10.983333333,,,kein_ris,2026-11-22
 Q694755,15091241,Oranienbaum-Wörlitz,Wittenberg,Sachsen-Anhalt,,https://www.oranienbaum-woerlitz.de/,51.803611111,12.406388888,,,kein_ris,2026-11-22
-Q525392,15083415,Oschersleben (Bode),Börde,Sachsen-Anhalt,,https://www.oscherslebenbode.de/,52.016666666,11.25,,,kein_ris,2026-11-22
+Q525392,15083415,Oschersleben,Börde,Sachsen-Anhalt,,https://www.oscherslebenbode.de/,52.016666666,11.25,,,kein_ris,2026-11-22
 Q504010,15090415,Osterburg,Stendal,Sachsen-Anhalt,,https://www.osterburg.de/,52.783333333,11.766666666,,,kein_ris,2026-11-22
 Q550872,15084375,Osterfeld,Verbandsgemeinde Wethautal,Sachsen-Anhalt,,https://www.vgem-wethautal.de/de/osterfeld.html,51.076666666,11.933055555,,,kein_ris,2026-11-22
 Q706291,15082256,Osternienburger Land,Anhalt-Bitterfeld,Sachsen-Anhalt,,https://www.osternienburgerland.de/,51.8,12.0167,,,kein_ris,2026-11-22
@@ -9912,7 +9912,7 @@ Q523021,01054045,Högel,Kreis Nordfriesland,Schleswig-Holstein,,https://www.hoeg
 Q544014,01060041,Högersdorf,Kreis Segeberg,Schleswig-Holstein,,https://hoegersdorf.de/,53.916666666,10.283333333,,,kein_ris,2026-11-23
 Q635574,01057027,Högsdorf,Kreis Plön,Schleswig-Holstein,Amt Lütjenburg,https://www.amt-luetjenburg.de/amtsgemeinden/hoegsdorf.html,54.253611111,10.6175,,,kein_ris,2026-11-23
 Q636439,01057028,Höhndorf,Kreis Plön,Schleswig-Holstein,,https://hoehndorf-goedersdorf.de/,54.366666666,10.366666666,,,kein_ris,2026-11-23
-Q28013,01054046,Hörnum (Sylt),Kreis Nordfriesland,Schleswig-Holstein,Amt Landschaft Sylt,https://www.amtlandschaftsylt.de/hoernum.html,54.760555555,8.291388888,,,kein_ris,2026-11-23
+Q28013,01054046,Hörnum,Kreis Nordfriesland,Schleswig-Holstein,Amt Landschaft Sylt,https://www.amtlandschaftsylt.de/hoernum.html,54.760555555,8.291388888,,,kein_ris,2026-11-23
 Q632098,01058075,Hörsten,Kreis Rendsburg-Eckernförde,Schleswig-Holstein,,http://www.amt-jevenstedt.de/gemeinden/hoersten/,54.226944444,9.578055555,,,kein_ris,2026-11-23
 Q386507,01059123,Hörup,Kreis Schleswig-Flensburg,Schleswig-Holstein,,https://www.hoerup.de/,54.7414,9.1035,,,kein_ris,2026-11-23
 Q524809,01051052,Hövede,Kreis Dithmarschen,Schleswig-Holstein,,https://www.amt-eider.de/index.php/gemeinden-im-amt-eider/268-gemeinde-hoevede,54.244444444,9.2925,,,kein_ris,2026-11-23
