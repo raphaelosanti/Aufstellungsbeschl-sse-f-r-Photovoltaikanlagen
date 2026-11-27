@@ -83,7 +83,7 @@
   "zuletzt": "2026-11-27"
  },
  "Bielefeld": {
-  "si_max": 8766,
+  "si_max": 8779,
   "zuletzt": "2026-11-27"
  },
  "Billerbeck": {
@@ -545,96 +545,13 @@
   "zuletzt": "2026-11-27"
  },
  "Nachrodt-Wiblingwerde": {
-  "zuletzt": "2026-11-27"
- },
- "Netphen": {
-  "zuletzt": "2026-11-27"
- },
- "Nettetal": {
-  "zuletzt": "2026-11-27"
- },
- "Neuenkirchen": {
-  "zuletzt": "2026-11-27"
- },
- "Neuenrade": {
-  "zuletzt": "2026-11-27"
- },
- "Neukirchen-Vluyn": {
-  "zuletzt": "2026-11-27"
- },
- "Neunkirchen": {
-  "zuletzt": "2026-11-27"
- },
- "Nideggen": {
-  "zuletzt": "2026-11-27"
- },
- "Niederkrüchten": {
-  "zuletzt": "2026-11-27"
- },
- "Niederzier": {
-  "zuletzt": "2026-11-27"
- },
- "Nieheim": {
-  "zuletzt": "2026-11-27"
- },
- "Nordkirchen": {
-  "zuletzt": "2026-11-27"
- },
- "Nordwalde": {
-  "zuletzt": "2026-11-27"
- },
- "Nottuln": {
-  "si_max": 3705,
-  "zuletzt": "2026-11-27"
- },
- "Oberhausen": {
-  "zuletzt": "2026-11-27"
- },
- "Ochtrup": {
-  "zuletzt": "2026-11-27"
- },
- "Oelde": {
-  "zuletzt": "2026-11-27"
- },
- "Oer-Erkenschwick": {
-  "zuletzt": "2026-11-27"
- },
- "Oerlinghausen": {
-  "zuletzt": "2026-11-27"
- },
- "Olfen": {
-  "zuletzt": "2026-11-27"
- },
- "Olsberg": {
-  "zuletzt": "2026-11-27"
- },
- "Ostbevern": {
-  "si_max": 947,
-  "zuletzt": "2026-11-27"
- },
- "Overath": {
-  "zuletzt": "2026-11-27"
- },
- "Paderborn": {
-  "zuletzt": "2026-11-27"
- },
- "Petershagen": {
-  "zuletzt": "2026-11-27"
- },
- "Plettenberg": {
-  "zuletzt": "2026-11-27"
- },
- "Porta Westfalica": {
-  "zuletzt": "2026-11-27"
- },
- "Nachrodt-Wiblingwerde": {
   "zuletzt": "2026-11-26"
  },
  "Netphen": {
   "zuletzt": "2026-11-26"
  },
  "Nettetal": {
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Neuenkirchen": {
   "zuletzt": "2026-11-26"
@@ -668,13 +585,13 @@
  },
  "Nottuln": {
   "si_max": 3705,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Oberhausen": {
   "zuletzt": "2026-11-26"
  },
  "Ochtrup": {
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Oelde": {
   "zuletzt": "2026-11-26"
@@ -693,7 +610,7 @@
  },
  "Ostbevern": {
   "si_max": 947,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Overath": {
   "zuletzt": "2026-11-26"
@@ -708,7 +625,7 @@
   "zuletzt": "2026-11-26"
  },
  "Porta Westfalica": {
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Portal Beteiligung NRW": {
   "zuletzt": "2026-11-27"
@@ -941,6 +858,9 @@
  "Werne": {
   "zuletzt": "2026-11-27"
  },
+ "Werther": {
+  "zuletzt": "2026-11-27"
+ },
  "Werther (Westf.)": {
   "zuletzt": "2026-11-27"
  },
@@ -1032,6 +952,7 @@
   "https://ris.goch.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZc4ESN2zW2T8GmqxC_JqN4U": "2026-11-27",
   "https://ris.goch.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcDhd_534RH4yHQZGCql6xg": "2026-11-27",
   "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZT_v04DhcyuqRX3SGPS5eHA": "2026-11-27",
+  "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTo0SZtH-WRpPdaNXRnii5c": "2026-11-27",
   "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVNQ2foTvk80W40oriMd8pI": "2026-11-27",
   "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXcGR_nmaj7hfAdaX1G3usI": "2026-11-27",
   "https://ris.hamminkeln.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXx8vXJUSaL1uU_7MlsDN6U": "2026-11-27",
@@ -1045,8 +966,22 @@
   "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbnY64IAjkeLdohx5gu2y3I": "2026-11-27",
   "https://ris.wachtendonk.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZexqgQnRjvaDQLK5Ud4NkLQ": "2026-11-27",
   "https://sitzungsdienst.portawestfalica.de/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbpzobvS45w7Q4WpiPI7ec4": "2026-11-27",
+  "https://www.dormagen.de/fileadmin/user_upload/Bekanntmachungen_2026/Einladung_Rat_5.11.pdf": "2026-11-27",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#0fd97563e50d": "2026-11-27",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#42201a3fc1c1": "2026-11-27",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#5ea4d4cb6ad7": "2026-11-27",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#a92e9eb674ce": "2026-11-27",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#b724975bd8a3": "2026-11-27",
+  "https://www.ihk.de/hagen/standortpolitik/raumordnung/flaechennutzungsplaene/beendete-bauleitplanverfahren-4511642#be7917f6c142": "2026-11-27",
+  "https://www.kempen.de/system/files/2025-01/faltblatt-planungsamt-solaranlagen-web-01.pdf": "2026-11-27",
   "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=28229": "2026-11-27",
-  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=28624": "2026-11-27"
+  "https://www.nottuln.de/sessionnet/sessionnetbi/to0050.php?__ktonr=28624": "2026-11-27",
+  "https://www.roetgen.de/medien/dokumente/ortsentwicklung/bauleitplanverfahren/15-aenderung-fnp-sondergebiete-windenergie-und-photovoltaik/aufstellung-und-fruehzeitige-beteiligung/05-roetgen-fnp-aend15-asp-i-pv-ffa-entwurf-20250210.pdf?cid=2kd": "2026-11-27",
+  "https://www.schmallenberg.de/fileadmin/Kundenbereich/Microsites/schmallenberg.de/Downloads/19Bauleitplaene/2026_09_04_VBPl_183_Solarpark_Wormbacher_Berg_-_Vorentwurf_-_Planzeichnung.pdf": "2026-11-27",
+  "https://www.verl.de/fileadmin/user_upload/Bilder_und_Dateien/04_Stadt_und_Zukunft/04_Klimaschutz/VIPER_29/Freiflaechen-Photovoltaik_Ablaufschema_Flaechenplanung.pdf": "2026-11-27",
+  "https://www.verl.de/fileadmin/user_upload/Bilder_und_Dateien/04_Stadt_und_Zukunft/04_Klimaschutz/VIPER_29/Freiflaechen-Photovoltaik_Kriterienset_Stadt_Verl.pdf": "2026-11-27",
+  "https://www.willebadessen.de/de/buergerservice/klimaschutz/Freiflaechen-PV/Beschlussvorlage_B_20-25-2026-060-70.pdf": "2026-11-27",
+  "https://www.willebadessen.de/de/buergerservice/klimaschutz/Freiflaechen-PV/Handlungsleitfaden-PV-Potenzialstudie-Willebadessen-21-09-2026.pdf": "2026-11-27"
  },
  "_verworfen": [
   "http://oparl.wuppertal.de/oparl/bodies/0001/papers/vo/27040",
