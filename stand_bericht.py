@@ -129,7 +129,7 @@ def main() -> int:
     gem = lade_csv(os.path.join(a.daten, "gemeinden.csv"))
     quellen = lade_csv("quellen_alle.csv")
     homepage = []                                  # alle weiteren Quellenlisten (Homepage, Hessen-Verzeichnis, IHK, Amtsblatt)
-    for f in ("quellen_homepage.csv", "quellen_verzeichnis.csv", "quellen_ihk.csv", "quellen_amtsblatt.csv"):
+    for f in ("quellen_homepage.csv", "quellen_verzeichnis.csv", "quellen_ihk.csv", "quellen_amtsblatt.csv", "quellen_verwaltung.csv"):
         homepage += lade_csv(f)
     nach_typ = Counter((q.get("typ") or "?") for q in quellen + homepage)
     mastr = lade_csv(a.mastr)
