@@ -431,6 +431,9 @@
  "Gernsheim": {
   "zuletzt": "2026-11-27"
  },
+ "Gersfeld": {
+  "zuletzt": "2026-11-27"
+ },
  "Gersfeld (Rhön)": {
   "zuletzt": "2026-11-27"
  },
@@ -616,7 +619,7 @@
   "zuletzt": "2026-11-27"
  },
  "Hohenstein": {
-  "si_max": 1184,
+  "si_max": 1190,
   "zuletzt": "2026-11-27"
  },
  "Homberg (Efze)": {
@@ -1319,7 +1322,7 @@
   "zuletzt": "2026-11-27"
  },
  "Wetzlar": {
-  "si_max": 6200,
+  "si_max": 6201,
   "zuletzt": "2026-11-27"
  },
  "Wiesbaden": {
@@ -1362,6 +1365,7 @@
   "zuletzt": "2026-11-27"
  },
  "_nachklaeren": {
+  "https://bischofsheim.de/fileadmin/medien/dokumente/oeffentliche_bekanntmachungen/tagesordnungen/gve/Aushang-GVE-2026-12-17.pdf": "2026-11-27",
   "https://parlamentsinfo.gross-umstadt.de/vo0050.asp?__kvonr=24438": "2026-11-27",
   "https://rim.ekom21.de/coelbe/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfJCKa-n2XqxH_zDrJCXTHk": "2026-11-27",
   "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUWROIuZDbYrBefHwYKZftA": "2026-11-27",
@@ -1376,7 +1380,30 @@
   "https://rim.ekom21.de/ruesselsheim/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcmrHW7wmb7PaZ9nTug2TMw": "2026-11-27",
   "https://rim.ekom21.de/schmitten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdvcUZJijlUjIHM3dGkfpH0": "2026-11-27",
   "https://sitzungsdienst-linden.de/b%C3%BCrgerinfo/to0050.asp?__ktonr=32274": "2026-11-27",
-  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36904": "2026-11-27"
+  "https://sitzungsdienst.pohlheim.de/bi/to0050.asp?__ktonr=36904": "2026-11-27",
+  "https://www.badsoden-salmuenster.de/d238/user_upload/T19-39_01FNP_03Gen_03Zeich_Sondergebiet_Freiflaechenphotovoltaik_Salmuenster_20210928_mit_Unterschriften.pdf": "2026-11-27",
+  "https://www.eiterfeld.de/wp-content/uploads/2025/07/solarstudie-beschluss-gemeindevertretung-studi.pdf": "2026-11-27",
+  "https://www.gemeinde-ludwigsau.de/_docs/bekanntmachungen/B_Plan_Nr3_Deponie_Mittelruck_Planung_Entwurf.pdf": "2026-11-27",
+  "https://www.grebenhain.de/fileadmin/pdf/Erneuerbare_Energien/2025-06-30_Buergerinformation_Grebenhain_-_Praesentation.pdf": "2026-11-27",
+  "https://www.hungen.de/dokumente/solarkampagne/handzettel-steckersolargeraete.pdf?cid=cjr": "2026-11-27",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#3e6fb2eab046": "2026-11-27",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#89cb539bd4fa": "2026-11-27",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#e7865ce44314": "2026-11-27",
+  "https://www.ihk.de/wiesbaden/wirtschaftspolitik/bauleitplanung/archiv-bebauungsplaene-1255348#e816b35ccbaf": "2026-11-27",
+  "https://www.kiedrich.de/wohnen-leben/wohnen-und-bauen/bebauungsplaene/hahnwald-2026-10/3456-b-e-entwurf.pdf?cid=bm3": "2026-11-27",
+  "https://www.kiedrich.de/wohnen-leben/wohnen-und-bauen/bebauungsplaene/hahnwald-2026-10/3456-umweltbezogenestellungnahmen.pdf?cid=bm4": "2026-11-27",
+  "https://www.lahntal.de/aktuelles/bekanntmachung/bekanntmachung/bauleitplanung-der-gemeinde-lahntal-solarfeld-auf-m-sand-im-ortsteil-gossfelden-beteiligungsverfahren/b2-bpl-fnp-ffpv-aufmsand-bestand.pdf?cid=2z1": "2026-11-27",
+  "https://www.moerlenbach.de/fileadmin/Dateien/Cross7/Startseite/Gemeinde_%26_Leben/Familie_%26_Leben/Bauen_%26_Wohnen/Offenlage_Planverfahren/A2_VBPlan_Baeckerei_am_Bahnhof_Vorhabenbeschreibung.pdf": "2026-11-27",
+  "https://www.neu-eichenberg.de/seite/712185/bauen-umwelt.html?modus=drucken": "2026-11-27",
+  "https://www.neuhof-fulda.de/pdf-s/buergerservice-politik/amtliche-bekanntmachungen/2026-12-10-bekanntmachung.pdf?cid=atc": "2026-11-27",
+  "https://www.niedenstein.de/leben-und-wohnen/wohnen/klima-kommune/kwp-bericht-stadt-niedenstein.pdf?cid=695": "2026-11-27",
+  "https://www.reichelsheim.de/leben-in-reichelsheim/bauen-wohnen/bauleitplanung/11-e-teil-i-begruendung-b-plan-anlage-4-fachbeitrag-artenschutz-241122.pdf?cid=9eu": "2026-11-27",
+  "https://www.reichelsheim.de/leben-in-reichelsheim/bauen-wohnen/bauleitplanung/12-e-teil-i-begruendung-b-plan-anlage-5-vegetationskundlicher-fachbeitrag-260105.pdf?cid=9ev": "2026-11-27",
+  "https://www.reinheim.de/leben-in-reinheim/nachhaltigkeit-umwelt/reinheimer-klima/buergersolarpark-reinheim/220718-rhm-praesentation-buergerinfo-egs-entega.pdf?cid=2ag": "2026-11-27",
+  "https://www.taunusstein.de/medien/dokumente/infobroschuere_stecksolargeraete_leahessen.pdf?20241008110247": "2026-11-27",
+  "https://www.waldbrunn.de/rathaus-politik/amtliche-bekanntmachungen-gremiensitzungen/bekanntmachung-gvt-02.12.26.pdf?cid=4ox": "2026-11-27",
+  "https://www.woelfersheim.de/gemeinde-buergerservice/aktuelles/bauleitplanungen-bebauungsplaene/unterlagen/20250312-solarpark-ii/07-woelfersheim-solarpark-ii-umweltbericht-anlage-3-ergebnisbericht-artenschutz.pdf?cid=5v2": "2026-11-27",
+  "https://www.woelfersheim.de/gemeinde-buergerservice/aktuelles/bauleitplanungen-bebauungsplaene/unterlagen/20250318-solar-a45/21340-abo-energy-pvfa-woelfersheim-faunakarte-20250224.pdf?cid=5vo": "2026-11-27"
  },
  "_verworfen": [
   "https://lautertal.gremien.info/oparl/paper/20230206100094",
@@ -1392,6 +1419,7 @@
   "https://rim.ekom21.de/fernwald/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXN60RSbUxI9i93ma61y7cY",
   "https://rim.ekom21.de/gladenbach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSP8VGuVWsuTvlevRYA_K00",
   "https://rim.ekom21.de/gladenbach/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWb2Zrpkrf6gqL2RNrmzYa0",
+  "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUn-udbTcSL96nJCocSWc5w",
   "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbn3cxfYgqASVyHDKYX8Dl4",
   "https://rim.ekom21.de/glashuetten/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdcxnjKUslHu5qBBOYYP2JU",
   "https://rim.ekom21.de/guxhagen/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWu2ndBFJxxli396au8DGlk",
