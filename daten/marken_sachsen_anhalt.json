@@ -1,7 +1,10 @@
 {
  "Ahlsdorf": {
   "si_max": 8430,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
+ },
+ "Aken": {
+  "zuletzt": "2026-11-27"
  },
  "Aken (Elbe)": {
   "zuletzt": "2026-11-27"
@@ -358,6 +361,9 @@
  "Lützen": {
   "zuletzt": "2026-11-27"
  },
+ "Magdeburg": {
+  "zuletzt": "2026-11-27"
+ },
  "Mansfeld": {
   "zuletzt": "2026-11-27"
  },
@@ -381,7 +387,7 @@
  },
  "Möser": {
   "si_max": 2213,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Mücheln": {
   "zuletzt": "2026-11-27"
@@ -409,7 +415,7 @@
  },
  "Nordharz": {
   "si_max": 190,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Oberharz am Brocken": {
   "zuletzt": "2026-11-27"
@@ -421,6 +427,9 @@
   "zuletzt": "2026-11-27"
  },
  "Oranienbaum-Wörlitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oschersleben": {
   "zuletzt": "2026-11-27"
  },
  "Oschersleben (Bode)": {
@@ -481,7 +490,7 @@
   "zuletzt": "2026-11-27"
  },
  "Schraplau": {
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Schwanebeck": {
   "zuletzt": "2026-11-27"
@@ -627,7 +636,10 @@
   "https://sessionnet.gemeinde-moeser.de/sessionnet/bi/vo0050.asp?__kvonr=4472": "2026-11-27",
   "https://sessionnet.gemeinde-moeser.de/sessionnet/bi/vo0050.asp?__kvonr=4479": "2026-11-27",
   "https://sessionnet.gemeinde-moeser.de/sessionnet/bi/vo0050.asp?__kvonr=4620": "2026-11-27",
-  "https://weida-land.gremien.info/oparl/paper/2025112205100013": "2026-11-27"
+  "https://weida-land.gremien.info/oparl/paper/2025112205100013": "2026-11-27",
+  "https://www.gem-boerdeland.de/pdf/bekanntmachungen/0079.pdf": "2026-11-27",
+  "https://www.harzgerode.de/rechtsgrundlagen/1/satzungen.html?modus=drucken": "2026-11-27",
+  "https://www.stadt-genthin.de/seite/359294/bekanntmachungen.html?modus=drucken": "2026-11-27"
  },
  "_verworfen": [
   "http://buergerinfo.halle.de/to0050.asp?__ktonr=226330",
@@ -645,6 +657,17 @@
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=68290",
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/to0050.asp?__ktonr=69279",
   "https://ratsinfo.kitu-genossenschaft.de/arneburggoldbeck_bi/vo0050.asp?__kvonr=11626",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/243456",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/243489",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/244186",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/245377",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/246311",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/247223",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/247748",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/248755",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/249092",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/249107",
+  "https://ratsinfo.magdeburg.de/oparl/bodies/0001/papers/vo/249306",
   "https://sessionnet.dessau.de/bi/vo0050.asp?__kvonr=19483",
   "https://sessionnet.dessau.de/bi/vo0050.asp?__kvonr=19484",
   "https://sessionnet.dessau.de/bi/vo0050.asp?__kvonr=19485",
