@@ -67,6 +67,14 @@
   "si_max": 200451,
   "zuletzt": "2026-11-26"
  },
+ "Amt Lützow-Lübstorf": {
+  "si_max": 108984,
+  "zuletzt": "2026-11-27"
+ },
+ "Amt Parchimer Umland": {
+  "si_max": 2715,
+  "zuletzt": "2026-11-27"
+ },
  "Ankershagen": {
   "zuletzt": "2026-11-26"
  },
@@ -2166,16 +2174,124 @@
  "Wusterhusen": {
   "zuletzt": "2026-11-26"
  },
+ "Wustrow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wöbbelin": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zapel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zarnewanz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zarrendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zarrentin am Schaalsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zehna": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zempin": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zepelin": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zepkow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zerrenthin": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zettemin": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zierow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zierzow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ziesendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ziethen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zingst": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zinnowitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zirkow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zirzow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zislow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zurow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Züsow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Züssow": {
+  "zuletzt": "2026-11-27"
+ },
  "_nachklaeren": {
+  "http://www.amt-gnoien.de/Informationen_zu_Photovoltaikanlagen.cfm": "2026-11-27",
+  "http://www.amt-niepars.de/files/daten/02-gemeinden/Niepars/Bauleitplanung/Nr.%2017%20-%20Solarpark%20Martensdorf/14.12.2023/Artenschutzfachbeitrag%2006.10.2023%20.pdf": "2026-11-27",
+  "http://www.amt-niepars.de/files/daten/02-gemeinden/Niepars/Bauleitplanung/Nr.%2017%20-%20Solarpark%20Martensdorf/14.12.2023/Umweltbericht%20Entwurf%20%20Martensdorf%2010.11.2023.pdf": "2026-11-27",
+  "http://www.amt-woldegk.de/assets/95513/2022_12_B_Plan_Solarpark_36_Karte.pdf": "2026-11-27",
+  "https://amt-anklam-land.de/wp-content/uploads/2023/09/Bekanntmachung-Aufstellungsbeschluss-B-Plan-Nr.-4-Solarpark-Bargischow-Nordost.pdf": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=3481&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=3523&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4063&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4075&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4119&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4120&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4152&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4157&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4288&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4304&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5032&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5147&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5149&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5256&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5258&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5260&smcspf=4": "2026-11-27",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5262&smcspf=4": "2026-11-27",
   "https://ris.darss-fischland.de/bi/vo0050.php?__kvonr=759": "2026-11-26",
   "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=7183": "2026-11-26",
   "https://sessionnet.wolgast.de/sessionnet/buergerinfo/vo0050.php?__kvonr=9384": "2026-11-26",
   "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=68439": "2026-11-26",
   "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=68440": "2026-11-26",
   "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=74748": "2026-11-26",
-  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=74749": "2026-11-26"
+  "https://webris.stralsund.de/buergerinfo/to0050.asp?__ktonr=74749": "2026-11-26",
+  "https://www.amt-gnoien.de/Informationen_zu_Photovoltaikanlagen.cfm": "2026-11-27",
+  "https://www.amt-niepars.de/files/daten/02-gemeinden/Niepars/Bauleitplanung/Nr.%2017%20-%20Solarpark%20Martensdorf/14.12.2023/Artenschutzfachbeitrag%2006.10.2023%20.pdf": "2026-11-27",
+  "https://www.amt-niepars.de/files/daten/02-gemeinden/Niepars/Bauleitplanung/Nr.%2017%20-%20Solarpark%20Martensdorf/14.12.2023/Umweltbericht%20Entwurf%20%20Martensdorf%2010.11.2023.pdf": "2026-11-27",
+  "https://www.amt.windmuehlenstadt-woldegk.de/assets/95513/2022_12_B_Plan_Solarpark_36_Karte.pdf": "2026-11-27",
+  "https://www.dargun.de/files/downloads/3%20Bekanntmachungen%20und%20Ortsrecht/Bauleitplanung/4.1%20AFB%20B-Plan%2019%20Entwurf%202023-08-16%20ohne%20Anhang.pdf": "2026-11-27",
+  "https://www.dargun.de/files/downloads/3%20Bekanntmachungen%20und%20Ortsrecht/Bauleitplanung/Bestand%20B-Plan%20Nr.%2019%20Sondergebiet%20Photovoltaikanlage%20Dargun.pdf": "2026-11-27",
+  "https://www.ihk.de/schwerin/standort-westmecklenburg/raumordnung-und-bauleitplanung/bauleitplanung-und-verfahren/bauleitplanverfahren-aktuell-3454382#ae6ee347f62d": "2026-11-27",
+  "https://www.strasburg.de/wp-content/uploads/Ausgrenzung-FNP-September-2018-1.pdf": "2026-11-27"
  },
  "_verworfen": [
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=2522&smcspf=4",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4624&smcspf=4",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=4719&smcspf=4",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5472&smcspf=4",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5532&smcspf=4",
+  "https://bis.amt-parchimer-umland.de/vo0050.asp?__kvonr=5564&smcspf=4",
   "https://session.amt-barth.de/bi/vo0050.asp?__kvonr=17405",
   "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=63474",
   "https://sessionnet.wolgast.de/sessionnet/buergerinfo/to0050.php?__ktonr=63536",
@@ -2186,5 +2302,8 @@
   "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=10914",
   "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9510",
   "https://webris.stralsund.de/buergerinfo/vo0050.asp?__kvonr=9584"
- ]
+ ],
+ "Ückeritz": {
+  "zuletzt": "2026-11-27"
+ }
 }
