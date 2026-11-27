@@ -1,4 +1,7 @@
 {
+ "Achim": {
+  "zuletzt": "2026-11-27"
+ },
  "Adelebsen": {
   "zuletzt": "2026-11-27"
  },
@@ -863,7 +866,7 @@
   "zuletzt": "2026-11-27"
  },
  "Georgsmarienhütte": {
-  "si_max": 13649,
+  "si_max": 13651,
   "zuletzt": "2026-11-27"
  },
  "Gerdau": {
@@ -1020,7 +1023,7 @@
   "zuletzt": "2026-11-27"
  },
  "Hamersen": {
-  "si_max": 22675,
+  "si_max": 22676,
   "zuletzt": "2026-11-27"
  },
  "Hammah": {
@@ -1279,6 +1282,10 @@
  "Hämelhausen": {
   "zuletzt": "2026-11-27"
  },
+ "Häuslingen": {
+  "si_max": 13896,
+  "zuletzt": "2026-11-27"
+ },
  "Höfer": {
   "zuletzt": "2026-11-27"
  },
@@ -1292,7 +1299,7 @@
   "zuletzt": "2026-11-27"
  },
  "Hüven": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-27"
  },
  "IHK Elbe-Weser": {
   "zuletzt": "2026-11-27"
@@ -1340,6 +1347,10 @@
   "zuletzt": "2026-11-27"
  },
  "Jesteburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Jever": {
+  "si_max": 3528,
   "zuletzt": "2026-11-27"
  },
  "Jork": {
@@ -1561,6 +1572,10 @@
  "Lohheide": {
   "zuletzt": "2026-11-27"
  },
+ "Lohne": {
+  "si_max": 1817,
+  "zuletzt": "2026-11-27"
+ },
  "Lorup": {
   "zuletzt": "2026-11-27"
  },
@@ -1583,6 +1598,10 @@
   "zuletzt": "2026-11-27"
  },
  "Lübbow": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lüchow": {
+  "si_max": 3619,
   "zuletzt": "2026-11-27"
  },
  "Lüder": {
@@ -1646,6 +1665,10 @@
   "zuletzt": "2026-11-27"
  },
  "Melbeck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Melle": {
+  "si_max": 9515,
   "zuletzt": "2026-11-27"
  },
  "Mellinghausen": {
@@ -1738,6 +1761,10 @@
  "Niemetal": {
   "zuletzt": "2026-11-27"
  },
+ "Nienburg/Weser": {
+  "si_max": 24237,
+  "zuletzt": "2026-11-27"
+ },
  "Nienhagen": {
   "zuletzt": "2026-11-27"
  },
@@ -1747,6 +1774,10 @@
  "Norden": {
   "zuletzt": "2026-11-27"
  },
+ "Norderney": {
+  "si_max": 848,
+  "zuletzt": "2026-11-27"
+ },
  "Nordhorn": {
   "zuletzt": "2026-11-27"
  },
@@ -1754,6 +1785,9 @@
   "zuletzt": "2026-11-27"
  },
  "Nordsehl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nordstemmen": {
   "zuletzt": "2026-11-27"
  },
  "Northeim": {
@@ -1807,6 +1841,10 @@
  "Ohrum": {
   "zuletzt": "2026-11-27"
  },
+ "Oldenburg": {
+  "si_max": 4712,
+  "zuletzt": "2026-11-27"
+ },
  "Oldenburgische IHK": {
   "zuletzt": "2026-11-27"
  },
@@ -1834,6 +1872,9 @@
  "Ostercappeln": {
   "zuletzt": "2026-11-27"
  },
+ "Ostereistedt": {
+  "zuletzt": "2026-11-27"
+ },
  "Osterheide": {
   "zuletzt": "2026-11-27"
  },
@@ -1843,10 +1884,17 @@
  "Osterwald": {
   "zuletzt": "2026-11-27"
  },
+ "Ostrhauderfehn": {
+  "si_max": 706,
+  "zuletzt": "2026-11-27"
+ },
  "Ottenstein": {
   "zuletzt": "2026-11-27"
  },
  "Otter": {
+  "zuletzt": "2026-11-27"
+ },
+ "Otterndorf": {
   "zuletzt": "2026-11-27"
  },
  "Ovelgönne": {
@@ -1876,16 +1924,25 @@
  "Polle": {
   "zuletzt": "2026-11-27"
  },
+ "Portal DiPlanung Niedersachsen": {
+  "zuletzt": "2026-11-27"
+ },
  "Prinzhöfte": {
   "zuletzt": "2026-11-27"
  },
  "Quakenbrück": {
   "zuletzt": "2026-11-27"
  },
+ "Quendorf": {
+  "zuletzt": "2026-11-27"
+ },
  "Querenhorst": {
   "zuletzt": "2026-11-27"
  },
  "Quernheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rastdorf": {
   "zuletzt": "2026-11-27"
  },
  "Rastede": {
@@ -1909,10 +1966,27 @@
  "Rennau": {
   "zuletzt": "2026-11-27"
  },
+ "Reppenstedt": {
+  "si_max": 70273,
+  "zuletzt": "2026-11-27"
+ },
+ "Rethem (Aller)": {
+  "si_max": 13896,
+  "zuletzt": "2026-11-27"
+ },
  "Rhade": {
   "zuletzt": "2026-11-27"
  },
+ "Rhauderfehn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rhede": {
+  "zuletzt": "2026-11-27"
+ },
  "Rhumspringe": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ribbesbüttel": {
   "zuletzt": "2026-11-27"
  },
  "Rieste": {
@@ -1942,6 +2016,10 @@
  "Rosengarten": {
   "zuletzt": "2026-11-27"
  },
+ "Rotenburg": {
+  "si_max": 4891,
+  "zuletzt": "2026-11-27"
+ },
  "Räbke": {
   "zuletzt": "2026-11-27"
  },
@@ -1955,6 +2033,13 @@
   "zuletzt": "2026-11-27"
  },
  "Rüdershausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sachsenhagen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Salzbergen": {
+  "si_max": 778,
   "zuletzt": "2026-11-27"
  },
  "Samern": {
@@ -1985,9 +2070,13 @@
   "zuletzt": "2026-11-27"
  },
  "Schiffdorf": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-27"
  },
  "Schladen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schladen-Werla": {
+  "si_max": 311,
   "zuletzt": "2026-11-27"
  },
  "Schnackenburg": {
@@ -1996,10 +2085,21 @@
  "Schnega": {
   "zuletzt": "2026-11-27"
  },
+ "Schneverdingen": {
+  "si_max": 2887,
+  "zuletzt": "2026-11-27"
+ },
+ "Schortens": {
+  "si_max": 4602,
+  "zuletzt": "2026-11-27"
+ },
  "Schulenberg im Oberharz": {
   "zuletzt": "2026-11-27"
  },
  "Schwaförden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwanewede": {
   "zuletzt": "2026-11-27"
  },
  "Schwarme": {
@@ -2023,6 +2123,9 @@
  "Seedorf": {
   "zuletzt": "2026-11-27"
  },
+ "Seelze": {
+  "zuletzt": "2026-11-27"
+ },
  "Seesen": {
   "zuletzt": "2026-11-27"
  },
@@ -2041,19 +2144,37 @@
  "Siedenburg": {
   "zuletzt": "2026-11-27"
  },
+ "Soltau": {
+  "si_max": 12889,
+  "zuletzt": "2026-11-27"
+ },
  "Soltendieck": {
   "zuletzt": "2026-11-27"
  },
  "Sottrum": {
   "zuletzt": "2026-11-27"
  },
+ "Spahnharrenstätte": {
+  "zuletzt": "2026-11-27"
+ },
  "Spelle": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spiekeroog": {
+  "si_max": 761,
   "zuletzt": "2026-11-27"
  },
  "Springe": {
   "zuletzt": "2026-11-27"
  },
  "Stade": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stadland": {
+  "si_max": 813,
+  "zuletzt": "2026-11-27"
+ },
+ "Stadtoldendorf": {
   "zuletzt": "2026-11-27"
  },
  "Staffhorst": {
@@ -2071,6 +2192,9 @@
  "Steinfeld": {
   "zuletzt": "2026-11-27"
  },
+ "Steinhorst": {
+  "zuletzt": "2026-11-27"
+ },
  "Steinkirchen": {
   "zuletzt": "2026-11-27"
  },
@@ -2078,6 +2202,9 @@
   "zuletzt": "2026-11-27"
  },
  "Steyerberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stinstedt": {
   "zuletzt": "2026-11-27"
  },
  "Stoetze": {
@@ -2171,7 +2298,7 @@
   "zuletzt": "2026-11-27"
  },
  "Uplengen": {
-  "zuletzt": "2026-11-23"
+  "zuletzt": "2026-11-27"
  },
  "Uthlede": {
   "zuletzt": "2026-11-27"
@@ -2188,6 +2315,10 @@
  "Vechelde": {
   "zuletzt": "2026-11-27"
  },
+ "Vechta": {
+  "si_max": 1000213,
+  "zuletzt": "2026-11-27"
+ },
  "Velpke": {
   "zuletzt": "2026-11-27"
  },
@@ -2198,6 +2329,9 @@
   "zuletzt": "2026-11-27"
  },
  "Vierden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vollersode": {
   "zuletzt": "2026-11-27"
  },
  "Voltlage": {
@@ -2284,6 +2418,9 @@
  "Westfeld": {
   "zuletzt": "2026-11-27"
  },
+ "Westoverledingen": {
+  "zuletzt": "2026-11-27"
+ },
  "Wettrup": {
   "zuletzt": "2026-11-27"
  },
@@ -2305,6 +2442,14 @@
  "Wielen": {
   "zuletzt": "2026-11-27"
  },
+ "Wiesmoor": {
+  "si_max": 1754,
+  "zuletzt": "2026-11-27"
+ },
+ "Wietmarschen": {
+  "si_max": 547,
+  "zuletzt": "2026-11-27"
+ },
  "Wietze": {
   "zuletzt": "2026-11-27"
  },
@@ -2324,6 +2469,10 @@
   "zuletzt": "2026-11-27"
  },
  "Winkelsett": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winnigstedt": {
+  "si_max": 5037,
   "zuletzt": "2026-11-27"
  },
  "Winsen/Aller": {
@@ -2369,6 +2518,9 @@
   "zuletzt": "2026-11-27"
  },
  "Woltersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Worpswede": {
   "zuletzt": "2026-11-27"
  },
  "Wremen": {
@@ -2423,19 +2575,32 @@
   "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=1850",
   "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=2008",
   "http://buergerinfo.hinte.de/vo0050.asp?__kvonr=2108",
+  "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=34921",
+  "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=35108",
   "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=37207",
   "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=38812",
   "http://buergerinfo.stadt-jever.de/to0050.asp?__ktonr=39009",
+  "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=4455",
+  "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=4626",
   "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=4943",
   "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=5175",
   "http://buergerinfo.stadt-jever.de/vo0050.asp?__kvonr=5205",
+  "http://elmasse.ris.itebo.de/bi/vo0050.asp?__kvonr=3166",
+  "http://elmasse.ris.itebo.de/bi/vo0050.asp?__kvonr=3327",
+  "http://elmasse.ris.itebo.de/bi/vo0050.asp?__kvonr=4483",
   "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5475",
   "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5576",
   "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5711",
   "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=5717",
   "http://ratsinfo.barsinghausen.de/bi/vo0050.php?__kvonr=6107",
+  "http://salzbergenris.itebo.de/bi/vo0050.asp?__kvonr=1397",
+  "http://salzbergenris.itebo.de/bi/vo0050.asp?__kvonr=1802",
   "http://www.diekholzen.de/buergerinformationssystem/vo020.asp?VOLFDNR=1082",
   "http://www.diekholzen.de/buergerinformationssystem/vo020.asp?VOLFDNR=968",
+  "http://www.rotenburg-wuemme.eu/sessionnet/bi/vo0050.php?__kvonr=4407",
+  "http://www.rotenburg-wuemme.eu/sessionnet/bi/vo0050.php?__kvonr=4415",
+  "http://www.rotenburg-wuemme.eu/sessionnet/bi/vo0050.php?__kvonr=4534",
+  "http://www.rotenburg-wuemme.eu/sessionnet/bi/vo0050.php?__kvonr=4570",
   "https://badessenris.itebo.de/bi/vo0050.asp?__kvonr=1280",
   "https://badessenris.itebo.de/bi/vo0050.asp?__kvonr=1284",
   "https://badessenris.itebo.de/bi/vo0050.asp?__kvonr=1342",
@@ -2456,6 +2621,52 @@
   "https://buergerinfo.holtriem.de/to0050.asp?__ktonr=8398",
   "https://buergerinfo.holtriem.de/to0050.asp?__ktonr=8399",
   "https://buergerinfo.holtriem.de/to0050.asp?__ktonr=8507",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=102400",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=102946",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=103103",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=103343",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=105117",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=105331",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=105689",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=105693",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=106837",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=107237",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=107331",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=107690",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=108519",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=108546",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=108945",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=108966",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=110030",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=110042",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=115131",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=115290",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=115670",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=115748",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=115912",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=116565",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=116614",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=120465",
+  "https://buergerinfo.oldenburg.de/to0050.asp?__ktonr=120785",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=24609",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=24781",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=25220",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=25339",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=25578",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=25948",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=25969",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=25974",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=26292",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=27397",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=27458",
+  "https://buergerinfo.oldenburg.de/vo0050.asp?__kvonr=28363",
+  "https://buergerinfo.ostrhauderfehn.de/to0050.asp?__ktonr=6849",
+  "https://buergerinfo.ostrhauderfehn.de/vo0050.asp?__kvonr=2196",
+  "https://buergerinfo.schortens.de/vo0050.asp?__kvonr=7398",
+  "https://buergerinfo.schortens.de/vo0050.asp?__kvonr=8219",
+  "https://buergerinfo.schortens.de/vo0050.asp?__kvonr=8834",
+  "https://buergerinfo.schortens.de/vo0050.asp?__kvonr=8940",
+  "https://buergerinfo.schortens.de/vo0050.asp?__kvonr=9118",
   "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=3148",
   "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=3732",
   "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=3767",
@@ -2463,6 +2674,8 @@
   "https://buergerinfo.sgfintel.de/to0050.asp?__ktonr=4688",
   "https://buergerinfo.sgfintel.de/vo0050.asp?__kvonr=606",
   "https://buergerinfo.sgfintel.de/vo0050.asp?__kvonr=727",
+  "https://buergerinfo.spiekeroog.de/to0050.asp?__ktonr=18323",
+  "https://buergerinfo.spiekeroog.de/vo0050.asp?__kvonr=1769",
   "https://emlichheim.gremien.info/oparl/paper/20261007100156",
   "https://emlichheim.gremien.info/oparl/paper/20262908100192",
   "https://emlichheim.gremien.info/oparl/paper/233001100044",
@@ -2492,6 +2705,8 @@
   "https://herzlakeris.itebo.de/bi/vo0050.asp?__kvonr=2162",
   "https://lengerich.gremien.info/oparl/paper/20221209100157",
   "https://lengerich.gremien.info/oparl/paper/2024030805100025",
+  "https://rat.gellersen.de/buergerinfo/vo0050.asp?__kvonr=70074",
+  "https://rat.gellersen.de/buergerinfo/vo0050.asp?__kvonr=70241",
   "https://ratsinfo.gartow.de/bi/to0050.asp?__ktonr=1006",
   "https://ratsinfo.gartow.de/bi/to0050.asp?__ktonr=1462",
   "https://ratsinfo.gartow.de/bi/to0050.asp?__ktonr=53",
@@ -2505,8 +2720,25 @@
   "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52909",
   "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=52997",
   "https://ratsinfo.harpstedt.info/bi/vo0050.asp?__kvonr=53396",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=37332",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=38393",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=38911",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=39259",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=39420",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=39593",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=39818",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=39884",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=40189",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=40203",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=40318",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=41152",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=42478",
   "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=43564",
   "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/to0050.asp?__ktonr=44548",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/vo0050.asp?__kvonr=3441",
+  "https://ratsinfo.luechow-wendland.de/luechow/buergerinfo/vo0050.asp?__kvonr=3504",
+  "https://ratsinfo.nienburg.de/bineu/to0050.php?__ktonr=145333",
+  "https://ratsinfo.nienburg.de/bineu/vo0050.php?__kvonr=80533",
   "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=30550",
   "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=31223",
   "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=32820",
@@ -2519,6 +2751,44 @@
   "https://ratsinfo.rethem.de/bi/to0050.asp?__ktonr=42718",
   "https://ratsinfo.rethem.de/bi/vo0050.asp?__kvonr=17174",
   "https://ratsinfo.rethem.de/bi/vo0050.asp?__kvonr=18549",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15166",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15172",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15181",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15331",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15332",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15504",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15545",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15548",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15567",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15829",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=15875",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=16303",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=16621",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=17695",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=18104",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=18538",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=18615",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=19102",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=19739",
+  "https://ratsinfo.vechta.de/bi/to0050.asp?__ktonr=20944",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99998547",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99998606",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99998636",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99998639",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99998697",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99998792",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99999048",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99999298",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99999439",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99999594",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99999671",
+  "https://ratsinfo.vechta.de/bi/vo0050.asp?__kvonr=99999854",
+  "https://ratsinformation.wilhelmshaven.de/bi/to0050.asp?__ktonr=204918",
+  "https://ratsinformation.wilhelmshaven.de/bi/to0050.asp?__ktonr=205944",
+  "https://ratsinformation.wilhelmshaven.de/bi/to0050.asp?__ktonr=207286",
+  "https://ratsinformation.wilhelmshaven.de/bi/vo0050.asp?__kvonr=57190",
+  "https://ratsinformation.wilhelmshaven.de/bi/vo0050.asp?__kvonr=57441",
+  "https://ratsinformation.wilhelmshaven.de/bi/vo0050.asp?__kvonr=58627",
   "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=29079",
   "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=29127",
   "https://ratsportal.hesel.de/bi/to0050.asp?__ktonr=30602",
@@ -2538,6 +2808,20 @@
   "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=5866",
   "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=6238",
   "https://ris.bersenbrueck.de/bi/vo0050.asp?__kvonr=6386",
+  "https://ris.schneverdingen.de/BI/to0050.asp?__ktonr=124279",
+  "https://ris.schneverdingen.de/BI/to0050.asp?__ktonr=124491",
+  "https://ris.schneverdingen.de/BI/to0050.asp?__ktonr=124669",
+  "https://ris.schneverdingen.de/BI/to0050.asp?__ktonr=125286",
+  "https://ris.schneverdingen.de/BI/to0050.asp?__ktonr=125593",
+  "https://ris.schneverdingen.de/BI/to0050.asp?__ktonr=126067",
+  "https://ris.schneverdingen.de/BI/to0050.asp?__ktonr=131772",
+  "https://ris.schneverdingen.de/BI/vo0050.asp?__kvonr=2978",
+  "https://ris.schneverdingen.de/BI/vo0050.asp?__kvonr=2995",
+  "https://ris.schneverdingen.de/BI/vo0050.asp?__kvonr=3071",
+  "https://ris.stadt-soltau.de/bi/to0050.asp?__ktonr=32136",
+  "https://ris.stadt-soltau.de/bi/to0050.asp?__ktonr=32287",
+  "https://ris.stadt-soltau.de/bi/to0050.asp?__ktonr=35472",
+  "https://ris.stadt-soltau.de/bi/vo0050.asp?__kvonr=14044",
   "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8038",
   "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8057",
   "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8088",
@@ -2545,6 +2829,8 @@
   "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8793",
   "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=8905",
   "https://ris.zeven.de/sessionnet/bi/vo0050.asp?__kvonr=9129",
+  "https://riswietmarschen.itebo.de/bi/vo0050.asp?__kvonr=314",
+  "https://riswietmarschen.itebo.de/bi/vo0050.asp?__kvonr=341",
   "https://rothenfelde.ris.itebo.de/bi/vo0050.asp?__kvonr=1062",
   "https://rothenfelde.ris.itebo.de/bi/vo0050.asp?__kvonr=941",
   "https://schiffdorf.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQPQLchwFumu4EGpv1bOmiM",
@@ -2555,6 +2841,18 @@
   "https://schiffdorf.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVdqV2X9YS5KFEIzs5iiWYk",
   "https://schiffdorf.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbFKHL4AL_vqSwPOuw-qoYU",
   "https://schiffdorf.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfeDS9P18zWGzN79OQFVOkg",
+  "https://seelze.gremien.info/oparl/paper/91005100624",
+  "https://seelze.gremien.info/oparl/paper/91006100300",
+  "https://seelze.gremien.info/oparl/paper/91105100264",
+  "https://seelze.gremien.info/oparl/paper/91111100498",
+  "https://seelze.gremien.info/oparl/paper/91210100776",
+  "https://seelze.gremien.info/oparl/paper/91305100997",
+  "https://seelze.gremien.info/oparl/paper/91309100747",
+  "https://seelze.gremien.info/oparl/paper/91904100239",
+  "https://seelze.gremien.info/oparl/paper/92208100726",
+  "https://seelze.gremien.info/oparl/paper/92505100666",
+  "https://seelze.gremien.info/oparl/paper/92507100708",
+  "https://seelze.gremien.info/oparl/paper/93105100674",
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRhBM3zSbJVNoowo9QD85tA",
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWJp17EPabXvrS9lkjScKdE",
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYlVRTJiymiggo2R5V-KQ_E",
@@ -2562,6 +2860,20 @@
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdvQCRbOFgd2lQieQ8TLtjU",
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeSyM6VCwIAGyiEQDFyE51c",
   "https://soegel.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfz9s7Yrl7qvzyII-IQhj6M",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=15354",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=15475",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=15824",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=15994",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=17818",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=18525",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=21505",
+  "https://wiesmoor-sessionet.active-city.net/bi/to0050.php?__ktonr=21731",
+  "https://wiesmoor-sessionet.active-city.net/bi/vo0050.php?__kvonr=2360",
+  "https://wiesmoor-sessionet.active-city.net/bi/vo0050.php?__kvonr=2440",
+  "https://wiesmoor-sessionet.active-city.net/bi/vo0050.php?__kvonr=2473",
+  "https://wiesmoor-sessionet.active-city.net/bi/vo0050.php?__kvonr=2614",
+  "https://wiesmoor-sessionet.active-city.net/bi/vo0050.php?__kvonr=2692",
+  "https://wiesmoor-sessionet.active-city.net/bi/vo0050.php?__kvonr=3927",
   "https://www.adendorf.de/1/wp-content/uploads/2019/05/Konzeptpapier_kommunale_Kinder_und_Jugendarbeit.pdf",
   "https://www.adendorf.de/1/wp-content/uploads/2021/12/Allgemeinverfuegung-Erweiterung-ASP-Monitoring-KaGr-10.12.2021.pdf",
   "https://www.adendorf.de/1/wp-content/uploads/2021/12/Anschreiben-Jaeger-Erweiterung-ASP-Monitoring-Loe-Gr-10.12.2021-.pdf",
@@ -2587,6 +2899,7 @@
   "https://www.horneburg.de/medien/dokumente/bekanntmachung_no.pdf?20260918104519",
   "https://www.horneburg.de/medien/dokumente/bekanntmachung_sg.pdf?20260918104201",
   "https://www.horneburg.de/medien/dokumente/bekanntmachung_sgbgm.pdf?20260918103939",
+  "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=2085",
   "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=34882",
   "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=35236",
   "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=35518",
@@ -2603,12 +2916,14 @@
   "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=39924",
   "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=40475",
   "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=40476",
+  "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=409",
   "https://www.ratsinfo-lohne.de/bi/to0050.asp?__ktonr=41601",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5015",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5092",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5138",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5155",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5258",
+  "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=536",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5569",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5629",
   "https://www.ratsinfo-lohne.de/bi/vo0050.asp?__kvonr=5670",
