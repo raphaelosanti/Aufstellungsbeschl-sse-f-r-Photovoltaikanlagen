@@ -39,13 +39,16 @@
   "zuletzt": "2026-11-26"
  },
  "Altenholz": {
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Altenkrempe": {
   "zuletzt": "2026-11-26"
  },
  "Altenmoor": {
   "zuletzt": "2026-11-26"
+ },
+ "Amt Büsum-Wesselburen": {
+  "zuletzt": "2026-11-27"
  },
  "Appen": {
   "zuletzt": "2026-11-26"
@@ -1363,7 +1366,7 @@
  },
  "Klein Pampau": {
   "si_max": 19594,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Klein Rheide": {
   "zuletzt": "2026-11-26"
@@ -1439,7 +1442,7 @@
  },
  "Krokau": {
   "si_max": 17957,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Kronprinzenkoog": {
   "zuletzt": "2026-11-26"
@@ -1854,10 +1857,10 @@
  },
  "Neumünster": {
   "si_max": 9776,
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Neustadt in Holstein": {
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
  },
  "Neuwittenbek": {
   "zuletzt": "2026-11-26"
@@ -1913,10 +1916,876 @@
  "Nordermeldorf": {
   "zuletzt": "2026-11-26"
  },
+ "Nordhackstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nordstrand": {
+  "zuletzt": "2026-11-27"
+ },
+ "Norstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nortorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nottfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nusse": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nübbel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nübel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nützen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ockholm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Odderade": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oersberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oeschebüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oevenum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oeversee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Offenbüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oldenburg in Holstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oldendorf": {
+  "si_max": 5318,
+  "zuletzt": "2026-11-27"
+ },
+ "Oldenswort": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oldersbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Olderup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oldsum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ostenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oster-Ohrstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osterby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osterhever": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osterrade": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osterrönfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osterstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ottenbüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Owschlag": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pahlen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Panker": {
+  "zuletzt": "2026-11-27"
+ },
+ "Panten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Passade": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pellworm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pinneberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Plön": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pogeez": {
+  "zuletzt": "2026-11-27"
+ },
+ "Poggensee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pohnsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Poppenbüll": {
+  "zuletzt": "2026-11-27"
+ },
  "Portal DiPlanung Schleswig-Holstein": {
-  "zuletzt": "2026-11-26"
+  "zuletzt": "2026-11-27"
+ },
+ "Postfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Poyenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Prisdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Probsteierhagen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pronstorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pölitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Quarnstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Quickborn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Raa-Besenbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rabel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rabenkirchen-Faulück": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rade": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rade b. Rendsburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ramstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rantrum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rantzau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rastorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ratekau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rathjensdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ratzeburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rehm-Flehde-Bargen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reinbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reinfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rendsburg": {
+  "si_max": 7015,
+  "zuletzt": "2026-11-27"
+ },
+ "Rethwisch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reußenköge": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rickert": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rieseby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ringsberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Risum-Lindholm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ritzerau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rodenbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rodenäs": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rohlstorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rondeshagen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rosdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ruhwinkel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rumohr": {
+  "zuletzt": "2026-11-27"
+ },
+ "Römnitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rügge": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rümpel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sachsenwald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sahms": {
+  "zuletzt": "2026-11-27"
+ },
+ "Salem": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sandesneben": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sankt Annen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sankt Michaelisdonn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sarlhusen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sarzbüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Satrup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Saustrup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schaalby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schacht-Audorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schackendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schafflund": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schafstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schalkholz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schashagen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Scheggerott": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schellhorn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schenefeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schieren": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schierensee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schinkel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schiphorst": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schlesen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schlichting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schmalfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schmilau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schnakenbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schrum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schuby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwabstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwartbuck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzenbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwedeneck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwentinental": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwesing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönhorst": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schülldorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schülp b. Rendsburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schürensöhlen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seedorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seefeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seester": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seestermühe": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seeth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sehestedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Selent": {
+  "zuletzt": "2026-11-27"
+ },
+ "Selk": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Siebenbäumen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Siek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sierksdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sierksrade": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sievershütten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sieverstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Silberstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simonsberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sirksfelde": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sollerup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sollwitt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sophienhamm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sprakebüll": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stadum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stafstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stakendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stapel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stapelfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stedesand": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinhorst": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sterley": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sterup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stipsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stockelsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stocksee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stolk": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stolpe": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stoltebüll": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stoltenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Strande": {
+  "zuletzt": "2026-11-27"
+ },
+ "Struckum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Strukdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Struvenhütten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Struxdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stubben": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stuvenborn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Störkathen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sylt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sörup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderbrarup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderende": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderfahrenstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderhackstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderhastedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderheistedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderhöft": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderlügum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Südermarsch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süderstapel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sülfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Süsel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tangstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tarbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tarp": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tastrup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tating": {
+  "zuletzt": "2026-11-27"
+ },
+ "Techelsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tellingstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tensbüttel-Röst": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tensfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tetenbüll": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tetenhusen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thumby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tielen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tielenhemme": {
+  "zuletzt": "2026-11-27"
+ },
+ "Timmendorfer Strand": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tinningstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Todenbüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tolk": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trappenkamp": {
+  "zuletzt": "2026-11-27"
+ },
+ "Travenbrück": {
+  "zuletzt": "2026-11-27"
+ },
+ "Traventhal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Treia": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tremsbüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tröndel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Twedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tönning": {
+  "si_max": 304,
+  "zuletzt": "2026-11-27"
+ },
+ "Tümlauer-Koog": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tüttendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uelsby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uelvesbüll": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uetersen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ulsnis": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uphusum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Utersum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Viöl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vollerwiek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waabs": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wagersrott": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wahlstorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wakendorf I": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wakendorf II": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walksfelde": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallsbüll": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wanderup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wangelau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Warnau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wasbek": {
+  "si_max": 1339,
+  "zuletzt": "2026-11-27"
+ },
+ "Weddelbrook": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weede": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weesby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Welmbüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Welt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wennbüttel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wenningstedt-Braderup": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wensin": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wentorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wester-Ohrstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerborstel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerhever": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerholz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerrade": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerrönfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westre": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiedenborstel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiemersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiemerstedt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiershop": {
+  "zuletzt": "2026-11-27"
+ },
+ "Willenscharen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Windbergen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Windeby": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winnemark": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winnert": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winsen (Holstein)": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wisch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Witsum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittbek": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittdün auf Amrum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittmoldt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Witzhave": {
+  "zuletzt": "2026-11-27"
+ },
+ "Witzwort": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wobbenbüll": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wohlde": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wohltorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolmersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Worth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wrist": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wrixum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wrohm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wulfsmoor": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wyk auf Föhr": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wöhrden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zarpen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ziethen": {
+  "zuletzt": "2026-11-27"
  },
  "_nachklaeren": {
+  "http://www.barmstedt.de/fileadmin/bilder/Amt_Hoernerkirchen/Bokel/Bebauungsplan_9/OEffentliche_Auslegung_B9/C_RK-Solar_Teil-II.pdf": "2026-11-27",
+  "https://ascheberg-holstein.de/wordpress/wp-content/uploads/2026/06/2026-06-PBA-Bekanntmachung.pdf": "2026-11-27",
+  "https://bis.rendsburg.de/vo0050.asp?__kvonr=11584": "2026-11-27",
+  "https://bis.rendsburg.de/vo0050.asp?__kvonr=12088": "2026-11-27",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89288": "2026-11-26",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89450": "2026-11-26",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=93844": "2026-11-26",
@@ -1925,18 +2794,36 @@
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=93986": "2026-11-26",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=94034": "2026-11-26",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=94799": "2026-11-26",
+  "https://ratsinfo.toenning.de/bi/to0050.asp?__ktonr=3118": "2026-11-27",
+  "https://ratsinfo.toenning.de/bi/to0050.asp?__ktonr=3267": "2026-11-27",
+  "https://ratsinfo.toenning.de/bi/to0050.asp?__ktonr=4923": "2026-11-27",
+  "https://ratsinfo.toenning.de/bi/to0050.asp?__ktonr=5060": "2026-11-27",
   "https://ris.stadt-neustadt.eu/bi/vo020.asp?VOLFDNR=4406": "2026-11-26",
   "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11041": "2026-11-26",
   "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11262": "2026-11-26",
-  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13624": "2026-11-26"
+  "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=13624": "2026-11-26",
+  "https://www.amt-breitenburg.de/fileadmin/Dateien/Gemeinde_Laegerdorf/Unsere_Gemeinde_NEU/Bauen_und_Wohnen/Bebauungsplaene/LAE_V_BP_01b_separat__Teil_B_-_Text.pdf": "2026-11-27",
+  "https://www.amt-marne-nordsee.de/fileadmin/Amt/Dateien/Bauleitplanung/Diekhusen-Fahrstedt/Rahmenpl%C3%A4ne/Freifl%C3%A4chen_PV/2023-01-26_Solarpark_Diekhusen-Fahrstedt_GbR_Praesentation_Einwohnerversammlung.pdf": "2026-11-27",
+  "https://www.basedow-sh.de/unser-dorf/aktuelles/energiemesse-in-basedow/": "2026-11-27",
+  "https://www.gemeinde-boenebuettel.de/fileadmin/gemeinde-boenebuettel.de/Verwaltung_Politik/Bekanntmachungen/Haushalt_Boebue_2025-_Gesamt.pdf": "2026-11-27",
+  "https://www.gemeinde-boenebuettel.de/fileadmin/gemeinde-boenebuettel.de/Verwaltung_Politik/Bekanntmachungen/Haushalt_Boenebuettel_2026_Gesamt_n.B..pdf": "2026-11-27",
+  "https://www.gemeinde-kollmoor.de/fileadmin/Dateien/Gemeinde_Kollmoor/Startseite/Nachrichten/Amtliche_Bekanntmachungen/Bekanntm_4_2026.pdf": "2026-11-27",
+  "https://www.ihk.de/schleswig-holstein/standortpolitik/standortentwicklung/raumordnung-regionalfoerderung/bauleitplanung-der-gemeinden-5893930#0bf4b61eefa3": "2026-11-27",
+  "https://www.niendorf-adst.de/fileadmin/download/gemeinden/niendorf/bauleitplanung/ortsentwicklung/anlage_3b_-_haushaltsbefragung_-_teil_2.pdf": "2026-11-27",
+  "https://www.vg-barmstedt-hoernerkirchen.de/fileadmin/bilder/Amt_Hoernerkirchen/Bokel/Bebauungsplan_9/OEffentliche_Auslegung_B9/C_RK-Solar_Teil-II.pdf": "2026-11-27"
  },
  "_verworfen": [
+  "https://bis.rendsburg.de/vo0050.asp?__kvonr=8797",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89520",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89561",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=89578",
   "https://ratsinfo.amt-probstei.de/bi/to0050.php?__ktonr=90751",
   "https://ratsinfo.amt-probstei.de/bi/vo0050.php?__kvonr=19094",
   "https://ratsinfo.amt-probstei.de/bi/vo0050.php?__kvonr=20588",
+  "https://ratsinfo.toenning.de/bi/to0050.asp?__ktonr=2953",
+  "https://ratsinfo.toenning.de/bi/to0050.asp?__ktonr=3070",
+  "https://ratsinfo.toenning.de/bi/to0050.asp?__ktonr=3365",
+  "https://ratsinfo.toenning.de/bi/vo0050.asp?__kvonr=241",
   "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=10920",
   "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11062",
   "https://sessionnet.amt-buechen.eu/bi/vo0050.php?__kvonr=11177",
