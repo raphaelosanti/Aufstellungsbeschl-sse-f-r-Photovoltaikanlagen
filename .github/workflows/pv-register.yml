@@ -85,7 +85,7 @@ jobs:
         run: |
           LLM=""
           if [ -n "$GEMINI_API_KEY" ]; then LLM="--llm gemini"; fi
-          for f in quellen_ihk.csv quellen_verzeichnis.csv quellen_amtsblatt.csv; do
+          for f in quellen_ihk.csv quellen_verzeichnis.csv quellen_amtsblatt.csv quellen_verwaltung.csv; do
             [ -f "$f" ] || continue
             python pv_beschluesse.py --quellen "$f" --land "${{ matrix.land }}" \
               --seit "$SEIT" --daten daten --out "/tmp/${{ matrix.land }}_$f.xlsx" --parallel 6 $LLM
