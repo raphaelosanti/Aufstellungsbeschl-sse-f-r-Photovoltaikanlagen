@@ -1427,6 +1427,10 @@
  "Fridolfing": {
   "zuletzt": "2026-11-27"
  },
+ "Friedberg": {
+  "si_max": 5850,
+  "zuletzt": "2026-11-27"
+ },
  "Friedenfels": {
   "zuletzt": "2026-11-27"
  },
@@ -1440,6 +1444,10 @@
   "zuletzt": "2026-11-27"
  },
  "Fuchsstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Fuchstal": {
+  "si_max": 4999,
   "zuletzt": "2026-11-27"
  },
  "Furth": {
@@ -1568,6 +1576,10 @@
  "Germaringen": {
   "zuletzt": "2026-11-27"
  },
+ "Germering": {
+  "si_max": 2194,
+  "zuletzt": "2026-11-27"
+ },
  "Geroda": {
   "zuletzt": "2026-11-27"
  },
@@ -1626,6 +1638,10 @@
  "Glött": {
   "zuletzt": "2026-11-27"
  },
+ "Gmund am Tegernsee": {
+  "si_max": 2983,
+  "zuletzt": "2026-11-27"
+ },
  "Gnotzheim": {
   "zuletzt": "2026-11-27"
  },
@@ -1669,6 +1685,10 @@
  "Grafenwöhr": {
   "zuletzt": "2026-11-27"
  },
+ "Grafing bei München": {
+  "si_max": 608,
+  "zuletzt": "2026-11-27"
+ },
  "Grafling": {
   "zuletzt": "2026-11-27"
  },
@@ -1682,6 +1702,10 @@
   "zuletzt": "2026-11-27"
  },
  "Grasbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Grassau": {
+  "si_max": 1304,
   "zuletzt": "2026-11-27"
  },
  "Grattersdorf": {
@@ -1792,6 +1816,10 @@
  "Guttenberg": {
   "zuletzt": "2026-11-27"
  },
+ "Gädheim": {
+  "si_max": 2328,
+  "zuletzt": "2026-11-27"
+ },
  "Görisried": {
   "zuletzt": "2026-11-27"
  },
@@ -1811,6 +1839,10 @@
   "zuletzt": "2026-11-27"
  },
  "Haag an der Amper": {
+  "zuletzt": "2026-11-27"
+ },
+ "Haag in Oberbayern": {
+  "si_max": 366,
   "zuletzt": "2026-11-27"
  },
  "Haarbach": {
@@ -1855,10 +1887,26 @@
  "Halfing": {
   "zuletzt": "2026-11-27"
  },
+ "Hallbergmoos": {
+  "si_max": 1544,
+  "zuletzt": "2026-11-27"
+ },
+ "Hallerndorf": {
+  "si_max": 248,
+  "zuletzt": "2026-11-27"
+ },
+ "Hallstadt": {
+  "si_max": 1383,
+  "zuletzt": "2026-11-27"
+ },
  "Halsbach": {
   "zuletzt": "2026-11-27"
  },
  "Hammelburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Happurg": {
+  "si_max": 288,
   "zuletzt": "2026-11-27"
  },
  "Harburg (Schwaben)": {
@@ -1954,6 +2002,10 @@
  "Hergensweiler": {
   "zuletzt": "2026-11-27"
  },
+ "Heroldsbach": {
+  "si_max": 1701,
+  "zuletzt": "2026-11-27"
+ },
  "Heroldsberg": {
   "zuletzt": "2026-11-27"
  },
@@ -1963,7 +2015,15 @@
  "Herrngiersdorf": {
   "zuletzt": "2026-11-27"
  },
+ "Herrsching am Ammersee": {
+  "si_max": 649,
+  "zuletzt": "2026-11-27"
+ },
  "Hersbruck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Herzogenaurach": {
+  "si_max": 1209,
   "zuletzt": "2026-11-27"
  },
  "Hettenshausen": {
@@ -1996,13 +2056,25 @@
  "Himmelstadt": {
   "zuletzt": "2026-11-27"
  },
+ "Hinterschmiding": {
+  "si_max": 6681,
+  "zuletzt": "2026-11-27"
+ },
  "Hirschaid": {
+  "zuletzt": "2026-11-27"
+ },
+ "Hirschau": {
+  "si_max": 10646,
   "zuletzt": "2026-11-27"
  },
  "Hirschbach": {
   "zuletzt": "2026-11-27"
  },
  "Hochstadt am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Hof": {
+  "si_max": 4161,
   "zuletzt": "2026-11-27"
  },
  "Hofheim in Unterfranken": {
@@ -2021,6 +2093,9 @@
   "zuletzt": "2026-11-27"
  },
  "Hohenberg an der Eger": {
+  "zuletzt": "2026-11-27"
+ },
+ "Hohenbrunn": {
   "zuletzt": "2026-11-27"
  },
  "Hohenfels": {
@@ -2107,7 +2182,14 @@
  "Höchstädt im Fichtelgebirge": {
   "zuletzt": "2026-11-27"
  },
+ "Höhenkirchen-Siegertsbrunn": {
+  "zuletzt": "2026-11-27"
+ },
  "Hörgertshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Hösbach": {
+  "si_max": 5186,
   "zuletzt": "2026-11-27"
  },
  "Höslwang": {
@@ -2123,6 +2205,10 @@
   "zuletzt": "2026-11-27"
  },
  "Iffeldorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Igensdorf": {
+  "si_max": 1288,
   "zuletzt": "2026-11-27"
  },
  "Iggensbach": {
@@ -2158,6 +2244,13 @@
  "Ingenried": {
   "zuletzt": "2026-11-27"
  },
+ "Ingolstadt": {
+  "si_max": 14414,
+  "zuletzt": "2026-11-27"
+ },
+ "Innernzell": {
+  "zuletzt": "2026-11-27"
+ },
  "Inning am Ammersee": {
   "zuletzt": "2026-11-27"
  },
@@ -2174,6 +2267,10 @@
   "zuletzt": "2026-11-27"
  },
  "Ippesheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ipsheim": {
+  "si_max": 1234,
   "zuletzt": "2026-11-27"
  },
  "Irchenrieth": {
@@ -2195,6 +2292,10 @@
   "zuletzt": "2026-11-27"
  },
  "Jachenau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Jandelsbrunn": {
+  "si_max": 294,
   "zuletzt": "2026-11-27"
  },
  "Jengen": {
@@ -2251,6 +2352,9 @@
  "Karlstadt am Main": {
   "zuletzt": "2026-11-27"
  },
+ "Karlstein am Main": {
+  "zuletzt": "2026-11-27"
+ },
  "Karsbach": {
   "zuletzt": "2026-11-27"
  },
@@ -2258,6 +2362,10 @@
   "zuletzt": "2026-11-27"
  },
  "Kastl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Kaufbeuren": {
+  "si_max": 666,
   "zuletzt": "2026-11-27"
  },
  "Kaufering": {
@@ -2303,6 +2411,10 @@
   "zuletzt": "2026-11-27"
  },
  "Kirchdorf am Inn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Kirchdorf an der Amper": {
+  "si_max": 514,
   "zuletzt": "2026-11-27"
  },
  "Kirchdorf im Wald": {
@@ -2401,6 +2513,10 @@
  "Kolbermoor": {
   "zuletzt": "2026-11-27"
  },
+ "Kolitzheim": {
+  "si_max": 631,
+  "zuletzt": "2026-11-27"
+ },
  "Kollnburg": {
   "zuletzt": "2026-11-27"
  },
@@ -2419,6 +2535,10 @@
  "Kraiburg am Inn": {
   "zuletzt": "2026-11-27"
  },
+ "Krailling": {
+  "si_max": 282,
+  "zuletzt": "2026-11-27"
+ },
  "Kranzberg": {
   "zuletzt": "2026-11-27"
  },
@@ -2429,6 +2549,10 @@
   "zuletzt": "2026-11-27"
  },
  "Kronburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Krumbach": {
+  "si_max": 486,
   "zuletzt": "2026-11-27"
  },
  "Krummennaab": {
@@ -2455,6 +2579,10 @@
  "Kupferberg": {
   "zuletzt": "2026-11-27"
  },
+ "Kutzenhausen": {
+  "si_max": 151,
+  "zuletzt": "2026-11-27"
+ },
  "Köditz": {
   "zuletzt": "2026-11-27"
  },
@@ -2465,6 +2593,9 @@
   "zuletzt": "2026-11-27"
  },
  "Königsberg in Bayern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Königsbrunn": {
   "zuletzt": "2026-11-27"
  },
  "Königsdorf": {
@@ -2524,10 +2655,17 @@
  "Landensberg": {
   "zuletzt": "2026-11-27"
  },
+ "Landsberg am Lech": {
+  "zuletzt": "2026-11-27"
+ },
  "Landsberied": {
   "zuletzt": "2026-11-27"
  },
  "Landshut": {
+  "zuletzt": "2026-11-27"
+ },
+ "Langdorf": {
+  "si_max": 448,
   "zuletzt": "2026-11-27"
  },
  "Langenaltheim": {
@@ -2545,10 +2683,18 @@
  "Langenneufnach": {
   "zuletzt": "2026-11-27"
  },
+ "Langensendelbach": {
+  "si_max": 2088,
+  "zuletzt": "2026-11-27"
+ },
  "Langenzenn": {
   "zuletzt": "2026-11-27"
  },
  "Langerringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Langfurth": {
+  "si_max": 169,
   "zuletzt": "2026-11-27"
  },
  "Langquaid": {
@@ -2629,16 +2775,2715 @@
  "Leupoldsgrün": {
   "zuletzt": "2026-11-27"
  },
+ "Leutenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Leutershausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lichtenau": {
+  "zuletzt": "2026-11-27"
+ },
  "Lichtenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lichtenfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lindau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lindberg": {
+  "si_max": 316,
+  "zuletzt": "2026-11-27"
+ },
+ "Lindenberg im Allgäu": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lisberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Litzendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lohberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lohkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lohr am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Loiching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Loitzendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lonnerstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ludwigschorgast": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ludwigsstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lutzingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Lülsfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Maierhöfen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Maihingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mainaschaff": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mainbernheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mainburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mainleus": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mainstockheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Maisach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Maitenbeth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Malching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Malgersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mallersdorf-Pfaffenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mammendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mamming": {
+  "zuletzt": "2026-11-27"
+ },
+ "Manching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mantel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Margetshöchheim": {
+  "si_max": 866,
+  "zuletzt": "2026-11-27"
+ },
+ "Mariaposching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marklkofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Bad Hindelang": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Berolzheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Bibart": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Einersheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Erlbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Heimenkirch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Nordheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Oberstaufen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Rettenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Schwaben": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Sulzberg": {
+  "si_max": 161,
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Taschendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Markt Wald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktbergel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktbreit": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktgraitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktheidenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktleugast": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktleuthen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktoberdorf": {
+  "si_max": 1430,
+  "zuletzt": "2026-11-27"
+ },
+ "Marktoffingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktredwitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktrodach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktschellenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktschorgast": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktsteft": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marktzeuln": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marloffstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Maroldsweisach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marquartstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Martinsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marxheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Marzling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Massing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mauern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mauerstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mauth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Maßbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Medlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Meeder": {
+  "si_max": 198,
+  "zuletzt": "2026-11-27"
+ },
+ "Megesheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mehlmeisel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mehring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Meinheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Meitingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mellrichstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Memmingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Memmingerberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mengkofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Merching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Merkendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mertingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mespelbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Metten": {
+  "si_max": 124,
+  "zuletzt": "2026-11-27"
+ },
+ "Mettenheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Michelau im Steigerwald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Michelau in Oberfranken": {
+  "zuletzt": "2026-11-27"
+ },
+ "Michelsneukirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mickhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Miesbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Miltach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Miltenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mindelheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mindelstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mintraching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Missen-Wilhams": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mistelbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mistelgau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mitteleschenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mittelneufnach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mittelsinn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mittelstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mittenwald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mitterfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mitterskirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mitwitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Monheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Moorenweis": {
+  "zuletzt": "2026-11-27"
+ },
+ "Moos": {
+  "zuletzt": "2026-11-27"
+ },
+ "Moosach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Moosbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Moosburg an der Isar": {
+  "zuletzt": "2026-11-27"
+ },
+ "Moosinning": {
+  "zuletzt": "2026-11-27"
+ },
+ "Moosthenning": {
+  "zuletzt": "2026-11-27"
+ },
+ "Motten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Muhr am See": {
+  "zuletzt": "2026-11-27"
+ },
+ "Munningen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Murnau am Staffelsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mähring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mödingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Möhrendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mömbris": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mönchberg": {
+  "si_max": 748,
+  "zuletzt": "2026-11-27"
+ },
+ "Mönchsdeggingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mönchsroth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mörnsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Möttingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mötzing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mühldorf am Inn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Mühlhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Münchberg": {
+  "si_max": 563,
+  "zuletzt": "2026-11-27"
+ },
+ "München": {
+  "zuletzt": "2026-11-27"
+ },
+ "Münchsteinach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Münnerstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Münsing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Münster": {
+  "zuletzt": "2026-11-27"
+ },
+ "Münsterhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nabburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nagel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Naila": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nandlstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nassenfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nennslingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nersingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nesselwang": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neu-Ulm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neubeuern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neubiberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neubrunn": {
+  "si_max": 530,
+  "zuletzt": "2026-11-27"
+ },
+ "Neuburg am Inn": {
+  "si_max": 795,
+  "zuletzt": "2026-11-27"
+ },
+ "Neuburg an der Donau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuburg an der Kammel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neudrossenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuenmarkt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neufahrn in Niederbayern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neufraunhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuhaus am Inn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuhaus an der Pegnitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuhof an der Zenn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuhütten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neukirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neukirchen bei Sulzbach-Rosenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neukirchen beim Heiligen Blut": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neukirchen vorm Wald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neukirchen-Balbini": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neumarkt in der Oberpfalz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neumarkt-Sankt Veit": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neunburg vorm Wald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neunkirchen am Brand": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neunkirchen am Sand": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neureichenau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuried": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuschönau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neusitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neusorg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neustadt am Kulm": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neustadt am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neustadt an der Aisch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neustadt an der Waldnaab": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neusäß": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neutraubling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Neuötting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederaichbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederalteich": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederbergkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederfüllbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niedermurach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederrieden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederschönenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niedertaufkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederviehbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederwerrn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Niederwinkling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nittendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nonnenhorn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nordendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nordhalben": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nordheim am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nordheim vor der Rhön": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nußdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nußdorf am Inn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Nüdlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberammergau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberaudorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberaurach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberbergkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberdachstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberdolling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberelsbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obergriesbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obergünzburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberhaching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberhaid": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberickelsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberkotzau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberleichtersbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obermaiselstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obermeitingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obermichelbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obernbreit": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obernburg am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberndorf am Lech": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberneukirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obernzenn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberostendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberottmarshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberpframmern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberpleichfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberpöring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberreichenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberreute": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberrieden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberroth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberscheinfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberschleißheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberschneiding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberschwarzach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberschweinbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberschönegg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obersinn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberstdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberstreu": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obersöchering": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obersüßbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obertaufkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obertraubling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obertrubach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oberviechtach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Obing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Odelzhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oerlenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oettingen in Bayern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Offenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ofterschwang": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ohlstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ohrenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Olching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Opfenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ornbau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ortenburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osterberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Osterzell": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ostheim vor der Rhön": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ottenhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ottensoos": {
+  "zuletzt": "2026-11-27"
+ },
+ "Otterfing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Otting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ottobrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Otzing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Oy-Mittelberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Painten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Palling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pappenheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Parkstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Parkstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Partenstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Passau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pastetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Patersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Paunzhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pechbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Peiting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pemfling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pentling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Penzing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Perach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Perasdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Perkam": {
+  "zuletzt": "2026-11-27"
+ },
+ "Perlesreut": {
+  "zuletzt": "2026-11-27"
+ },
+ "Petersaurach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Petersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pettendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pettstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfaffenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfaffenhofen an der Glonn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfaffenhofen an der Roth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfaffing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfakofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfarrkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfatter": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfeffenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfofeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pforzen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfreimd": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pfronten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pförring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Philippsreut": {
+  "zuletzt": "2026-11-27"
+ },
+ "Piding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pielenhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pilsting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pinzberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pirk": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pittenhart": {
+  "zuletzt": "2026-11-27"
+ },
+ "Planegg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Plankenfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Plattling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pleinfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pleystein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pleß": {
+  "zuletzt": "2026-11-27"
+ },
+ "Poing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pollenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Polling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pommersfelden": {
   "zuletzt": "2026-11-27"
  },
  "Portal DiPlanung Bayern": {
   "zuletzt": "2026-11-23"
  },
+ "Postau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Postbauer-Heng": {
+  "zuletzt": "2026-11-27"
+ },
+ "Postmünster": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pottenstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Prackenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Prem": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pressath": {
+  "zuletzt": "2026-11-27"
+ },
+ "Presseck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pressig": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pretzfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Prichsenstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Prien am Chiemsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Priesendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Prittriching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Prosselsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pullenreuth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Puschendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Putzbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pyrbaum": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pähl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pöcking": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pösing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pöttmes": {
+  "zuletzt": "2026-11-27"
+ },
+ "Püchersreuth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Pürgen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rain": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rain am Lech": {
+  "zuletzt": "2026-11-27"
+ },
+ "Raisting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Raitenbuch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ramerberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rammingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ramsau bei Berchtesgaden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ramsthal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Randersacker": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rattelsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rattenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rattenkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rattiszell": {
+  "zuletzt": "2026-11-27"
+ },
+ "Raubling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rauhenebrach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rechtenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rechtmehring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reckendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Redwitz an der Rodach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Regen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Regensburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Regenstauf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Regnitzlosau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rehau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rehling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reichenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reichenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reichenschwand": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reichertshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reichertsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reichling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reimlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reisbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reischach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reit im Winkl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rennertshofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rettenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rettenbach am Auerberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rettenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Retzstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reut": {
+  "zuletzt": "2026-11-27"
+ },
+ "Reuth bei Erbendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ried": {
+  "zuletzt": "2026-11-27"
+ },
+ "Riedbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rieden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rieden am Forggensee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Riedenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Riedenheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Riedering": {
+  "zuletzt": "2026-11-27"
+ },
+ "Riegsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Riekofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rimbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rimsting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ringelai": {
+  "zuletzt": "2026-11-27"
+ },
+ "Roden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Roding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Roggenburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rohr": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rohrbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rohrdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rohrenfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ronsberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Roth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rothenbuch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rothenburg ob der Tauber": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rothenfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rott": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rott am Inn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rottach-Egern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rottenbuch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rottendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Roßbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Roßhaupten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rudelzhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ruderatshofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ruderting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rugendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ruhmannsfelden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ruhpolding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ruhstorf an der Rott": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röckingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rödelsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röfingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rögling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röhrnbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röslau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röthenbach an der Pegnitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röthenbach im Allgäu": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röthlein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röttenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Röttingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rötz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rückersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rückholz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rüdenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Rügland": {
+  "zuletzt": "2026-11-27"
+ },
+ "Saal an der Donau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Saal an der Saale": {
+  "zuletzt": "2026-11-27"
+ },
+ "Saaldorf-Surheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sachsen bei Ansbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sachsenkam": {
+  "zuletzt": "2026-11-27"
+ },
+ "Saldenburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Salgen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Salzweg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Samerberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sand am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sandberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sankt Englmar": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sankt Oswald-Riedlhütte": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sankt Wolfgang": {
+  "zuletzt": "2026-11-27"
+ },
+ "Saulgrub": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schalkham": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schauenstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schaufling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schechen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Scheidegg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Scheinfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schernfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Scherstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Scheuring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schierling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schillingsfürst": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schiltberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schirmitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schirnding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schlammersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schleching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schlehdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schliersee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schlüsselfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schmidgaden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schmidmühlen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schmiechen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schnaitsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schnaittach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schnaittenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schneckenlohe": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schneeberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schneizlreuth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schondorf am Ammersee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schondra": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schonstett": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schonungen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schopfloch": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schorndorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schrobenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwabbruck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwabsoien": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwaig bei Nürnberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwaigen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwandorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwanfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwangau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzach am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzach bei Nabburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzenbach am Wald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzenbach an der Saale": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzenbruck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwarzhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwebheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schweinfurt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schweitenkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwenningen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwifting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schwindegg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schäftlarn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schöllkrippen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schöllnach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönau am Königssee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönbrunn im Steigerwald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schöngeising": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönthal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Schönwald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seefeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seeg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seehausen am Staffelsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seeon-Seebruck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seeshaupt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Segnitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seinsheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Selbitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Senden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sennfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seubersdorf in der Oberpfalz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seukendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seybothenreuth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Seßlach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Siegsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sielenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sigmarszell": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simbach am Inn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simmelsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Simmershofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sindelsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sinzing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Solnhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sommerach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sommerhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sommerkahl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sondheim vor der Rhön": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sonnefeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sonnen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sontheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Soyen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spalt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spardorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sparneck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spatzenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Spiegelau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stadelhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stadlern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stadtbergen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stadtlauringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stadtsteinach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stallwang": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stammham": {
+  "zuletzt": "2026-11-27"
+ },
+ "Starnberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Staudach-Egerndach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stegaurach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinbach am Wald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinberg am See": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steindorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steingaden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinhöring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Steinsfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stephansposching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stettfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stiefenhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stockheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stockstadt am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Straubing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Straßlach-Dingharting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Strullendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stubenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stulln": {
+  "zuletzt": "2026-11-27"
+ },
+ "Störnstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stötten am Auerberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Stöttwang": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sugenheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzbach-Rosenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzdorf an der Lederhecke": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzemoos": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzfeld am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sulzthal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Surberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Syrgenstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Söchtenau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Sünching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tacherting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Taching am See": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tagmersheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tann": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tapfheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tauberrettersheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Taufkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tegernheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tegernsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Teising": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tettau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tettenweis": {
+  "zuletzt": "2026-11-27"
+ },
+ "Teublitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Teugn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Teunz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Teuschnitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thaining": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thalmassing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thannhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thanstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Theilenhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Theilheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Theisseil": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thierhaupten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thiersheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thierstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thundorf in Unterfranken": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thurnau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thyrnau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thüngen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Thüngersheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tiefenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tirschenreuth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tittling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tittmoning": {
+  "zuletzt": "2026-11-27"
+ },
+ "Todtenweis": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trabitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Train": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trappstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Traunreut": {
+  "zuletzt": "2026-11-27"
+ },
+ "Traunstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trausnitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trautskirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trebgast": {
+  "zuletzt": "2026-11-27"
+ },
+ "Treffelstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Treuchtlingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Triefenstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Triftern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trogen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trostberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Trunkelsberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tröstau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tschirn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tuchenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tuntenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tussenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tyrlaching": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tännesberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Töpen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Türkenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Türkheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Tüßling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uehlfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uettingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Uffenheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ungerhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unsleben": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterammergau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterdietfurt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unteregg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterföhring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untergriesbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterleinleiter": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untermeitingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untermerzbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterneukirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterpleichfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterreit": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterroth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterschleißheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterschwaningen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untersiemau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untersteinach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterthingau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Unterwössen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Untrasried": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ursberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Urspringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ustersbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vachendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Valley": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vaterstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Veitsbronn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Velburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Velden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vestenbergsgreuth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Viechtach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Viereth-Trunstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vilgertshofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vilsbiburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vilseck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vilshofen an der Donau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vogtareuth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vohenstrauß": {
+  "zuletzt": "2026-11-27"
+ },
+ "Volkach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Volkenschwand": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vorra": {
+  "zuletzt": "2026-11-27"
+ },
+ "Vöhringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waakirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wachenroth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wackersberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wackersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waffenbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waging am See": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waidhaus": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waidhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waigolshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waischenfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wald": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldaschaff": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walderbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldershof": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldkirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldkraiburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldmünchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldsassen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waldthurn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walkertshofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallenfels": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallerfing": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallerstein": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wallgau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walpertskirchen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waltenhausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Waltenhofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Walting": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wang": {
+  "zuletzt": "2026-11-27"
+ },
+ "Warmensteinach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Warngau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wartenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wartmannsroth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wasserburg am Inn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wasserlosen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wattendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wechingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wehringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weibersbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weichering": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weichs": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weiden in der Oberpfalz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weidenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weidhausen bei Coburg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weiding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weigendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weigenheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weihenzell": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weiherhammer": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weihmichl": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weil": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weilbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weiler-Simmerberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weilersbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weilheim in Oberbayern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weiltingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weismain": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weitnau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weitramsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weißdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weißenbrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weißenburg in Bayern": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weißenhorn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weißenohe": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weißensberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Welden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wemding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weng": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wenzenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wernberg-Köblitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Werneck": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wertach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wessobrunn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westendorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westerngrund": {
+  "zuletzt": "2026-11-27"
+ },
+ "Westheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wettringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weyarn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Weßling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiedergeltingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wielenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesenbronn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesenfelden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesent": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesenthau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesentheid": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesenttal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wieseth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiesthal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wiggensbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wilburgstetten": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wildenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wildflecken": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wildpoldsried": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wildsteig": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wilhelmsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wilhelmsthal": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wilhermsdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Willanzheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Willmars": {
+  "zuletzt": "2026-11-27"
+ },
+ "Willmering": {
+  "zuletzt": "2026-11-27"
+ },
+ "Windberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Windelsbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Windischeschenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Windorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Windsbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winhöring": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winklarn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winterbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winterrieden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Winzer": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wipfeld": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wirsberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittelshofen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittibreut": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wittislingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Witzmannsberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolfersdorf": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolferstadt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolfertschwenden": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolframs-Eschenbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolfratshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolfsegg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wollbach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wolnzach": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wonneberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wonsees": {
+  "zuletzt": "2026-11-27"
+ },
+ "Woringen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wunsiedel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wurmannsquick": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wurmsham": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wörnitz": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wörth": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wörth am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wörth an der Donau": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wörth an der Isar": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wörthsee": {
+  "zuletzt": "2026-11-27"
+ },
+ "Wülfershausen an der Saale": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zachenberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zandt": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zangberg": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zeil am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zeilarn": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zeitlofs": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zell": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zell am Main": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zell im Fichtelgebirge": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zellingen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ziemetshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Ziertheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zolling": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zorneding": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zusamaltheim": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zusmarshausen": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zwiesel": {
+  "zuletzt": "2026-11-27"
+ },
+ "Zöschingen": {
+  "zuletzt": "2026-11-27"
+ },
  "_verworfen": [
   "http://buergerinfo.ahorntal.de/to0050.php?__ktonr=12443",
   "http://buergerinfo.ahorntal.de/to0050.php?__ktonr=12499",
   "http://buergerinfo.ahorntal.de/to0050.php?__ktonr=12563",
+  "http://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Amtliche_Bekanntmachungen/01_Bekanntmachung_Ergebnis_OB.pdf",
+  "http://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Amtliche_Bekanntmachungen/02_Bekanntmachung_Ergebnis_Stadtrat.pdf",
+  "http://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Finanzen/Haushalt_2026_zusammengefuegte_Datei_mit_Anlagen.pdf",
+  "http://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Stadtentwicklung/Broschuere_Tag_der_Staedtebaufoerderung_2025.pdf",
+  "http://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Stadtentwicklung/Entwicklungskonzept_Stadt_Landsberg.pdf",
+  "http://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Stadtentwicklung/Plan_Verkehrsberuhigter_Gescaeftsbereich.pdf",
+  "http://www.rain.de/asset/download/rain/aktuelles/bekanntmachungen/fnp/8.%20%C3%84nderung/nr-67-vbp6700-fsap-bachmann-260300a.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2021/muster_whn.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_01_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_02_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_03_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_04_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_05_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_06_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_07_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_08_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_10_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/WHN_11_2026.pdf",
+  "http://www.wasserburg.de/fileadmin/Dateien/Dateien/Wasserburg/Stadt_Buerger/Aktuell_Informativ/Heimatnachrichten_2026/whn_2026.pdf",
   "https://bi.stadtrat-ebern.de/to0050.php?__ktonr=19901",
   "https://bi.stadtrat-ebern.de/to0050.php?__ktonr=20367",
   "https://bi.stadtrat-ebern.de/to0050.php?__ktonr=20499",
@@ -2667,6 +5512,31 @@
   "https://bi.stadtrat-ebern.de/to0050.php?__ktonr=25095",
   "https://bi.stadtrat-ebern.de/to0050.php?__ktonr=25269",
   "https://bi.stadtrat-ebern.de/to0050.php?__ktonr=25751",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=1221",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=16502",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=17373",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=1821",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=1842",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=18807",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=18817",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=18917",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=18932",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19036",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19064",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19090",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19302",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19392",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19543",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19624",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19735",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=19949",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=20239",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=20560",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=21731",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=23024",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=23062",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=23252",
+  "https://buerger.ratsinfo-theres.de/to0050.php?__ktonr=7375",
   "https://buergerinfo-ampfing.digitalfabrix.de/to0050.asp?__ktonr=14708",
   "https://buergerinfo-ampfing.digitalfabrix.de/to0050.asp?__ktonr=21184",
   "https://buergerinfo-ampfing.digitalfabrix.de/to0050.asp?__ktonr=21592",
@@ -2747,6 +5617,7 @@
   "https://buergerinfo-eching.digitalfabrix.de/vo0050.asp?__kvonr=3910",
   "https://buergerinfo-elsenfeld.digitalfabrix.de/to0050.asp?__ktonr=26840",
   "https://buergerinfo-eschau.digitalfabrix.de/to0050.asp?__ktonr=185",
+  "https://buergerinfo-friedberg.digitalfabrix.de/to0050.asp?__ktonr=32156",
   "https://buergerinfo-friedberg.digitalfabrix.de/to0050.asp?__ktonr=38812",
   "https://buergerinfo-friedberg.digitalfabrix.de/to0050.asp?__ktonr=41349",
   "https://buergerinfo-friedberg.digitalfabrix.de/to0050.asp?__ktonr=46810",
@@ -2755,9 +5626,11 @@
   "https://buergerinfo-friedberg.digitalfabrix.de/vo0050.asp?__kvonr=11449",
   "https://buergerinfo-friedberg.digitalfabrix.de/vo0050.asp?__kvonr=11530",
   "https://buergerinfo-friedberg.digitalfabrix.de/vo0050.asp?__kvonr=11729",
+  "https://buergerinfo-friedberg.digitalfabrix.de/vo0050.asp?__kvonr=9058",
   "https://buergerinfo-germering.digitalfabrix.de/vo0050.asp?__kvonr=10201",
   "https://buergerinfo-germering.digitalfabrix.de/vo0050.asp?__kvonr=11266",
   "https://buergerinfo-germering.digitalfabrix.de/vo0050.asp?__kvonr=9798",
+  "https://buergerinfo-gmund.digitalfabrix.de/to0050.asp?__ktonr=16323",
   "https://buergerinfo-gmund.digitalfabrix.de/to0050.asp?__ktonr=17517",
   "https://buergerinfo-grafing.digitalfabrix.de/to0050.asp?__ktonr=10338",
   "https://buergerinfo-grafing.digitalfabrix.de/to0050.asp?__ktonr=8767",
@@ -2766,6 +5639,105 @@
   "https://buergerinfo-grafing.digitalfabrix.de/vo0050.asp?__kvonr=3155",
   "https://buergerinfo-grafing.digitalfabrix.de/vo0050.asp?__kvonr=3330",
   "https://buergerinfo-grafing.digitalfabrix.de/vo0050.asp?__kvonr=3331",
+  "https://buergerinfo-haag.digitalfabrix.de/to0050.asp?__ktonr=7022",
+  "https://buergerinfo-haag.digitalfabrix.de/to0050.asp?__ktonr=7023",
+  "https://buergerinfo-haag.digitalfabrix.de/to0050.asp?__ktonr=8238",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=13453",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=13988",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=13999",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=14868",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=14880",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=15239",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=15761",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=16571",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/to0050.asp?__ktonr=16647",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=7489",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=7618",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=7631",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=7899",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=8030",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=8173",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=8430",
+  "https://buergerinfo-hallbergmoos.digitalfabrix.de/vo0050.asp?__kvonr=8512",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=10023",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=11584",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=11814",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=12004",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=12433",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=12492",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=9333",
+  "https://buergerinfo-herzogenaurach.digitalfabrix.de/vo0050.asp?__kvonr=9349",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=63395",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=63396",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=63405",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=65859",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=73422",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=75359",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=84980",
+  "https://buergerinfo-hof.digitalfabrix.de/to0050.asp?__ktonr=86060",
+  "https://buergerinfo-hof.digitalfabrix.de/vo0050.asp?__kvonr=5633",
+  "https://buergerinfo-igensdorf.digitalfabrix.de/to0050.asp?__ktonr=22041",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=2949",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=3219",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=3399",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=3467",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=3489",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=3565",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=3597",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=3964",
+  "https://buergerinfo-jandelsbrunn.digitalfabrix.de/to0050.asp?__ktonr=4150",
+  "https://buergerinfo-kolitzheim.digitalfabrix.de/to0050.asp?__ktonr=14870",
+  "https://buergerinfo-kolitzheim.digitalfabrix.de/to0050.asp?__ktonr=15033",
+  "https://buergerinfo-kolitzheim.digitalfabrix.de/to0050.asp?__ktonr=15034",
+  "https://buergerinfo-kolitzheim.digitalfabrix.de/to0050.asp?__ktonr=15199",
+  "https://buergerinfo-kolitzheim.digitalfabrix.de/to0050.asp?__ktonr=15240",
+  "https://buergerinfo-krailling.digitalfabrix.de/to0050.asp?__ktonr=1279",
+  "https://buergerinfo-krailling.digitalfabrix.de/to0050.asp?__ktonr=1340",
+  "https://buergerinfo-krailling.digitalfabrix.de/to0050.asp?__ktonr=1559",
+  "https://buergerinfo-krailling.digitalfabrix.de/to0050.asp?__ktonr=1618",
+  "https://buergerinfo-krailling.digitalfabrix.de/to0050.asp?__ktonr=517",
+  "https://buergerinfo-krailling.digitalfabrix.de/to0050.asp?__ktonr=561",
+  "https://buergerinfo-krailling.digitalfabrix.de/to0050.asp?__ktonr=606",
+  "https://buergerinfo-kutzenhausen.digitalfabrix.de/to0050.asp?__ktonr=1010",
+  "https://buergerinfo-kutzenhausen.digitalfabrix.de/to0050.asp?__ktonr=1161",
+  "https://buergerinfo-kutzenhausen.digitalfabrix.de/to0050.asp?__ktonr=1473",
+  "https://buergerinfo-kutzenhausen.digitalfabrix.de/to0050.asp?__ktonr=5875",
+  "https://buergerinfo-kutzenhausen.digitalfabrix.de/to0050.asp?__ktonr=6030",
+  "https://buergerinfo-kutzenhausen.digitalfabrix.de/to0050.asp?__ktonr=6543",
+  "https://buergerinfo-kutzenhausen.digitalfabrix.de/to0050.asp?__ktonr=954",
+  "https://buergerinfo-lautertal.digitalfabrix.de/to0050.asp?__ktonr=13115",
+  "https://buergerinfo-lautertal.digitalfabrix.de/to0050.asp?__ktonr=14788",
+  "https://buergerinfo-lautertal.digitalfabrix.de/to0050.asp?__ktonr=19601",
+  "https://buergerinfo-lautertal.digitalfabrix.de/to0050.asp?__ktonr=23919",
+  "https://buergerinfo-lautertal.digitalfabrix.de/to0050.asp?__ktonr=25994",
+  "https://buergerinfo-marktoberdorf.digitalfabrix.de/to0050.asp?__ktonr=6410",
+  "https://buergerinfo-neubrunn.digitalfabrix.de/to0050.asp?__ktonr=14430",
+  "https://buergerinfo-neubrunn.digitalfabrix.de/to0050.asp?__ktonr=17572",
+  "https://buergerinfo-neubrunn.digitalfabrix.de/to0050.asp?__ktonr=17682",
+  "https://buergerinfo-neubrunn.digitalfabrix.de/to0050.asp?__ktonr=18119",
+  "https://buergerinfo-neubrunn.digitalfabrix.de/to0050.asp?__ktonr=21965",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10142",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10218",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10382",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10383",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10384",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10385",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10393",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10431",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10452",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10678",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10823",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=10875",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=11297",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=11310",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=11385",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=11988",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=12629",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=9372",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=9695",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=9789",
+  "https://buergerinfo-neuburg-am-inn.digitalfabrix.de/to0050.asp?__ktonr=9983",
+  "https://buergerinfo-neustadt-bei-coburg.digitalfabrix.de/to0050.asp?__ktonr=37507",
   "https://buergerinfo-vg-effeltrich.digitalfabrix.de/to0050.asp?__ktonr=24676",
   "https://buergerinfo-vg-effeltrich.digitalfabrix.de/to0050.asp?__ktonr=27476",
   "https://buergerinfo-vg-fuchstal.digitalfabrix.de/to0050.asp?__ktonr=24714",
@@ -2803,6 +5775,118 @@
   "https://buergerinfo.cadolzburg.de/vo0050.asp?__kvonr=11702",
   "https://buergerinfo.cadolzburg.de/vo0050.asp?__kvonr=12944",
   "https://buergerinfo.cadolzburg.de/vo0050.asp?__kvonr=13316",
-  "https://buergerinfo.cadolzburg.de/vo0050.asp?__kvonr=14721"
- ]
+  "https://buergerinfo.cadolzburg.de/vo0050.asp?__kvonr=14721",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=17678",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=17778",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=26652",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=27877",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=30004",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=32491",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=32497",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=32829",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=33146",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=33363",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=33671",
+  "https://buergerinfo.hoesbach.de/to0050.asp?__ktonr=33729",
+  "https://buergerinfo.kaufbeuren.de/vo0050.asp?__kvonr=4999",
+  "https://hksbr.gremien.info/oparl/paper/20240711100333",
+  "https://hksbr.gremien.info/oparl/paper/20241403100106",
+  "https://hksbr.gremien.info/oparl/paper/20251206100188",
+  "https://hksbr.gremien.info/oparl/paper/20251706100212",
+  "https://hksbr.gremien.info/oparl/paper/20251709100295",
+  "https://hohenbrunn.gremien.info/oparl/paper/202210508100133",
+  "https://hohenbrunn.gremien.info/oparl/paper/202211110100211",
+  "https://hohenbrunn.gremien.info/oparl/paper/202211912100199",
+  "https://hohenbrunn.gremien.info/oparl/paper/202212001100007",
+  "https://hohenbrunn.gremien.info/oparl/paper/202212101100008",
+  "https://hohenbrunn.gremien.info/oparl/paper/20241502100035",
+  "https://hohenbrunn.gremien.info/oparl/paper/20250207100163",
+  "https://hohenbrunn.gremien.info/oparl/paper/20251802100039",
+  "https://hohenbrunn.gremien.info/oparl/paper/20253006100158",
+  "https://hohenbrunn.gremien.info/oparl/paper/20261712100004",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._19_vom_24.09.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._20_vom_01.10.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._21_vom_15.10.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._22_vom__22.10.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._23_vom_26.10.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._24_vom_27.10.2026_Endversion.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._25_vom_02.11.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._26_vom_12.11.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._27_vom_19.11.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._28_vom_19.11.2026.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._29_vom_23.11.2026_aktuell.pdf",
+  "https://www.koenigsbrunn.de/fileadmin/Homepage_Menue/Rathaus_Buergerservice/Amtliches/Digitales_Amtsblatt_ab_Juni_2026/Amtsblatt_Nr._30_vom_26.11.2026.pdf",
+  "https://www.neumarkt.de/media/12781/unterrichtung_gemeinden_walvorschlaege.pdf",
+  "https://www.neumarkt.de/media/12810/2025-12-15-074745-scan-von-gottschalkd-1.pdf",
+  "https://www.neumarkt.de/media/12811/2025-12-15-074720-scan-von-gottschalkd-1.pdf",
+  "https://www.neumarkt.de/media/12914/2026-01-08-093404-scan-von-gottschalkd.pdf",
+  "https://www.neumarkt.de/media/12969/2026-01-20-080349-scan-von-gottschalkd.pdf",
+  "https://www.neumarkt.de/media/12971/bekanntmachung-der-zugelassenen-wahlvorschlaege-kreistag-1.pdf",
+  "https://www.neumarkt.de/media/12972/bekanntmachung-der-zugelassenen-wahlvorschlaege-landrat-1.pdf",
+  "https://www.neumarkt.de/media/12980/2026-01-22-080054-scan-von-gottschalkd.pdf",
+  "https://www.neumarkt.de/media/12983/2026-01-22-080006-scan-von-gottschalkd.pdf",
+  "https://www.neumarkt.de/media/13438/2026-02-11-115133-scan-von-gottschalkd.pdf",
+  "https://www.neumarkt.de/media/15244/2026-11-17-amtliche-bekanntmachung-anpassung-satzung-mittags.pdf",
+  "https://www.neumarkt.de/media/15259/2026-11-26_b178-bekanntmachung-oeffentlichkeitsbeteiligung-n.pdf",
+  "https://www.neuried.de/downloads/ratschpost-ausgabe-april-2026/",
+  "https://www.neuried.de/downloads/ratschpost-ausgabe-august-2026/",
+  "https://www.neuried.de/downloads/ratschpost-ausgabe-dezember-2025/",
+  "https://www.neuried.de/downloads/ratschpost-ausgabe-februar-2026/",
+  "https://www.neuried.de/downloads/ratschpost-ausgabe-juni-2026/",
+  "https://www.neuried.de/downloads/ratschpost-ausgabe-oktober-2026/",
+  "https://www.neuried.de/wp-content/uploads/2025/08/Rudolf-Kammerbauer-Dokumentation-20260618.pdf",
+  "https://www.neuried.de/wp-content/uploads/2026/02/Fritz-Baumgartner-und-die-Waffen-20260419.pdf",
+  "https://www.neuried.de/wp-content/uploads/2026/04/abschliessendes-Ergebnis-Buergermeisterwahl.pdf",
+  "https://www.neuried.de/wp-content/uploads/2026/04/abschliessendes-Ergebnis-Gemeinderatswahl.pdf",
+  "https://www.neuried.de/wp-content/uploads/2026/07/260713_Dokumentation_Ueberarbeitung_clean.pdf",
+  "https://www.neuried.de/wp-content/uploads/2026/10/ueberarb-Flyer-Rettung-Neurieder-Ratschpost.pdf",
+  "https://www.prien.de/files/Bekanntmachungen/2026/Amtsblatt_Nr._02_vom_21.01.2026.pdf",
+  "https://www.prien.de/files/Bekanntmachungen/2026/Bekanntmachung_9._ND_FNP_.pdf",
+  "https://www.prien.de/files/Bekanntmachungen/2026/Bekanntmachung_Ergebnis_Brgermeister.pdf",
+  "https://www.prien.de/files/Bekanntmachungen/2026/Bekanntmachung_abschl._Ergebnis_Gemeinderatswahl_2026.pdf",
+  "https://www.prien.de/files/Bekanntmachungen/Bekanntmachung_Wahlvorschlag_Gemeinderat.pdf",
+  "https://www.prien.de/files/Breitbandausbau/PrienII_Anl__1_Bestandsaufnahme_mit_Karte.pdf",
+  "https://www.prien.de/files/Kommunalwahl_2026/091225_Bekanntmachung_Komunalwahl_2026.pdf",
+  "https://www.prien.de/files/Kommunalwahl_2026/Bekannmachung_Stimmbezirke.pdf",
+  "https://www.prien.de/files/Kommunalwahl_2026/Bekannmachung_Whlerverzeichnis_Wahlschein.pdf",
+  "https://www.prien.de/files/Kommunalwahl_2026/Bekanntmachung_Verffentlcihung_Wahlergebnisee.pdf",
+  "https://www.prien.de/files/Kommunalwahl_2026/Bekanntmachung_der_Sitzung_des_Wahlausschusses_zur_Beschlussfassung_ber_die_eingereichten_Wahlvorschlge.pdf",
+  "https://www.prien.de/files/Kommunalwahl_2026/Bekanntnmachung_ber_die_Eintragungsmglichkeit_in_Untersttzungslisten.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/04/13.-Aend.-FNP-Bekanntmachung.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/04/13.-Aend.-FNP-Planzeichnung-mit-Begruendung-13.04.26.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/04/13.-Aend.-FNP-Umweltbericht-13.04.26.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/04/13.-Aend.-FNP-datenschutzrechtliche-Informationspflichten-Art.-13-und-14-DSGVO.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/13.-Aend.-FNP-LRA_Bodenschutz.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/13.-Aend.-FNP-Planzeichnung-mit-Begruendung-06.07.26.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/13.-Aend.-FNP-Umweltbericht-06.07.26.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/13.-Aend.-FNP-datenschutzrechtliche-Informationspflichten-Art.-13-und-14-DSGVO.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/2.-Aend-BPlan-19-Planzeichnung-06.07.26.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/2.-Aend.-BPlan-19-Begruendung-06.07.26.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/2.-Aend.-BPlan-19-Bekanntmachung.pdf",
+  "https://www.schmiechen.de/wp-content/uploads/2026/07/2.-Aend.-BPlan-19-Satzung-06.07.26.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_1-2025_12.02.2025.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_10-2026_01.10.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_12-2026_11.11.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_13-2025_12.11.2025.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_2-2025_12.03.2025.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_2-2026_11.03.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_3-2026_08.04.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_5-2026_10.06.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_6-2026_08.07.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_7-2026_03.08.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_8-2026_12.08.2026.pdf",
+  "https://www.starnberg.de/assets/downloads/buergerservice-verwaltung/Amtsblatt/Amtsblatt_Stadt_Starnberg_Ausgabe_9-2026_09.09.2026.pdf",
+  "https://www.vaterstetten.de/bauen-umwelt/bauen-planen/flyer-barrierefreie-version-stand-11-2021.pdf?cid=3gs",
+  "https://www.vaterstetten.de/generationen-bildung/senioren/senioren-zentrum/monatsprogramm-november-2026/monatsprogramm-november-2026.pdf?cid=njm",
+  "https://www.vaterstetten.de/generationen-bildung/senioren/senioren-zentrum/stricktreff-februar-2026/stricktreff.pdf?cid=k8p",
+  "https://www.vaterstetten.de/leben-freizeit/radverkehr/weitere-informationen-broschueren-und-statistiken/adfc-fahrrad-klimatest-2022-vaterstetten.pdf?cid=h9b",
+  "https://www.vaterstetten.de/leben-freizeit/radverkehr/weitere-informationen-broschueren-und-statistiken/mehr-platz-fuers-radl/leva-artikel-schrottradaktion-ankuendigung-08-24.pdf?cid=h9h",
+  "https://www.vaterstetten.de/weiteres/bekanntmachungen/bekanntmachung-ueber-das-widerspruchsrecht-von-wahlberechtigten-hinsichtlich-der-weitergabe-ihrer-daten/2025-10-15-bekanntmachung-widerspruchsmoeglichkeit-weitergabe-von-daten.pdf",
+  "https://www.vaterstetten.de/weiteres/bekanntmachungen/hinweis-auf-eine-oeffentliche-bekanntmachung-bzw-auslegung/hinweis-auf-oeffentliche-bekanntmachung-ale.pdf",
+  "https://www.vaterstetten.de/weiteres/bekanntmachungen/oeffentliche-bekanntmachung-einer-satzung-fuer-die-benutzung-der-oeffentlichen-strassen-und-plaetze-verkehrseinrichtungen-oeffentlichen-freiflaechen-gruenanlagen-und-kinderspielanlagen-der-gemeinde-vaterstetten/oeffentliche-bekanntmachung-einer-satzung-fuer-die-benutzung-der-oeffentlichen-strassen-und-plaetze-verkehrseinrichtungen-oeffentlichen-freiflaechen-gruenanlagen-und-kinderspielanlagen-der-gemeinde-vaterstetten.pdf",
+  "https://www.vaterstetten.de/weiteres/bekanntmachungen/oeffentliche-bekanntmachung-zur-verfuegung-vom-16-10-2026-widmung-der-strasse-am-gewerbepark-in-parsdorf-zur-ortsstrasse/bekanntmachung-ortsstrasse-am-gewerbepark-16.10.2026.pdf"
+ ],
+ "Übersee": {
+  "zuletzt": "2026-11-27"
+ }
 }
